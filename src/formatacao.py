@@ -19,9 +19,6 @@ EXIBICAO_LEGISLACAO = (
 EXIBICAO_BENEFICIO = (
     ("tipo_beneficio", "Tipo de benefício"),
     ("cbenef", "cBenef"),
-    ("percentual_reducao_bc", "Redução da Base de Cálculo"),
-    ("carga_efetiva", "Carga tributária efetiva"),
-    ("credito_outorgado_percentual", "Crédito outorgado"),
     ("grupo_beneficio", "Grupo do benefício"),
     ("aplicacao", "Aplicação"),
     ("escopo_operacao", "Operação prevista"),

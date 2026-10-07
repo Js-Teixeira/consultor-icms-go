@@ -124,6 +124,30 @@ def test_tipo_beneficio_traduzido_sem_alterar_codigo(codigo, rotulo):
     assert dict(campos_preenchidos(candidato, EXIBICAO_BENEFICIO))["Tipo de benefício"] == rotulo
 
 
+def test_apresentacao_publica_do_beneficio_omite_percentuais():
+    candidato = consulta(base(beneficios=[beneficio(
+        tipo_beneficio="REDUCAO_BASE_CALCULO",
+        cbenef="GO123456",
+        escopo_operacao="INTERNA",
+        condicoes="Exigência legal sintética a verificar",
+        percentual_reducao_bc="70",
+        carga_efetiva="7",
+        credito_outorgado_percentual="5",
+    )])).beneficios_priorizados[0]
+
+    campos = dict(campos_preenchidos(candidato, EXIBICAO_BENEFICIO))
+    assert campos["Tipo de benefício"] == "Redução da base de cálculo"
+    assert campos["Condições"] == "Exigência legal sintética a verificar"
+    assert campos["cBenef"] == "GO123456"
+    assert campos["Operação prevista"] == "Operação interna"
+    assert "Redução da Base de Cálculo" not in campos
+    assert "Carga tributária efetiva" not in campos
+    assert "Crédito outorgado" not in campos
+    assert candidato.dados["percentual_reducao_bc"] == "70"
+    assert candidato.dados["carga_efetiva"] == "7"
+    assert candidato.dados["credito_outorgado_percentual"] == "5"
+
+
 def test_beneficio_que_exige_descricao_permanece_possivel():
     r = consulta(base(beneficios=[beneficio(exige_descricao="SIM", aplicacao="UNICO", escopo_operacao="INTERNA")]))
     assert not r.beneficios_priorizados
