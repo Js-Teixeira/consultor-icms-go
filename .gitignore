@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+.streamlit/secrets.toml
+base/cache_ncm_oficial.json
+base/cache_ncm_oficial.json.tmp
+base/cache_ncm_oficial.json.legacy*
+
+# Saídas locais de diagnóstico/dry-run
+extrator_*.txt
+coleta_*.txt
+
+# Pacotes locais gerados para compartilhamento
+*.tar.gz
+*.tgz
+*.zip
