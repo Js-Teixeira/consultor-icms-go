@@ -1,127 +1,33 @@
-# Consultor de ICMS Goiás por NCM
+# Consultor de alíquota interna de ICMS — Goiás
 
-Aplicação desenvolvida em Python e Streamlit para consultar o tratamento tributário de mercadorias no estado de Goiás a partir do NCM.
+Aplicação Streamlit para consultar a alíquota interna de ICMS cadastrada para um NCM e seu fundamento legal específico. O usuário informa somente o NCM e clica em **Consultar**.
 
-O projeto surgiu da necessidade de tornar consultas fiscais mais rápidas e organizadas, reunindo em um único lugar a descrição oficial do NCM, alíquota de ICMS, benefícios aplicáveis, condições e fundamentação legal.
+O resultado usa a data corrente de Goiás como referência e informa que a operação é interna. Uma alíquota só é apresentada quando existe uma regra única e vigente para o NCM, sem exigência de descrição, com percentual válido e vínculo a fundamento cadastrado, ativo, vigente, com início de vigência, data de verificação, dispositivo e fonte. Em qualquer caso sem decisão segura, a aplicação informa **Verificação fiscal necessária** ou que a alíquota não foi encontrada. O cadastro não substitui revisão fiscal da legislação e das condições de aplicação.
 
-## O que a aplicação consulta
+## Estrutura
 
-O usuário informa o NCM da mercadoria e, opcionalmente, uma descrição do produto.
+- `app.py`: interface pública, limitada a NCM, alíquota interna e fundamento legal.
+- `src/busca.py`, `src/modelos.py`, `src/normalizacao.py`, `src/formatacao.py`: decisão e apresentação da consulta.
+- `src/dados/`, `src/carregamento.py`: leitura de Excel ou PostgreSQL.
+- `admin.py`: painel interno de revisão legislativa, separado da aplicação pública.
+- `updater/` e `scripts/`: atualização, importação, auditoria, rastreabilidade e verificações administrativas. Esses componentes preservam o esquema e o histórico fiscal, inclusive registros de benefícios que não aparecem na consulta pública.
+- `tests/`: testes automatizados da consulta e da manutenção.
+- `base/`: arquivos locais controlados; podem diferir da base de produção.
 
-A consulta pode apresentar:
+## Execução local
 
-- descrição oficial do NCM;
-- alíquota interna de ICMS em Goiás;
-- benefícios ou tratamentos vinculados ao NCM;
-- redução de base de cálculo ou carga tributária, quando aplicável;
-- condições para utilização do tratamento;
-- fundamento legal;
-- fonte oficial.
-
-A descrição do produto é utilizada apenas para ajudar na diferenciação entre regras já relacionadas ao NCM. O sistema não tenta descobrir ou sugerir um NCM apenas pela descrição.
-
-## Escopo
-
-O foco do projeto é a consulta tributária por classificação fiscal.
-
-São consideradas regras ligadas objetivamente a NCM, posição ou subposição.
-
-Benefícios relacionados exclusivamente a empresa, contribuinte, estabelecimento ou programas de incentivo sem vínculo direto com NCM não são apresentados como resultado da consulta pública.
-
-## Tecnologias
-
-- Python
-- Streamlit
-- PostgreSQL
-- SQLAlchemy
-- Psycopg
-- Pandas
-- RapidFuzz
-- Pytest
-
-## Estrutura do projeto
-
-~~~
-app.py          Aplicação pública de consulta
-admin.py        Ferramenta interna de revisão
-src/            Motor da consulta
-src/dados/      Camada de acesso aos dados
-updater/        Coleta e análise legislativa
-scripts/        Rotinas administrativas
-tests/          Testes automatizados
-base/           Base fiscal controlada
-~~~
-
-## Banco de dados
-
-Em produção, a aplicação utiliza PostgreSQL.
-
-O ambiente público utiliza uma credencial somente de leitura e acessa apenas as informações necessárias para a consulta.
-
-Credenciais e senhas não são armazenadas no repositório.
-
-## Executando localmente
-
-Crie o ambiente virtual:
-
-~~~
+```bash
 python -m venv .venv
 source .venv/bin/activate
-~~~
-
-Instale as dependências:
-
-~~~
 python -m pip install -r requirements.txt
-~~~
-
-Execute a aplicação:
-
-~~~
 python -m streamlit run app.py
-~~~
+```
 
-## Desenvolvimento e testes
+Para executar os testes:
 
-As dependências utilizadas apenas durante desenvolvimento e testes ficam separadas:
-
-~~~
+```bash
 python -m pip install -r requirements-dev.txt
 python -m pytest -q
-~~~
+```
 
-O projeto possui testes para o mecanismo de consulta, regras de correspondência por NCM, benefícios fiscais, integração com banco de dados, sincronização da NCM oficial e rotinas de atualização legislativa.
-
-## NCM oficial
-
-Os códigos e descrições de NCM são sincronizados a partir da fonte pública do Classif/Siscomex.
-
-A existência de um NCM na tabela oficial não significa que já exista uma regra tributária de Goiás cadastrada para ele.
-
-Quando o NCM é válido, mas ainda não existe tratamento fiscal cadastrado na base, a aplicação informa essa situação sem criar ou presumir alíquota, benefício ou fundamento legal.
-
-## Atualização das regras fiscais
-
-As rotinas de atualização legislativa são separadas da consulta pública.
-
-O fluxo foi estruturado para localizar dispositivos relacionados a NCM, extrair informações relevantes e manter os resultados em revisão antes de qualquer publicação na base fiscal utilizada pelos usuários.
-
-Nenhuma regra fiscal é publicada automaticamente apenas porque um NCM foi encontrado em um documento.
-
-## Segurança
-
-Arquivos e informações locais não fazem parte do repositório público, incluindo:
-
-- ambiente virtual;
-- arquivos `.env`;
-- `secrets.toml`;
-- senhas e URLs completas do banco;
-- caches e arquivos temporários.
-
-A aplicação publicada utiliza um usuário PostgreSQL limitado a operações de leitura.
-
-## Deploy
-
-As instruções específicas de publicação estão disponíveis em:
-
-[DEPLOY_STREAMLIT.md](DEPLOY_STREAMLIT.md)
+Em produção, configure a fonte PostgreSQL com credencial somente de leitura. Consulte `DEPLOY_STREAMLIT.md`. Não publique `admin.py` como aplicação pública.

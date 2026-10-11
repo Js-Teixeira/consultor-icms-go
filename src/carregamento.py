@@ -68,12 +68,3 @@ def carregar_base(caminho: str | Path = CAMINHO_BASE) -> BaseTributaria:
         beneficios=abas["Beneficios"],
         legislacao=abas["Legislacao"],
     )
-
-
-def base_vazia(base: BaseTributaria) -> bool:
-    """Indica que não há regras fiscais cadastradas nas duas abas de regras."""
-
-    def tem_regra_ativa(tabela: pd.DataFrame) -> bool:
-        return not tabela.empty and tabela["ativo"].fillna("").astype(str).str.strip().str.upper().eq("SIM").any()
-
-    return not (tem_regra_ativa(base.aliquotas) or tem_regra_ativa(base.beneficios))

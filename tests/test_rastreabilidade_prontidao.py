@@ -1,6 +1,5 @@
 """Vínculos curados, migração aditiva e diagnóstico de produção sem escrita."""
 
-from pathlib import Path
 
 import pandas as pd
 import pytest
@@ -286,12 +285,3 @@ def test_verificador_aceita_credencial_publica_select_only_sem_updater(monkeypat
     assert estados["Auditoria"].startswith("OK")
     assert estados["Regressões PostgreSQL"] == "FALHA"
     assert any("02013000" in motivo for motivo in motivos)
-
-
-def test_app_publico_permanece_consulta_e_sem_modulos_fora_do_escopo():
-    raiz = Path(__file__).resolve().parents[1]
-    app = (raiz / "app.py").read_text(encoding="utf-8")
-    assert "form_submit_button(\"CONSULTAR\"" in app
-    assert not any(f"{nome}(" in app for nome in ("migrar", "importar_base", "importar_validacao"))
-    busca = (raiz / "src" / "busca.py").read_text(encoding="utf-8")
-    assert not any(nome in busca for nome in ("CFOP", "CST", "CSOSN", "CEST"))

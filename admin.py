@@ -7,13 +7,11 @@ from sqlalchemy.exc import SQLAlchemyError
 
 from src.dados import ErroConfiguracaoDados, criar_repositorio
 from src.dados.postgres_repository import PostgresRepository
-from src.estilos import CSS_DIROMA
 from updater.persistencia import RepositorioMonitoramento
 from updater.repositorio_extracao import RepositorioExtracao
 from updater.repositorio_consolidacao import RepositorioConsolidacao
 
 st.set_page_config(page_title="Monitoramento legislativo — Goiás", layout="centered")
-st.markdown(CSS_DIROMA, unsafe_allow_html=True)
 st.title("Monitoramento legislativo — Goiás")
 
 habilitado = os.getenv("ADMIN_TOOLS", "").strip().lower() == "true"

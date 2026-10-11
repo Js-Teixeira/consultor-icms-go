@@ -1,23 +1,21 @@
-"""Busca por NCM, vigência, descrição e vínculo legal."""
+"""Consulta de alíquota interna por NCM e vínculo legal cadastrado."""
 
 from __future__ import annotations
 
 from datetime import date, datetime
+from decimal import Decimal, InvalidOperation
 from typing import Any
+from urllib.parse import urlparse
+from zoneinfo import ZoneInfo
 
 import pandas as pd
-from rapidfuzz import fuzz
 
-from .confianca import SCORE_MINIMO_DESCRICAO, avaliar_confianca
-from .modelos import BaseTributaria, Candidato, Operacao, PREFIXOS_NCM_VALIDOS, ResultadoConsulta
-from .normalizacao import normalizar_ncm, normalizar_texto
-
-# Limites de ranking textual. O texto nunca exclui uma regra encontrada por NCM.
-MARGEM_DESEMPATE_DESCRICAO = 15.0
+from .modelos import BaseTributaria, Candidato, PREFIXOS_NCM_VALIDOS, ResultadoConsulta
+from .normalizacao import normalizar_ncm
 
 
 def texto(valor: Any) -> str:
-    """Converte uma célula preenchida em texto sem expor NaN na interface."""
+    """Converte uma célula preenchida em texto sem expor NaN."""
 
     if valor is None or pd.isna(valor):
         return ""
@@ -46,7 +44,7 @@ def _data(valor: Any) -> date | None:
 
 
 def situacao_vigencia(linha: dict[str, Any], referencia: date) -> str:
-    """Classifica limites inclusivos, vazios, vencidos e inconsistentes."""
+    """Classifica limites inclusivos e datas inconsistentes sem inferir revogação."""
 
     try:
         inicio = _data(linha.get("vigencia_inicio"))
@@ -66,197 +64,110 @@ def _corresponde(ncm: str, linha: dict[str, Any]) -> bool:
     if not chave.isascii() or not chave.isdigit():
         return False
     if tipo == "EXATO":
-        return len(chave) == 8 and ncm == chave
+        return len(chave) == 8 and chave == ncm
     if tipo == "PREFIXO":
         return len(chave) in PREFIXOS_NCM_VALIDOS and ncm.startswith(chave)
     return False
 
 
-def _scores_descricao(descricao: str, linha: dict[str, Any]) -> tuple[list[str], float | None, str, float | None, float | None]:
-    """Compara separadamente a regra e cada termo da lista de palavras-chave."""
-
-    palavras = [termo.strip() for termo in texto(linha.get("palavras_chave")).split(";") if termo.strip()]
-    if not descricao:
-        return palavras, None, "", None, None
-    texto_regra = normalizar_texto(texto(linha.get("descricao_regra")))
-    score_regra = round(fuzz.WRatio(descricao, texto_regra), 1) if texto_regra else None
-    scores_palavras = [(termo, round(fuzz.WRatio(descricao, normalizar_texto(termo)), 1)) for termo in palavras]
-    melhor_termo, melhor_score = max(scores_palavras, key=lambda item: item[1], default=("", None))
-    pontuacoes = [score for score in (score_regra, melhor_score) if score is not None]
-    return palavras, score_regra, melhor_termo, melhor_score, max(pontuacoes, default=0.0)
-
-
 def _fundamento(base: BaseTributaria, candidato: Candidato, referencia: date) -> None:
     chave = texto(candidato.dados.get("id_legislacao"))
     if not chave:
-        candidato.problema_fundamento = "Regra sem id_legislacao cadastrado."
+        candidato.problema_fundamento = "Regra sem fundamento legal cadastrado."
         return
-    encontrados = [linha for linha in base.legislacao.to_dict("records") if texto(linha.get("id_legislacao")) == chave and _ativo(linha)]
+    encontrados = [linha for linha in base.legislacao.to_dict("records")
+                   if texto(linha.get("id_legislacao")) == chave and _ativo(linha)]
     if not encontrados:
-        candidato.problema_fundamento = f"Fundamento {chave} não cadastrado ou inativo."
+        candidato.problema_fundamento = "Fundamento legal inexistente ou inativo na base."
         return
-    if len(encontrados) > 1:
-        candidato.problema_fundamento = f"Mais de um fundamento ativo com id_legislacao {chave}."
+    if len(encontrados) != 1:
+        candidato.problema_fundamento = "Há mais de um fundamento legal ativo para a regra."
         return
-    candidato.legislacao = encontrados[0]
-    vigencia = situacao_vigencia(encontrados[0], referencia)
-    if vigencia != "VIGENTE":
-        candidato.problema_fundamento = f"Vigência do fundamento {chave}: {vigencia}."
+    fundamento = encontrados[0]
+    candidato.legislacao = fundamento
+    if situacao_vigencia(fundamento, referencia) != "VIGENTE":
+        candidato.problema_fundamento = "Vigência do fundamento legal exige verificação."
+        return
+    if _data(fundamento.get("vigencia_inicio")) is None:
+        candidato.problema_fundamento = "Início de vigência do fundamento legal não cadastrado."
+        return
+    try:
+        verificada_em = _data(fundamento.get("data_verificacao"))
+    except ValueError:
+        verificada_em = None
+    if verificada_em is None or verificada_em > referencia:
+        candidato.problema_fundamento = "Verificação do fundamento legal ausente ou inconsistente."
+        return
+    if not all(texto(fundamento.get(campo)) for campo in ("norma", "numero", "ano")):
+        candidato.problema_fundamento = "Identificação da norma incompleta na base."
+        return
+    if not any(texto(fundamento.get(campo)) for campo in ("artigo", "anexo", "inciso", "item")):
+        candidato.problema_fundamento = "Dispositivo legal específico não cadastrado."
+        return
+    try:
+        url = urlparse(texto(fundamento.get("url_fonte")))
+        fonte_valida = url.scheme in {"http", "https"} and bool(url.netloc)
+    except ValueError:
+        fonte_valida = False
+    if not fonte_valida:
+        candidato.problema_fundamento = "Endereço da fonte ausente ou inválido na base."
 
 
-def _candidatos(
-    base: BaseTributaria, tabela: pd.DataFrame, categoria: str,
-    ncm: str, descricao: str, referencia: date,
-) -> list[Candidato]:
-    nome_id = "id_regra" if categoria == "aliquota" else "id_beneficio"
-    encontrados: list[Candidato] = []
-    for linha in tabela.to_dict("records"):
-        if not _ativo(linha) or not _corresponde(ncm, linha):
+def _percentual_valido(valor: Any) -> bool:
+    try:
+        numero = Decimal(texto(valor).replace(",", "."))
+    except InvalidOperation:
+        return False
+    return numero.is_finite() and 0 <= numero <= 100
+
+
+def consultar(base: BaseTributaria, ncm: str, data_referencia: date | None = None) -> ResultadoConsulta:
+    """Seleciona uma única alíquota interna quando o cadastro permite fazê-lo."""
+
+    normalizado = normalizar_ncm(ncm)
+    referencia = data_referencia or datetime.now(ZoneInfo("America/Sao_Paulo")).date()
+    resultado = ResultadoConsulta(ncm_original=ncm, ncm_normalizado=normalizado,
+                                 data_referencia=referencia)
+    for linha in base.ncm.to_dict("records"):
+        if texto(linha.get("ncm")) == normalizado and _ativo(linha):
+            resultado.descricao_oficial = texto(linha.get("descricao_oficial"))
+            break
+    else:
+        resultado.situacao = "NCM_NAO_ENCONTRADO"
+        return resultado
+
+    for linha in base.aliquotas.to_dict("records"):
+        if not _ativo(linha) or not _corresponde(normalizado, linha):
             continue
-        palavras, score_regra, melhor_termo, score_termo, score_final = _scores_descricao(descricao, linha)
-        escopo = texto(linha.get("escopo_operacao")).upper() or "NAO_DEFINIDA"
         candidato = Candidato(
-            categoria=categoria,
-            identificador=texto(linha.get(nome_id)),
+            identificador=texto(linha.get("id_regra")),
             chave_ncm=texto(linha.get("chave_ncm")),
             tipo_correspondencia=texto(linha.get("tipo_correspondencia")).upper(),
             dados=linha,
             vigencia=situacao_vigencia(linha, referencia),
             exige_descricao=texto(linha.get("exige_descricao")).upper() or "NAO",
-            grupo_beneficio=texto(linha.get("grupo_beneficio")),
-            aplicacao=texto(linha.get("aplicacao")).upper(),
-            palavras_chave_utilizadas=palavras,
-            score_descricao_regra=score_regra,
-            melhor_palavra_chave=melhor_termo,
-            score_melhor_palavra_chave=score_termo,
-            score_descricao=score_final,
-            escopo_operacao=escopo if categoria == "beneficio" else "NAO_DEFINIDA",
-            cbenef=texto(linha.get("cbenef")) if categoria == "beneficio" else "",
         )
         _fundamento(base, candidato, referencia)
-        encontrados.append(candidato)
-    return sorted(encontrados, key=lambda c: (c.prioridade, c.score_descricao or 0), reverse=True)
-
-
-def _priorizar(candidatos: list[Candidato]) -> tuple[Candidato | None, list[Candidato], bool]:
-    vigentes = [c for c in candidatos if c.vigencia == "VIGENTE"]
-    if not vigentes:
-        return None, [], False
-    maior = max(c.prioridade for c in vigentes)
-    empatados = [c for c in vigentes if c.prioridade == maior]
-    if len(empatados) == 1:
-        return empatados[0], empatados, False
-    ordenados = sorted(empatados, key=lambda c: c.score_descricao or 0, reverse=True)
-    primeiro, segundo = ordenados[:2]
-    if (primeiro.score_descricao is not None
-            and primeiro.score_descricao >= SCORE_MINIMO_DESCRICAO
-            and (segundo.score_descricao or 0) < SCORE_MINIMO_DESCRICAO
-            and primeiro.score_descricao - (segundo.score_descricao or 0) >= MARGEM_DESEMPATE_DESCRICAO):
-        return primeiro, empatados, True
-    return None, empatados, False
-
-
-def _descricao_suficiente(candidato: Candidato, descricao: str) -> bool:
-    if candidato.exige_descricao == "NAO":
-        return True
-    return bool(descricao) and (candidato.score_descricao or 0) >= SCORE_MINIMO_DESCRICAO
-
-
-def _avaliar_aplicabilidade(candidato: Candidato, operacao: Operacao, *, enquadrado: bool) -> None:
-    """Decide apenas com NCM/descrição, vigência e operação estruturada."""
-
-    if not enquadrado:
-        candidato.aplicabilidade = "REVISAO_NECESSARIA"
-        candidato.motivo_aplicabilidade = "O enquadramento desta regra exige confirmação da descrição ou desempate."
-    elif candidato.problema_fundamento or candidato.vigencia != "VIGENTE":
-        candidato.aplicabilidade = "REVISAO_NECESSARIA"
-        candidato.motivo_aplicabilidade = "A vigência ou o fundamento da regra exige revisão."
-    elif candidato.escopo_operacao == "NAO_DEFINIDA":
-        candidato.aplicabilidade = "REVISAO_NECESSARIA"
-        candidato.motivo_aplicabilidade = "O escopo da operação ainda não está estruturado na base."
-    elif candidato.escopo_operacao not in {"INTERNA", "INTERESTADUAL", "AMBAS"}:
-        candidato.aplicabilidade = "REVISAO_NECESSARIA"
-        candidato.motivo_aplicabilidade = "O escopo da operação cadastrado é inválido."
-    elif candidato.escopo_operacao != "AMBAS" and candidato.escopo_operacao != operacao:
-        candidato.aplicabilidade = "NAO_APLICAVEL"
-        tipo = "interna" if candidato.escopo_operacao == "INTERNA" else "interestadual"
-        candidato.motivo_aplicabilidade = f"O benefício cadastrado está vinculado a operação {tipo}."
-    elif texto(candidato.dados.get("condicoes")):
-        candidato.aplicabilidade = "CONDICIONAL"
-        candidato.motivo_aplicabilidade = (
-            "A operação é compatível, mas o benefício possui condições legais "
-            "que não podem ser comprovadas apenas pelo NCM e pela operação."
-        )
-    else:
-        candidato.aplicabilidade = "APLICAVEL"
-        candidato.motivo_aplicabilidade = "NCM, vigência e operação são compatíveis com a regra cadastrada."
-
-
-def consultar(
-    base: BaseTributaria, ncm: str, descricao: str = "", data_referencia: date | None = None,
-    operacao: Operacao = "INTERNA",
-) -> ResultadoConsulta:
-    """Consulta regras sem ocultar empates nem candidatos fora da vigência."""
-
-    if operacao not in {"INTERNA", "INTERESTADUAL"}:
-        raise ValueError("Operação inválida; use INTERNA ou INTERESTADUAL.")
-    normalizado = normalizar_ncm(ncm)
-    referencia = data_referencia or date.today()
-    resultado = ResultadoConsulta(ncm_original=ncm, ncm_normalizado=normalizado,
-                                 data_referencia=referencia, descricao_original=descricao,
-                                 operacao_consultada=operacao)
-    ncm_encontrado = False
-    for linha in base.ncm.to_dict("records"):
-        if texto(linha.get("ncm")) == normalizado and _ativo(linha):
-            ncm_encontrado = True
-            resultado.descricao_oficial = texto(linha.get("descricao_oficial"))
-            break
-    if not ncm_encontrado:
-        resultado.situacao = "NCM_NAO_ENCONTRADO"
-        avaliar_confianca(resultado)
-        return resultado
-    descricao_limpa = normalizar_texto(descricao)
-    resultado.candidatos_aliquota = _candidatos(base, base.aliquotas, "aliquota", normalizado, descricao_limpa, referencia)
-    resultado.candidatos_beneficio = _candidatos(base, base.beneficios, "beneficio", normalizado, descricao_limpa, referencia)
-    selecionada, empate_aliquota, desempatada = _priorizar(resultado.candidatos_aliquota)
-    resultado.possibilidades_aliquota = empate_aliquota
-    if selecionada and _descricao_suficiente(selecionada, descricao_limpa):
-        resultado.regra_priorizada = selecionada
-    vigentes = [c for c in resultado.candidatos_beneficio if c.vigencia == "VIGENTE"]
-    resultado.beneficios_encontrados = vigentes
-    grupos: dict[str, list[Candidato]] = {}
-    for candidato in vigentes:
-        # Regras alternativas do mesmo grupo disputam o enquadramento; regras
-        # independentes podem ser mostradas juntas sem uma escolha artificial.
-        grupo = (f"alternativo:{candidato.grupo_beneficio or candidato.chave_ncm}"
-                 if candidato.aplicacao == "ALTERNATIVO" else f"regra:{candidato.identificador}")
-        grupos.setdefault(grupo, []).append(candidato)
-    beneficio_desempatado = False
-    for grupo in grupos.values():
-        escolhido, possibilidades, desempatado = _priorizar(grupo)
-        beneficio_desempatado |= desempatado
-        if escolhido and _descricao_suficiente(escolhido, descricao_limpa):
-            resultado.beneficios_priorizados.append(escolhido)
-        else:
-            resultado.beneficios_possiveis.extend(possibilidades)
-    resultado.beneficios_pendentes = bool(resultado.beneficios_possiveis)
-    enquadrados = {id(candidato) for candidato in resultado.beneficios_priorizados}
-    for candidato in vigentes:
-        _avaliar_aplicabilidade(candidato, operacao, enquadrado=id(candidato) in enquadrados)
-
-    if len(empate_aliquota) > 1:
-        resultado.ambiguidades.append("Duas ou mais regras de alíquota igualmente específicas correspondem ao NCM.")
-    if len(resultado.beneficios_possiveis) > 1 and not beneficio_desempatado:
-        resultado.ambiguidades.append("Duas ou mais regras de benefício igualmente específicas permanecem plausíveis.")
-    if desempatada:
-        resultado.ambiguidades.append("A descrição priorizou uma regra entre regras de alíquota igualmente específicas; confira as alternativas.")
-    if beneficio_desempatado:
-        resultado.ambiguidades.append("A descrição priorizou um benefício entre regras igualmente específicas; confira as alternativas.")
-
-    todos = resultado.candidatos_aliquota + resultado.candidatos_beneficio
-    if not todos:
+        resultado.candidatos_aliquota.append(candidato)
+    resultado.candidatos_aliquota.sort(key=lambda candidato: candidato.prioridade, reverse=True)
+    if not resultado.candidatos_aliquota:
         resultado.situacao = "SEM_TRATAMENTO_CADASTRADO"
-    elif not any(c.vigencia == "VIGENTE" for c in todos):
+        return resultado
+
+    vigentes = [c for c in resultado.candidatos_aliquota if c.vigencia == "VIGENTE"]
+    if not vigentes:
         resultado.situacao = "SEM_REGRA_VIGENTE"
-    avaliar_confianca(resultado)
+        return resultado
+    prioridade = vigentes[0].prioridade
+    resultado.possibilidades_aliquota = [c for c in vigentes if c.prioridade == prioridade]
+    if len(resultado.possibilidades_aliquota) != 1:
+        resultado.situacao = "VERIFICACAO_NECESSARIA"
+        return resultado
+    escolhida = resultado.possibilidades_aliquota[0]
+    if (escolhida.problema_fundamento or escolhida.exige_descricao != "NAO"
+            or _data(escolhida.dados.get("vigencia_inicio")) is None
+            or not _percentual_valido(escolhida.dados.get("aliquota_icms"))):
+        resultado.situacao = "VERIFICACAO_NECESSARIA"
+        return resultado
+    resultado.regra_priorizada = escolhida
     return resultado

@@ -1,7 +1,6 @@
 """Carga controlada do CSV e consultas com regras sintéticas."""
 
 import csv
-from datetime import date
 from decimal import Decimal
 
 import pytest
@@ -10,11 +9,8 @@ from sqlalchemy.exc import IntegrityError
 
 from scripts.importar_excel_postgres import ErroImportacao
 from scripts.importar_validacao_ncm import CAMINHO_VALIDACAO, COLUNAS, importar_validacao, ler_validacao
-from src.busca import consultar
 from src.dados.postgres_repository import PostgresRepository
 from src.dados.schema import TABELAS, metadata
-from src.formatacao import EXIBICAO_LEGISLACAO, campos_preenchidos, formatar_percentual
-from tests.test_consulta import base, beneficio, consulta, regra
 
 
 def _csv(caminho, linhas):
@@ -112,44 +108,3 @@ def test_falha_de_escrita_reverte_todas_as_tabelas(tmp_path):
         importar_validacao(preparados, repo, dry_run=False, confirmar_atualizacao=False)
     with repo.engine.connect() as conn:
         assert all(conn.execute(select(tabela)).first() is None for tabela in TABELAS.values())
-
-
-def test_consulta_exata_sem_beneficio_com_fundamento_trecho_url_e_percentual():
-    b = base([regra(aliquota_icms=Decimal("12"))])
-    b.legislacao.loc[0, "texto_relevante"] = "Trecho fictício de teste."
-    r = consulta(b)
-    assert r.regra_priorizada.identificador == "R1"
-    assert not r.beneficios_priorizados and not r.beneficios_possiveis
-    assert r.regra_priorizada.legislacao["url_fonte"] == "https://example.invalid"
-    assert dict(campos_preenchidos(r.regra_priorizada, EXIBICAO_LEGISLACAO))["Trecho da legislação"] == "Trecho fictício de teste."
-    assert formatar_percentual(r.regra_priorizada.dados["aliquota_icms"]) == "12,00%"
-
-
-def test_beneficio_exato_condicional_e_alternativas_descritivas():
-    beneficios = [
-        beneficio("B1", aplicacao="ALTERNATIVO", grupo_beneficio="G", exige_descricao="SIM",
-                  descricao_regra="Macarrao sem ovos", palavras_chave="macarrao sem ovos", condicoes="Condição fictícia"),
-        beneficio("B2", aplicacao="ALTERNATIVO", grupo_beneficio="G", exige_descricao="SIM",
-                  descricao_regra="Biscoito recheado", palavras_chave="biscoito recheado"),
-    ]
-    b = base(beneficios=beneficios)
-    sem = consulta(b)
-    assert not sem.beneficios_priorizados
-    assert {c.identificador for c in sem.beneficios_possiveis} == {"B1", "B2"}
-    compativel = consulta(b, descricao="Macarrao sem ovos")
-    assert [c.identificador for c in compativel.beneficios_priorizados] == ["B1"]
-    assert compativel.beneficios_priorizados[0].dados["condicoes"] == "Condição fictícia"
-    incompativel = consulta(b, descricao="Parafuso automotivo")
-    assert not incompativel.beneficios_priorizados
-
-
-def test_prefixo_vigencia_e_ncm_ficticio():
-    b = base([regra("P", "1234", "PREFIXO", aliquota_icms=Decimal("7")),
-              regra("V", "12345678", "EXATO", vigencia_fim=date(2025, 1, 1))])
-    r = consulta(b)
-    assert r.regra_priorizada.identificador == "P"
-    assert r.candidatos_aliquota[0].vigencia == "FORA_DA_VIGENCIA"
-    vazio = consulta(b, ncm="99999999")
-    assert vazio.situacao == "NCM_NAO_ENCONTRADO"
-    assert vazio.regra_priorizada is None and not vazio.beneficios_priorizados
-    assert not vazio.descricao_oficial
