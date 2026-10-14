@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
+from decimal import Decimal
 from datetime import date
 from typing import Any
 
@@ -40,6 +41,17 @@ class Candidato:
         return (2, 8) if self.tipo_correspondencia == "EXATO" else (1, len(self.chave_ncm))
 
 
+@dataclass(frozen=True)
+class HipoteseEspecial:
+    """Possibilidade legislativa que não equivale a enquadramento confirmado."""
+
+    aliquota: Decimal
+    descricao: str
+    fundamento: str
+    fonte: str
+    condicao: str
+
+
 @dataclass
 class ResultadoConsulta:
     """Decisão sobre a alíquota interna e candidatos mantidos para auditoria."""
@@ -52,3 +64,5 @@ class ResultadoConsulta:
     regra_priorizada: Candidato | None = None
     possibilidades_aliquota: list[Candidato] = field(default_factory=list)
     situacao: str = "ENCONTRADO"
+    aliquota_geral_referencia: Decimal | None = None
+    hipoteses_especiais: list[HipoteseEspecial] = field(default_factory=list)
