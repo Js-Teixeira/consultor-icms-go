@@ -58,13 +58,14 @@ def test_fundamento_inativo_nao_exibe_percentual_como_resultado(monkeypatch):
     assert "8,32%" not in textos(app.markdown)
 
 
-def test_ncm_sem_aliquota_mostra_ausencia_sem_inventar_percentual(monkeypatch):
+def test_ncm_sem_regra_apresenta_modal_com_ressalva(monkeypatch):
     app = abrir(monkeypatch, base_sintetica(regras=[]))
     app.text_input[0].set_value("12345678")
     app.button[0].click().run()
     assert not app.exception
-    assert "não encontrada" in textos(app.info).lower()
-    assert "%" not in textos(app.markdown)
+    assert "19,00%" in textos(app.markdown)
+    assert "Referência geral" in textos(app.warning)
+    assert "art. 27" in textos(app.markdown)
 
 
 def test_consulta_publica_exige_postgres_mesmo_com_excel_configurado(monkeypatch):
