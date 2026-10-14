@@ -10,8 +10,34 @@ from zoneinfo import ZoneInfo
 
 import pandas as pd
 
-from .modelos import BaseTributaria, Candidato, PREFIXOS_NCM_VALIDOS, ResultadoConsulta
+from .modelos import BaseTributaria, Candidato, HipoteseEspecial, PREFIXOS_NCM_VALIDOS, ResultadoConsulta
 from .normalizacao import normalizar_ncm
+
+# A alíquota modal não confirma, sozinha, o enquadramento tributário do produto.
+INICIO_ALIQUOTA_MODAL_19 = date(2024, 4, 1)
+ALIQUOTA_MODAL_GO = Decimal("19")
+FONTE_CTE_GO = "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm"
+
+
+def _hipoteses_legais_condicionadas(ncm: str, referencia: date) -> list[HipoteseEspecial]:
+    """Ressalvas documentadas; não cadastram alíquota definitiva nem benefício."""
+
+    if ncm != "04029900" or referencia < INICIO_ALIQUOTA_MODAL_19:
+        return []
+    return [
+        HipoteseEspecial(
+            aliquota=Decimal("12"),
+            descricao="Leite em estado natural, pasteurizado ou esterilizado (UHT)",
+            fundamento="Lei nº 11.651/1991, art. 27, inciso II, alínea b",
+            fonte=FONTE_CTE_GO,
+            condicao=(
+                "Somente se as características reais da mercadoria atenderem à "
+                "descrição prevista em lei. O NCM 04029900, isoladamente, não "
+                "comprova o direito aos 12%; pode abranger outros produtos, "
+                "inclusive leite condensado."
+            ),
+        ),
+    ]
 
 
 def texto(valor: Any) -> str:
@@ -126,8 +152,12 @@ def consultar(base: BaseTributaria, ncm: str, data_referencia: date | None = Non
 
     normalizado = normalizar_ncm(ncm)
     referencia = data_referencia or datetime.now(ZoneInfo("America/Sao_Paulo")).date()
-    resultado = ResultadoConsulta(ncm_original=ncm, ncm_normalizado=normalizado,
-                                 data_referencia=referencia)
+    resultado = ResultadoConsulta(
+        ncm_original=ncm,
+        ncm_normalizado=normalizado,
+        data_referencia=referencia,
+        hipoteses_especiais=_hipoteses_legais_condicionadas(normalizado, referencia),
+    )
     for linha in base.ncm.to_dict("records"):
         if texto(linha.get("ncm")) == normalizado and _ativo(linha):
             resultado.descricao_oficial = texto(linha.get("descricao_oficial"))
@@ -152,6 +182,8 @@ def consultar(base: BaseTributaria, ncm: str, data_referencia: date | None = Non
     resultado.candidatos_aliquota.sort(key=lambda candidato: candidato.prioridade, reverse=True)
     if not resultado.candidatos_aliquota:
         resultado.situacao = "SEM_TRATAMENTO_CADASTRADO"
+        if referencia >= INICIO_ALIQUOTA_MODAL_19:
+            resultado.aliquota_geral_referencia = ALIQUOTA_MODAL_GO
         return resultado
 
     vigentes = [c for c in resultado.candidatos_aliquota if c.vigencia == "VIGENTE"]
