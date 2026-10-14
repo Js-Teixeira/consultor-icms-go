@@ -30,7 +30,20 @@ if enviado and base is not None:
         if resultado.situacao == "NCM_NAO_ENCONTRADO":
             st.info("NCM não encontrado na tabela cadastrada.")
         elif resultado.situacao == "SEM_TRATAMENTO_CADASTRADO":
-            st.info("Alíquota interna não encontrada na base para este NCM.")
+            if resultado.aliquota_geral_referencia is not None:
+                st.subheader("Alíquota geral de referência — Goiás")
+                st.write(formatar_percentual(resultado.aliquota_geral_referencia))
+                st.warning(
+                    "Referência geral, não enquadramento confirmado: a ausência de "
+                    "regra específica na base não comprova que não exista exceção "
+                    "legal aplicável à mercadoria."
+                )
+                st.write("Fundamento geral: Lei nº 11.651/1991, art. 27, inciso I.")
+                st.write(
+                    "Fonte: https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm"
+                )
+            else:
+                st.info("Alíquota interna não encontrada na base para este NCM.")
         elif resultado.regra_priorizada is None:
             st.warning("Verificação fiscal necessária")
             st.write("O cadastro não permite determinar com segurança a alíquota interna e seu fundamento para a data consultada.")
@@ -50,3 +63,15 @@ if enviado and base is not None:
                 if valor:
                     st.write(f"{rotulo}: {valor}")
             st.write(f"Fonte cadastrada: {texto(fundamento['url_fonte'])}")
+
+        if resultado.hipoteses_especiais:
+            st.subheader("Possíveis enquadramentos específicos")
+            st.info(
+                "As hipóteses abaixo dependem das características reais da "
+                "mercadoria e não constituem alíquota confirmada apenas pelo NCM."
+            )
+            for hipotese in resultado.hipoteses_especiais:
+                st.write(f"{hipotese.descricao}: {formatar_percentual(hipotese.aliquota)}")
+                st.write(f"Fundamento: {hipotese.fundamento}")
+                st.write(f"Condição: {hipotese.condicao}")
+                st.write(f"Fonte: {hipotese.fonte}")
