@@ -4,7 +4,7 @@ from datetime import date
 
 import streamlit as st
 
-from src.busca import consultar, pendencias_validacao, percentual_valido, texto
+from src.busca import PERCENTUAIS_BENEFICIO, consultar, pendencias_validacao, percentual_valido, texto
 from src.dados import ErroConfiguracaoDados, ErroFonteDados, criar_repositorio
 from src.formatacao import formatar_percentual
 
@@ -27,19 +27,39 @@ def exibir_data(valor):
 
 
 def exibir_regra(regra):
-    st.subheader(f"Regra cadastrada: {regra.identificador}")
+    beneficio = regra.tipo_tratamento == "BENEFICIO"
+    rotulo = "Benefício cadastrado" if beneficio else "Regra cadastrada"
+    st.subheader(f"{rotulo}: {regra.identificador}")
+    if beneficio:
+        tipo = texto(regra.dados.get("tipo_beneficio")).upper()
+        rotulos = {"REDUCAO_BASE_CALCULO": "Redução de base de cálculo", "ISENCAO": "Isenção",
+                   "CREDITO_OUTORGADO": "Crédito outorgado", "DIFERIMENTO": "Diferimento",
+                   "OUTRO_BENEFICIO": "Outro benefício fiscal"}
+        st.write(f"Tipo de tratamento: {rotulos.get(tipo, tipo or 'Não cadastrado')}")
+        st.write(f"Escopo cadastrado da operação: {texto(regra.dados.get('escopo_operacao')) or 'Não definido'}")
     if regra.tipo_correspondencia == "EXATO":
         st.write("Tipo de correspondência: NCM exato")
         st.write(f"Código utilizado: {regra.chave_ncm}")
     else:
         st.write("Tipo de correspondência: prefixo")
         st.write(f"Prefixo utilizado: {regra.chave_ncm}")
-    if percentual_valido(regra.dados.get("aliquota_icms")):
+    if beneficio:
+        campos_preenchidos = [(campo, rotulo) for campo, rotulo in PERCENTUAIS_BENEFICIO
+                              if texto(regra.dados.get(campo))]
+        if not campos_preenchidos:
+            st.write("Percentuais do benefício: não cadastrados.")
+        for campo, rotulo in campos_preenchidos:
+            if percentual_valido(regra.dados.get(campo)):
+                st.write(f"{rotulo}: {formatar_percentual(regra.dados[campo])}")
+            else:
+                st.write(f"{rotulo}: percentual inválido no cadastro")
+    elif percentual_valido(regra.dados.get("aliquota_icms")):
         st.write(f"Percentual informado no cadastro: {formatar_percentual(regra.dados['aliquota_icms'])}")
     else:
         st.write("Percentual inválido ou ausente no cadastro")
 
     for campo, rotulo in (("descricao_regra", "Descrição do tratamento"),
+                          ("condicoes", "Condições de aplicação cadastradas"),
                           ("observacao", "Observações/condições cadastradas"),
                           ("palavras_chave", "Palavras-chave cadastradas")):
         valor = texto(regra.dados.get(campo))
@@ -98,12 +118,12 @@ if enviado and base is not None:
         st.caption(f"Operação interna em Goiás · Data de referência: {resultado.data_referencia:%d/%m/%Y}")
         if resultado.situacao == "NCM_NAO_ENCONTRADO":
             st.info("NCM não encontrado na tabela cadastrada.")
-        elif resultado.situacao == "SEM_TRATAMENTO_CADASTRADO":
+        elif resultado.situacao in {"SEM_TRATAMENTO_CADASTRADO", "BENEFICIOS_ENCONTRADOS"}:
             if resultado.aliquota_geral_referencia is not None:
                 st.subheader("Alíquota geral de referência — Goiás")
                 st.write(formatar_percentual(resultado.aliquota_geral_referencia))
                 st.warning(
-                    "Referência geral, não enquadramento confirmado: a ausência de "
+                    "Referência geral não validada para o enquadramento da mercadoria: a ausência de "
                     "regra específica na base não comprova que não exista exceção "
                     "legal aplicável à mercadoria."
                 )
@@ -116,7 +136,7 @@ if enviado and base is not None:
         elif resultado.situacao == "SEM_REGRA_VIGENTE":
             st.info("Nenhuma regra de alíquota cadastrada está vigente na data consultada.")
         else:
-            if len(resultado.possibilidades_aliquota) > 1:
+            if len(resultado.possibilidades_aliquota) + len(resultado.possibilidades_beneficio) > 1:
                 tipos = {regra.tipo_correspondencia for regra in resultado.possibilidades_aliquota}
                 if tipos == {"EXATO", "PREFIXO"}:
                     st.warning("Verificação fiscal necessária: há múltiplas regras correspondentes. "
@@ -130,6 +150,22 @@ if enviado and base is not None:
             for regra in resultado.possibilidades_aliquota:
                 exibir_regra(regra)
 
+        if resultado.situacao != "NCM_NAO_ENCONTRADO":
+            if resultado.possibilidades_beneficio:
+                st.info("Benefícios encontrados no cadastro: a correspondência por NCM não confirma "
+                        "aplicabilidade. Condições e enquadramento exigem validação fiscal; "
+                        "redução de base, carga efetiva e crédito outorgado não são a alíquota nominal "
+                        "do ICMS e não são somados automaticamente.")
+                if not resultado.possibilidades_aliquota and len(resultado.possibilidades_beneficio) > 1:
+                    st.warning("Há múltiplas alternativas cadastradas; nenhuma foi escolhida automaticamente.")
+                for beneficio in resultado.possibilidades_beneficio:
+                    exibir_regra(beneficio)
+            elif resultado.candidatos_beneficio:
+                st.info("Nenhum benefício fiscal cadastrado está vigente e com escopo compatível com "
+                        "a operação interna na data consultada.")
+            else:
+                st.info("Nenhum benefício fiscal cadastrado corresponde a este NCM.")
+
         if resultado.hipoteses_especiais:
             st.subheader("Possíveis enquadramentos específicos")
             st.info(
@@ -140,5 +176,5 @@ if enviado and base is not None:
                 st.write(f"{hipotese.descricao}: {formatar_percentual(hipotese.aliquota)}")
                 st.write(f"Fundamento: {hipotese.fundamento}")
                 st.write(f"Condição: {hipotese.condicao}")
-                st.write("Situação: hipótese condicional; vigência própria pendente de validação fiscal.")
+                st.write("Situação: hipótese condicional não validada; vigência própria pendente de validação fiscal.")
                 st.write(f"Fonte: {hipotese.fonte}")

@@ -25,7 +25,7 @@ class BaseTributaria:
 
 @dataclass
 class Candidato:
-    """Regra de alíquota correspondente, mesmo que dependa de verificação."""
+    """Tratamento correspondente ao NCM, mesmo que dependa de verificação."""
 
     identificador: str
     chave_ncm: str
@@ -36,6 +36,7 @@ class Candidato:
     legislacao: dict[str, Any] | None = None
     problema_fundamento: str | None = None
     problemas_fundamento: list[str] = field(default_factory=list)
+    tipo_tratamento: str = "ALIQUOTA"
 
     @property
     def prioridade(self) -> tuple[int, int]:
@@ -55,7 +56,7 @@ class HipoteseEspecial:
 
 @dataclass
 class ResultadoConsulta:
-    """Decisão sobre a alíquota interna e candidatos mantidos para auditoria."""
+    """Alíquotas e benefícios encontrados, sem escolher entre enquadramentos."""
 
     ncm_original: str
     ncm_normalizado: str
@@ -67,3 +68,5 @@ class ResultadoConsulta:
     situacao: str = "ENCONTRADO"
     aliquota_geral_referencia: Decimal | None = None
     hipoteses_especiais: list[HipoteseEspecial] = field(default_factory=list)
+    candidatos_beneficio: list[Candidato] = field(default_factory=list)
+    possibilidades_beneficio: list[Candidato] = field(default_factory=list)

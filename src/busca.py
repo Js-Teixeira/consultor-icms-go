@@ -1,4 +1,4 @@
-"""Consulta de alíquota interna por NCM e vínculo legal cadastrado."""
+"""Consulta de alíquotas e benefícios por NCM e vínculo legal cadastrado."""
 
 from __future__ import annotations
 
@@ -17,6 +17,11 @@ from .normalizacao import normalizar_ncm
 INICIO_ALIQUOTA_MODAL_19 = date(2024, 4, 1)
 ALIQUOTA_MODAL_GO = Decimal("19")
 FONTE_CTE_GO = "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm"
+PERCENTUAIS_BENEFICIO = (
+    ("percentual_reducao_bc", "Redução da base de cálculo"),
+    ("carga_efetiva", "Carga efetiva"),
+    ("credito_outorgado_percentual", "Crédito outorgado"),
+)
 
 
 def _hipoteses_legais_condicionadas(ncm: str, referencia: date) -> list[HipoteseEspecial]:
@@ -166,7 +171,29 @@ def pendencias_validacao(candidato: Candidato) -> list[str]:
                       ([candidato.problema_fundamento] if candidato.problema_fundamento else []))
     if candidato.vigencia == "VIGENTE" and _data(candidato.dados.get("vigencia_inicio")) is None:
         pendencias.append("Início de vigência da regra não cadastrado.")
-    if not percentual_valido(candidato.dados.get("aliquota_icms")):
+    if candidato.tipo_tratamento == "BENEFICIO":
+        tipo = texto(candidato.dados.get("tipo_beneficio")).upper()
+        obrigatorio = {
+            "REDUCAO_BASE_CALCULO": "percentual_reducao_bc",
+            "CREDITO_OUTORGADO": "credito_outorgado_percentual",
+            "CARGA_EFETIVA": "carga_efetiva",
+        }.get(tipo)
+        for campo, rotulo in PERCENTUAIS_BENEFICIO:
+            valor = candidato.dados.get(campo)
+            if (texto(valor) or campo == obrigatorio) and not percentual_valido(valor):
+                pendencias.append(f"{rotulo}: percentual inválido ou ausente no benefício cadastrado.")
+        if not tipo:
+            pendencias.append("Tipo de benefício não cadastrado.")
+        if not texto(candidato.dados.get("descricao_regra")):
+            pendencias.append("Descrição do tratamento não cadastrada.")
+        if texto(candidato.dados.get("escopo_operacao")).upper() not in {"INTERNA", "AMBAS"}:
+            pendencias.append("Escopo da operação interna em Goiás não comprovado no cadastro.")
+        if texto(candidato.dados.get("condicoes")):
+            pendencias.append("Condições cadastradas exigem validação fiscal da operação, "
+                              "mercadoria e demais requisitos; o NCM não comprova aplicabilidade.")
+        else:
+            pendencias.append("Condições de aplicação do benefício não cadastradas ou não comprovadas.")
+    elif not percentual_valido(candidato.dados.get("aliquota_icms")):
         pendencias.append("Percentual inválido ou ausente na regra cadastrada.")
     if candidato.exige_descricao != "NAO":
         pendencias.append("Características da mercadoria exigem verificação fiscal.")
@@ -181,7 +208,7 @@ def pendencia_validacao(candidato: Candidato) -> str | None:
 
 
 def consultar(base: BaseTributaria, ncm: str, data_referencia: date | None = None) -> ResultadoConsulta:
-    """Seleciona uma única alíquota interna quando o cadastro permite fazê-lo."""
+    """Lista tratamentos cadastrados; múltiplos enquadramentos exigem revisão."""
 
     normalizado = normalizar_ncm(ncm)
     referencia = data_referencia or datetime.now(ZoneInfo("America/Sao_Paulo")).date()
@@ -200,6 +227,27 @@ def consultar(base: BaseTributaria, ncm: str, data_referencia: date | None = Non
 
     resultado.hipoteses_especiais = _hipoteses_legais_condicionadas(normalizado, referencia)
 
+    for linha in base.beneficios.to_dict("records"):
+        if not _ativo(linha) or not _corresponde(normalizado, linha):
+            continue
+        candidato = Candidato(
+            identificador=texto(linha.get("id_beneficio")),
+            chave_ncm=texto(linha.get("chave_ncm")),
+            tipo_correspondencia=texto(linha.get("tipo_correspondencia")).upper(),
+            dados=linha,
+            vigencia=situacao_vigencia(linha, referencia),
+            exige_descricao=texto(linha.get("exige_descricao")).upper() or "SIM",
+            tipo_tratamento="BENEFICIO",
+        )
+        _fundamento(base, candidato, referencia)
+        resultado.candidatos_beneficio.append(candidato)
+    resultado.candidatos_beneficio.sort(key=lambda candidato: candidato.prioridade, reverse=True)
+    resultado.possibilidades_beneficio = [
+        c for c in resultado.candidatos_beneficio
+        if c.vigencia in {"VIGENTE", "INCONSISTENTE"}
+        and texto(c.dados.get("escopo_operacao")).upper() != "INTERESTADUAL"
+    ]
+
     for linha in base.aliquotas.to_dict("records"):
         if not _ativo(linha) or not _corresponde(normalizado, linha):
             continue
@@ -215,7 +263,8 @@ def consultar(base: BaseTributaria, ncm: str, data_referencia: date | None = Non
         resultado.candidatos_aliquota.append(candidato)
     resultado.candidatos_aliquota.sort(key=lambda candidato: candidato.prioridade, reverse=True)
     if not resultado.candidatos_aliquota:
-        resultado.situacao = "SEM_TRATAMENTO_CADASTRADO"
+        resultado.situacao = ("BENEFICIOS_ENCONTRADOS" if resultado.possibilidades_beneficio
+                              else "SEM_TRATAMENTO_CADASTRADO")
         if referencia >= INICIO_ALIQUOTA_MODAL_19:
             resultado.aliquota_geral_referencia = ALIQUOTA_MODAL_GO
         return resultado
@@ -226,7 +275,7 @@ def consultar(base: BaseTributaria, ncm: str, data_referencia: date | None = Non
         resultado.situacao = "SEM_REGRA_VIGENTE"
         return resultado
     resultado.possibilidades_aliquota = pertinentes
-    if len(resultado.possibilidades_aliquota) != 1:
+    if len(resultado.possibilidades_aliquota) != 1 or resultado.possibilidades_beneficio:
         resultado.situacao = "VERIFICACAO_NECESSARIA"
         return resultado
     escolhida = resultado.possibilidades_aliquota[0]
