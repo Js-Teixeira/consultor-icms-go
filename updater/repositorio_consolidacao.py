@@ -7,6 +7,8 @@ from typing import Any
 
 from sqlalchemy import Engine, func, insert, select, update
 
+from src.dados.schema import aliquotas, legislacao
+
 from .consolidacao import CONSOLIDATOR_VERSION, Consolidada, Decisao
 from .fontes import ErroColeta, validar_url_oficial
 from .schema import (
@@ -20,6 +22,64 @@ class RepositorioConsolidacao:
 
     def __init__(self, engine: Engine) -> None:
         self.engine = engine
+
+    def dados_para_simulacao(self) -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
+        """Lê propostas, evidências e cadastro atual; não inicia transação de escrita."""
+
+        versoes_anteriores = versoes_ato.alias("versoes_anteriores_simulacao")
+        ultima = select(func.max(versoes_anteriores.c.id)).where(
+            versoes_anteriores.c.ato_id == atos_legislativos.c.id,
+        ).correlate(atos_legislativos).scalar_subquery()
+        consulta = select(
+            regras_consolidadas,
+            regras_extraidas.c.ato_id.label("ato_extracao_id"),
+            regras_extraidas.c.versao_ato_id,
+            regras_extraidas.c.status_revisao.label("status_extracao"),
+            versoes_ato.c.ato_id.label("ato_versao_id"),
+            ultima.label("ultima_versao_id"),
+            atos_legislativos.c.tipo_ato,
+            atos_legislativos.c.numero,
+            atos_legislativos.c.ano,
+            atos_legislativos.c.url_texto_oficial,
+            atos_legislativos.c.status.label("status_ato"),
+            atos_legislativos.c.hash_conteudo.label("hash_atual"),
+            versoes_ato.c.hash_conteudo.label("hash_versao"),
+        ).join(
+            regras_extraidas, regras_consolidadas.c.regra_origem_id == regras_extraidas.c.id,
+        ).join(
+            atos_legislativos, regras_consolidadas.c.ato_origem_id == atos_legislativos.c.id,
+        ).join(
+            versoes_ato, regras_extraidas.c.versao_ato_id == versoes_ato.c.id,
+        ).order_by(regras_consolidadas.c.id)
+        with self.engine.connect() as conexao:
+            propostas = [dict(linha) for linha in conexao.execute(consulta).mappings()]
+            origens = {linha["regra_origem_id"] for linha in propostas}
+            evidencias = [dict(linha) for linha in conexao.execute(
+                select(evidencias_extracao).where(
+                    evidencias_extracao.c.regra_extraida_id.in_(origens),
+                )
+            ).mappings()] if origens else []
+            leis_atuais = [dict(linha) for linha in conexao.execute(select(legislacao)).mappings()]
+            aliquotas_atuais = [dict(linha) for linha in conexao.execute(select(aliquotas)).mappings()]
+        por_origem: dict[int, list[dict[str, Any]]] = {}
+        for evidencia in evidencias:
+            por_origem.setdefault(evidencia["regra_extraida_id"], []).append(evidencia)
+        for proposta in propostas:
+            proposta["evidencias"] = por_origem.get(proposta["regra_origem_id"], [])
+            proposta["cadeia_origem_valida"] = (
+                bool(proposta.get("ato_origem_id"))
+                and proposta.get("ato_origem_id") == proposta.get("ato_extracao_id")
+                == proposta.get("ato_versao_id")
+                and proposta.get("status_extracao") != "DESCARTADO")
+            proposta["fonte_atual"] = (proposta["cadeia_origem_valida"]
+                                       and bool(proposta["hash_atual"])
+                                       and proposta["hash_atual"] == proposta["hash_versao"]
+                                       and proposta["versao_ato_id"] == proposta["ultima_versao_id"]
+                                       and proposta["status_ato"] == "PROCESSADO")
+            # A coleta registra hash e data, mas não uma validação da autenticidade
+            # fiscal da fonte. Sem decisão auditável, essa confirmação não existe.
+            proposta["fonte_verificada"] = False
+        return propostas, leis_atuais, aliquotas_atuais
 
     def listar_extraidas(self, *, ato_id: int | None = None, ano: int | None = None,
                          limite: int = 10) -> list[dict[str, Any]]:
