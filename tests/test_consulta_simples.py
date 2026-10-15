@@ -5,7 +5,7 @@ from datetime import date
 import pandas as pd
 import pytest
 
-from src.busca import consultar
+from src.busca import consultar, pendencia_validacao, pendencias_validacao
 from src.modelos import BaseTributaria
 
 
@@ -103,6 +103,72 @@ def test_aliquotas_empatadas_exigem_verificacao():
     assert resultado.regra_priorizada is None
 
 
+def test_regra_exata_e_prefixo_simultaneos_nao_sao_escolhidos_pelo_ncm():
+    base = base_sintetica()
+    base.aliquotas = pd.concat([base.aliquotas, pd.DataFrame([{
+        **base.aliquotas.iloc[0].to_dict(), "id_regra": "R_PREFIXO", "chave_ncm": "1234",
+        "tipo_correspondencia": "PREFIXO", "aliquota_icms": "6.789",
+    }])], ignore_index=True)
+
+    resultado = consultar(base, "12345678", data_referencia=REFERENCIA)
+
+    assert resultado.situacao == "VERIFICACAO_NECESSARIA"
+    assert resultado.regra_priorizada is None
+    assert {c.identificador for c in resultado.possibilidades_aliquota} == {"R_TESTE", "R_PREFIXO"}
+
+
+def test_vigencia_inconsistente_permanece_visivel_sem_selecao_automatica():
+    base = base_sintetica()
+    base.aliquotas = pd.concat([base.aliquotas, pd.DataFrame([{
+        **base.aliquotas.iloc[0].to_dict(), "id_regra": "R_DATA_INVALIDA",
+        "vigencia_inicio": "data inválida", "aliquota_icms": "6.789",
+    }])], ignore_index=True)
+
+    resultado = consultar(base, "12345678", data_referencia=REFERENCIA)
+
+    assert resultado.situacao == "VERIFICACAO_NECESSARIA"
+    assert resultado.regra_priorizada is None
+    assert {c.identificador for c in resultado.possibilidades_aliquota} == {"R_TESTE", "R_DATA_INVALIDA"}
+
+
+def test_pendencias_da_mesma_regra_sao_acumuladas_sem_quebrar_contrato_anterior():
+    base = base_sintetica()
+    base.aliquotas.loc[0, "vigencia_inicio"] = "data inválida"
+    base.aliquotas.loc[0, "id_legislacao"] = "L_INEXISTENTE"
+    base.aliquotas.loc[0, "aliquota_icms"] = "1e100"
+    base.aliquotas.loc[0, "exige_descricao"] = "SIM"
+
+    resultado = consultar(base, "12345678", data_referencia=REFERENCIA)
+    regra = resultado.possibilidades_aliquota[0]
+    pendencias = pendencias_validacao(regra)
+
+    assert resultado.situacao == "VERIFICACAO_NECESSARIA"
+    assert resultado.regra_priorizada is None
+    assert len(pendencias) == 4
+    assert "Vigência da regra inconsistente" in pendencias[0]
+    assert "Fundamento legal inexistente ou inativo" in pendencias[1]
+    assert "Percentual inválido ou ausente" in pendencias[2]
+    assert "Características da mercadoria exigem verificação" in pendencias[3]
+    assert pendencia_validacao(regra) == pendencias[0]
+
+
+def test_fundamento_com_varias_falhas_exibe_cada_pendencia():
+    base = base_sintetica()
+    base.legislacao.loc[0, "data_verificacao"] = None
+    base.legislacao.loc[0, "artigo"] = ""
+    base.legislacao.loc[0, "url_fonte"] = ""
+
+    resultado = consultar(base, "12345678", data_referencia=REFERENCIA)
+    regra = resultado.possibilidades_aliquota[0]
+    pendencias = pendencias_validacao(regra)
+
+    assert resultado.regra_priorizada is None
+    assert any("Verificação do fundamento legal ausente" in p for p in pendencias)
+    assert any("Dispositivo legal específico não cadastrado" in p for p in pendencias)
+    assert any("Endereço da fonte ausente ou inválido" in p for p in pendencias)
+    assert regra.problema_fundamento == pendencias[0]
+
+
 @pytest.mark.parametrize("ncm", ["AB1234-CD56-78", "1234567", "１２３４５６７８"])
 def test_ncm_invalido_e_rejeitado(ncm):
     with pytest.raises(ValueError, match="NCM inválido"):
@@ -137,6 +203,9 @@ def test_vigencia_inicial_do_fundamento_ausente_exige_verificacao():
     resultado = consultar(base, "12345678", data_referencia=REFERENCIA)
     assert resultado.situacao == "VERIFICACAO_NECESSARIA"
     assert resultado.regra_priorizada is None
+    assert resultado.candidatos_aliquota[0].problema_fundamento == (
+        "Início de vigência do fundamento legal não cadastrado."
+    )
 
 
 def test_vigencia_inicial_da_regra_ausente_exige_verificacao():

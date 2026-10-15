@@ -97,54 +97,87 @@ def _corresponde(ncm: str, linha: dict[str, Any]) -> bool:
 
 
 def _fundamento(base: BaseTributaria, candidato: Candidato, referencia: date) -> None:
+    def registrar_problema(mensagem: str) -> None:
+        candidato.problemas_fundamento.append(mensagem)
+        if candidato.problema_fundamento is None:
+            candidato.problema_fundamento = mensagem
+
     chave = texto(candidato.dados.get("id_legislacao"))
     if not chave:
-        candidato.problema_fundamento = "Regra sem fundamento legal cadastrado."
+        registrar_problema("Regra sem fundamento legal cadastrado.")
         return
     encontrados = [linha for linha in base.legislacao.to_dict("records")
                    if texto(linha.get("id_legislacao")) == chave and _ativo(linha)]
     if not encontrados:
-        candidato.problema_fundamento = "Fundamento legal inexistente ou inativo na base."
+        registrar_problema("Fundamento legal inexistente ou inativo na base.")
         return
     if len(encontrados) != 1:
-        candidato.problema_fundamento = "Há mais de um fundamento legal ativo para a regra."
+        registrar_problema("Há mais de um fundamento legal ativo para a regra.")
         return
     fundamento = encontrados[0]
     candidato.legislacao = fundamento
     if situacao_vigencia(fundamento, referencia) != "VIGENTE":
-        candidato.problema_fundamento = "Vigência do fundamento legal exige verificação."
-        return
-    if _data(fundamento.get("vigencia_inicio")) is None:
-        candidato.problema_fundamento = "Início de vigência do fundamento legal não cadastrado."
-        return
+        registrar_problema("Vigência do fundamento legal exige verificação.")
+    try:
+        inicio = _data(fundamento.get("vigencia_inicio"))
+    except ValueError:
+        inicio = None
+    if inicio is None:
+        if texto(fundamento.get("vigencia_inicio")):
+            registrar_problema("Início de vigência do fundamento legal inválido.")
+        else:
+            registrar_problema("Início de vigência do fundamento legal não cadastrado.")
     try:
         verificada_em = _data(fundamento.get("data_verificacao"))
     except ValueError:
         verificada_em = None
     if verificada_em is None or verificada_em > referencia:
-        candidato.problema_fundamento = "Verificação do fundamento legal ausente ou inconsistente."
-        return
+        registrar_problema("Verificação do fundamento legal ausente ou inconsistente.")
     if not all(texto(fundamento.get(campo)) for campo in ("norma", "numero", "ano")):
-        candidato.problema_fundamento = "Identificação da norma incompleta na base."
-        return
+        registrar_problema("Identificação da norma incompleta na base.")
     if not any(texto(fundamento.get(campo)) for campo in ("artigo", "anexo", "inciso", "item")):
-        candidato.problema_fundamento = "Dispositivo legal específico não cadastrado."
-        return
+        registrar_problema("Dispositivo legal específico não cadastrado.")
     try:
         url = urlparse(texto(fundamento.get("url_fonte")))
         fonte_valida = url.scheme in {"http", "https"} and bool(url.netloc)
     except ValueError:
         fonte_valida = False
     if not fonte_valida:
-        candidato.problema_fundamento = "Endereço da fonte ausente ou inválido na base."
+        registrar_problema("Endereço da fonte ausente ou inválido na base.")
 
 
-def _percentual_valido(valor: Any) -> bool:
+def percentual_valido(valor: Any) -> bool:
     try:
         numero = Decimal(texto(valor).replace(",", "."))
     except InvalidOperation:
         return False
     return numero.is_finite() and 0 <= numero <= 100
+
+
+def pendencias_validacao(candidato: Candidato) -> list[str]:
+    """Reúne lacunas independentes do cadastro sem inferir aplicabilidade pelo NCM."""
+
+    pendencias = []
+    if candidato.vigencia == "INCONSISTENTE":
+        pendencias.append("Vigência da regra inconsistente; pertinência à data exige verificação.")
+    elif candidato.vigencia == "FORA_DA_VIGENCIA":
+        pendencias.append("Regra fora da vigência na data consultada.")
+    pendencias.extend(candidato.problemas_fundamento or
+                      ([candidato.problema_fundamento] if candidato.problema_fundamento else []))
+    if candidato.vigencia == "VIGENTE" and _data(candidato.dados.get("vigencia_inicio")) is None:
+        pendencias.append("Início de vigência da regra não cadastrado.")
+    if not percentual_valido(candidato.dados.get("aliquota_icms")):
+        pendencias.append("Percentual inválido ou ausente na regra cadastrada.")
+    if candidato.exige_descricao != "NAO":
+        pendencias.append("Características da mercadoria exigem verificação fiscal.")
+    return pendencias
+
+
+def pendencia_validacao(candidato: Candidato) -> str | None:
+    """Mantém o contrato anterior de primeira pendência para outros consumidores."""
+
+    pendencias = pendencias_validacao(candidato)
+    return pendencias[0] if pendencias else None
 
 
 def consultar(base: BaseTributaria, ncm: str, data_referencia: date | None = None) -> ResultadoConsulta:
@@ -187,19 +220,17 @@ def consultar(base: BaseTributaria, ncm: str, data_referencia: date | None = Non
             resultado.aliquota_geral_referencia = ALIQUOTA_MODAL_GO
         return resultado
 
-    vigentes = [c for c in resultado.candidatos_aliquota if c.vigencia == "VIGENTE"]
-    if not vigentes:
+    pertinentes = [c for c in resultado.candidatos_aliquota
+                   if c.vigencia in {"VIGENTE", "INCONSISTENTE"}]
+    if not pertinentes:
         resultado.situacao = "SEM_REGRA_VIGENTE"
         return resultado
-    prioridade = vigentes[0].prioridade
-    resultado.possibilidades_aliquota = [c for c in vigentes if c.prioridade == prioridade]
+    resultado.possibilidades_aliquota = pertinentes
     if len(resultado.possibilidades_aliquota) != 1:
         resultado.situacao = "VERIFICACAO_NECESSARIA"
         return resultado
     escolhida = resultado.possibilidades_aliquota[0]
-    if (escolhida.problema_fundamento or escolhida.exige_descricao != "NAO"
-            or _data(escolhida.dados.get("vigencia_inicio")) is None
-            or not _percentual_valido(escolhida.dados.get("aliquota_icms"))):
+    if pendencia_validacao(escolhida):
         resultado.situacao = "VERIFICACAO_NECESSARIA"
         return resultado
     resultado.regra_priorizada = escolhida

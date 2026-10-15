@@ -35,6 +35,7 @@ class Candidato:
     exige_descricao: str = "NAO"
     legislacao: dict[str, Any] | None = None
     problema_fundamento: str | None = None
+    problemas_fundamento: list[str] = field(default_factory=list)
 
     @property
     def prioridade(self) -> tuple[int, int]:

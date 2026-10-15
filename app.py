@@ -1,14 +1,79 @@
 """Consulta pública de alíquota interna de ICMS em Goiás por NCM."""
 
+from datetime import date
+
 import streamlit as st
 
-from src.busca import consultar, texto
+from src.busca import consultar, pendencias_validacao, percentual_valido, texto
 from src.dados import ErroConfiguracaoDados, ErroFonteDados, criar_repositorio
 from src.formatacao import formatar_percentual
 
 
 st.set_page_config(page_title="Alíquota interna de ICMS — Goiás", layout="centered")
 st.title("Alíquota interna de ICMS — Goiás")
+
+
+def exibir_data(valor):
+    """Formata datas do cadastro sem atribuir vigência a campo vazio."""
+
+    if not texto(valor):
+        return "Não cadastrada"
+    if isinstance(valor, date):
+        return valor.strftime("%d/%m/%Y")
+    try:
+        return date.fromisoformat(texto(valor)[:10]).strftime("%d/%m/%Y")
+    except ValueError:
+        return "Data inválida no cadastro"
+
+
+def exibir_regra(regra):
+    st.subheader(f"Regra cadastrada: {regra.identificador}")
+    if regra.tipo_correspondencia == "EXATO":
+        st.write("Tipo de correspondência: NCM exato")
+        st.write(f"Código utilizado: {regra.chave_ncm}")
+    else:
+        st.write("Tipo de correspondência: prefixo")
+        st.write(f"Prefixo utilizado: {regra.chave_ncm}")
+    if percentual_valido(regra.dados.get("aliquota_icms")):
+        st.write(f"Percentual informado no cadastro: {formatar_percentual(regra.dados['aliquota_icms'])}")
+    else:
+        st.write("Percentual inválido ou ausente no cadastro")
+
+    for campo, rotulo in (("descricao_regra", "Descrição do tratamento"),
+                          ("observacao", "Observações/condições cadastradas"),
+                          ("palavras_chave", "Palavras-chave cadastradas")):
+        valor = texto(regra.dados.get(campo))
+        if valor:
+            st.write(f"{rotulo}: {valor}")
+    st.write(f"Vigência da regra: {exibir_data(regra.dados.get('vigencia_inicio'))} a "
+             f"{exibir_data(regra.dados.get('vigencia_fim'))}")
+
+    fundamento = regra.legislacao
+    if fundamento:
+        st.write("Fundamento legal cadastrado:")
+        for chave, rotulo in (
+            ("norma", "Norma"), ("numero", "Número"), ("ano", "Ano"),
+            ("anexo", "Anexo"), ("artigo", "Artigo"), ("paragrafo", "Parágrafo"),
+            ("inciso", "Inciso"), ("alinea", "Alínea"), ("item", "Item"),
+            ("texto_relevante", "Trecho cadastrado"),
+        ):
+            valor = texto(fundamento.get(chave))
+            if valor:
+                st.write(f"{rotulo}: {valor}")
+        st.write(f"Vigência do fundamento: {exibir_data(fundamento.get('vigencia_inicio'))} a "
+                 f"{exibir_data(fundamento.get('vigencia_fim'))}")
+        fonte = texto(fundamento.get("url_fonte"))
+        if fonte:
+            st.write(f"Fonte cadastrada: {fonte}")
+
+    pendencias = pendencias_validacao(regra)
+    if pendencias:
+        st.write("Situação da validação automática do cadastro: pendente")
+        for pendencia in pendencias:
+            st.write(f"Pendência: {pendencia}")
+    else:
+        st.write("Situação da validação automática: Verificações automáticas do cadastro atendidas; "
+                 "aplicabilidade à mercadoria não confirmada apenas pelo NCM.")
 
 try:
     base = criar_repositorio(data_source="postgres", secrets=st.secrets).carregar_base()
@@ -44,25 +109,22 @@ if enviado and base is not None:
                 )
             else:
                 st.info("Alíquota interna não encontrada na base para este NCM.")
-        elif resultado.regra_priorizada is None:
-            st.warning("Verificação fiscal necessária")
-            st.write("O cadastro não permite determinar com segurança a alíquota interna e seu fundamento para a data consultada.")
+        elif resultado.situacao == "SEM_REGRA_VIGENTE":
+            st.info("Nenhuma regra de alíquota cadastrada está vigente na data consultada.")
         else:
-            regra = resultado.regra_priorizada
-            st.subheader("Alíquota interna cadastrada — Goiás")
-            st.write(formatar_percentual(regra.dados["aliquota_icms"]))
-            st.subheader("Fundamento legal cadastrado")
-            fundamento = regra.legislacao
-            for chave, rotulo in (
-                ("norma", "Norma"), ("numero", "Número"), ("ano", "Ano"),
-                ("anexo", "Anexo"), ("artigo", "Artigo"), ("paragrafo", "Parágrafo"),
-                ("inciso", "Inciso"), ("alinea", "Alínea"), ("item", "Item"),
-                ("texto_relevante", "Trecho cadastrado"),
-            ):
-                valor = texto(fundamento.get(chave))
-                if valor:
-                    st.write(f"{rotulo}: {valor}")
-            st.write(f"Fonte cadastrada: {texto(fundamento['url_fonte'])}")
+            if len(resultado.possibilidades_aliquota) > 1:
+                tipos = {regra.tipo_correspondencia for regra in resultado.possibilidades_aliquota}
+                if tipos == {"EXATO", "PREFIXO"}:
+                    st.warning("Verificação fiscal necessária: há múltiplas regras correspondentes. "
+                               "Regras por NCM exato e por prefixo não são necessariamente alternativas "
+                               "equivalentes; nenhuma foi escolhida automaticamente.")
+                else:
+                    st.warning("Verificação fiscal necessária: há múltiplas regras correspondentes; "
+                               "nenhuma foi escolhida automaticamente.")
+            elif resultado.regra_priorizada is None:
+                st.warning("Verificação fiscal necessária")
+            for regra in resultado.possibilidades_aliquota:
+                exibir_regra(regra)
 
         if resultado.hipoteses_especiais:
             st.subheader("Possíveis enquadramentos específicos")
@@ -74,4 +136,5 @@ if enviado and base is not None:
                 st.write(f"{hipotese.descricao}: {formatar_percentual(hipotese.aliquota)}")
                 st.write(f"Fundamento: {hipotese.fundamento}")
                 st.write(f"Condição: {hipotese.condicao}")
+                st.write("Situação: hipótese condicional; vigência própria pendente de validação fiscal.")
                 st.write(f"Fonte: {hipotese.fonte}")
