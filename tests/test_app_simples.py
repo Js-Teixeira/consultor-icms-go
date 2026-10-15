@@ -247,5 +247,21 @@ def test_falha_da_base_mostra_indisponibilidade_sem_confundir_com_ncm_ausente(mo
 
     assert not app.exception
     assert "Consulta indisponível" in textos(app.error)
+    assert "PostgreSQL" in textos(app.error)
     assert "detalhe técnico" not in textos(app.error)
     assert "NCM não encontrado" not in textos(app.info)
+
+
+def test_ausencia_configuracao_mostra_erro_sem_planilha(monkeypatch):
+    from src.dados import ErroConfiguracaoDados
+
+    def falhar(**_):
+        raise ErroConfiguracaoDados("detalhe privado da configuração")
+
+    monkeypatch.setattr(src.dados, "criar_repositorio", falhar)
+    app = AppTest.from_file(Path(__file__).resolve().parents[1] / "app.py").run()
+    assert not app.exception
+    assert "PostgreSQL não configurada" in textos(app.error)
+    assert "detalhe privado" not in textos(app.error)
+    assert [campo.label for campo in app.text_input] == ["NCM"]
+    assert [botao.label for botao in app.button] == ["Consultar"]

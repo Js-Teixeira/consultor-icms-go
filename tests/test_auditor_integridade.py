@@ -225,6 +225,16 @@ def _csv_cli(caminho, *, aliquota="12"):
         escritor.writerows(linhas)
 
 
+def test_cli_sem_configuracao_postgres_nao_abre_planilha(monkeypatch, capsys):
+    from scripts import auditar_integridade as cli
+
+    monkeypatch.delenv("DATABASE_URL", raising=False)
+    monkeypatch.delenv("DATA_SOURCE", raising=False)
+    monkeypatch.setattr("sys.argv", ["auditar_integridade"])
+    assert cli.main() == 2
+    assert "DATABASE_URL não foi configurada" in capsys.readouterr().out
+
+
 def test_cli_exit_code_alerta_e_erro_json(monkeypatch, tmp_path, capsys):
     caminho = tmp_path / "auditoria.csv"
     _csv_cli(caminho)

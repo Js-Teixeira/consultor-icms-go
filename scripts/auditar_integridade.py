@@ -13,9 +13,7 @@ from sqlalchemy.exc import SQLAlchemyError
 
 from scripts.sincronizar_ncm_oficial import CAMINHO_CACHE, ErroSincronizacao, carregar_cache
 from src.auditor_integridade import ADMINISTRATIVO_NAO_VERIFICADO, Relatorio, auditar_integridade
-from src.carregamento import CAMINHO_BASE
 from src.dados import ErroConfiguracaoDados, criar_repositorio
-from src.dados.excel_repository import ExcelRepository
 from src.dados.postgres_repository import PostgresRepository
 from src.dados.schema import TABELAS
 from src.modelos import BaseTributaria
@@ -200,9 +198,7 @@ def main() -> int:
             base = carregar_excel_local(args.arquivo_excel)
         else:
             repositorio = criar_repositorio()
-            if isinstance(repositorio, ExcelRepository):
-                base = carregar_excel_local(repositorio.caminho or CAMINHO_BASE)
-            elif isinstance(repositorio, PostgresRepository):
+            if isinstance(repositorio, PostgresRepository):
                 base, updater = carregar_postgres_somente_leitura(repositorio)
             else:
                 raise ValueError("Fonte de dados não suportada pelo auditor.")

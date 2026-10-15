@@ -77,9 +77,13 @@ def exibir_regra(regra):
 
 try:
     base = criar_repositorio(data_source="postgres", secrets=st.secrets).carregar_base()
-except (ErroConfiguracaoDados, ErroFonteDados):
+except ErroConfiguracaoDados:
     base = None
-    st.error("Consulta indisponível no momento. Tente novamente mais tarde.")
+    st.error("Consulta indisponível: conexão PostgreSQL não configurada ou configuração inválida. "
+             "Contate o responsável pelo consultor.")
+except ErroFonteDados:
+    base = None
+    st.error("Consulta indisponível: não foi possível acessar a base PostgreSQL. Tente novamente mais tarde.")
 
 with st.form("consulta"):
     ncm = st.text_input("NCM", placeholder="12345678 ou 1234.56.78")

@@ -12,7 +12,6 @@ from sqlalchemy.exc import OperationalError
 
 from scripts.importar_excel_postgres import ErroImportacao, importar_base, preparar_registros
 from src.dados import ErroConfiguracaoDados, ErroFonteDados, criar_repositorio
-from src.dados.excel_repository import ExcelRepository
 from src.dados.postgres_repository import PostgresRepository
 from src.dados.schema import TABELAS
 from src.modelos import BaseTributaria
@@ -102,10 +101,11 @@ class EngineImportacaoFalso:
         self.dados = pendentes
 
 
-def test_selecao_excel_explicita_ignora_url_indisponivel(monkeypatch):
+def test_fonte_operacional_rejeita_excel_mesmo_com_url(monkeypatch):
     monkeypatch.setenv("DATA_SOURCE", "excel")
     monkeypatch.setenv("DATABASE_URL", URL_TESTE)
-    assert isinstance(criar_repositorio(), ExcelRepository)
+    with pytest.raises(ErroConfiguracaoDados, match="única fonte operacional"):
+        criar_repositorio()
 
 
 def test_selecao_postgres_pela_url_e_por_data_source(monkeypatch):
@@ -129,10 +129,24 @@ def test_url_postgres_invalida(url):
         criar_repositorio(data_source="postgres", database_url=url)
 
 
-def test_secrets_vazio_usa_excel(monkeypatch):
+def test_secrets_vazio_exige_postgres_sem_fallback(monkeypatch):
     monkeypatch.delenv("DATABASE_URL", raising=False)
     monkeypatch.delenv("DATA_SOURCE", raising=False)
-    assert isinstance(criar_repositorio(secrets={}), ExcelRepository)
+    with pytest.raises(ErroConfiguracaoDados, match="DATABASE_URL não foi configurada"):
+        criar_repositorio(secrets={})
+
+
+def test_secrets_postgres_funcionam_sem_variaveis(monkeypatch):
+    monkeypatch.delenv("DATABASE_URL", raising=False)
+    monkeypatch.delenv("DATA_SOURCE", raising=False)
+    repo = criar_repositorio(secrets={"DATABASE_URL": URL_TESTE}, engine=EngineLeituraFalso())
+    assert isinstance(repo, PostgresRepository)
+
+
+@pytest.mark.parametrize("fonte", ["excel", "csv", "desconhecida"])
+def test_fonte_operacional_explicita_nao_postgres_e_rejeitada(fonte):
+    with pytest.raises(ErroConfiguracaoDados, match="única fonte operacional"):
+        criar_repositorio(data_source=fonte, database_url=URL_TESTE)
 
 
 def test_postgres_retorna_dataframes_filtrados_e_tipos_preservados():
