@@ -156,7 +156,6 @@ def consultar(base: BaseTributaria, ncm: str, data_referencia: date | None = Non
         ncm_original=ncm,
         ncm_normalizado=normalizado,
         data_referencia=referencia,
-        hipoteses_especiais=_hipoteses_legais_condicionadas(normalizado, referencia),
     )
     for linha in base.ncm.to_dict("records"):
         if texto(linha.get("ncm")) == normalizado and _ativo(linha):
@@ -165,6 +164,8 @@ def consultar(base: BaseTributaria, ncm: str, data_referencia: date | None = Non
     else:
         resultado.situacao = "NCM_NAO_ENCONTRADO"
         return resultado
+
+    resultado.hipoteses_especiais = _hipoteses_legais_condicionadas(normalizado, referencia)
 
     for linha in base.aliquotas.to_dict("records"):
         if not _ativo(linha) or not _corresponde(normalizado, linha):

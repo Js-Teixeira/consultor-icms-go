@@ -7,6 +7,7 @@ from datetime import date
 from decimal import Decimal
 
 import pandas as pd
+import pytest
 
 from src.busca import consultar
 from tests.test_consulta_simples import base_sintetica
@@ -52,6 +53,21 @@ def test_04029900_possui_hipotese_condicionada_sem_confirmar_12():
     assert hipotese.aliquota == Decimal("12")
     assert "art. 27" in hipotese.fundamento
     assert "condensado" in hipotese.condicao
+
+
+@pytest.mark.parametrize("ativo", [None, "NAO"], ids=["ausente", "inativo"])
+def test_04029900_sem_cadastro_ativo_nao_recebe_percentuais(ativo):
+    base = base_sintetica(regras=[])
+    if ativo is not None:
+        base.ncm = pd.DataFrame([
+            {"ncm": "04029900", "descricao_oficial": "Produto sintético", "ativo": ativo}
+        ])
+
+    resultado = consultar(base, "04029900", date(2026, 10, 14))
+
+    assert resultado.situacao == "NCM_NAO_ENCONTRADO"
+    assert resultado.aliquota_geral_referencia is None
+    assert resultado.hipoteses_especiais == []
 
 
 def test_ncm_sem_hipotese_nao_recebe_regra_especial_inventada():

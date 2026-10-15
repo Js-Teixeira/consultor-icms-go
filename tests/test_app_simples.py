@@ -68,6 +68,19 @@ def test_ncm_sem_regra_apresenta_modal_com_ressalva(monkeypatch):
     assert "art. 27" in textos(app.markdown)
 
 
+def test_ncm_04029900_ausente_nao_mostra_percentuais(monkeypatch):
+    app = abrir(monkeypatch, base_sintetica(regras=[]))
+    app.text_input[0].set_value("04029900")
+    app.button[0].click().run()
+
+    assert not app.exception
+    assert "NCM não encontrado" in textos(app.info)
+    assert "12,00%" not in textos(app.markdown)
+    assert "19,00%" not in textos(app.markdown)
+    assert "Possíveis enquadramentos específicos" not in textos(app.markdown)
+    assert "Possíveis enquadramentos específicos" not in textos(app.subheader)
+
+
 def test_consulta_publica_exige_postgres_mesmo_com_excel_configurado(monkeypatch):
     opcoes = []
 
