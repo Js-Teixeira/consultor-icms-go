@@ -1,35 +1,15 @@
 """Contrato da camada de dados e da migração, sem servidor PostgreSQL."""
 
-from contextlib import contextmanager
-from copy import deepcopy
-from datetime import date
 from decimal import Decimal
 
-import pandas as pd
 import pytest
 from sqlalchemy.dialects import postgresql
 from sqlalchemy.exc import OperationalError
 
-from scripts.importar_excel_postgres import ErroImportacao, importar_base, preparar_registros
 from src.dados import ErroConfiguracaoDados, ErroFonteDados, criar_repositorio
 from src.dados.postgres_repository import PostgresRepository
-from src.dados.schema import TABELAS
-from src.modelos import BaseTributaria
 
 URL_TESTE = "postgresql+psycopg://teste:teste@localhost/banco_teste"
-
-
-def _base_importacao(*, percentual="0.1") -> BaseTributaria:
-    return BaseTributaria(
-        ncm=pd.DataFrame([{"ncm": "01234567", "descricao_oficial": "Produto sintético", "ativo": "SIM"}]),
-        legislacao=pd.DataFrame([{"id_legislacao": "L1", "norma": "Norma sintética", "ativo": "SIM"}]),
-        aliquotas=pd.DataFrame([{
-            "id_regra": "R1", "chave_ncm": "01234567", "tipo_correspondencia": "EXATO",
-            "aliquota_icms": percentual, "id_legislacao": "L1", "ativo": "SIM",
-            "exige_descricao": "NAO", "vigencia_inicio": date(2020, 1, 1),
-        }]),
-        beneficios=pd.DataFrame(columns=[col.name for col in TABELAS["Beneficios"].columns]),
-    )
 
 
 class ResultadoFalso:
@@ -69,36 +49,6 @@ class EngineLeituraFalso:
         if self.falhar:
             raise OperationalError("SELECT 1", {}, Exception("offline"))
         return self.conexao
-
-
-class EngineImportacaoFalso:
-    """Emula a fronteira transacional e chaves únicas para verificar o fluxo."""
-
-    def __init__(self, *, falhar_em=None):
-        self.dados = {tabela.name: {} for tabela in TABELAS.values()}
-        self.falhar_em = falhar_em
-        self.comandos = []
-
-    @contextmanager
-    def begin(self):
-        pendentes = deepcopy(self.dados)
-        engine = self
-
-        class Conexao:
-            def execute(self, comando, registros):
-                nome = comando.table.name
-                if nome == engine.falhar_em:
-                    raise OperationalError("INSERT", {}, Exception("falha simulada"))
-                sql = str(comando.compile(dialect=postgresql.dialect()))
-                engine.comandos.append(sql)
-                chave = next(iter(comando.table.primary_key.columns)).name
-                for registro in registros:
-                    identificador = registro[chave]
-                    if identificador not in pendentes[nome] or "DO UPDATE" in sql:
-                        pendentes[nome][identificador] = deepcopy(registro)
-
-        yield Conexao()
-        self.dados = pendentes
 
 
 def test_fonte_operacional_rejeita_excel_mesmo_com_url(monkeypatch):
@@ -175,55 +125,3 @@ def test_saude_postgres_consulta_apenas_select_1():
     engine = EngineLeituraFalso()
     assert PostgresRepository(URL_TESTE, engine=engine).testar_conexao() is True
     assert engine.conexao.comandos == ["SELECT 1"]
-
-
-def test_preparacao_preserva_ncm_percentual_e_data():
-    registros = preparar_registros(_base_importacao())
-    assert registros["NCM"][0]["ncm"] == "01234567"
-    assert registros["Aliquotas"][0]["aliquota_icms"] == Decimal("0.1")
-    assert registros["Aliquotas"][0]["vigencia_inicio"] == date(2020, 1, 1)
-
-
-@pytest.mark.parametrize("valor", [45000, "01/02/2026"])
-def test_importacao_rejeita_data_ambigua(valor):
-    base = _base_importacao()
-    base.aliquotas["vigencia_inicio"] = pd.Series([valor], dtype=object)
-    with pytest.raises(ErroImportacao, match="Data inválida"):
-        preparar_registros(base)
-
-
-def test_importacao_idempotente_e_atualizacao_explicita():
-    engine = EngineImportacaoFalso()
-    repo = PostgresRepository(URL_TESTE, engine=engine)
-    importar_base(_base_importacao(), repo)
-    importar_base(_base_importacao(percentual="0.2"), repo)
-    assert engine.dados["aliquotas"]["R1"]["aliquota_icms"] == Decimal("0.1")
-    assert len(engine.dados["aliquotas"]) == 1
-    assert all("DO NOTHING" in sql for sql in engine.comandos)
-    importar_base(_base_importacao(percentual="0.2"), repo, confirmar_atualizacao=True)
-    assert engine.dados["aliquotas"]["R1"]["aliquota_icms"] == Decimal("0.2")
-    assert any("DO UPDATE" in sql for sql in engine.comandos)
-
-
-def test_rollback_se_importacao_falhar():
-    engine = EngineImportacaoFalso(falhar_em="aliquotas")
-    repo = PostgresRepository(URL_TESTE, engine=engine)
-    with pytest.raises(OperationalError):
-        importar_base(_base_importacao(), repo)
-    assert all(not dados for dados in engine.dados.values())
-
-
-def test_chave_duplicada_aba_toda_antes_de_escrever():
-    base = _base_importacao()
-    base.aliquotas = pd.concat([base.aliquotas, base.aliquotas], ignore_index=True)
-    engine = EngineImportacaoFalso()
-    with pytest.raises(ErroImportacao, match="duplicada"):
-        importar_base(base, PostgresRepository(URL_TESTE, engine=engine))
-    assert not engine.comandos
-
-
-def test_ncm_numerico_recusado_para_evitar_perda_de_zero_inicial():
-    base = _base_importacao()
-    base.ncm["ncm"] = pd.Series([1234567], dtype=object)
-    with pytest.raises(ErroImportacao, match="NCM deve ser texto"):
-        preparar_registros(base)

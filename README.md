@@ -13,7 +13,7 @@ A correspondência de um NCM não comprova, isoladamente, a aplicabilidade de um
 - `updater/`: coleta, extração e consolidação de candidatos jurídicos.
 - `scripts/`: importação, auditoria e ferramentas administrativas.
 - `tests/`: testes automatizados.
-- `base/`: dados e arquivos auxiliares históricos, distintos da base operacional.
+- `base/`: arquivos auxiliares de regressão fiscal; não são a fonte operacional.
 
 ## Dados e segurança fiscal
 

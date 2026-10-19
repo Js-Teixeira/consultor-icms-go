@@ -5,14 +5,11 @@ import csv
 import pytest
 from sqlalchemy import create_engine, inspect, select, text
 
-from scripts.importar_excel_postgres import ErroImportacao
+from scripts.validacao_carga_sql import ErroImportacao
 from scripts.importar_validacao_ncm import COLUNAS, importar_validacao, ler_validacao
 from scripts.migrar_operacao_beneficios import migrar
-from src.carregamento import carregar_base
 from src.dados.postgres_repository import PostgresRepository
 from src.dados.schema import beneficios as tabela_beneficios, metadata
-from tests.test_consulta import beneficio
-from tests.test_consulta_e_apresentacao import _planilha_teste
 
 
 def test_migracao_aditiva_idempotente_preserva_registro():
@@ -90,12 +87,3 @@ def test_importador_legado_e_alteracao_de_cbenef_exigem_confirmacao(tmp_path):
     with engine.connect() as conexao:
         linha = conexao.execute(select(tabela_beneficios)).mappings().one()
     assert linha["escopo_operacao"] is None and linha["cbenef"] is None
-
-
-def test_excel_legado_sem_colunas_novas_carrega_com_escopo_indefinido(tmp_path):
-    caminho = tmp_path / "legado.xlsx"
-    _planilha_teste(caminho, beneficios=[beneficio(exige_descricao="NAO", aplicacao="UNICO",
-                                                   grupo_beneficio="")])
-    carregada = carregar_base(caminho)
-    assert "escopo_operacao" not in carregada.beneficios.columns
-    assert "cbenef" not in carregada.beneficios.columns

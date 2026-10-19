@@ -1,6 +1,5 @@
 """Auditor somente leitura com dados sintéticos e sem fonte externa."""
 
-import csv
 import json
 from datetime import date
 
@@ -207,25 +206,7 @@ def test_ncm_automatico_sem_evidencia_so_com_prova_estruturada():
     assert "NCM_AUTOMATICO_SEM_EVIDENCIA" not in _codigos(b, updater=updater)
 
 
-def _csv_cli(caminho, *, aliquota="12"):
-    campos = ["tipo_registro", "ncm", "descricao_oficial", "ativo", "id_regra", "chave_ncm",
-              "tipo_correspondencia", "aliquota_icms", "id_legislacao", "vigencia_inicio", "vigencia_fim",
-              "url_fonte", "texto_relevante"]
-    linhas = [
-        {"tipo_registro": "NCM", "ncm": "12345678", "descricao_oficial": "Produto sintético", "ativo": "SIM"},
-        {"tipo_registro": "LEGISLACAO", "id_legislacao": "L1", "ativo": "SIM",
-         "url_fonte": "https://exemplo.gov.br", "texto_relevante": "Trecho fictício"},
-        {"tipo_registro": "ALIQUOTA", "id_regra": "A1", "chave_ncm": "12345678",
-         "tipo_correspondencia": "EXATO", "aliquota_icms": aliquota, "id_legislacao": "L1",
-         "ativo": "SIM", "vigencia_inicio": "2020-01-01"},
-    ]
-    with caminho.open("w", encoding="utf-8", newline="") as arquivo:
-        escritor = csv.DictWriter(arquivo, fieldnames=campos)
-        escritor.writeheader()
-        escritor.writerows(linhas)
-
-
-def test_cli_sem_configuracao_postgres_nao_abre_planilha(monkeypatch, capsys):
+def test_cli_sem_configuracao_postgres_falha_seguro(monkeypatch, capsys):
     from scripts import auditar_integridade as cli
 
     monkeypatch.delenv("DATABASE_URL", raising=False)
@@ -235,15 +216,18 @@ def test_cli_sem_configuracao_postgres_nao_abre_planilha(monkeypatch, capsys):
     assert "DATABASE_URL não foi configurada" in capsys.readouterr().out
 
 
-def test_cli_exit_code_alerta_e_erro_json(monkeypatch, tmp_path, capsys):
-    caminho = tmp_path / "auditoria.csv"
-    _csv_cli(caminho)
-    monkeypatch.setattr("sys.argv", ["auditar_integridade", "--arquivo-csv", str(caminho), "--json"])
+def test_cli_exit_code_sql_e_erro_json(monkeypatch, capsys):
+    # Usa fonte SQL simulada e verifica o relatório, sem abrir CSV ou Excel.
+    repo = object.__new__(PostgresRepository)
+    base = _base()
+    monkeypatch.setattr(cli, "criar_repositorio", lambda **_kwargs: repo)
+    monkeypatch.setattr(cli, "carregar_postgres_somente_leitura", lambda _repo: (base, None))
+    monkeypatch.setattr(cli, "_catalogo_oficial_local", lambda: None)
+    monkeypatch.setattr("sys.argv", ["auditar_integridade", "--json"])
     assert cli.main() == 0
     dados = json.loads(capsys.readouterr().out)
     assert dados["niveis"]["ERRO"] == 0
-    assert dados["niveis"]["ALERTA"] >= 1
-    _csv_cli(caminho, aliquota="")
+    base.aliquotas.loc[0, "aliquota_icms"] = ""
     assert cli.main() == 1
     dados = json.loads(capsys.readouterr().out)
     assert dados["por_codigo"]["ALIQUOTA_AUSENTE"] == 1

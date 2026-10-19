@@ -11,15 +11,14 @@ from sqlalchemy.exc import SQLAlchemyError
 
 from scripts.auditar_integridade import (
     ErroConexaoPostgres, ErroLeituraFiscal, ErroSchemaFiscal, _causa_sql,
-    carregar_csv_local, carregar_postgres_somente_leitura,
+    carregar_postgres_somente_leitura,
 )
-from scripts.importar_validacao_ncm import CAMINHO_VALIDACAO, ler_validacao
 from scripts.sincronizar_ncm_oficial import CAMINHO_CACHE, ErroSincronizacao, carregar_cache
 from src.auditor_integridade import auditar_integridade
 from src.cobertura_fiscal import resumir_cobertura
 from src.dados import ErroConfiguracaoDados, criar_repositorio
 from src.dados.schema import TABELAS, ncm
-from src.regressoes_fiscais import conferir_snapshot, conferir_snapshot_base
+from src.regressoes_fiscais import conferir_snapshot_base
 
 
 def verificar_schema(engine: Engine) -> dict[str, Any]:
@@ -96,21 +95,6 @@ def verificar_prontidao() -> tuple[dict[str, str], list[str], dict[str, Any]]:
     estados["DATA_SOURCE"] = "OK" if fonte == "postgres" else "PENDENTE"
     if fonte != "postgres":
         motivos.append("DATA_SOURCE deve ser postgres em produção.")
-
-    try:
-        preparados, rascunhos = ler_validacao(CAMINHO_VALIDACAO)
-        casos, beneficios = conferir_snapshot(preparados)
-        if (casos, beneficios, rascunhos) != (14, 4, 0):
-            raise AssertionError("Quantidade de casos, benefícios ou rascunhos alterada.")
-        estados["Regressões fiscais"] = f"OK ({casos} casos, {beneficios} benefícios)"
-    except (AssertionError, KeyError, ValueError, OSError) as exc:
-        estados["Regressões fiscais"] = "FALHA"
-        motivos.append(f"Regressões fiscais locais falharam ({type(exc).__name__}).")
-    try:
-        local = carregar_csv_local(CAMINHO_VALIDACAO)
-        detalhes["cobertura_local"] = resumir_cobertura(local)
-    except (ValueError, OSError) as exc:
-        motivos.append(f"Cobertura fiscal local indisponível ({type(exc).__name__}).")
 
     oficiais = None
     if not CAMINHO_CACHE.is_file():
