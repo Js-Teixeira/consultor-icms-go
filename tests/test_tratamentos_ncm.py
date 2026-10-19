@@ -6,7 +6,7 @@ import pandas as pd
 import pytest
 
 from src.busca import consultar, pendencias_validacao
-from tests.test_app_simples import abrir, textos
+from tests.test_app_simples import abrir, abrir_ficha, textos
 from tests.test_consulta_simples import REFERENCIA, base_sintetica
 
 
@@ -110,7 +110,7 @@ def test_vigencia_inconsistente_do_beneficio_fica_visivel_com_pendencia():
     assert any("Vigência da regra inconsistente" in p for p in pendencias_validacao(candidato))
 
 
-def test_interface_exibe_quatro_tratamentos_com_percentuais_distintos(monkeypatch):
+def test_interface_separa_aliquotas_em_fichas_e_beneficios_por_natureza(monkeypatch):
     base = base_com_beneficios(
         beneficio_sintetico(),
         beneficio_sintetico(id_beneficio="B_CREDITO", tipo_beneficio="CREDITO_OUTORGADO",
@@ -126,21 +126,29 @@ def test_interface_exibe_quatro_tratamentos_com_percentuais_distintos(monkeypatc
 
     assert not app.exception
     assert [c.label for c in app.text_input] == ["NCM"]
-    assert [b.label for b in app.button] == ["Consultar"]
+    assert len([b for b in app.button if str(b.key).startswith("opcao_")]) == 2
+    assert "nenhuma foi escolhida automaticamente" in textos(app.warning)
+    assert "8,32%" not in textos(app.markdown)
+    abrir_ficha(app)
     saida = textos(app.markdown)
-    for trecho in ("8,32%", "6,79%", "Redução da base de cálculo: 25,00%",
+    for trecho in ("8,32%", "Redução da base de cálculo: 25,00%",
                    "Carga efetiva: 6,24%", "Crédito outorgado: 4,57%",
                    "Redução fictícia", "Crédito fictício", "Norma sintética",
                    "Somente na operação fictícia", "Situação da validação automática do cadastro: pendente"):
         assert trecho in saida
     assert len(app.subheader) == 4
-    assert "nenhuma foi escolhida automaticamente" in textos(app.warning)
+    assert "6,79%" not in saida
+    next(b for b in app.button if b.label == "Voltar").click().run()
+    abrir_ficha(app, 1)
+    assert "6,79%" in textos(app.markdown) and "8,32%" not in textos(app.markdown)
+    assert "vínculo específico" in textos(app.info)
 
 
 def test_interface_sem_beneficios_informa_ausencia(monkeypatch):
     app = abrir(monkeypatch, base_sintetica())
     app.text_input[0].set_value("12345678")
     app.button[0].click().run()
+    abrir_ficha(app)
     assert "Nenhum benefício fiscal cadastrado" in textos(app.info)
 
 
@@ -151,6 +159,7 @@ def test_beneficio_sem_percentual_nao_inventa_aliquota_zero(monkeypatch, tipo):
     app = abrir(monkeypatch, base)
     app.text_input[0].set_value("12345678")
     app.button[0].click().run()
+    abrir_ficha(app)
     assert not app.exception
     assert "B_REDUCAO" in textos(app.subheader)
     assert "0,00%" not in textos(app.markdown)
@@ -162,9 +171,11 @@ def test_beneficio_aparece_mesmo_sem_aliquota_cadastrada(monkeypatch):
     app = abrir(monkeypatch, base)
     app.text_input[0].set_value("12345678")
     app.button[0].click().run()
+    abrir_ficha(app)
     assert not app.exception
     assert "B_REDUCAO" in textos(app.subheader)
-    assert "Referência geral" in textos(app.warning)
+    assert "19,00%" not in textos(app.markdown)
+    assert "Alíquota interna verificada: não disponível" in textos(app.markdown)
 
 
 def test_referencias_codificadas_nao_entram_na_lista_de_beneficios():
@@ -201,6 +212,7 @@ def test_interface_exibe_pendencias_do_beneficio_junto_ao_tratamento(monkeypatch
     app = abrir(monkeypatch, base)
     app.text_input[0].set_value("12345678")
     app.button[0].click().run()
+    abrir_ficha(app)
     assert not app.exception
     saida = textos(app.markdown)
     assert "Fundamento legal inexistente ou inativo" in saida
@@ -213,6 +225,7 @@ def test_interface_nao_mostra_beneficio_vencido_como_alternativa(monkeypatch):
     app = abrir(monkeypatch, base)
     app.text_input[0].set_value("12345678")
     app.button[0].click().run()
+    abrir_ficha(app)
     assert not app.exception
     assert "B_REDUCAO" not in textos(app.subheader)
     assert "25,00%" not in textos(app.markdown)

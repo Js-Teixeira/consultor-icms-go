@@ -29,6 +29,14 @@ def textos(elementos):
     return " ".join(element.value for element in elementos)
 
 
+def abrir_ficha(app, indice=0):
+    opcoes = [b for b in app.button if str(b.key).startswith("opcao_")]
+    assert len(opcoes) > indice
+    opcoes[indice].click().run()
+    assert not app.exception
+    return app
+
+
 def test_tela_tem_apenas_ncm_e_consulta_com_aliquota_e_fundamento(monkeypatch):
     app = abrir(monkeypatch, base_sintetica())
     assert not app.exception
@@ -38,6 +46,7 @@ def test_tela_tem_apenas_ncm_e_consulta_com_aliquota_e_fundamento(monkeypatch):
 
     app.text_input[0].set_value("12345678")
     app.button[0].click().run()
+    abrir_ficha(app)
     saida = textos(app.markdown)
     assert "8,32%" in saida
     assert "Norma sintética" in saida
@@ -55,6 +64,7 @@ def test_regra_unica_exibe_dados_cadastrados_sem_confirmar_mercadoria(monkeypatc
     app = abrir(monkeypatch, base)
     app.text_input[0].set_value("12345678")
     app.button[0].click().run()
+    abrir_ficha(app)
 
     saida = textos(app.markdown)
     assert not app.exception
@@ -76,6 +86,7 @@ def test_regra_por_prefixo_informa_alcance_da_correspondencia(monkeypatch):
     app = abrir(monkeypatch, base)
     app.text_input[0].set_value("12345678")
     app.button[0].click().run()
+    abrir_ficha(app)
 
     saida = textos(app.markdown)
     assert not app.exception
@@ -99,22 +110,30 @@ def test_multiplas_regras_vigentes_exibe_todas_sem_escolher(monkeypatch):
     app.text_input[0].set_value("12345678")
     app.button[0].click().run()
 
-    saida = textos(app.markdown)
-    assert not app.exception
-    for valor in ("8,32%", "6,79%", "5,43%", "Tratamento A", "Tratamento B", "Tratamento por prefixo"):
-        assert valor in saida
-    for observacao in ("Observação A", "Observação B", "Observação C"):
-        assert observacao in saida
-    assert saida.count("Tipo de correspondência: NCM exato") == 2
-    assert saida.count("Tipo de correspondência: prefixo") == 1
-    assert "Código utilizado: 12345678" in saida
-    assert "Prefixo utilizado: 1234" in saida
-    assert saida.count("Fundamento legal cadastrado:") == 3
-    assert saida.count("Vigência da regra:") == 3
-    assert saida.count("Fonte cadastrada:") == 3
     assert "múltiplas regras" in textos(app.warning).lower()
     assert "não são necessariamente alternativas equivalentes" in textos(app.warning)
-    assert "19,00%" not in saida
+    opcoes = [b for b in app.button if str(b.key).startswith("opcao_")]
+    assert len(opcoes) == 3
+    assert "8,32%" not in textos(app.markdown)
+    for indice, (percentual, descricao, observacao) in enumerate([
+        ("8,32%", "Tratamento A", "Observação A"),
+        ("6,79%", "Tratamento B", "Observação B"),
+        ("5,43%", "Tratamento por prefixo", "Observação C"),
+    ]):
+        abrir_ficha(app, indice)
+        saida = textos(app.markdown)
+        assert percentual in saida and descricao in saida and observacao in saida
+        assert saida.count("Fundamento legal cadastrado:") == 1
+        assert saida.count("Vigência da regra:") == 1
+        assert saida.count("Fonte cadastrada:") == 1
+        assert "19,00%" not in saida
+        if indice == 2:
+            assert "Tipo de correspondência: prefixo" in saida
+            assert "Prefixo utilizado: 1234" in saida
+        else:
+            assert "Tipo de correspondência: NCM exato" in saida
+            assert "Código utilizado: 12345678" in saida
+        next(b for b in app.button if b.label == "Voltar").click().run()
 
 
 def test_regra_com_varias_pendencias_exibe_todas_sem_confirmacao(monkeypatch):
@@ -126,6 +145,7 @@ def test_regra_com_varias_pendencias_exibe_todas_sem_confirmacao(monkeypatch):
     app = abrir(monkeypatch, base)
     app.text_input[0].set_value("12345678")
     app.button[0].click().run()
+    abrir_ficha(app)
 
     saida = textos(app.markdown)
     assert not app.exception
@@ -147,6 +167,7 @@ def test_regras_fora_da_vigencia_nao_aparecem_no_resultado(monkeypatch):
     app = abrir(monkeypatch, base)
     app.text_input[0].set_value("12345678")
     app.button[0].click().run()
+    abrir_ficha(app)
 
     saida = textos(app.markdown)
     assert "8,32%" in saida
@@ -159,6 +180,7 @@ def test_fundamento_inativo_exibe_regra_como_pendente_sem_confirmar(monkeypatch)
     app = abrir(monkeypatch, base)
     app.text_input[0].set_value("12345678")
     app.button[0].click().run()
+    abrir_ficha(app)
     assert not app.exception
     assert "Verificação fiscal necessária" in textos(app.warning)
     assert "8,32%" in textos(app.markdown)
@@ -172,19 +194,21 @@ def test_percentual_invalido_nao_e_exibido_como_aliquota(monkeypatch):
     app = abrir(monkeypatch, base)
     app.text_input[0].set_value("12345678")
     app.button[0].click().run()
+    abrir_ficha(app)
 
     assert "1e100" not in textos(app.markdown)
     assert "Percentual inválido" in textos(app.markdown)
 
 
-def test_ncm_sem_regra_apresenta_modal_com_ressalva(monkeypatch):
+def test_ncm_sem_regra_nao_transforma_modal_em_tratamento(monkeypatch):
     app = abrir(monkeypatch, base_sintetica(regras=[]))
     app.text_input[0].set_value("12345678")
     app.button[0].click().run()
+    abrir_ficha(app)
     assert not app.exception
-    assert "19,00%" in textos(app.markdown)
-    assert "Referência geral" in textos(app.warning)
-    assert "art. 27" in textos(app.markdown)
+    assert "19,00%" not in textos(app.markdown)
+    assert "Alíquota interna verificada: não disponível" in textos(app.markdown)
+    assert "Nenhum tratamento de alíquota vigente" in textos(app.info)
 
 
 def test_ncm_04029900_ausente_nao_mostra_percentuais(monkeypatch):
@@ -210,15 +234,17 @@ def test_ncm_inativo_nao_mostra_percentuais(monkeypatch):
     assert "19,00%" not in textos(app.markdown)
 
 
-def test_hipotese_04029900_informa_vigencia_propria_pendente(monkeypatch):
+def test_hipotese_04029900_nao_cria_tratamento_ou_ex(monkeypatch):
     base = base_sintetica(regras=[])
     base.ncm.loc[0, "ncm"] = "04029900"
     app = abrir(monkeypatch, base)
     app.text_input[0].set_value("04029900")
     app.button[0].click().run()
+    abrir_ficha(app)
 
-    assert "12,00%" in textos(app.markdown)
-    assert "vigência própria pendente de validação" in textos(app.markdown)
+    assert "12,00%" not in textos(app.markdown)
+    assert "19,00%" not in textos(app.markdown)
+    assert "nenhum Ex foi presumido" in textos(app.info)
 
 
 def test_consulta_publica_exige_postgres_mesmo_com_excel_configurado(monkeypatch):
