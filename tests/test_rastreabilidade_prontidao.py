@@ -6,7 +6,7 @@ import pytest
 from sqlalchemy import Column, Integer, MetaData, String, Table, Text, create_engine, event, inspect, select, text
 from sqlalchemy.exc import OperationalError
 
-from scripts.importar_excel_postgres import ErroImportacao, _normalizar_linha, validar_rastreabilidade
+from scripts.validacao_carga_sql import ErroImportacao, _normalizar_linha, validar_rastreabilidade
 from scripts.importar_validacao_ncm import importar_validacao, ler_validacao
 from scripts.migrar_rastreabilidade_fiscal import migrar
 from scripts.verificar_prontidao_producao import verificar_schema

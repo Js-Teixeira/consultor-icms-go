@@ -1,0 +1,25 @@
+name: Testes SQL sem Neon
+
+on:
+  push:
+    branches:
+      - main
+      - feature/consulta-aliquota-geral-e-condicional
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  testes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Instalar dependencias
+        run: python -m pip install -r requirements.txt -r requirements-dev.txt
+      - name: Executar testes isolados
+        run: python -m pytest -q

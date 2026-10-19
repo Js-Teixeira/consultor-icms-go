@@ -3,9 +3,7 @@
 from __future__ import annotations
 
 import argparse
-import csv
 import json
-from pathlib import Path
 
 import pandas as pd
 from sqlalchemy import inspect, select, text
@@ -18,10 +16,6 @@ from src.dados.postgres_repository import PostgresRepository
 from src.dados.schema import TABELAS
 from src.modelos import BaseTributaria
 from updater.schema import evidencias_extracao, regras_consolidadas, regras_extraidas
-
-CSV_TABELAS = {"NCM": "NCM", "ALIQUOTA": "Aliquotas", "BENEFICIO": "Beneficios",
-               "LEGISLACAO": "Legislacao"}
-
 
 class ErroConexaoPostgres(RuntimeError):
     """Não foi possível iniciar a leitura PostgreSQL."""
@@ -43,33 +37,6 @@ def _causa_sql(exc: SQLAlchemyError) -> str:
     if sqlstate == "42501":
         return "permissão SELECT negada (SQLSTATE 42501)"
     return f"{type(exc).__name__}" + (f" (SQLSTATE {sqlstate})" if sqlstate else "")
-
-
-def carregar_csv_local(caminho: Path) -> BaseTributaria:
-    """Lê registros brutos para também encontrar erros que o importador recusaria."""
-
-    grupos: dict[str, list[dict[str, str]]] = {nome: [] for nome in TABELAS}
-    with caminho.open(encoding="utf-8-sig", newline="") as arquivo:
-        leitor = csv.DictReader(arquivo)
-        if not leitor.fieldnames or "tipo_registro" not in leitor.fieldnames:
-            raise ValueError("CSV sem coluna tipo_registro.")
-        for numero, registro in enumerate(leitor, 2):
-            tipo = (registro.get("tipo_registro") or "").strip().upper()
-            if tipo == "RASCUNHO":
-                continue
-            if tipo not in CSV_TABELAS:
-                raise ValueError(f"Tipo de registro inválido na linha {numero}.")
-            grupos[CSV_TABELAS[tipo]].append(registro)
-    return BaseTributaria(pd.DataFrame(grupos["NCM"]), pd.DataFrame(grupos["Aliquotas"]),
-                          pd.DataFrame(grupos["Beneficios"]), pd.DataFrame(grupos["Legislacao"]))
-
-
-def carregar_excel_local(caminho: Path) -> BaseTributaria:
-    """Lê abas sem validação prévia para poder relatar defeitos estruturais."""
-
-    abas = pd.read_excel(caminho, sheet_name=list(TABELAS), dtype=object, engine="openpyxl")
-    return BaseTributaria(abas["NCM"].dropna(how="all"), abas["Aliquotas"].dropna(how="all"),
-                          abas["Beneficios"].dropna(how="all"), abas["Legislacao"].dropna(how="all"))
 
 
 def _carregar_updater_opcional(engine) -> dict[str, list[dict]]:
@@ -185,23 +152,13 @@ def mostrar_relatorio(relatorio: Relatorio, *, formato_json: bool = False) -> No
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Audita integridade sem alterar dados fiscais.")
-    grupo = parser.add_mutually_exclusive_group()
-    grupo.add_argument("--arquivo-csv", type=Path, help="Audita CSV local sem acessar banco")
-    grupo.add_argument("--arquivo-excel", type=Path, help="Audita Excel local sem acessar banco")
     parser.add_argument("--json", action="store_true", help="Mostra relatório estruturado em JSON")
     args = parser.parse_args()
     try:
-        updater = None
-        if args.arquivo_csv:
-            base = carregar_csv_local(args.arquivo_csv)
-        elif args.arquivo_excel:
-            base = carregar_excel_local(args.arquivo_excel)
-        else:
-            repositorio = criar_repositorio()
-            if isinstance(repositorio, PostgresRepository):
-                base, updater = carregar_postgres_somente_leitura(repositorio)
-            else:
-                raise ValueError("Fonte de dados não suportada pelo auditor.")
+        repositorio = criar_repositorio()
+        if not isinstance(repositorio, PostgresRepository):
+            raise ErroConfiguracaoDados("PostgreSQL é a única fonte da auditoria.")
+        base, updater = carregar_postgres_somente_leitura(repositorio)
         relatorio = auditar_integridade(base, catalogo_oficial=_catalogo_oficial_local(), updater=updater)
     except (ErroConexaoPostgres, ErroSchemaFiscal, ErroLeituraFiscal) as exc:
         print(f"Não foi possível concluir a auditoria fiscal: {exc}")

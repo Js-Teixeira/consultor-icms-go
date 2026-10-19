@@ -7,11 +7,11 @@ Este repositório é um sistema de consulta de NCM, alíquotas de ICMS e possív
 - `app.py`: interface principal Streamlit.
 - `admin.py`: rotinas administrativas; verifique o controle de acesso antes de expor funcionalidades.
 - `src/`: busca, normalização, regras de apresentação, confiança, rastreabilidade e validações.
-- `src/dados/`: acesso às fontes Excel e PostgreSQL.
+- `src/dados/`: acesso operacional somente ao PostgreSQL.
 - `updater/`: rotinas de atualização e extração de informações legislativas.
 - `scripts/`: importação, sincronização, verificações e utilitários.
 - `tests/`: testes automatizados.
-- `base/`: arquivos de dados locais e caches, que não representam necessariamente a base em produção.
+- `base/`: fixtures e caches auxiliares; o PostgreSQL é a fonte operacional.
 
 Antes de mudar código, confirme a estrutura real do repositório e leia os módulos relevantes. Não assuma que o ambiente local e a produção compartilham a mesma base de dados.
 
@@ -26,7 +26,7 @@ Antes de mudar código, confirme a estrutura real do repositório e leia os mód
 8. Propostas de alteração de regras tributárias exigem justificativa, testes e aprovação do responsável fiscal antes de implantação.
 
 ## Dados, privacidade e segurança
-- Não altere, limpe, substitua ou importe dados em `base/`, Excel, CSV, caches fiscais ou PostgreSQL sem autorização explícita.
+- Não altere, limpe, substitua ou importe dados em `base/`, CSV, caches fiscais ou PostgreSQL sem autorização explícita.
 - Não execute migração, comando SQL com escrita, sincronização remota ou atualização legislativa automática sem autorização.
 - Nunca exponha `.env`, `secrets.toml`, `DATABASE_URL`, tokens, credenciais ou dados pessoais/fiscais reais em prompts, logs, commits ou serviços externos.
 - Para testes e exemplos, prefira dados sintéticos e anonimizados.
@@ -44,7 +44,6 @@ Antes de mudar código, confirme a estrutura real do repositório e leia os mód
 
 ## Pontos para revalidar antes de novas funcionalidades
 Um diagnóstico local anterior identificou riscos que devem ser conferidos novamente, não assumidos como conclusões permanentes:
-- A planilha Excel versionada tinha abas sem registros; isso não demonstra que o PostgreSQL de produção esteja vazio.
 - Um percentual podia ser priorizado e exibido mesmo com fundamento legal problemático.
 - A normalização aceitava caracteres não numéricos misturados ao NCM.
 - A interface podia usar a data atual do servidor e um rótulo de alíquota interna em contexto interestadual.

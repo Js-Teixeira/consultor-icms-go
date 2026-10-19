@@ -13,7 +13,7 @@ import pandas as pd
 from sqlalchemy import select
 from sqlalchemy.exc import SQLAlchemyError
 
-from scripts.importar_excel_postgres import ErroImportacao, _normalizar_linha, validar_rastreabilidade
+from scripts.validacao_carga_sql import ErroImportacao, _normalizar_linha, validar_rastreabilidade
 from src.dados import ErroConfiguracaoDados, criar_repositorio
 from src.dados.schema import TABELAS
 

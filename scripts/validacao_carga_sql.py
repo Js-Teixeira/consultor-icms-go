@@ -1,30 +1,26 @@
-"""Importa planilha validada para PostgreSQL em uma única transação."""
+"""Validação estrutural e rastreabilidade de registros destinados ao banco SQL.
+
+Não lê planilhas nem acessa o banco por conta própria; o chamador
+controla a transação quando for necessário verificar vínculos.
+"""
 
 from __future__ import annotations
 
-import argparse
 import re
 from datetime import date, datetime
 from decimal import Decimal, InvalidOperation
-from pathlib import Path
 from typing import Any
 
 import pandas as pd
-from sqlalchemy import Date, Integer, Numeric, Table, func, inspect, select
-from sqlalchemy.dialects.postgresql import insert as pg_insert
-from sqlalchemy.exc import SQLAlchemyError
+from sqlalchemy import Date, Integer, Numeric, Table, inspect, select
 
-from src.carregamento import CAMINHO_BASE, ErroBase, carregar_base
-from src.dados import ErroConfiguracaoDados, criar_repositorio
-from src.dados.postgres_repository import PostgresRepository
-from src.dados.schema import TABELAS
-from src.modelos import BaseTributaria, ESCOPOS_OPERACAO, PREFIXOS_NCM_VALIDOS
+from src.modelos import ESCOPOS_OPERACAO, PREFIXOS_NCM_VALIDOS
 from src.rastreabilidade import ids_informados, origens_consolidacao, problemas_vinculo
 from updater.schema import evidencias_extracao, regras_consolidadas, regras_extraidas
 
 
 class ErroImportacao(ValueError):
-    """Dados da planilha incompatíveis com o schema PostgreSQL."""
+    """Dados incompatíveis com o schema PostgreSQL."""
 
 
 def _vazio(valor: Any) -> bool:
@@ -134,30 +130,6 @@ def _normalizar_linha(nome: str, tabela: Table, linha: pd.Series, numero: int) -
     return registro
 
 
-def preparar_registros(base: BaseTributaria) -> dict[str, list[dict[str, Any]]]:
-    """Converte linhas Excel aos tipos SQL e rejeita chaves duplicadas."""
-
-    abas = {
-        "NCM": base.ncm,
-        "Legislacao": base.legislacao,
-        "Aliquotas": base.aliquotas,
-        "Beneficios": base.beneficios,
-    }
-    preparados: dict[str, list[dict[str, Any]]] = {}
-    for nome, tabela in TABELAS.items():
-        chave = next(iter(tabela.primary_key.columns)).name
-        vistos: set[str] = set()
-        registros = []
-        for indice, linha in abas[nome].iterrows():
-            registro = _normalizar_linha(nome, tabela, linha, indice + 2)
-            if registro[chave] in vistos:
-                raise ErroImportacao(f"Chave {chave} duplicada em {nome}, linha {indice + 2}.")
-            vistos.add(registro[chave])
-            registros.append(registro)
-        preparados[nome] = registros
-    return preparados
-
-
 def validar_rastreabilidade(conexao: Any, preparados: dict[str, list[dict[str, Any]]]) -> None:
     """Confere somente IDs curados presentes na carga, antes de qualquer escrita."""
 
@@ -195,51 +167,3 @@ def validar_rastreabilidade(conexao: Any, preparados: dict[str, list[dict[str, A
             raise ErroImportacao(f"{nome} {chave}: {problemas[0][0]}: {problemas[0][1]}")
 
 
-def importar_base(base: BaseTributaria, repositorio: PostgresRepository, *, confirmar_atualizacao: bool = False) -> dict[str, int]:
-    """Insere sem duplicar; atualiza existentes somente com confirmação explícita."""
-
-    preparados = preparar_registros(base)
-    with repositorio.engine.begin() as conexao:
-        validar_rastreabilidade(conexao, preparados)
-        for nome, tabela in TABELAS.items():
-            registros = preparados[nome]
-            if not registros:
-                continue
-            chave = next(iter(tabela.primary_key.columns)).name
-            insercao = pg_insert(tabela)
-            if confirmar_atualizacao:
-                atualizacoes = {
-                    coluna.name: (func.coalesce(insercao.excluded[coluna.name], tabela.c[coluna.name])
-                                  if coluna.name in {"regra_consolidada_id", "evidencia_ncm_id"}
-                                  else insercao.excluded[coluna.name])
-                    for coluna in tabela.columns if coluna.name != chave
-                }
-                comando = insercao.on_conflict_do_update(index_elements=[tabela.c[chave]], set_=atualizacoes)
-            else:
-                comando = insercao.on_conflict_do_nothing(index_elements=[tabela.c[chave]])
-            conexao.execute(comando, registros)
-    return {nome: len(registros) for nome, registros in preparados.items()}
-
-
-def main() -> int:
-    parser = argparse.ArgumentParser(description="Importa a planilha para PostgreSQL.")
-    parser.add_argument("--planilha", type=Path, default=CAMINHO_BASE)
-    parser.add_argument("--confirmar-atualizacao", action="store_true", help="Atualiza registros existentes com os dados da planilha")
-    args = parser.parse_args()
-    try:
-        base = carregar_base(args.planilha)
-        repositorio = criar_repositorio(data_source="postgres")
-        assert isinstance(repositorio, PostgresRepository)
-        totais = importar_base(base, repositorio, confirmar_atualizacao=args.confirmar_atualizacao)
-    except (ErroBase, ErroConfiguracaoDados, ErroImportacao) as exc:
-        print(exc)
-        return 1
-    except (SQLAlchemyError, OSError):
-        print("Não foi possível importar para a base tributária online; a transação foi revertida.")
-        return 1
-    print("Linhas processadas: " + ", ".join(f"{nome}={total}" for nome, total in totais.items()))
-    return 0
-
-
-if __name__ == "__main__":
-    raise SystemExit(main())

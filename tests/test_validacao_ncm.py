@@ -7,7 +7,7 @@ import pytest
 from sqlalchemy import create_engine, select, text
 from sqlalchemy.exc import IntegrityError
 
-from scripts.importar_excel_postgres import ErroImportacao
+from scripts.validacao_carga_sql import ErroImportacao
 from scripts.importar_validacao_ncm import CAMINHO_VALIDACAO, COLUNAS, importar_validacao, ler_validacao
 from src.dados.postgres_repository import PostgresRepository
 from src.dados.schema import TABELAS, metadata
