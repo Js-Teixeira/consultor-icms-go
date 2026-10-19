@@ -17,7 +17,7 @@ def test_schema_sql_aponta_coluna_ativo_ausente():
         conexao.execute(text("CREATE TABLE ncm (ncm TEXT PRIMARY KEY, descricao_oficial TEXT)"))
     resultado = verificar_schema(engine)
     assert not resultado["schema"]
-    assert "ativo" in resultado["colunas_faltantes"]["NCM"]
+    assert "ativo" in resultado["colunas_faltantes"]["ncm"]
 
 
 @pytest.mark.parametrize(("valor", "esperado"), [
