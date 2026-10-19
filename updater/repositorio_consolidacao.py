@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import re
 from typing import Any
 
 from sqlalchemy import Engine, func, insert, select, update
@@ -13,8 +14,32 @@ from .consolidacao import CONSOLIDATOR_VERSION, Consolidada, Decisao
 from .fontes import ErroColeta, validar_url_oficial
 from .schema import (
     atos_legislativos, evidencias_extracao, regras_consolidadas, regras_extraidas,
-    relacoes_regras, versoes_ato,
+    relacoes_regras, versoes_ato, processamentos_extracao,
 )
+
+
+def _ordem_extrator(versao: str) -> tuple[int, ...]:
+    match = re.fullmatch(r"(\d+)\.(\d+)\.(\d+)(?:-recovery\.(\d+))?", versao)
+    if not match:
+        raise ValueError("Versão de extrator não reconhecida; consolidação bloqueada.")
+    # Uma versão final tem precedência sobre sua própria pré-versão de recuperação.
+    return (*map(int, match.groups()[:3]), int(match[4] is None), int(match[4] or 0))
+
+
+def _processamentos_atuais(conexao: Any, documentos: set[int]) -> dict[tuple[int, int], Any]:
+    """Seleciona a maior versão antes de avaliar sucesso ou elegibilidade."""
+    atuais = {}
+    if not documentos:
+        return atuais
+    for processamento in conexao.execute(select(processamentos_extracao).where(
+        processamentos_extracao.c.versao_ato_id.in_(documentos),
+    )).mappings():
+        ordem = _ordem_extrator(processamento["extrator_versao"])
+        chave = (processamento["ato_id"], processamento["versao_ato_id"])
+        anterior = atuais.get(chave)
+        if anterior is None or ordem > _ordem_extrator(anterior["extrator_versao"]):
+            atuais[chave] = processamento
+    return atuais
 
 
 class RepositorioConsolidacao:
@@ -34,6 +59,11 @@ class RepositorioConsolidacao:
             regras_consolidadas,
             regras_extraidas.c.ato_id.label("ato_extracao_id"),
             regras_extraidas.c.versao_ato_id,
+            regras_extraidas.c.processamento_id,
+            regras_extraidas.c.extrator_versao,
+            regras_extraidas.c.elegivel_consolidacao,
+            regras_extraidas.c.elegivel_consulta_ncm,
+            regras_extraidas.c.papel_dispositivo,
             regras_extraidas.c.status_revisao.label("status_extracao"),
             versoes_ato.c.ato_id.label("ato_versao_id"),
             ultima.label("ultima_versao_id"),
@@ -53,6 +83,9 @@ class RepositorioConsolidacao:
         ).order_by(regras_consolidadas.c.id)
         with self.engine.connect() as conexao:
             propostas = [dict(linha) for linha in conexao.execute(consulta).mappings()]
+            documentos = {p["versao_ato_id"] for p in propostas
+                          if p.get("processamento_id") is not None}
+            atuais = _processamentos_atuais(conexao, documentos)
             origens = {linha["regra_origem_id"] for linha in propostas}
             evidencias = [dict(linha) for linha in conexao.execute(
                 select(evidencias_extracao).where(
@@ -66,6 +99,7 @@ class RepositorioConsolidacao:
             por_origem.setdefault(evidencia["regra_extraida_id"], []).append(evidencia)
         for proposta in propostas:
             proposta["evidencias"] = por_origem.get(proposta["regra_origem_id"], [])
+            atual = atuais.get((proposta.get("ato_extracao_id"), proposta["versao_ato_id"]))
             proposta["cadeia_origem_valida"] = (
                 bool(proposta.get("ato_origem_id"))
                 and proposta.get("ato_origem_id") == proposta.get("ato_extracao_id")
@@ -75,7 +109,13 @@ class RepositorioConsolidacao:
                                        and bool(proposta["hash_atual"])
                                        and proposta["hash_atual"] == proposta["hash_versao"]
                                        and proposta["versao_ato_id"] == proposta["ultima_versao_id"]
-                                       and proposta["status_ato"] == "PROCESSADO")
+                                       and proposta["status_ato"] == "PROCESSADO"
+                                       and atual is not None and atual["status"] == "COMPLETO"
+                                       and atual["id"] == proposta.get("processamento_id")
+                                       and atual["extrator_versao"] == proposta.get("extrator_versao")
+                                       and proposta.get("elegivel_consolidacao") == "SIM"
+                                       and proposta.get("elegivel_consulta_ncm") == "SIM"
+                                       and proposta.get("papel_dispositivo") == "REGRA_MATERIAL")
             # A coleta registra hash e data, mas não uma validação da autenticidade
             # fiscal da fonte. Sem decisão auditável, essa confirmação não existe.
             proposta["fonte_verificada"] = False
@@ -109,9 +149,20 @@ class RepositorioConsolidacao:
             consulta = consulta.where(atos_legislativos.c.ano == ano)
         with self.engine.connect() as conexao:
             linhas = [dict(linha) for linha in conexao.execute(consulta).mappings()]
+            documentos = {r["versao_ato_id"] for r in linhas}
+            atuais = _processamentos_atuais(conexao, documentos)
         selecionadas: list[dict[str, Any]] = []
         atos: set[int] = set()
         for linha in linhas:
+            atual = atuais.get((linha["ato_id"], linha["versao_ato_id"]))
+            # Escolhe o processamento antes da elegibilidade: uma versão nova
+            # bloqueada/vazia/incompleta nunca faz ressurgir a concessão antiga.
+            # Nenhum registro ou evidência histórica é alterado aqui.
+            if not atual or atual["status"] != "COMPLETO" or (
+                atual["id"] != linha["processamento_id"]
+                or atual["extrator_versao"] != linha["extrator_versao"]
+            ):
+                continue
             try:
                 validar_url_oficial(linha["url_texto_oficial"] or "")
             except ErroColeta:

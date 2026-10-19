@@ -404,8 +404,14 @@ def test_fonte_de_banco_sem_confirmacao_explicita_permanece_bloqueada():
             if "FROM regras_consolidadas" in str(comando):
                 linhas = [dict(proposta(), ato_extracao_id=7, ato_versao_id=7,
                               versao_ato_id=3, ultima_versao_id=3,
+                              processamento_id=9, extrator_versao="2.5.4-recovery.1",
+                              elegivel_consolidacao="SIM", elegivel_consulta_ncm="SIM",
+                              papel_dispositivo="REGRA_MATERIAL",
                               status_ato="PROCESSADO", status_extracao="VALIDADO",
                               hash_atual="hash", hash_versao="hash")]
+            elif "FROM processamentos_extracao" in str(comando):
+                linhas = [{"id": 9, "ato_id": 7, "versao_ato_id": 3,
+                           "extrator_versao": "2.5.4-recovery.1", "status": "COMPLETO"}]
             elif "FROM evidencias_extracao" in str(comando):
                 linhas = evidencias()
             else:

@@ -135,12 +135,13 @@ def test_suspensao_de_credito_nao_e_beneficio(texto):
     assert any(e.tipo_evidencia == "ESCOPO_FISCAL" for e in regra.evidencias)
 
 
-def test_suspensao_fiscal_explicita_sem_ncm_nao_vai_para_consolidacao_ncm():
+def test_suspensao_sem_ncm_preserva_candidatura_sem_autorizar_consulta():
     regra = unica("Fica suspenso o recolhimento do ICMS nas operações com mercadorias descritas no art. 8º.")
     assert regra.tipo_regra == "SUSPENSAO"
     assert regra.ncm_chave is None
-    assert (regra.escopo_fiscal, regra.elegivel_consolidacao) == ("ALIQUOTA_BENEFICIO", "NAO")
+    assert (regra.escopo_fiscal, regra.elegivel_consolidacao) == ("ALIQUOTA_BENEFICIO", "SIM")
     assert regra.elegivel_consulta_ncm == "NAO"
+    assert regra.status_revisao == "PENDENTE"
 
 
 @pytest.mark.parametrize("texto", [
@@ -170,10 +171,11 @@ def test_cabecalho_generico_nao_promove_regra_mas_conteudo_seguinte_e_analisado(
     assert (regras[0].escopo_fiscal, regras[0].elegivel_consolidacao, regras[0].confianca) == (
         "INDETERMINADO", "NAO", "BAIXA")
     assert (regras[1].tipo_regra, regras[1].elegivel_consolidacao, regras[1].ncm_chave) == (
-        "ISENCAO", "NAO", None)
+        "ISENCAO", "SIM", None)
+    assert regras[1].elegivel_consulta_ncm == "NAO" and regras[1].status_revisao == "PENDENTE"
 
 
-def test_beneficio_generico_sem_ncm_nao_cria_grupo_de_consolidacao():
+def test_material_sem_ncm_e_preservada_sem_associar_complementos_ambiguos():
     texto = "\n".join([
         "Art. 1º Fica autorizado a conceder crédito outorgado do ICMS a estabelecimentos industriais do Programa Exemplo.",
         "Art. 2º Para ser beneficiário do crédito outorgado, deve celebrar termo de acordo.",
@@ -187,15 +189,16 @@ def test_beneficio_generico_sem_ncm_nao_cria_grupo_de_consolidacao():
     assert len(regras) == 7
     principal, *complementos = regras
     assert (principal.tipo_regra, principal.papel_dispositivo, principal.elegivel_consolidacao) == (
-        "CREDITO_OUTORGADO", "REGRA_MATERIAL", "NAO")
+        "CREDITO_OUTORGADO", "REGRA_MATERIAL", "SIM")
     assert principal.credito_outorgado_percentual is None
     assert principal.ncm_chave is None
     assert principal.elegivel_consulta_ncm == "NAO"
-    assert principal.grupo_regra_id is None
+    assert principal.grupo_regra_id
     assert [r.papel_dispositivo for r in complementos] == [
         "BENEFICIARIO", "CALCULO", "UTILIZACAO", "CONSEQUENCIA", "CONDICAO", "VEDACAO",
     ]
     assert all(r.elegivel_consolidacao == "NAO" and r.grupo_regra_id is None for r in complementos)
+    assert all(r.elegivel_consulta_ncm == "NAO" and r.status_revisao == "PENDENTE" for r in regras)
     assert all(r.trecho_origem == texto[r.inicio_trecho:r.fim_trecho] for r in regras)
     assert all(texto[e.posicao_inicio:e.posicao_fim] == e.texto_origem
                for r in regras for e in r.evidencias)
@@ -212,7 +215,8 @@ def test_cabecalhos_de_artigo_separados_preservam_dispositivo_e_evidencia():
     texto = "Art. 1º\nFica autorizado a conceder crédito outorgado do ICMS a estabelecimento industrial.\nArt. 2º\nDeve celebrar termo de acordo para usar o benefício."
     principal, complemento = extrair_regras(texto)
     assert (principal.artigo, complemento.artigo) == ("1", "2")
-    assert complemento.grupo_regra_id is principal.grupo_regra_id is None
+    assert principal.grupo_regra_id and complemento.grupo_regra_id is None
+    assert principal.elegivel_consulta_ncm == complemento.elegivel_consulta_ncm == "NAO"
     assert any(e.tipo_evidencia == "ARTIGO" and e.texto_origem == "Art. 2º" for e in complemento.evidencias)
     assert all(texto[e.posicao_inicio:e.posicao_fim] == e.texto_origem for e in complemento.evidencias)
 
@@ -226,10 +230,12 @@ def test_percentual_em_calculo_complementar_nao_e_herdado_pelo_principal():
     assert principal.credito_outorgado_percentual is None
     assert calculo.papel_dispositivo == "CALCULO"
     assert calculo.elegivel_consolidacao == "NAO"
-    assert calculo.grupo_regra_id is principal.grupo_regra_id is None
+    assert principal.grupo_regra_id and calculo.grupo_regra_id is None
+    assert principal.elegivel_consulta_ncm == calculo.elegivel_consulta_ncm == "NAO"
+    assert calculo.credito_outorgado_percentual == Decimal("5")
 
 
-def test_beneficio_material_sem_ncm_nao_cria_grupos():
+def test_materiais_sem_ncm_preservam_identidades_sem_associacao_por_proximidade():
     regras = extrair_regras("\n".join([
         "Art. 1º Fica autorizado a conceder crédito outorgado do ICMS ao Programa A.",
         "Art. 2º Deve celebrar termo de acordo para obter o benefício.",
@@ -237,16 +243,19 @@ def test_beneficio_material_sem_ncm_nao_cria_grupos():
         "Art. 4º Deve celebrar termo de acordo para obter o benefício.",
     ]))
     assert len(regras) == 4
-    assert all(r.grupo_regra_id is None for r in regras)
-    assert sum(r.elegivel_consolidacao == "SIM" for r in regras) == 0
+    assert regras[0].grupo_regra_id and regras[2].grupo_regra_id
+    assert regras[0].grupo_regra_id != regras[2].grupo_regra_id
+    assert regras[1].grupo_regra_id is regras[3].grupo_regra_id is None
+    assert sum(r.elegivel_consolidacao == "SIM" for r in regras) == 2
+    assert all(r.elegivel_consulta_ncm == "NAO" and r.status_revisao == "PENDENTE" for r in regras)
 
 
 def test_dispositivos_complementares_acompanham_principal_na_fase_3(repo_sqlite, capsys):
     texto = "\n".join([
         "Art. 1º Fica autorizado a conceder crédito outorgado do ICMS ao NCM 2202.10.00 em estabelecimento industrial.",
-        "Art. 2º Para ser beneficiário, deve celebrar termo de acordo.",
-        "Art. 3º O valor do crédito deve ser utilizado na apuração.",
-        "Art. 4º Deverá estornar o crédito em caso de descumprimento.",
+        "Art. 2º Para ser beneficiário, deve celebrar termo de acordo para o benefício previsto no art. 1º deste ato.",
+        "Art. 3º O valor do crédito deve ser utilizado na apuração do benefício previsto no art. 1º deste ato.",
+        "Art. 4º Deverá estornar o crédito em caso de descumprimento do benefício previsto no art. 1º deste ato.",
     ])
     inserir_ato(repo_sqlite, texto)
     executar(repo_sqlite, dry_run=True)
@@ -286,7 +295,7 @@ def test_beneficio_com_ncm_explicito_e_elegivel_para_consulta(texto, chave, corr
 def test_produto_descrito_sem_ncm_aguarda_vinculo_oficial():
     regra = unica("Produto refrigerante de cola: fica isento do ICMS nas operações de saída.")
     assert regra.ncm_chave is None
-    assert regra.elegivel_consolidacao == "NAO"
+    assert regra.elegivel_consolidacao == "SIM" and regra.status_revisao == "PENDENTE"
     assert (regra.elegivel_consulta_ncm, regra.status_vinculo_ncm) == (
         "NAO", "PENDENTE_VINCULO_NCM")
     assert "associação a NCM oficial" in regra.motivo_consulta_ncm
@@ -419,7 +428,7 @@ def test_fase_3_nao_recebe_beneficio_generico_sem_ncm(repo_sqlite):
     executar(repo_sqlite)
     with repo_sqlite.engine.connect() as conexao:
         regra = conexao.execute(select(regras_extraidas)).mappings().one()
-    assert regra["elegivel_consolidacao"] == "NAO"
+    assert regra["elegivel_consolidacao"] == "SIM" and regra["status_revisao"] == "PENDENTE"
     assert regra["elegivel_consulta_ncm"] == "NAO"
     assert regra["status_vinculo_ncm"] == "SEM_VINCULO_NCM"
     assert RepositorioConsolidacao(repo_sqlite.engine).listar_extraidas() == []
