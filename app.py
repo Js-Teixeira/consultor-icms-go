@@ -9,8 +9,9 @@ from src.dados import ErroConfiguracaoDados, ErroFonteDados, criar_repositorio
 from src.formatacao import formatar_percentual
 
 
-st.set_page_config(page_title="Alíquota interna de ICMS — Goiás", layout="centered")
-st.title("Alíquota interna de ICMS — Goiás")
+st.set_page_config(page_title="Consultor ICMS GO", layout="centered")
+st.title("Consultor ICMS GO")
+st.caption("Consulte tratamentos de ICMS cadastrados para operações internas em Goiás. O NCM, sozinho, não confirma a aplicação de uma regra.")
 
 
 def exibir_data(valor):
@@ -117,7 +118,7 @@ if enviado and base is not None:
     else:
         st.caption(f"Operação interna em Goiás · Data de referência: {resultado.data_referencia:%d/%m/%Y}")
         if resultado.situacao == "NCM_NAO_ENCONTRADO":
-            st.info("NCM não encontrado na tabela cadastrada.")
+            st.info("NCM não encontrado no cadastro. Confira o código informado e tente novamente.")
         elif resultado.situacao in {"SEM_TRATAMENTO_CADASTRADO", "BENEFICIOS_ENCONTRADOS"}:
             if resultado.aliquota_geral_referencia is not None:
                 st.subheader("Alíquota geral de referência — Goiás")

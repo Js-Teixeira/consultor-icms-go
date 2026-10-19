@@ -35,7 +35,7 @@ def criar_repositorio(
     secrets: Mapping[str, Any] | None = None,
     engine: Engine | None = None,
 ) -> RepositorioTributario:
-    """Exige PostgreSQL; leitores históricos de arquivos são usados diretamente."""
+    """Cria a conexão de leitura para a única fonte operacional: PostgreSQL."""
 
     fonte_configurada = data_source if data_source is not None else os.getenv("DATA_SOURCE") or _segredo(secrets, "DATA_SOURCE")
     url = database_url if database_url is not None else os.getenv("DATABASE_URL") or _segredo(secrets, "DATABASE_URL")

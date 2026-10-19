@@ -1,24 +1,36 @@
-# Consultor de alíquota interna de ICMS — Goiás
+# Consultor ICMS GO
 
-Aplicação Streamlit para consultar o tratamento de ICMS cadastrado para um NCM e seu fundamento legal. A pesquisa é realizada pelo NCM; os resultados apresentam tratamentos encontrados, percentuais cadastrados, vigências, condições e pendências.
+O Consultor ICMS GO ajuda a pesquisar tratamentos de ICMS cadastrados para mercadorias em Goiás. Basta informar o NCM para consultar as regras encontradas, seus percentuais, fundamentos legais, condições e datas de vigência.
 
-A correspondência de um NCM não comprova, isoladamente, a aplicabilidade de um benefício fiscal. Quando há mais de uma regra, a aplicação não escolhe automaticamente uma delas. O resultado não substitui a análise da legislação vigente e das condições concretas da operação.
+A consulta é voltada a **operações internas em Goiás** e usa a data de referência apresentada na tela.
 
-## Componentes
+## O que a consulta apresenta
 
-- `app.py`: interface pública de consulta.
-- `src/`: consulta, apresentação, normalização e validações.
-- `src/dados/`: acesso operacional ao PostgreSQL. Leitores de Excel permanecem apenas para operações históricas.
-- `admin.py`: painel administrativo separado da aplicação pública.
-- `updater/`: coleta, extração e consolidação de candidatos jurídicos.
-- `scripts/`: importação, auditoria e ferramentas administrativas.
-- `tests/`: testes automatizados.
-- `base/`: arquivos auxiliares de regressão fiscal; não são a fonte operacional.
+- O NCM pesquisado e os tratamentos correspondentes cadastrados.
+- Alíquotas e benefícios, com os percentuais identificados separadamente.
+- Referências legais, condições de aplicação e eventuais pendências.
+- Uma indicação quando não há cadastro ou quando mais de uma regra exige análise.
 
-## Dados e segurança fiscal
+Quando não há uma regra específica, o sistema pode mostrar a alíquota geral **como referência**, não como enquadramento confirmado. Algumas hipóteses especiais também podem aparecer com ressalvas.
 
-A consulta pública utiliza PostgreSQL como fonte operacional e não recorre automaticamente ao Excel se a conexão estiver indisponível. A credencial da aplicação pública é destinada a operações somente de leitura.
+## De onde vêm os dados
 
-As propostas resultantes da extração legislativa não são publicadas automaticamente. A existência de registros de extração, consolidação ou simulação não comprova aprovação fiscal, autenticidade jurídica da fonte ou autorização para alterar cadastros.
+A aplicação pública consulta **PostgreSQL (Neon)**. O Excel não é utilizado como fonte operacional, nem como alternativa em caso de falha de conexão.
 
-O histórico e as evidências preservam a distinção entre regras encontradas, hipóteses condicionadas e tratamentos fiscalmente confirmados.
+Os registros de legislação e os tratamentos fiscais são consultados, mas **não são alterados pela tela pública**. O monitoramento de atos e a extração de possíveis regras ficam separados da consulta e não publicam benefícios automaticamente.
+
+## Organização do projeto
+
+- `app.py` — tela pública de consulta.
+- `src/` — pesquisa por NCM, validações, formatação e acesso ao PostgreSQL.
+- `admin.py` — painel administrativo separado da aplicação pública.
+- `updater/` — coleta de atos e preparação de regras para análise.
+- `scripts/` — auditoria, sincronização e outras rotinas administrativas.
+- `tests/` — verificações automatizadas feitas com dados isolados.
+- `base/validacao_ncm.csv` — referência auxiliar para testes e cargas administrativas; não alimenta a consulta pública.
+
+## Atenção ao uso fiscal
+
+**Encontrar um NCM não significa que a alíquota ou o benefício se aplica automaticamente à mercadoria.** Operação, descrição do produto, vigência, fundamento e demais requisitos legais precisam ser conferidos.
+
+Quando houver regras conflitantes, dados incompletos ou condições não verificadas, o consultor informa a pendência em vez de escolher uma regra por conta própria. A consulta é um apoio à análise fiscal, não substitui a legislação nem a revisão do responsável.
