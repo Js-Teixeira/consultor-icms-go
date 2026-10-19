@@ -10,8 +10,9 @@ from src.formatacao import formatar_percentual
 from src.opcoes_consulta import opcoes_consulta
 
 
-st.set_page_config(page_title="Alíquota interna de ICMS — Goiás", layout="centered")
-st.title("Alíquota interna de ICMS — Goiás")
+st.set_page_config(page_title="Consultor ICMS GO", layout="centered")
+st.title("Consultor ICMS GO")
+st.caption("Consulte tratamentos de ICMS cadastrados para operações internas em Goiás. O NCM, sozinho, não confirma a aplicação de uma regra.")
 
 
 def exibir_data(valor):
@@ -197,7 +198,7 @@ if resultado is not None:
     opcoes = opcoes_consulta(resultado)
     selecionada = next((o for o in opcoes if o.chave == st.session_state.get("opcao_selecionada")), None)
     if resultado.situacao == "NCM_NAO_ENCONTRADO":
-        st.info("NCM não encontrado na tabela cadastrada.")
+        st.info("NCM não encontrado no cadastro. Confira o código informado e tente novamente.")
     elif selecionada is not None:
         exibir_ficha(resultado, selecionada)
     else:

@@ -12,7 +12,7 @@ from updater.repositorio_extracao import RepositorioExtracao
 from updater.repositorio_consolidacao import RepositorioConsolidacao
 
 st.set_page_config(page_title="Monitoramento legislativo — Goiás", layout="centered")
-st.title("Monitoramento legislativo — Goiás")
+st.title("Acompanhamento da legislação de Goiás")
 
 habilitado = os.getenv("ADMIN_TOOLS", "").strip().lower() == "true"
 if not habilitado:
@@ -32,9 +32,9 @@ except (ErroConfiguracaoDados, SQLAlchemyError, OSError):
 ultima = painel["ultima_verificacao"]
 st.write(f"**Última verificação legislativa:** {ultima.strftime('%d/%m/%Y %H:%M') if ultima else 'Nenhuma'}")
 st.metric("Atos monitorados", painel["atos_monitorados"])
-st.metric("Novos atos pendentes", painel["novos_pendentes"])
+st.metric("Atos novos para revisão", painel["novos_pendentes"])
 st.metric("Erros de coleta", painel["erros_coleta"])
-st.subheader("Regras extraídas pendentes")
+st.subheader("Regras aguardando revisão")
 if pendentes:
     st.dataframe([{
         "Ato": f"{r['tipo_ato']} {r['numero']}/{r['ano']}",
