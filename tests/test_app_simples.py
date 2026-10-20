@@ -76,7 +76,8 @@ def test_regra_unica_exibe_dados_cadastrados_sem_confirmar_mercadoria(monkeypatc
     assert "Código utilizado: 12345678" in saida
     assert "Verificações automáticas do cadastro atendidas" in saida
     assert "Documentação cadastral verificada" not in saida
-    assert "aplicabilidade à mercadoria não confirmada apenas pelo NCM" in saida
+    assert "NCM sozinho não confirma o enquadramento" in textos(app.info)
+    assert app.metric[2].value == "Cadastro localizado"
 
 
 def test_regra_por_prefixo_informa_alcance_da_correspondencia(monkeypatch):
@@ -206,9 +207,10 @@ def test_ncm_sem_regra_nao_transforma_modal_em_tratamento(monkeypatch):
     app.button[0].click().run()
     abrir_ficha(app)
     assert not app.exception
-    assert "19,00%" not in textos(app.markdown)
-    assert "Alíquota interna verificada: não disponível" in textos(app.markdown)
-    assert "Nenhum tratamento de alíquota vigente" in textos(app.info)
+    assert app.metric[0].value == "19,00%"
+    assert "Referência geral" in textos(app.caption)
+    assert "Tratamento específico de alíquota: nenhum encontrado" in textos(app.markdown)
+    assert "referência não confirma o enquadramento" in textos(app.info)
 
 
 def test_ncm_04029900_ausente_nao_mostra_percentuais(monkeypatch):
@@ -243,7 +245,9 @@ def test_hipotese_04029900_nao_cria_tratamento_ou_ex(monkeypatch):
     abrir_ficha(app)
 
     assert "12,00%" not in textos(app.markdown)
-    assert "19,00%" not in textos(app.markdown)
+    assert app.metric[0].value == "19,00%"
+    assert "Referência geral" in textos(app.caption)
+    assert "referência não confirma o enquadramento" in textos(app.info)
     assert "nenhum Ex foi presumido" in textos(app.info)
 
 

@@ -2,13 +2,13 @@
 
 A pesquisa mantém NCM e Consultar. O resultado apresenta botões para os tratamentos de ICMS realmente encontrados no cadastro, com descrição e identificador próprios. Se não há tratamento de alíquota vigente, apresenta apenas o registro existente no catálogo NCM. Selecionar abre uma ficha; Voltar mantém o NCM e a lista. Benefícios não são transformados em opções de classificação nem em Ex da TIPI.
 
-Na ficha, benefícios encontrados por NCM são candidatos: o vínculo específico com o tratamento selecionado não está comprovado pelo esquema atual. Redução da base, carga efetiva e crédito outorgado permanecem separados. Os campos de referência geral de 19% e hipótese de 12% do motor anterior não são usados para montar opções nem preencher a ficha pública. Não há consulta à Objetiva ou uso de base proprietária.
+Na ficha, benefícios encontrados por NCM são candidatos: o vínculo específico com o tratamento selecionado não está comprovado pelo esquema atual. Redução da base, carga efetiva e crédito outorgado permanecem separados. A referência geral já fornecida pelo motor pode aparecer quando não há tratamento de alíquota para a ficha, sempre identificada como referência informativa, sem confirmar enquadramento ou criar opções. A hipótese de 12% não é usada para preencher a ficha. Não há consulta à Objetiva ou uso de base proprietária.
 
 ## Comparação com o vídeo fornecido
 
 O vídeo de aproximadamente 18 segundos permite observar a lista com duas descrições (por volta de 7 s), a ficha de uma opção (aproximadamente 10 s), a ficha de outra opção (aproximadamente 14 s) e o retorno à lista no trecho final. A gravação foi usada somente como referência de interação, sem importar descrições, percentuais ou fundamentos como dados operacionais.
 
-Os ajustes funcionais são: quantidade real de opções encontradas, ficha identificada por NCM e descrição, resumo separado de ICMS/adicional/carga total e formulário de pesquisa restrito à lista. O botão Voltar restaura o NCM original, inclusive sua formatação. O tema escuro próprio foi mantido; cores, marca e composição proprietárias não foram reproduzidas. As duas opções do vídeo não são criadas artificialmente: a quantidade exibida depende dos registros efetivamente carregados.
+Os ajustes funcionais são: quantidade real de opções encontradas, ficha identificada por NCM e descrição e formulário de pesquisa restrito à lista. O resumo usa três cards: Alíquota, Benefício e Situação. A alíquota cadastrada ganha destaque; benefícios ficam separados dos detalhes e das pendências. Sem tratamento específico, a ficha informa a classificação localizada, a referência geral quando fornecida pelo motor e as pendências de fundamento e vigência. Adicional e carga total não são somados automaticamente. O botão Voltar restaura o NCM original, inclusive sua formatação. O tema escuro próprio foi mantido; cores, marca e composição proprietárias não foram reproduzidas. As duas opções do vídeo não são criadas artificialmente: a quantidade exibida depende dos registros efetivamente carregados.
 
 ## Verificação oficial pendente
 
