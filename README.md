@@ -1,17 +1,17 @@
 # Consultor ICMS GO
 
-O Consultor ICMS GO ajuda a pesquisar tratamentos de ICMS cadastrados para mercadorias em Goiás. Basta informar o NCM para consultar as regras encontradas, seus percentuais, fundamentos legais, condições e datas de vigência.
+O Consultor ICMS GO ajuda a pesquisar tratamentos de ICMS cadastrados para mercadorias em Goiás. Basta informar o NCM para ver as opções de tratamento cadastradas e abrir a ficha de cada uma, com fundamentos, condições e pendências.
 
 A consulta é voltada a **operações internas em Goiás** e usa a data de referência apresentada na tela.
 
 ## O que a consulta apresenta
 
-- O NCM pesquisado e os tratamentos correspondentes cadastrados.
+- As opções encontradas para o NCM e uma ficha separada para cada tratamento.
 - Alíquotas e benefícios, com os percentuais identificados separadamente.
 - Referências legais, condições de aplicação e eventuais pendências.
 - Uma indicação quando não há cadastro ou quando mais de uma regra exige análise.
 
-Quando não há uma regra específica, o sistema pode mostrar a alíquota geral **como referência**, não como enquadramento confirmado. Algumas hipóteses especiais também podem aparecer com ressalvas.
+A ficha não confirma a alíquota aplicável apenas pela correspondência do NCM. O cadastro não comprova, por si só, desdobramentos Ex da TIPI, adicionais ou a carga tributária total.
 
 ## De onde vêm os dados
 

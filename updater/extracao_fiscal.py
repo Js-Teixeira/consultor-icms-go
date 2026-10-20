@@ -4,15 +4,18 @@ from __future__ import annotations
 
 import hashlib
 import re
-from dataclasses import dataclass, field
+from bisect import bisect_right
+from dataclasses import dataclass, field, replace
 from datetime import date
 from decimal import Decimal
 
 from bs4 import BeautifulSoup
+from bs4.element import CData, NavigableString
 
-from .normalizacao import sem_acentos
+from .normalizacao import limpar_html, sem_acentos
 
-EXTRACTOR_VERSION = "2.5.0"
+# Recuperação parcial; não equivale ao arquivo histórico perdido.
+EXTRACTOR_VERSION = "2.5.4-recovery.1"
 MAX_TRECHO = 3000
 MESES = {
     "janeiro": 1, "fevereiro": 2, "marco": 3, "abril": 4,
@@ -45,8 +48,8 @@ PADROES_PERCENTUAIS = (
 DISPOSITIVOS = {
     "anexo": re.compile(r"\bAnexo\s+([IVXLCDM]+|\d+[A-Z]?)\b", re.I),
     "artigo": re.compile(r"\b(?:Art\.?|Artigo)\s*(\d+[º°]?(?:-[A-Z])?)", re.I),
-    "paragrafo": re.compile(r"(?:§|par[aá]grafo)\s*(\d+[º°]?|[uú]nico)", re.I),
-    "inciso": re.compile(r"\binciso\s+([IVXLCDM]+)\b", re.I),
+    "paragrafo": re.compile(r"(?:§|par[aá]grafo)\s*(\d+[º°]?(?:-[A-Z])?|[uú]nico)", re.I),
+    "inciso": re.compile(r"\binciso\s+([IVXLCDM]+(?:-[A-Z])?)\b", re.I),
     "alinea": re.compile(r"\bal[ií]nea\s+[\"'“]?([a-z])\b", re.I),
     "item": re.compile(r"\b(?:subitem|item)\s+(\d+(?:\.\d+)*)\b", re.I),
 }
@@ -71,8 +74,9 @@ TIPO_EVIDENCIA = {
     "REVOGACAO": re.compile(r"\brevogad[oa]s?\b|\brevoga-se\b", re.I),
 }
 DATA_EXTENSO = r"(\d{1,2})\s+de\s+([a-zçãéíô]+)\s+de\s+(\d{4})"
-VIGENCIA_INICIO = re.compile(r"(?:produz\s+efeitos\s+a\s+partir\s+de|entra\s+em\s+vigor\s+em|com\s+efeitos\s+desde)\s+" + DATA_EXTENSO, re.I)
-VIGENCIA_FIM = re.compile(r"\bat[eé]\s+" + DATA_EXTENSO, re.I)
+DATA_LITERAL = re.compile(r"\b(?:\d{1,2}[./]\d{1,2}[./](?:\d{4}|\d{2})|" + DATA_EXTENSO + r")\b", re.I)
+CONTEXTO_EFEITOS = re.compile(r"\b(?:producao\s+de\s+efeitos|produz(?:indo|em)?\s+efeitos|com\s+efeitos)\b")
+PRAZO_OPERACIONAL = re.compile(r"\b(?:protocol\w*|cancelamento|entrega|cumprimento|obrigac(?:ao|oes)|requerimento|solicitacao|pedidos?|apresentacao)\b")
 NORMA_ALTERADA = re.compile(r"\bDecreto\s+n[º°o.]?\s*[\d.]+/\d{4}\b|\bRCTE\b|\bAnexo\s+[IVXLCDM]+\b", re.I)
 PAUTA_PRECO = re.compile(r"\b(?:prec[oa]s?\s+(?:de\s+)?pauta|pauta\s+de\s+mercadorias|valores?\s+de\s+referencia|precos?\s+publicados|preco\s+medio\s+ponderado)\b")
 CREDITO_TRIBUTARIO = re.compile(r"\b(?:exigibilidade|credito\s+tributario|divida\s+ativa|parcelamento|cobranca|execucao\s+fiscal|tare\s+suspens[oa])\b")
@@ -119,6 +123,18 @@ DESCRITOR_GENERICO = {
 }
 MOTIVO_SEM_VINCULO = "Benefício fiscal sem vínculo suficiente com NCM ou mercadoria consultável."
 MOTIVO_PENDENTE = "Mercadoria identificada no texto; associação a NCM oficial ainda não confirmada."
+
+SECAO_JURIDICA = re.compile(r"^(?:cap[ií]tulo|se[cç][aã]o|t[ií]tulo|livro|anexo)\s+(?:[IVXLCDM]+|\d+)\b", re.I | re.M)
+ARTIGO_PRINCIPAL = re.compile(r"^[ \t]*Art(?:igo)?\.?\s*(\d+[º°]?(?:-[A-Z])?)", re.I | re.M)
+INCISO_PRINCIPAL = re.compile(r"^[ \t]*([IVXLCDM]+(?:-[A-Z])?)[ \t]*[-–—]", re.M)
+PARAGRAFO_PRINCIPAL = re.compile(r"^[ \t]*(?:§\s*|Par[aá]grafo\s+)(\d+[º°]?(?:-[A-Z])?|[uú]nico)\b", re.I | re.M)
+ALINEA_PRINCIPAL = re.compile(r"^[ \t]*([a-z])\)", re.M)
+ITEM_PRINCIPAL = re.compile(r"^[ \t]*(\d+(?:\.\d+)*)[.)][ \t]+", re.M)
+ANEXO_PRINCIPAL = re.compile(r"^[ \t]*Anexo\s+([IVXLCDM]+|\d+[A-Z]?)\b", re.I | re.M)
+NOTA_EDITORIAL = re.compile(
+    r"^(?:nota\b|conferida\s+nova\s+redacao\b|acrescid[oa]\b|renumerad[oa]\b|"
+    r"revogad[oa]\b|redacao\b|consolidado\s+ate\b)"
+)
 
 
 @dataclass(frozen=True)
@@ -209,6 +225,39 @@ class NcmDetectado:
     descricao_proxima: str | None = None
 
 
+def _limites_html(texto: str, html: str | None) -> list[tuple[int, int]]:
+    """Reimplementado: agrupa nós do mesmo contêiner com offsets comprovados."""
+
+    if not html:
+        return []
+    soup = BeautifulSoup(html, "html.parser")
+    for elemento in soup(["script", "style", "noscript", "nav", "header", "footer"]):
+        elemento.decompose()
+    linhas = []
+    for no in soup.find_all(string=True):
+        if type(no) not in (NavigableString, CData):
+            continue  # Comentários não fazem parte do texto normalizado.
+        dono = no.find_parent(["p", "li", "td", "th", "div", "blockquote",
+                               "h1", "h2", "h3", "h4", "h5", "h6"])
+        linhas.extend((linha, dono) for parte in str(no).splitlines()
+                      if (linha := " ".join(parte.split())))
+    if "\n".join(linha for linha, _ in linhas) != texto:
+        return []
+    limites = []
+    posicao = 0
+    anterior = None
+    for linha, dono in linhas:
+        fim = posicao + len(linha)
+        if dono is not None:
+            if dono is anterior:
+                limites[-1] = (limites[-1][0], fim)
+            else:
+                limites.append((posicao, fim))
+        anterior = dono
+        posicao = fim + 1
+    return limites
+
+
 def _blocos(texto: str, html_original: str | None) -> list[Bloco]:
     """Mantém linhas e linhas de tabelas isoladas com offsets no texto limpo."""
 
@@ -251,6 +300,11 @@ def _blocos(texto: str, html_original: str | None) -> list[Bloco]:
                         tabelas.append(Bloco(texto[primeiro:cursor], primeiro, cursor, cabecalho, celulas))
                         ocupados.append((primeiro, cursor))
                         cursor_tabela = cursor
+    paragrafos = []
+    for inicio, fim in _limites_html(texto, html_original):
+        if not any(inicio < b and fim > a for a, b in ocupados):
+            paragrafos.append(Bloco(texto[inicio:fim], inicio, fim))
+            ocupados.append((inicio, fim))
     linhas: list[Bloco] = []
     cabecalho: tuple[str, ...] = ()
     for match in re.finditer(r"[^\n]+", texto):
@@ -265,7 +319,7 @@ def _blocos(texto: str, html_original: str | None) -> list[Bloco]:
             linhas.append(Bloco(match.group(), match.start(), match.end(), cabecalho, celulas))
         else:
             linhas.append(Bloco(match.group(), match.start(), match.end()))
-    return sorted(tabelas + linhas, key=lambda bloco: bloco.inicio)
+    return sorted(tabelas + paragrafos + linhas, key=lambda bloco: bloco.inicio)
 
 
 def _evidencia(bloco: Bloco, inicio: int, fim: int, tipo: str, valor: str, metodo: str = "regex_contextual_v2") -> EvidenciaFiscal:
@@ -425,6 +479,11 @@ def _papel_dispositivo(texto: str, tipo: str, tem_percentual: bool) -> str:
     """Identifica o efeito do trecho sem transformar referência em novo benefício."""
 
     normalizado = sem_acentos(texto).lower()
+    restricao = re.search(r"\b(?:nao\s+se\s+aplica|vedad[oa]\s+(?:a\s+)?concessao|"
+                         r"exclu(?:i|em)-se\s+da\s+isencao)\b", normalizado)
+    concessao = re.search(r"\b(?:fica[m]?\s+isent[oa]s?|concede-se|fica[m]?\s+concedid[oa]s?)\b", normalizado)
+    if restricao and not (concessao and concessao.start() < restricao.start()):
+        return "VEDACAO"
     if CONCESSAO_BENEFICIO.search(normalizado):
         return "REGRA_MATERIAL"
     if tipo == "CREDITO_OUTORGADO":
@@ -447,49 +506,147 @@ def _papel_dispositivo(texto: str, tipo: str, tem_percentual: bool) -> str:
     return "INDETERMINADO"
 
 
-def _agrupar_regras(regras: list[RegraExtraida], texto: str) -> None:
-    """Agrupa apenas complementos de uma regra material já elegível por NCM."""
+def _estrutura_origem(texto: str, html: str | None):
+    """Distingue aberturas reais de remissões internas e notas editoriais."""
 
-    principal: RegraExtraida | None = None
-    ultimo_fim = 0
-    indice = 0
-    while indice < len(regras):
-        inicio = regras[indice].inicio_trecho
-        fim = regras[indice].fim_trecho
-        bloco: list[RegraExtraida] = []
-        while indice < len(regras) and (regras[indice].inicio_trecho, regras[indice].fim_trecho) == (inicio, fim):
-            bloco.append(regras[indice])
-            indice += 1
-        entre = sem_acentos(texto[ultimo_fim:inicio]).lower()
-        if re.search(r"\b(?:capitulo|secao|titulo)\s+(?:[ivxlcdm]+|\d+)\b", entre):
-            principal = None
-        ultimo_fim = fim
-        materiais = [r for r in bloco if r.papel_dispositivo == "REGRA_MATERIAL"
-                     and r.elegivel_consulta_ncm == "SIM" and r.ncm_chave]
-        if materiais:
-            for regra in materiais:
-                chave = f"{hashlib.sha256(texto.encode('utf-8')).hexdigest()}:{regra.chave_extracao}"
-                regra.grupo_regra_id = hashlib.sha256(chave.encode("utf-8")).hexdigest()[:32]
-            principal = materiais[0] if len(materiais) == 1 else None
-            continue
-        if any(r.papel_dispositivo == "REGRA_MATERIAL" for r in bloco):
-            principal = None
-            continue
-        if any(r.escopo_fiscal in {"PAUTA_PRECO", "CREDITO_TRIBUTARIO", "ADMINISTRATIVO"} for r in bloco):
-            principal = None
-            continue
-        for regra in bloco:
-            if regra.papel_dispositivo in {"REGRA_MATERIAL", "INDETERMINADO"}:
+    limites = _limites_html(texto, html)
+    inicios = {a for a, _ in limites}
+    cobertos = lambda pos: any(a <= pos < b for a, b in limites)
+    editoriais = [(a, b) for a, b in limites
+                  if NOTA_EDITORIAL.match(sem_acentos(texto[a:b]).lower())]
+    for linha in re.finditer(r"[^\n]+", texto):
+        if not cobertos(linha.start()):
+            inicios.add(linha.start())
+            if NOTA_EDITORIAL.match(sem_acentos(linha.group()).lower()):
+                editoriais.append((linha.start(), linha.end()))
+    eventos = {}
+    for nivel, campo, padrao in (
+        (0, None, SECAO_JURIDICA), (0, "anexo", ANEXO_PRINCIPAL),
+        (1, "artigo", ARTIGO_PRINCIPAL), (2, "paragrafo", PARAGRAFO_PRINCIPAL),
+        (3, "inciso", INCISO_PRINCIPAL), (4, "alinea", ALINEA_PRINCIPAL),
+        (5, "item", ITEM_PRINCIPAL),
+    ):
+        for match in padrao.finditer(texto):
+            if any(a <= match.start() < b for a, b in editoriais):
                 continue
-            tipos_mencionados = {tipo for tipo in ("CREDITO_OUTORGADO", "ISENCAO", "DIFERIMENTO", "SUSPENSAO")
-                                if TIPO_EVIDENCIA[tipo].search(regra.trecho_origem)}
-            if principal and (not tipos_mencionados or principal.tipo_regra in tipos_mencionados):
-                regra.grupo_regra_id = principal.grupo_regra_id
-                regra.escopo_fiscal = "ALIQUOTA_BENEFICIO"
-                regra.elegivel_consolidacao = "NAO"
-                regra.motivo_elegibilidade = "Dispositivo complementar vinculado à regra material."
-                regra.motivos_confianca.append("Vinculado por sequência textual e tipo de benefício; revisar associação.")
-                regra.confianca = "MEDIA" if regra.confianca != "BAIXA" else "BAIXA"
+            if match.start() not in inicios:
+                anterior = texto[max((a for a, b in limites if a <= match.start() < b), default=0):match.start()]
+                if re.search(r"\b(?:d[oa]s?|n[oa]s?|a[oa]s?|pel[oa]s?|conforme|incisos?|artigos?|paragrafos?)\s*$",
+                             sem_acentos(anterior).lower()):
+                    continue  # Quebra de span em remissão, sem nova abertura.
+                # Duas aberturas em um contêiner são mantidas como fronteiras;
+                # o agrupamento bloqueará o trecho misturado para revisão.
+            evidencia = (EvidenciaFiscal(campo.upper(), re.sub("[º°]", "", match.group(1)),
+                match.group(), match.start(), match.end()) if campo else None)
+            eventos[match.start()] = (nivel, campo, evidencia)
+    contextos = []
+    contexto = {}
+    ordem = ("anexo", "artigo", "paragrafo", "inciso", "alinea", "item")
+    for posicao, (nivel, campo, evidencia) in sorted(eventos.items()):
+        corte = ordem.index(campo) if campo else 1
+        for chave in ordem[corte:]:
+            contexto.pop(chave, None)
+        if campo:
+            contexto[campo] = evidencia
+        contextos.append((posicao, dict(contexto)))
+    return eventos, contextos, editoriais
+
+
+def _atribuir_origem(regra: RegraExtraida, contextos) -> None:
+    indice = bisect_right([p for p, _ in contextos], regra.inicio_trecho) - 1
+    if indice < 0:
+        return  # Legados sem abertura: campos mencionados não comprovam enquadramento.
+    contexto = contextos[indice][1]
+    for campo in DISPOSITIVOS:
+        evidencia = contexto.get(campo)
+        setattr(regra, campo, evidencia.valor_extraido if evidencia else None)
+    origens = {(e.posicao_inicio, e.posicao_fim) for e in contexto.values()}
+    regra.evidencias = [replace(e, tipo_evidencia="REFERENCIA_NORMATIVA")
+        if e.tipo_evidencia in {c.upper() for c in DISPOSITIVOS}
+        and (e.posicao_inicio, e.posicao_fim) not in origens else e for e in regra.evidencias]
+    for evidencia in contexto.values():
+        if evidencia not in regra.evidencias:
+            regra.evidencias.append(evidencia)
+
+
+def _bloquear(regra: RegraExtraida, motivo: str, evidencia: EvidenciaFiscal) -> None:
+    regra.elegivel_consolidacao = regra.elegivel_consulta_ncm = "NAO"
+    regra.motivo_elegibilidade = motivo
+    regra.alertas.append(motivo)
+    regra.evidencias.append(evidencia)
+    regra.confianca = "BAIXA"
+
+
+def _agrupar_regras(regras: list[RegraExtraida], texto: str, eventos, blocos: list[Bloco]) -> None:
+    """Reimplementado: exige subordinação comprovada ou remissão local única."""
+
+    marcadores = sorted((p, nivel) for p, (nivel, _, _) in eventos.items())
+    raizes = [p for p, _ in marcadores]
+    caminhos, pilha = [], []
+    for posicao, nivel in marcadores:
+        pilha = [(n, p) for n, p in pilha if n < nivel] + [(nivel, posicao)]
+        caminhos.append(tuple(p for _, p in pilha))
+    textos = {b.inicio: b.texto for b in blocos}
+
+    def caminho(posicao):
+        indice = bisect_right(raizes, posicao) - 1
+        return caminhos[indice] if indice >= 0 else ()
+
+    def subordinado(regra, alvo):
+        origem, destino = caminho(alvo.inicio_trecho), caminho(regra.inicio_trecho)
+        if not origem or destino[:len(origem)] != origem:
+            return False
+        for posicao in destino[len(origem):]:
+            fim = texto.find("\n", posicao)
+            trecho = textos.get(posicao, texto[posicao:len(texto) if fim < 0 else fim])
+            tipo, _ = _tipo_acao(trecho)
+            if _papel_dispositivo(trecho, tipo or "ALTERACAO_LEGISLATIVA", bool(PERCENTUAL.search(trecho))) not in PAPEIS_COMPLEMENTARES:
+                return False
+        return True
+
+    materiais = []
+    hash_texto = hashlib.sha256(texto.encode("utf-8")).hexdigest()
+    for regra in regras:
+        if bisect_right(raizes, regra.inicio_trecho) != bisect_right(raizes, regra.fim_trecho - 1):
+            _bloquear(regra, "Trecho reúne dispositivos distintos; revisar associação.",
+                      EvidenciaFiscal("BLOQUEIO_FISCAL", "DISPOSITIVOS_MISTURADOS",
+                                      regra.trecho_origem, regra.inicio_trecho, regra.fim_trecho))
+        if any(e.tipo_evidencia == "BLOQUEIO_FISCAL" for e in regra.evidencias):
+            continue
+        if regra.papel_dispositivo == "REGRA_MATERIAL":
+            if regra.elegivel_consolidacao == "SIM":
+                chave = f"{hash_texto}:{regra.chave_extracao}"
+                regra.grupo_regra_id = hashlib.sha256(chave.encode("utf-8")).hexdigest()[:32]
+                materiais.append(regra)
+            continue
+        if regra.papel_dispositivo not in PAPEIS_COMPLEMENTARES:
+            continue
+        tipos = {t for t in ("CREDITO_OUTORGADO", "ISENCAO", "DIFERIMENTO", "SUSPENSAO")
+                 if TIPO_EVIDENCIA[t].search(regra.trecho_origem)}
+        relacionados = [r for r in materiais if r.anexo == regra.anexo
+                        and (not tipos or r.tipo_regra in tipos)]
+        referencias = {re.sub("[º°]", "", m.group(1)) for m in re.finditer(
+            r"\bart(?:igo)?\.?\s*(\d+[º°]?(?:-[A-Z])?)\s+deste\s+(?:ato|decreto|regulamento)\b",
+            regra.trecho_origem, re.I)}
+        alvos = ([r for r in relacionados if r.artigo in referencias] if referencias else
+                 [r for r in relacionados if subordinado(regra, r)])
+        if len(alvos) == 1:
+            regra.grupo_regra_id = alvos[0].grupo_regra_id
+            regra.escopo_fiscal = "ALIQUOTA_BENEFICIO"
+            regra.motivo_elegibilidade = "Complemento com associação jurídica identificada; revisão pendente."
+            pendencias = [e for e in regra.evidencias
+                          if e.tipo_evidencia in {"PENDENCIA_ASSOCIACAO", "PENDENCIA_TEMPORAL"}]
+            if pendencias:
+                alvos[0].evidencias.extend(e for e in pendencias if e not in alvos[0].evidencias)
+                alvos[0].alertas.append("Complemento vinculado contém pendências; aplicação bloqueada.")
+                alvos[0].confianca = "BAIXA"
+        else:
+            evidencia = EvidenciaFiscal("PENDENCIA_ASSOCIACAO", "ALVO_NAO_UNIVOCO",
+                regra.trecho_origem, regra.inicio_trecho, regra.fim_trecho)
+            for alvo in [regra, *(alvos or relacionados)]:
+                alvo.evidencias.append(evidencia)
+                alvo.alertas.append("Associação de complemento pendente; não aplicar automaticamente.")
+                alvo.confianca = "BAIXA"
 
 
 def _mercadoria_identificada(regra: RegraExtraida) -> bool:
@@ -507,9 +664,16 @@ def _mercadoria_identificada(regra: RegraExtraida) -> bool:
 def _classificar_consulta_ncm(regra: RegraExtraida) -> None:
     """Filtra a consulta pública sem descartar a extração legislativa."""
 
-    principal = regra.papel_dispositivo == "REGRA_MATERIAL" and regra.elegivel_consolidacao == "SIM"
     if regra.ncm_chave:
         regra.status_vinculo_ncm = "NCM_EXPLICITO"
+    if any(e.tipo_evidencia in {"BLOQUEIO_FISCAL", "PENDENCIA_ASSOCIACAO", "PENDENCIA_TEMPORAL"}
+           for e in regra.evidencias):
+        regra.elegivel_consulta_ncm = "NAO"
+        regra.motivo_consulta_ncm = (MOTIVO_NCM_PROCEDIMENTAL if regra.escopo_fiscal == "PROCEDIMENTO"
+                                   else "Evidência fiscal, associação ou data pendente; aplicação bloqueada.")
+        return
+    principal = regra.papel_dispositivo == "REGRA_MATERIAL" and regra.elegivel_consolidacao == "SIM"
+    if regra.ncm_chave:
         if principal:
             regra.elegivel_consulta_ncm = "SIM"
             regra.motivo_consulta_ncm = "NCM, posição ou subposição explícita no dispositivo material."
@@ -680,6 +844,85 @@ def _data(match: re.Match[str] | None) -> date | None:
         return None
 
 
+def _data_literal(texto: str) -> date | None:
+    """Reimplementado: não completa século nem corrige datas inválidas."""
+
+    extensa = re.fullmatch(DATA_EXTENSO, texto, re.I)
+    if extensa:
+        return _data(extensa)
+    partes = re.fullmatch(r"(\d{1,2})[./](\d{1,2})[./](\d{4})", texto)
+    if partes:
+        try:
+            return date(int(partes[3]), int(partes[2]), int(partes[1]))
+        except ValueError:
+            pass
+    return None
+
+
+def _preencher_datas(regra: RegraExtraida, bloco: Bloco) -> None:
+    """Qualifica a função da data; não resolve calendários por outros dispositivos."""
+
+    for match in DATA_LITERAL.finditer(bloco.texto):
+        valor = _data_literal(match.group())
+        antes = sem_acentos(bloco.texto[:match.start()]).lower().replace("\n", " ")
+        clausula = antes.rsplit(";", 1)[-1]
+        depois = sem_acentos(bloco.texto[match.end():]).lower().split(";", 1)[0].split(".", 1)[0]
+        referencias = [m for m in DISPOSITIVOS["artigo"].finditer(clausula)
+                       if not (not clausula[:m.start()].strip() and ARTIGO_PRINCIPAL.match(clausula.lstrip()))]
+        tipo = "DATA_NAO_CLASSIFICADA"
+        if re.search(r"\b(?:publicad[oa](?:\s+no\s+doe)?\s+em|doe\s+(?:de|em))\s*$", antes):
+            tipo = "DATA_PUBLICACAO"
+        elif re.search(r"\bentra\s+em\s+vigor\s+(?:em|a\s+partir\s+de)\s*$", antes):
+            tipo = "ENTRADA_VIGOR"
+        elif PRAZO_OPERACIONAL.search(clausula + " " + depois):
+            # Ajuste da recuperação: efeitos de cancelamento/pedido também
+            # são operacionais, mesmo se usarem a expressão "produz efeitos".
+            tipo = "PRAZO_OPERACIONAL"
+            regra.condicoes_texto = bloco.texto.strip()
+        elif re.search(r"\b(?:produz(?:indo|em)?\s+efeitos\s+a\s+partir\s+de|com\s+efeitos\s+desde)\s*$", antes):
+            tipo = "PRODUCAO_EFEITOS"
+            # Compatibilidade do campo escalar apenas para período expresso da
+            # própria regra material, nunca para efeitos de outros artigos.
+            if valor and regra.papel_dispositivo == "REGRA_MATERIAL" and not referencias:
+                regra.vigencia_inicio = valor
+            elif referencias:
+                regra.alertas.append("Associação temporal pendente: efeitos citam outro dispositivo.")
+                regra.evidencias.append(_evidencia(bloco, match.start(), match.end(),
+                    "PENDENCIA_TEMPORAL", "ALVO_DOS_EFEITOS_NAO_COMPROVADO"))
+        elif not referencias and re.search(r"\bate\s*$", antes) and regra.papel_dispositivo == "REGRA_MATERIAL" and (
+            regra.vigencia_inicio or re.search(r"\b(?:beneficio|isencao|aliquota|tratamento)\b.{0,60}\b(?:vigora|vigente)\s+ate\s*$", antes)
+        ):
+            tipo = "VIGENCIA_FIM_TRATAMENTO"
+            if valor:
+                regra.vigencia_fim = valor
+        elif re.match(r"\s*(?:decreto|lei)\b.*\bde\s*$", antes):
+            tipo = "DATA_ATO"
+        regra.evidencias.append(_evidencia(bloco, match.start(), match.end(), tipo,
+                                          valor.isoformat() if valor else match.group()))
+        if valor and valor in {regra.vigencia_inicio, regra.vigencia_fim} and tipo in {
+            "PRODUCAO_EFEITOS", "VIGENCIA_FIM_TRATAMENTO",
+        }:
+            regra.evidencias.append(_evidencia(bloco, match.start(), match.end(), "VIGENCIA", match.group()))
+        if valor is None or tipo == "DATA_NAO_CLASSIFICADA":
+            regra.alertas.append("Classificação temporal pendente; data preservada sem presumir vigência fiscal.")
+            regra.evidencias.append(_evidencia(bloco, match.start(), match.end(),
+                "PENDENCIA_TEMPORAL", "DATA_SEM_FUNCAO_COMPROVADA"))
+
+
+def _pendencias_de_efeitos(regras: list[RegraExtraida]) -> None:
+    calendarios = [r for r in regras if r.papel_dispositivo != "REGRA_MATERIAL"
+                   and CONTEXTO_EFEITOS.search(sem_acentos(r.trecho_origem).lower())
+                   and re.search(r"\b(?:dispositiv\w*|arts?\.?)\b", r.trecho_origem, re.I)]
+    for calendario in calendarios:
+        evidencia = EvidenciaFiscal("PENDENCIA_TEMPORAL", "EFEITOS_POR_DISPOSITIVO",
+            calendario.trecho_origem, calendario.inicio_trecho, calendario.fim_trecho)
+        for regra in regras:
+            if regra.papel_dispositivo == "REGRA_MATERIAL":
+                regra.alertas.append("Classificação temporal pendente: calendário por dispositivo exige revisão; nenhuma data foi propagada.")
+                regra.evidencias.append(evidencia)
+                regra.confianca = "BAIXA"
+
+
 def _preencher_contexto(regra: RegraExtraida, bloco: Bloco) -> None:
     acao = ACAO_EVIDENCIA.get(regra.acao_legislativa)
     match_acao = acao.search(bloco.texto) if acao else None
@@ -692,11 +935,12 @@ def _preencher_contexto(regra: RegraExtraida, bloco: Bloco) -> None:
         regra.evidencias.append(_evidencia(bloco, match_tipo.start(), match_tipo.end(),
                                             "TIPO_REGRA", match_tipo.group()))
     for campo, padrao in DISPOSITIVOS.items():
-        match = padrao.search(bloco.texto)
-        if match:
-            valor = match.group(1).rstrip("º°")
-            setattr(regra, campo, valor)
-            regra.evidencias.append(_evidencia(bloco, match.start(), match.end(), campo.upper(), valor))
+        for indice, match in enumerate(padrao.finditer(bloco.texto)):
+            valor = re.sub("[º°]", "", match.group(1))
+            if indice == 0:
+                setattr(regra, campo, valor)
+            tipo = campo.upper() if indice == 0 else "REFERENCIA_NORMATIVA"
+            regra.evidencias.append(_evidencia(bloco, match.start(), match.end(), tipo, valor))
     for campo, padrao in PADROES_PERCENTUAIS:
         match = padrao.search(bloco.texto)
         if match:
@@ -736,15 +980,7 @@ def _preencher_contexto(regra: RegraExtraida, bloco: Bloco) -> None:
         regra.evidencias.append(_evidencia(bloco, excecao.start(), excecao.end(), "EXCECAO", excecao.group()))
         if regra.condicoes_texto is None:
             regra.condicoes_texto = bloco.texto.strip()
-    for campo, padrao in (("vigencia_inicio", VIGENCIA_INICIO), ("vigencia_fim", VIGENCIA_FIM)):
-        match = padrao.search(bloco.texto)
-        if match:
-            valor = _data(match)
-            if valor:
-                setattr(regra, campo, valor)
-                regra.evidencias.append(_evidencia(bloco, match.start(), match.end(), "VIGENCIA", match.group()))
-            else:
-                regra.alertas.append("Data de vigência textual não pôde ser interpretada.")
+    _preencher_datas(regra, bloco)
     encontrados_norma = list(NORMA_ALTERADA.finditer(bloco.texto))
     normas = list(dict.fromkeys(m.group() for m in encontrados_norma))
     regra.norma_alterada = "; ".join(normas) or None
@@ -775,6 +1011,14 @@ def _avaliar(regra: RegraExtraida, quantidade_ncm: int) -> None:
         regra.confianca = "ALTA"
     if quantidade_ncm > 1:
         regra.alertas.append("Vários NCMs no mesmo trecho; confirmar associação individual.")
+        regra.evidencias.append(EvidenciaFiscal("PENDENCIA_ASSOCIACAO", "MULTIPLOS_NCMS",
+            regra.trecho_origem, regra.inicio_trecho, regra.fim_trecho))
+        if len(PERCENTUAL.findall(regra.trecho_origem)) > 1:
+            for campo in ("aliquota_icms", "percentual_reducao_bc", "carga_efetiva", "credito_outorgado_percentual"):
+                setattr(regra, campo, None)
+            regra.evidencias = [replace(e, tipo_evidencia="PERCENTUAL_NAO_CLASSIFICADO")
+                if e.tipo_evidencia in {"ALIQUOTA", "REDUCAO_BC", "CARGA_EFETIVA", "CREDITO_OUTORGADO"}
+                else e for e in regra.evidencias]
         regra.confianca = "BAIXA"
     if regra.alertas:
         regra.confianca = "BAIXA"
@@ -785,14 +1029,19 @@ def extrair_regras(texto_limpo: str, texto_original: str | None = None) -> list[
     """Extrai candidatos por trecho independente, sem afirmar enquadramento fiscal."""
 
     deteccoes_ncm = detectar_ncms(texto_limpo, texto_original)
+    html_divergente = bool(texto_original and "<" in texto_original
+                          and limpar_html(texto_original) != texto_limpo)
+    eventos, contextos, editoriais = _estrutura_origem(texto_limpo, texto_original)
+    notas_inaplicaveis = []
+    for nota in re.finditer(r"^NOTA\b", texto_limpo, re.I | re.M):
+        fim = min((p for p in eventos if p > nota.start()), default=len(texto_limpo))
+        if re.search(r"sem\s+aplicabilidade|inaplic[aá]vel", texto_limpo[nota.start():fim], re.I):
+            notas_inaplicaveis.append((nota.start(), fim))
+    cabecalhos_tributo = list(re.finditer(r"^(?:DO\s+)?(?:ITCD|ITCMD|ICMS)\s*$", texto_limpo, re.I | re.M))
     regras: list[RegraExtraida] = []
-    artigo_contexto: tuple[str, str, int, int] | None = None
-    for bloco in (parte for original in _blocos(texto_limpo, texto_original)
+    blocos = _blocos(texto_limpo, texto_original)
+    for bloco in (parte for original in blocos
                   for parte in _fragmentar(original)):
-        artigo_encontrado = DISPOSITIVOS["artigo"].search(bloco.texto)
-        if artigo_encontrado and not bloco.cabecalho and not bloco.fragmentado and artigo_encontrado.start() == 0:
-            artigo_contexto = (artigo_encontrado.group(1).rstrip("º°"), artigo_encontrado.group(),
-                               bloco.inicio + artigo_encontrado.start(), bloco.inicio + artigo_encontrado.end())
         tipo_bruto, acao = _tipo_acao(" ".join(bloco.cabecalho) + " " + bloco.texto if bloco.cabecalho else bloco.texto)
         ncms = _ncms(bloco)
         percentuais = list(PERCENTUAL.finditer(bloco.texto))
@@ -801,7 +1050,8 @@ def extrair_regras(texto_limpo: str, texto_original: str | None = None) -> list[
         marcador_escopo = any(p.search(texto_normalizado) for p in (
             PAUTA_PRECO, CREDITO_TRIBUTARIO, PROCEDIMENTO, ADMINISTRATIVO,
         ))
-        if tipo_bruto is None and not (percentuais and ncms) and not marcador_escopo and papel == "INDETERMINADO":
+        temporal = DATA_LITERAL.search(bloco.texto) or CONTEXTO_EFEITOS.search(texto_normalizado)
+        if tipo_bruto is None and not (percentuais and ncms) and not marcador_escopo and not temporal and papel == "INDETERMINADO":
             continue
         tipo = tipo_bruto if papel == "REGRA_MATERIAL" else "ALTERACAO_LEGISLATIVA"
         tipo = tipo or "ALTERACAO_LEGISLATIVA"
@@ -830,18 +1080,40 @@ def extrair_regras(texto_limpo: str, texto_original: str | None = None) -> list[
                 if referido:
                     regra.evidencias.append(_evidencia(bloco, referido.start(), referido.end(),
                                                         "BENEFICIO_REFERENCIADO", referido.group()))
-            if artigo_contexto and not (artigo_encontrado and artigo_encontrado.start() == 0):
-                artigo, origem, inicio_artigo, fim_artigo = artigo_contexto
-                regra.artigo = artigo
-                regra.evidencias.append(EvidenciaFiscal("ARTIGO", artigo, origem,
-                                                         inicio_artigo, fim_artigo))
+            _atribuir_origem(regra, contextos)
             _classificar_escopo(regra, bloco)
+            if html_divergente:
+                regra.evidencias.append(EvidenciaFiscal("PENDENCIA_ASSOCIACAO", "HTML_DIVERGENTE",
+                    bloco.texto, bloco.inicio, bloco.fim))
+                regra.alertas.append("Correspondência entre HTML e texto não comprovada; aplicação bloqueada.")
+            for inicio, fim in editoriais + notas_inaplicaveis:
+                if bloco.inicio < fim and bloco.fim > inicio:
+                    _bloquear(regra, "Nota editorial ou inaplicável preservada; não aplicar.",
+                        EvidenciaFiscal("BLOQUEIO_FISCAL", "NOTA_EDITORIAL_OU_INAPLICAVEL",
+                                        texto_limpo[inicio:fim], inicio, fim))
+            anteriores = [c for c in cabecalhos_tributo if c.start() < bloco.inicio]
+            outro_tributo = re.search(r"\b(?:ITCD|ITCMD|causa\s+mortis)\b", bloco.texto, re.I)
+            cabecalho_outro = anteriores and "ITC" in anteriores[-1].group().upper()
+            if outro_tributo or (cabecalho_outro and not re.search(r"\bICMS\b", bloco.texto, re.I)):
+                for campo in ("aliquota_icms", "percentual_reducao_bc", "carga_efetiva", "credito_outorgado_percentual"):
+                    setattr(regra, campo, None)
+                regra.evidencias = [replace(e, tipo_evidencia="PERCENTUAL_OUTRO_TRIBUTO")
+                    if e.tipo_evidencia in {"ALIQUOTA", "REDUCAO_BC", "CARGA_EFETIVA", "CREDITO_OUTORGADO"}
+                    else e for e in regra.evidencias]
+                if cabecalho_outro:
+                    c = anteriores[-1]
+                    regra.evidencias.append(EvidenciaFiscal("CONTEXTO_TRIBUTARIO", c.group(),
+                        c.group(), c.start(), c.end()))
+                _bloquear(regra, "Tributo incompatível ou ambíguo; percentual não classificado como ICMS.",
+                    EvidenciaFiscal("BLOQUEIO_FISCAL", "OUTRO_TRIBUTO", bloco.texto, bloco.inicio, bloco.fim))
             if papel != "REGRA_MATERIAL":
                 regra.elegivel_consolidacao = "NAO"
                 if regra.escopo_fiscal == "ALIQUOTA_BENEFICIO":
                     regra.motivo_elegibilidade = "Dispositivo complementar sem regra material independente."
             if bloco.fragmentado:
                 regra.alertas.append("Trecho extenso dividido; revisar associação e contexto jurídico.")
+                regra.evidencias.append(EvidenciaFiscal("PENDENCIA_ASSOCIACAO", "TRECHO_FRAGMENTADO",
+                    bloco.texto, bloco.inicio, bloco.fim))
             classificados = {(ev.posicao_inicio, ev.posicao_fim) for ev in regra.evidencias if ev.tipo_evidencia in {
                 "ALIQUOTA", "REDUCAO_BC", "CARGA_EFETIVA", "CREDITO_OUTORGADO"}}
             for match in percentuais:
@@ -855,16 +1127,12 @@ def extrair_regras(texto_limpo: str, texto_original: str | None = None) -> list[
                 regra.motivos_confianca.append(regra.motivo_elegibilidade)
             regras.append(regra)
     referencias_ncm = _completar_ncms(regras, deteccoes_ncm, texto_limpo)
+    for referencia in referencias_ncm:
+        _atribuir_origem(referencia, contextos)
     regras.extend(referencias_ncm)
     regras.sort(key=lambda regra: (regra.inicio_trecho, regra.fim_trecho, regra.ncm_chave or ""))
+    _agrupar_regras(regras, texto_limpo, eventos, blocos)
+    _pendencias_de_efeitos(regras)
     for regra in regras:
         _classificar_consulta_ncm(regra)
-        if regra.elegivel_consulta_ncm != "SIM":
-            if regra.elegivel_consolidacao == "SIM":
-                regra.motivo_elegibilidade = (
-                    "Regra material sem NCM, posição ou subposição explícita; "
-                    "fora da consolidação da consulta por NCM."
-                )
-            regra.elegivel_consolidacao = "NAO"
-    _agrupar_regras(regras, texto_limpo)
     return regras

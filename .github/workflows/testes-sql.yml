@@ -5,6 +5,9 @@ on:
     branches:
       - main
       - feature/consulta-aliquota-geral-e-condicional
+  pull_request:
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
