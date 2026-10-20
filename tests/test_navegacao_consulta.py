@@ -1,6 +1,7 @@
 """Lista e ficha com cadastros fictícios; sem fonte fiscal ou conexão real."""
 
 import pandas as pd
+import pytest
 
 from tests.test_app_simples import abrir, textos
 from tests.test_consulta_simples import base_sintetica
@@ -54,7 +55,8 @@ def test_beneficio_nao_vira_desdobramento_de_classificacao(monkeypatch):
     opcoes(app)[0].click().run()
     assert "Benefício fictício condicionado" in textos(app.markdown)
     assert "vínculo específico" in textos(app.info)
-    assert "pendente" in textos(app.markdown)
+    assert "pendente de validação fiscal" in textos(app.info)
+    assert app.metric[2].value == "Revisão fiscal"
 
 
 def test_ncm_sem_tratamento_oferece_apenas_classificacao_cadastrada(monkeypatch):
@@ -68,10 +70,12 @@ def test_ncm_sem_tratamento_oferece_apenas_classificacao_cadastrada(monkeypatch)
     assert "19,00%" not in textos(app.markdown) and "12,00%" not in textos(app.markdown)
     opcoes(app)[0].click().run()
     assert not app.exception
-    assert "Alíquota interna verificada: não disponível" in textos(app.markdown)
-    assert "Vigência da classificação: não cadastrada" in textos(app.markdown)
-    assert "Fundamento da classificação: não cadastrado" in textos(app.markdown)
-    assert "19,00%" not in textos(app.markdown) and "12,00%" not in textos(app.markdown)
+    assert app.metric[0].value == "19,00%"
+    assert "Referência geral" in textos(app.caption)
+    assert "Vigência da classificação: pendente de cadastro" in textos(app.markdown)
+    assert "Fundamento da classificação: pendente de cadastro" in textos(app.markdown)
+    assert "referência não confirma o enquadramento" in textos(app.info)
+    assert "12,00%" not in textos(app.markdown)
 
 
 def test_fundamento_pendente_nao_confirma_aliquota_adicional_ou_soma(monkeypatch):
@@ -83,10 +87,12 @@ def test_fundamento_pendente_nao_confirma_aliquota_adicional_ou_soma(monkeypatch
     opcoes(app)[0].click().run()
     assert not app.exception
     saida = textos(app.markdown)
-    assert "Alíquota interna verificada: não disponível" in saida
+    assert app.metric[0].value == "8,32%"
+    assert app.metric[2].value == "Revisão fiscal"
     assert "Fundamento legal inexistente ou inativo" in saida
-    assert "Adicional: aplicação não comprovada" in saida
-    assert "Carga total: não calculada" in saida
+    assert "Adicional informado no cadastro (pendente): 2,00%" in saida
+    assert "Incidência do adicional e cálculo da carga total: validação fiscal pendente" in saida
+    assert "não é somado automaticamente" in saida
     assert "10,32%" not in saida
 
 
@@ -152,3 +158,89 @@ def test_voltar_preserva_ncm_formatado_apos_reexecucao_da_ficha(monkeypatch):
     assert app.text_input[0].value == "1234.56.78"
     assert [b.label for b in app.button if not str(b.key).startswith("opcao_")] == ["Consultar"]
     assert len(opcoes(app)) == 1
+
+
+def test_resumo_destaca_aliquota_cadastrada_sem_beneficio(monkeypatch):
+    app = pesquisar(abrir(monkeypatch, base_sintetica()))
+    opcoes(app)[0].click().run()
+    assert not app.exception
+    assert [m.label for m in app.metric] == ["Alíquota", "Benefício", "Situação"]
+    assert [m.value for m in app.metric] == ["8,32%", "Não identificado", "Cadastro localizado"]
+    assert "nenhum benefício vigente identificado no cadastro" in textos(app.caption)
+    assert "Alíquota cadastrada" in textos(app.caption)
+    assert not app.warning
+    assert "Alíquota interna verificada: não disponível" not in textos(app.markdown)
+    assert "Carga total: não calculada" not in textos(app.markdown)
+    assert "Alertas fiscais" in textos(app.subheader)
+    assert "NCM sozinho" in textos(app.info)
+
+
+def test_classificacao_sem_tratamento_destaca_referencia_sem_confirmar_enquadramento(monkeypatch):
+    base = base_sintetica(regras=[])
+    base.ncm.loc[0, "ncm"] = "04029900"
+    app = pesquisar(abrir(monkeypatch, base), "04029900")
+    assert len(opcoes(app)) == 1
+    opcoes(app)[0].click().run()
+    assert not app.exception
+    assert app.metric[0].value == "19,00%"
+    assert app.metric[2].value == "Revisão fiscal"
+    assert "Referência geral" in textos(app.caption)
+    saida = textos(app.markdown)
+    assert "Classificação localizada" in saida
+    assert "Tratamento específico de alíquota: nenhum encontrado para a data consultada" in saida
+    assert "Vigência da classificação: pendente de cadastro" in saida
+    assert "Fundamento da classificação: pendente de cadastro" in saida
+    assert "referência não confirma o enquadramento" in textos(app.info)
+    assert "nenhum Ex foi presumido" in textos(app.info)
+    assert "12,00%" not in saida
+    assert all(m.value != "12,00%" for m in app.metric)
+
+
+def test_referencia_geral_ausente_no_resultado_nao_e_inventada_na_ficha(monkeypatch):
+    from datetime import date
+    import src.busca
+
+    original = src.busca.consultar
+    monkeypatch.setattr(src.busca, "consultar", lambda base, ncm: original(base, ncm, date(2024, 3, 31)))
+    app = pesquisar(abrir(monkeypatch, base_sintetica(regras=[])))
+    opcoes(app)[0].click().run()
+    assert not app.exception
+    assert app.metric[0].value == "Em análise"
+    assert "19,00%" not in textos(app.markdown)
+    assert all(m.value != "19,00%" for m in app.metric)
+
+
+def test_beneficio_condicionado_fica_separado_da_aliquota_e_dos_alertas(monkeypatch):
+    base = base_com_beneficios(beneficio_sintetico(vigencia_inicio=None))
+    app = pesquisar(abrir(monkeypatch, base))
+    opcoes(app)[0].click().run()
+    assert not app.exception
+    assert [m.value for m in app.metric] == ["8,32%", "1 candidato", "Revisão fiscal"]
+    saida = textos(app.markdown)
+    assert "Somente na operação fictícia" in saida
+    assert "Redução da base de cálculo: 25,00%" in saida
+    assert "Carga efetiva: 6,24%" in saida
+    assert "Início de vigência da regra não cadastrado" in saida
+    assert "Condições cadastradas exigem validação fiscal" in saida
+    assert "Benefícios fiscais" in textos(app.subheader)
+    assert "Alertas fiscais" in textos(app.subheader)
+    assert "vínculo específico" in textos(app.info)
+
+
+@pytest.mark.parametrize("pendencia", ["fundamento", "vigencia"])
+def test_pendencia_nao_oculta_percentual_cadastrado_nem_confirma_aplicacao(monkeypatch, pendencia):
+    base = base_sintetica()
+    if pendencia == "fundamento":
+        base.aliquotas.loc[0, "id_legislacao"] = "NAO_EXISTE"
+        esperado = "Fundamento legal inexistente ou inativo"
+    else:
+        base.aliquotas.loc[0, "vigencia_inicio"] = None
+        esperado = "Início de vigência da regra não cadastrado"
+    app = pesquisar(abrir(monkeypatch, base))
+    opcoes(app)[0].click().run()
+    assert not app.exception
+    assert app.metric[0].value == "8,32%"
+    assert app.metric[2].value == "Revisão fiscal"
+    assert esperado in textos(app.markdown)
+    assert "enquadramento" in textos(app.info)
+    assert "Verificação fiscal necessária" in textos(app.warning)

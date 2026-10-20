@@ -89,15 +89,6 @@ def exibir_regra(regra):
         if fonte:
             st.write(f"Fonte cadastrada: {fonte}")
 
-    pendencias = pendencias_validacao(regra)
-    if pendencias:
-        st.write("Situação da validação automática do cadastro: pendente")
-        for pendencia in pendencias:
-            st.write(f"Pendência: {pendencia}")
-    else:
-        st.write("Situação da validação automática: Verificações automáticas do cadastro atendidas; "
-                 "aplicabilidade à mercadoria não confirmada apenas pelo NCM.")
-
 
 def selecionar_opcao(chave):
     st.session_state["opcao_selecionada"] = chave
@@ -112,21 +103,43 @@ def exibir_ficha(resultado, opcao):
     codigo = resultado.ncm_normalizado
     st.subheader(f"{codigo[:4]}.{codigo[4:6]}.{codigo[6:]} — {opcao.descricao}")
     st.caption(f"Ficha individual · {opcao.natureza}")
-    st.write(f"NCM: {codigo[:4]}.{codigo[4:6]}.{codigo[6:]}")
-    st.write(f"Descrição específica do cadastro: {opcao.descricao}")
-    icms, adicional, total = st.columns(3)
-    with icms:
-        st.caption("ICMS interno")
-        st.write("Alíquota interna verificada: não disponível; enquadramento fiscal específico pendente.")
-    with adicional:
-        st.caption("Adicional")
-        st.write("Adicional: aplicação não comprovada.")
-    with total:
-        st.caption("Carga total")
-        st.write("Carga total: não calculada; incidência conjunta e base de cálculo não comprovadas.")
+    st.markdown(
+        '<style>[data-testid="stMetricValue"] {font-size: 1.5rem; white-space: normal;}'
+        '[data-testid="stMetricValue"] p {white-space: normal; overflow-wrap: break-word;}</style>',
+        unsafe_allow_html=True,
+    )
+    beneficios = resultado.possibilidades_beneficio
+    regras = ([opcao.regra] if opcao.regra is not None else []) + beneficios
+    pendencias = [(regra, pendencias_validacao(regra)) for regra in regras]
+    multiplas = len(resultado.possibilidades_aliquota) > 1
+    revisao = opcao.regra is None or multiplas or any(itens for _, itens in pendencias)
+    referencia = resultado.aliquota_geral_referencia if opcao.regra is None else None
+
+    aliquota, beneficio, situacao = st.columns(3)
+    with aliquota, st.container(border=True):
+        if opcao.regra is not None:
+            valor = opcao.regra.dados.get("aliquota_icms")
+            st.metric("Alíquota", formatar_percentual(valor) if percentual_valido(valor) else "Revisar")
+            st.caption("Alíquota cadastrada · ICMS nominal")
+        elif referencia is not None:
+            st.metric("Alíquota", formatar_percentual(referencia))
+            st.caption("Referência geral · ICMS interno em Goiás")
+        else:
+            st.metric("Alíquota", "Em análise")
+            st.caption("Sem alíquota específica para esta consulta")
+    with beneficio, st.container(border=True):
+        quantidade = len(beneficios)
+        st.metric("Benefício", f"{quantidade} {'candidato' if quantidade == 1 else 'candidatos'}"
+                  if quantidade else "Não identificado")
+        st.caption("Aplicação sujeita às condições do cadastro" if quantidade else
+                   "Benefício fiscal: nenhum benefício vigente identificado no cadastro")
+    with situacao, st.container(border=True):
+        st.metric("Situação", "Revisão fiscal" if revisao else "Cadastro localizado")
+        st.caption("Confira os alertas fiscais abaixo" if revisao else
+                   "Dados cadastrais consistentes; confira o enquadramento")
+
+    st.subheader("Detalhes")
     if opcao.regra is not None:
-        if pendencias_validacao(opcao.regra):
-            st.warning("Verificação fiscal necessária para o tratamento selecionado.")
         exibir_regra(opcao.regra)
         adicional = opcao.regra.dados.get("adicional_percentual")
         if texto(adicional):
@@ -134,26 +147,46 @@ def exibir_ficha(resultado, opcao):
                 st.write(f"Adicional informado no cadastro (pendente): {formatar_percentual(adicional)}")
             else:
                 st.write("Adicional informado no cadastro: percentual inválido.")
-        st.info("As verificações cadastrais não equivalem a aprovação fiscal da mercadoria. "
-                "O adicional e a carga total dependem de fundamento e enquadramento próprios.")
     else:
-        st.write("Vigência da classificação: não cadastrada.")
-        st.write("Fundamento da classificação: não cadastrado.")
-        st.info("Nenhum tratamento de alíquota vigente foi encontrado para esta classificação. "
-                "Desdobramentos oficiais da TIPI não estão disponíveis nesta consulta; nenhum Ex foi presumido.")
+        st.write("Classificação localizada no cadastro NCM.")
+        st.write("Tratamento específico de alíquota: nenhum encontrado para a data consultada.")
+        if referencia is not None:
+            st.write(f"Referência geral de ICMS interno em Goiás: {formatar_percentual(referencia)}.")
+            st.info("Essa referência não confirma o enquadramento da mercadoria. "
+                    "A operação precisa de análise fiscal; a ausência de regra específica no cadastro "
+                    "não exclui exceções ou condições previstas na legislação.")
 
-    if resultado.possibilidades_beneficio:
+    if beneficios:
+        st.subheader("Benefícios fiscais")
         st.info("Benefícios com correspondência por NCM; vínculo específico com esta alternativa "
-                "não comprovado. Condições e enquadramento exigem validação fiscal. "
+                "pendente de validação fiscal. Confira as condições de cada candidato. "
                 "Redução de base, carga efetiva e crédito outorgado são apresentados separadamente, "
                 "sem combinação automática.")
-        for beneficio in resultado.possibilidades_beneficio:
+        for beneficio in beneficios:
             exibir_regra(beneficio)
-    elif resultado.candidatos_beneficio:
-        st.info("Nenhum benefício fiscal cadastrado está vigente e com escopo compatível com "
-                "a operação interna na data consultada.")
+
+    st.subheader("Alertas fiscais")
+    if revisao:
+        st.warning("Verificação fiscal necessária: confira as pendências de cadastro e enquadramento.")
     else:
-        st.info("Nenhum benefício fiscal cadastrado corresponde a este NCM.")
+        st.write("Verificações automáticas do cadastro atendidas.")
+    if opcao.regra is None:
+        st.write("Vigência da classificação: pendente de cadastro.")
+        st.write("Fundamento da classificação: pendente de cadastro.")
+    for regra, itens in pendencias:
+        if itens:
+            st.markdown(f"**Pendências — {regra.identificador}**")
+            for pendencia in dict.fromkeys(itens):
+                st.write(f"- {pendencia}")
+    if multiplas:
+        st.write("Há múltiplos tratamentos cadastrados. Esta ficha mostra a opção selecionada; "
+                 "nenhuma foi escolhida automaticamente.")
+    if opcao.regra is not None and texto(opcao.regra.dados.get("adicional_percentual")):
+        st.write("Incidência do adicional e cálculo da carga total: validação fiscal pendente. "
+                 "O adicional não é somado automaticamente à alíquota.")
+    st.info("O NCM sozinho não confirma o enquadramento da mercadoria. "
+            "Verifique operação, descrição, fundamento e vigência. "
+            "Desdobramentos oficiais exigem fonte própria; nenhum Ex foi presumido.")
 
 
 try:

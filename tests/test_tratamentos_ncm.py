@@ -134,9 +134,11 @@ def test_interface_separa_aliquotas_em_fichas_e_beneficios_por_natureza(monkeypa
     for trecho in ("8,32%", "Redução da base de cálculo: 25,00%",
                    "Carga efetiva: 6,24%", "Crédito outorgado: 4,57%",
                    "Redução fictícia", "Crédito fictício", "Norma sintética",
-                   "Somente na operação fictícia", "Situação da validação automática do cadastro: pendente"):
+                   "Somente na operação fictícia", "Condições cadastradas exigem validação fiscal"):
         assert trecho in saida
-    assert len(app.subheader) == 4
+    assert sum(s.value.startswith("Benefício cadastrado:") for s in app.subheader) == 2
+    assert "Benefícios fiscais" in textos(app.subheader) and "Alertas fiscais" in textos(app.subheader)
+    assert app.metric[2].value == "Revisão fiscal"
     assert "6,79%" not in saida
     next(b for b in app.button if b.label == "Voltar").click().run()
     abrir_ficha(app, 1)
@@ -149,7 +151,7 @@ def test_interface_sem_beneficios_informa_ausencia(monkeypatch):
     app.text_input[0].set_value("12345678")
     app.button[0].click().run()
     abrir_ficha(app)
-    assert "Nenhum benefício fiscal cadastrado" in textos(app.info)
+    assert "nenhum benefício vigente identificado no cadastro" in textos(app.caption)
 
 
 @pytest.mark.parametrize("tipo", ["ISENCAO", "DIFERIMENTO", "OUTRO_BENEFICIO"])
@@ -174,8 +176,9 @@ def test_beneficio_aparece_mesmo_sem_aliquota_cadastrada(monkeypatch):
     abrir_ficha(app)
     assert not app.exception
     assert "B_REDUCAO" in textos(app.subheader)
-    assert "19,00%" not in textos(app.markdown)
-    assert "Alíquota interna verificada: não disponível" in textos(app.markdown)
+    assert app.metric[0].value == "19,00%"
+    assert "Referência geral" in textos(app.caption)
+    assert "referência não confirma o enquadramento" in textos(app.info)
 
 
 def test_referencias_codificadas_nao_entram_na_lista_de_beneficios():
@@ -217,7 +220,8 @@ def test_interface_exibe_pendencias_do_beneficio_junto_ao_tratamento(monkeypatch
     saida = textos(app.markdown)
     assert "Fundamento legal inexistente ou inativo" in saida
     assert "Condições de aplicação do benefício não cadastradas" in saida
-    assert "Situação da validação automática do cadastro: pendente" in saida
+    assert app.metric[2].value == "Revisão fiscal"
+    assert "Alertas fiscais" in textos(app.subheader)
 
 
 def test_interface_nao_mostra_beneficio_vencido_como_alternativa(monkeypatch):
@@ -229,7 +233,7 @@ def test_interface_nao_mostra_beneficio_vencido_como_alternativa(monkeypatch):
     assert not app.exception
     assert "B_REDUCAO" not in textos(app.subheader)
     assert "25,00%" not in textos(app.markdown)
-    assert "Nenhum benefício fiscal cadastrado está vigente" in textos(app.info)
+    assert "nenhum benefício vigente identificado no cadastro" in textos(app.caption)
 
 
 def test_ncm_inativo_nao_recebe_beneficios_por_correspondencia():
