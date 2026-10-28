@@ -2209,12 +2209,22 @@
       "estado_temporal": "HISTORICO_PRAZO_EXAURIDO",
       "vigencia_fim_explicita_no_bloco": "2019-10-31",
       "evidencia_prazo_quadro_central": {
-        "indice_paragrafo": 14312,
+        "indice_paragrafo": 14314,
         "ato": "Lei nº 19.226/16",
         "texto_data_limite": "31.10.19 (Redação acrescida pelo Decreto n°8.928 - vigência:04.04.17)",
         "data_limite": "2019-10-31",
         "situacao": "PRAZO_EXPRESSO",
-        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A12P4"
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A12P4",
+        "verificacao_ancora": {
+          "fragmento": "A12XIV",
+          "link_literal": "../../Microsoft/Word/ANEXO_09_Beneficio_Fiscal.htm#A12XIV",
+          "indice_celula_inciso": 14312,
+          "indice_celula_lei": 14313,
+          "indice_celula_data": 14314,
+          "indice_anterior_apontava": "célula do inciso no começo da linha, não célula da data",
+          "verificado_em": "2026-10-28",
+          "metodo": "Fragmento do link legado, inciso, lei e data conferidos na mesma linha do quadro."
+        }
       },
       "divergencia_nota_lateral_quadro_central": false,
       "categorias": [

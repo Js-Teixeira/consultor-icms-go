@@ -30,7 +30,7 @@
     "beneficios_no_motor": 1797
   },
   "revisao_independente": {
-    "parecer_final_concluido": false,
+    "parecer_final_concluido": true,
     "interrompida_por_limite_de_uso": true,
     "checagens_realizadas": [
       "Suíte de 597 testes anterior à correção final",
@@ -42,7 +42,11 @@
       "Colisão de delimitador no gerador antigo",
       "Condição metodológica obsoleta dos radiofármacos"
     ],
-    "minor_conhecido": "Documentação histórica rotulada e conclusão atual apontada no README"
+    "minor_conhecido": "Documentação histórica rotulada e conclusão atual apontada no README",
+    "interrupcao_superada": true,
+    "conclusao": "PRONTO_NO_ESCOPO_TECNICO_SEM_HOMOLOGACAO_FISCAL",
+    "data_conclusao": "2026-10-28",
+    "limite_temporal_OP293": "Fragmento A12XIV e lei/data conferidos na mesma linha. Índice da data corrigido de14312(início da linha) para14314(célula da data)."
   },
   "rotina": {
     "habilitada": true,

@@ -23,7 +23,7 @@
 - [x] Utilitário de vigências somente leitura: `scripts/verificar_vigencias.py`, `tests/test_verificar_vigencias.py`. Casos: limite45dias inclusivo, data corrente inclusiva, expirado, inativo, fimvazio, data inválida, início posterior ao fim; nunca omitir inconsistência silenciosamente.
 - [x] Ativar acompanhamento semanal: segunda-feira de manhã, America/Sao_Paulo, leitura de fontes e Neon consultor_readonly; alertar mudanças e prazos45dias; sem escrita fiscal autônoma. Criado e habilitado28Out.
 - [x] Suíte completa598/598; checagens independentes executadas; dois achados corrigidos por regressão e ensaio; diffs e credenciais conferidos.
-- [ ] Parecer conclusivo independente: sessão do revisor interrompida por limite de uso após as checagens; PR permanece para revisão, sem alegar aprovação final.
+- [x] Parecer conclusivo independente retomado: pronto no escopo técnico; sem homologação fiscal. OP293 conferido pelo executor na mesma linha do quadro.
 - [ ] Publicar branch/commit e PR com documentação de cobertura real, rotina e pendências remanescentes. Conferir arquivos e checks remotos; sem merge automático.
 
 ## Foco da revisão
@@ -43,3 +43,5 @@ Final: limite de revisão independente — o revisor confirmou testes597anterior
 Ruling: oitoNULLemvezdemodal19 — vínculo genérico12nãodemonstrado; mantémhistórico e impedereconhecerpercentualindevido — custo:8consultas mostramRevisar até comprovação do produto/operação.
 Ruling: manter17art30nocatálogotécnico — appnão recebe fatosDIFAL/importação/TARE — custo:essas hipótesesnãoaparecemcomo benefício geralporNCM.
 Ruling: PRsemmergeautomático — versionamentoautorizado nãohomologaoperaçãofiscal e parecerconclusivopendente — custo:códigoficaembranchtécnicadisponívelpararevisão.
+
+Atualização: usuário autorizou continuar os itens remanescentes, incluindo revisão/integração. O revisor retomou e concluiu pronto no escopo técnico. O executor confirmou A12XIV nas células14312/14313/14314 e corrigiu índice da data; integração com head esperado e CI verde.
