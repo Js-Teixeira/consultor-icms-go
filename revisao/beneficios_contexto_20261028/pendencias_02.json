@@ -1,0 +1,1390 @@
+{
+  "referencia": "2026-10-28",
+  "natureza": "INVENTARIO_CONDICIONAL_SEM_PUBLICACAO_AUTOMATICA",
+  "itens": [
+    {
+      "indice_origem": 80,
+      "id_pendencia": "OUTROS_080",
+      "original": {
+        "template_id": "GO_A9_ART9_I_B2",
+        "item": "1.4",
+        "apendice": "VI",
+        "codigo_legal": "7419.99.90",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Reservatórios, tambores, latas e recipientes semelhantes, de latão (liga de cobre e zinco), de capacidade não superior a 300 litros, para transporte de leite"
+      },
+      "decisao": "RESOLVIDA_PARA_CANDIDATO_CONDICIONAL_OU_COMPLEMENTO",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART9_I_B2_74198090"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 81,
+      "id_pendencia": "OUTROS_081",
+      "original": {
+        "template_id": "GO_A9_ART9_I_B2",
+        "item": "2.5",
+        "apendice": "VI",
+        "codigo_legal": "9406.00.91",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Silos pré-fabricados com estrutura de madeira e paredes exteriores constituídas essencialmente dessa matéria"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 82,
+      "id_pendencia": "OUTROS_082",
+      "original": {
+        "template_id": "GO_A9_ART9_I_B2",
+        "item": "2.6",
+        "apendice": "VI",
+        "codigo_legal": "9406.00.92",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Silos pré-fabricados com estrutura de ferro ou aço e paredes exteriores constituídas essencialmente dessa matéria"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 83,
+      "id_pendencia": "OUTROS_083",
+      "original": {
+        "template_id": "GO_A9_ART9_I_B2",
+        "item": "3",
+        "apendice": "VI",
+        "codigo_legal": "4421.90.00",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Troncos (bretes) de contenção bovina"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 84,
+      "id_pendencia": "OUTROS_084",
+      "original": {
+        "template_id": "GO_A9_ART9_I_B2",
+        "item": "5.2",
+        "apendice": "VI",
+        "codigo_legal": "8201.20.00",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Forcados e forquilhas"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 85,
+      "id_pendencia": "OUTROS_085",
+      "original": {
+        "template_id": "GO_A9_ART9_I_B2",
+        "item": "8",
+        "apendice": "VI",
+        "codigo_legal": "8419.31.00",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Secadores para produtos agrícolas"
+      },
+      "decisao": "PENDENTE_IDENTIDADE_ENTRE_MULTIPLOS_SUCESSORES_OFICIAIS",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "sucessores_documentados": [
+        {
+          "destino": "ex 8419.33.00",
+          "pagina": 14,
+          "ncm_8_digitos": "84193300",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Secadores — Aparelhos de liofilização, aparelhos de criodessecação e secadores por pulverização"
+        },
+        {
+          "destino": "8419.34.00",
+          "pagina": 14,
+          "ncm_8_digitos": "84193400",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Secadores — Outros, para produtos agrícolas"
+        }
+      ],
+      "fonte_correlacao": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+      "acao_necessaria": "Selecionar o sucessor do produto concreto pela descrição/notas oficiais e documentação técnica. A tabela pode incluir ex parcial e destinos incompatíveis com o produto; não gerar todos como benefício."
+    },
+    {
+      "indice_origem": 86,
+      "id_pendencia": "OUTROS_086",
+      "original": {
+        "template_id": "GO_A9_ART9_I_B2",
+        "item": "10.4",
+        "apendice": "VI",
+        "codigo_legal": "8424.81.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Outros irrigadores e sistemas de irrigação, inclusive os elementos integrantes desses sistemas, como máquinas, aparelhos, equipamentos, dispositivos e instrumentos"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 87,
+      "id_pendencia": "OUTROS_087",
+      "original": {
+        "template_id": "GO_A9_ART9_I_B2",
+        "item": "23.1",
+        "apendice": "VI",
+        "codigo_legal": "8803.10.00",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Hélices e rotores, e suas partes"
+      },
+      "decisao": "RESOLVIDA_PARA_CANDIDATO_CONDICIONAL_OU_COMPLEMENTO",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART9_I_B2_88071000"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 88,
+      "id_pendencia": "OUTROS_088",
+      "original": {
+        "template_id": "GO_A9_ART9_I_B2",
+        "item": "23.2",
+        "apendice": "VI",
+        "codigo_legal": "8803.20.00",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Trens de aterrissagem e suas partes"
+      },
+      "decisao": "RESOLVIDA_PARA_CANDIDATO_CONDICIONAL_OU_COMPLEMENTO",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART9_I_B2_88072000"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 89,
+      "id_pendencia": "OUTROS_089",
+      "original": {
+        "template_id": "GO_A9_ART9_I_B2",
+        "item": "23.3",
+        "apendice": "VI",
+        "codigo_legal": "8803.30.00",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Outras partes de aviões"
+      },
+      "decisao": "RESOLVIDA_PARA_CANDIDATO_CONDICIONAL_OU_COMPLEMENTO",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART9_I_B2_88073000"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 90,
+      "id_pendencia": "OUTROS_090",
+      "original": {
+        "template_id": "GO_A9_ART9_I_B2",
+        "item": "23.4",
+        "apendice": "VI",
+        "codigo_legal": "8803.90.00",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Outras"
+      },
+      "decisao": "RESOLVIDA_PARA_CANDIDATO_CONDICIONAL_OU_COMPLEMENTO",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART9_I_B2_88079000"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 91,
+      "id_pendencia": "OUTROS_091",
+      "original": {
+        "template_id": "GO_A9_ART9_I_B2",
+        "item": "24",
+        "apendice": "VI",
+        "codigo_legal": "9027.80.14",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Ovascan"
+      },
+      "decisao": "RESOLVIDA_PARA_CANDIDATO_CONDICIONAL_OU_COMPLEMENTO",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART9_I_B2_90278914"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 92,
+      "id_pendencia": "OUTROS_092",
+      "original": {
+        "template_id": "GO_A9_ART9_I_B2",
+        "item": "25",
+        "apendice": "VI",
+        "codigo_legal": "9406.00.10",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Estufa agrícola pré-fabricada em estrutura de aço ou alumínio, com coberturas e fechamentos em filmes, telas ou placas de plástico, opcionalmente com janelas e cortinas de acionamento manual ou motorizado, exaustores, iluminação elétrica, bancadas de cultivo e sistemas de aquecimento"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 93,
+      "id_pendencia": "OUTROS_093",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "apendice": "XVII",
+        "item": "267",
+        "motivo": "REDACAO_FUTURA_2027_NAO_VINCULADA; MANTER_REDACAO_ANTERIOR_SE_EXISTENTE",
+        "trecho": "Nota: Redação com vigência de 01.01.23 a 31.12.26. CONFERIDA NOVA REDAÇÃO AO ITEM 267 DO APÊNDICE XVII PELO ART. 3º DO DECRETO Nº 10.896 - VIGÊNCIA: 01.01.27\n267 | Aflibercepte | 3002.13.00 | 40 mg/ml - solução incivitct 1 favd trans x 0,2278 ml + AGU | 3002.15.90"
+      },
+      "decisao": "FUTURA_2027_PRESERVAR_SEM_ATIVAR",
+      "propostas_relacionadas": [],
+      "observacao": "Decreto10.896/2026 art4ºII: itens267 e278 doApêndiceXVII somente em01/01/2027; não antecipar redação futura."
+    },
+    {
+      "indice_origem": 94,
+      "id_pendencia": "OUTROS_094",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "apendice": "XVII",
+        "item": "278",
+        "motivo": "REDACAO_FUTURA_2027_NAO_VINCULADA; MANTER_REDACAO_ANTERIOR_SE_EXISTENTE",
+        "trecho": "ACRESCIDO O ITEM 278 AO APÊNDICE XVII PELO ART. 3º DO DECRETO Nº 10.896 - VIGÊNCIA: 01.01.27\n278 | Alfaeptacogue ativado (fator recombinante de coagulação VII ativado - rFVIIa) | 3002.12.39 | 1 mg (50.000 UI) - pó para solução injetável | 3002.15.90"
+      },
+      "decisao": "FUTURA_2027_PRESERVAR_SEM_ATIVAR",
+      "propostas_relacionadas": [],
+      "observacao": "Decreto10.896/2026 art4ºII: itens267 e278 doApêndiceXVII somente em01/01/2027; não antecipar redação futura."
+    },
+    {
+      "indice_origem": 95,
+      "id_pendencia": "OUTROS_095",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "3",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Adalimumabe - injetável – 40mg – por seringa preenchida, caneta aplicadora ou frasco-ampola"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 96,
+      "id_pendencia": "OUTROS_096",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "4",
+        "apendice": "XVII",
+        "codigo_legal": "2931.00.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Alendronato de sódio"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 97,
+      "id_pendencia": "OUTROS_097",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "8",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Alfainterferona 2b 10.000.000 UI - injetável por frasco ampola; Alfainterferona 2b 5.000.000 UI - injetável por frasco ampola; Alfainterferona 2b 3.000.000 UI - injetável por frasco ampola; 9 | Alfapeginterferona 2a | Alfapeginterferona 2a 180 mcg - por seringa preenchida; Alfapeginterferona 2b | Alfapeginterferona 2b 80 mcg - por frasco ampola; Alfapeginterferona 2b 100 mcg - por frasco ampola; Alfapeginterferona 2b 120 mcg - por frasco ampola"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 98,
+      "id_pendencia": "OUTROS_098",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "14",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.36",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Betainterferona - 6.000.000 UI (22 mcg) - Injetável - (por seringa preenchida); Betainterferona - 12.000.000 UI (44 mcg) - Injetável - (por seringa preenchida); Betainterferona 6.000.000 UI (30 mcg)- injetável - seringa preenchida ou frasco ampola; Betainterferona 9.600.000 UI - Injetável - (por frasco/ampola); Betainterferona 1a | Betainterferona 1a - 6.000.000 UI (22 mcg) - Injetável - (por seringa preenchida); Betainterferona 1a - 12.000.000 UI (44 mcg) - Injetável - (por seringa preenchida); Betainterferona 1a 6.000.000 UI (30 mcg)- injetável - seringa preenchida ou frasco ampola; Betainterferona 1b | Betainterferona 1b - 9.600.000 UI - Injetável - (por frasco/ampola)"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 99,
+      "id_pendencia": "OUTROS_099",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "17",
+        "apendice": "XVII",
+        "codigo_legal": "3003.40.90",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Bromocriptina 2,5 mg - por comprimido ou cápsula de liberação prolongada; Mesilato de Bromocriptina | Mesilato de Bromocriptina 2,5 mg - por comprimido ou cápsula de liberação prolongada"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 100,
+      "id_pendencia": "OUTROS_100",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "17",
+        "apendice": "XVII",
+        "codigo_legal": "3004.40.90",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Bromocriptina 2,5 mg - por comprimido ou cápsula de liberação prolongada; Mesilato de Bromocriptina | Mesilato de Bromocriptina 2,5 mg - por comprimido ou cápsula de liberação prolongada"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 101,
+      "id_pendencia": "OUTROS_101",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "28",
+        "apendice": "XVII",
+        "codigo_legal": "3003.40.40",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Codeína 30 mg/ml - por ampola com 2 ml; Codeína 30 mg - por comprimido; Codeína 60 mg - por comprimido; Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Acetato de Codeína | Acetato de Codeína 30 mg/ml - por ampola com 2 ml; Acetato de Codeína 30 mg - por comprimido; Acetato de Codeína 60 mg - por comprimido; Acetato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Bromidrato de Codeína | Bromidrato de Codeína 30 mg/ml - por ampola com 2 ml; Bromidrato de Codeína 30 mg - por comprimido; Bromidrato de Codeína 60 mg - por comprimido; Bromidrato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Canfossulfonato de Codeína | Canfossulfonato de Codeína 30 mg/ml - por ampola com 2 ml; Canfossulfonato de Codeína 30 mg - por comprimido; Canfossulfonato de Codeína 60 mg - por comprimido; Canfossulfonato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Citrato de Codeína | Citrato de Codeína 30 mg/ml - por ampola com 2 ml; Citrato de Codeína 30 mg - por comprimido; Citrato de Codeína 60 mg - por comprimido; Citrato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Cloridrato de Codeína | Cloridrato de Codeína 30 mg/ml - por ampola com 2 ml; Cloridrato de Codeína 30 mg - por comprimido; Cloridrato de Codeína 60 mg - por comprimido; Cloridrato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Metilbrometo de Codeína | Metilbrometo de Codeína 30 mg/ml - por ampola com 2 ml; Metilbrometo de Codeína 30 mg - por comprimido; Metilbrometo de Codeína 60 mg - por comprimido; Metilbrometo de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Óxido de Codeína | Óxido de Codeína 30 mg/ml - por ampola com 2 ml; Óxido de Codeína 30 mg - por comprimido; Óxido de Codeína 60 mg - por comprimido; Óxido de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Salicilato de Codeína | Salicilato de Codeína 30 mg/ml - por ampola com 2 ml; Salicilato de Codeína 30 mg - por comprimido; Salicilato de Codeína 60 mg - por comprimido; Salicilato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Sulfato de Codeína | Sulfato de Codeína 30 mg/ml - por ampola com 2 ml; Sulfato de Codeína 30 mg - por comprimido; Sulfato de Codeína 60 mg - por comprimido; Sulfato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Fosfato de Codeína | Fosfato de Codeína 30 mg/ml - por ampola com 2 ml; Fosfato de Codeína 30 mg - por comprimido; Fosfato de Codeína 60 mg - por comprimido; Fosfato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 102,
+      "id_pendencia": "OUTROS_102",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "28",
+        "apendice": "XVII",
+        "codigo_legal": "3004.40.40",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Codeína 30 mg/ml - por ampola com 2 ml; Codeína 30 mg - por comprimido; Codeína 60 mg - por comprimido; Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Acetato de Codeína | Acetato de Codeína 30 mg/ml - por ampola com 2 ml; Acetato de Codeína 30 mg - por comprimido; Acetato de Codeína 60 mg - por comprimido; Acetato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Bromidrato de Codeína | Bromidrato de Codeína 30 mg/ml - por ampola com 2 ml; Bromidrato de Codeína 30 mg - por comprimido; Bromidrato de Codeína 60 mg - por comprimido; Bromidrato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Canfossulfonato de Codeína | Canfossulfonato de Codeína 30 mg/ml - por ampola com 2 ml; Canfossulfonato de Codeína 30 mg - por comprimido; Canfossulfonato de Codeína 60 mg - por comprimido; Canfossulfonato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Citrato de Codeína | Citrato de Codeína 30 mg/ml - por ampola com 2 ml; Citrato de Codeína 30 mg - por comprimido; Citrato de Codeína 60 mg - por comprimido; Citrato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Cloridrato de Codeína | Cloridrato de Codeína 30 mg/ml - por ampola com 2 ml; Cloridrato de Codeína 30 mg - por comprimido; Cloridrato de Codeína 60 mg - por comprimido; Cloridrato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Metilbrometo de Codeína | Metilbrometo de Codeína 30 mg/ml - por ampola com 2 ml; Metilbrometo de Codeína 30 mg - por comprimido; Metilbrometo de Codeína 60 mg - por comprimido; Metilbrometo de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Óxido de Codeína | Óxido de Codeína 30 mg/ml - por ampola com 2 ml; Óxido de Codeína 30 mg - por comprimido; Óxido de Codeína 60 mg - por comprimido; Óxido de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Salicilato de Codeína | Salicilato de Codeína 30 mg/ml - por ampola com 2 ml; Salicilato de Codeína 30 mg - por comprimido; Salicilato de Codeína 60 mg - por comprimido; Salicilato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Sulfato de Codeína | Sulfato de Codeína 30 mg/ml - por ampola com 2 ml; Sulfato de Codeína 30 mg - por comprimido; Sulfato de Codeína 60 mg - por comprimido; Sulfato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Fosfato de Codeína | Fosfato de Codeína 30 mg/ml - por ampola com 2 ml; Fosfato de Codeína 30 mg - por comprimido; Fosfato de Codeína 60 mg - por comprimido; Fosfato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 103,
+      "id_pendencia": "OUTROS_103",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "41",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Filgrastim"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 104,
+      "id_pendencia": "OUTROS_104",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "41",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Filgrastim 300 mcg - injetável - por frasco ou seringa preenchida"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 105,
+      "id_pendencia": "OUTROS_105",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "apendice": "XVII",
+        "item": "43",
+        "motivo": "ITEM_EXPRESSAMENTE_REVOGADO_SEM_VINCULO",
+        "trecho": "43 | Revogado"
+      },
+      "decisao": "ENCERRADA_SEM_ASSOCIACAO_ITEM_REVOGADO",
+      "propostas_relacionadas": [],
+      "observacao": "Preservar histórico; não gerar associação ativa."
+    },
+    {
+      "indice_origem": 106,
+      "id_pendencia": "OUTROS_106",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "apendice": "XVII",
+        "item": "44",
+        "motivo": "ITEM_EXPRESSAMENTE_REVOGADO_SEM_VINCULO",
+        "trecho": "44 | Revogado"
+      },
+      "decisao": "ENCERRADA_SEM_ASSOCIACAO_ITEM_REVOGADO",
+      "propostas_relacionadas": [],
+      "observacao": "Preservar histórico; não gerar associação ativa."
+    },
+    {
+      "indice_origem": 107,
+      "id_pendencia": "OUTROS_107",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "48",
+        "apendice": "XVII",
+        "codigo_legal": "2939.99.90",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Galantamina"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 108,
+      "id_pendencia": "OUTROS_108",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "apendice": "XVII",
+        "item": "53",
+        "motivo": "ITEM_EXPRESSAMENTE_REVOGADO_SEM_VINCULO",
+        "trecho": "53 | Revogado"
+      },
+      "decisao": "ENCERRADA_SEM_ASSOCIACAO_ITEM_REVOGADO",
+      "propostas_relacionadas": [],
+      "observacao": "Preservar histórico; não gerar associação ativa."
+    },
+    {
+      "indice_origem": 109,
+      "id_pendencia": "OUTROS_109",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "54",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.23",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Imunoglobulina Anti-Hepatite B 1000 mg - injetável - por frasco; Imunoglobulina Anti-Hepatite B 100 mg - injetável - por frasco; Imunoglobulina Anti-Hepatite B 500 mg - injetável - por frasco"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 110,
+      "id_pendencia": "OUTROS_110",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "56",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Infliximabe 10 mg/ml - injetável - por ampola de 10 ml"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 111,
+      "id_pendencia": "OUTROS_111",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "apendice": "XVII",
+        "item": "61",
+        "motivo": "ITEM_EXPRESSAMENTE_REVOGADO_SEM_VINCULO",
+        "trecho": "61 | Revogado"
+      },
+      "decisao": "ENCERRADA_SEM_ASSOCIACAO_ITEM_REVOGADO",
+      "propostas_relacionadas": [],
+      "observacao": "Preservar histórico; não gerar associação ativa."
+    },
+    {
+      "indice_origem": 112,
+      "id_pendencia": "OUTROS_112",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "63",
+        "apendice": "XVII",
+        "codigo_legal": "2937.39.11",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Levodopa + Benserasida"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 113,
+      "id_pendencia": "OUTROS_113",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "63",
+        "apendice": "XVII",
+        "codigo_legal": "3003.39.93",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Levodopa 200 mg + Benserazida 50 mg - por comprimido; Levodopa 100 mg + Benserazida 25 mg - por cápsula ou comprimido; Levodopa + Cloridrato de Benserazida | Levodopa 200 mg + Cloridrato de Benserazida 50 mg - por comprimido; Levodopa 100 mg + Cloridrato de Benserazida 25 mg - por cápsula ou comprimido"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 114,
+      "id_pendencia": "OUTROS_114",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "63",
+        "apendice": "XVII",
+        "codigo_legal": "3004.39.93",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Levodopa 200 mg + Benserazida 50 mg - por comprimido; Levodopa 100 mg + Benserazida 25 mg - por cápsula ou comprimido; Levodopa + Cloridrato de Benserazida | Levodopa 200 mg + Cloridrato de Benserazida 50 mg - por comprimido; Levodopa 100 mg + Cloridrato de Benserazida 25 mg - por cápsula ou comprimido"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 115,
+      "id_pendencia": "OUTROS_115",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "64",
+        "apendice": "XVII",
+        "codigo_legal": "2937.39.11",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Levodopa + Carbidopa"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 116,
+      "id_pendencia": "OUTROS_116",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "64",
+        "apendice": "XVII",
+        "codigo_legal": "3003.39.93",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Levodopa 200 mg + Carbidopa 50 mg - por cápsula ou comprimido; Levodopa 250 mg + Carbidopa 25 mg - por comprimido"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 117,
+      "id_pendencia": "OUTROS_117",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "64",
+        "apendice": "XVII",
+        "codigo_legal": "3004.39.93",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Levodopa 200 mg + Carbidopa 50 mg - por cápsula ou comprimido; Levodopa 250 mg + Carbidopa 25 mg - por comprimido"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 118,
+      "id_pendencia": "OUTROS_118",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "65",
+        "apendice": "XVII",
+        "codigo_legal": "2937.40.10",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Levotiroxina"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 119,
+      "id_pendencia": "OUTROS_119",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "apendice": "XVII",
+        "item": "66",
+        "motivo": "ITEM_EXPRESSAMENTE_REVOGADO_SEM_VINCULO",
+        "trecho": "66 | Revogado"
+      },
+      "decisao": "ENCERRADA_SEM_ASSOCIACAO_ITEM_REVOGADO",
+      "propostas_relacionadas": [],
+      "observacao": "Preservar histórico; não gerar associação ativa."
+    },
+    {
+      "indice_origem": 120,
+      "id_pendencia": "OUTROS_120",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "72",
+        "apendice": "XVII",
+        "codigo_legal": "2932.29.90",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Micofenolato de Sódio"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 121,
+      "id_pendencia": "OUTROS_121",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "73",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Molgramostim"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 122,
+      "id_pendencia": "OUTROS_122",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "73",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Molgramostim 300 mcg - injetável - por frasco"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 123,
+      "id_pendencia": "OUTROS_123",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "77",
+        "apendice": "XVII",
+        "codigo_legal": "2931.00.49",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Pamidronato dissódico"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 124,
+      "id_pendencia": "OUTROS_124",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "86",
+        "apendice": "XVII",
+        "codigo_legal": "2931.00.49",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Risedronato Sódico"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 125,
+      "id_pendencia": "OUTROS_125",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "94",
+        "apendice": "XVII",
+        "codigo_legal": "2932.29.90",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Sinvastatina"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 126,
+      "id_pendencia": "OUTROS_126",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "97",
+        "apendice": "XVII",
+        "codigo_legal": "2935.00.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Sulfassalazina"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 127,
+      "id_pendencia": "OUTROS_127",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "apendice": "XVII",
+        "item": "99",
+        "motivo": "ITEM_EXPRESSAMENTE_REVOGADO_SEM_VINCULO",
+        "trecho": "99 | Revogado"
+      },
+      "decisao": "ENCERRADA_SEM_ASSOCIACAO_ITEM_REVOGADO",
+      "propostas_relacionadas": [],
+      "observacao": "Preservar histórico; não gerar associação ativa."
+    },
+    {
+      "indice_origem": 128,
+      "id_pendencia": "OUTROS_128",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "100",
+        "apendice": "XVII",
+        "codigo_legal": "2935.00.99",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Topiramato"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 129,
+      "id_pendencia": "OUTROS_129",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "101",
+        "apendice": "XVII",
+        "codigo_legal": "3002.90.92",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Toxina Botulínica tipo A"
+      },
+      "decisao": "PENDENTE_IDENTIDADE_ENTRE_MULTIPLOS_SUCESSORES_OFICIAIS",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "sucessores_documentados": [
+        {
+          "destino": "3002.49.92",
+          "pagina": 6,
+          "ncm_8_digitos": "30024992",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Vacinas, toxinas, culturas de microrganismos (exceto leveduras) e produtos semelhantes — Outros — Para a saúde humana"
+        },
+        {
+          "destino": "ex 3002.51.00",
+          "pagina": 6,
+          "ncm_8_digitos": "30025100",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Culturas de células, mesmo modificadas — Produtos de terapia celular"
+        }
+      ],
+      "fonte_correlacao": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+      "acao_necessaria": "Selecionar o sucessor do produto concreto pela descrição/notas oficiais e documentação técnica. A tabela pode incluir ex parcial e destinos incompatíveis com o produto; não gerar todos como benefício."
+    },
+    {
+      "indice_origem": 130,
+      "id_pendencia": "OUTROS_130",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "101",
+        "apendice": "XVII",
+        "codigo_legal": "3002.90.92",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Toxina Botulínica tipo A - 100 UI - injetável (por frasco/ampola); Toxina Botulínica tipo A - 500 UI - injetável - (por frasco/ampola)"
+      },
+      "decisao": "PENDENTE_IDENTIDADE_ENTRE_MULTIPLOS_SUCESSORES_OFICIAIS",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "sucessores_documentados": [
+        {
+          "destino": "3002.49.92",
+          "pagina": 6,
+          "ncm_8_digitos": "30024992",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Vacinas, toxinas, culturas de microrganismos (exceto leveduras) e produtos semelhantes — Outros — Para a saúde humana"
+        },
+        {
+          "destino": "ex 3002.51.00",
+          "pagina": 6,
+          "ncm_8_digitos": "30025100",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Culturas de células, mesmo modificadas — Produtos de terapia celular"
+        }
+      ],
+      "fonte_correlacao": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+      "acao_necessaria": "Selecionar o sucessor do produto concreto pela descrição/notas oficiais e documentação técnica. A tabela pode incluir ex parcial e destinos incompatíveis com o produto; não gerar todos como benefício."
+    },
+    {
+      "indice_origem": 131,
+      "id_pendencia": "OUTROS_131",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "106",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Soro - Outros soros"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 132,
+      "id_pendencia": "OUTROS_132",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "106",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Soro - Outros soros"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 133,
+      "id_pendencia": "OUTROS_133",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "107",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Soro Anti-Aracnídico"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 134,
+      "id_pendencia": "OUTROS_134",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "107",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Soro Anti-Aracnídico"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 135,
+      "id_pendencia": "OUTROS_135",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "108",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Soro Anti-Bot/Crotálico"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 136,
+      "id_pendencia": "OUTROS_136",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "108",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Soro Anti-Bot/Crotálico"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 137,
+      "id_pendencia": "OUTROS_137",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "109",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Soro Anti-Bot/Laquético"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 138,
+      "id_pendencia": "OUTROS_138",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "109",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Soro Anti-Bot/Laquético"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 139,
+      "id_pendencia": "OUTROS_139",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "110",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Soro Anti-Botrópico"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 140,
+      "id_pendencia": "OUTROS_140",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "110",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Soro Anti-Botrópico"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 141,
+      "id_pendencia": "OUTROS_141",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "111",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Soro Anti-Botulínico"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 142,
+      "id_pendencia": "OUTROS_142",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "111",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Soro Anti-Botulínico"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 143,
+      "id_pendencia": "OUTROS_143",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "112",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Soro Anti-Crotálico"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 144,
+      "id_pendencia": "OUTROS_144",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "112",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Soro Anti-Crotálico"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 145,
+      "id_pendencia": "OUTROS_145",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "113",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.15",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Soro Anti-Diftérico"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 146,
+      "id_pendencia": "OUTROS_146",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "113",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.15",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Soro Anti-Diftérico"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 147,
+      "id_pendencia": "OUTROS_147",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "114",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Soro Anti-Elapídico"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 148,
+      "id_pendencia": "OUTROS_148",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "114",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Soro Anti-Elapídico"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 149,
+      "id_pendencia": "OUTROS_149",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "115",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Soro Anti-Escorpiônico"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 150,
+      "id_pendencia": "OUTROS_150",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "115",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Soro Anti-Escorpiônico"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 151,
+      "id_pendencia": "OUTROS_151",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "116",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Soro Anti-Lactrodectus"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 152,
+      "id_pendencia": "OUTROS_152",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "116",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Soro Anti-Lactrodectus"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 153,
+      "id_pendencia": "OUTROS_153",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "117",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Soro Anti-Lonômia"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 154,
+      "id_pendencia": "OUTROS_154",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "117",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Soro Anti-Lonômia"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 155,
+      "id_pendencia": "OUTROS_155",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "118",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Soro Anti-Loxoscélico"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 156,
+      "id_pendencia": "OUTROS_156",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "118",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Soro Anti-Loxoscélico"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 157,
+      "id_pendencia": "OUTROS_157",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "119",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Soro Anti-Rábico"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 158,
+      "id_pendencia": "OUTROS_158",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "119",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Soro Anti-Rábico"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 159,
+      "id_pendencia": "OUTROS_159",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "120",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.12",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Soro Anti-Tetânico"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    }
+  ]
+}

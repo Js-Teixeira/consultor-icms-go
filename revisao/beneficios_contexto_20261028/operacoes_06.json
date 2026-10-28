@@ -1,0 +1,2540 @@
+{
+  "referencia": "2026-10-28",
+  "natureza": "INVENTARIO_CONDICIONAL_SEM_PUBLICACAO_AUTOMATICA",
+  "itens": [
+    {
+      "id": "OP_250",
+      "indice_origem": 250,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoXXV",
+      "artigo": 11,
+      "inciso": "XXV",
+      "caput_literal": "XXV - para industrial e comerciante atacadista na operação de saída de óleo vegetal comestível, em valor equivalente a 5% (cinco por cento) da respectiva base de cálculo, observado o seguinte (Lei nº 13.194/97, art. 2º, II, “b”, 3):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11XXV",
+      "indice_paragrafo_caput": 11509,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "REGIME_TARE_PROGRAMA",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "REFERENCIA_EXPRESSA_CONFERIR_INSTRUMENTO_E_FUNCAO",
+        "evidencias": [
+          {
+            "indice_paragrafo": 11517,
+            "texto": "d) devem ser atendidas outras condições estabelecidas em regime especial firmado com a Secretaria da Fazenda;"
+          }
+        ]
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Qual a evidência de: Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ]
+    },
+    {
+      "id": "OP_251",
+      "indice_origem": 251,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoXXVI",
+      "artigo": 11,
+      "inciso": "XXVI",
+      "caput_literal": "XXVI - para o industrial do setor alcooleiro enquadrado nos programas FOMENTAR, PRODUZIR ou PROGOIÁS, o valor correspondente à aplicação do percentual de 32% (trinta e dois por cento) sobre o saldo devedor do valor do ICMS que seria obtido, caso a responsabilidade pelo imposto nas operações com álcool anidro fosse do industrial, observado o seguinte (Lei nº 13.246, de 1998, art. 3º, II):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11XXVI",
+      "indice_paragrafo_caput": 11646,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "COMUNICACAO_ENERGIA",
+        "REGIME_TARE_PROGRAMA",
+        "ORIGEM_PRODUCAO_INDUSTRIALIZACAO",
+        "DESTINATARIO_FINALIDADE",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [
+        {
+          "indice_paragrafo": 11646,
+          "texto": "XXVI - para o industrial do setor alcooleiro enquadrado nos programas FOMENTAR, PRODUZIR ou PROGOIÁS, o valor correspondente à aplicação do percentual de 32% (trinta e dois por cento) sobre o saldo devedor do valor do ICMS que seria obtido, caso a responsabilidade pelo imposto nas operações com álcool anidro fosse do industrial, observado o seguinte (Lei nº 13.246, de 1998, art. 3º, II):"
+        },
+        {
+          "indice_paragrafo": 11656,
+          "texto": "1. utilizado para a subtração do valor a pagar relativo ao ICMS, excluída a parte incentivada pelo FOMENTAR ou pelo PRODUZIR, ou após a aplicação do crédito outorgado do PROGOIÁS, conforme o caso:"
+        }
+      ],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Consumo/medição, usuário ou tomador, modalidade do serviço/fornecimento e eventuais limites.",
+        "Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Consumo/medição, usuário ou tomador, modalidade do serviço/fornecimento e eventuais limites.",
+        "Qual a evidência de: Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Qual a evidência de: Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ]
+    },
+    {
+      "id": "OP_252",
+      "indice_origem": 252,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoXXVI-A",
+      "artigo": 11,
+      "inciso": "XXVI-A",
+      "caput_literal": "XXVI-A - para o industrial do setor alcooleiro enquadrado nos programas FOMENTAR, PRODUZIR ou PROGOIÁS, mediante a celebração de termo de acordo de regime especial, o valor correspondente à aplicação do percentual de 46% (quarenta e seis por cento) sobre o saldo devedor do valor do ICMS que seria obtido caso a responsabilidade pelo imposto nas operações com álcool anidro fosse do industrial, observado o seguinte (Lei nº 13.246, de 1998, art. 3º, II):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11XXVI-A",
+      "indice_paragrafo_caput": 11675,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "COMUNICACAO_ENERGIA",
+        "REGIME_TARE_PROGRAMA",
+        "ORIGEM_PRODUCAO_INDUSTRIALIZACAO",
+        "DESTINATARIO_FINALIDADE",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "REFERENCIA_EXPRESSA_CONFERIR_INSTRUMENTO_E_FUNCAO",
+        "evidencias": [
+          {
+            "indice_paragrafo": 11675,
+            "texto": "XXVI-A - para o industrial do setor alcooleiro enquadrado nos programas FOMENTAR, PRODUZIR ou PROGOIÁS, mediante a celebração de termo de acordo de regime especial, o valor correspondente à aplicação do percentual de 46% (quarenta e seis por cento) sobre o saldo devedor do valor do ICMS que seria obtido caso a responsabilidade pelo imposto nas operações com álcool anidro fosse do industrial, observado o seguinte (Lei nº 13.246, de 1998, art. 3º, II):"
+          },
+          {
+            "indice_paragrafo": 11692,
+            "texto": "1. o benefício é concedido em relação ao saldo devedor decorrente da quantidade de álcool anidro comercializada que exceder a média dos últimos 12 (doze) meses anteriores à data de protocolização do pedido do regime especial; e"
+          }
+        ]
+      },
+      "enquadramento_programa": [
+        {
+          "indice_paragrafo": 11675,
+          "texto": "XXVI-A - para o industrial do setor alcooleiro enquadrado nos programas FOMENTAR, PRODUZIR ou PROGOIÁS, mediante a celebração de termo de acordo de regime especial, o valor correspondente à aplicação do percentual de 46% (quarenta e seis por cento) sobre o saldo devedor do valor do ICMS que seria obtido caso a responsabilidade pelo imposto nas operações com álcool anidro fosse do industrial, observado o seguinte (Lei nº 13.246, de 1998, art. 3º, II):"
+        },
+        {
+          "indice_paragrafo": 11680,
+          "texto": "1. utilizado para a subtração do valor a pagar relativo ao ICMS, excluída a parte incentivada pelo FOMENTAR ou pelo PRODUZIR, ou após a aplicação do crédito outorgado do PROGOIÁS, conforme o caso:"
+        },
+        {
+          "indice_paragrafo": 11690,
+          "texto": "e) quando se tratar de contribuinte beneficiário dos programas FOMENTAR, PRODUZIR ou PROGOIÁS, o valor recebido em transferência pode ser utilizado para a subtração do valor a pagar relativo ao ICMS, excluída a parte incentivada pelo FOMENTAR ou PRODUZIR, ou após a aplicação do crédito outorgado do PROGOIÁS, conforme o caso;"
+        }
+      ],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Consumo/medição, usuário ou tomador, modalidade do serviço/fornecimento e eventuais limites.",
+        "Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Consumo/medição, usuário ou tomador, modalidade do serviço/fornecimento e eventuais limites.",
+        "Qual a evidência de: Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Qual a evidência de: Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Qual a evidência de: Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ]
+    },
+    {
+      "id": "OP_253",
+      "indice_origem": 253,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoXXVII",
+      "artigo": 11,
+      "inciso": "XXVII",
+      "caput_literal": "XXVII - o valor constante do documento denominado \"Cheque Moradia\" ou disponibilizado sob a forma de complemento ao Cartão Reforma a que se refere a Lei Federal nº 13.439, de 27 de abril de 2017, para o estabelecimento que fornecer a beneficiário dos Programas Habitar Melhor ou Cartão Reforma, respectivamente, previsto em Lei Orçamentária Anual, e administrado pela Agência Goiana de Habitação S.A -AGEHAB-, as mercadorias a seguir arroladas, cujo pagamento seja feito por meio do subsídio concedido pelo Governo do Estado, observado, ainda, o disposto nos §§ 5º e 6º deste artigo (Lei nº 14.542/03):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11XXVII",
+      "indice_paragrafo_caput": 11707,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "DESTINATARIO_FINALIDADE",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ]
+    },
+    {
+      "id": "OP_254",
+      "indice_origem": 254,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoXXVIII",
+      "artigo": 11,
+      "inciso": "XXVIII",
+      "caput_literal": "XXVIII - para o estabelecimento remetente, na saída interestadual de máquinas e equipamentos rodoviários, relacionados no Apêndice XII, o equivalente à aplicação de 5% (cinco por cento) sobre o valor da base de cálculo (Lei nº 13.453/99, art. 1º, I, “a”, 6).",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11XXVIII",
+      "indice_paragrafo_caput": 11765,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "LISTA_ESPECIFICACAO",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ]
+    },
+    {
+      "id": "OP_255",
+      "indice_origem": 255,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoXXXI",
+      "artigo": 11,
+      "inciso": "XXXI",
+      "caput_literal": "XXXI - para o estabelecimento industrializador de produto agrícola, o equivalente à aplicação dos seguintes percentuais sobre o valor do produto agrícola produzido no Estado de Goiás, efetivamente industrializado em seu estabelecimento ou no de terceiro localizado em Goiás, por sua conta e ordem, ficando, ainda, o crédito limitado ao valor do saldo devedor obtido no período (Lei nº 14.543/03): (Redação conferida pelo Decreto nº 9.116 - vigência: 27.12.17)",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11XXXI",
+      "indice_paragrafo_caput": 11851,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "ORIGEM_PRODUCAO_INDUSTRIALIZACAO",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ]
+    },
+    {
+      "id": "OP_256",
+      "indice_origem": 256,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoXXXI-A",
+      "artigo": 11,
+      "inciso": "XXXI-A",
+      "caput_literal": "XXXI-A - para o estabelecimento industrializador de soja, o equivalente à aplicação do percentual de 7% (sete por cento) sobre o valor da soja produzida no Estado de Goiás efetivamente industrializada em seu estabelecimento ou no de terceiro localizado em Goiás, por sua conta e ordem, observado o seguinte (Lei nº 21.555/22, arts. 5º, 6º e 7º):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11XXXI-A",
+      "indice_paragrafo_caput": 11859,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "REGIME_TARE_PROGRAMA",
+        "ORIGEM_PRODUCAO_INDUSTRIALIZACAO",
+        "PRAZO_RETORNO_REMESSA",
+        "LISTA_ESPECIFICACAO",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "REFERENCIA_EXPRESSA_CONFERIR_INSTRUMENTO_E_FUNCAO",
+        "evidencias": [
+          {
+            "indice_paragrafo": 11860,
+            "texto": "a) o benefício de que trata este inciso é condicionado à celebração de termo de acordo de regime especial com a Secretaria de Estado da Economia, do qual devem constar:"
+          },
+          {
+            "indice_paragrafo": 11864,
+            "texto": "1. o benefício é condicionado também ao cumprimento de metas de arrecadação a serem estabelecidas no regime especial de que trata alínea \"a\"; e"
+          },
+          {
+            "indice_paragrafo": 11870,
+            "texto": "1. os investimentos realizados nos 12 (doze) meses anteriores ao pedido de regime especial de que trata a alínea \"a\"; e"
+          },
+          {
+            "indice_paragrafo": 11873,
+            "texto": "f) na falta de realização ou realização parcial dos investimentos previstos ou no encerramento das atividades da empresa ou do estabelecimento beneficiado, serão adotados, nos termos consignados em termo de acordo de regime especial, os procedimentos de que tratam os arts. 17 a 20 do Decreto nº 9.724, de 7 de outubro de 2020, sem prejuízo da garantia de fruição do percentual mínimo de 5% (cinco por cento) para o crédito outorgado e das demais obrigações e procedimentos constantes do referido termo;"
+          },
+          {
+            "indice_paragrafo": 11875,
+            "texto": "1. para a definição das metas de arrecadação, deve ser considerada a média de arrecadação dos últimos 12 (doze) meses anteriores à celebração do regime especial de todos os estabelecimentos da empresa situados no Estado de Goiás; e"
+          },
+          {
+            "indice_paragrafo": 11880,
+            "texto": "2.2. a meta de arrecadação deve ser corrigida no mês de fevereiro do ano civil seguinte ao da utilização do crédito outorgado, pelo índice previsto no parágrafo único do art. 2º do Ato das Disposições Transitórias da Lei nº 11.651, de 26 de dezembro de 1991, de forma proporcional aos meses em que o contribuinte tenha sido detentor do regime especial no ano civil anterior;"
+          }
+        ]
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Remessa e retorno vinculados, datas, motivo, titularidade e cumprimento do prazo legal.",
+        "Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Qual a evidência de: Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Qual a evidência de: Remessa e retorno vinculados, datas, motivo, titularidade e cumprimento do prazo legal.",
+        "Qual a evidência de: Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Qual a evidência de: Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ]
+    },
+    {
+      "id": "OP_257",
+      "indice_origem": 257,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoXXXII",
+      "artigo": 11,
+      "inciso": "XXXII",
+      "caput_literal": "XXXII - para o estabelecimento distribuidor de empresa fabricante de aparelho, máquina, equipamento ou instrumento médico-hospitalar, produto farmacêutico, de perfumaria ou de toucador, preparado e preparação cosmética, constantes dos seguintes códigos da NBM/SH, 3001 a 3006, 3303 a 3307, 3401, 3402, 3808, 3822, 3906, 3919, 4014, 4015, 4206, 4818, 5402, 5601, 7010, 7017, 7223, 7318, 7616, 8212, 8413, 8414, 8418, 8419, 8528, 8541, 8543, 9002, 9006, 9017, 9018, 9021, 9025 a 9027, 9030, 9033, 9402, 9405 e 9603 na saída interestadual com produto de fabricação própria, o equivalente à aplicação do percentual de 5,6% (cinco inteiros e seis décimos por cento) sobre o valor da base de cálculo, observado o § 11 deste artigo, e o seguinte (Lei nº 13.453/99, art. 1º, I, \"f\"):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11XXXII",
+      "indice_paragrafo_caput": 11885,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "REGIME_TARE_PROGRAMA",
+        "LISTA_ESPECIFICACAO",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "REFERENCIA_EXPRESSA_CONFERIR_INSTRUMENTO_E_FUNCAO",
+        "evidencias": [
+          {
+            "indice_paragrafo": 11897,
+            "texto": "3. celebrar termo de acordo de regime especial com a Secretaria da Fazenda, para tal fim;"
+          },
+          {
+            "indice_paragrafo": 11899,
+            "texto": "4. cumprir metas de arrecadação estabelecidas no termo de acordo de regime especial;"
+          }
+        ]
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Qual a evidência de: Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Qual a evidência de: Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ]
+    },
+    {
+      "id": "OP_258",
+      "indice_origem": 258,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoXXXIV",
+      "artigo": 11,
+      "inciso": "XXXIV",
+      "caput_literal": "XXXIV - para o estabelecimento que efetuar as seguintes operações, o percentual a seguir especificado aplicado sobre o valor da base de cálculo correspondente, observado o disposto no § 12 deste artigo (Lei nº 13.453/99, art. 1º, I, “a”):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11XXXIV",
+      "indice_paragrafo_caput": 11963,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "SERVICO_TRANSPORTE",
+        "ORIGEM_PRODUCAO_INDUSTRIALIZACAO",
+        "LISTA_ESPECIFICACAO",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Serviço, modal, local de início/fim, tomador, documento e vínculo da prestação com a operação.",
+        "Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Serviço, modal, local de início/fim, tomador, documento e vínculo da prestação com a operação.",
+        "Qual a evidência de: Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Qual a evidência de: Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ]
+    },
+    {
+      "id": "OP_259",
+      "indice_origem": 259,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoXXXV",
+      "artigo": 11,
+      "inciso": "XXXV",
+      "caput_literal": "XXXV - para o estabelecimento industrial, na operação interestadual com produto relacionado no Apêndice XXXII, em cuja industrialização tenha sido utilizado leite como matéria-prima, desde que o produto tenha sido fabricado pelo próprio industrial ou tenha sido industrializado por sua encomenda em outro estabelecimento situado no Estado de Goiás, o percentual de 7% (sete por cento) aplicado sobre o valor da base de cálculo, observado o seguinte (Lei nº 13.453/99, art. 1º, I, “s”): (Redação conferida pelo Decreto nº 9.103 - vigência: 01.12.17)",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11XXXV",
+      "indice_paragrafo_caput": 12013,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "REGIME_TARE_PROGRAMA",
+        "ORIGEM_PRODUCAO_INDUSTRIALIZACAO",
+        "LISTA_ESPECIFICACAO",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "REFERENCIA_EXPRESSA_CONFERIR_INSTRUMENTO_E_FUNCAO",
+        "evidencias": [
+          {
+            "indice_paragrafo": 12030,
+            "texto": "e) o benefício não alcança a operação de saída em transferência, excetuado o caso autorizado e realizado nos termos de regime especial para tal fim celebrado com a Secretaria da Fazenda. (Redação conferida pelo Decreto nº 8.373 - vigência: 29.05.15.)"
+          }
+        ]
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Qual a evidência de: Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Qual a evidência de: Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Qual a evidência de: Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ]
+    },
+    {
+      "id": "OP_260",
+      "indice_origem": 260,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoXL",
+      "artigo": 11,
+      "inciso": "XL",
+      "caput_literal": "XL - para o estabelecimento remetente, na saída interestadual de telha, tijolo, tijoleira e tapa-viga cerâmicos, não esmaltados nem vitrificados, o equivalente à aplicação de 5% (cinco por cento) sobre o valor da respectiva base de cálculo, ficando limitado à 7% (sete por cento) o crédito relativo à aquisição interestadual de mercadoria, observado o seguinte (Lei nº 13.194/97, art. 2º, II, \"b\", 6):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11XL",
+      "indice_paragrafo_caput": 12170,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ]
+    },
+    {
+      "id": "OP_261",
+      "indice_origem": 261,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoXLI",
+      "artigo": 11,
+      "inciso": "XLI",
+      "caput_literal": "XLI - para o industrial, observado as disposições das alíneas \"c\" e \"d\", o valor equivalente à aplicação do percentual de 5% (cinco por cento) sobre o valor de entrada de (Lei nº 13.453/99, art. 2º, VI):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11XLI",
+      "indice_paragrafo_caput": 12186,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "ORIGEM_PRODUCAO_INDUSTRIALIZACAO",
+        "LISTA_ESPECIFICACAO",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Qual a evidência de: Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ]
+    },
+    {
+      "id": "OP_262",
+      "indice_origem": 262,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoLI",
+      "artigo": 11,
+      "inciso": "LI",
+      "caput_literal": "LI - para o estabelecimento remetente na saída interestadual com pedra-de-pirenópolis (pedra goiás), o equivalente à aplicação de 5% (cinco por cento) sobre o valor da respectiva base de cálculo, observado o seguinte (Lei nº 13.194/97, art. 2º, II, \"s\"):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11LI",
+      "indice_paragrafo_caput": 12297,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "REGIME_TARE_PROGRAMA",
+        "ORIGEM_PRODUCAO_INDUSTRIALIZACAO",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "REFERENCIA_EXPRESSA_CONFERIR_INSTRUMENTO_E_FUNCAO",
+        "evidencias": [
+          {
+            "indice_paragrafo": 12314,
+            "texto": "2. de saída em transferência, excetuado o caso autorizado e realizado nos termos de regime especial para tal fim celebrado com a Secretaria da Fazenda;"
+          }
+        ]
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Qual a evidência de: Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Qual a evidência de: Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ]
+    },
+    {
+      "id": "OP_263",
+      "indice_origem": 263,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoLII",
+      "artigo": 11,
+      "inciso": "LII",
+      "caput_literal": "LII - para o industrial fabricante de vestuário, de roupas de cama, de mesa e de banho ou para estabelecimento atacadista a ele pertencente, o equivalente à aplicação do percentual de 12% (doze por cento) sobre o valor da base de cálculo correspondente à operação interestadual com produto de fabricação própria destinado à comercialização ou industrialização, observado o seguinte (Lei nº 13.453/99, art. 1º, I, “m”): (Redação conferida pelo Decreto nº 8.304 - vigência: 30.12.14)",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11LII",
+      "indice_paragrafo_caput": 12317,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "ORIGEM_PRODUCAO_INDUSTRIALIZACAO",
+        "DESTINATARIO_FINALIDADE",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ]
+    },
+    {
+      "id": "OP_264",
+      "indice_origem": 264,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoLIII",
+      "artigo": 11,
+      "inciso": "LIII",
+      "caput_literal": "LIII - para o industrial fabricante de vestuário, de roupas de cama, de mesa e de banho ou para estabelecimento atacadista a ele pertencente, o equivalente à aplicação do percentual de 10% (dez por cento) sobre o valor da base de cálculo correspondente à operação de venda interna com produto de fabricação própria destinado à comercialização ou industrialização, observado o seguinte (Lei nº 13.453/99, art. 1º, I, “n”): (Redação conferida pelo Decreto nº 8.304 - vigência: 30.12.14)",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11LIII",
+      "indice_paragrafo_caput": 12323,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "ORIGEM_PRODUCAO_INDUSTRIALIZACAO",
+        "DESTINATARIO_FINALIDADE",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ]
+    },
+    {
+      "id": "OP_265",
+      "indice_origem": 265,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoLIV",
+      "artigo": 11,
+      "inciso": "LIV",
+      "caput_literal": "LIV - para o industrial fabricante de vestuário, de roupas de cama, de mesa e de banho, o equivalente à aplicação do percentual 10% (dez por cento) sobre o valor da base de cálculo correspondente à transferência interna de produto de fabricação própria destinado à comercialização em estabelecimento varejista a ele pertencente, observado o seguinte (Lei nº 13.453/99, art. 1º, I, “o”): (Redação conferida pelo Decreto nº 8.304 - vigência: 30.12.14)",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11LIV",
+      "indice_paragrafo_caput": 12329,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "ORIGEM_PRODUCAO_INDUSTRIALIZACAO",
+        "DESTINATARIO_FINALIDADE",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ]
+    },
+    {
+      "id": "OP_266",
+      "indice_origem": 266,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoLV",
+      "artigo": 11,
+      "inciso": "LV",
+      "caput_literal": "LV - para o estabelecimento remetente, o equivalente à aplicação do percentual de 4% (quatro por cento) sobre o valor da base de cálculo correspondente à operação interestadual com veículo automotor caminhão com peso em carga máxima superior a 5 (cinco) toneladas e caminhão trator (Lei nº 13.453/99, art. 1º, I, “p”); (Redação conferida pelo Decreto nº 8.299 - vigência: 26.12.14)",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11LV",
+      "indice_paragrafo_caput": 12335,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ]
+    },
+    {
+      "id": "OP_267",
+      "indice_origem": 267,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoLVI",
+      "artigo": 11,
+      "inciso": "LVI",
+      "caput_literal": "LVI - para o estabelecimento remetente, o equivalente à aplicação do percentual de 4% (quatro por cento) sobre o valor da base de cálculo correspondente à operação interestadual com veículo automotor ônibus ou com chassi com motor para ônibus (Lei nº 13.453/99, art. 1º, I, \"p\").",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11LVI",
+      "indice_paragrafo_caput": 12338,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ]
+    },
+    {
+      "id": "OP_268",
+      "indice_origem": 268,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoLVII",
+      "artigo": 11,
+      "inciso": "LVII",
+      "caput_literal": "LVII - para o industrial de veículo automotor e para o industrial fabricante de extintores de incêndio descartáveis de polímero de engenharia, de uso automotivo e cilindros em polímero para uso de GLP, beneficiários do Programa de Desenvolvimento Industrial de Goiás -PRODUZIR-, que implantar ou ampliar empreendimento industrial no Estado de Goiás, nos limites, nas formas e condições estabelecidos em termo de acordo de regime especial celebrado com a Secretaria da Fazenda, observado o disposto nos §§ 21, 22, 22-A, 23, 24 25, 26, 27, 28 e 29, no valor equivalente a até (Lei nº 16.671/09, art. 1º, Parágrafo único e art. 3º) (Redação conferida pelo Decreto nº 9.002 - vigência: 21.07.17)",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11LVII",
+      "indice_paragrafo_caput": 12365,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "REGIME_TARE_PROGRAMA",
+        "DESTINATARIO_FINALIDADE",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "REFERENCIA_EXPRESSA_CONFERIR_INSTRUMENTO_E_FUNCAO",
+        "evidencias": [
+          {
+            "indice_paragrafo": 12365,
+            "texto": "LVII - para o industrial de veículo automotor e para o industrial fabricante de extintores de incêndio descartáveis de polímero de engenharia, de uso automotivo e cilindros em polímero para uso de GLP, beneficiários do Programa de Desenvolvimento Industrial de Goiás -PRODUZIR-, que implantar ou ampliar empreendimento industrial no Estado de Goiás, nos limites, nas formas e condições estabelecidos em termo de acordo de regime especial celebrado com a Secretaria da Fazenda, observado o disposto nos §§ 21, 22, 22-A, 23, 24 25, 26, 27, 28 e 29, no valor equivalente a até (Lei nº 16.671/09, art. 1º, Parágrafo único e art. 3º) (Redação conferida pelo Decreto nº 9.002 - vigência: 21.07.17)"
+          }
+        ]
+      },
+      "enquadramento_programa": [
+        {
+          "indice_paragrafo": 12365,
+          "texto": "LVII - para o industrial de veículo automotor e para o industrial fabricante de extintores de incêndio descartáveis de polímero de engenharia, de uso automotivo e cilindros em polímero para uso de GLP, beneficiários do Programa de Desenvolvimento Industrial de Goiás -PRODUZIR-, que implantar ou ampliar empreendimento industrial no Estado de Goiás, nos limites, nas formas e condições estabelecidos em termo de acordo de regime especial celebrado com a Secretaria da Fazenda, observado o disposto nos §§ 21, 22, 22-A, 23, 24 25, 26, 27, 28 e 29, no valor equivalente a até (Lei nº 16.671/09, art. 1º, Parágrafo único e art. 3º) (Redação conferida pelo Decreto nº 9.002 - vigência: 21.07.17)"
+        },
+        {
+          "indice_paragrafo": 12376,
+          "texto": "a) 98% (noventa e oito por cento) do saldo devedor do imposto correspondente à saída de mercadorias não abrangida pela aplicação do incentivo do produzir;"
+        }
+      ],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Qual a evidência de: Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ]
+    },
+    {
+      "id": "OP_269",
+      "indice_origem": 269,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoLVII-A",
+      "artigo": 11,
+      "inciso": "LVII-A",
+      "caput_literal": "LVII-A - para o industrial de veículo automotor e para o industrial fabricante de extintores de incêndio descartáveis de polímero de engenharia de uso automotivo e cilindros em polímero para o uso de GLP beneficiários do PROGOIÁS que implantarem, revitalizarem ou ampliarem empreendimento industrial no Estado de Goiás, nos limites, nas formas e nas condições estabelecidos em termo de acordo de regime especial celebrado com a Secretaria de Estado da Economia, observado o disposto nos §§ 21-B, 21-C, 22, 24, 24-A, 25, 26, 27, 28 e 32 deste artigo, no valor equivalente a até (Lei nº 16.671, de 2009, art. 1º, parágrafo único, e art. 3º-A):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11LVII-A",
+      "indice_paragrafo_caput": 12393,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "REGIME_TARE_PROGRAMA",
+        "DESTINATARIO_FINALIDADE",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "REFERENCIA_EXPRESSA_CONFERIR_INSTRUMENTO_E_FUNCAO",
+        "evidencias": [
+          {
+            "indice_paragrafo": 12393,
+            "texto": "LVII-A - para o industrial de veículo automotor e para o industrial fabricante de extintores de incêndio descartáveis de polímero de engenharia de uso automotivo e cilindros em polímero para o uso de GLP beneficiários do PROGOIÁS que implantarem, revitalizarem ou ampliarem empreendimento industrial no Estado de Goiás, nos limites, nas formas e nas condições estabelecidos em termo de acordo de regime especial celebrado com a Secretaria de Estado da Economia, observado o disposto nos §§ 21-B, 21-C, 22, 24, 24-A, 25, 26, 27, 28 e 32 deste artigo, no valor equivalente a até (Lei nº 16.671, de 2009, art. 1º, parágrafo único, e art. 3º-A):"
+          }
+        ]
+      },
+      "enquadramento_programa": [
+        {
+          "indice_paragrafo": 12393,
+          "texto": "LVII-A - para o industrial de veículo automotor e para o industrial fabricante de extintores de incêndio descartáveis de polímero de engenharia de uso automotivo e cilindros em polímero para o uso de GLP beneficiários do PROGOIÁS que implantarem, revitalizarem ou ampliarem empreendimento industrial no Estado de Goiás, nos limites, nas formas e nas condições estabelecidos em termo de acordo de regime especial celebrado com a Secretaria de Estado da Economia, observado o disposto nos §§ 21-B, 21-C, 22, 24, 24-A, 25, 26, 27, 28 e 32 deste artigo, no valor equivalente a até (Lei nº 16.671, de 2009, art. 1º, parágrafo único, e art. 3º-A):"
+        },
+        {
+          "indice_paragrafo": 12395,
+          "texto": "b) 92,593% (noventa e dois inteiros, quinhentos e noventa e três milésimos por cento) do saldo devedor do imposto das operações incentivadas após a aplicação do crédito outorgado do PROGOIÁS;"
+        }
+      ],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Qual a evidência de: Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ]
+    },
+    {
+      "id": "OP_270",
+      "indice_origem": 270,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoLVIII",
+      "artigo": 11,
+      "inciso": "LVIII",
+      "caput_literal": "LVIII - para o industrial de veículo automotor, beneficiário do Fundo de Participação e Fomento à Industrialização do Estado de Goiás -Fomentar-, que ampliar empreendimento industrial no Estado de Goiás, nas formas limites e condições estabelecidos em termo de acordo de regime especial celebrado com a Secretaria da Fazenda, observado o disposto nos §§ 21, 22, 22-A, 23, 24 25, 26, 27, 28 e 29, no valor equivalente a até (Lei nº 16.671/09, art. 4º):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11LVIII",
+      "indice_paragrafo_caput": 12408,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "REGIME_TARE_PROGRAMA",
+        "ORIGEM_PRODUCAO_INDUSTRIALIZACAO",
+        "DESTINATARIO_FINALIDADE",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "REFERENCIA_EXPRESSA_CONFERIR_INSTRUMENTO_E_FUNCAO",
+        "evidencias": [
+          {
+            "indice_paragrafo": 12408,
+            "texto": "LVIII - para o industrial de veículo automotor, beneficiário do Fundo de Participação e Fomento à Industrialização do Estado de Goiás -Fomentar-, que ampliar empreendimento industrial no Estado de Goiás, nas formas limites e condições estabelecidos em termo de acordo de regime especial celebrado com a Secretaria da Fazenda, observado o disposto nos §§ 21, 22, 22-A, 23, 24 25, 26, 27, 28 e 29, no valor equivalente a até (Lei nº 16.671/09, art. 4º):"
+          }
+        ]
+      },
+      "enquadramento_programa": [
+        {
+          "indice_paragrafo": 12408,
+          "texto": "LVIII - para o industrial de veículo automotor, beneficiário do Fundo de Participação e Fomento à Industrialização do Estado de Goiás -Fomentar-, que ampliar empreendimento industrial no Estado de Goiás, nas formas limites e condições estabelecidos em termo de acordo de regime especial celebrado com a Secretaria da Fazenda, observado o disposto nos §§ 21, 22, 22-A, 23, 24 25, 26, 27, 28 e 29, no valor equivalente a até (Lei nº 16.671/09, art. 4º):"
+        },
+        {
+          "indice_paragrafo": 12419,
+          "texto": "a) 98% (noventa e oito por cento) do valor do saldo devedor do imposto correspondente à saída de mercadoria não abrigada pela aplicação do incentivo do Fomentar;"
+        }
+      ],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Qual a evidência de: Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Qual a evidência de: Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ]
+    },
+    {
+      "id": "OP_271",
+      "indice_origem": 271,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoLX",
+      "artigo": 11,
+      "inciso": "LX",
+      "caput_literal": "LX - para a empresa industrial fabricante de máquinas, equipamentos e componentes destinados à aferição ou à produção de energia elétrica por meio de fontes renováveis, de partes e peças de grupos geradores de energia elétrica ou de motores, relacionados, respectivamente, nos Apêndices L, LIII e LIV deste Anexo, ou de grupos geradores de energia elétrica beneficiária do Programa de Desenvolvimento Industrial de Goiás - PRODUZIR, de que trata a Lei nº 13.591, de 18 de janeiro de 2000, observado o disposto nos §§ 21, 22-B, 24, 25, 26, 27 e 28 deste artigo, o valor equivalente (Lei nº 17.441, de 2011, art. 5º):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11LX",
+      "indice_paragrafo_caput": 12453,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "COMUNICACAO_ENERGIA",
+        "REGIME_TARE_PROGRAMA",
+        "DESTINATARIO_FINALIDADE",
+        "LISTA_ESPECIFICACAO",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [
+        {
+          "indice_paragrafo": 12453,
+          "texto": "LX - para a empresa industrial fabricante de máquinas, equipamentos e componentes destinados à aferição ou à produção de energia elétrica por meio de fontes renováveis, de partes e peças de grupos geradores de energia elétrica ou de motores, relacionados, respectivamente, nos Apêndices L, LIII e LIV deste Anexo, ou de grupos geradores de energia elétrica beneficiária do Programa de Desenvolvimento Industrial de Goiás - PRODUZIR, de que trata a Lei nº 13.591, de 18 de janeiro de 2000, observado o disposto nos §§ 21, 22-B, 24, 25, 26, 27 e 28 deste artigo, o valor equivalente (Lei nº 17.441, de 2011, art. 5º):"
+        },
+        {
+          "indice_paragrafo": 12468,
+          "texto": "a) ao percentual de 98% (noventa e oito por cento) do valor do saldo devedor do imposto correspondente à saída das mercadorias definidas no caput deste inciso, quando essa operação não estiver abrangida pelo Programa PRODUZIR;"
+        }
+      ],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Consumo/medição, usuário ou tomador, modalidade do serviço/fornecimento e eventuais limites.",
+        "Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Consumo/medição, usuário ou tomador, modalidade do serviço/fornecimento e eventuais limites.",
+        "Qual a evidência de: Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Qual a evidência de: Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ]
+    },
+    {
+      "id": "OP_272",
+      "indice_origem": 272,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoLX-A",
+      "artigo": 11,
+      "inciso": "LX-A",
+      "caput_literal": "LX-A - para a empresa industrial fabricante de máquinas, equipamentos e componentes destinados à aferição ou à produção de energia elétrica por meio de fontes renováveis, de partes e peças de grupos geradores de energia elétrica ou de motores, relacionados, respectivamente, nos Apêndices L, LIII e LIV deste Anexo, ou de grupos geradores de energia elétrica beneficiária do PROGOIÁS, de que trata a Lei nº 20.787, de 3 de junho de 2020, observado o disposto nos §§ 21-B, 21-C, 22-B, 24, 24-A, 25, 26, 27, 28, 32 e 33 deste artigo, o valor equivalente (Lei nº 17.441, de 2011, art. 5º-A):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11LX-A",
+      "indice_paragrafo_caput": 12491,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "COMUNICACAO_ENERGIA",
+        "REGIME_TARE_PROGRAMA",
+        "DESTINATARIO_FINALIDADE",
+        "LISTA_ESPECIFICACAO",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [
+        {
+          "indice_paragrafo": 12491,
+          "texto": "LX-A - para a empresa industrial fabricante de máquinas, equipamentos e componentes destinados à aferição ou à produção de energia elétrica por meio de fontes renováveis, de partes e peças de grupos geradores de energia elétrica ou de motores, relacionados, respectivamente, nos Apêndices L, LIII e LIV deste Anexo, ou de grupos geradores de energia elétrica beneficiária do PROGOIÁS, de que trata a Lei nº 20.787, de 3 de junho de 2020, observado o disposto nos §§ 21-B, 21-C, 22-B, 24, 24-A, 25, 26, 27, 28, 32 e 33 deste artigo, o valor equivalente (Lei nº 17.441, de 2011, art. 5º-A):"
+        },
+        {
+          "indice_paragrafo": 12497,
+          "texto": "a) ao percentual de 98% (noventa e oito por cento) do valor do saldo devedor do imposto correspondente à saída das mercadorias definidas no caput deste inciso, quando essa operação não estiver abrangida pelo Programa PROGOIÁS;"
+        },
+        {
+          "indice_paragrafo": 12498,
+          "texto": "b) ao percentual de 92,593% (noventa e dois inteiros, quinhentos e noventa e três milésimos por cento) do valor do saldo devedor do imposto das operações incentivadas, após a aplicação do crédito outorgado do PROGOIÁS, correspondente à saída das mercadorias definidas no caput deste inciso;"
+        }
+      ],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Consumo/medição, usuário ou tomador, modalidade do serviço/fornecimento e eventuais limites.",
+        "Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Consumo/medição, usuário ou tomador, modalidade do serviço/fornecimento e eventuais limites.",
+        "Qual a evidência de: Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Qual a evidência de: Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ]
+    },
+    {
+      "id": "OP_273",
+      "indice_origem": 273,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoLXI",
+      "artigo": 11,
+      "inciso": "LXI",
+      "caput_literal": "LXI - para a pessoa jurídica integrante de grupo econômico, relativamente à operação com produto de fabricação própria, observado o disposto no § 29 deste artigo e no § 4º do art. 8º do Anexo IX (Lei nº 17.442/11, art. 3º, II, e art. 7º), o equivalente à aplicação do percentual:",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11LXI",
+      "indice_paragrafo_caput": 12500,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ]
+    },
+    {
+      "id": "OP_274",
+      "indice_origem": 274,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoLXII",
+      "artigo": 11,
+      "inciso": "LXII",
+      "caput_literal": "LXII - para o estabelecimento remetente, na saída interestadual de mercadoria resultante da industrialização do açafrão, cujo processo industrial tenha sido realizado no Estado de Goiás, o equivalente à aplicação de 10% (dez por cento) sobre o valor da base de cálculo (Lei nº 13.453/99, art. 1º, I, “r”). (Redação acrescida pelo Decreto nº 7.568 - vigência: 15.03.12)",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11LXII",
+      "indice_paragrafo_caput": 12508,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "ORIGEM_PRODUCAO_INDUSTRIALIZACAO",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ]
+    },
+    {
+      "id": "OP_275",
+      "indice_origem": 275,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoLXIII",
+      "artigo": 11,
+      "inciso": "LXIII",
+      "caput_literal": "LXIII - para o estabelecimento industrial, na operação interestadual com leite UHT - “Ultra High Temperature” - em cuja industrialização tenha sido utilizado leite em estado natural como matéria-prima, desde que o produto tenha sido fabricado pelo próprio industrial ou tenha sido industrializado por sua encomenda em outro estabelecimento situado no Estado de Goiás, o percentual de 7% (sete por cento) aplicado sobre o valor da base de cálculo (Lei nº 13.453/99, art. 1º, I, “i”, 3); (Redação conferida pelo Decreto nº 9.103 - vigência: 01.12.17)",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11LXIII",
+      "indice_paragrafo_caput": 12511,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "ORIGEM_PRODUCAO_INDUSTRIALIZACAO",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ]
+    },
+    {
+      "id": "OP_276",
+      "indice_origem": 276,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoLXVI",
+      "artigo": 11,
+      "inciso": "LXVI",
+      "caput_literal": "LXVI - para o estabelecimento industrial, o equivalente à aplicação de 9% (nove por cento) sobre o valor da respectiva base de cálculo, na saída de produto comestível por ele industrializado, cuja matéria-prima principal seja produto resultante do abate de animal, realizado no território goiano, observado o seguinte: (Redação acrescida pelo Decreto nº 8.124 - vigência: 26.03.14)",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11LXVI",
+      "indice_paragrafo_caput": 12550,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "REGIME_TARE_PROGRAMA",
+        "ORIGEM_PRODUCAO_INDUSTRIALIZACAO",
+        "DESTINATARIO_FINALIDADE",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "REFERENCIA_EXPRESSA_CONFERIR_INSTRUMENTO_E_FUNCAO",
+        "evidencias": [
+          {
+            "indice_paragrafo": 12552,
+            "texto": "a) o beneficiário deve celebrar termo de acordo de regime especial com a Secretaria de Estado da Fazenda, no qual devem ser estabelecidas metas de arrecadação a serem cumpridas pelo beneficiário; (Redação acrescida pelo Decreto nº 8.124 - vigência: 26.03.14)"
+          },
+          {
+            "indice_paragrafo": 12553,
+            "texto": "b) na definição das metas de arrecadação deve ser considerada a média de arrecadação dos últimos 12 (doze) meses anteriores à celebração do termo de acordo de todos os estabelecimentos da empresa situados no Estado de Goiás; (Redação acrescida pelo Decreto nº 8.124 - vigência: 26.03.14)"
+          }
+        ]
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Qual a evidência de: Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Qual a evidência de: Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ]
+    },
+    {
+      "id": "OP_277",
+      "indice_origem": 277,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoLXVIII",
+      "artigo": 11,
+      "inciso": "LXVIII",
+      "caput_literal": "LXVIII - para o estabelecimento industrial beneficiário do Programa de Desenvolvimento Industrial de Goiás - PRODUZIR, do Fundo de Participação e Fomento à Industrialização do Estado de Goiás - FOMENTAR ou do PROGOIÁS, até o valor equivalente à execução de obras de pavimentação de rodovia de acesso à unidade industrial em implantação ou já instalada no Estado de Goiás, conforme estabelecido em Termo de Acordo de Regime Especial - TARE celebrado com a Secretaria de Estado da Economia, observado o seguinte: (Lei nº 13.194, de 1997, art. 2º, II, \"w\", e § 28):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11LXVIII",
+      "indice_paragrafo_caput": 12593,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "REGIME_TARE_PROGRAMA",
+        "ORIGEM_PRODUCAO_INDUSTRIALIZACAO",
+        "DESTINATARIO_FINALIDADE",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "REFERENCIA_EXPRESSA_CONFERIR_INSTRUMENTO_E_FUNCAO",
+        "evidencias": [
+          {
+            "indice_paragrafo": 12593,
+            "texto": "LXVIII - para o estabelecimento industrial beneficiário do Programa de Desenvolvimento Industrial de Goiás - PRODUZIR, do Fundo de Participação e Fomento à Industrialização do Estado de Goiás - FOMENTAR ou do PROGOIÁS, até o valor equivalente à execução de obras de pavimentação de rodovia de acesso à unidade industrial em implantação ou já instalada no Estado de Goiás, conforme estabelecido em Termo de Acordo de Regime Especial - TARE celebrado com a Secretaria de Estado da Economia, observado o seguinte: (Lei nº 13.194, de 1997, art. 2º, II, \"w\", e § 28):"
+          },
+          {
+            "indice_paragrafo": 12605,
+            "texto": "1. a partir do período de apuração seguinte ao do início da produção do estabelecimento beneficiário, uma vez concluída a obra e comprovado o valor investido, no caso de projeto de implantação de unidade industrial, conforme definido no termo de acordo; (Redação conferida pelo Decreto nº 9.091 - vigência: 23.11.17)"
+          },
+          {
+            "indice_paragrafo": 12606,
+            "texto": "2. concomitantemente à execução das obras, na hipótese de empresa já instalada no Estado, conforme definido no termo de acordo; (Redação conferida pelo Decreto nº 9.091 - vigência: 23.11.17)"
+          },
+          {
+            "indice_paragrafo": 12612,
+            "texto": "2. a desistência do projeto ou a infração insanável às disposições do regime especial, hipóteses em que o contribuinte fará jus ao crédito outorgado na proporção que o valor dos investimentos realizados representar no valor dos investimentos previstos;"
+          },
+          {
+            "indice_paragrafo": 12620,
+            "texto": "1. manifestar-se, previamente à celebração do TARE, quanto ao projeto apresentado, que deve conter, no mínimo:"
+          }
+        ]
+      },
+      "enquadramento_programa": [
+        {
+          "indice_paragrafo": 12593,
+          "texto": "LXVIII - para o estabelecimento industrial beneficiário do Programa de Desenvolvimento Industrial de Goiás - PRODUZIR, do Fundo de Participação e Fomento à Industrialização do Estado de Goiás - FOMENTAR ou do PROGOIÁS, até o valor equivalente à execução de obras de pavimentação de rodovia de acesso à unidade industrial em implantação ou já instalada no Estado de Goiás, conforme estabelecido em Termo de Acordo de Regime Especial - TARE celebrado com a Secretaria de Estado da Economia, observado o seguinte: (Lei nº 13.194, de 1997, art. 2º, II, \"w\", e § 28):"
+        },
+        {
+          "indice_paragrafo": 12629,
+          "texto": "e) o crédito de que trata este inciso pode ser concedido ao estabelecimento industrial beneficiário dos Programas PRODUZIR ou PROGOIÁS até o valor equivalente à execução de obras civis de infraestrutura para o aperfeiçoamento logístico da distribuição da produção, tais como pavimentação de rodovias de acesso, manutenção e sinalização de trechos de rodovia já pavimentada, construção de ponte de acesso ao empreendimento, observadas as condições estabelecidas nas alíneas anteriores;"
+        }
+      ],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Qual a evidência de: Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Qual a evidência de: Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ]
+    },
+    {
+      "id": "OP_278",
+      "indice_origem": 278,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoLXIX",
+      "artigo": 11,
+      "inciso": "LXIX",
+      "caput_literal": "LXIX - para a empresa fornecedora de energia elétrica e para a prestadora de serviço de telecomunicação, o equivalente à aplicação de até 10% (dez por cento) sobre o valor do faturamento bruto do conjunto de seus estabelecimentos localizados neste Estado no segundo mês anterior ao da utilização do crédito, observado o seguinte (Convênio ICMS 102/13): (Redação conferida pelo Decreto nº 9.095 - vigência: 10.05.17)",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11LXIX",
+      "indice_paragrafo_caput": 12634,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "COMUNICACAO_ENERGIA",
+        "REGIME_TARE_PROGRAMA",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "REFERENCIA_EXPRESSA_CONFERIR_INSTRUMENTO_E_FUNCAO",
+        "evidencias": [
+          {
+            "indice_paragrafo": 12639,
+            "texto": "c) a utilização do crédito é condicionada à celebração de termo de acordo de regime especial com a Secretaria de Estado da Fazenda para este fim, no qual devem ser estabelecidas as regras para a sua utilização. (Redação acrescida pelo Decreto nº 8.779 - vigência: 01.08.16)"
+          }
+        ]
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Consumo/medição, usuário ou tomador, modalidade do serviço/fornecimento e eventuais limites.",
+        "Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Consumo/medição, usuário ou tomador, modalidade do serviço/fornecimento e eventuais limites.",
+        "Qual a evidência de: Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Qual a evidência de: Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ]
+    },
+    {
+      "id": "OP_279",
+      "indice_origem": 279,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoLXX",
+      "artigo": 11,
+      "inciso": "LXX",
+      "caput_literal": "LXX - para o estabelecimento microcervejeiro, na saída interna com cerveja e chope artesanais produzidos pelo próprio estabelecimento, o valor equivalente à aplicação de 13% (treze por cento) sobre o valor da respectiva base de cálculo, mantido o sistema normal de compensação do imposto, observado o seguinte (Lei nº 13.194/97, art. 2º, II, “z”): (Redação acrescida pelo Decreto n°8.928 - vigência 04.04.17)",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11LXX",
+      "indice_paragrafo_caput": 12640,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "ORIGEM_PRODUCAO_INDUSTRIALIZACAO",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ]
+    },
+    {
+      "id": "OP_280",
+      "indice_origem": 280,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoLXXI",
+      "artigo": 11,
+      "inciso": "LXXI",
+      "caput_literal": "LXXI - para o estabelecimento que efetuar saída interestadual com café torrado ou moído industrializado, o valor equivalente à aplicação de 5% (cinco por cento) sobre o valor da respectiva base de cálculo, mantido o sistema normal de compensação do imposto (Lei nº 13.194/97, art. 2º, II, “a.a”); (Redação acrescida pelo Decreto n°8.928 - vigência 04.04.17)",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11LXXI",
+      "indice_paragrafo_caput": 12647,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "ORIGEM_PRODUCAO_INDUSTRIALIZACAO",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ]
+    },
+    {
+      "id": "OP_281",
+      "indice_origem": 281,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoLXXIII",
+      "artigo": 11,
+      "inciso": "LXXIII",
+      "caput_literal": "LXXIII - para o estabelecimento fabricante de água mineral, natural ou artificial, inclusive o estabelecido em outra unidade da federação, desde que possua inscrição no Cadastro de Contribuintes do Estado de Goiás - CCE/GO, quanto às operações destinadas a este Estado, no valor correspondente ao da aquisição de Selos Fiscais de Controle e Selos Fiscais Eletrônicos efetivamente utilizados em cada período de apuração, observado o seguinte:",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11LXXIII",
+      "indice_paragrafo_caput": 12656,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "DESTINATARIO_FINALIDADE",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ]
+    },
+    {
+      "id": "OP_282",
+      "indice_origem": 282,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoLXXV",
+      "artigo": 11,
+      "inciso": "LXXV",
+      "caput_literal": "LXXV - para a distribuidora de energia elétrica, o equivalente a até 1% (um por cento) sobre o valor total dos débitos de saída do mês de referência, no fornecimento de energia elétrica, em substituição a procedimento de estorno de débito ou a qualquer sistemática de repetição de indébito da mesma natureza, decorrente de erros na emissão de Nota Fiscal/Conta de Energia Elétrica - NF/CEE, prevista no inciso I do art. 1º do Convênio SINIEF 06/89, de 21 de fevereiro de 1989, identificados posteriormente à entrega de informações previstas no Convênio ICMS 115/03, de 12 de dezembro de 2003, observado o seguinte (Convênio ICMS 103/20):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11LXXV",
+      "indice_paragrafo_caput": 12687,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "COMUNICACAO_ENERGIA",
+        "REGIME_TARE_PROGRAMA",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "REFERENCIA_EXPRESSA_CONFERIR_INSTRUMENTO_E_FUNCAO",
+        "evidencias": [
+          {
+            "indice_paragrafo": 12689,
+            "texto": "a) a distribuidora deve celebrar Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia para tal fim, no qual devem ser definidos:"
+          },
+          {
+            "indice_paragrafo": 12692,
+            "texto": "b) ao optar pela presente sistemática, a distribuidora renuncia a qualquer outra forma administrativa ou judicial de restituição do indébito, na forma prevista na legislação tributária, devendo esta opção constar expressamente em TARE."
+          }
+        ]
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Consumo/medição, usuário ou tomador, modalidade do serviço/fornecimento e eventuais limites.",
+        "Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Consumo/medição, usuário ou tomador, modalidade do serviço/fornecimento e eventuais limites.",
+        "Qual a evidência de: Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Qual a evidência de: Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ]
+    },
+    {
+      "id": "OP_283",
+      "indice_origem": 283,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoLXXVI",
+      "artigo": 11,
+      "inciso": "LXXVI",
+      "caput_literal": "LXXVI - para o estabelecimento comercial que realize exclusivamente operações interestaduais não presenciais destinadas a consumidor final não contribuinte do ICMS, via internet - e-commerce, o equivalente à aplicação dos percentuais previstos nas alíneas \"a\" e \"b\" deste inciso sobre o valor do ICMS devido na operação interestadual destinada a consumidor final não contribuinte do ICMS, em substituição à apropriação de quaisquer créditos relativos ao ICMS correspondentes à entrada das mercadorias ou dos bens e ao serviço utilizado, exceto o relativo ao imposto devido na importação do exterior de mercadorias destinadas às operações de que trata este inciso, observado o disposto nas alíneas \"c\" e seguintes deste inciso (Lei nº 21.555/22, arts. 2º, 6º e 7º):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11LXXVI",
+      "indice_paragrafo_caput": 12694,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "IMPORTACAO",
+        "REGIME_TARE_PROGRAMA",
+        "DESTINATARIO_FINALIDADE",
+        "PRAZO_RETORNO_REMESSA",
+        "LISTA_ESPECIFICACAO",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "REFERENCIA_EXPRESSA_CONFERIR_INSTRUMENTO_E_FUNCAO",
+        "evidencias": [
+          {
+            "indice_paragrafo": 12699,
+            "texto": "1. é condicionado à celebração de termo de acordo de regime especial com a Secretaria de Estado da Economia, do qual devem constar a forma, o prazo de fruição e as condições específicas pactuadas em relação aos investimentos a serem realizados até a data fixada no referido regime; e"
+          },
+          {
+            "indice_paragrafo": 12700,
+            "texto": "2. em relação à empresa que já esteja em atividade no Estado de Goiás, é condicionado, também, ao cumprimento de metas de arrecadação a serem estabelecidas no regime especial de que trata o item 1;"
+          },
+          {
+            "indice_paragrafo": 12706,
+            "texto": "1. os investimentos realizados nos 12 (doze) meses anteriores ao pedido de regime especial de que trata o item 1 da alínea \"c\" deste inciso;"
+          },
+          {
+            "indice_paragrafo": 12709,
+            "texto": "g) na falta de realização ou na realização parcial dos investimentos previstos ou no encerramento das atividades da empresa ou do estabelecimento beneficiado, devem ser adotados, em relação ao termo de acordo de regime especial, os procedimentos de que tratam os arts. 17 a 20 do Decreto nº 9.724, de 2020, sem prejuízo das demais obrigações e procedimentos constantes do referido termo;"
+          },
+          {
+            "indice_paragrafo": 12711,
+            "texto": "1. na definição das metas de arrecadação, deve ser considerada a média de arrecadação dos últimos 12 (doze) meses anteriores à celebração do regime especial de todos os estabelecimentos da empresa situados no Estado de Goiás; e"
+          },
+          {
+            "indice_paragrafo": 12716,
+            "texto": "2.2. a meta de arrecadação deve ser corrigida, no mês de fevereiro do ano civil seguinte ao de utilização do crédito outorgado, pelo índice previsto no parágrafo único do art. 2º do Ato das Disposições Transitórias da Lei nº 11.651, de 1991, de forma proporcional aos meses em que o contribuinte tenha sido detentor do regime especial no ano civil anterior;"
+          },
+          {
+            "indice_paragrafo": 12718,
+            "texto": "j) para preservar o equilíbrio concorrencial entre as empresas beneficiárias, no interesse da administração tributária, o Secretário de Estado da Economia pode deixar de aplicar a exigência de exclusividade de operação no e-commerce prevista no caput deste inciso, desde que a dispensa conste do termo de acordo de regime especial de que trata o item 1 da alínea \"c\" deste inciso;"
+          }
+        ]
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Importação direta/indireta, importador e documentos aduaneiros, tratamentoII/IPI e eventual ausência de similar.",
+        "Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Remessa e retorno vinculados, datas, motivo, titularidade e cumprimento do prazo legal.",
+        "Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Importação direta/indireta, importador e documentos aduaneiros, tratamentoII/IPI e eventual ausência de similar.",
+        "Qual a evidência de: Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Qual a evidência de: Remessa e retorno vinculados, datas, motivo, titularidade e cumprimento do prazo legal.",
+        "Qual a evidência de: Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Qual a evidência de: Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ]
+    },
+    {
+      "id": "OP_284",
+      "indice_origem": 284,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoLXXVII",
+      "artigo": 11,
+      "inciso": "LXXVII",
+      "caput_literal": "LXXVII - para o contribuinte do ICMS que apoiar financeiramente projeto cultural vinculado à Secretaria de Estado da Cultura - SECULT, no percentual de 100% (cem por cento) do valor aplicado no projeto, observado o seguinte (Convênio ICMS nº 35/2020):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11LXXVII",
+      "indice_paragrafo_caput": 12722,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "REGIME_TARE_PROGRAMA",
+        "DESTINATARIO_FINALIDADE",
+        "LISTA_ESPECIFICACAO",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "REFERENCIA_EXPRESSA_CONFERIR_INSTRUMENTO_E_FUNCAO",
+        "evidencias": [
+          {
+            "indice_paragrafo": 12735,
+            "texto": "2. acrescido ao valor do ICMS pago pelo contribuinte para a aferição do cumprimento de meta de arrecadação, se for contribuinte signatário de termo de acordo de regime especial que condicione a fruição do benefício fiscal ao cumprimento de meta de arrecadação de ICMS;"
+          }
+        ]
+      },
+      "enquadramento_programa": [
+        {
+          "indice_paragrafo": 12733,
+          "texto": "1.1. \"1200\", na hipótese de contribuinte beneficiário de programa de incentivo financeiro concedido pelo Estado de Goiás, que pode utilizá-lo para a subtração do valor a pagar relativo ao ICMS, excluída a parte incentivada pelo Fomentar ou Produzir; e"
+        }
+      ],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Qual a evidência de: Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Qual a evidência de: Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ]
+    },
+    {
+      "id": "OP_285",
+      "indice_origem": 285,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoLXXVIII",
+      "artigo": 11,
+      "inciso": "LXXVIII",
+      "caput_literal": "LXXVIII - para o estabelecimento industrializador de etanol hidratado combustível, o equivalente à aplicação de 9,8% (nove inteiros e oito décimos por cento) sobre o valor da operação interestadual com esse produto, em substituição à apropriação de quaisquer créditos relativos ao ICMS correspondentes à entrada das mercadorias ou dos bens e ao serviço utilizado, observado o seguinte (Lei nº 22.490, de 2023, arts. 2º, 3º e 4º):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11LXXVIII",
+      "indice_paragrafo_caput": 12742,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "REGIME_TARE_PROGRAMA",
+        "ORIGEM_PRODUCAO_INDUSTRIALIZACAO",
+        "PRAZO_RETORNO_REMESSA",
+        "LISTA_ESPECIFICACAO",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "REFERENCIA_EXPRESSA_CONFERIR_INSTRUMENTO_E_FUNCAO",
+        "evidencias": [
+          {
+            "indice_paragrafo": 12744,
+            "texto": "1. é condicionado à celebração de termo de acordo de regime especial com a Secretaria de Estado da Economia, do qual devem constar a forma e o prazo de fruição e as condições específicas pactuadas em relação aos investimentos a serem realizados até a data fixada no referido regime; e"
+          },
+          {
+            "indice_paragrafo": 12745,
+            "texto": "2. em relação à empresa que já esteja em atividade no Estado de Goiás, é condicionado, também, ao cumprimento de metas de arrecadação a serem estabelecidas no regime especial de que trata o item 1 desta alínea;"
+          },
+          {
+            "indice_paragrafo": 12751,
+            "texto": "1. os investimentos realizados nos 12 (doze) meses anteriores ao pedido de regime especial; e"
+          },
+          {
+            "indice_paragrafo": 12754,
+            "texto": "e) na falta de realização ou no caso de realização parcial dos investimentos previstos ou no encerramento das atividades da empresa ou do estabelecimento beneficiado, serão adotados, nos termos consignados em termo de acordo de regime especial, os procedimentos de que tratam os arts. 17 a 20 do Decreto nº 9.724, de 7 de outubro de 2020, sem prejuízo às demais obrigações e procedimentos constantes do referido termo;"
+          },
+          {
+            "indice_paragrafo": 12756,
+            "texto": "1. para a definição das metas de arrecadação, deve ser considerada a média de arrecadação dos últimos 12 (doze) meses anteriores à celebração do regime especial de todos os estabelecimentos da empresa situados no Estado de Goiás; e"
+          },
+          {
+            "indice_paragrafo": 12761,
+            "texto": "2.2. a meta de arrecadação deve ser corrigida no mês de fevereiro do ano civil seguinte ao da utilização do crédito outorgado, pelo índice previsto no parágrafo único do art. 2º do Ato das Disposições Transitórias da Lei nº 11.651, de 26 de dezembro de 1991, de forma proporcional aos meses em que o contribuinte houver sido detentor do regime especial no ano civil anterior;"
+          }
+        ]
+      },
+      "enquadramento_programa": [
+        {
+          "indice_paragrafo": 12762,
+          "texto": "g) fica vedada a utilização de forma cumulativa com o benefício fiscal previsto no inciso XXXI do art. 11, bem como com os incentivos e os benefícios fiscais do FOMENTAR, do PRODUZIR ou do PROGOIÁS, resguardada a opção pelo benefício mais favorável; e"
+        }
+      ],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Remessa e retorno vinculados, datas, motivo, titularidade e cumprimento do prazo legal.",
+        "Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Qual a evidência de: Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Qual a evidência de: Remessa e retorno vinculados, datas, motivo, titularidade e cumprimento do prazo legal.",
+        "Qual a evidência de: Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Qual a evidência de: Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ]
+    },
+    {
+      "id": "OP_286",
+      "indice_origem": 286,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoLXXIX",
+      "artigo": 11,
+      "inciso": "LXXIX",
+      "caput_literal": "LXXIX - para o estabelecimento industrializador de biogás e biometano, o equivalente à aplicação dos percentuais de 85% (oitenta e cinco por cento) e de 90% (noventa por cento) do valor do ICMS devido, aplicáveis, respectivamente, nas saídas internas e interestaduais dos referidos produtos, em substituição à apropriação de quaisquer créditos relativos ao ICMS correspondentes à entrada das mercadorias ou dos bens e ao serviço utilizado, observado o seguinte (Lei nº 23.168, de 2024, arts. 2º, 3º e 4º):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11LXXIX",
+      "indice_paragrafo_caput": 12765,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "REGIME_TARE_PROGRAMA",
+        "ORIGEM_PRODUCAO_INDUSTRIALIZACAO",
+        "PRAZO_RETORNO_REMESSA",
+        "LISTA_ESPECIFICACAO",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "REFERENCIA_EXPRESSA_CONFERIR_INSTRUMENTO_E_FUNCAO",
+        "evidencias": [
+          {
+            "indice_paragrafo": 12766,
+            "texto": "a) o benefício fiscal de que trata este inciso é condicionado à celebração de termo de acordo de regime especial com a Secretaria de Estado da Economia, do qual devem constar a forma, o prazo de fruição e as condições específicas pactuadas em relação aos investimentos a serem realizados até a data fixada no referido regime;"
+          },
+          {
+            "indice_paragrafo": 12771,
+            "texto": "c) para efeito do disposto na alínea “b” deste inciso, podem ser considerados os investimentos realizados nos 12 (doze) meses anteriores ao pedido de regime especial;"
+          },
+          {
+            "indice_paragrafo": 12773,
+            "texto": "e) na falta de realização ou na realização parcial dos investimentos previstos ou no encerramento das atividades da empresa ou do estabelecimento beneficiado, serão adotados, nos termos consignados em termo de acordo de regime especial, os procedimentos de que tratam os arts. 17 a 20 do Decreto nº 9.724, de 7 de outubro de 2020, sem prejuízo às demais obrigações e aos procedimentos constantes do referido termo;"
+          }
+        ]
+      },
+      "enquadramento_programa": [
+        {
+          "indice_paragrafo": 12774,
+          "texto": "f) fica vedada a utilização de forma cumulativa com os incentivos e os benefícios fiscais dos Programas FOMENTAR, PRODUZIR ou PROGOIÁS, resguardada a opção pelo benefício mais favorável; e"
+        }
+      ],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Remessa e retorno vinculados, datas, motivo, titularidade e cumprimento do prazo legal.",
+        "Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Qual a evidência de: Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Qual a evidência de: Remessa e retorno vinculados, datas, motivo, titularidade e cumprimento do prazo legal.",
+        "Qual a evidência de: Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Qual a evidência de: Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ]
+    },
+    {
+      "id": "OP_287",
+      "indice_origem": 287,
+      "dispositivo": "RCTE/GO, AnexoIX, art.11, incisoLXXX",
+      "artigo": 11,
+      "inciso": "LXXX",
+      "caput_literal": "LXXX - para o estabelecimento importador de aeronaves, o equivalente à aplicação de 75% (setenta e cinco por cento) sobre o valor do ICMS devido na saída interna da aeronave, observado o seguinte, conforme o art. 2º da Lei nº 23.437, de 21 de maio de 2025:",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11LXXX",
+      "indice_paragrafo_caput": 12777,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "IMPORTACAO",
+        "REGIME_TARE_PROGRAMA",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "REFERENCIA_EXPRESSA_CONFERIR_INSTRUMENTO_E_FUNCAO",
+        "evidencias": [
+          {
+            "indice_paragrafo": 12779,
+            "texto": "1. é condicionado à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia, no qual devem ser estabelecidas as condições para sua aplicação;"
+          }
+        ]
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Importação direta/indireta, importador e documentos aduaneiros, tratamentoII/IPI e eventual ausência de similar.",
+        "Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Importação direta/indireta, importador e documentos aduaneiros, tratamentoII/IPI e eventual ausência de similar.",
+        "Qual a evidência de: Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Qual a evidência de: Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ]
+    },
+    {
+      "id": "OP_288",
+      "indice_origem": 288,
+      "dispositivo": "RCTE/GO, AnexoIX, art.12, incisoI",
+      "artigo": 12,
+      "inciso": "I",
+      "caput_literal": "I - por empresa produtora de disco fonográfico ou de outro suporte com som gravado, o valor do direito autoral, artístico ou conexo comprovadamente pago ao autor ou artista nacional ou a empresa que (Convênios ICMS 23/90, cláusula primeira, e 30/98): (Redação conferida pelo Decreto Nº 6.384 - vigência: 01.02.06)",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A12I",
+      "indice_paragrafo_caput": 13734,
+      "estado_temporal": "HISTORICO_PRAZO_EXAURIDO",
+      "vigencia_fim_explicita_no_bloco": "2021-03-31",
+      "evidencia_prazo_quadro_central": {
+        "indice_paragrafo": 14202,
+        "ato": "CV ICMS 23/90",
+        "texto_data_limite": "31/3/2021",
+        "data_limite": "2021-03-31",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A12P4"
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ]
+    },
+    {
+      "id": "OP_289",
+      "indice_origem": 289,
+      "dispositivo": "RCTE/GO, AnexoIX, art.12, incisoVI",
+      "artigo": 12,
+      "inciso": "VI",
+      "caput_literal": "VI - para o contribuinte industrial, o equivalente ao percentual de 60% (sessenta por cento) do valor do ICMS, na saída interna de adesivo hidroxilado, cuja matéria-prima específica seja material resultante da moagem ou trituração de garrafa PET (Convênio ICMS 8/03).",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A12VI",
+      "indice_paragrafo_caput": 13839,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": "2026-12-31",
+      "evidencia_prazo_quadro_central": {
+        "indice_paragrafo": 14261,
+        "ato": "CV ICMS 08/03",
+        "texto_data_limite": "31/12/26",
+        "data_limite": "2026-12-31",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A12P4"
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ]
+    },
+    {
+      "id": "OP_290",
+      "indice_origem": 290,
+      "dispositivo": "RCTE/GO, AnexoIX, art.12, incisoX",
+      "artigo": 12,
+      "inciso": "X",
+      "caput_literal": "X - para o estabelecimento beneficiário do Programa de Desenvolvimento Industrial de Goiás -PRODUZIR- fabricante de cerveja e chope no valor previsto na alínea “a”, devendo ser observado o disposto nas alíneas seguintes: (Redação acrescida pelo Decreto nº 8.629 - vigência: 01.03.16)",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A12X",
+      "indice_paragrafo_caput": 13905,
+      "estado_temporal": "HISTORICO_PRAZO_EXAURIDO",
+      "vigencia_fim_explicita_no_bloco": "2019-10-31",
+      "evidencia_prazo_quadro_central": {
+        "indice_paragrafo": 14296,
+        "ato": "Lei nº 19.226/16",
+        "texto_data_limite": "31/10/19 (Redação acrescida pelo Decreto nº 8.629 - vigência: 01.03.16).",
+        "data_limite": "2019-10-31",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A12P4"
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "COMUNICACAO_ENERGIA",
+        "REGIME_TARE_PROGRAMA",
+        "DESTINATARIO_FINALIDADE",
+        "PRAZO_RETORNO_REMESSA",
+        "LISTA_ESPECIFICACAO",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "REFERENCIA_EXPRESSA_CONFERIR_INSTRUMENTO_E_FUNCAO",
+        "evidencias": [
+          {
+            "indice_paragrafo": 13918,
+            "texto": "2. a celebração de termo de acordo de regime especial com a Secretaria de Estado da Fazenda; (Redação acrescida pelo Decreto nº 8.629 - vigência: 01.03.16)"
+          },
+          {
+            "indice_paragrafo": 13919,
+            "texto": "3. a apropriação, a partir da celebração de termo de acordo de regime especial, em até 40 (quarenta) parcelas mensais e sucessivas, conforme definido em termo de acordo de regime especial; (Redação acrescida pelo Decreto nº 8.629 - vigência: 01.03.16)"
+          },
+          {
+            "indice_paragrafo": 13934,
+            "texto": "3. a infração às disposições do termo de acordo de regime especial. (Redação acrescida pelo Decreto nº 8.629 - vigência: 01.03.16)"
+          }
+        ]
+      },
+      "enquadramento_programa": [
+        {
+          "indice_paragrafo": 13905,
+          "texto": "X - para o estabelecimento beneficiário do Programa de Desenvolvimento Industrial de Goiás -PRODUZIR- fabricante de cerveja e chope no valor previsto na alínea “a”, devendo ser observado o disposto nas alíneas seguintes: (Redação acrescida pelo Decreto nº 8.629 - vigência: 01.03.16)"
+        },
+        {
+          "indice_paragrafo": 13927,
+          "texto": "f) o valor do crédito outorgado deve ser utilizado diretamente na subtração do valor a pagar relativo ao ICMS, excluída a parte incentivada pelo PRODUZIR devido por: (Redação acrescida pelo Decreto nº 8.629 - vigência: 01.03.16)"
+        }
+      ],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Consumo/medição, usuário ou tomador, modalidade do serviço/fornecimento e eventuais limites.",
+        "Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Remessa e retorno vinculados, datas, motivo, titularidade e cumprimento do prazo legal.",
+        "Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Consumo/medição, usuário ou tomador, modalidade do serviço/fornecimento e eventuais limites.",
+        "Qual a evidência de: Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Qual a evidência de: Remessa e retorno vinculados, datas, motivo, titularidade e cumprimento do prazo legal.",
+        "Qual a evidência de: Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Qual a evidência de: Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ]
+    },
+    {
+      "id": "OP_291",
+      "indice_origem": 291,
+      "dispositivo": "RCTE/GO, AnexoIX, art.12, incisoXI",
+      "artigo": 12,
+      "inciso": "XI",
+      "caput_literal": "XI - para o estabelecimento beneficiário do Programa de Desenvolvimento Industrial de Goiás -PRODUZIR- fabricante de atomatados, no valor de até R$ 4.000.000,00 (quatro milhões de reais), para ser efetivamente investido em projeto de implantação de empreendimento industrial no Estado de Goiás, devendo ser observado o disposto nas alíneas seguintes (Lei nº 19.143/15): (Redação acrescida pelo Decreto nº 8.655 - vigência: 25.05.16)",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A12XI",
+      "indice_paragrafo_caput": 13935,
+      "estado_temporal": "HISTORICO_PRAZO_EXAURIDO",
+      "vigencia_fim_explicita_no_bloco": "2017-12-31",
+      "evidencia_prazo_quadro_central": {
+        "indice_paragrafo": 14299,
+        "ato": "Lei nº 19.143/15",
+        "texto_data_limite": "31/12/17 (Redação acres.cida pelo Decreto nº 8.655 - vigência: 25.05.16)",
+        "data_limite": "2017-12-31",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A12P4"
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "IMPORTACAO",
+        "REGIME_TARE_PROGRAMA",
+        "DESTINATARIO_FINALIDADE",
+        "PRAZO_RETORNO_REMESSA",
+        "LISTA_ESPECIFICACAO",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "REFERENCIA_EXPRESSA_CONFERIR_INSTRUMENTO_E_FUNCAO",
+        "evidencias": [
+          {
+            "indice_paragrafo": 13941,
+            "texto": "2. à celebração de termo de acordo de regime especial com a Secretaria de Estado da Fazenda; (Redação acrescida pelo Decreto nº 8.655 - vigência: 25.05.16)"
+          },
+          {
+            "indice_paragrafo": 13942,
+            "texto": "3. à apropriação do crédito outorgado a partir da celebração de termo de acordo de regime especial, em até 24 (vinte e quatro) parcelas mensais, iguais e sucessivas, conforme definido em termo de acordo de regime especial; (Redação acrescida pelo Decreto nº 8.655 - vigência: 25.05.16)"
+          },
+          {
+            "indice_paragrafo": 13949,
+            "texto": "3. a infração às disposições do termo de acordo de regime especial; (Redação acrescida pelo Decreto nº 8.655 - vigência: 25.05.16)"
+          }
+        ]
+      },
+      "enquadramento_programa": [
+        {
+          "indice_paragrafo": 13935,
+          "texto": "XI - para o estabelecimento beneficiário do Programa de Desenvolvimento Industrial de Goiás -PRODUZIR- fabricante de atomatados, no valor de até R$ 4.000.000,00 (quatro milhões de reais), para ser efetivamente investido em projeto de implantação de empreendimento industrial no Estado de Goiás, devendo ser observado o disposto nas alíneas seguintes (Lei nº 19.143/15): (Redação acrescida pelo Decreto nº 8.655 - vigência: 25.05.16)"
+        },
+        {
+          "indice_paragrafo": 13944,
+          "texto": "c) o valor do crédito outorgado deve ser utilizado diretamente na subtração do ICMS a pagar corrrespondente à saída de produtos, materiais institucionais, inclusive os importados do exterior, após a aplicação do incentivo PRODUZIR; (Redação acrescida pelo Decreto nº 8.655 - vigência: 25.05.16)"
+        }
+      ],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Importação direta/indireta, importador e documentos aduaneiros, tratamentoII/IPI e eventual ausência de similar.",
+        "Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Remessa e retorno vinculados, datas, motivo, titularidade e cumprimento do prazo legal.",
+        "Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Importação direta/indireta, importador e documentos aduaneiros, tratamentoII/IPI e eventual ausência de similar.",
+        "Qual a evidência de: Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Qual a evidência de: Remessa e retorno vinculados, datas, motivo, titularidade e cumprimento do prazo legal.",
+        "Qual a evidência de: Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Qual a evidência de: Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ]
+    },
+    {
+      "id": "OP_292",
+      "indice_origem": 292,
+      "dispositivo": "RCTE/GO, AnexoIX, art.12, incisoXII",
+      "artigo": 12,
+      "inciso": "XII",
+      "caput_literal": "XII - na saída interestadual, efetuada por atacadista, de medicamento de uso humano e de material hospitalar destinada a órgão da administração pública direta ou indireta, hospital ou clínica de saúde, desde que a operação interna na unidade federada de destino seja tributada pelo imposto, o valor equivalente aos seguintes percentuais, resultante da aplicação das fórmulas constantes das alíneas \"a\" e \"b\", aplicado sobre o valor da operação e observado ainda: (Redação acrescida pelo Decreto nº 8.689 - vigência: 14.07.16)",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A12XII",
+      "indice_paragrafo_caput": 13950,
+      "estado_temporal": "HISTORICO_PRAZO_EXAURIDO",
+      "vigencia_fim_explicita_no_bloco": "2018-12-31",
+      "evidencia_prazo_quadro_central": {
+        "indice_paragrafo": 14302,
+        "ato": "Lei nº 19.302/16",
+        "texto_data_limite": "31/12/18 (Redação acrescida pelo Decreto nº 8.689 - vigência: 14.07.16)",
+        "data_limite": "2018-12-31",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A12P4"
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "DESTINATARIO_FINALIDADE",
+        "LISTA_ESPECIFICACAO",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Qual a evidência de: Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ]
+    },
+    {
+      "id": "OP_293",
+      "indice_origem": 293,
+      "dispositivo": "RCTE/GO, AnexoIX, art.12, incisoXIV",
+      "artigo": 12,
+      "inciso": "XIV",
+      "caput_literal": "XIV - para o estabelecimento beneficiário do Programa de Desenvolvimento Industrial de Goiás -PRODUZIR- fabricante de latas de alumínio para indústria de cerveja e outras bebidas, o valor equivalente a até R$11.000.000,00 (onze milhões de reais), para ser efetivamente investido em projeto de implantação de complexo industrial localizado no Estado de Goiás, devendo ser observado o disposto nas alíneas seguintes (Lei nº 19.226/16, art. 1º-A): (Redação acrescida pelo Decreto n°8.928 - vigência: 04.04.17)",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A12XIV",
+      "indice_paragrafo_caput": 13985,
+      "estado_temporal": "HISTORICO_PRAZO_EXAURIDO",
+      "vigencia_fim_explicita_no_bloco": "2019-10-31",
+      "evidencia_prazo_quadro_central": {
+        "indice_paragrafo": 14314,
+        "ato": "Lei nº 19.226/16",
+        "texto_data_limite": "31.10.19 (Redação acrescida pelo Decreto n°8.928 - vigência:04.04.17)",
+        "data_limite": "2019-10-31",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A12P4",
+        "verificacao_ancora": {
+          "fragmento": "A12XIV",
+          "link_literal": "../../Microsoft/Word/ANEXO_09_Beneficio_Fiscal.htm#A12XIV",
+          "indice_celula_inciso": 14312,
+          "indice_celula_lei": 14313,
+          "indice_celula_data": 14314,
+          "indice_anterior_apontava": "célula do inciso no começo da linha, não célula da data",
+          "verificado_em": "2026-10-28",
+          "metodo": "Fragmento do link legado, inciso, lei e data conferidos na mesma linha do quadro."
+        }
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "REGIME_TARE_PROGRAMA",
+        "DESTINATARIO_FINALIDADE",
+        "PRAZO_RETORNO_REMESSA",
+        "LISTA_ESPECIFICACAO",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "REFERENCIA_EXPRESSA_CONFERIR_INSTRUMENTO_E_FUNCAO",
+        "evidencias": [
+          {
+            "indice_paragrafo": 13992,
+            "texto": "2. à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Fazenda; (Redação acrescida pelo Decreto n°8.928 - vigência: 04.04.17)"
+          },
+          {
+            "indice_paragrafo": 13993,
+            "texto": "3. ao ínicio de produção do complexo industrial implantado em até 36 (trinta e seis) meses, contados a partir da data de assinatura do TARE, assegurada a prorrogação deste prazo pelo período de 12 (doze) meses, desde que a dilação seja causada por razões inerentes à implantação da unidade industrial; (Redação acrescida pelo Decreto n°8.928 - vigência: 04.04.17)"
+          },
+          {
+            "indice_paragrafo": 13994,
+            "texto": "b) o crédito deve ser apropriado em 40 (quarenta) parcelas mensais e sucessivas, em valores proporcionais ao efetivamente investido, a partir do período de apuração seguinte ao mês da celebração do TARE; (Redação acrescida pelo Decreto n°8.928 - vigência: 04.04.17)"
+          },
+          {
+            "indice_paragrafo": 13999,
+            "texto": "3. a infração às disposições do TARE. (Redação acrescida pelo Decreto n°8.928 - vigência: 04.04.17)"
+          },
+          {
+            "indice_paragrafo": 14004,
+            "texto": "1.1. à celebração de Termo de Acordo de Regime Especial -TARE- com a Secretaria de Estado da Fazenda, que definirá termos e condições para a sua utilização; (Redação acrescida pelo Decreto nº 9.019 - vigência: 04.08.17)"
+          },
+          {
+            "indice_paragrafo": 14008,
+            "texto": "3. o crédito outorgado deve ser apropriado em até 40 (quarenta) parcelas mensais e sucessivas, conforme definido em termo de acordo de regime especial. (Redação acrescida pelo Decreto nº 9.019 - vigência: 04.08.17)"
+          }
+        ]
+      },
+      "enquadramento_programa": [
+        {
+          "indice_paragrafo": 13985,
+          "texto": "XIV - para o estabelecimento beneficiário do Programa de Desenvolvimento Industrial de Goiás -PRODUZIR- fabricante de latas de alumínio para indústria de cerveja e outras bebidas, o valor equivalente a até R$11.000.000,00 (onze milhões de reais), para ser efetivamente investido em projeto de implantação de complexo industrial localizado no Estado de Goiás, devendo ser observado o disposto nas alíneas seguintes (Lei nº 19.226/16, art. 1º-A): (Redação acrescida pelo Decreto n°8.928 - vigência: 04.04.17)"
+        }
+      ],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Remessa e retorno vinculados, datas, motivo, titularidade e cumprimento do prazo legal.",
+        "Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Qual a evidência de: Remessa e retorno vinculados, datas, motivo, titularidade e cumprimento do prazo legal.",
+        "Qual a evidência de: Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Qual a evidência de: Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ]
+    },
+    {
+      "id": "OP_294",
+      "indice_origem": 294,
+      "dispositivo": "RCTE/GO, AnexoIX, art.12, incisoXVI",
+      "artigo": 12,
+      "inciso": "XVI",
+      "caput_literal": "XVI - para o contribuinte que investir em infraestrutura, não podendo o valor global exceder, em cada ano, a 5% (cinco por cento) da parte estadual da arrecadação anual do ICMS, relativa ao exercício imediatamente anterior, observado, ainda, o seguinte (Convênio ICMS 85/2011):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A12XVI",
+      "indice_paragrafo_caput": 14017,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": "2027-12-31",
+      "evidencia_prazo_quadro_central": {
+        "indice_paragrafo": 14344,
+        "ato": "CV ICMS 85/11",
+        "texto_data_limite": "31/12/27",
+        "data_limite": "2027-12-31",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A12P4"
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "COMUNICACAO_ENERGIA",
+        "REGIME_TARE_PROGRAMA",
+        "DESTINATARIO_FINALIDADE",
+        "PRAZO_RETORNO_REMESSA",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "REFERENCIA_EXPRESSA_CONFERIR_INSTRUMENTO_E_FUNCAO",
+        "evidencias": [
+          {
+            "indice_paragrafo": 14028,
+            "texto": "2. Termo de Acordo de Regime Especial - TARE, celebrado com a Secretaria de Estado da Economia, no qual devem constar, dentre outras condições, o prazo de vigência, o valor mensal do crédito e a disciplina legal a ser observada, podendo ainda ser estipulada meta de arrecadação de ICMS;"
+          },
+          {
+            "indice_paragrafo": 14044,
+            "texto": "1. manifestar-se previamente à celebração do TARE, quanto ao projeto apresentado;"
+          },
+          {
+            "indice_paragrafo": 14057,
+            "texto": "2. a desistência do projeto ou a infração insanável às disposições do regime especial, hipótese em que o contribuinte fará jus ao crédito outorgado na proporção que o valor dos investimentos realizados representar no valor dos investimentos previstos;"
+          },
+          {
+            "indice_paragrafo": 14059,
+            "texto": "3. na hipótese de investimentos em infraestrutura de energia ou de telecomunicações, a falta de comprovação da disponibilização do serviço em cada localidade prevista no TARE, nas condições de qualidade exigidas pela Agência Nacional de Energia Elétrica - ANEEL ou pela Agência Nacional de Telecomunicações - ANATEL, conforme o caso, e a empresa beneficiária deverá comprovar a situação à SGG até a data prevista para o término das obras de infraestrutura;"
+          },
+          {
+            "indice_paragrafo": 14076,
+            "texto": "5. para apropriação do crédito outorgado o contribuinte deve celebrar termo de acordo de regime especial com a Secretaria de Estado da Fazenda, no qual devem constar metas de arrecadação de ICMS por empresa, bem como as demais condições para apropriação do crédito outorgado."
+          }
+        ]
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Consumo/medição, usuário ou tomador, modalidade do serviço/fornecimento e eventuais limites.",
+        "Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Remessa e retorno vinculados, datas, motivo, titularidade e cumprimento do prazo legal.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Consumo/medição, usuário ou tomador, modalidade do serviço/fornecimento e eventuais limites.",
+        "Qual a evidência de: Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Qual a evidência de: Remessa e retorno vinculados, datas, motivo, titularidade e cumprimento do prazo legal.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Qual a evidência de: Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ]
+    },
+    {
+      "id": "OP_295",
+      "indice_origem": 295,
+      "dispositivo": "RCTE/GO, AnexoIX, art.12, incisoXVII",
+      "artigo": 12,
+      "inciso": "XVII",
+      "caput_literal": "XVII - para o estabelecimento prestador de serviço de telecomunicação, o equivalente ao percentual de até 1% (um por cento) do valor dos débitos de ICMS relacionados à prestação de serviços de telecomunicação, em substituição ao estorno de débito decorrente de situações em que não tenha ocorrido o fato gerador do ICMS, mediante termo de acordo de regime especial celebrado com a Secretaria da Economia, no qual serão estabelecidos a forma e o procedimento para apropriação do crédito, dispensada a apresentação de outros documentos que não os previstos na legislação tributária para a celebração do regime especial (Convênio ICMS 56/12);",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A12XVII",
+      "indice_paragrafo_caput": 14079,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": "2026-12-31",
+      "evidencia_prazo_quadro_central": {
+        "indice_paragrafo": 14383,
+        "ato": "CV ICMS 56/12",
+        "texto_data_limite": "31/12/26",
+        "data_limite": "2026-12-31",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A12P4"
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "COMUNICACAO_ENERGIA",
+        "REGIME_TARE_PROGRAMA",
+        "LISTA_ESPECIFICACAO",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "REFERENCIA_EXPRESSA_CONFERIR_INSTRUMENTO_E_FUNCAO",
+        "evidencias": [
+          {
+            "indice_paragrafo": 14079,
+            "texto": "XVII - para o estabelecimento prestador de serviço de telecomunicação, o equivalente ao percentual de até 1% (um por cento) do valor dos débitos de ICMS relacionados à prestação de serviços de telecomunicação, em substituição ao estorno de débito decorrente de situações em que não tenha ocorrido o fato gerador do ICMS, mediante termo de acordo de regime especial celebrado com a Secretaria da Economia, no qual serão estabelecidos a forma e o procedimento para apropriação do crédito, dispensada a apresentação de outros documentos que não os previstos na legislação tributária para a celebração do regime especial (Convênio ICMS 56/12);"
+          }
+        ]
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Consumo/medição, usuário ou tomador, modalidade do serviço/fornecimento e eventuais limites.",
+        "Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Consumo/medição, usuário ou tomador, modalidade do serviço/fornecimento e eventuais limites.",
+        "Qual a evidência de: Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Qual a evidência de: Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Qual a evidência de: Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ]
+    },
+    {
+      "id": "OP_296",
+      "indice_origem": 296,
+      "dispositivo": "RCTE/GO, AnexoIX, art.12, incisoXVIII",
+      "artigo": 12,
+      "inciso": "XVIII",
+      "caput_literal": "XVIII - para o contribuinte do ICMS que participar, sob a forma de mecenato, de projeto cultural ou artístico aprovado, nos termos da Instrução Normativa nº 05, de 16 de novembro de 2016, pela então Secretaria de Estado da Educação, Cultura e Esporte, observado o seguinte (Convênio ICMS nº 19/19):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A12XVIII",
+      "indice_paragrafo_caput": 14082,
+      "estado_temporal": "HISTORICO_PRAZO_EXAURIDO",
+      "vigencia_fim_explicita_no_bloco": "2019-09-30",
+      "evidencia_prazo_quadro_central": {
+        "indice_paragrafo": 14387,
+        "ato": "CV ICMS 19/19",
+        "texto_data_limite": "30/09/2019",
+        "data_limite": "2019-09-30",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A12P4"
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "REGIME_TARE_PROGRAMA",
+        "DESTINATARIO_FINALIDADE",
+        "LISTA_ESPECIFICACAO",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "REFERENCIA_EXPRESSA_CONFERIR_INSTRUMENTO_E_FUNCAO",
+        "evidencias": [
+          {
+            "indice_paragrafo": 14091,
+            "texto": "2. ser acrescido ao valor do ICMS pago pelo contribuinte, para fins de aferição de cumprimento de meta de arrecadação, tratando-se de contribuinte signatário de termo de acordo de regime especial que condicione a fruição de benefício fiscal ao cumprimento de meta de arrecadação de ICMS;"
+          }
+        ]
+      },
+      "enquadramento_programa": [
+        {
+          "indice_paragrafo": 14094,
+          "texto": "1. “1200”, na hipótese de contribuinte beneficiário de programa de incentivo financeiro concedido pelo Estado de Goiás, que pode utilizá-lo para subtração do valor a pagar relativo ao ICMS, excluída a parte incentivada pelo Fomentar ou Produzir;"
+        }
+      ],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Qual a evidência de: Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva.",
+        "Qual a evidência de: Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ]
+    },
+    {
+      "id": "OP_297",
+      "indice_origem": 297,
+      "dispositivo": "RCTE/GO, AnexoIX, art.12, incisoXX",
+      "artigo": 12,
+      "inciso": "XX",
+      "caput_literal": "XX - o equivalente à aplicação de 80% (oitenta por cento) sobre o valor do ICMS devido nas operações interestaduais com o feijão produzido no Estado de Goiás que não tenha sido submetido a qualquer processo de industrialização, em substituição à apropriação de quaisquer créditos relativos ao ICMS correspondentes à entrada das mercadorias ou dos bens e ao serviço utilizado (Lei 24.363, de 22 de junho de 2026, art. 2º).",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A12XX",
+      "indice_paragrafo_caput": 14124,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": "2031-06-21",
+      "evidencia_prazo_quadro_central": {
+        "indice_paragrafo": 14398,
+        "ato": "Lei nº 24.363, de 2026",
+        "texto_data_limite": "21/06/2031",
+        "data_limite": "2031-06-21",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A12P4"
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "ORIGEM_PRODUCAO_INDUSTRIALIZACAO",
+        "CREDITO_OUTORGADO_APURACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Qual a evidência de: Base de cálculo do crédito, saldo/debito/valor do investimento, limites, opção e tratamento dos créditos de entrada; percentual de crédito não é carga efetiva."
+      ]
+    }
+  ]
+}

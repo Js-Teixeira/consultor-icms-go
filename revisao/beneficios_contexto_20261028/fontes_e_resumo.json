@@ -1,0 +1,296 @@
+{
+  "data_referencia": "2026-10-28",
+  "natureza": "PROPOSTA_DOCUMENTAL_READONLY_PARA_REVISAO_FISCAL_ENSAIO_E_HOMOLOGACAO_PELO_RESPONSAVEL",
+  "resumo": {
+    "pendencias_outros_origem": 235,
+    "propostas_novas_ncm_exato": 20,
+    "complementos_de_vinculos_existentes": 5,
+    "propostas_operacionais_difal_importacao": 17,
+    "rotas_legais_novas_ou_complementares": 46,
+    "decisoes_pendencias_outros": {
+      "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA": 130,
+      "PENDENTE_IDENTIDADE_ENTRE_MULTIPLOS_SUCESSORES_OFICIAIS": 32,
+      "RESOLVIDA_PARA_CANDIDATO_CONDICIONAL_OU_COMPLEMENTO": 28,
+      "RESOLVIDA_DOCUMENTALMENTE_SEM_DUPLICAR": 1,
+      "ENCERRADA_SEM_ASSOCIACAO_ITEM_REVOGADO": 11,
+      "FUTURA_2027_PRESERVAR_SEM_ATIVAR": 2,
+      "RESOLVIDA_PARA_PROPOSTA_OPERACIONAL_CONTEXTUAL": 17,
+      "PENDENTE_CONTEXTO_OPERACIONAL_OU_VIGENCIA": 13,
+      "HISTORICO_PRAZO_EXAURIDO_SEM_ASSOCIACAO": 1
+    },
+    "operacoes_sem_vinculo_inventariadas": 298,
+    "operacoes_por_estado_temporal": {
+      "ATUAL_NA_CONSOLIDACAO_CONDICIONAL": 278,
+      "SEM_EFICACIA_DECLARADA": 1,
+      "CONFLITO_TEMPORAL_CAPUT_COM_PERIODO_ANTERIOR_REVISAR": 1,
+      "APLICACAO_SUSPENSA": 1,
+      "HISTORICO_PRAZO_EXAURIDO": 17
+    },
+    "operacoes_por_categoria": {
+      "DESTINATARIO_FINALIDADE": 148,
+      "PRAZO_RETORNO_REMESSA": 51,
+      "REGIME_TARE_PROGRAMA": 64,
+      "ORIGEM_PRODUCAO_INDUSTRIALIZACAO": 111,
+      "IDENTIDADE_OPERACAO_E_CONDICOES_LEGAIS": 34,
+      "IMPORTACAO": 61,
+      "SERVICO_TRANSPORTE": 28,
+      "DOACAO": 20,
+      "LISTA_ESPECIFICACAO": 70,
+      "COMUNICACAO_ENERGIA": 36,
+      "DIFAL": 14,
+      "CREDITO_OUTORGADO_APURACAO": 62
+    },
+    "agro_pendencias_revisadas": 5,
+    "cesta_advertencias_preservadas": 6,
+    "ncm_ativos_catalogo": 10516
+  },
+  "metodologia": [
+    "Pesquisar fontes primárias e preservar identidade do bem,operação,regime e vigência.",
+    "Expandir prefixos legais5/7 apenas para todas as folhas ativas,sem ampliar descrição/finalidade.",
+    "Propor sucessão somente quando a tabela oficial fornece um único destino ativo;preservar Ex e descrição legal original.",
+    "Manter múltiplos sucessores documentados como pendência de identidade.Nenhuma seleção por semelhança textual.",
+    "Agregar rotas alternativas por template/NCM;quando já há vínculo,propor complemento das descrições,sem duplicar registro.",
+    "Separar DIFAL/importação de saída interna e manter código cBenef nulo onde não comprovado.",
+    "Classificação temporal depende dos trechos e notas capturados.A classeCSS atual no HTML não implica vigência material (há prazos exauridos/suspensão).",
+    "Os298dispositivos são inventário operacional,sujeito a remissões gerais e prova dos fatos;não são298benefícios universais."
+  ],
+  "fontes": [
+    {
+      "id": "ANEXO_IX_CONSOLIDADO_20261027",
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "tipo": "LEGISLACAO_GO",
+      "verificacao": "Íntegra oficial previamente capturada em 27/10/2026; parágrafos indexados a partir de zero. Consulta web da íntegra falhou por tamanho; atos específicos abaixo foram revalidados online em 28/10."
+    },
+    {
+      "id": "MDIC_CORRELACAO_2017_2022",
+      "url": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+      "sha256": "79af068523a65cf03f880e2c4082d3731e0fb75a5d66d836866613cc68451940",
+      "verificacao": "PDF oficial MDIC baixado e tabelas extraídas em 28/10/2026; 29 páginas; ex indica somente parte do código destino."
+    },
+    {
+      "id": "GO_PARECER115_2024",
+      "url": "https://appasp.economia.go.gov.br/pareceres/arquivos/Decreto%20n%C2%BA%204.852-97%20-%20RCTE%20-%20Informa%C3%A7%C3%B5es%20Gerais/P_115_2024_SEI.docx",
+      "data_documento": "2024-06-05",
+      "trecho": "não obstam a fruição de benefícios fiscais concedidos mediante lei estadual ou convênios celebrados no âmbito do CONFAZ, desde que não haja alteração das características da mercadoria",
+      "alcance": "Orientação sobre identidade da mercadoria em reclassificações, agrupamentos e desdobramentos. Não classifica qualquer produto concreto pelo nome."
+    },
+    {
+      "id": "CONFAZ_CV117_96",
+      "url": "https://www.confaz.fazenda.gov.br/legislacao/convenios/1996/CV117_96",
+      "trecho": "as reclassificações, agrupamentos e desdobramentos de códigos [...] não implicam mudanças quanto ao tratamento tributário",
+      "alcance": "Preservar mercadoria abrangida, sem estender a bem diverso que ocupa o código."
+    },
+    {
+      "id": "GO_PARECER342_2022",
+      "url": "https://appasp.economia.go.gov.br/pareceres/arquivos/Benef%C3%ADcio%20Fiscal/Isen%C3%A7%C3%A3o%20concedida%20por%20Prazo%20Indeterminado%20-%20Art.%206%C2%BA/XI/P_342_2022_SEI.docx",
+      "data_documento": "2022-10-19",
+      "trecho": "alcança apenas o hortifrutícola em estado “natural” ou em estado “resfriado”, não abrangendo o hortifrutícola em estado “congelado”",
+      "alcance": "Responde especificamente a seleta07109000 e couve-flor07108000 congeladas e afasta orientação antiga do Parecer51/2015 após alteração de01/07/2015."
+    },
+    {
+      "id": "GO_D10175_2022",
+      "url": "https://legisla.casacivil.go.gov.br/pesquisa_legislacao/106380/decreto-10175",
+      "trecho": "e) geradores fotovoltaicos de corrente contínua, 8501.7;",
+      "vigencia_inicio": "2022-07-21"
+    },
+    {
+      "id": "GO_D10673_2025",
+      "url": "https://legisla.casacivil.go.gov.br/pesquisa_legislacao/110560/decreto-numerado-10673",
+      "trecho": "q) decanter centrífugo rotativo horizontal – 8421.19.9;",
+      "vigencia_inicio": "2025-04-11"
+    },
+    {
+      "id": "GO_D10896_2026",
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_10896.htm",
+      "trecho": "LXXX | CV ICMS151/21 |31/12/26",
+      "vigencia_inicio_prorrogacao": "2026-05-01"
+    },
+    {
+      "id": "GO_D10579_2024",
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_10579.htm",
+      "trecho": "§1º A utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial - TARE",
+      "vigencia_inicio": "2024-11-18"
+    },
+    {
+      "id": "CONFAZ_CV132_2019",
+      "url": "https://www.confaz.fazenda.gov.br/legislacao/convenios/2019/CV132_19",
+      "trecho": "212 | Latanoprosta [...] 3003.90. 3 9 /3004.90.29",
+      "alcance": "Confirma a mesma grafia espaçada do ato estadual; retirar somente espaços/pontos gera30039039, sem completar nem trocar dígitos."
+    }
+  ],
+  "revisao_pendencias_agro": [
+    {
+      "indice_origem": 0,
+      "original": {
+        "tema": "Parecer342/congelamento",
+        "status": "PENDENTE_VERIFICACAO",
+        "detalhe": "A íntegra do Parecer 342 sobre congelamento não foi lida neste subtrabalho. Não afirmar alcance para congelados com base apenas em notícia, ementa ou no termo resfriado. Os códigos 0710 e 0811 ficaram fora dos vínculos do XI."
+      },
+      "status": "RESOLVIDA_COM_EXCLUSAO_ORIENTATIVA",
+      "novos_vinculos_ncm": [],
+      "fontes": [
+        "GO_PARECER342_2022"
+      ],
+      "conclusao": "A isenção6ºXI não alcança hortifrutícolas congelados, conformeParecer342/2022; manter0710/0811 fora desta hipótese, sem concluir sobre outros benefícios.",
+      "fatos": [
+        "Temperatura/apresentação real e composição, mistura/cozimento/aditivos; espécie enumerada."
+      ]
+    },
+    {
+      "indice_origem": 1,
+      "original": {
+        "tema": "IN1440/2019,IN955/2009,AnexoXVI",
+        "status": "PENDENTE_OPERACIONAL",
+        "detalhe": "Remissõesrelevantes6XLIII/CXVI; nãoimplementarrotinadetransferência/recolhimento/contribuiçãoapenasporestamatriz."
+      },
+      "status": "PENDENTE_FATOS_OU_FONTE_COMPLEMENTAR",
+      "novos_vinculos_ncm": [],
+      "conclusao": "Não criar rotinas de contribuição/transferência/recolhimento por NCM. Coletar origem,destino,produtor/adquirente,titularidade,destinação e regime; ler IN1440/2019,IN955/2009 e AnexoXVI integralmente na versão aplicável antes de parametrizar."
+    },
+    {
+      "indice_origem": 2,
+      "original": {
+        "tema": "Bebida láctea: antigo NCM 22029000",
+        "status": "PENDENTE_CORRELACAO_OFICIAL_NCM",
+        "detalhe": "O código antigo do Apêndice XXXII não foi convertido para 22029900 ou outro código atual por ausência de correlação oficial verificada."
+      },
+      "status": "PENDENTE_FATOS_OU_FONTE_COMPLEMENTAR",
+      "novos_vinculos_ncm": [],
+      "conclusao": "22029000 não foi convertido: a tabelaMDIC2017→2022 não fecha a etapa anterior de2017; exige ato/tabela oficial anterior e prova de bebida láctea doApêndiceXXXII. Não tratar todo22029900 como bebida láctea."
+    },
+    {
+      "indice_origem": 3,
+      "original": {
+        "tema": "Outros créditos específicos",
+        "status": "PENDENTE_ESCOPO",
+        "detalhe": "Novilho precoce (11VII), ave viva (11XXXIX), exportação (11XXI) e açafrão industrializado (6CXXXV/11LXII) não foram mapeados; dependem de condições e regimes próprios e verificação específica da redação atual."
+      },
+      "status": "PARCIALMENTE_RESOLVIDA_DISPOSITIVOS_REVOGADOS",
+      "novos_vinculos_ncm": [],
+      "conclusao": "11ºVII(novilho precoce),11ºXXI(exportação) e11ºXXXIX(ave viva) foram revogados em01/08/2008; não são novos benefícios atuais. Açafrão6ºCXXXV e11ºLXII continuam hipóteses operacionais distintas (interna/interestadual); processo industrial emGO exige comprovação.",
+      "evidencias": [
+        {
+          "indice_paragrafo": 10908,
+          "texto": "REVOGADO O INCISO VII DO ART. 11 pelo ART. 2º DO DECRETO Nº 6.769, DE 30.07.08 - vigência: 01.08.08."
+        },
+        {
+          "indice_paragrafo": 11344,
+          "texto": "REVOGADO O INCISO XXI DO ART. 11 pelo ART. 4º DO DECRETO Nº 6.755, DE 30.06.08 - vigência: 01.08.08."
+        },
+        {
+          "indice_paragrafo": 12167,
+          "texto": "REVOGADO O INCISO XXXIX DO ART. 11 pelo ART. 2º DO DECRETO Nº 6.769, DE 30.07.08 - vigência: 01.08.08."
+        },
+        {
+          "indice_paragrafo": 12508,
+          "texto": "LXII - para o estabelecimento remetente, na saída interestadual de mercadoria resultante da industrialização do açafrão, cujo processo industrial tenha sido realizado no Estado de Goiás, o equivalente à aplicação de 10% (dez por cento) sobre o valor da base de cálculo (Lei nº 13.453/99, art. 1º, I, “r”). (Redação acrescida pelo Decreto nº 7.568 - vigência: 15.03.12)"
+        }
+      ],
+      "pendencia_residual": "Análise do produto concreto resultante da industrialização do açafrão, origem do processo, operação, crédito e regimes gerais."
+    },
+    {
+      "indice_origem": 4,
+      "original": {
+        "tema": "Carnes temperadas em NCM 1602",
+        "status": "PENDENTE_ANALISE_FISCAL",
+        "detalhe": "Os nove NCMs classificados como CARNE_TEMPERADA_OU_MIUDO na auditoria nominal não foram vinculados automaticamente aos créditos dos incisos V e VI do art. 11. Confirmar espécie, preparação real e alcance de industrialização/temperagem antes de inclusão."
+      },
+      "status": "PENDENTE_FATOS_OU_FONTE_COMPLEMENTAR",
+      "novos_vinculos_ncm": [],
+      "conclusao": "Manter sem vínculo automático os9NCM1602: provar espécie animal,parte/miúdo,preparação efetiva,identidade da carne,estabelecimento frigorífico/abatedor,abate emGO ou hipóteses do inciso e tratamento dos créditos. NCM1602 não basta."
+    }
+  ],
+  "revisao_pendencias_cesta": [
+    {
+      "indice_origem": 0,
+      "texto_original": "Todas as correspondências são candidatas condicionais e dependem da descrição, operação, regime, data e comprovação das condições. Nenhuma é CONFIRMADA.",
+      "status": "SALVAGUARDA_OPERACIONAL_PRESERVADA_SEM_NOVA_REGRA",
+      "conclusao": "O texto é condição/advertência de aplicação ou ambiguidade, não falta documental que autorize novo benefício por NCM."
+    },
+    {
+      "indice_origem": 1,
+      "texto_original": "A ausência de associação de certo NCM não significa ausência de benefício. Códigos residuais ou compartilhados e outras apresentações demandam análise própria.",
+      "status": "SALVAGUARDA_OPERACIONAL_PRESERVADA_SEM_NOVA_REGRA",
+      "conclusao": "O texto é condição/advertência de aplicação ou ambiguidade, não falta documental que autorize novo benefício por NCM."
+    },
+    {
+      "indice_origem": 2,
+      "texto_original": "A seleção das famílias usa o texto legal atual. As restrições adicionais do Parecer nº 55/2023 são orientação de identidade datada, separada da regra legal, e não geram alíquota nominal.",
+      "status": "SALVAGUARDA_OPERACIONAL_PRESERVADA_SEM_NOVA_REGRA",
+      "conclusao": "O texto é condição/advertência de aplicação ou ambiguidade, não falta documental que autorize novo benefício por NCM."
+    },
+    {
+      "indice_origem": 3,
+      "texto_original": "O NCM 11081400 é compartilhado entre polvilho (inciso XXXIII, carga de 7%) e fécula de mandioca (inciso XXXVI, carga de 12%). A descrição técnica e o enquadramento legal são indispensáveis; não decidir apenas pelo NCM nem acumular benefícios.",
+      "status": "SALVAGUARDA_OPERACIONAL_PRESERVADA_SEM_NOVA_REGRA",
+      "conclusao": "O texto é condição/advertência de aplicação ou ambiguidade, não falta documental que autorize novo benefício por NCM."
+    },
+    {
+      "indice_origem": 4,
+      "texto_original": "Arroz e feijão possuem regras potencialmente alternativas, como o art. 8º, XIX. Este arquivo não as converte em confirmadas nem afirma exclusividade do inciso XXXIII.",
+      "status": "SALVAGUARDA_OPERACIONAL_PRESERVADA_SEM_NOVA_REGRA",
+      "conclusao": "O texto é condição/advertência de aplicação ou ambiguidade, não falta documental que autorize novo benefício por NCM."
+    },
+    {
+      "indice_origem": 5,
+      "texto_original": "Não existe percentual fixo de redução da base neste arquivo. Quando a alíquota nominal for 12%, a carga de 7% não altera a alíquota nominal para 7%.",
+      "status": "SALVAGUARDA_OPERACIONAL_PRESERVADA_SEM_NOVA_REGRA",
+      "conclusao": "O texto é condição/advertência de aplicação ou ambiguidade, não falta documental que autorize novo benefício por NCM."
+    }
+  ],
+  "formulario_operacional_minimo": [
+    {
+      "campo": "data_operacao",
+      "pergunta": "Em que data ocorreu/ocorrerá o fato gerador?",
+      "obrigatorio": true
+    },
+    {
+      "campo": "natureza_imposto",
+      "pergunta": "Saída interna,saída interestadual,DIFAL de aquisição,importação,serviço ou apuração de crédito?",
+      "obrigatorio": true
+    },
+    {
+      "campo": "uf_origem_destino",
+      "pergunta": "Qual a UF de origem e a de destino?",
+      "obrigatorio": true
+    },
+    {
+      "campo": "regime",
+      "pergunta": "Regime normal,Simples ou programaFomentar/Produzir/ProGoiás?",
+      "obrigatorio": true
+    },
+    {
+      "campo": "instrumento_individual",
+      "pergunta": "Há TARE,despacho,credenciamento ou enquadramento válido para este estabelecimento e esta operação?",
+      "obrigatorio": "QUANDO_EXPRESSAMENTE_EXIGIDO"
+    },
+    {
+      "campo": "produto_real",
+      "pergunta": "Qual a composição,processo,apresentação,espécie/potência e classificação fiscal efetiva?",
+      "obrigatorio": "PARA_MERCADORIA"
+    },
+    {
+      "campo": "origem_finalidade",
+      "pergunta": "Produção própria/emGO,industrialização,abate,ativo,revenda,doação,consumo ou retorno?",
+      "obrigatorio": "CONFORME_DISPOSITIVO"
+    },
+    {
+      "campo": "destinatario",
+      "pergunta": "Quem é o destinatário e qual a atividade/finalidade legal comprovada?",
+      "obrigatorio": "CONFORME_DISPOSITIVO"
+    },
+    {
+      "campo": "aprovacao_creditos",
+      "pergunta": "Qual a opção,tratamento dos créditos,cumulação,PROTEGE e demais condições gerais?",
+      "obrigatorio": "CONFORME_DISPOSITIVO"
+    }
+  ],
+  "limites_da_revisao": [
+    "A tabelaMDIC2017→2022 não resolve sozinha códigos alterados antes/depois desse intervalo; buscas individuais não foram exauridas.",
+    "As datas das propostas de sucessão são início conservador da associação àNCM2022 ou da redação legal posterior,não homologação retroativa.",
+    "O inventário contém caput exato, trechos de subitens e notas locais não consolidadas; históricos de caput foram omitidos porque a associação apenas por romano podia capturar subincisos de outros dispositivos. A classificação temporal foi recalculada sem históricos ou notas locais. Os parágrafos gerais e documentos individuais devem ser lidos na aplicação concreta.",
+    "Não foram verificados atos individuais,TAREs ou fatos de qualquer contribuinte.",
+    "A hipótese de30039039 daLatanoprosta preserva a apresentação literal e o contexto;normalização da grafia não homologa a classificação fiscal da mercadoria."
+  ],
+  "historicos": "Históricos não foram incorporados por associação não assegurada em caputs com numeral romano repetido. Estados temporais foram recalculados pelo caput exato e quadro central, ignorando históricos e notas locais. Evidência em auditoria_temporal_historicos.json."
+}

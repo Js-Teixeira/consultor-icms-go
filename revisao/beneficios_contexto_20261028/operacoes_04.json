@@ -1,0 +1,2327 @@
+{
+  "referencia": "2026-10-28",
+  "natureza": "INVENTARIO_CONDICIONAL_SEM_PUBLICACAO_AUTOMATICA",
+  "itens": [
+    {
+      "id": "OP_150",
+      "indice_origem": 150,
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoXLI",
+      "artigo": 7,
+      "inciso": "XLI",
+      "caput_literal": "XLI - a prestação interna de serviço de transporte de cargas destinada a contribuinte do imposto estabelecido neste Estado (Convênio ICMS 4/04, cláusula primeira);",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7XLI",
+      "indice_paragrafo_caput": 3342,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": "2026-12-31",
+      "evidencia_prazo_quadro_central": {
+        "ato": "Decreto nº 10.896/2026, art.1º, quadro do §1º do art.7º do AnexoIX",
+        "texto_data_limite": "31/12/26",
+        "data_limite": "2026-12-31",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_10896.htm",
+        "vigencia_inicio_prorrogacao": "2026-05-01",
+        "celula_consolidada_para_auditoria": {
+          "indice_paragrafo": 6154,
+          "ato": "CV ICMS 04/04",
+          "texto_data_limite": "31/12/26",
+          "data_limite": "2026-12-31",
+          "situacao": "PRAZO_EXPRESSO",
+          "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7P1"
+        }
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "SERVICO_TRANSPORTE",
+        "DESTINATARIO_FINALIDADE"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Serviço, modal, local de início/fim, tomador, documento e vínculo da prestação com a operação.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Serviço, modal, local de início/fim, tomador, documento e vínculo da prestação com a operação.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado."
+      ]
+    },
+    {
+      "id": "OP_151",
+      "indice_origem": 151,
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoXLII",
+      "artigo": 7,
+      "inciso": "XLII",
+      "caput_literal": "XLII - operação interna correspondente à doação de mercadoria ou bem à Organização das Voluntárias do Estado de Goiás - OVG, inscrita no CNPJ nº 02.106.664/0001-65, ficando mantido o crédito, observado o seguinte (Convênio ICMS nº 15/04, cláusula primeira):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7XLII",
+      "indice_paragrafo_caput": 3348,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": "2026-12-31",
+      "evidencia_prazo_quadro_central": {
+        "ato": "Decreto nº 10.896/2026, art.1º, quadro do §1º do art.7º do AnexoIX",
+        "texto_data_limite": "31/12/26",
+        "data_limite": "2026-12-31",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_10896.htm",
+        "vigencia_inicio_prorrogacao": "2026-05-01",
+        "celula_consolidada_para_auditoria": {
+          "indice_paragrafo": 6195,
+          "ato": "CV ICMS 15/04",
+          "texto_data_limite": "31/12/26",
+          "data_limite": "2026-12-31",
+          "situacao": "PRAZO_EXPRESSO",
+          "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7P1"
+        }
+      },
+      "divergencia_nota_lateral_quadro_central": true,
+      "categorias": [
+        "DOACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Doador/donatário, gratuidade, destinação final e documentos de entrega/recebimento."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Doador/donatário, gratuidade, destinação final e documentos de entrega/recebimento."
+      ]
+    },
+    {
+      "id": "OP_152",
+      "indice_origem": 152,
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoXLIII",
+      "artigo": 7,
+      "inciso": "XLIII",
+      "caput_literal": "XLIII - a operação que destine a contribuinte abrangido pelo Projeto Integrado de Exploração Agropecuária e Agroindustrial do Estado de Roraima os produtos arrolados no inciso XXV deste artigo, e com máquina e equipamento, bem como suas partes e peças, para uso exclusivo na agricultura e na pecuária, ficando mantido o crédito, observado o seguinte (Convênio ICMS 62/03, cláusula primeira):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7XLIII",
+      "indice_paragrafo_caput": 3358,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": "2026-12-31",
+      "evidencia_prazo_quadro_central": {
+        "ato": "Decreto nº 10.896/2026, art.1º, quadro do §1º do art.7º do AnexoIX",
+        "texto_data_limite": "31/12/26",
+        "data_limite": "2026-12-31",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_10896.htm",
+        "vigencia_inicio_prorrogacao": "2026-05-01",
+        "celula_consolidada_para_auditoria": {
+          "indice_paragrafo": 6236,
+          "ato": "CV ICMS 62/03",
+          "texto_data_limite": "31/12/26",
+          "data_limite": "2026-12-31",
+          "situacao": "PRAZO_EXPRESSO",
+          "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7P1"
+        }
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "DESTINATARIO_FINALIDADE",
+        "PRAZO_RETORNO_REMESSA",
+        "LISTA_ESPECIFICACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Remessa e retorno vinculados, datas, motivo, titularidade e cumprimento do prazo legal.",
+        "Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Qual a evidência de: Remessa e retorno vinculados, datas, motivo, titularidade e cumprimento do prazo legal.",
+        "Qual a evidência de: Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma."
+      ]
+    },
+    {
+      "id": "OP_153",
+      "indice_origem": 153,
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoXLIV",
+      "artigo": 7,
+      "inciso": "XLIV",
+      "caput_literal": "XLIV - operação interna em decorrência de doação à entidade filantrópica \"Vila São Bento Cotollengo\", CNPJ/MF nº 00.420.371/0001-22, estabelecida no município de Trindade - GO, dos produtos alimentícios a seguir relacionados com as correspondentes quantidades anuais (Convênio ICMS 32/05):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7XLIV",
+      "indice_paragrafo_caput": 3390,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": "2026-12-31",
+      "evidencia_prazo_quadro_central": {
+        "ato": "Decreto nº 10.896/2026, art.1º, quadro do §1º do art.7º do AnexoIX",
+        "texto_data_limite": "31/12/26",
+        "data_limite": "2026-12-31",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_10896.htm",
+        "vigencia_inicio_prorrogacao": "2026-05-01",
+        "celula_consolidada_para_auditoria": {
+          "indice_paragrafo": 6277,
+          "ato": "CV ICMS 32/05",
+          "texto_data_limite": "30/12/26",
+          "data_limite": "2026-12-30",
+          "situacao": "PRAZO_EXPRESSO",
+          "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7P1"
+        }
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "DOACAO",
+        "LISTA_ESPECIFICACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Doador/donatário, gratuidade, destinação final e documentos de entrega/recebimento.",
+        "Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Doador/donatário, gratuidade, destinação final e documentos de entrega/recebimento.",
+        "Qual a evidência de: Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma."
+      ]
+    },
+    {
+      "id": "OP_154",
+      "indice_origem": 154,
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoXLV",
+      "artigo": 7,
+      "inciso": "XLV",
+      "caput_literal": "XLV - a operação com mercadoria, bem como a prestação de serviço de transporte a ela relativa, destinada aos programas de fortalecimento e modernização das áreas fiscal, de gestão, de planejamento e de controle externo estaduais, adquirida por intermédio de licitação ou contratação efetuada dentro das normas estabelecidas pelo Banco Interamericano de Desenvolvimento - BID - e Banco Nacional de Desenvolvimento Econômico e Social - BNDES - (Convênio ICMS 79/05, cláusula primeira);",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7XLV",
+      "indice_paragrafo_caput": 3402,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": "2026-12-31",
+      "evidencia_prazo_quadro_central": {
+        "ato": "Decreto nº 10.896/2026, art.1º, quadro do §1º do art.7º do AnexoIX",
+        "texto_data_limite": "31/12/26",
+        "data_limite": "2026-12-31",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_10896.htm",
+        "vigencia_inicio_prorrogacao": "2026-05-01",
+        "celula_consolidada_para_auditoria": {
+          "indice_paragrafo": 6318,
+          "ato": "CV ICMS 79/05",
+          "texto_data_limite": "31/12/26",
+          "data_limite": "2026-12-31",
+          "situacao": "PRAZO_EXPRESSO",
+          "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7P1"
+        }
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "SERVICO_TRANSPORTE",
+        "DESTINATARIO_FINALIDADE"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Serviço, modal, local de início/fim, tomador, documento e vínculo da prestação com a operação.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Serviço, modal, local de início/fim, tomador, documento e vínculo da prestação com a operação.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado."
+      ]
+    },
+    {
+      "id": "OP_155",
+      "indice_origem": 155,
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoXLVI",
+      "artigo": 7,
+      "inciso": "XLVI",
+      "caput_literal": "XLVI - a saída interna de bem relacionado no Apêndice XXVII destinado a integrar o ativo imobilizado de empresa beneficiada pelo Regime Tributário para Incentivo à Modernização e à Ampliação da Estrutura Portuária - REPORTO -, observado o seguinte (Convênio ICMS 3/06, cláusula primeira):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7XLVI",
+      "indice_paragrafo_caput": 3405,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": "2026-12-31",
+      "evidencia_prazo_quadro_central": {
+        "ato": "Decreto nº 10.896/2026, art.1º, quadro do §1º do art.7º do AnexoIX",
+        "texto_data_limite": "31/12/26",
+        "data_limite": "2026-12-31",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_10896.htm",
+        "vigencia_inicio_prorrogacao": "2026-05-01",
+        "celula_consolidada_para_auditoria": {
+          "indice_paragrafo": 6359,
+          "ato": "CV ICMS 03/06",
+          "texto_data_limite": "31/12/26",
+          "data_limite": "2026-12-31",
+          "situacao": "PRAZO_EXPRESSO",
+          "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7P1"
+        }
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "IMPORTACAO",
+        "DESTINATARIO_FINALIDADE",
+        "PRAZO_RETORNO_REMESSA",
+        "LISTA_ESPECIFICACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Importação direta/indireta, importador e documentos aduaneiros, tratamentoII/IPI e eventual ausência de similar.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Remessa e retorno vinculados, datas, motivo, titularidade e cumprimento do prazo legal.",
+        "Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Importação direta/indireta, importador e documentos aduaneiros, tratamentoII/IPI e eventual ausência de similar.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Qual a evidência de: Remessa e retorno vinculados, datas, motivo, titularidade e cumprimento do prazo legal.",
+        "Qual a evidência de: Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma."
+      ]
+    },
+    {
+      "id": "OP_156",
+      "indice_origem": 156,
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoXLVIII",
+      "artigo": 7,
+      "inciso": "XLVIII",
+      "caput_literal": "XLVIII - a operação de circulação de mercadoria caracterizada pela emissão e negociação do Certificado de Depósito Agropecuário - CDA - e do Warrant Agropecuário - WA -, nos mercados de bolsa e de balcão como ativos financeiros, instituídos pela Lei nº 11.076, de 30 de dezembro de 2004, observado o disposto no § 3º (Convênio ICMS 30/06, cláusula primeira).",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7XLVIII",
+      "indice_paragrafo_caput": 3415,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": "2026-12-31",
+      "evidencia_prazo_quadro_central": {
+        "ato": "Decreto nº 10.896/2026, art.1º, quadro do §1º do art.7º do AnexoIX",
+        "texto_data_limite": "31/12/26",
+        "data_limite": "2026-12-31",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_10896.htm",
+        "vigencia_inicio_prorrogacao": "2026-05-01",
+        "celula_consolidada_para_auditoria": {
+          "indice_paragrafo": 6441,
+          "ato": "CV ICMS 30/06",
+          "texto_data_limite": "31/12/26",
+          "data_limite": "2026-12-31",
+          "situacao": "PRAZO_EXPRESSO",
+          "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7P1"
+        }
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "IDENTIDADE_OPERACAO_E_CONDICOES_LEGAIS"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide."
+      ]
+    },
+    {
+      "id": "OP_157",
+      "indice_origem": 157,
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoL",
+      "artigo": 7,
+      "inciso": "L",
+      "caput_literal": "L - a importação de máquinas, aparelhos e equipamentos industriais, bem como suas partes e peças relacionados no Apêndice XXIX, desde que não exista similar produzido no país, destinados a integrar o ativo imobilizado do Serviço Nacional de Aprendizagem Industrial - SENAI -, do Serviço Nacional de Aprendizagem Nacional - SENAC - e do Serviço Nacional de Aprendizagem Rural - SENAR -, para uso nas atividades de pesquisa, ensino e aprendizagem realizadas no Estado de Goiás por essas entidades, devendo a isenção do ICMS ser concedida caso a caso, mediante despacho do Secretário da Fazenda, em requerimento do interessado (Convênio ICMS 133/06).",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7L",
+      "indice_paragrafo_caput": 3426,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": "2026-12-31",
+      "evidencia_prazo_quadro_central": {
+        "ato": "Decreto nº 10.896/2026, art.1º, quadro do §1º do art.7º do AnexoIX",
+        "texto_data_limite": "31/12/26",
+        "data_limite": "2026-12-31",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_10896.htm",
+        "vigencia_inicio_prorrogacao": "2026-05-01",
+        "celula_consolidada_para_auditoria": {
+          "indice_paragrafo": 6485,
+          "ato": "CV ICMS 133/06",
+          "texto_data_limite": "31/12/26",
+          "data_limite": "2026-12-31",
+          "situacao": "PRAZO_EXPRESSO",
+          "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7P1"
+        }
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "IMPORTACAO",
+        "ORIGEM_PRODUCAO_INDUSTRIALIZACAO",
+        "DESTINATARIO_FINALIDADE",
+        "LISTA_ESPECIFICACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Importação direta/indireta, importador e documentos aduaneiros, tratamentoII/IPI e eventual ausência de similar.",
+        "Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Importação direta/indireta, importador e documentos aduaneiros, tratamentoII/IPI e eventual ausência de similar.",
+        "Qual a evidência de: Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Qual a evidência de: Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma."
+      ]
+    },
+    {
+      "id": "OP_158",
+      "indice_origem": 158,
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoLI",
+      "artigo": 7,
+      "inciso": "LI",
+      "caput_literal": "LI - na operação com medicamento e reagente químico, relacionados no Apêndice XXX, kit laboratorial e equipamento, bem como suas partes e peças, destinados a pesquisas que envolvam seres humanos, com objetivo de desenvolver novos medicamentos, inclusive em programas de acesso expandido, ficando mantido o crédito e observado o seguinte (Convênio ICMS 9/07, cláusula primeira):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7LI",
+      "indice_paragrafo_caput": 3429,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": "2026-12-31",
+      "evidencia_prazo_quadro_central": {
+        "ato": "Decreto nº 10.896/2026, art.1º, quadro do §1º do art.7º do AnexoIX",
+        "texto_data_limite": "31/12/26",
+        "data_limite": "2026-12-31",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_10896.htm",
+        "vigencia_inicio_prorrogacao": "2026-05-01",
+        "celula_consolidada_para_auditoria": {
+          "indice_paragrafo": 6526,
+          "ato": "CV ICMS 09/07",
+          "texto_data_limite": "31/12/26",
+          "data_limite": "2026-12-31",
+          "situacao": "PRAZO_EXPRESSO",
+          "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7P1"
+        }
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "IMPORTACAO",
+        "REGIME_TARE_PROGRAMA",
+        "ORIGEM_PRODUCAO_INDUSTRIALIZACAO",
+        "DESTINATARIO_FINALIDADE",
+        "LISTA_ESPECIFICACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Importação direta/indireta, importador e documentos aduaneiros, tratamentoII/IPI e eventual ausência de similar.",
+        "Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Importação direta/indireta, importador e documentos aduaneiros, tratamentoII/IPI e eventual ausência de similar.",
+        "Qual a evidência de: Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Qual a evidência de: Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Qual a evidência de: Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma."
+      ]
+    },
+    {
+      "id": "OP_159",
+      "indice_origem": 159,
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoLII",
+      "artigo": 7,
+      "inciso": "LII",
+      "caput_literal": "LII - a importação de máquina, equipamento, aparelho, instrumento, suas respectivas partes, peças e acessórios, arrolados no Apêndice XXXI, sem similar produzido no país, efetuada por empresa concessionária de prestação de serviços públicos de radiodifusão sonora e de sons e imagens de recepção livre e gratuita, desde que os produtos sejam desonerados do Imposto de Importação e das contribuições para o PIS/PASEP e para a COFINS (Convênio ICMS 10/07, cláusula primeira);",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7LII",
+      "indice_paragrafo_caput": 3437,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": "2026-12-31",
+      "evidencia_prazo_quadro_central": {
+        "ato": "Decreto nº 10.896/2026, art.1º, quadro do §1º do art.7º do AnexoIX",
+        "texto_data_limite": "31/12/26",
+        "data_limite": "2026-12-31",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_10896.htm",
+        "vigencia_inicio_prorrogacao": "2026-05-01",
+        "celula_consolidada_para_auditoria": {
+          "indice_paragrafo": 6569,
+          "ato": "CV ICMS 10/07",
+          "texto_data_limite": "31/12/26",
+          "data_limite": "2026-12-31",
+          "situacao": "PRAZO_EXPRESSO",
+          "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7P1"
+        }
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "IMPORTACAO",
+        "ORIGEM_PRODUCAO_INDUSTRIALIZACAO",
+        "LISTA_ESPECIFICACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Importação direta/indireta, importador e documentos aduaneiros, tratamentoII/IPI e eventual ausência de similar.",
+        "Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Importação direta/indireta, importador e documentos aduaneiros, tratamentoII/IPI e eventual ausência de similar.",
+        "Qual a evidência de: Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Qual a evidência de: Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma."
+      ]
+    },
+    {
+      "id": "OP_160",
+      "indice_origem": 160,
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoLIV",
+      "artigo": 7,
+      "inciso": "LIV",
+      "caput_literal": "LIV - a operação relativa à aquisição realizada por meio de Pregão de Registro de Preços realizado pelo Fundo Nacional de Desenvolvimento da Educação - FNDE -, de ônibus, micro-ônibus, e embarcação, destinados ao transporte escolar, no âmbito do Programa Caminho da Escola, do Ministério da Educação - MEC -, instituído pela RESOLUÇÃO/FNDE/CD/Nº 3, de 28 de março de 2007, ficando mantido o crédito e observado o seguinte (Convênio ICMS 53/07, cláusulas primeira a terceira):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7LIV",
+      "indice_paragrafo_caput": 3449,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": "2026-12-31",
+      "evidencia_prazo_quadro_central": {
+        "ato": "Decreto nº 10.896/2026, art.1º, quadro do §1º do art.7º do AnexoIX",
+        "texto_data_limite": "31/12/26",
+        "data_limite": "2026-12-31",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_10896.htm",
+        "vigencia_inicio_prorrogacao": "2026-05-01",
+        "celula_consolidada_para_auditoria": {
+          "indice_paragrafo": 6648,
+          "ato": "CV ICMS 53/07",
+          "texto_data_limite": "31/12/26",
+          "data_limite": "2026-12-31",
+          "situacao": "PRAZO_EXPRESSO",
+          "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7P1"
+        }
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "IMPORTACAO",
+        "ORIGEM_PRODUCAO_INDUSTRIALIZACAO",
+        "DESTINATARIO_FINALIDADE"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Importação direta/indireta, importador e documentos aduaneiros, tratamentoII/IPI e eventual ausência de similar.",
+        "Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Importação direta/indireta, importador e documentos aduaneiros, tratamentoII/IPI e eventual ausência de similar.",
+        "Qual a evidência de: Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado."
+      ]
+    },
+    {
+      "id": "OP_161",
+      "indice_origem": 161,
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoLIX",
+      "artigo": 7,
+      "inciso": "LIX",
+      "caput_literal": "LIX - a saída de estabelecimento que efetuar o reparo, conserto ou manutenção de aeronave, de peça defeituosa para o fabricante, oriunda de troca em virtude de garantia, bem como, a saída de peça nova em substituição à defeituosa, desde que a remessa ocorra dentro da validade da garantia ou até 30 (trinta) dias após o seu vencimento (Convênio ICMS 26/09, cláusula quinta).",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7LIX",
+      "indice_paragrafo_caput": 3486,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": "2026-12-31",
+      "evidencia_prazo_quadro_central": {
+        "ato": "Decreto nº 10.896/2026, art.1º, quadro do §1º do art.7º do AnexoIX",
+        "texto_data_limite": "31/12/26",
+        "data_limite": "2026-12-31",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_10896.htm",
+        "vigencia_inicio_prorrogacao": "2026-05-01",
+        "celula_consolidada_para_auditoria": {
+          "indice_paragrafo": 6714,
+          "ato": "CV ICMS 26/09",
+          "texto_data_limite": "31/12/26",
+          "data_limite": "2026-12-31",
+          "situacao": "PRAZO_EXPRESSO",
+          "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7P1"
+        }
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "PRAZO_RETORNO_REMESSA"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Remessa e retorno vinculados, datas, motivo, titularidade e cumprimento do prazo legal."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Remessa e retorno vinculados, datas, motivo, titularidade e cumprimento do prazo legal."
+      ]
+    },
+    {
+      "id": "OP_162",
+      "indice_origem": 162,
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoLXI",
+      "artigo": 7,
+      "inciso": "LXI",
+      "caput_literal": "LXI - a importação do exterior, quando efetuada diretamente por produtor, de pós-larvas de camarão e reprodutores SPF (Livres de Patógenos Específicos), para fins de melhoramento genético (Convênio ICMS 89/10, cláusula primeira, I);",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7LXI",
+      "indice_paragrafo_caput": 3494,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": "2026-12-31",
+      "evidencia_prazo_quadro_central": {
+        "ato": "Decreto nº 10.896/2026, art.1º, quadro do §1º do art.7º do AnexoIX",
+        "texto_data_limite": "31/12/26",
+        "data_limite": "2026-12-31",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_10896.htm",
+        "vigencia_inicio_prorrogacao": "2026-05-01",
+        "celula_consolidada_para_auditoria": {
+          "indice_paragrafo": 6796,
+          "ato": "CV ICMS 89/10",
+          "texto_data_limite": "31/12/26",
+          "data_limite": "2026-12-31",
+          "situacao": "PRAZO_EXPRESSO",
+          "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7P1"
+        }
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "IMPORTACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Importação direta/indireta, importador e documentos aduaneiros, tratamentoII/IPI e eventual ausência de similar."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Importação direta/indireta, importador e documentos aduaneiros, tratamentoII/IPI e eventual ausência de similar."
+      ]
+    },
+    {
+      "id": "OP_163",
+      "indice_origem": 163,
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoLXII",
+      "artigo": 7,
+      "inciso": "LXII",
+      "caput_literal": "LXII - a saída de reprodutor de camarão marinho produzido no País (Convênio ICMS 89/10, cláusula primeira, II);",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7LXII",
+      "indice_paragrafo_caput": 3497,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": "2026-12-31",
+      "evidencia_prazo_quadro_central": {
+        "ato": "Decreto nº 10.896/2026, art.1º, quadro do §1º do art.7º do AnexoIX",
+        "texto_data_limite": "31/12/26",
+        "data_limite": "2026-12-31",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_10896.htm",
+        "vigencia_inicio_prorrogacao": "2026-05-01",
+        "celula_consolidada_para_auditoria": {
+          "indice_paragrafo": 6832,
+          "ato": "CV ICMS 89/10",
+          "texto_data_limite": "31/12/26",
+          "data_limite": "2026-12-31",
+          "situacao": "PRAZO_EXPRESSO",
+          "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7P1"
+        }
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "ORIGEM_PRODUCAO_INDUSTRIALIZACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação."
+      ]
+    },
+    {
+      "id": "OP_164",
+      "indice_origem": 164,
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoLXIII",
+      "artigo": 7,
+      "inciso": "LXIII",
+      "caput_literal": "LXIII - a operação de comercialização do sanduíche BIG MAC realizada pelo estabelecimento integrante da Rede McDonald”s (lojas próprias e franqueadas) que participar do evento McDia Feliz, a ser realizado em um dia a cada ano, observado o seguinte (Convênio ICMS 106/10, cláusulas primeira e segunda):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7LXIII",
+      "indice_paragrafo_caput": 3503,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": "2026-12-31",
+      "evidencia_prazo_quadro_central": {
+        "ato": "Decreto nº 10.896/2026, art.1º, quadro do §1º do art.7º do AnexoIX",
+        "texto_data_limite": "31/12/26",
+        "data_limite": "2026-12-31",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_10896.htm",
+        "vigencia_inicio_prorrogacao": "2026-05-01",
+        "celula_consolidada_para_auditoria": {
+          "indice_paragrafo": 6873,
+          "ato": "CV ICMS 106/10",
+          "texto_data_limite": "31/12/26",
+          "data_limite": "2026-12-31",
+          "situacao": "PRAZO_EXPRESSO",
+          "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7P1"
+        }
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "DOACAO",
+        "DESTINATARIO_FINALIDADE"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Doador/donatário, gratuidade, destinação final e documentos de entrega/recebimento.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Doador/donatário, gratuidade, destinação final e documentos de entrega/recebimento.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado."
+      ]
+    },
+    {
+      "id": "OP_165",
+      "indice_origem": 165,
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoLXVIII",
+      "artigo": 7,
+      "inciso": "LXVIII",
+      "caput_literal": "LXVIII - mediante despacho individual concedido pelo Secretário da Economia, a operação de importação do exterior, inclusive em doação, dos bens a seguir relacionados, sem similar produzido no País, ou mesmo com similar para a entrada decorrente de doação, quando destinados a atividade de ensino, pesquisa ou prestação de serviço médico-hospitalar, adquiridos por pessoa natural ou jurídica (Convênio ICMS 19/19):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7LXVIII",
+      "indice_paragrafo_caput": 3553,
+      "estado_temporal": "HISTORICO_PRAZO_EXAURIDO",
+      "vigencia_fim_explicita_no_bloco": "2019-12-31",
+      "evidencia_prazo_quadro_central": {
+        "indice_paragrafo": 6902,
+        "ato": "CV ICMS 19/19",
+        "texto_data_limite": "31/12/19",
+        "data_limite": "2019-12-31",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7P1"
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "IMPORTACAO",
+        "DOACAO",
+        "ORIGEM_PRODUCAO_INDUSTRIALIZACAO",
+        "DESTINATARIO_FINALIDADE",
+        "LISTA_ESPECIFICACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Importação direta/indireta, importador e documentos aduaneiros, tratamentoII/IPI e eventual ausência de similar.",
+        "Doador/donatário, gratuidade, destinação final e documentos de entrega/recebimento.",
+        "Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Importação direta/indireta, importador e documentos aduaneiros, tratamentoII/IPI e eventual ausência de similar.",
+        "Qual a evidência de: Doador/donatário, gratuidade, destinação final e documentos de entrega/recebimento.",
+        "Qual a evidência de: Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Qual a evidência de: Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma."
+      ]
+    },
+    {
+      "id": "OP_166",
+      "indice_origem": 166,
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoLXIX",
+      "artigo": 7,
+      "inciso": "LXIX",
+      "caput_literal": "LXIX - as operações internas destinadas à Associação para Cuidado de Câncer em Goiás - ACCEG ou ao Hospital de Câncer de Inhumas, inscrito sob o CNPJ nº 20.827.343/0002-12, com as mercadorias relacionadas nas tabelas A, B, C e D do Apêndice XLVI deste anexo e com as máquinas, os aparelhos e os equipamentos necessários à operação e ao funcionamento das atividades do referido hospital, relacionados nas tabelas E e F também do Apêndice XLVI deste anexo, ficando mantido o crédito, e observado o seguinte (Convênio ICMS 124/19):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7LXIX",
+      "indice_paragrafo_caput": 3561,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": "2026-12-31",
+      "evidencia_prazo_quadro_central": {
+        "ato": "Decreto nº 10.896/2026, art.1º, quadro do §1º do art.7º do AnexoIX",
+        "texto_data_limite": "31/12/26",
+        "data_limite": "2026-12-31",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_10896.htm",
+        "vigencia_inicio_prorrogacao": "2026-05-01",
+        "celula_consolidada_para_auditoria": {
+          "indice_paragrafo": 6921,
+          "ato": "CV ICMS 124/19",
+          "texto_data_limite": "31/12/26",
+          "data_limite": "2026-12-31",
+          "situacao": "PRAZO_EXPRESSO",
+          "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7P1"
+        }
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "IMPORTACAO",
+        "ORIGEM_PRODUCAO_INDUSTRIALIZACAO",
+        "DESTINATARIO_FINALIDADE",
+        "LISTA_ESPECIFICACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Importação direta/indireta, importador e documentos aduaneiros, tratamentoII/IPI e eventual ausência de similar.",
+        "Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Importação direta/indireta, importador e documentos aduaneiros, tratamentoII/IPI e eventual ausência de similar.",
+        "Qual a evidência de: Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Qual a evidência de: Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma."
+      ]
+    },
+    {
+      "id": "OP_167",
+      "indice_origem": 167,
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoLXX",
+      "artigo": 7,
+      "inciso": "LXX",
+      "caput_literal": "LXX - relativamente ao diferencial de alíquotas, a aquisição interestadual de reboque e de semirreboque, classificados na posição 8716 da NCM e destinados a empresa prestadora de serviços de transporte rodoviário de cargas (Lei nº 16.271/2008, art. 3º, e Convênio ICMS 19/2019).",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7LXX",
+      "indice_paragrafo_caput": 3567,
+      "estado_temporal": "HISTORICO_PRAZO_EXAURIDO",
+      "vigencia_fim_explicita_no_bloco": "2019-12-31",
+      "evidencia_prazo_quadro_central": {
+        "indice_paragrafo": 6925,
+        "ato": "Lei nº 16.271/2008 e CV ICMS 19/2019",
+        "texto_data_limite": "31/12/2019",
+        "data_limite": "2019-12-31",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7P1"
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "DIFAL",
+        "DESTINATARIO_FINALIDADE"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Se o imposto examinado é o DIFAL, identificar responsável, ativo/uso e não confundir com ICMS próprio da saída.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Se o imposto examinado é o DIFAL, identificar responsável, ativo/uso e não confundir com ICMS próprio da saída.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado."
+      ]
+    },
+    {
+      "id": "OP_168",
+      "indice_origem": 168,
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoLXXI",
+      "artigo": 7,
+      "inciso": "LXXI",
+      "caput_literal": "LXXI - a parcela do consumo de energia elétrica inferior ou igual a 220 (duzentos e vinte) kWh/mês de consumidores enquadrados na \"subclasse Residencial de Baixa Renda\", considerando a parcela da subvenção da tarifa de energia elétrica estabelecida pelas Leis nº 10.604, de 17 de dezembro de 2002, e nº 12.212, de 20 de janeiro de 2010, no respectivo fornecimento de energia, de acordo com a redação da Medida Provisória nº 950, de 8 de abril de 2020, e as condições fixadas nas Resoluções da Agência Nacional de Energia Elétrica - ANEEL, em especial a Resolução nº 414, de 9 de setembro de 2010 (Convênio ICMS 42/20).",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7LXXI",
+      "indice_paragrafo_caput": 3570,
+      "estado_temporal": "HISTORICO_PRAZO_EXAURIDO",
+      "vigencia_fim_explicita_no_bloco": "2020-06-30",
+      "evidencia_prazo_quadro_central": {
+        "indice_paragrafo": 6929,
+        "ato": "CV ICMS 42/20",
+        "texto_data_limite": "30/06/2020",
+        "data_limite": "2020-06-30",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7P1"
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "COMUNICACAO_ENERGIA",
+        "DESTINATARIO_FINALIDADE"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Consumo/medição, usuário ou tomador, modalidade do serviço/fornecimento e eventuais limites.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Consumo/medição, usuário ou tomador, modalidade do serviço/fornecimento e eventuais limites.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado."
+      ]
+    },
+    {
+      "id": "OP_169",
+      "indice_origem": 169,
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoLXXII",
+      "artigo": 7,
+      "inciso": "LXXII",
+      "caput_literal": "LXXII - as operações de doações das mercadorias constantes do Apêndice XLVII deste Anexo realizadas por pessoa jurídica, contribuinte ou não do ICMS quando destinadas ao Tribunal Superior Eleitoral - TSE e demais órgãos integrantes da Justiça Eleitoral para a realização das eleições municipais de 2020, com a manutenção de crédito, observado o seguinte:",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7LXXII",
+      "indice_paragrafo_caput": 3573,
+      "estado_temporal": "HISTORICO_PRAZO_EXAURIDO",
+      "vigencia_fim_explicita_no_bloco": "2020-11-29",
+      "evidencia_prazo_quadro_central": {
+        "indice_paragrafo": 6933,
+        "ato": "CV ICMS 81/20",
+        "texto_data_limite": "29/11/2020",
+        "data_limite": "2020-11-29",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7P1"
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "DIFAL",
+        "SERVICO_TRANSPORTE",
+        "DOACAO",
+        "ORIGEM_PRODUCAO_INDUSTRIALIZACAO",
+        "DESTINATARIO_FINALIDADE",
+        "LISTA_ESPECIFICACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Se o imposto examinado é o DIFAL, identificar responsável, ativo/uso e não confundir com ICMS próprio da saída.",
+        "Serviço, modal, local de início/fim, tomador, documento e vínculo da prestação com a operação.",
+        "Doador/donatário, gratuidade, destinação final e documentos de entrega/recebimento.",
+        "Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Se o imposto examinado é o DIFAL, identificar responsável, ativo/uso e não confundir com ICMS próprio da saída.",
+        "Qual a evidência de: Serviço, modal, local de início/fim, tomador, documento e vínculo da prestação com a operação.",
+        "Qual a evidência de: Doador/donatário, gratuidade, destinação final e documentos de entrega/recebimento.",
+        "Qual a evidência de: Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Qual a evidência de: Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma."
+      ]
+    },
+    {
+      "id": "OP_170",
+      "indice_origem": 170,
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoLXXIII",
+      "artigo": 7,
+      "inciso": "LXXIII",
+      "caput_literal": "LXXIII - as operações com o equipamento respiratório Elmo, suas partes e peças, utilizado no âmbito das medidas de enfrentamento à pandemia causada pelo novo agente do Coronavírus - SARS-CoV-2, observado o seguinte (Convênio ICMS 13/21):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7LXXIII",
+      "indice_paragrafo_caput": 3581,
+      "estado_temporal": "HISTORICO_PRAZO_EXAURIDO",
+      "vigencia_fim_explicita_no_bloco": "2024-04-30",
+      "evidencia_prazo_quadro_central": {
+        "indice_paragrafo": 6942,
+        "ato": "CV ICMS 13/21",
+        "texto_data_limite": "30/04/24",
+        "data_limite": "2024-04-30",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7P1"
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "SERVICO_TRANSPORTE",
+        "DOACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Serviço, modal, local de início/fim, tomador, documento e vínculo da prestação com a operação.",
+        "Doador/donatário, gratuidade, destinação final e documentos de entrega/recebimento."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Serviço, modal, local de início/fim, tomador, documento e vínculo da prestação com a operação.",
+        "Qual a evidência de: Doador/donatário, gratuidade, destinação final e documentos de entrega/recebimento."
+      ]
+    },
+    {
+      "id": "OP_171",
+      "indice_origem": 171,
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoLXXV",
+      "artigo": 7,
+      "inciso": "LXXV",
+      "caput_literal": "LXXV - as operações internas com medicamentos que possuem farmacêuticos ativos relacionados no Apêndice XLVIII com destino à pessoa jurídica prestadora de serviço de saúde para o Sistema Único de Saúde - SUS para uso no enfrentamento da emergência decorrente da pandemia do novo Coronavírus - SARS-CoV-2, observado o seguinte (Convênio ICMS 90/21):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7LXXV",
+      "indice_paragrafo_caput": 3595,
+      "estado_temporal": "HISTORICO_PRAZO_EXAURIDO",
+      "vigencia_fim_explicita_no_bloco": "2024-04-30",
+      "evidencia_prazo_quadro_central": {
+        "indice_paragrafo": 6960,
+        "ato": "CV ICMS 90/21",
+        "texto_data_limite": "30/04/24",
+        "data_limite": "2024-04-30",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7P1"
+      },
+      "divergencia_nota_lateral_quadro_central": true,
+      "categorias": [
+        "IMPORTACAO",
+        "DIFAL",
+        "SERVICO_TRANSPORTE",
+        "DESTINATARIO_FINALIDADE",
+        "LISTA_ESPECIFICACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Importação direta/indireta, importador e documentos aduaneiros, tratamentoII/IPI e eventual ausência de similar.",
+        "Se o imposto examinado é o DIFAL, identificar responsável, ativo/uso e não confundir com ICMS próprio da saída.",
+        "Serviço, modal, local de início/fim, tomador, documento e vínculo da prestação com a operação.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Importação direta/indireta, importador e documentos aduaneiros, tratamentoII/IPI e eventual ausência de similar.",
+        "Qual a evidência de: Se o imposto examinado é o DIFAL, identificar responsável, ativo/uso e não confundir com ICMS próprio da saída.",
+        "Qual a evidência de: Serviço, modal, local de início/fim, tomador, documento e vínculo da prestação com a operação.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Qual a evidência de: Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma."
+      ]
+    },
+    {
+      "id": "OP_172",
+      "indice_origem": 172,
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoLXXVI",
+      "artigo": 7,
+      "inciso": "LXXVI",
+      "caput_literal": "LXXVI - as operações internas e interestaduais que destinem bens e mercadorias às concessionárias e às autorizatárias de transporte ferroviário de cargas e passageiros, mantido o crédito e observado o seguinte (Convênio ICMS 120/23):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7LXXVI",
+      "indice_paragrafo_caput": 3603,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": "2032-12-31",
+      "evidencia_prazo_quadro_central": {
+        "indice_paragrafo": 6964,
+        "ato": "CV ICMS 120/23",
+        "texto_data_limite": "31/12/32",
+        "data_limite": "2032-12-31",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7P1"
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "IMPORTACAO",
+        "REGIME_TARE_PROGRAMA",
+        "ORIGEM_PRODUCAO_INDUSTRIALIZACAO",
+        "DESTINATARIO_FINALIDADE"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Importação direta/indireta, importador e documentos aduaneiros, tratamentoII/IPI e eventual ausência de similar.",
+        "Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Importação direta/indireta, importador e documentos aduaneiros, tratamentoII/IPI e eventual ausência de similar.",
+        "Qual a evidência de: Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Qual a evidência de: Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado."
+      ]
+    },
+    {
+      "id": "OP_173",
+      "indice_origem": 173,
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoLXXVIII",
+      "artigo": 7,
+      "inciso": "LXXVIII",
+      "caput_literal": "LXXVIII - a operação com o medicamento Elevidys (delandistrogene moxeparvovec) destinado ao tratamento da distrofia muscular de Duchenne -DMD (Convênio ICMS nº 56/24, cláusula primeira)",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7LXXVIII",
+      "indice_paragrafo_caput": 3619,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": "2026-12-31",
+      "evidencia_prazo_quadro_central": {
+        "ato": "Decreto nº 10.896/2026, art.1º, quadro do §1º do art.7º do AnexoIX",
+        "texto_data_limite": "31/12/26",
+        "data_limite": "2026-12-31",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_10896.htm",
+        "vigencia_inicio_prorrogacao": "2026-05-01",
+        "celula_consolidada_para_auditoria": {
+          "indice_paragrafo": 6982,
+          "ato": "CV ICMS 56/24",
+          "texto_data_limite": "31/12/26",
+          "data_limite": "2026-12-31",
+          "situacao": "PRAZO_EXPRESSO",
+          "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7P1"
+        }
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "DESTINATARIO_FINALIDADE"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado."
+      ]
+    },
+    {
+      "id": "OP_174",
+      "indice_origem": 174,
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoLXXIX",
+      "artigo": 7,
+      "inciso": "LXXIX",
+      "caput_literal": "LXXIX - as operações e as prestações internas e interestaduais, exceto importações, com garrafas de vidro usadas, já utilizadas como vasilhame para bebidas alcoólicas, quando forem destinadas a estabelecimento industrial que tenha como objetivo a sua reutilização, dispensada a emissão de documento fiscal para o acobertamento das operações e das prestações internas com as referidas garrafas, desde que o estabelecimento industrial destinatário emita Nota Fiscal Eletrônica - NF-e, modelo 55, quando da entrada em seu estabelecimento, sem destaque do imposto (Convênio ICMS nº 41/22);",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7LXXIX",
+      "indice_paragrafo_caput": 3622,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": "2026-12-31",
+      "evidencia_prazo_quadro_central": {
+        "ato": "Decreto nº 10.896/2026, art.1º, quadro do §1º do art.7º do AnexoIX",
+        "texto_data_limite": "31/12/26",
+        "data_limite": "2026-12-31",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_10896.htm",
+        "vigencia_inicio_prorrogacao": "2026-05-01",
+        "celula_consolidada_para_auditoria": {
+          "indice_paragrafo": 6991,
+          "ato": "CV ICMS 41/22",
+          "texto_data_limite": "31/12/26",
+          "data_limite": "2026-12-31",
+          "situacao": "PRAZO_EXPRESSO",
+          "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7P1"
+        }
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "IMPORTACAO",
+        "DESTINATARIO_FINALIDADE"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Importação direta/indireta, importador e documentos aduaneiros, tratamentoII/IPI e eventual ausência de similar.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Importação direta/indireta, importador e documentos aduaneiros, tratamentoII/IPI e eventual ausência de similar.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado."
+      ]
+    },
+    {
+      "id": "OP_175",
+      "indice_origem": 175,
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoLXXXI",
+      "artigo": 7,
+      "inciso": "LXXXI",
+      "caput_literal": "LXXXI - as saídas internas decorrentes de doação de bens, veículos, motores, agregados, máquinas e equipamentos destinados ao Serviço Nacional de Aprendizagem Industrial - SENAI (Convênio ICMS nº 26/24); e",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7LXXXI",
+      "indice_paragrafo_caput": 3651,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": "2026-12-31",
+      "evidencia_prazo_quadro_central": {
+        "ato": "Decreto nº 10.896/2026, art.1º, quadro do §1º do art.7º do AnexoIX",
+        "texto_data_limite": "31/12/26",
+        "data_limite": "2026-12-31",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_10896.htm",
+        "vigencia_inicio_prorrogacao": "2026-05-01",
+        "celula_consolidada_para_auditoria": {
+          "indice_paragrafo": 7009,
+          "ato": "CV ICMS 26/24",
+          "texto_data_limite": "31/12/26",
+          "data_limite": "2026-12-31",
+          "situacao": "PRAZO_EXPRESSO",
+          "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7P1"
+        }
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "DOACAO",
+        "DESTINATARIO_FINALIDADE"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Doador/donatário, gratuidade, destinação final e documentos de entrega/recebimento.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Doador/donatário, gratuidade, destinação final e documentos de entrega/recebimento.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado."
+      ]
+    },
+    {
+      "id": "OP_176",
+      "indice_origem": 176,
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoLXXXII",
+      "artigo": 7,
+      "inciso": "LXXXII",
+      "caput_literal": "LXXXII - as aquisições internas e as aquisições interestaduais, em relação ao ICMS devido em razão da diferença entre as alíquotas internas e interestaduais, de bens destinados ao ativo imobilizado de biorrefinaria fabricante de combustível sustentável de aviação - SAF, biometano, biogás, metanol e CO2 (Convênio ICMS nº 86/24).",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7LXXXII",
+      "indice_paragrafo_caput": 3654,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": "2026-12-31",
+      "evidencia_prazo_quadro_central": {
+        "ato": "Decreto nº 10.896/2026, art.1º, quadro do §1º do art.7º do AnexoIX",
+        "texto_data_limite": "31/12/26",
+        "data_limite": "2026-12-31",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_10896.htm",
+        "vigencia_inicio_prorrogacao": "2026-05-01",
+        "celula_consolidada_para_auditoria": {
+          "indice_paragrafo": 7018,
+          "ato": "CV ICMS 86/24",
+          "texto_data_limite": "31/12/26",
+          "data_limite": "2026-12-31",
+          "situacao": "PRAZO_EXPRESSO",
+          "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7P1"
+        }
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "DESTINATARIO_FINALIDADE"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado."
+      ]
+    },
+    {
+      "id": "OP_177",
+      "indice_origem": 177,
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoLXXXIII",
+      "artigo": 7,
+      "inciso": "LXXXIII",
+      "caput_literal": "LXXXIII - a operação interna com biometano destinado a empresa de transporte coletivo que execute serviços da RMTC e possua contrato de concessão com a CMTC, celebrado nos termos da Lei Complementar nº 27, de 30 de dezembro de 1999, inclusive as que forem concessionárias do serviço de transporte coletivo no Município de Anápolis/GO, mantido o crédito e observado o seguinte (Convênio ICMS nº 24/25, cláusula primeira):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7LXXXIII",
+      "indice_paragrafo_caput": 3657,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": "2026-12-31",
+      "evidencia_prazo_quadro_central": {
+        "ato": "Decreto nº 10.896/2026, art.1º, quadro do §1º do art.7º do AnexoIX",
+        "texto_data_limite": "31/12/26",
+        "data_limite": "2026-12-31",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_10896.htm",
+        "vigencia_inicio_prorrogacao": "2026-05-01",
+        "celula_consolidada_para_auditoria": {
+          "indice_paragrafo": 7027,
+          "ato": "CV ICMS 24/25",
+          "texto_data_limite": "31/12/26",
+          "data_limite": "2026-12-31",
+          "situacao": "PRAZO_EXPRESSO",
+          "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7P1"
+        }
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "SERVICO_TRANSPORTE",
+        "REGIME_TARE_PROGRAMA",
+        "DESTINATARIO_FINALIDADE"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "REFERENCIA_EXPRESSA_CONFERIR_INSTRUMENTO_E_FUNCAO",
+        "evidencias": [
+          {
+            "indice_paragrafo": 3662,
+            "texto": "d) a utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial com a Secretaria de Estado da Economia, no qual serão estabelecidas as regras de utilização do benefício;"
+          }
+        ]
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Serviço, modal, local de início/fim, tomador, documento e vínculo da prestação com a operação.",
+        "Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Serviço, modal, local de início/fim, tomador, documento e vínculo da prestação com a operação.",
+        "Qual a evidência de: Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Qual a evidência de: Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ]
+    },
+    {
+      "id": "OP_178",
+      "indice_origem": 178,
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoLXXXIV",
+      "artigo": 7,
+      "inciso": "LXXXIV",
+      "caput_literal": "LXXXIV - as operações internas com escória de refino mineral (Convênio ICMS nº 91/25).",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7LXXXIV",
+      "indice_paragrafo_caput": 3667,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": "2026-12-31",
+      "evidencia_prazo_quadro_central": {
+        "ato": "Decreto nº 10.896/2026, art.1º, quadro do §1º do art.7º do AnexoIX",
+        "texto_data_limite": "31/12/26",
+        "data_limite": "2026-12-31",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_10896.htm",
+        "vigencia_inicio_prorrogacao": "2026-05-01",
+        "celula_consolidada_para_auditoria": {
+          "indice_paragrafo": 7036,
+          "ato": "CV ICMS 91/25",
+          "texto_data_limite": "31/12/26",
+          "data_limite": "2026-12-31",
+          "situacao": "PRAZO_EXPRESSO",
+          "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7P1"
+        }
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "IDENTIDADE_OPERACAO_E_CONDICOES_LEGAIS"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide."
+      ]
+    },
+    {
+      "id": "OP_179",
+      "indice_origem": 179,
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoLXXXV",
+      "artigo": 7,
+      "inciso": "LXXXV",
+      "caput_literal": "LXXXV - as operações com materiais de construção e equipamentos destinados às obras de edificação de templos de qualquer culto religioso, observado o seguinte (Convênio ICMS nº 116/25):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7LXXXV",
+      "indice_paragrafo_caput": 3670,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": "2026-12-31",
+      "evidencia_prazo_quadro_central": {
+        "indice_paragrafo": 7040,
+        "ato": "CV ICMS 116/25",
+        "texto_data_limite": "31/12/2026",
+        "data_limite": "2026-12-31",
+        "situacao": "PRAZO_EXPRESSO",
+        "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7P1"
+      },
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "REGIME_TARE_PROGRAMA",
+        "DESTINATARIO_FINALIDADE"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "REFERENCIA_EXPRESSA_CONFERIR_INSTRUMENTO_E_FUNCAO",
+        "evidencias": [
+          {
+            "indice_paragrafo": 3675,
+            "texto": "b) o templo beneficiário deve celebrar Termo de Acordo de Regime Especial com a Secretaria de Estado da Economia, no qual serão estabelecidas as regras para a utilização do benefício; e"
+          }
+        ]
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Qual a evidência de: Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ]
+    },
+    {
+      "id": "OP_180",
+      "indice_origem": 180,
+      "dispositivo": "RCTE/GO, AnexoIX, art.8, incisoI",
+      "artigo": 8,
+      "inciso": "I",
+      "caput_literal": "I - para os seguintes percentuais, relativamente às mercadorias adiante enumeradas, aplicando-se o benefício apenas em relação à mercadoria adquirida na condição de usada e quando a operação de que decorra a sua entrada no estabelecimento não tenha sido onerada pelo ICMS ou quando, sobre a referida operação, o ICMS tenha sido calculado também sobre base de cálculo reduzida sob o mesmo fundamento, observado o disposto no parágrafo único deste artigo (Convênio ICM 15/81):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A8I",
+      "indice_paragrafo_caput": 7173,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "DESTINATARIO_FINALIDADE",
+        "LISTA_ESPECIFICACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado.",
+        "Qual a evidência de: Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma."
+      ]
+    },
+    {
+      "id": "OP_181",
+      "indice_origem": 181,
+      "dispositivo": "RCTE/GO, AnexoIX, art.8, incisoII",
+      "artigo": 8,
+      "inciso": "II",
+      "caput_literal": "II - para 50% (cinqüenta por cento), na saída interna de leite pasteurizado tipo especial, com 3,2% (três inteiros e dois décimos por cento) de gordura e de leite pasteurizado magro, reconstituído ou não, com até 2% (dois por cento) de gordura, com destino a estabelecimento varejista ou a consumidor final, excetuada à saída de leite pasteurizado tipos B e LONGA VIDA, ficando mantido o crédito (Convênio ICM 25/83, cláusulas primeira e terceira);",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A8II",
+      "indice_paragrafo_caput": 7176,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "DESTINATARIO_FINALIDADE"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado."
+      ]
+    },
+    {
+      "id": "OP_182",
+      "indice_origem": 182,
+      "dispositivo": "RCTE/GO, AnexoIX, art.8, incisoIII",
+      "artigo": 8,
+      "inciso": "III",
+      "caput_literal": "III - de tal forma que resulte a aplicação sobre o valor da operação do equivalente ao percentual de 12% (doze por cento), na saída tributada interna de gás liqüefeito de petróleo (Convênio ICMS 112/89);",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A8III",
+      "indice_paragrafo_caput": 7177,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "IDENTIDADE_OPERACAO_E_CONDICOES_LEGAIS"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide."
+      ]
+    },
+    {
+      "id": "OP_183",
+      "indice_origem": 183,
+      "dispositivo": "RCTE/GO, AnexoIX, art.8, incisoVI",
+      "artigo": 8,
+      "inciso": "VI",
+      "caput_literal": "VI - de tal forma que seja proporcional à redução da base de cálculo do Imposto de Importação, na entrada de máquina, equipamento, aparelho, instrumento e material, ou seu respectivo acessório, sobressalente e ferramenta, importados do exterior e destinados a integrar o ativo imobilizado de empresa industrial, quando a operação for amparada por programa especial de exportação (Programa BEFIEX), aprovado até 31 de dezembro de 1989 (Convênio ICMS 130/94, cláusula primeira, III e § 1º);",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A8VI",
+      "indice_paragrafo_caput": 7187,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "IMPORTACAO",
+        "DESTINATARIO_FINALIDADE"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Importação direta/indireta, importador e documentos aduaneiros, tratamentoII/IPI e eventual ausência de similar.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Importação direta/indireta, importador e documentos aduaneiros, tratamentoII/IPI e eventual ausência de similar.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado."
+      ]
+    },
+    {
+      "id": "OP_184",
+      "indice_origem": 184,
+      "dispositivo": "RCTE/GO, AnexoIX, art.8, incisoVIII",
+      "artigo": 8,
+      "inciso": "VIII",
+      "caput_literal": "VIII - de tal forma que resulte aplicação sobre o valor da operação do equivalente ao percentual de 10% (dez por cento) para o contribuinte industrial ou de 11% (onze por cento) para o comerciante atacadista, na saída interna que destine mercadoria para comercialização, produção ou industrialização, ficando mantido o crédito, observado o disposto no § 2º e, ainda, o seguinte (Lei nº 12.462/94, art. 1º): (Redação conferida pelo Decreto nº 9.103 - vigência: 01.12.17)",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A8VIII",
+      "indice_paragrafo_caput": 7198,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "ORIGEM_PRODUCAO_INDUSTRIALIZACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação."
+      ]
+    },
+    {
+      "id": "OP_185",
+      "indice_origem": 185,
+      "dispositivo": "RCTE/GO, AnexoIX, art.8, incisoX",
+      "artigo": 8,
+      "inciso": "X",
+      "caput_literal": "X - de tal forma que resulte aplicação sobre o valor da prestação do equivalente ao percentual de 15% (quinze por cento) sobre o valor da prestação de serviço de televisão por assinatura, observando o seguinte (Convênio ICMS 57/99): (Redação conferida pelo Decreto nº 8.486 - vigência: 01.01.16)",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A8X",
+      "indice_paragrafo_caput": 7303,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "COMUNICACAO_ENERGIA",
+        "PRAZO_RETORNO_REMESSA"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Consumo/medição, usuário ou tomador, modalidade do serviço/fornecimento e eventuais limites.",
+        "Remessa e retorno vinculados, datas, motivo, titularidade e cumprimento do prazo legal."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Consumo/medição, usuário ou tomador, modalidade do serviço/fornecimento e eventuais limites.",
+        "Qual a evidência de: Remessa e retorno vinculados, datas, motivo, titularidade e cumprimento do prazo legal."
+      ]
+    },
+    {
+      "id": "OP_186",
+      "indice_origem": 186,
+      "dispositivo": "RCTE/GO, AnexoIX, art.8, incisoXVI",
+      "artigo": 8,
+      "inciso": "XVI",
+      "caput_literal": "XVI - de tal forma que resulte aplicação dos seguintes percentuais sobre o valor da prestação de serviço de radiochamada, quando o contribuinte optar pela aplicação da redução da base de cálculo em substituição ao sistema normal de tributação do ICMS e não apropriar qualquer crédito do imposto (Convênio ICMS 86/99):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A8XVI",
+      "indice_paragrafo_caput": 7490,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "IDENTIDADE_OPERACAO_E_CONDICOES_LEGAIS"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide."
+      ]
+    },
+    {
+      "id": "OP_187",
+      "indice_origem": 187,
+      "dispositivo": "RCTE/GO, AnexoIX, art.8, incisoXIX",
+      "artigo": 8,
+      "inciso": "XIX",
+      "caput_literal": "XIX - na saída interna de arroz e feijão industrializados no Estado de Goiás, de tal forma que resulte a aplicação sobre o valor da operação do equivalente ao percentual de 7% (sete por cento), em substituição a quaisquer créditos, exceto o correspondente à aquisição do arroz e do feijão, o qual fica limitado à 7% (sete por cento), devendo ser observado o seguinte (Lei nº 13.453/99, art. 1º, II, “b”): (Redação conferida pelo Decreto nº 9.116 - vigência: 01.12.17)",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A8XIX",
+      "indice_paragrafo_caput": 7545,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "SERVICO_TRANSPORTE",
+        "ORIGEM_PRODUCAO_INDUSTRIALIZACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Serviço, modal, local de início/fim, tomador, documento e vínculo da prestação com a operação.",
+        "Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Serviço, modal, local de início/fim, tomador, documento e vínculo da prestação com a operação.",
+        "Qual a evidência de: Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação."
+      ]
+    },
+    {
+      "id": "OP_188",
+      "indice_origem": 188,
+      "dispositivo": "RCTE/GO, AnexoIX, art.8, incisoXXI",
+      "artigo": 8,
+      "inciso": "XXI",
+      "caput_literal": "XXI - na operação interna com areia natural e artificial, saibro, material britado, dentre este a brita, o pedrisco com pó, o rachão britado e a pedra marroada, de tal forma que resulte a aplicação sobre o valor da operação do equivalente ao percentual de 3% (três por cento), devendo ser observado o seguinte (Lei nº 13.194/97, art. 2º, I, “f”, 1):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A8XXI",
+      "indice_paragrafo_caput": 7578,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "REGIME_TARE_PROGRAMA",
+        "DESTINATARIO_FINALIDADE"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [
+        {
+          "indice_paragrafo": 7589,
+          "texto": "d) na hipótese de saída de material britado, dentre este a brita, o pedrisco com pó, o rachão britado e a pedra marroada, promovida por contribuinte beneficiário dos Programas FOMENTAR ou PRODUZIR, a redução da base de cálculo fica limitada ao valor equivalente ao percentual de 7% (sete por cento);"
+        }
+      ],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado."
+      ]
+    },
+    {
+      "id": "OP_189",
+      "indice_origem": 189,
+      "dispositivo": "RCTE/GO, AnexoIX, art.8, incisoXXIII",
+      "artigo": 8,
+      "inciso": "XXIII",
+      "caput_literal": "XXIII - na operação interna com os produtos a seguir especificados, de tal forma que resulte a aplicação do percentual equivalente a 17% (dezessete por cento) sobre o valor da operação (Lei nº 13.194/97, art. 2º, I, \"d\"):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A8XXIII",
+      "indice_paragrafo_caput": 7601,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "REGIME_TARE_PROGRAMA",
+        "PRAZO_RETORNO_REMESSA",
+        "LISTA_ESPECIFICACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "REFERENCIA_EXPRESSA_CONFERIR_INSTRUMENTO_E_FUNCAO",
+        "evidencias": [
+          {
+            "indice_paragrafo": 7609,
+            "texto": "b) demais produtos constantes do Anexo I do RCTE, exceto armas e munições, para o contribuinte que aderir ao Programa Estadual de Combate à Comercialização Ilegal de Mercadorias, mediante celebração de termo de acordo de regime especial com a Secretaria da Fazenda, ficando mantido o crédito, e devendo ser observado o seguinte:"
+          },
+          {
+            "indice_paragrafo": 7611,
+            "texto": "1. ao final dos 12 (doze) meses de utilização do benefício a média dos respectivos débitos de ICMS deve ser maior ou igual à média dos débitos de ICMS apurados nos últimos 12 (doze) meses anteriores à celebração ou prorrogação, conforme o caso, do termo de acordo de regime especial;"
+          },
+          {
+            "indice_paragrafo": 7623,
+            "texto": "4. o benefício restringe-se a apenas 2 (duas) marcas de produto comercializadas pelo contribuinte as quais devem ser indicadas no termo de acordo de regime especial;"
+          },
+          {
+            "indice_paragrafo": 7632,
+            "texto": "7. o regime especial terá prazo de 12 (doze) meses, podendo ser prorrogado, após análise do comportamento tributário do contribuinte no período e verificação do cumprimento das metas estabelecidas;"
+          }
+        ]
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Remessa e retorno vinculados, datas, motivo, titularidade e cumprimento do prazo legal.",
+        "Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Regime efetivo do estabelecimento, TARE/credenciamento/enquadramento vigente e condições individuais.",
+        "Qual a evidência de: Remessa e retorno vinculados, datas, motivo, titularidade e cumprimento do prazo legal.",
+        "Qual a evidência de: Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma.",
+        "Qual a evidência de: Apresentar instrumento individual do regime/TARE e verificar objeto, beneficiário, estabelecimentos, prazo e adimplemento; menção textual não comprova autorização deste usuário."
+      ]
+    },
+    {
+      "id": "OP_190",
+      "indice_origem": 190,
+      "dispositivo": "RCTE/GO, AnexoIX, art.8, incisoXXVII",
+      "artigo": 8,
+      "inciso": "XXVII",
+      "caput_literal": "XXVII - de tal forma que resulte aplicação sobre o valor da operação do percentual equivalente a 7% (sete por cento), na saída interna de máquinas e equipamentos rodoviários, relacionados no Apêndice XII, ficando mantido o crédito (Lei nº 13.453/99, art. 1º, II, “e”); (Redação conferida pelo Decreto nº 8.042 - vigência: 18.12.13)",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A8XXVII",
+      "indice_paragrafo_caput": 7716,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "LISTA_ESPECIFICACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma."
+      ]
+    },
+    {
+      "id": "OP_191",
+      "indice_origem": 191,
+      "dispositivo": "RCTE/GO, AnexoIX, art.8, incisoXXVIII",
+      "artigo": 8,
+      "inciso": "XXVIII",
+      "caput_literal": "XXVIII - de tal forma que resulte aplicação sobre o valor da operação do percentual equivalente a 7% (sete por cento), na saída interna de telha, tijolo, tijoleira e tapa-viga cerâmicos, não esmaltados nem vitrificados (Lei nº 13.194/97, art. 2º, I, \"a\", 6);",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A8XXVIII",
+      "indice_paragrafo_caput": 7722,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "IDENTIDADE_OPERACAO_E_CONDICOES_LEGAIS"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide."
+      ]
+    },
+    {
+      "id": "OP_192",
+      "indice_origem": 192,
+      "dispositivo": "RCTE/GO, AnexoIX, art.8, incisoXXIX",
+      "artigo": 8,
+      "inciso": "XXIX",
+      "caput_literal": "XXIX - de tal forma que resulte aplicação sobre o valor da operação do percentual equivalente a 15% (quinze por cento), na saída interna de gasolina de aviação, ficando mantido o crédito (Lei nº 13.194/97, art. 2º, II, “f”);",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A8XXIX",
+      "indice_paragrafo_caput": 7724,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "IDENTIDADE_OPERACAO_E_CONDICOES_LEGAIS"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide."
+      ]
+    },
+    {
+      "id": "OP_193",
+      "indice_origem": 193,
+      "dispositivo": "RCTE/GO, AnexoIX, art.8, incisoXXX",
+      "artigo": 8,
+      "inciso": "XXX",
+      "caput_literal": "XXX - de tal forma que resulte a aplicação sobre o valor da operação do percentual de 7% (sete por cento), na saída interna de bem, exceto veículo automotor de transporte de passageiro ou de carga e de passeio, inclusive motocicleta, destinados ao ativo imobilizado de estabelecimento industrial ou agropecuário, ficando mantido o crédito (Lei nº 13.453/99, art. 2º, III, “c”);",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A8XXX",
+      "indice_paragrafo_caput": 7727,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "DESTINATARIO_FINALIDADE"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Identidade/atividade do adquirente e prova da finalidade ou programa enumerado."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Identidade/atividade do adquirente e prova da finalidade ou programa enumerado."
+      ]
+    },
+    {
+      "id": "OP_194",
+      "indice_origem": 194,
+      "dispositivo": "RCTE/GO, AnexoIX, art.8, incisoXXXII",
+      "artigo": 8,
+      "inciso": "XXXII",
+      "caput_literal": "XXXII - de tal forma que resulte a aplicação sobre o valor da operação do equivalente ao percentual de 12% (doze por cento), na saída interna de algodão em pluma beneficiada com o incentivo de que trata o inciso XIII do art. 11, ficando mantido o crédito, observado o seguinte (Lei nº 13.506/99, art. 8º, II, \"b\"):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A8XXXII",
+      "indice_paragrafo_caput": 7738,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "IDENTIDADE_OPERACAO_E_CONDICOES_LEGAIS"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide."
+      ]
+    },
+    {
+      "id": "OP_195",
+      "indice_origem": 195,
+      "dispositivo": "RCTE/GO, AnexoIX, art.8, incisoXXXIII",
+      "artigo": 8,
+      "inciso": "XXXIII",
+      "caput_literal": "XXXIII - de tal forma que resulte a aplicação sobre o valor da operação do equivalente ao percentual de 7% (sete por cento) na operação interna com açúcar, arroz industrializado no Estado de Goiás, café torrado ou moído, farinha de arroz, farinha de milho, farinha de mandioca, farinha de trigo industrializada no Estado de Goiás, feijão, fubá, macarrão, margarina vegetal, manteiga de leite, rapadura, pão francês, polvilho, queijo tipo minas, queijo frescal, requeijão, óleo vegetal comestível, exceto o de oliva, vinagre, fósforo, sal iodado, absorvente higiênico, dentifrício, escova de dente, exceto a elétrica, papel higiênico, sabonete, água sanitária, desinfetante de uso doméstico, sabão em barra e vassoura, exceto a elétrica, observado o § 6º; (Convênio ICMS 128/94, cláusula primeira)",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A8XXXIII",
+      "indice_paragrafo_caput": 7762,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "ORIGEM_PRODUCAO_INDUSTRIALIZACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação."
+      ]
+    },
+    {
+      "id": "OP_196",
+      "indice_origem": 196,
+      "dispositivo": "RCTE/GO, AnexoIX, art.8, incisoXXXV",
+      "artigo": 8,
+      "inciso": "XXXV",
+      "caput_literal": "XXXV - de tal forma que resulte aplicação sobre o valor da operação do percentual equivalente a 9% (nove por cento) na saída interna de veículo automotor caminhão com peso em carga máxima superior a 5 (cinco) toneladas e caminhão-trator (Lei nº 13.453/99, art. 1º, II, \"h\", 2); (Redação conferida pelo Decreto nº 8.055 - vigência: 18.12.13)",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A8XXXV",
+      "indice_paragrafo_caput": 7779,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "IDENTIDADE_OPERACAO_E_CONDICOES_LEGAIS"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide."
+      ]
+    },
+    {
+      "id": "OP_197",
+      "indice_origem": 197,
+      "dispositivo": "RCTE/GO, AnexoIX, art.8, incisoXXXVI",
+      "artigo": 8,
+      "inciso": "XXXVI",
+      "caput_literal": "XXXVI - de tal forma que resulte aplicação sobre o valor da operação do percentual equivalente a 12% (doze por cento) na saída interna dos produtos a seguir indicados (Lei nº 13.453/99, art. 1º, II, “i”, 1 e 2):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A8XXXVI",
+      "indice_paragrafo_caput": 7802,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "IDENTIDADE_OPERACAO_E_CONDICOES_LEGAIS"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide."
+      ]
+    },
+    {
+      "id": "OP_198",
+      "indice_origem": 198,
+      "dispositivo": "RCTE/GO, AnexoIX, art.8, incisoXXXVII",
+      "artigo": 8,
+      "inciso": "XXXVII",
+      "caput_literal": "XXXVII - de tal forma que resulte aplicação sobre o valor da operação do percentual equivalente a 12% (doze por cento) na saída interna de mármore e granito produzidos no Estado de Goiás (Lei nº 13.453/99, art. 1º, II, \"i\", 3).",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A8XXXVII",
+      "indice_paragrafo_caput": 7812,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "ORIGEM_PRODUCAO_INDUSTRIALIZACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação."
+      ]
+    },
+    {
+      "id": "OP_199",
+      "indice_origem": 199,
+      "dispositivo": "RCTE/GO, AnexoIX, art.8, incisoXL",
+      "artigo": 8,
+      "inciso": "XL",
+      "caput_literal": "XL - de tal forma que resulte aplicação sobre o valor da operação do percentual equivalente a 7% (sete por cento) na saída de mercadoria resultante da industrialização de produto típico do cerrado goiano, a seguir enumerado, exceto bebida alcoólica (Lei nº 13.453/99, art. 1º, II, “e”, 1.2 e 2):",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A8XL",
+      "indice_paragrafo_caput": 7839,
+      "estado_temporal": "ATUAL_NA_CONSOLIDACAO_CONDICIONAL",
+      "vigencia_fim_explicita_no_bloco": null,
+      "evidencia_prazo_quadro_central": null,
+      "divergencia_nota_lateral_quadro_central": false,
+      "categorias": [
+        "ORIGEM_PRODUCAO_INDUSTRIALIZACAO",
+        "LISTA_ESPECIFICACAO"
+      ],
+      "vincular_todos_ncm": "NAO",
+      "tare_ou_regime_especial": {
+        "situacao": "NAO_IDENTIFICADO_NO_TRECHO_CONFERIR_REMISSOES_GERAIS",
+        "evidencias": []
+      },
+      "enquadramento_programa": [],
+      "fatos_necessarios": [
+        "Data do fato gerador e versão legal aplicável.",
+        "Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma."
+      ],
+      "perguntas_que_ncm_nao_resolve": [
+        "Qual a evidência de: Data do fato gerador e versão legal aplicável.",
+        "Qual a evidência de: Natureza da operação, UF de origem/destino e situação de remetente/destinatário.",
+        "Qual a evidência de: Identidade técnica e comercial da mercadoria quando houver produto; NCM isolado não decide.",
+        "Qual a evidência de: Produtor/fabricante efetivo, origem estadual/nacional, etapas de industrialização/abate e documentação.",
+        "Qual a evidência de: Item preciso da lista/apêndice e especificações, exceções e destinação previstas na norma."
+      ]
+    }
+  ]
+}

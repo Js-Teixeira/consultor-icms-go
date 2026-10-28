@@ -1,0 +1,1252 @@
+{
+  "data": "2026-10-28",
+  "achado": "OP_000/art.6º,I tinha índice1359 importação de outro dispositivo indevidamente associado como redação anterior por coincidir o romanoI.",
+  "correcao": "Removidas todas as438 associações de histórico não asseguradas;131 dispositivos tinham campo histórico preenchido. Removidas também anotações locais que indicam expressamente outro inciso. Os demais trechos locais foram rotulados como notas não consolidadas e não determinam vigência.",
+  "quantidade_historicos_removidos": 438,
+  "quantidade_notas_de_outro_inciso_removidas": 158,
+  "contagens_temporais_recalculadas": {
+    "ATUAL_NA_CONSOLIDACAO_CONDICIONAL": 278,
+    "SEM_EFICACIA_DECLARADA": 1,
+    "CONFLITO_TEMPORAL_CAPUT_COM_PERIODO_ANTERIOR_REVISAR": 1,
+    "APLICACAO_SUSPENSA": 1,
+    "HISTORICO_PRAZO_EXAURIDO": 17
+  },
+  "recalculo": "Os298 estados foram recalculados exclusivamente do caput exato e quadro central com artigo/inciso. As438 associações históricas e todas as notas locais foram ignoradas; resultados idênticos. Os17 exauridos possuem quadro central identificado por âncora e data; os3 demais impedimentos estão no próprio caput.",
+  "evidencias_20_impedimentos": [
+    {
+      "id": "OP_058",
+      "dispositivo": "RCTE/GO, AnexoIX, art.6, incisoLXX",
+      "estado": "SEM_EFICACIA_DECLARADA",
+      "origem_estado": "CAPUT_LITERAL_EXATO",
+      "indice_caput": 1186,
+      "data_limite": null,
+      "texto_caput": "LXX - Sem eficácia face o disposto no Aviso nº 283/MME, de 20.11.03."
+    },
+    {
+      "id": "OP_115",
+      "dispositivo": "RCTE/GO, AnexoIX, art.6, incisoCXXXVIII",
+      "estado": "CONFLITO_TEMPORAL_CAPUT_COM_PERIODO_ANTERIOR_REVISAR",
+      "origem_estado": "PERIODO_LITERAL_NO_CAPUT_EXATO",
+      "indice_caput": 1794,
+      "data_limite": null,
+      "texto_caput": "CXXXVIII - a prestação de serviço de comunicação decorrente de utilização do serviço de assinatura com franquia na modalidade telefonia fixa, ficando mantido o crédito e observando-se o seguinte (Convênio ICMS 16/12): (Redação acrescida pelo Decreto nº 7.698 - vigência: 01.06.12 à 20.07.17)"
+    },
+    {
+      "id": "OP_125",
+      "dispositivo": "RCTE/GO, AnexoIX, art.6, incisoCLIII",
+      "estado": "APLICACAO_SUSPENSA",
+      "origem_estado": "CAPUT_LITERAL_EXATO",
+      "indice_caput": 1932,
+      "data_limite": null,
+      "texto_caput": "CLIII - suspensa a aplicação."
+    },
+    {
+      "id": "OP_141",
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoXXI",
+      "estado": "HISTORICO_PRAZO_EXAURIDO",
+      "origem_estado": "PRAZO_QUADRO_CENTRAL_COM_ANCORA_ARTIGO_INCISO",
+      "indice_caput": 2585,
+      "data_limite": "2019-04-30",
+      "indice_quadro": 5542,
+      "ancora": "#a7xxi",
+      "linha_quadro": [
+        "XXI",
+        "CV ICMS 75/97",
+        "30.04.19 (Redação conferida pelo Decreto n° 9.088 - vigência: 26.10.17)"
+      ]
+    },
+    {
+      "id": "OP_165",
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoLXVIII",
+      "estado": "HISTORICO_PRAZO_EXAURIDO",
+      "origem_estado": "PRAZO_QUADRO_CENTRAL_COM_ANCORA_ARTIGO_INCISO",
+      "indice_caput": 3553,
+      "data_limite": "2019-12-31",
+      "indice_quadro": 6902,
+      "ancora": "#a7lxviii",
+      "linha_quadro": [
+        "LXVIII",
+        "CV ICMS 19/19",
+        "31/12/19"
+      ]
+    },
+    {
+      "id": "OP_167",
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoLXX",
+      "estado": "HISTORICO_PRAZO_EXAURIDO",
+      "origem_estado": "PRAZO_QUADRO_CENTRAL_COM_ANCORA_ARTIGO_INCISO",
+      "indice_caput": 3567,
+      "data_limite": "2019-12-31",
+      "indice_quadro": 6925,
+      "ancora": "#a7lxx",
+      "linha_quadro": [
+        "LXX",
+        "Lei nº 16.271/2008 e CV ICMS 19/2019",
+        "31/12/2019"
+      ]
+    },
+    {
+      "id": "OP_168",
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoLXXI",
+      "estado": "HISTORICO_PRAZO_EXAURIDO",
+      "origem_estado": "PRAZO_QUADRO_CENTRAL_COM_ANCORA_ARTIGO_INCISO",
+      "indice_caput": 3570,
+      "data_limite": "2020-06-30",
+      "indice_quadro": 6929,
+      "ancora": "#a7lxxi",
+      "linha_quadro": [
+        "LXXI",
+        "CV ICMS 42/20",
+        "30/06/2020"
+      ]
+    },
+    {
+      "id": "OP_169",
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoLXXII",
+      "estado": "HISTORICO_PRAZO_EXAURIDO",
+      "origem_estado": "PRAZO_QUADRO_CENTRAL_COM_ANCORA_ARTIGO_INCISO",
+      "indice_caput": 3573,
+      "data_limite": "2020-11-29",
+      "indice_quadro": 6933,
+      "ancora": "#a7lxxii",
+      "linha_quadro": [
+        "LXXII",
+        "CV ICMS 81/20",
+        "29/11/2020"
+      ]
+    },
+    {
+      "id": "OP_170",
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoLXXIII",
+      "estado": "HISTORICO_PRAZO_EXAURIDO",
+      "origem_estado": "PRAZO_QUADRO_CENTRAL_COM_ANCORA_ARTIGO_INCISO",
+      "indice_caput": 3581,
+      "data_limite": "2024-04-30",
+      "indice_quadro": 6942,
+      "ancora": "#a7lxxiii",
+      "linha_quadro": [
+        "LXXIII",
+        "CV ICMS 13/21",
+        "30/04/24"
+      ]
+    },
+    {
+      "id": "OP_171",
+      "dispositivo": "RCTE/GO, AnexoIX, art.7, incisoLXXV",
+      "estado": "HISTORICO_PRAZO_EXAURIDO",
+      "origem_estado": "PRAZO_QUADRO_CENTRAL_COM_ANCORA_ARTIGO_INCISO",
+      "indice_caput": 3595,
+      "data_limite": "2024-04-30",
+      "indice_quadro": 6960,
+      "ancora": "#a7lxxv",
+      "linha_quadro": [
+        "LXXV",
+        "CV ICMS 90/21",
+        "30/04/24"
+      ]
+    },
+    {
+      "id": "OP_222",
+      "dispositivo": "RCTE/GO, AnexoIX, art.9, incisoXXVII",
+      "estado": "HISTORICO_PRAZO_EXAURIDO",
+      "origem_estado": "PRAZO_QUADRO_CENTRAL_COM_ANCORA_ARTIGO_INCISO",
+      "indice_caput": 8702,
+      "data_limite": "2022-12-31",
+      "indice_quadro": 9986,
+      "ancora": "#a9xxvii",
+      "linha_quadro": [
+        "XXVII",
+        "Dec. Nº 6.460/06",
+        "31/12/22"
+      ]
+    },
+    {
+      "id": "OP_223",
+      "dispositivo": "RCTE/GO, AnexoIX, art.9, incisoXXVIII",
+      "estado": "HISTORICO_PRAZO_EXAURIDO",
+      "origem_estado": "PRAZO_QUADRO_CENTRAL_COM_ANCORA_ARTIGO_INCISO",
+      "indice_caput": 8709,
+      "data_limite": "2022-12-31",
+      "indice_quadro": 10016,
+      "ancora": "#a9xxviii",
+      "linha_quadro": [
+        "XXVIII",
+        "Dec. Nº 6.460/06",
+        "31/12/22"
+      ]
+    },
+    {
+      "id": "OP_224",
+      "dispositivo": "RCTE/GO, AnexoIX, art.9, incisoXXIX",
+      "estado": "HISTORICO_PRAZO_EXAURIDO",
+      "origem_estado": "PRAZO_QUADRO_CENTRAL_COM_ANCORA_ARTIGO_INCISO",
+      "indice_caput": 8719,
+      "data_limite": "2024-04-30",
+      "indice_quadro": 10049,
+      "ancora": "#a9xxix",
+      "linha_quadro": [
+        "XXIX",
+        "CV ICMS 113/06",
+        "30.04.24"
+      ]
+    },
+    {
+      "id": "OP_230",
+      "dispositivo": "RCTE/GO, AnexoIX, art.9, incisoXXXVI",
+      "estado": "HISTORICO_PRAZO_EXAURIDO",
+      "origem_estado": "PRAZO_QUADRO_CENTRAL_COM_ANCORA_ARTIGO_INCISO",
+      "indice_caput": 8812,
+      "data_limite": "2018-12-31",
+      "indice_quadro": 10265,
+      "ancora": "#a9xxxvi",
+      "linha_quadro": [
+        "XXXVI",
+        "CV ICMS 195/17",
+        "31/12/18"
+      ]
+    },
+    {
+      "id": "OP_288",
+      "dispositivo": "RCTE/GO, AnexoIX, art.12, incisoI",
+      "estado": "HISTORICO_PRAZO_EXAURIDO",
+      "origem_estado": "PRAZO_QUADRO_CENTRAL_COM_ANCORA_ARTIGO_INCISO",
+      "indice_caput": 13734,
+      "data_limite": "2021-03-31",
+      "indice_quadro": 14202,
+      "ancora": "#a12i",
+      "linha_quadro": [
+        "I",
+        "CV ICMS 23/90",
+        "31/3/2021"
+      ]
+    },
+    {
+      "id": "OP_290",
+      "dispositivo": "RCTE/GO, AnexoIX, art.12, incisoX",
+      "estado": "HISTORICO_PRAZO_EXAURIDO",
+      "origem_estado": "PRAZO_QUADRO_CENTRAL_COM_ANCORA_ARTIGO_INCISO",
+      "indice_caput": 13905,
+      "data_limite": "2019-10-31",
+      "indice_quadro": 14296,
+      "ancora": "#a12x",
+      "linha_quadro": [
+        "X",
+        "Lei nº 19.226/16",
+        "31/10/19 (Redação acrescida pelo Decreto nº 8.629 - vigência: 01.03.16)."
+      ]
+    },
+    {
+      "id": "OP_291",
+      "dispositivo": "RCTE/GO, AnexoIX, art.12, incisoXI",
+      "estado": "HISTORICO_PRAZO_EXAURIDO",
+      "origem_estado": "PRAZO_QUADRO_CENTRAL_COM_ANCORA_ARTIGO_INCISO",
+      "indice_caput": 13935,
+      "data_limite": "2017-12-31",
+      "indice_quadro": 14299,
+      "ancora": "#a12xi",
+      "linha_quadro": [
+        "XI",
+        "Lei nº 19.143/15",
+        "31/12/17 (Redação acres.cida pelo Decreto nº 8.655 - vigência: 25.05.16)"
+      ]
+    },
+    {
+      "id": "OP_292",
+      "dispositivo": "RCTE/GO, AnexoIX, art.12, incisoXII",
+      "estado": "HISTORICO_PRAZO_EXAURIDO",
+      "origem_estado": "PRAZO_QUADRO_CENTRAL_COM_ANCORA_ARTIGO_INCISO",
+      "indice_caput": 13950,
+      "data_limite": "2018-12-31",
+      "indice_quadro": 14302,
+      "ancora": "#a12xii",
+      "linha_quadro": [
+        "XII",
+        "Lei nº 19.302/16",
+        "31/12/18 (Redação acrescida pelo Decreto nº 8.689 - vigência: 14.07.16)"
+      ]
+    },
+    {
+      "id": "OP_293",
+      "dispositivo": "RCTE/GO, AnexoIX, art.12, incisoXIV",
+      "estado": "HISTORICO_PRAZO_EXAURIDO",
+      "origem_estado": "PRAZO_QUADRO_CENTRAL_COM_ANCORA_ARTIGO_INCISO",
+      "indice_caput": 13985,
+      "data_limite": "2019-10-31",
+      "indice_quadro": 14312,
+      "ancora": "#a12xiv",
+      "linha_quadro": [
+        "XIV",
+        "Lei nº 19.226/16",
+        "31.10.19 (Redação acrescida pelo Decreto n°8.928 - vigência:04.04.17)"
+      ]
+    },
+    {
+      "id": "OP_296",
+      "dispositivo": "RCTE/GO, AnexoIX, art.12, incisoXVIII",
+      "estado": "HISTORICO_PRAZO_EXAURIDO",
+      "origem_estado": "PRAZO_QUADRO_CENTRAL_COM_ANCORA_ARTIGO_INCISO",
+      "indice_caput": 14082,
+      "data_limite": "2019-09-30",
+      "indice_quadro": 14387,
+      "ancora": "#a12xviii",
+      "linha_quadro": [
+        "XVIII",
+        "CV ICMS 19/19",
+        "30/09/2019"
+      ]
+    }
+  ],
+  "notas_de_outro_inciso_removidas": [
+    {
+      "id": "OP_037",
+      "indice_paragrafo": 733,
+      "texto": "Conferida nova redação à alínea “a” do inciso xlviii do art. 6º pelo art. 1º do decreto nº 9.478, de 19.07.19 - vigência: 22.07.19",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_037",
+      "indice_paragrafo": 739,
+      "texto": "Conferida nova redação à alínea “b” do inciso xlviii do art. 6º pelo art. 1º do decreto nº 9.478, de 19.07.19 - vigência: 22.07.19",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_059",
+      "indice_paragrafo": 1221,
+      "texto": "ACRESCIDO O INCISO LXXV AO ART. 6º PELO ART. 2º DO DECRETO Nº 5.132, DE 03.11.99 - vigência: 17.08.99.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_061",
+      "indice_paragrafo": 1228,
+      "texto": "ACRESCIDO O INCISO LXXVII AO ART. 6º PELO ART. 2º DO DECRETO Nº 5.157, DE 29.12.99 - vigência: 30.12.99.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_063",
+      "indice_paragrafo": 1274,
+      "texto": "ACRESCIDO O INCISO LXXIX AO ART. 6º PELO ART. 2º DO DECRETO Nº 5.157, DE 29.12.99 - vigência: 01.12.99.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_065",
+      "indice_paragrafo": 1316,
+      "texto": "ACRESCIDO O INCISO LXXXII AO ART. 6º PELO ART. 2º DO DECRETO Nº 5.349, DE 29.12.00 - vigência: 01.08.00, EXCETO A ALÍNEA “B” QUE É 01.01.01.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_066",
+      "indice_paragrafo": 1329,
+      "texto": "ACRESCIDO O INCISO LXXXIII DO ART. 6º PELO ART. 2º DO DECRETO Nº 5.349, DE 29.12.00 - vigência: 07.11.00.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_067",
+      "indice_paragrafo": 1336,
+      "texto": "ACRESCIDO O inciso lxxxiv ao art. 6º PELO ART. 2º DO DECRETO Nº 5.416, DE 26.04.01 - vigência: 09.01.01.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_068",
+      "indice_paragrafo": 1338,
+      "texto": "ACRESCIDO O INCISO lXXXV AO ART. 6º PELO ART. 2º DO DECRETO Nº 5.494, DE 15.10.01 - vigência: 09.08.01.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_069",
+      "indice_paragrafo": 1340,
+      "texto": "ACRESCIDO O INCISO lXXXVI AO ART. 6º PELO ART. 2º DO DECRETO Nº 5.494, DE 15.10.01 - vigência: 09.08.01.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_070",
+      "indice_paragrafo": 1347,
+      "texto": "ACRESCIDO O INCISO LXXXVII AO ART. 6º PELO ART. 2º DO DECRETO Nº 5.587, DE 16.04.02 - vigência: 22.04.02.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_071",
+      "indice_paragrafo": 1357,
+      "texto": "ACRESCIDO O INCISO LXXXIX aO ART. 6º PELO ART. 2º DO DECRETO Nº 5.628, DE 24.07.02 - vigência: 17.04.02.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_073",
+      "indice_paragrafo": 1402,
+      "texto": "ACRESCIDO INCISO XCI AO ART. 6º PELO ART. 2º DO DECRETO Nº 5.825, DE 05.09.03 - vigência: 12.09.03.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_074",
+      "indice_paragrafo": 1421,
+      "texto": "ACRESCIDO O INCISO XCII AO ART. 6º PELO ART. 1º DO DECRETO Nº 5.836, DE 30.09.03 - vigência: 30.09.03.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_075",
+      "indice_paragrafo": 1429,
+      "texto": "ACRESCIDO O INCISO XCIII AO ART. 6 PELO ART. 2º DO DECRETO Nº 5.998, DE 20.08.04 - vigência: 01.06.04.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_077",
+      "indice_paragrafo": 1444,
+      "texto": "ACRESCIDO O INCISO XCVI AO ART. 6º PELO ART. 1º DO DECRETO Nº 6.179, DE 24.06.05 - vigência: 01.07.05.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_078",
+      "indice_paragrafo": 1449,
+      "texto": "ACRESCIDO O INCISO XCVII AO ART. 6º PELO ART. 1º DO DECRETO Nº 6.179, DE 24.06.05 - vigência: 01.07.05.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_079",
+      "indice_paragrafo": 1454,
+      "texto": "ACRESCIDO O INCISO XCVIII AO ART. 6º PELO ART. 1º DO DECRETO Nº 6.179, DE 24.06.05 - vigência: 01.07.05.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_080",
+      "indice_paragrafo": 1470,
+      "texto": "ACRESCIDO O INCISO CI AO ART. 6º PELO ART. 1º DO DECRETO Nº 6.225, DE 25.08.05 - vigência: 01.09.05.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_081",
+      "indice_paragrafo": 1475,
+      "texto": "ACRESCIDO O INCISO CII AO ART. 6º PELO ART. 1º DO DECRETO Nº 6.225, DE 25.08.05 - vigência: 25.04.05.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_082",
+      "indice_paragrafo": 1484,
+      "texto": "ACRESCIDO O INCISO CIII AO ART. 6º PELO ART. 1º DO DECRETO Nº 6.225, DE 25.08.05 - vigência: 01.09.05.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_083",
+      "indice_paragrafo": 1498,
+      "texto": "ACRESCIDO O INCISO CIV AO ART. 6º PELO ART. 1º DO DECRETO Nº 6.225, DE 25.08.05 - vigência: 31.08.05.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_084",
+      "indice_paragrafo": 1502,
+      "texto": "ACRESCIDO O INCISO CV AO ART. 6º PELO ART. 1º DO DECRETO Nº 6.224, DE 25.08.05 - vigência: 14.10.05.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_085",
+      "indice_paragrafo": 1514,
+      "texto": "ACRESCIDO O INCISO CVI AO ART. 6º PELO ART. 2º DO DECRETO Nº 6.252/05, DE 20.09.05 - vigência: 22.07.05.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_086",
+      "indice_paragrafo": 1545,
+      "texto": "ACRESCIDO O INCISO CVII AO ART. 6º PELO ART. 1º DO DECRETO N° 6.331, DE 14.12.05 - vigência: 20.12.05.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_087",
+      "indice_paragrafo": 1550,
+      "texto": "ACRESCIDO O INCISO CVIII AO ART. 6º PELO ART. 2º DO DECRETO Nº 6.551, DE 28.09.06 - vigência: 01.09.06.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_088",
+      "indice_paragrafo": 1552,
+      "texto": "ACRESCIDO O INCISO CIX AO ART. 6º PELO ART. 2º DO DECRETO Nº 6.551, DE 28.09.06 - vigência: 01.09.06.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_090",
+      "indice_paragrafo": 1601,
+      "texto": "ACRESCIDO O INCISO CXIII AO ART. 6º PELO ART. 2º DO DECRETO Nº 6.634, DE 11.06.07 - vigência: 29.06.06.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_091",
+      "indice_paragrafo": 1607,
+      "texto": "ACRESCIDO O INCISO CXIV AO ART. 6º PELO ART. 1º DO DECRETO Nº 6.738, DE 25.04.08 - vigência: 29.04.08.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_092",
+      "indice_paragrafo": 1609,
+      "texto": "ACRESCIDO O INCISO CXV AO ART. 6º PELO ART. 1º DO DECRETO Nº 6.738, DE 25.04.08 - vigência: 29.04.08.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_093",
+      "indice_paragrafo": 1611,
+      "texto": "ACRESCIDO O INCISO CXVI AO ART. 6º pelo ART. 1º DO DECRETO Nº 6.769, DE 30.07.08 - vigência: 01.08.08.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_094",
+      "indice_paragrafo": 1632,
+      "texto": "ACRESCIDO O INCISO CXVIi AO ART. 6º pelo ART. 1º DO DECRETO Nº 6.769, DE 30.07.08 - vigência: 01.08.08.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_095",
+      "indice_paragrafo": 1634,
+      "texto": "ACRESCIDO O INCISO CXVIii AO ART. 6º pelo ART. 2º DO DECRETO Nº 6.776, DE 06.08.08 - vigência: 12.08.08.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_096",
+      "indice_paragrafo": 1638,
+      "texto": "ACRESCIDO O INCISO CXiX AO ART. 6º pelo ART. 2º DO DECRETO Nº 6.814, DE 03.11.08 - vigência: 06.11.08.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_097",
+      "indice_paragrafo": 1641,
+      "texto": "ACRESCIDO O INCISO CXX AO ART. 6º pelo ART. 2º DO DECRETO Nº 6.814, DE 03.11.08 - vigência: 25.07.08.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_102",
+      "indice_paragrafo": 1680,
+      "texto": "ACRESCIDO O INCISO CXXV Ao art. 6º pelo art. 2º DO DECRETO Nº 7.150, de 14.09.10 - vigência: 23.04.10.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_103",
+      "indice_paragrafo": 1686,
+      "texto": "ACRESCIDO O INCISO CXXVI Ao art. 6º pelo art. 2º DO DECRETO Nº 7.150, de 14.09.10 - vigência: 01.05.10.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_104",
+      "indice_paragrafo": 1688,
+      "texto": "ACRESCIDO O INCISO CXXVIi Ao art. 6º pelo art. 2º DO DECRETO Nº 7.195, de 27.12.10 - vigência: 29.12.10.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_106",
+      "indice_paragrafo": 1712,
+      "texto": "ACRESCIDO O INCISO CXXIX AO ART. 6º PELO ART. 2º DO DECRETO Nº 7.346, de 18.05.11 - vigência: 01.06.11.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_107",
+      "indice_paragrafo": 1717,
+      "texto": "ACRESCIDO O INCISO CXXX AO ART. 6º PELO ART. 1º DO DEC. 7.451, de 08.09.11 - vigência: 15.04.11.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_108",
+      "indice_paragrafo": 1749,
+      "texto": "ACRESCIDO O INCISO CXXXII AO ART. 6º PELO ART. 1º DO DECRETO Nº 7.526/11-GSF, de 28.12.11 - vigência: 28.12.11.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_109",
+      "indice_paragrafo": 1766,
+      "texto": "POR FORÇA DO ART. 2º DO DECRETO Nº 7.568, DE 08.03.12, O INCISO CXXXI DO ART. 6º ACRESCIDO PELO ART. 1º PELO ART. 1º DO DECRETO Nº 7.526/11-GSF, de 28.12.11, FOI RENUMERADO PARA CXXXIII - vigência: 28.12.11.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_110",
+      "indice_paragrafo": 1775,
+      "texto": "ACRESCIDO O INCISO CXXXIV AO ART. 6º PELO ART. 1º DO DECRETO Nº 7.568, de 08.03.12 - vigência: 15.03.12.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_111",
+      "indice_paragrafo": 1780,
+      "texto": "ACRESCIDO O INCISO CXXXV AO ART. 6º PELO ART. 1º DO DECRETO Nº 7.568, de 08.03.12 - vigência: 15.03.12.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_112",
+      "indice_paragrafo": 1782,
+      "texto": "ACRESCIDO O INCISO CXXXVI AO ART. 6º PELO ART. 1º DO DECRETO Nº 7.569, de 08.03.12 - vigência: 21.10.11.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_125",
+      "indice_paragrafo": 1933,
+      "texto": "ACRESCIDO O INCISO CLIV AO ART. 6º PELO ART. 1º DO DECRETO Nº 9.334 - VIGÊNCIA: 01.09.18.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_126",
+      "indice_paragrafo": 1938,
+      "texto": "ACRESCIDO O INCISO CLV AO ART. 6º PELO ART. 1º DO DECRETO Nº 9.411 - VIGÊNCIA: 01.12.18.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_127",
+      "indice_paragrafo": 1940,
+      "texto": "ACRESCIDO O INCISO CLVI AO ART. 6º PELO ART. 1º DO DECRETO Nº 9.411 - VIGÊNCIA: 01.01.19.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_128",
+      "indice_paragrafo": 1970,
+      "texto": "ACRESCIDO O INCISO CLiX AO ART. 6º PELO ART. 1º DO DECRETO Nº 9.975 - VIGÊNCIA: 29.10.21",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_129",
+      "indice_paragrafo": 1990,
+      "texto": "ACRESCIDO O INCISO CLXIV AO ART. 6º pelo art. 2º do decreto nº 10.824, de 04.12.25 – vigência 05.12.25",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_143",
+      "indice_paragrafo": 3067,
+      "texto": "ACRESCIDO O INCISO XXVIII AO ART. 7º PELO ART. 2º DO DECRETO Nº 4.893, DE 14.05.98 - vigência: 01.05.98.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_144",
+      "indice_paragrafo": 3112,
+      "texto": "ACRESCIDO O INCISO XXXI AO 7º PELO ART. 2º DO DECRETO Nº 4.954, DE 22.09.98 - vigência: 01.07.98.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_145",
+      "indice_paragrafo": 3115,
+      "texto": "ACRESCIDO O INCISO XXXII AO ART. 7º PELO ART. 2º DO DECRETO Nº 5.067, DE 25.06.99 - vigência: 26.03.99.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_146",
+      "indice_paragrafo": 3127,
+      "texto": "ACRESCIDO O INCISO XXXIII AO ART. 7º PELO ART. 2º DO DECRETO Nº 5.416, DE 26.04.01 - vigência: 09.01.01.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_147",
+      "indice_paragrafo": 3133,
+      "texto": "ACRESCIDO O INCISO XXXIV AO ART. 7º PELO ART. 2º DO DECRETO Nº 5.494, DE 15.10.01 - vigência: 19.06.01, EXCETO EM RELAÇÃO AO ESTADO DO AMAZONAS QUE É 09.08.01.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_148",
+      "indice_paragrafo": 3249,
+      "texto": "acrescido o inciso xL ao art. 7º PELO ART. 2º DO DECRETO Nº 5.825, DE 05.09.03 - vigência: 27.05.03.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_149",
+      "indice_paragrafo": 3341,
+      "texto": "ACRESCIDO O INCISO XLI AO ART. 7º PELO ART. 2º DO DECRETO Nº 5.982, DE 30.07.04 - vigência: 04.08.04.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_150",
+      "indice_paragrafo": 3344,
+      "texto": "ACRESCIDO O INCISO XLiI AO ART. 7º PELO ART. 2º DO DECRETO Nº 5.982, DE 30.07.04 - vigência: 28.04.04.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_152",
+      "indice_paragrafo": 3389,
+      "texto": "ACRESCIDO O INCISO XLIV AO ART. 7º PELO ART. 2º DO DECRETO Nº 6.225/05, DE 25.08.05 - vigência: 01.09.05.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_153",
+      "indice_paragrafo": 3395,
+      "texto": "ACRESCIDO O INCISO XLV AO ART. 7º PELO ART. 2º DO DECRETO Nº 6.252/05, DE 20.09.05 - vigência: 22.07.05.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_154",
+      "indice_paragrafo": 3404,
+      "texto": "ACRESCIDO O INCISO XLVI AO art. 7º PELO ART. 2º DECRETO Nº 6.476, DE 20.06.06 - vigência: 22.06.06",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_155",
+      "indice_paragrafo": 3411,
+      "texto": "ACRESCIDO O INCISO XLVII AO art. 7º PELO ART. 2º DECRETO Nº 6.476, DE 20.06.06 - vigência: 18.04.06",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_156",
+      "indice_paragrafo": 3417,
+      "texto": "ACRESCIDO O INCISO XLIX AO ART. 7º ART. 2º DO DECRETO Nº 6.634, DE 11.06.07 - vigência: 26.12.06.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_157",
+      "indice_paragrafo": 3428,
+      "texto": "ACRESCIDO O INCISO LI AO ART. 7º PELO ART. 2º DO DECRETO Nº 6.659, DE 16.08.07 - vigência: 21.08.07.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_158",
+      "indice_paragrafo": 3436,
+      "texto": "ACRESCIDO O INCISO LII AO ART. 7º PELO ART. 2º DO DECRETO Nº 6.659, DE 16.08.07 - vigência: 21.08.07.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_159",
+      "indice_paragrafo": 3439,
+      "texto": "ACRESCIDO O INCISO LIII AO ART. 7º PELO ART. 2º DO DECRETO Nº 6.659, DE 16.08.07 - vigência: 23.04.07.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_160",
+      "indice_paragrafo": 3453,
+      "texto": "ACRESCIDO O INCISO LV AO ART. 7º PELO ART. 2º DO DECRETO Nº 6.659, DE 16.08.07 - vigência: 01.06.07.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_161",
+      "indice_paragrafo": 3488,
+      "texto": "ACRESCIDO O INCISO LX AO ART. 7º pelo art. 2º DO DECRETO Nº 7.150, de 14.09.10 - vigência: 21.05.10.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_162",
+      "indice_paragrafo": 3496,
+      "texto": "ACRESCIDO O INCISO LXII AO ART. 7º pelo art. 1º DO DECRETO Nº 7.184, de 12.11.10 - vigência: 12.11.10.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_163",
+      "indice_paragrafo": 3499,
+      "texto": "ACRESCIDO O INCISO LXIII AO ART. 7º pelo art. 1º DO DECRETO Nº 7.184, de 12.11.10 - vigência: 12.11.10.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_165",
+      "indice_paragrafo": 3560,
+      "texto": "ACRESCIDO O INCISO LXIX AO ART. 7º PELO ART. 1º DO DECRETO Nº 9.560 - VIGÊNCIA: 01.09.19",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_166",
+      "indice_paragrafo": 3566,
+      "texto": "ACRESCIDO O INCISO LXX AO ART. 7º PELO ART. 1º DO DECRETO Nº 9.576 - VIGÊNCIA: 06.12.19",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_167",
+      "indice_paragrafo": 3569,
+      "texto": "ACRESCIDO O INCISO LXXI AO ART. 7º PELO ART. 1º DO DECRETO Nº 9.678 - VIGÊNCIA: 01.05.20",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_168",
+      "indice_paragrafo": 3572,
+      "texto": "ACRESCIDO O INCISO LXXII AO ART. 7º PELO ART. 1º DO dECRETO Nº 9.727, DE 15.10.20 - vIGÊNCIA: DE 03.09.20 A 29.11.20",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_169",
+      "indice_paragrafo": 3580,
+      "texto": "ACRESCIDO O INCISO LXXIII AO ART. 7º PELO ART. 1º DO DECRETO Nº 9.975 - VIGÊNCIA: 29.10.21",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_170",
+      "indice_paragrafo": 3591,
+      "texto": "ACRESCIDO O INCISO LXXIV AO ART. 7º PELO ART. 1º DO DECRETO Nº 9.975 - VIGÊNCIA: 29.10.21",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_171",
+      "indice_paragrafo": 3602,
+      "texto": "ACRESCIDO O INCISO LXXVI AO ART. 7º PELO ART. 1º DO DECRETO Nº 10.460, DE 02.05.24 - VIGÊNCIA: 02.05.24.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_172",
+      "indice_paragrafo": 3615,
+      "texto": "ACRESCIDO O INCISO LXXVII AO ART. 7º PELO ART. 1º DO DECRETO Nº 10.538, DE 29.08.24 - VIGÊNCIA: 29.08.24.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_173",
+      "indice_paragrafo": 3621,
+      "texto": "ACRESCIDO O INCISO LXXIX AO ART. 7º PELO ART. 1º DO DECRETO Nº 10.673, DE 11.04.25 - vIGÊNCIA: 11.04.25",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_174",
+      "indice_paragrafo": 3624,
+      "texto": "ACRESCIDO O INCISO LXXX AO ART. 7º PELO ART. 1º DO DECRETO Nº 10.673, DE 11.04.25 - vIGÊNCIA: 11.04.25",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_175",
+      "indice_paragrafo": 3653,
+      "texto": "ACRESCIDO O INCISO LXXXII AO ART. 7º PELO ART. 1º DO DECRETO Nº 10.673, DE 11.04.25 - vIGÊNCIA: 11.04.25",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_176",
+      "indice_paragrafo": 3656,
+      "texto": "ACRESCIDO O INCISO LXXXIiI AO ART. 7º PELO ART. 1º DO DECRETO Nº 10.762, DE 18.08.25 - vIGÊNCIA: 18.08.25",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_177",
+      "indice_paragrafo": 3666,
+      "texto": "ACRESCIDO O INCISO LXXXIV AO ART. 7º PELO ART. 1º DO DECRETO Nº 10.763, DE 18.08.25 - vIGÊNCIA: 18.08.25",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_178",
+      "indice_paragrafo": 3669,
+      "texto": "ACRESCIDO O INCISO LXXXV AO ART. 7º PELO ART. 1º DO DECRETO Nº 10.800, DE 21.10.25 - vIGÊNCIA: 21.10.25",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_186",
+      "indice_paragrafo": 7514,
+      "texto": "ACRESCIDO O INCISO XVII AO ART. 8º PELO ART. 2º DO DECRETO Nº 5.157, DE 29.12.99 - vigência: 30.12.99.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_187",
+      "indice_paragrafo": 7562,
+      "texto": "ACRESCIDO O INCISO XX AO ART. 8º PELO ART. 1º DO DECRETO Nº 5.272. DE 22.08.00 - vigência: 01.08.00.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_188",
+      "indice_paragrafo": 7590,
+      "texto": "ACRESCIDO O INCISO XXII AO ART. 8º PELO ART. 1º DO DECRETO Nº 5.336, DE 12.12.00 - vigência: 19.12.00.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_189",
+      "indice_paragrafo": 7633,
+      "texto": "ACRESCIDO O INCISO XXIV AO ART. 8º PELO ART. 1º DO DECRETO Nº 5.339, DE 15.12.00 - vigência: 21.12.00.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_190",
+      "indice_paragrafo": 7718,
+      "texto": "ACRESCIDO O INCISO XXVIII AO ART. 8º PELO ART. 2º DO DECRETO Nº 5.587, DE 16.04.02 - vigência: 01.01.02.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_191",
+      "indice_paragrafo": 7723,
+      "texto": "ACRESCIDO O inciso Xxix ao art. 8º PELO ART. 1º DO DECRETO Nº 5.834, DE 30.09.03 - vigência: 30.09.03.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_192",
+      "indice_paragrafo": 7726,
+      "texto": "ACRESCIDO O inciso Xxx ao art. 8º PELO ART. 1º DO DECRETO Nº 5.836, DE 30.09.03 - vigência: 30.09.03.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_193",
+      "indice_paragrafo": 7728,
+      "texto": "ACRESCIDO O inciso XxxI ao art. 8º PELO ART. 1º DO DECRETO Nº 6.028, DE 27.10.04 - vigência: 03.08.04.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_194",
+      "indice_paragrafo": 7747,
+      "texto": "ACRESCIDO O INCISO XXXIII AO ART. 8º PELO ART. 1º DO DECRETO Nº 6.056, DE 30.12.04 - vigência: 18.01.05.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_195",
+      "indice_paragrafo": 7764,
+      "texto": "ACRESCIDO O INCISO XXXIV AO ART. 8 PELO ART. 1º DO DECRETO Nº 6.179, DE 24.06.05 - vigência: 01.07.05.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_196",
+      "indice_paragrafo": 7798,
+      "texto": "ACRESCIDO O INCISO XXXVI AO ART. 8 PELO ART. 1º DO DECRETO Nº 6.179, DE 24.06.05 - vigência: 01.07.05.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_197",
+      "indice_paragrafo": 7808,
+      "texto": "ACRESCIDO O INCISO XXXVII AO ART. 8 PELO ART. 1º DO DECRETO Nº 6.179, DE 24.06.05 - vigência: 01.07.05.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_198",
+      "indice_paragrafo": 7813,
+      "texto": "ACRESCIDO O INCISO XXXVIII AO ART. 8º PELO ART. 1º DO DECRETO Nº 6.115, DE 04.04.05 - vigência: 06.04.05.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_199",
+      "indice_paragrafo": 7849,
+      "texto": "ACRESCIDO O INCISO XLI AO ART. 8º PELO ART. 1º DO DECRETO N° 6.343, DE 29.12.05 - vigência: 01.01.06.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_200",
+      "indice_paragrafo": 7866,
+      "texto": "ACRESCIDO O INCISO XLII AO ART. 8º PELO ART. 2º DO DECRETO Nº 6.551, DE 28.09.06 - vigência: 01.09.06.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_201",
+      "indice_paragrafo": 7883,
+      "texto": "ACRESCIDO O INCISO XLIV AO ART. 8º PELO ART. 2º DO DECRETO Nº 6.629, DE 11.06.07 - vigência: 11.06.07.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_202",
+      "indice_paragrafo": 7903,
+      "texto": "ACRESCIDO O INCISO XLV AO ART. 8º PELO ART. 2º DO DECRETO Nº 6.684, DE 06.11.07 - vigência: 12.11.07.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_204",
+      "indice_paragrafo": 7920,
+      "texto": "ACRESCIDO O INCISO XLVII AO ART. 8º PELO ART. 1º Do decreto Nº 6.928, DE 05.06.09 - vigência: 25.05.09.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_205",
+      "indice_paragrafo": 7925,
+      "texto": "ACRESCIDO O INCISO XLVIII AO ART. 8º PELO ART. 1º DO DECRETO Nº 6.981, DE 03.09.09 - vigência: 01.08.09.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_206",
+      "indice_paragrafo": 7946,
+      "texto": "ACRESCIDO O INCISO XLIX AO ART. 8º pelo art. 2º dO DECRETO nº 7.078, de 15.03.10 - vigência: 17.03.10.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_207",
+      "indice_paragrafo": 7971,
+      "texto": "ACRESCIDO O INCISO L AO ART. 8º pelo art. 2º dO DECRETO nº 7.078, de 15.03.10 - vigência: 17.03.10.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_208",
+      "indice_paragrafo": 7977,
+      "texto": "ACRESCIDO O INCISO LI AO ART. 8º pelo art. 2º dO DECRETO nº 7.114, de 27.05.10 - vigência: 27.05.10.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_209",
+      "indice_paragrafo": 7984,
+      "texto": "ACRESCIDO O INCISO LIII AO ART. 8º PELO ART. 1º DO DECRETO Nº 7.249, de 04.03.11 - vigência: 04.03.11.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_210",
+      "indice_paragrafo": 8010,
+      "texto": "ACRESCIDO O INCISO LV AO ART. 8º PELO ART. 1º DO DEC. 7.403, de 14.07.11 - vigência: 18.07.11.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_213",
+      "indice_paragrafo": 8056,
+      "texto": "ACRESCIDO O INCISO lxI AO art. 8º pelo ART 1º DO DECRETO Nº 10.350, de 25.11.23 - vigência 27.11.23.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_214",
+      "indice_paragrafo": 8060,
+      "texto": "ACRESCIDO O INCISO lxII AO art. 8º pelo ART 1º DO DECRETO Nº 10.453, de 23.04.24 - vigência 23.04.24.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_215",
+      "indice_paragrafo": 8083,
+      "texto": "ACRESCIDO O INCISO lxIIi AO art. 8º pelo ART 1º DO DECRETO Nº 10.673, de 11.04.25 – vigência: 11.04.25.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_220",
+      "indice_paragrafo": 8613,
+      "texto": "ACRESCIDO O INCISO XXI AO ART. 9º PELO ART. 2º DO DECRETO Nº 5.772, DE 20.06.03 - vigência: 25.06.03.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_221",
+      "indice_paragrafo": 8666,
+      "texto": "ACRESCIDO O INCISO XXVI AO ART. 9º PELO ART. 1º DO DECRETO Nº 6.446/06, DE 26.04.06 - vigência: 01.05.06.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_224",
+      "indice_paragrafo": 8721,
+      "texto": "ACRESCIDO O INCISO XXX AO ART. 9º PELO ART. 2º DO DECRETO Nº 6.629, DE 11.06.07 - vigência: 11.06.07",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_225",
+      "indice_paragrafo": 8755,
+      "texto": "ACRESCIDO O INCISO XXXII AO ART. 9º PELO ART. 1º DO DECRETO Nº 7.561, de 29.02.12 - vigência: 09.01.02.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_226",
+      "indice_paragrafo": 8758,
+      "texto": "ACRESCIDO O INCISO XXXIII AO ART. 9º PELO ART. 1º DO DECRETO Nº 7.699, de 20.08.12 - vigência: 16.07.12.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_227",
+      "indice_paragrafo": 8764,
+      "texto": "ACRESCIDO O INCISO XXXIV AO ART. 9º PELO ART. 1º DO DECRETO 9.197, DE 26.03.18 - VIGÊNCIA: 27.03.18",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_228",
+      "indice_paragrafo": 8808,
+      "texto": "ACRESCIDO O INCISO XXXV AO ART. 9º PELO ART. 1º DO DECRETO 9.205, DE 06.04.18 - VIGÊNCIA: 06.04.18",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_229",
+      "indice_paragrafo": 8811,
+      "texto": "ACRESCIDO O INCISO XXXVI AO ART. 9º, PELO ART. 1º DO DECRETO Nº 9.236, DE 30.05.18 - VIGÊNCIA: 30.05.18.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_230",
+      "indice_paragrafo": 8814,
+      "texto": "ACRESCIDO O INCISO XXXVII AO ART. 9º PELO ART. 1º DO DECRETO Nº 9.560 - VIGÊNCIA: 22.11.19",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_231",
+      "indice_paragrafo": 8817,
+      "texto": "ACRESCIDO O INCISO XXXVIII AO ART. 9º PELO ART. 1º DO DECRETO Nº 9.857, DE 30.04.21 - VIGÊNCIA: 01.01.22",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_232",
+      "indice_paragrafo": 8844,
+      "texto": "ACRESCIDO O INCISO XXXIX AO ART. 9º PELO ART. 1º DO DECRETO Nº 10.234, DE 10.03.23 - VIGÊNCIA: 10.03.23.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_233",
+      "indice_paragrafo": 8849,
+      "texto": "ACRESCIDO O INCISO XL AO ART. 9º PELO ART. 1º DO DECRETO Nº 10.762, DE 18.08.25 - vIGÊNCIA: 18.08.25",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_234",
+      "indice_paragrafo": 8859,
+      "texto": "ACRESCIDO O INCISO XLI AO ART. 9º PELO ART. 1º DO DECRETO Nº 10.904, DE 07.05.26 - vIGÊNCIA: 07.05.26",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_240",
+      "indice_paragrafo": 10817,
+      "texto": "CONFERIDA NOVA REDAÇÃO ao caput da ALÍNEA “b” DO INCISO iI DO ART. 2º pelo ART. 1º DO DECRETO Nº 6.769, DE 30.07.08 - vigência: 01.08.08.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_241",
+      "indice_paragrafo": 10938,
+      "texto": "ACRESCIDO O INCISO IX AO ART. 11 PELO ART. 2º DO DECRETO Nº 4.954, DE 22.09.98 - vigência: 01.06.98.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_243",
+      "indice_paragrafo": 10972,
+      "texto": "REVOGADO O ITEM 2 DA ALÍNEA \"C\" DO INCISO XIII DO ART. 11 PELO ART. 2º DO DECRETO Nº 9.822 - VIGÊNCIA: 01.01.21",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_243",
+      "indice_paragrafo": 10977,
+      "texto": "ACRESCIDO O INCISO XI AO ART. 11 PELO ART. 10 DO DECRETO Nº 4.988, DE 29.12.98 - vigência: 30.12.98.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_245",
+      "indice_paragrafo": 11052,
+      "texto": "ACRESCIDO O INCISO XIV AO ART. 11 PELO ART. 2º DO DECRETO Nº 5.157, DE 29.12.99 - vigência: 30.12.99.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_246",
+      "indice_paragrafo": 11131,
+      "texto": "ACRESCIDO O INCISO XVI AO ART. 11 PELO ART. 2º DO DECRETO Nº 5.175. DE 28.02.00 - vigência: 01.03.00.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_247",
+      "indice_paragrafo": 11191,
+      "texto": "ACRESCIDO O INCISO XIX AO ART. 11 PELO ART. 1º DO DECRETO Nº 5.272. DE 22.08.00 - vigência: 01.08.00.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_248",
+      "indice_paragrafo": 11211,
+      "texto": "ACRESCIDO O INCISO XX AO ART. 11 PELO ART. 2º DO DECRETO Nº 5.349, DE 29.12.00 - vigência: 08.01.01.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_249",
+      "indice_paragrafo": 11442,
+      "texto": "ACRESCIDO O INCISO XXIV AO ART. 11 PELO ART. 1º DO DECRETO Nº 5.339, DE 15.12.00 - vigência: 21.12.00.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_250",
+      "indice_paragrafo": 11518,
+      "texto": "ACRESCIDO O INCISO XXVI AO ART. 11 PELO ART. 2º DO DECRETO Nº 5.416, DE 26.04.01 - vigência: 01.01.01.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_252",
+      "indice_paragrafo": 11695,
+      "texto": "ACRESCIDO O INCISO XXVII AO ART. 11 PELO ART. 1º DO DECRETO Nº 5.453, DE 19.07.01 - vigência: 23.07.01.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_253",
+      "indice_paragrafo": 11764,
+      "texto": "ACRESCIDO O INCISO XXVIII aO art. 11 PELO ART. 2º DO DECRETO Nº 5.587, DE 16.04.02 - vigência: 22.04.02.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_254",
+      "indice_paragrafo": 11767,
+      "texto": "ACRESCIDO O INCISO XXIX AO ART. 11 PELO ART. 2º DO DECRETO Nº 5.651, DE 06.09.02 - vigência: 01.03.02.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_255",
+      "indice_paragrafo": 11858,
+      "texto": "ACRESCIDO O INCISO XXXI-A AO ART. 11 PELO ART. 2º DO DECRETO Nº 10.201, DE 19.01.23 - VIGÊNCIA: 19.01.23.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_256",
+      "indice_paragrafo": 11882,
+      "texto": "ACRESCIDO O INCISO XXXII AO ART. 11 PELO ART. 1º DO DECRETO Nº 5.834, DE 30.09.03 - vigência: 30.09.03.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_257",
+      "indice_paragrafo": 11906,
+      "texto": "acrescido o inciso xxxiii ao art. 11 pelo art. 1º do decreto nº 5.834, de 30.09.03 - vigência: 30.09.03.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_258",
+      "indice_paragrafo": 11997,
+      "texto": "ACRESCIDO O INCISO XXXV AO ART. 11 PELO ART. 1º DO DECRETO Nº 5.834, DE 30.09.03 - vigência: 30.09.03.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_259",
+      "indice_paragrafo": 12032,
+      "texto": "acrescido o inciso xxxvi ao art. 11 pelo art. 1º do decreto nº 5.834, de 30.09.03 - vigência: 30.09.03.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_260",
+      "indice_paragrafo": 12180,
+      "texto": "ACRESCIDO O INCISO XLI AO ART. 11 PELO ART. 1º DO DECRETO Nº 6.179, DE 24.06.05 - vigência: 01.07.05.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_261",
+      "indice_paragrafo": 12195,
+      "texto": "ACRESCIDO O INCISO XLII AO ART. 11 PELO ART. 1º DO DECRETO Nº 6.179, DE 24.06.05 - vigência: 01.07.05.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_266",
+      "indice_paragrafo": 12337,
+      "texto": "ACRESCIDO O INCISO lvI AO ART. 11 PELO ART. 1º DO DECRETO Nº 7.027, DE 18.11.09 - vigência: 27.11.09.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_267",
+      "indice_paragrafo": 12340,
+      "texto": "ACRESCIDO O INCISO LVII AO ART. 11 pelo art. 1º dO DECRETO nº 7.095, de 20.04.10 - vigência: 26.04.10.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_268",
+      "indice_paragrafo": 12389,
+      "texto": "ACRESCIDO O INCISO LVII-a AO ART. 11 PELO ART. 3º DO DECRETO Nº 10.365 - VIGÊNCIA: 28.04.23",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_269",
+      "indice_paragrafo": 12396,
+      "texto": "ACRESCIDO O INCISO LVIII AO ART. 11 pelo art. 1º dO DECRETO nº 7.095, de 20.04.10 - vigência: 26.04.10.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_271",
+      "indice_paragrafo": 12487,
+      "texto": "ACRESCIDO O INCISO LX-A AO ART. 11 PELO ART. 2º DO DECRETO Nº 10.201, DE 19.01.23 - VIGÊNCIA: 19.01.23.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_272",
+      "indice_paragrafo": 12499,
+      "texto": "ACRESCIDO O INCISO LXI AO ART. 11 PELO ART. 1º DO DECRETO Nº 7.526/11-GSF, de 28.12.11 - vigência: 28.12.11.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_282",
+      "indice_paragrafo": 12693,
+      "texto": "ACRESCIDO O INCISO LXXVI AO ART. 11 PELO ART. 2º DO DECRETO Nº 10.201, DE 19.01.23 - VIGÊNCIA: 19.01.23.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_283",
+      "indice_paragrafo": 12721,
+      "texto": "ACRESCIDO O INCISO LXXVII AO ART. 11 PELO ART. 1º DO DECRETO Nº 10.227, DE 28.02.23 - vigência: 28.02.23.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_284",
+      "indice_paragrafo": 12738,
+      "texto": "ACRESCIDO O INCISO LXXVIII AO ART. 11 PELO ART. 2º DO DECRETO Nº 10.457, DE 25.04.24 - VIGÊNCIA: 25.04.24.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_285",
+      "indice_paragrafo": 12764,
+      "texto": "ACRESCIDO O INCISO LXXIX AO ART. 11 PELO PELO ART. 1º DO DECRETO Nº 10.712, DE 16.06.25 - VIGÊNCIA: 17.06.25.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_286",
+      "indice_paragrafo": 12776,
+      "texto": "ACRESCIDO O INCISO LXXX AO ART. 11 PELO PELO ART. 1º DO DECRETO Nº 10.727, DE 09.07.25 - VIGÊNCIA: 09.07.25.",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_294",
+      "indice_paragrafo": 14078,
+      "texto": "ACRESCIDO O INCISO XVII AO ART. 12 PELO ART. 1º DO DECRETO Nº 9.439 - VIGÊNCIA: 01.01.19",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_295",
+      "indice_paragrafo": 14081,
+      "texto": "ACRESCIDO O INCISO XVIII AO ART. 12 PELO ART. 1º DO dECRETO Nº 9.450, DE 10.16.19 - VIGÊNCIA: 11.06.19",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    },
+    {
+      "id": "OP_296",
+      "indice_paragrafo": 14098,
+      "texto": "ACRESCIDO O INCISO XIX AO ART. 12 PELO ART. 1º DO dECRETO Nº 9.996, DE 02.12.21 - VIGÊNCIA: 02.12.21",
+      "motivo": "Anotação de alteração de outro inciso; retirada da associação ao dispositivo atual."
+    }
+  ],
+  "propostas_ncm_sem_alteracao": true,
+  "hash_propostas_ncm": "cca8f55bafd786acd14c58536b8fdfe9fb76dc843212291c89dba7bccc4f3c07",
+  "gerador_original": "A rotina revisar_beneficios_restantes.py representa a extração anterior; não regenerar os artefatos a partir dela sem incorporar este saneamento posterior."
+}
