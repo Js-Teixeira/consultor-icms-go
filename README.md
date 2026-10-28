@@ -31,6 +31,12 @@ Os registros de legislação e os tratamentos fiscais são consultados, mas **n�
 
 ## Atenção ao uso fiscal
 
+O estado atual, seus testes e limites estão em [Conclusão das pendências de 28/10/2026](docs/conclusao_pendencias_20261028.md). A [conferência da carga inicial](docs/finalizacao_20261028.md) preserva a etapa anterior.
+
+O acompanhamento semanal de fontes e o comando de leitura de vencimentos estão em [Rotina de atualização](docs/rotina_atualizacao.md). A análise dos oito vínculos sem percentual demonstrado e as versões anteriores/posteriores estão em [Revisão dos oito códigos](revisao/suspensao_oito_20261028.json).
+
+Para examinar o catálogo completo e preparar candidatos aos 12% sem alterar o banco, veja [Revisão integral do catálogo](docs/cobertura_12.md). O lote gerado depende de revisão fiscal e não alimenta automaticamente a consulta pública.
+
 **Encontrar um NCM não significa que a alíquota ou o benefício se aplica automaticamente à mercadoria.** Operação, descrição do produto, vigência, fundamento e demais requisitos legais precisam ser conferidos.
 
 Quando houver regras conflitantes, dados incompletos ou condições não verificadas, o consultor informa a pendência em vez de escolher uma regra por conta própria. A consulta é um apoio à análise fiscal, não substitui a legislação nem a revisão do responsável.

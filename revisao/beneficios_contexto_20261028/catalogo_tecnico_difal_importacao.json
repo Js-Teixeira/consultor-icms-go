@@ -1,0 +1,1110 @@
+{
+  "natureza": "CATALOGO_TECNICO_FORA_DA_CONSULTA_INTERNA_POR_NCM",
+  "operacoes": [
+    {
+      "id_proposta": "PROP_BEN_20261028_GO_A9_ART30__72131000",
+      "template_id_origem": "GO_A9_ART30_",
+      "id_legislacao_existente": null,
+      "fonte_existente_encontrada": false,
+      "ncm": "72131000",
+      "descricao_oficial": "Fio-máquina de ferro ou aço não ligado — Dentados, com nervuras, sulcos (entalhes) ou relevos, obtidos durante a laminagem",
+      "tipo_beneficio": "DIFERIMENTO",
+      "percentual_carga_efetiva": null,
+      "percentual_reducao_bc": null,
+      "credito_outorgado_percentual": null,
+      "dispositivo": "RCTE/GO, Anexo IX, art. 30",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "trecho_legal_template": "Art. 30. Fica diferido o pagamento do ICMS relativo ao diferencial de alíquotas devido na aquisição interestadual e ao imposto devido na importação de máquinas, equipamentos e materiais, sem similar nacional, relacionados no Apêndice LV deste Anexo, destinados à captação, à geração e à transmissão de energia solar ou eólica, bem como à geração de energia a partir de biogás, incorporadas ao ativo imobilizado dos estabelecimentos geradores instalados neste Estado (Convênio ICMS 109/14).\n§ 1º A utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia, no qual devem ser estabelecidas as condições para a fruição.\n§ 2º O imposto diferido relativo às operações de que trata o caput deste artigo deve ser pago, acrescido de juros de mora, no momento da desincorporação dos bens do ativo imobilizado ou até 31 de dezembro de 2032, o que ocorrer primeiro.\n§ 3º Implica perda do diferimento a destinação das mercadorias beneficiadas com o diferimento para outro contribuinte goiano ou para outra unidade da Federação, a qualquer título, hipótese em que o valor do ICMS diferido será exigido com juros de mora e demais acréscimos legais, conforme dispuser a legislação tributária, contados desde a entrada das mercadorias no estabelecimento.\n§ 4º A ausência de similaridade deve ser comprovada com laudo de entidade de abrangência nacional representativa do setor produtivo das mercadorias relacionadas no Apêndice LV deste Anexo ou de órgão federal competente.\n§ 5º O diferimento do imposto:\nI - não se estende à prestação de serviço de transporte, relacionada com as operações envolvendo as mercadorias;\nII - não se aplica a mercadorias sujeitas ao regime de substituição tributária; e\nIII - não autoriza restituição ou compensação de importância já paga.",
+      "vigencia_inicio_dispositivo_ou_template": "2024-11-18",
+      "vigencia_fim": null,
+      "vigencia_inicio_cadastro_proposto": "2026-10-28",
+      "aplicacao_automatica": "NAO",
+      "status": "CANDIDATO_CONDICIONAL_PARA_VALIDACAO",
+      "escopo_operacao": "AQUISICAO_INTERESTADUAL_DIFAL_OU_IMPORTACAO",
+      "cbenef": null,
+      "cbenef_fonte": null,
+      "cbenef_trecho_oficial": null,
+      "condicoes_gerais": [
+        "Máquinas/equipamentos/materiais sem similar nacional do Apêndice LV.",
+        "Captação, geração ou transmissão solar/eólica ou geração a partir de biogás; incorporação ao ativo de gerador instalado em Goiás.",
+        "TARE obrigatório; laudo de ausência de similar por entidade nacional representativa ou órgão federal.",
+        "Pagamento com juros na desincorporação ou até31/12/2032, o primeiro evento.",
+        "Destinação a outro contribuinte goiano ou outra UF implica perda e cobrança com juros e acréscimos desde a entrada.",
+        "Não alcança transporte nem mercadorias em substituição tributária; não autoriza restituição/compensação.",
+        "Não apresentar como isenção nem como redução aplicável à saída interna ordinária.",
+        "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis."
+      ],
+      "rotas_legais_alternativas": [
+        {
+          "item": "1",
+          "apendice": "LV",
+          "codigo_legal": "7213.10.00",
+          "descricao_legal": "Fio-máquina de ferro ou aço não ligado dentados, com nervuras, sulcos (entalhes) ou relevos, obtidos durante a laminagem",
+          "trecho_legal_item": "Fio-máquina de ferro ou aço não ligado dentados, com nervuras, sulcos (entalhes) ou relevos, obtidos durante a laminagem",
+          "fontes_complementares": [
+            "GO_D10579_2024"
+          ],
+          "restricoes": [
+            "Somente DIFAL da aquisição interestadual OU imposto da importação; não é desoneração da saída interna ordinária.",
+            "Contribuinte deve apresentar TARE vigente individual, laudo de ausência de similar nacional e comprovação de ativo imobilizado de gerador emGO.",
+            "Não há perdão: imposto acrescido de juros na desincorporação ou até31/12/2032, o que ocorrer primeiro; conferir perda pelo§3º."
+          ],
+          "tipo_correspondencia": "CODIGO_LITERAL_ATIVO_CONTEXTO_DIFAL_IMPORTACAO",
+          "vigencia_inicio_correspondencia": "2024-11-18"
+        }
+      ],
+      "modo_avaliacao": "AO_MENOS_UMA_ROTA_LEGAL_E_TODAS_AS_CONDICOES_GERAIS",
+      "destino_da_proposta": "CATALOGO_OPERACIONAL_CONTEXTUAL_SE_DISPONIVEL",
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "fundamento_catalogo_tecnico": {
+        "id_template": "GO_A9_ART30_",
+        "dispositivo": "RCTE/GO, Anexo IX, art. 30",
+        "texto_relevante": "Art. 30. Fica diferido o pagamento do ICMS relativo ao diferencial de alíquotas devido na aquisição interestadual e ao imposto devido na importação de máquinas, equipamentos e materiais, sem similar nacional, relacionados no Apêndice LV deste Anexo, destinados à captação, à geração e à transmissão de energia solar ou eólica, bem como à geração de energia a partir de biogás, incorporadas ao ativo imobilizado dos estabelecimentos geradores instalados neste Estado (Convênio ICMS 109/14).\n§ 1º A utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia, no qual devem ser estabelecidas as condições para a fruição.\n§ 2º O imposto diferido relativo às operações de que trata o caput deste artigo deve ser pago, acrescido de juros de mora, no momento da desincorporação dos bens do ativo imobilizado ou até 31 de dezembro de 2032, o que ocorrer primeiro.\n§ 3º Implica perda do diferimento a destinação das mercadorias beneficiadas com o diferimento para outro contribuinte goiano ou para outra unidade da Federação, a qualquer título, hipótese em que o valor do ICMS diferido será exigido com juros de mora e demais acréscimos legais, conforme dispuser a legislação tributária, contados desde a entrada das mercadorias no estabelecimento.\n§ 4º A ausência de similaridade deve ser comprovada com laudo de entidade de abrangência nacional representativa do setor produtivo das mercadorias relacionadas no Apêndice LV deste Anexo ou de órgão federal competente.\n§ 5º O diferimento do imposto:\nI - não se estende à prestação de serviço de transporte, relacionada com as operações envolvendo as mercadorias;\nII - não se aplica a mercadorias sujeitas ao regime de substituição tributária; e\nIII - não autoriza restituição ou compensação de importância já paga.",
+        "url_fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+        "vigencia_inicio": "2024-11-18",
+        "vigencia_fim": null,
+        "nao_inserir_em_producao_nesta_etapa": true
+      }
+    },
+    {
+      "id_proposta": "PROP_BEN_20261028_GO_A9_ART30__72142000",
+      "template_id_origem": "GO_A9_ART30_",
+      "id_legislacao_existente": null,
+      "fonte_existente_encontrada": false,
+      "ncm": "72142000",
+      "descricao_oficial": "Barras de ferro ou aço não ligado, simplesmente forjadas, laminadas, estiradas ou extrudadas, a quente, incluindo as que tenham sido submetidas a torção após laminagem — Dentadas, com nervuras, sulcos (entalhes) ou relevos, obtidos durante a laminagem, ou torcidas após laminagem",
+      "tipo_beneficio": "DIFERIMENTO",
+      "percentual_carga_efetiva": null,
+      "percentual_reducao_bc": null,
+      "credito_outorgado_percentual": null,
+      "dispositivo": "RCTE/GO, Anexo IX, art. 30",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "trecho_legal_template": "Art. 30. Fica diferido o pagamento do ICMS relativo ao diferencial de alíquotas devido na aquisição interestadual e ao imposto devido na importação de máquinas, equipamentos e materiais, sem similar nacional, relacionados no Apêndice LV deste Anexo, destinados à captação, à geração e à transmissão de energia solar ou eólica, bem como à geração de energia a partir de biogás, incorporadas ao ativo imobilizado dos estabelecimentos geradores instalados neste Estado (Convênio ICMS 109/14).\n§ 1º A utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia, no qual devem ser estabelecidas as condições para a fruição.\n§ 2º O imposto diferido relativo às operações de que trata o caput deste artigo deve ser pago, acrescido de juros de mora, no momento da desincorporação dos bens do ativo imobilizado ou até 31 de dezembro de 2032, o que ocorrer primeiro.\n§ 3º Implica perda do diferimento a destinação das mercadorias beneficiadas com o diferimento para outro contribuinte goiano ou para outra unidade da Federação, a qualquer título, hipótese em que o valor do ICMS diferido será exigido com juros de mora e demais acréscimos legais, conforme dispuser a legislação tributária, contados desde a entrada das mercadorias no estabelecimento.\n§ 4º A ausência de similaridade deve ser comprovada com laudo de entidade de abrangência nacional representativa do setor produtivo das mercadorias relacionadas no Apêndice LV deste Anexo ou de órgão federal competente.\n§ 5º O diferimento do imposto:\nI - não se estende à prestação de serviço de transporte, relacionada com as operações envolvendo as mercadorias;\nII - não se aplica a mercadorias sujeitas ao regime de substituição tributária; e\nIII - não autoriza restituição ou compensação de importância já paga.",
+      "vigencia_inicio_dispositivo_ou_template": "2024-11-18",
+      "vigencia_fim": null,
+      "vigencia_inicio_cadastro_proposto": "2026-10-28",
+      "aplicacao_automatica": "NAO",
+      "status": "CANDIDATO_CONDICIONAL_PARA_VALIDACAO",
+      "escopo_operacao": "AQUISICAO_INTERESTADUAL_DIFAL_OU_IMPORTACAO",
+      "cbenef": null,
+      "cbenef_fonte": null,
+      "cbenef_trecho_oficial": null,
+      "condicoes_gerais": [
+        "Máquinas/equipamentos/materiais sem similar nacional do Apêndice LV.",
+        "Captação, geração ou transmissão solar/eólica ou geração a partir de biogás; incorporação ao ativo de gerador instalado em Goiás.",
+        "TARE obrigatório; laudo de ausência de similar por entidade nacional representativa ou órgão federal.",
+        "Pagamento com juros na desincorporação ou até31/12/2032, o primeiro evento.",
+        "Destinação a outro contribuinte goiano ou outra UF implica perda e cobrança com juros e acréscimos desde a entrada.",
+        "Não alcança transporte nem mercadorias em substituição tributária; não autoriza restituição/compensação.",
+        "Não apresentar como isenção nem como redução aplicável à saída interna ordinária.",
+        "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis."
+      ],
+      "rotas_legais_alternativas": [
+        {
+          "item": "2",
+          "apendice": "LV",
+          "codigo_legal": "7214.20.00",
+          "descricao_legal": "Barras de ferro ou aço não ligado simplesmente forjadas, laminadas, estiradas ou extrudadas, a quente, dentadas, com nervuras, sulcos (entalhes) ou relevos, obtidos durante a laminagem, ou torcidas após laminagem",
+          "trecho_legal_item": "Barras de ferro ou aço não ligado simplesmente forjadas, laminadas, estiradas ou extrudadas, a quente, dentadas, com nervuras, sulcos (entalhes) ou relevos, obtidos durante a laminagem, ou torcidas após laminagem",
+          "fontes_complementares": [
+            "GO_D10579_2024"
+          ],
+          "restricoes": [
+            "Somente DIFAL da aquisição interestadual OU imposto da importação; não é desoneração da saída interna ordinária.",
+            "Contribuinte deve apresentar TARE vigente individual, laudo de ausência de similar nacional e comprovação de ativo imobilizado de gerador emGO.",
+            "Não há perdão: imposto acrescido de juros na desincorporação ou até31/12/2032, o que ocorrer primeiro; conferir perda pelo§3º."
+          ],
+          "tipo_correspondencia": "CODIGO_LITERAL_ATIVO_CONTEXTO_DIFAL_IMPORTACAO",
+          "vigencia_inicio_correspondencia": "2024-11-18"
+        }
+      ],
+      "modo_avaliacao": "AO_MENOS_UMA_ROTA_LEGAL_E_TODAS_AS_CONDICOES_GERAIS",
+      "destino_da_proposta": "CATALOGO_OPERACIONAL_CONTEXTUAL_SE_DISPONIVEL",
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "fundamento_catalogo_tecnico": {
+        "id_template": "GO_A9_ART30_",
+        "dispositivo": "RCTE/GO, Anexo IX, art. 30",
+        "texto_relevante": "Art. 30. Fica diferido o pagamento do ICMS relativo ao diferencial de alíquotas devido na aquisição interestadual e ao imposto devido na importação de máquinas, equipamentos e materiais, sem similar nacional, relacionados no Apêndice LV deste Anexo, destinados à captação, à geração e à transmissão de energia solar ou eólica, bem como à geração de energia a partir de biogás, incorporadas ao ativo imobilizado dos estabelecimentos geradores instalados neste Estado (Convênio ICMS 109/14).\n§ 1º A utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia, no qual devem ser estabelecidas as condições para a fruição.\n§ 2º O imposto diferido relativo às operações de que trata o caput deste artigo deve ser pago, acrescido de juros de mora, no momento da desincorporação dos bens do ativo imobilizado ou até 31 de dezembro de 2032, o que ocorrer primeiro.\n§ 3º Implica perda do diferimento a destinação das mercadorias beneficiadas com o diferimento para outro contribuinte goiano ou para outra unidade da Federação, a qualquer título, hipótese em que o valor do ICMS diferido será exigido com juros de mora e demais acréscimos legais, conforme dispuser a legislação tributária, contados desde a entrada das mercadorias no estabelecimento.\n§ 4º A ausência de similaridade deve ser comprovada com laudo de entidade de abrangência nacional representativa do setor produtivo das mercadorias relacionadas no Apêndice LV deste Anexo ou de órgão federal competente.\n§ 5º O diferimento do imposto:\nI - não se estende à prestação de serviço de transporte, relacionada com as operações envolvendo as mercadorias;\nII - não se aplica a mercadorias sujeitas ao regime de substituição tributária; e\nIII - não autoriza restituição ou compensação de importância já paga.",
+        "url_fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+        "vigencia_inicio": "2024-11-18",
+        "vigencia_fim": null,
+        "nao_inserir_em_producao_nesta_etapa": true
+      }
+    },
+    {
+      "id_proposta": "PROP_BEN_20261028_GO_A9_ART30__72155000",
+      "template_id_origem": "GO_A9_ART30_",
+      "id_legislacao_existente": null,
+      "fonte_existente_encontrada": false,
+      "ncm": "72155000",
+      "descricao_oficial": "Outras barras de ferro ou aço não ligado — Outras, simplesmente obtidas ou completamente acabadas a frio",
+      "tipo_beneficio": "DIFERIMENTO",
+      "percentual_carga_efetiva": null,
+      "percentual_reducao_bc": null,
+      "credito_outorgado_percentual": null,
+      "dispositivo": "RCTE/GO, Anexo IX, art. 30",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "trecho_legal_template": "Art. 30. Fica diferido o pagamento do ICMS relativo ao diferencial de alíquotas devido na aquisição interestadual e ao imposto devido na importação de máquinas, equipamentos e materiais, sem similar nacional, relacionados no Apêndice LV deste Anexo, destinados à captação, à geração e à transmissão de energia solar ou eólica, bem como à geração de energia a partir de biogás, incorporadas ao ativo imobilizado dos estabelecimentos geradores instalados neste Estado (Convênio ICMS 109/14).\n§ 1º A utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia, no qual devem ser estabelecidas as condições para a fruição.\n§ 2º O imposto diferido relativo às operações de que trata o caput deste artigo deve ser pago, acrescido de juros de mora, no momento da desincorporação dos bens do ativo imobilizado ou até 31 de dezembro de 2032, o que ocorrer primeiro.\n§ 3º Implica perda do diferimento a destinação das mercadorias beneficiadas com o diferimento para outro contribuinte goiano ou para outra unidade da Federação, a qualquer título, hipótese em que o valor do ICMS diferido será exigido com juros de mora e demais acréscimos legais, conforme dispuser a legislação tributária, contados desde a entrada das mercadorias no estabelecimento.\n§ 4º A ausência de similaridade deve ser comprovada com laudo de entidade de abrangência nacional representativa do setor produtivo das mercadorias relacionadas no Apêndice LV deste Anexo ou de órgão federal competente.\n§ 5º O diferimento do imposto:\nI - não se estende à prestação de serviço de transporte, relacionada com as operações envolvendo as mercadorias;\nII - não se aplica a mercadorias sujeitas ao regime de substituição tributária; e\nIII - não autoriza restituição ou compensação de importância já paga.",
+      "vigencia_inicio_dispositivo_ou_template": "2024-11-18",
+      "vigencia_fim": null,
+      "vigencia_inicio_cadastro_proposto": "2026-10-28",
+      "aplicacao_automatica": "NAO",
+      "status": "CANDIDATO_CONDICIONAL_PARA_VALIDACAO",
+      "escopo_operacao": "AQUISICAO_INTERESTADUAL_DIFAL_OU_IMPORTACAO",
+      "cbenef": null,
+      "cbenef_fonte": null,
+      "cbenef_trecho_oficial": null,
+      "condicoes_gerais": [
+        "Máquinas/equipamentos/materiais sem similar nacional do Apêndice LV.",
+        "Captação, geração ou transmissão solar/eólica ou geração a partir de biogás; incorporação ao ativo de gerador instalado em Goiás.",
+        "TARE obrigatório; laudo de ausência de similar por entidade nacional representativa ou órgão federal.",
+        "Pagamento com juros na desincorporação ou até31/12/2032, o primeiro evento.",
+        "Destinação a outro contribuinte goiano ou outra UF implica perda e cobrança com juros e acréscimos desde a entrada.",
+        "Não alcança transporte nem mercadorias em substituição tributária; não autoriza restituição/compensação.",
+        "Não apresentar como isenção nem como redução aplicável à saída interna ordinária.",
+        "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis."
+      ],
+      "rotas_legais_alternativas": [
+        {
+          "item": "3",
+          "apendice": "LV",
+          "codigo_legal": "7215.50.00",
+          "descricao_legal": "Outras barras de ferro ou aço não ligado simplesmente obtidas ou completamente acabadas a frio",
+          "trecho_legal_item": "Outras barras de ferro ou aço não ligado simplesmente obtidas ou completamente acabadas a frio",
+          "fontes_complementares": [
+            "GO_D10579_2024"
+          ],
+          "restricoes": [
+            "Somente DIFAL da aquisição interestadual OU imposto da importação; não é desoneração da saída interna ordinária.",
+            "Contribuinte deve apresentar TARE vigente individual, laudo de ausência de similar nacional e comprovação de ativo imobilizado de gerador emGO.",
+            "Não há perdão: imposto acrescido de juros na desincorporação ou até31/12/2032, o que ocorrer primeiro; conferir perda pelo§3º."
+          ],
+          "tipo_correspondencia": "CODIGO_LITERAL_ATIVO_CONTEXTO_DIFAL_IMPORTACAO",
+          "vigencia_inicio_correspondencia": "2024-11-18"
+        }
+      ],
+      "modo_avaliacao": "AO_MENOS_UMA_ROTA_LEGAL_E_TODAS_AS_CONDICOES_GERAIS",
+      "destino_da_proposta": "CATALOGO_OPERACIONAL_CONTEXTUAL_SE_DISPONIVEL",
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "fundamento_catalogo_tecnico": {
+        "id_template": "GO_A9_ART30_",
+        "dispositivo": "RCTE/GO, Anexo IX, art. 30",
+        "texto_relevante": "Art. 30. Fica diferido o pagamento do ICMS relativo ao diferencial de alíquotas devido na aquisição interestadual e ao imposto devido na importação de máquinas, equipamentos e materiais, sem similar nacional, relacionados no Apêndice LV deste Anexo, destinados à captação, à geração e à transmissão de energia solar ou eólica, bem como à geração de energia a partir de biogás, incorporadas ao ativo imobilizado dos estabelecimentos geradores instalados neste Estado (Convênio ICMS 109/14).\n§ 1º A utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia, no qual devem ser estabelecidas as condições para a fruição.\n§ 2º O imposto diferido relativo às operações de que trata o caput deste artigo deve ser pago, acrescido de juros de mora, no momento da desincorporação dos bens do ativo imobilizado ou até 31 de dezembro de 2032, o que ocorrer primeiro.\n§ 3º Implica perda do diferimento a destinação das mercadorias beneficiadas com o diferimento para outro contribuinte goiano ou para outra unidade da Federação, a qualquer título, hipótese em que o valor do ICMS diferido será exigido com juros de mora e demais acréscimos legais, conforme dispuser a legislação tributária, contados desde a entrada das mercadorias no estabelecimento.\n§ 4º A ausência de similaridade deve ser comprovada com laudo de entidade de abrangência nacional representativa do setor produtivo das mercadorias relacionadas no Apêndice LV deste Anexo ou de órgão federal competente.\n§ 5º O diferimento do imposto:\nI - não se estende à prestação de serviço de transporte, relacionada com as operações envolvendo as mercadorias;\nII - não se aplica a mercadorias sujeitas ao regime de substituição tributária; e\nIII - não autoriza restituição ou compensação de importância já paga.",
+        "url_fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+        "vigencia_inicio": "2024-11-18",
+        "vigencia_fim": null,
+        "nao_inserir_em_producao_nesta_etapa": true
+      }
+    },
+    {
+      "id_proposta": "PROP_BEN_20261028_GO_A9_ART30__39172100",
+      "template_id_origem": "GO_A9_ART30_",
+      "id_legislacao_existente": null,
+      "fonte_existente_encontrada": false,
+      "ncm": "39172100",
+      "descricao_oficial": "Tubos rígidos — De polímeros de etileno",
+      "tipo_beneficio": "DIFERIMENTO",
+      "percentual_carga_efetiva": null,
+      "percentual_reducao_bc": null,
+      "credito_outorgado_percentual": null,
+      "dispositivo": "RCTE/GO, Anexo IX, art. 30",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "trecho_legal_template": "Art. 30. Fica diferido o pagamento do ICMS relativo ao diferencial de alíquotas devido na aquisição interestadual e ao imposto devido na importação de máquinas, equipamentos e materiais, sem similar nacional, relacionados no Apêndice LV deste Anexo, destinados à captação, à geração e à transmissão de energia solar ou eólica, bem como à geração de energia a partir de biogás, incorporadas ao ativo imobilizado dos estabelecimentos geradores instalados neste Estado (Convênio ICMS 109/14).\n§ 1º A utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia, no qual devem ser estabelecidas as condições para a fruição.\n§ 2º O imposto diferido relativo às operações de que trata o caput deste artigo deve ser pago, acrescido de juros de mora, no momento da desincorporação dos bens do ativo imobilizado ou até 31 de dezembro de 2032, o que ocorrer primeiro.\n§ 3º Implica perda do diferimento a destinação das mercadorias beneficiadas com o diferimento para outro contribuinte goiano ou para outra unidade da Federação, a qualquer título, hipótese em que o valor do ICMS diferido será exigido com juros de mora e demais acréscimos legais, conforme dispuser a legislação tributária, contados desde a entrada das mercadorias no estabelecimento.\n§ 4º A ausência de similaridade deve ser comprovada com laudo de entidade de abrangência nacional representativa do setor produtivo das mercadorias relacionadas no Apêndice LV deste Anexo ou de órgão federal competente.\n§ 5º O diferimento do imposto:\nI - não se estende à prestação de serviço de transporte, relacionada com as operações envolvendo as mercadorias;\nII - não se aplica a mercadorias sujeitas ao regime de substituição tributária; e\nIII - não autoriza restituição ou compensação de importância já paga.",
+      "vigencia_inicio_dispositivo_ou_template": "2024-11-18",
+      "vigencia_fim": null,
+      "vigencia_inicio_cadastro_proposto": "2026-10-28",
+      "aplicacao_automatica": "NAO",
+      "status": "CANDIDATO_CONDICIONAL_PARA_VALIDACAO",
+      "escopo_operacao": "AQUISICAO_INTERESTADUAL_DIFAL_OU_IMPORTACAO",
+      "cbenef": null,
+      "cbenef_fonte": null,
+      "cbenef_trecho_oficial": null,
+      "condicoes_gerais": [
+        "Máquinas/equipamentos/materiais sem similar nacional do Apêndice LV.",
+        "Captação, geração ou transmissão solar/eólica ou geração a partir de biogás; incorporação ao ativo de gerador instalado em Goiás.",
+        "TARE obrigatório; laudo de ausência de similar por entidade nacional representativa ou órgão federal.",
+        "Pagamento com juros na desincorporação ou até31/12/2032, o primeiro evento.",
+        "Destinação a outro contribuinte goiano ou outra UF implica perda e cobrança com juros e acréscimos desde a entrada.",
+        "Não alcança transporte nem mercadorias em substituição tributária; não autoriza restituição/compensação.",
+        "Não apresentar como isenção nem como redução aplicável à saída interna ordinária.",
+        "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis."
+      ],
+      "rotas_legais_alternativas": [
+        {
+          "item": "4",
+          "apendice": "LV",
+          "codigo_legal": "3917.21.00",
+          "descricao_legal": "Tubos rígidos de polímeros de etileno",
+          "trecho_legal_item": "Tubos rígidos de polímeros de etileno",
+          "fontes_complementares": [
+            "GO_D10579_2024"
+          ],
+          "restricoes": [
+            "Somente DIFAL da aquisição interestadual OU imposto da importação; não é desoneração da saída interna ordinária.",
+            "Contribuinte deve apresentar TARE vigente individual, laudo de ausência de similar nacional e comprovação de ativo imobilizado de gerador emGO.",
+            "Não há perdão: imposto acrescido de juros na desincorporação ou até31/12/2032, o que ocorrer primeiro; conferir perda pelo§3º."
+          ],
+          "tipo_correspondencia": "CODIGO_LITERAL_ATIVO_CONTEXTO_DIFAL_IMPORTACAO",
+          "vigencia_inicio_correspondencia": "2024-11-18"
+        }
+      ],
+      "modo_avaliacao": "AO_MENOS_UMA_ROTA_LEGAL_E_TODAS_AS_CONDICOES_GERAIS",
+      "destino_da_proposta": "CATALOGO_OPERACIONAL_CONTEXTUAL_SE_DISPONIVEL",
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "fundamento_catalogo_tecnico": {
+        "id_template": "GO_A9_ART30_",
+        "dispositivo": "RCTE/GO, Anexo IX, art. 30",
+        "texto_relevante": "Art. 30. Fica diferido o pagamento do ICMS relativo ao diferencial de alíquotas devido na aquisição interestadual e ao imposto devido na importação de máquinas, equipamentos e materiais, sem similar nacional, relacionados no Apêndice LV deste Anexo, destinados à captação, à geração e à transmissão de energia solar ou eólica, bem como à geração de energia a partir de biogás, incorporadas ao ativo imobilizado dos estabelecimentos geradores instalados neste Estado (Convênio ICMS 109/14).\n§ 1º A utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia, no qual devem ser estabelecidas as condições para a fruição.\n§ 2º O imposto diferido relativo às operações de que trata o caput deste artigo deve ser pago, acrescido de juros de mora, no momento da desincorporação dos bens do ativo imobilizado ou até 31 de dezembro de 2032, o que ocorrer primeiro.\n§ 3º Implica perda do diferimento a destinação das mercadorias beneficiadas com o diferimento para outro contribuinte goiano ou para outra unidade da Federação, a qualquer título, hipótese em que o valor do ICMS diferido será exigido com juros de mora e demais acréscimos legais, conforme dispuser a legislação tributária, contados desde a entrada das mercadorias no estabelecimento.\n§ 4º A ausência de similaridade deve ser comprovada com laudo de entidade de abrangência nacional representativa do setor produtivo das mercadorias relacionadas no Apêndice LV deste Anexo ou de órgão federal competente.\n§ 5º O diferimento do imposto:\nI - não se estende à prestação de serviço de transporte, relacionada com as operações envolvendo as mercadorias;\nII - não se aplica a mercadorias sujeitas ao regime de substituição tributária; e\nIII - não autoriza restituição ou compensação de importância já paga.",
+        "url_fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+        "vigencia_inicio": "2024-11-18",
+        "vigencia_fim": null,
+        "nao_inserir_em_producao_nesta_etapa": true
+      }
+    },
+    {
+      "id_proposta": "PROP_BEN_20261028_GO_A9_ART30__73269090",
+      "template_id_origem": "GO_A9_ART30_",
+      "id_legislacao_existente": null,
+      "fonte_existente_encontrada": false,
+      "ncm": "73269090",
+      "descricao_oficial": "Outras obras de ferro ou aço — Outras",
+      "tipo_beneficio": "DIFERIMENTO",
+      "percentual_carga_efetiva": null,
+      "percentual_reducao_bc": null,
+      "credito_outorgado_percentual": null,
+      "dispositivo": "RCTE/GO, Anexo IX, art. 30",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "trecho_legal_template": "Art. 30. Fica diferido o pagamento do ICMS relativo ao diferencial de alíquotas devido na aquisição interestadual e ao imposto devido na importação de máquinas, equipamentos e materiais, sem similar nacional, relacionados no Apêndice LV deste Anexo, destinados à captação, à geração e à transmissão de energia solar ou eólica, bem como à geração de energia a partir de biogás, incorporadas ao ativo imobilizado dos estabelecimentos geradores instalados neste Estado (Convênio ICMS 109/14).\n§ 1º A utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia, no qual devem ser estabelecidas as condições para a fruição.\n§ 2º O imposto diferido relativo às operações de que trata o caput deste artigo deve ser pago, acrescido de juros de mora, no momento da desincorporação dos bens do ativo imobilizado ou até 31 de dezembro de 2032, o que ocorrer primeiro.\n§ 3º Implica perda do diferimento a destinação das mercadorias beneficiadas com o diferimento para outro contribuinte goiano ou para outra unidade da Federação, a qualquer título, hipótese em que o valor do ICMS diferido será exigido com juros de mora e demais acréscimos legais, conforme dispuser a legislação tributária, contados desde a entrada das mercadorias no estabelecimento.\n§ 4º A ausência de similaridade deve ser comprovada com laudo de entidade de abrangência nacional representativa do setor produtivo das mercadorias relacionadas no Apêndice LV deste Anexo ou de órgão federal competente.\n§ 5º O diferimento do imposto:\nI - não se estende à prestação de serviço de transporte, relacionada com as operações envolvendo as mercadorias;\nII - não se aplica a mercadorias sujeitas ao regime de substituição tributária; e\nIII - não autoriza restituição ou compensação de importância já paga.",
+      "vigencia_inicio_dispositivo_ou_template": "2024-11-18",
+      "vigencia_fim": null,
+      "vigencia_inicio_cadastro_proposto": "2026-10-28",
+      "aplicacao_automatica": "NAO",
+      "status": "CANDIDATO_CONDICIONAL_PARA_VALIDACAO",
+      "escopo_operacao": "AQUISICAO_INTERESTADUAL_DIFAL_OU_IMPORTACAO",
+      "cbenef": null,
+      "cbenef_fonte": null,
+      "cbenef_trecho_oficial": null,
+      "condicoes_gerais": [
+        "Máquinas/equipamentos/materiais sem similar nacional do Apêndice LV.",
+        "Captação, geração ou transmissão solar/eólica ou geração a partir de biogás; incorporação ao ativo de gerador instalado em Goiás.",
+        "TARE obrigatório; laudo de ausência de similar por entidade nacional representativa ou órgão federal.",
+        "Pagamento com juros na desincorporação ou até31/12/2032, o primeiro evento.",
+        "Destinação a outro contribuinte goiano ou outra UF implica perda e cobrança com juros e acréscimos desde a entrada.",
+        "Não alcança transporte nem mercadorias em substituição tributária; não autoriza restituição/compensação.",
+        "Não apresentar como isenção nem como redução aplicável à saída interna ordinária.",
+        "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis."
+      ],
+      "rotas_legais_alternativas": [
+        {
+          "item": "5",
+          "apendice": "LV",
+          "codigo_legal": "7326.90.90",
+          "descricao_legal": "Outras obras de ferro ou aço",
+          "trecho_legal_item": "Outras obras de ferro ou aço",
+          "fontes_complementares": [
+            "GO_D10579_2024"
+          ],
+          "restricoes": [
+            "Somente DIFAL da aquisição interestadual OU imposto da importação; não é desoneração da saída interna ordinária.",
+            "Contribuinte deve apresentar TARE vigente individual, laudo de ausência de similar nacional e comprovação de ativo imobilizado de gerador emGO.",
+            "Não há perdão: imposto acrescido de juros na desincorporação ou até31/12/2032, o que ocorrer primeiro; conferir perda pelo§3º."
+          ],
+          "tipo_correspondencia": "CODIGO_LITERAL_ATIVO_CONTEXTO_DIFAL_IMPORTACAO",
+          "vigencia_inicio_correspondencia": "2024-11-18"
+        }
+      ],
+      "modo_avaliacao": "AO_MENOS_UMA_ROTA_LEGAL_E_TODAS_AS_CONDICOES_GERAIS",
+      "destino_da_proposta": "CATALOGO_OPERACIONAL_CONTEXTUAL_SE_DISPONIVEL",
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "fundamento_catalogo_tecnico": {
+        "id_template": "GO_A9_ART30_",
+        "dispositivo": "RCTE/GO, Anexo IX, art. 30",
+        "texto_relevante": "Art. 30. Fica diferido o pagamento do ICMS relativo ao diferencial de alíquotas devido na aquisição interestadual e ao imposto devido na importação de máquinas, equipamentos e materiais, sem similar nacional, relacionados no Apêndice LV deste Anexo, destinados à captação, à geração e à transmissão de energia solar ou eólica, bem como à geração de energia a partir de biogás, incorporadas ao ativo imobilizado dos estabelecimentos geradores instalados neste Estado (Convênio ICMS 109/14).\n§ 1º A utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia, no qual devem ser estabelecidas as condições para a fruição.\n§ 2º O imposto diferido relativo às operações de que trata o caput deste artigo deve ser pago, acrescido de juros de mora, no momento da desincorporação dos bens do ativo imobilizado ou até 31 de dezembro de 2032, o que ocorrer primeiro.\n§ 3º Implica perda do diferimento a destinação das mercadorias beneficiadas com o diferimento para outro contribuinte goiano ou para outra unidade da Federação, a qualquer título, hipótese em que o valor do ICMS diferido será exigido com juros de mora e demais acréscimos legais, conforme dispuser a legislação tributária, contados desde a entrada das mercadorias no estabelecimento.\n§ 4º A ausência de similaridade deve ser comprovada com laudo de entidade de abrangência nacional representativa do setor produtivo das mercadorias relacionadas no Apêndice LV deste Anexo ou de órgão federal competente.\n§ 5º O diferimento do imposto:\nI - não se estende à prestação de serviço de transporte, relacionada com as operações envolvendo as mercadorias;\nII - não se aplica a mercadorias sujeitas ao regime de substituição tributária; e\nIII - não autoriza restituição ou compensação de importância já paga.",
+        "url_fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+        "vigencia_inicio": "2024-11-18",
+        "vigencia_fim": null,
+        "nao_inserir_em_producao_nesta_etapa": true
+      }
+    },
+    {
+      "id_proposta": "PROP_BEN_20261028_GO_A9_ART30__74198090",
+      "template_id_origem": "GO_A9_ART30_",
+      "id_legislacao_existente": null,
+      "fonte_existente_encontrada": false,
+      "ncm": "74198090",
+      "descricao_oficial": "Outras obras de cobre — Outras",
+      "tipo_beneficio": "DIFERIMENTO",
+      "percentual_carga_efetiva": null,
+      "percentual_reducao_bc": null,
+      "credito_outorgado_percentual": null,
+      "dispositivo": "RCTE/GO, Anexo IX, art. 30",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "trecho_legal_template": "Art. 30. Fica diferido o pagamento do ICMS relativo ao diferencial de alíquotas devido na aquisição interestadual e ao imposto devido na importação de máquinas, equipamentos e materiais, sem similar nacional, relacionados no Apêndice LV deste Anexo, destinados à captação, à geração e à transmissão de energia solar ou eólica, bem como à geração de energia a partir de biogás, incorporadas ao ativo imobilizado dos estabelecimentos geradores instalados neste Estado (Convênio ICMS 109/14).\n§ 1º A utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia, no qual devem ser estabelecidas as condições para a fruição.\n§ 2º O imposto diferido relativo às operações de que trata o caput deste artigo deve ser pago, acrescido de juros de mora, no momento da desincorporação dos bens do ativo imobilizado ou até 31 de dezembro de 2032, o que ocorrer primeiro.\n§ 3º Implica perda do diferimento a destinação das mercadorias beneficiadas com o diferimento para outro contribuinte goiano ou para outra unidade da Federação, a qualquer título, hipótese em que o valor do ICMS diferido será exigido com juros de mora e demais acréscimos legais, conforme dispuser a legislação tributária, contados desde a entrada das mercadorias no estabelecimento.\n§ 4º A ausência de similaridade deve ser comprovada com laudo de entidade de abrangência nacional representativa do setor produtivo das mercadorias relacionadas no Apêndice LV deste Anexo ou de órgão federal competente.\n§ 5º O diferimento do imposto:\nI - não se estende à prestação de serviço de transporte, relacionada com as operações envolvendo as mercadorias;\nII - não se aplica a mercadorias sujeitas ao regime de substituição tributária; e\nIII - não autoriza restituição ou compensação de importância já paga.",
+      "vigencia_inicio_dispositivo_ou_template": "2024-11-18",
+      "vigencia_fim": null,
+      "vigencia_inicio_cadastro_proposto": "2026-10-28",
+      "aplicacao_automatica": "NAO",
+      "status": "CANDIDATO_CONDICIONAL_PARA_VALIDACAO",
+      "escopo_operacao": "AQUISICAO_INTERESTADUAL_DIFAL_OU_IMPORTACAO",
+      "cbenef": null,
+      "cbenef_fonte": null,
+      "cbenef_trecho_oficial": null,
+      "condicoes_gerais": [
+        "Máquinas/equipamentos/materiais sem similar nacional do Apêndice LV.",
+        "Captação, geração ou transmissão solar/eólica ou geração a partir de biogás; incorporação ao ativo de gerador instalado em Goiás.",
+        "TARE obrigatório; laudo de ausência de similar por entidade nacional representativa ou órgão federal.",
+        "Pagamento com juros na desincorporação ou até31/12/2032, o primeiro evento.",
+        "Destinação a outro contribuinte goiano ou outra UF implica perda e cobrança com juros e acréscimos desde a entrada.",
+        "Não alcança transporte nem mercadorias em substituição tributária; não autoriza restituição/compensação.",
+        "Não apresentar como isenção nem como redução aplicável à saída interna ordinária.",
+        "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis."
+      ],
+      "rotas_legais_alternativas": [
+        {
+          "item": "6",
+          "apendice": "LV",
+          "codigo_legal": "7419.80.90",
+          "descricao_legal": "Outras obras de cobre",
+          "trecho_legal_item": "Outras obras de cobre",
+          "fontes_complementares": [
+            "GO_D10579_2024"
+          ],
+          "restricoes": [
+            "Somente DIFAL da aquisição interestadual OU imposto da importação; não é desoneração da saída interna ordinária.",
+            "Contribuinte deve apresentar TARE vigente individual, laudo de ausência de similar nacional e comprovação de ativo imobilizado de gerador emGO.",
+            "Não há perdão: imposto acrescido de juros na desincorporação ou até31/12/2032, o que ocorrer primeiro; conferir perda pelo§3º."
+          ],
+          "tipo_correspondencia": "CODIGO_LITERAL_ATIVO_CONTEXTO_DIFAL_IMPORTACAO",
+          "vigencia_inicio_correspondencia": "2024-11-18"
+        }
+      ],
+      "modo_avaliacao": "AO_MENOS_UMA_ROTA_LEGAL_E_TODAS_AS_CONDICOES_GERAIS",
+      "destino_da_proposta": "CATALOGO_OPERACIONAL_CONTEXTUAL_SE_DISPONIVEL",
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "fundamento_catalogo_tecnico": {
+        "id_template": "GO_A9_ART30_",
+        "dispositivo": "RCTE/GO, Anexo IX, art. 30",
+        "texto_relevante": "Art. 30. Fica diferido o pagamento do ICMS relativo ao diferencial de alíquotas devido na aquisição interestadual e ao imposto devido na importação de máquinas, equipamentos e materiais, sem similar nacional, relacionados no Apêndice LV deste Anexo, destinados à captação, à geração e à transmissão de energia solar ou eólica, bem como à geração de energia a partir de biogás, incorporadas ao ativo imobilizado dos estabelecimentos geradores instalados neste Estado (Convênio ICMS 109/14).\n§ 1º A utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia, no qual devem ser estabelecidas as condições para a fruição.\n§ 2º O imposto diferido relativo às operações de que trata o caput deste artigo deve ser pago, acrescido de juros de mora, no momento da desincorporação dos bens do ativo imobilizado ou até 31 de dezembro de 2032, o que ocorrer primeiro.\n§ 3º Implica perda do diferimento a destinação das mercadorias beneficiadas com o diferimento para outro contribuinte goiano ou para outra unidade da Federação, a qualquer título, hipótese em que o valor do ICMS diferido será exigido com juros de mora e demais acréscimos legais, conforme dispuser a legislação tributária, contados desde a entrada das mercadorias no estabelecimento.\n§ 4º A ausência de similaridade deve ser comprovada com laudo de entidade de abrangência nacional representativa do setor produtivo das mercadorias relacionadas no Apêndice LV deste Anexo ou de órgão federal competente.\n§ 5º O diferimento do imposto:\nI - não se estende à prestação de serviço de transporte, relacionada com as operações envolvendo as mercadorias;\nII - não se aplica a mercadorias sujeitas ao regime de substituição tributária; e\nIII - não autoriza restituição ou compensação de importância já paga.",
+        "url_fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+        "vigencia_inicio": "2024-11-18",
+        "vigencia_fim": null,
+        "nao_inserir_em_producao_nesta_etapa": true
+      }
+    },
+    {
+      "id_proposta": "PROP_BEN_20261028_GO_A9_ART30__73082000",
+      "template_id_origem": "GO_A9_ART30_",
+      "id_legislacao_existente": null,
+      "fonte_existente_encontrada": false,
+      "ncm": "73082000",
+      "descricao_oficial": "Construções e suas partes (por exemplo, pontes e elementos de pontes, comportas, torres, pórticos, pilares, colunas, armações, estruturas para telhados, portas e janelas, e seus caixilhos, alizares e soleiras, portas de correr, balaustradas), de ferro fundido, ferro ou aço, exceto as construções pré-fabricadas da posição 94.06; chapas, barras, perfis, tubos e semelhantes, de ferro fundido, ferro ou aço, próprios para construções — Torres e pórticos",
+      "tipo_beneficio": "DIFERIMENTO",
+      "percentual_carga_efetiva": null,
+      "percentual_reducao_bc": null,
+      "credito_outorgado_percentual": null,
+      "dispositivo": "RCTE/GO, Anexo IX, art. 30",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "trecho_legal_template": "Art. 30. Fica diferido o pagamento do ICMS relativo ao diferencial de alíquotas devido na aquisição interestadual e ao imposto devido na importação de máquinas, equipamentos e materiais, sem similar nacional, relacionados no Apêndice LV deste Anexo, destinados à captação, à geração e à transmissão de energia solar ou eólica, bem como à geração de energia a partir de biogás, incorporadas ao ativo imobilizado dos estabelecimentos geradores instalados neste Estado (Convênio ICMS 109/14).\n§ 1º A utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia, no qual devem ser estabelecidas as condições para a fruição.\n§ 2º O imposto diferido relativo às operações de que trata o caput deste artigo deve ser pago, acrescido de juros de mora, no momento da desincorporação dos bens do ativo imobilizado ou até 31 de dezembro de 2032, o que ocorrer primeiro.\n§ 3º Implica perda do diferimento a destinação das mercadorias beneficiadas com o diferimento para outro contribuinte goiano ou para outra unidade da Federação, a qualquer título, hipótese em que o valor do ICMS diferido será exigido com juros de mora e demais acréscimos legais, conforme dispuser a legislação tributária, contados desde a entrada das mercadorias no estabelecimento.\n§ 4º A ausência de similaridade deve ser comprovada com laudo de entidade de abrangência nacional representativa do setor produtivo das mercadorias relacionadas no Apêndice LV deste Anexo ou de órgão federal competente.\n§ 5º O diferimento do imposto:\nI - não se estende à prestação de serviço de transporte, relacionada com as operações envolvendo as mercadorias;\nII - não se aplica a mercadorias sujeitas ao regime de substituição tributária; e\nIII - não autoriza restituição ou compensação de importância já paga.",
+      "vigencia_inicio_dispositivo_ou_template": "2024-11-18",
+      "vigencia_fim": null,
+      "vigencia_inicio_cadastro_proposto": "2026-10-28",
+      "aplicacao_automatica": "NAO",
+      "status": "CANDIDATO_CONDICIONAL_PARA_VALIDACAO",
+      "escopo_operacao": "AQUISICAO_INTERESTADUAL_DIFAL_OU_IMPORTACAO",
+      "cbenef": null,
+      "cbenef_fonte": null,
+      "cbenef_trecho_oficial": null,
+      "condicoes_gerais": [
+        "Máquinas/equipamentos/materiais sem similar nacional do Apêndice LV.",
+        "Captação, geração ou transmissão solar/eólica ou geração a partir de biogás; incorporação ao ativo de gerador instalado em Goiás.",
+        "TARE obrigatório; laudo de ausência de similar por entidade nacional representativa ou órgão federal.",
+        "Pagamento com juros na desincorporação ou até31/12/2032, o primeiro evento.",
+        "Destinação a outro contribuinte goiano ou outra UF implica perda e cobrança com juros e acréscimos desde a entrada.",
+        "Não alcança transporte nem mercadorias em substituição tributária; não autoriza restituição/compensação.",
+        "Não apresentar como isenção nem como redução aplicável à saída interna ordinária.",
+        "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis."
+      ],
+      "rotas_legais_alternativas": [
+        {
+          "item": "7",
+          "apendice": "LV",
+          "codigo_legal": "7308.20.00",
+          "descricao_legal": "Torres e pórticos de ferro fundido, ferro ou aço, exceto as construções pré-fabricadas da posição 94.06",
+          "trecho_legal_item": "Torres e pórticos de ferro fundido, ferro ou aço, exceto as construções pré-fabricadas da posição 94.06",
+          "fontes_complementares": [
+            "GO_D10579_2024"
+          ],
+          "restricoes": [
+            "Somente DIFAL da aquisição interestadual OU imposto da importação; não é desoneração da saída interna ordinária.",
+            "Contribuinte deve apresentar TARE vigente individual, laudo de ausência de similar nacional e comprovação de ativo imobilizado de gerador emGO.",
+            "Não há perdão: imposto acrescido de juros na desincorporação ou até31/12/2032, o que ocorrer primeiro; conferir perda pelo§3º."
+          ],
+          "tipo_correspondencia": "CODIGO_LITERAL_ATIVO_CONTEXTO_DIFAL_IMPORTACAO",
+          "vigencia_inicio_correspondencia": "2024-11-18"
+        }
+      ],
+      "modo_avaliacao": "AO_MENOS_UMA_ROTA_LEGAL_E_TODAS_AS_CONDICOES_GERAIS",
+      "destino_da_proposta": "CATALOGO_OPERACIONAL_CONTEXTUAL_SE_DISPONIVEL",
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "fundamento_catalogo_tecnico": {
+        "id_template": "GO_A9_ART30_",
+        "dispositivo": "RCTE/GO, Anexo IX, art. 30",
+        "texto_relevante": "Art. 30. Fica diferido o pagamento do ICMS relativo ao diferencial de alíquotas devido na aquisição interestadual e ao imposto devido na importação de máquinas, equipamentos e materiais, sem similar nacional, relacionados no Apêndice LV deste Anexo, destinados à captação, à geração e à transmissão de energia solar ou eólica, bem como à geração de energia a partir de biogás, incorporadas ao ativo imobilizado dos estabelecimentos geradores instalados neste Estado (Convênio ICMS 109/14).\n§ 1º A utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia, no qual devem ser estabelecidas as condições para a fruição.\n§ 2º O imposto diferido relativo às operações de que trata o caput deste artigo deve ser pago, acrescido de juros de mora, no momento da desincorporação dos bens do ativo imobilizado ou até 31 de dezembro de 2032, o que ocorrer primeiro.\n§ 3º Implica perda do diferimento a destinação das mercadorias beneficiadas com o diferimento para outro contribuinte goiano ou para outra unidade da Federação, a qualquer título, hipótese em que o valor do ICMS diferido será exigido com juros de mora e demais acréscimos legais, conforme dispuser a legislação tributária, contados desde a entrada das mercadorias no estabelecimento.\n§ 4º A ausência de similaridade deve ser comprovada com laudo de entidade de abrangência nacional representativa do setor produtivo das mercadorias relacionadas no Apêndice LV deste Anexo ou de órgão federal competente.\n§ 5º O diferimento do imposto:\nI - não se estende à prestação de serviço de transporte, relacionada com as operações envolvendo as mercadorias;\nII - não se aplica a mercadorias sujeitas ao regime de substituição tributária; e\nIII - não autoriza restituição ou compensação de importância já paga.",
+        "url_fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+        "vigencia_inicio": "2024-11-18",
+        "vigencia_fim": null,
+        "nao_inserir_em_producao_nesta_etapa": true
+      }
+    },
+    {
+      "id_proposta": "PROP_BEN_20261028_GO_A9_ART30__73129000",
+      "template_id_origem": "GO_A9_ART30_",
+      "id_legislacao_existente": null,
+      "fonte_existente_encontrada": false,
+      "ncm": "73129000",
+      "descricao_oficial": "Cordas, cabos, tranças (entrançados*), lingas e artigos semelhantes, de ferro ou aço, não isolados para usos elétricos — Outros",
+      "tipo_beneficio": "DIFERIMENTO",
+      "percentual_carga_efetiva": null,
+      "percentual_reducao_bc": null,
+      "credito_outorgado_percentual": null,
+      "dispositivo": "RCTE/GO, Anexo IX, art. 30",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "trecho_legal_template": "Art. 30. Fica diferido o pagamento do ICMS relativo ao diferencial de alíquotas devido na aquisição interestadual e ao imposto devido na importação de máquinas, equipamentos e materiais, sem similar nacional, relacionados no Apêndice LV deste Anexo, destinados à captação, à geração e à transmissão de energia solar ou eólica, bem como à geração de energia a partir de biogás, incorporadas ao ativo imobilizado dos estabelecimentos geradores instalados neste Estado (Convênio ICMS 109/14).\n§ 1º A utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia, no qual devem ser estabelecidas as condições para a fruição.\n§ 2º O imposto diferido relativo às operações de que trata o caput deste artigo deve ser pago, acrescido de juros de mora, no momento da desincorporação dos bens do ativo imobilizado ou até 31 de dezembro de 2032, o que ocorrer primeiro.\n§ 3º Implica perda do diferimento a destinação das mercadorias beneficiadas com o diferimento para outro contribuinte goiano ou para outra unidade da Federação, a qualquer título, hipótese em que o valor do ICMS diferido será exigido com juros de mora e demais acréscimos legais, conforme dispuser a legislação tributária, contados desde a entrada das mercadorias no estabelecimento.\n§ 4º A ausência de similaridade deve ser comprovada com laudo de entidade de abrangência nacional representativa do setor produtivo das mercadorias relacionadas no Apêndice LV deste Anexo ou de órgão federal competente.\n§ 5º O diferimento do imposto:\nI - não se estende à prestação de serviço de transporte, relacionada com as operações envolvendo as mercadorias;\nII - não se aplica a mercadorias sujeitas ao regime de substituição tributária; e\nIII - não autoriza restituição ou compensação de importância já paga.",
+      "vigencia_inicio_dispositivo_ou_template": "2024-11-18",
+      "vigencia_fim": null,
+      "vigencia_inicio_cadastro_proposto": "2026-10-28",
+      "aplicacao_automatica": "NAO",
+      "status": "CANDIDATO_CONDICIONAL_PARA_VALIDACAO",
+      "escopo_operacao": "AQUISICAO_INTERESTADUAL_DIFAL_OU_IMPORTACAO",
+      "cbenef": null,
+      "cbenef_fonte": null,
+      "cbenef_trecho_oficial": null,
+      "condicoes_gerais": [
+        "Máquinas/equipamentos/materiais sem similar nacional do Apêndice LV.",
+        "Captação, geração ou transmissão solar/eólica ou geração a partir de biogás; incorporação ao ativo de gerador instalado em Goiás.",
+        "TARE obrigatório; laudo de ausência de similar por entidade nacional representativa ou órgão federal.",
+        "Pagamento com juros na desincorporação ou até31/12/2032, o primeiro evento.",
+        "Destinação a outro contribuinte goiano ou outra UF implica perda e cobrança com juros e acréscimos desde a entrada.",
+        "Não alcança transporte nem mercadorias em substituição tributária; não autoriza restituição/compensação.",
+        "Não apresentar como isenção nem como redução aplicável à saída interna ordinária.",
+        "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis."
+      ],
+      "rotas_legais_alternativas": [
+        {
+          "item": "8",
+          "apendice": "LV",
+          "codigo_legal": "7312.90.00",
+          "descricao_legal": "Outras tranças, lingas e artigos semelhantes de ferro ou aço não isolados para usos elétricos",
+          "trecho_legal_item": "Outras tranças, lingas e artigos semelhantes de ferro ou aço não isolados para usos elétricos",
+          "fontes_complementares": [
+            "GO_D10579_2024"
+          ],
+          "restricoes": [
+            "Somente DIFAL da aquisição interestadual OU imposto da importação; não é desoneração da saída interna ordinária.",
+            "Contribuinte deve apresentar TARE vigente individual, laudo de ausência de similar nacional e comprovação de ativo imobilizado de gerador emGO.",
+            "Não há perdão: imposto acrescido de juros na desincorporação ou até31/12/2032, o que ocorrer primeiro; conferir perda pelo§3º."
+          ],
+          "tipo_correspondencia": "CODIGO_LITERAL_ATIVO_CONTEXTO_DIFAL_IMPORTACAO",
+          "vigencia_inicio_correspondencia": "2024-11-18"
+        }
+      ],
+      "modo_avaliacao": "AO_MENOS_UMA_ROTA_LEGAL_E_TODAS_AS_CONDICOES_GERAIS",
+      "destino_da_proposta": "CATALOGO_OPERACIONAL_CONTEXTUAL_SE_DISPONIVEL",
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "fundamento_catalogo_tecnico": {
+        "id_template": "GO_A9_ART30_",
+        "dispositivo": "RCTE/GO, Anexo IX, art. 30",
+        "texto_relevante": "Art. 30. Fica diferido o pagamento do ICMS relativo ao diferencial de alíquotas devido na aquisição interestadual e ao imposto devido na importação de máquinas, equipamentos e materiais, sem similar nacional, relacionados no Apêndice LV deste Anexo, destinados à captação, à geração e à transmissão de energia solar ou eólica, bem como à geração de energia a partir de biogás, incorporadas ao ativo imobilizado dos estabelecimentos geradores instalados neste Estado (Convênio ICMS 109/14).\n§ 1º A utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia, no qual devem ser estabelecidas as condições para a fruição.\n§ 2º O imposto diferido relativo às operações de que trata o caput deste artigo deve ser pago, acrescido de juros de mora, no momento da desincorporação dos bens do ativo imobilizado ou até 31 de dezembro de 2032, o que ocorrer primeiro.\n§ 3º Implica perda do diferimento a destinação das mercadorias beneficiadas com o diferimento para outro contribuinte goiano ou para outra unidade da Federação, a qualquer título, hipótese em que o valor do ICMS diferido será exigido com juros de mora e demais acréscimos legais, conforme dispuser a legislação tributária, contados desde a entrada das mercadorias no estabelecimento.\n§ 4º A ausência de similaridade deve ser comprovada com laudo de entidade de abrangência nacional representativa do setor produtivo das mercadorias relacionadas no Apêndice LV deste Anexo ou de órgão federal competente.\n§ 5º O diferimento do imposto:\nI - não se estende à prestação de serviço de transporte, relacionada com as operações envolvendo as mercadorias;\nII - não se aplica a mercadorias sujeitas ao regime de substituição tributária; e\nIII - não autoriza restituição ou compensação de importância já paga.",
+        "url_fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+        "vigencia_inicio": "2024-11-18",
+        "vigencia_fim": null,
+        "nao_inserir_em_producao_nesta_etapa": true
+      }
+    },
+    {
+      "id_proposta": "PROP_BEN_20261028_GO_A9_ART30__73259910",
+      "template_id_origem": "GO_A9_ART30_",
+      "id_legislacao_existente": null,
+      "fonte_existente_encontrada": false,
+      "ncm": "73259910",
+      "descricao_oficial": "Outras obras moldadas, de ferro fundido, ferro ou aço — Outras — De aço",
+      "tipo_beneficio": "DIFERIMENTO",
+      "percentual_carga_efetiva": null,
+      "percentual_reducao_bc": null,
+      "credito_outorgado_percentual": null,
+      "dispositivo": "RCTE/GO, Anexo IX, art. 30",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "trecho_legal_template": "Art. 30. Fica diferido o pagamento do ICMS relativo ao diferencial de alíquotas devido na aquisição interestadual e ao imposto devido na importação de máquinas, equipamentos e materiais, sem similar nacional, relacionados no Apêndice LV deste Anexo, destinados à captação, à geração e à transmissão de energia solar ou eólica, bem como à geração de energia a partir de biogás, incorporadas ao ativo imobilizado dos estabelecimentos geradores instalados neste Estado (Convênio ICMS 109/14).\n§ 1º A utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia, no qual devem ser estabelecidas as condições para a fruição.\n§ 2º O imposto diferido relativo às operações de que trata o caput deste artigo deve ser pago, acrescido de juros de mora, no momento da desincorporação dos bens do ativo imobilizado ou até 31 de dezembro de 2032, o que ocorrer primeiro.\n§ 3º Implica perda do diferimento a destinação das mercadorias beneficiadas com o diferimento para outro contribuinte goiano ou para outra unidade da Federação, a qualquer título, hipótese em que o valor do ICMS diferido será exigido com juros de mora e demais acréscimos legais, conforme dispuser a legislação tributária, contados desde a entrada das mercadorias no estabelecimento.\n§ 4º A ausência de similaridade deve ser comprovada com laudo de entidade de abrangência nacional representativa do setor produtivo das mercadorias relacionadas no Apêndice LV deste Anexo ou de órgão federal competente.\n§ 5º O diferimento do imposto:\nI - não se estende à prestação de serviço de transporte, relacionada com as operações envolvendo as mercadorias;\nII - não se aplica a mercadorias sujeitas ao regime de substituição tributária; e\nIII - não autoriza restituição ou compensação de importância já paga.",
+      "vigencia_inicio_dispositivo_ou_template": "2024-11-18",
+      "vigencia_fim": null,
+      "vigencia_inicio_cadastro_proposto": "2026-10-28",
+      "aplicacao_automatica": "NAO",
+      "status": "CANDIDATO_CONDICIONAL_PARA_VALIDACAO",
+      "escopo_operacao": "AQUISICAO_INTERESTADUAL_DIFAL_OU_IMPORTACAO",
+      "cbenef": null,
+      "cbenef_fonte": null,
+      "cbenef_trecho_oficial": null,
+      "condicoes_gerais": [
+        "Máquinas/equipamentos/materiais sem similar nacional do Apêndice LV.",
+        "Captação, geração ou transmissão solar/eólica ou geração a partir de biogás; incorporação ao ativo de gerador instalado em Goiás.",
+        "TARE obrigatório; laudo de ausência de similar por entidade nacional representativa ou órgão federal.",
+        "Pagamento com juros na desincorporação ou até31/12/2032, o primeiro evento.",
+        "Destinação a outro contribuinte goiano ou outra UF implica perda e cobrança com juros e acréscimos desde a entrada.",
+        "Não alcança transporte nem mercadorias em substituição tributária; não autoriza restituição/compensação.",
+        "Não apresentar como isenção nem como redução aplicável à saída interna ordinária.",
+        "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis."
+      ],
+      "rotas_legais_alternativas": [
+        {
+          "item": "9",
+          "apendice": "LV",
+          "codigo_legal": "7325.99.10",
+          "descricao_legal": "Outras obras moldadas de aço",
+          "trecho_legal_item": "Outras obras moldadas de aço",
+          "fontes_complementares": [
+            "GO_D10579_2024"
+          ],
+          "restricoes": [
+            "Somente DIFAL da aquisição interestadual OU imposto da importação; não é desoneração da saída interna ordinária.",
+            "Contribuinte deve apresentar TARE vigente individual, laudo de ausência de similar nacional e comprovação de ativo imobilizado de gerador emGO.",
+            "Não há perdão: imposto acrescido de juros na desincorporação ou até31/12/2032, o que ocorrer primeiro; conferir perda pelo§3º."
+          ],
+          "tipo_correspondencia": "CODIGO_LITERAL_ATIVO_CONTEXTO_DIFAL_IMPORTACAO",
+          "vigencia_inicio_correspondencia": "2024-11-18"
+        }
+      ],
+      "modo_avaliacao": "AO_MENOS_UMA_ROTA_LEGAL_E_TODAS_AS_CONDICOES_GERAIS",
+      "destino_da_proposta": "CATALOGO_OPERACIONAL_CONTEXTUAL_SE_DISPONIVEL",
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "fundamento_catalogo_tecnico": {
+        "id_template": "GO_A9_ART30_",
+        "dispositivo": "RCTE/GO, Anexo IX, art. 30",
+        "texto_relevante": "Art. 30. Fica diferido o pagamento do ICMS relativo ao diferencial de alíquotas devido na aquisição interestadual e ao imposto devido na importação de máquinas, equipamentos e materiais, sem similar nacional, relacionados no Apêndice LV deste Anexo, destinados à captação, à geração e à transmissão de energia solar ou eólica, bem como à geração de energia a partir de biogás, incorporadas ao ativo imobilizado dos estabelecimentos geradores instalados neste Estado (Convênio ICMS 109/14).\n§ 1º A utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia, no qual devem ser estabelecidas as condições para a fruição.\n§ 2º O imposto diferido relativo às operações de que trata o caput deste artigo deve ser pago, acrescido de juros de mora, no momento da desincorporação dos bens do ativo imobilizado ou até 31 de dezembro de 2032, o que ocorrer primeiro.\n§ 3º Implica perda do diferimento a destinação das mercadorias beneficiadas com o diferimento para outro contribuinte goiano ou para outra unidade da Federação, a qualquer título, hipótese em que o valor do ICMS diferido será exigido com juros de mora e demais acréscimos legais, conforme dispuser a legislação tributária, contados desde a entrada das mercadorias no estabelecimento.\n§ 4º A ausência de similaridade deve ser comprovada com laudo de entidade de abrangência nacional representativa do setor produtivo das mercadorias relacionadas no Apêndice LV deste Anexo ou de órgão federal competente.\n§ 5º O diferimento do imposto:\nI - não se estende à prestação de serviço de transporte, relacionada com as operações envolvendo as mercadorias;\nII - não se aplica a mercadorias sujeitas ao regime de substituição tributária; e\nIII - não autoriza restituição ou compensação de importância já paga.",
+        "url_fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+        "vigencia_inicio": "2024-11-18",
+        "vigencia_fim": null,
+        "nao_inserir_em_producao_nesta_etapa": true
+      }
+    },
+    {
+      "id_proposta": "PROP_BEN_20261028_GO_A9_ART30__39173229",
+      "template_id_origem": "GO_A9_ART30_",
+      "id_legislacao_existente": null,
+      "fonte_existente_encontrada": false,
+      "ncm": "39173229",
+      "descricao_oficial": "Tubos e seus acessórios (por exemplo, juntas, cotovelos, flanges, uniões), de plástico — Outros tubos — Outros, não reforçados com outras matérias, nem associados de outra forma com outras matérias, sem acessórios — De polipropileno — Outros",
+      "tipo_beneficio": "DIFERIMENTO",
+      "percentual_carga_efetiva": null,
+      "percentual_reducao_bc": null,
+      "credito_outorgado_percentual": null,
+      "dispositivo": "RCTE/GO, Anexo IX, art. 30",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "trecho_legal_template": "Art. 30. Fica diferido o pagamento do ICMS relativo ao diferencial de alíquotas devido na aquisição interestadual e ao imposto devido na importação de máquinas, equipamentos e materiais, sem similar nacional, relacionados no Apêndice LV deste Anexo, destinados à captação, à geração e à transmissão de energia solar ou eólica, bem como à geração de energia a partir de biogás, incorporadas ao ativo imobilizado dos estabelecimentos geradores instalados neste Estado (Convênio ICMS 109/14).\n§ 1º A utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia, no qual devem ser estabelecidas as condições para a fruição.\n§ 2º O imposto diferido relativo às operações de que trata o caput deste artigo deve ser pago, acrescido de juros de mora, no momento da desincorporação dos bens do ativo imobilizado ou até 31 de dezembro de 2032, o que ocorrer primeiro.\n§ 3º Implica perda do diferimento a destinação das mercadorias beneficiadas com o diferimento para outro contribuinte goiano ou para outra unidade da Federação, a qualquer título, hipótese em que o valor do ICMS diferido será exigido com juros de mora e demais acréscimos legais, conforme dispuser a legislação tributária, contados desde a entrada das mercadorias no estabelecimento.\n§ 4º A ausência de similaridade deve ser comprovada com laudo de entidade de abrangência nacional representativa do setor produtivo das mercadorias relacionadas no Apêndice LV deste Anexo ou de órgão federal competente.\n§ 5º O diferimento do imposto:\nI - não se estende à prestação de serviço de transporte, relacionada com as operações envolvendo as mercadorias;\nII - não se aplica a mercadorias sujeitas ao regime de substituição tributária; e\nIII - não autoriza restituição ou compensação de importância já paga.",
+      "vigencia_inicio_dispositivo_ou_template": "2024-11-18",
+      "vigencia_fim": null,
+      "vigencia_inicio_cadastro_proposto": "2026-10-28",
+      "aplicacao_automatica": "NAO",
+      "status": "CANDIDATO_CONDICIONAL_PARA_VALIDACAO",
+      "escopo_operacao": "AQUISICAO_INTERESTADUAL_DIFAL_OU_IMPORTACAO",
+      "cbenef": null,
+      "cbenef_fonte": null,
+      "cbenef_trecho_oficial": null,
+      "condicoes_gerais": [
+        "Máquinas/equipamentos/materiais sem similar nacional do Apêndice LV.",
+        "Captação, geração ou transmissão solar/eólica ou geração a partir de biogás; incorporação ao ativo de gerador instalado em Goiás.",
+        "TARE obrigatório; laudo de ausência de similar por entidade nacional representativa ou órgão federal.",
+        "Pagamento com juros na desincorporação ou até31/12/2032, o primeiro evento.",
+        "Destinação a outro contribuinte goiano ou outra UF implica perda e cobrança com juros e acréscimos desde a entrada.",
+        "Não alcança transporte nem mercadorias em substituição tributária; não autoriza restituição/compensação.",
+        "Não apresentar como isenção nem como redução aplicável à saída interna ordinária.",
+        "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis."
+      ],
+      "rotas_legais_alternativas": [
+        {
+          "item": "10",
+          "apendice": "LV",
+          "codigo_legal": "3917.32.29",
+          "descricao_legal": "Outros tubos não reforçados de polipropileno",
+          "trecho_legal_item": "Outros tubos não reforçados de polipropileno",
+          "fontes_complementares": [
+            "GO_D10579_2024"
+          ],
+          "restricoes": [
+            "Somente DIFAL da aquisição interestadual OU imposto da importação; não é desoneração da saída interna ordinária.",
+            "Contribuinte deve apresentar TARE vigente individual, laudo de ausência de similar nacional e comprovação de ativo imobilizado de gerador emGO.",
+            "Não há perdão: imposto acrescido de juros na desincorporação ou até31/12/2032, o que ocorrer primeiro; conferir perda pelo§3º."
+          ],
+          "tipo_correspondencia": "CODIGO_LITERAL_ATIVO_CONTEXTO_DIFAL_IMPORTACAO",
+          "vigencia_inicio_correspondencia": "2024-11-18"
+        }
+      ],
+      "modo_avaliacao": "AO_MENOS_UMA_ROTA_LEGAL_E_TODAS_AS_CONDICOES_GERAIS",
+      "destino_da_proposta": "CATALOGO_OPERACIONAL_CONTEXTUAL_SE_DISPONIVEL",
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "fundamento_catalogo_tecnico": {
+        "id_template": "GO_A9_ART30_",
+        "dispositivo": "RCTE/GO, Anexo IX, art. 30",
+        "texto_relevante": "Art. 30. Fica diferido o pagamento do ICMS relativo ao diferencial de alíquotas devido na aquisição interestadual e ao imposto devido na importação de máquinas, equipamentos e materiais, sem similar nacional, relacionados no Apêndice LV deste Anexo, destinados à captação, à geração e à transmissão de energia solar ou eólica, bem como à geração de energia a partir de biogás, incorporadas ao ativo imobilizado dos estabelecimentos geradores instalados neste Estado (Convênio ICMS 109/14).\n§ 1º A utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia, no qual devem ser estabelecidas as condições para a fruição.\n§ 2º O imposto diferido relativo às operações de que trata o caput deste artigo deve ser pago, acrescido de juros de mora, no momento da desincorporação dos bens do ativo imobilizado ou até 31 de dezembro de 2032, o que ocorrer primeiro.\n§ 3º Implica perda do diferimento a destinação das mercadorias beneficiadas com o diferimento para outro contribuinte goiano ou para outra unidade da Federação, a qualquer título, hipótese em que o valor do ICMS diferido será exigido com juros de mora e demais acréscimos legais, conforme dispuser a legislação tributária, contados desde a entrada das mercadorias no estabelecimento.\n§ 4º A ausência de similaridade deve ser comprovada com laudo de entidade de abrangência nacional representativa do setor produtivo das mercadorias relacionadas no Apêndice LV deste Anexo ou de órgão federal competente.\n§ 5º O diferimento do imposto:\nI - não se estende à prestação de serviço de transporte, relacionada com as operações envolvendo as mercadorias;\nII - não se aplica a mercadorias sujeitas ao regime de substituição tributária; e\nIII - não autoriza restituição ou compensação de importância já paga.",
+        "url_fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+        "vigencia_inicio": "2024-11-18",
+        "vigencia_fim": null,
+        "nao_inserir_em_producao_nesta_etapa": true
+      }
+    },
+    {
+      "id_proposta": "PROP_BEN_20261028_GO_A9_ART30__85461000",
+      "template_id_origem": "GO_A9_ART30_",
+      "id_legislacao_existente": null,
+      "fonte_existente_encontrada": false,
+      "ncm": "85461000",
+      "descricao_oficial": "Isoladores elétricos de qualquer matéria — De vidro",
+      "tipo_beneficio": "DIFERIMENTO",
+      "percentual_carga_efetiva": null,
+      "percentual_reducao_bc": null,
+      "credito_outorgado_percentual": null,
+      "dispositivo": "RCTE/GO, Anexo IX, art. 30",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "trecho_legal_template": "Art. 30. Fica diferido o pagamento do ICMS relativo ao diferencial de alíquotas devido na aquisição interestadual e ao imposto devido na importação de máquinas, equipamentos e materiais, sem similar nacional, relacionados no Apêndice LV deste Anexo, destinados à captação, à geração e à transmissão de energia solar ou eólica, bem como à geração de energia a partir de biogás, incorporadas ao ativo imobilizado dos estabelecimentos geradores instalados neste Estado (Convênio ICMS 109/14).\n§ 1º A utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia, no qual devem ser estabelecidas as condições para a fruição.\n§ 2º O imposto diferido relativo às operações de que trata o caput deste artigo deve ser pago, acrescido de juros de mora, no momento da desincorporação dos bens do ativo imobilizado ou até 31 de dezembro de 2032, o que ocorrer primeiro.\n§ 3º Implica perda do diferimento a destinação das mercadorias beneficiadas com o diferimento para outro contribuinte goiano ou para outra unidade da Federação, a qualquer título, hipótese em que o valor do ICMS diferido será exigido com juros de mora e demais acréscimos legais, conforme dispuser a legislação tributária, contados desde a entrada das mercadorias no estabelecimento.\n§ 4º A ausência de similaridade deve ser comprovada com laudo de entidade de abrangência nacional representativa do setor produtivo das mercadorias relacionadas no Apêndice LV deste Anexo ou de órgão federal competente.\n§ 5º O diferimento do imposto:\nI - não se estende à prestação de serviço de transporte, relacionada com as operações envolvendo as mercadorias;\nII - não se aplica a mercadorias sujeitas ao regime de substituição tributária; e\nIII - não autoriza restituição ou compensação de importância já paga.",
+      "vigencia_inicio_dispositivo_ou_template": "2024-11-18",
+      "vigencia_fim": null,
+      "vigencia_inicio_cadastro_proposto": "2026-10-28",
+      "aplicacao_automatica": "NAO",
+      "status": "CANDIDATO_CONDICIONAL_PARA_VALIDACAO",
+      "escopo_operacao": "AQUISICAO_INTERESTADUAL_DIFAL_OU_IMPORTACAO",
+      "cbenef": null,
+      "cbenef_fonte": null,
+      "cbenef_trecho_oficial": null,
+      "condicoes_gerais": [
+        "Máquinas/equipamentos/materiais sem similar nacional do Apêndice LV.",
+        "Captação, geração ou transmissão solar/eólica ou geração a partir de biogás; incorporação ao ativo de gerador instalado em Goiás.",
+        "TARE obrigatório; laudo de ausência de similar por entidade nacional representativa ou órgão federal.",
+        "Pagamento com juros na desincorporação ou até31/12/2032, o primeiro evento.",
+        "Destinação a outro contribuinte goiano ou outra UF implica perda e cobrança com juros e acréscimos desde a entrada.",
+        "Não alcança transporte nem mercadorias em substituição tributária; não autoriza restituição/compensação.",
+        "Não apresentar como isenção nem como redução aplicável à saída interna ordinária.",
+        "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis."
+      ],
+      "rotas_legais_alternativas": [
+        {
+          "item": "11",
+          "apendice": "LV",
+          "codigo_legal": "8546.10.00",
+          "descricao_legal": "Isoladores elétricos de vidro",
+          "trecho_legal_item": "Isoladores elétricos de vidro",
+          "fontes_complementares": [
+            "GO_D10579_2024"
+          ],
+          "restricoes": [
+            "Somente DIFAL da aquisição interestadual OU imposto da importação; não é desoneração da saída interna ordinária.",
+            "Contribuinte deve apresentar TARE vigente individual, laudo de ausência de similar nacional e comprovação de ativo imobilizado de gerador emGO.",
+            "Não há perdão: imposto acrescido de juros na desincorporação ou até31/12/2032, o que ocorrer primeiro; conferir perda pelo§3º."
+          ],
+          "tipo_correspondencia": "CODIGO_LITERAL_ATIVO_CONTEXTO_DIFAL_IMPORTACAO",
+          "vigencia_inicio_correspondencia": "2024-11-18"
+        }
+      ],
+      "modo_avaliacao": "AO_MENOS_UMA_ROTA_LEGAL_E_TODAS_AS_CONDICOES_GERAIS",
+      "destino_da_proposta": "CATALOGO_OPERACIONAL_CONTEXTUAL_SE_DISPONIVEL",
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "fundamento_catalogo_tecnico": {
+        "id_template": "GO_A9_ART30_",
+        "dispositivo": "RCTE/GO, Anexo IX, art. 30",
+        "texto_relevante": "Art. 30. Fica diferido o pagamento do ICMS relativo ao diferencial de alíquotas devido na aquisição interestadual e ao imposto devido na importação de máquinas, equipamentos e materiais, sem similar nacional, relacionados no Apêndice LV deste Anexo, destinados à captação, à geração e à transmissão de energia solar ou eólica, bem como à geração de energia a partir de biogás, incorporadas ao ativo imobilizado dos estabelecimentos geradores instalados neste Estado (Convênio ICMS 109/14).\n§ 1º A utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia, no qual devem ser estabelecidas as condições para a fruição.\n§ 2º O imposto diferido relativo às operações de que trata o caput deste artigo deve ser pago, acrescido de juros de mora, no momento da desincorporação dos bens do ativo imobilizado ou até 31 de dezembro de 2032, o que ocorrer primeiro.\n§ 3º Implica perda do diferimento a destinação das mercadorias beneficiadas com o diferimento para outro contribuinte goiano ou para outra unidade da Federação, a qualquer título, hipótese em que o valor do ICMS diferido será exigido com juros de mora e demais acréscimos legais, conforme dispuser a legislação tributária, contados desde a entrada das mercadorias no estabelecimento.\n§ 4º A ausência de similaridade deve ser comprovada com laudo de entidade de abrangência nacional representativa do setor produtivo das mercadorias relacionadas no Apêndice LV deste Anexo ou de órgão federal competente.\n§ 5º O diferimento do imposto:\nI - não se estende à prestação de serviço de transporte, relacionada com as operações envolvendo as mercadorias;\nII - não se aplica a mercadorias sujeitas ao regime de substituição tributária; e\nIII - não autoriza restituição ou compensação de importância já paga.",
+        "url_fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+        "vigencia_inicio": "2024-11-18",
+        "vigencia_fim": null,
+        "nao_inserir_em_producao_nesta_etapa": true
+      }
+    },
+    {
+      "id_proposta": "PROP_BEN_20261028_GO_A9_ART30__39269090",
+      "template_id_origem": "GO_A9_ART30_",
+      "id_legislacao_existente": null,
+      "fonte_existente_encontrada": false,
+      "ncm": "39269090",
+      "descricao_oficial": "Outras obras de plástico e obras de outras matérias das posições 39.01 a 39.14 — Outras",
+      "tipo_beneficio": "DIFERIMENTO",
+      "percentual_carga_efetiva": null,
+      "percentual_reducao_bc": null,
+      "credito_outorgado_percentual": null,
+      "dispositivo": "RCTE/GO, Anexo IX, art. 30",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "trecho_legal_template": "Art. 30. Fica diferido o pagamento do ICMS relativo ao diferencial de alíquotas devido na aquisição interestadual e ao imposto devido na importação de máquinas, equipamentos e materiais, sem similar nacional, relacionados no Apêndice LV deste Anexo, destinados à captação, à geração e à transmissão de energia solar ou eólica, bem como à geração de energia a partir de biogás, incorporadas ao ativo imobilizado dos estabelecimentos geradores instalados neste Estado (Convênio ICMS 109/14).\n§ 1º A utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia, no qual devem ser estabelecidas as condições para a fruição.\n§ 2º O imposto diferido relativo às operações de que trata o caput deste artigo deve ser pago, acrescido de juros de mora, no momento da desincorporação dos bens do ativo imobilizado ou até 31 de dezembro de 2032, o que ocorrer primeiro.\n§ 3º Implica perda do diferimento a destinação das mercadorias beneficiadas com o diferimento para outro contribuinte goiano ou para outra unidade da Federação, a qualquer título, hipótese em que o valor do ICMS diferido será exigido com juros de mora e demais acréscimos legais, conforme dispuser a legislação tributária, contados desde a entrada das mercadorias no estabelecimento.\n§ 4º A ausência de similaridade deve ser comprovada com laudo de entidade de abrangência nacional representativa do setor produtivo das mercadorias relacionadas no Apêndice LV deste Anexo ou de órgão federal competente.\n§ 5º O diferimento do imposto:\nI - não se estende à prestação de serviço de transporte, relacionada com as operações envolvendo as mercadorias;\nII - não se aplica a mercadorias sujeitas ao regime de substituição tributária; e\nIII - não autoriza restituição ou compensação de importância já paga.",
+      "vigencia_inicio_dispositivo_ou_template": "2024-11-18",
+      "vigencia_fim": null,
+      "vigencia_inicio_cadastro_proposto": "2026-10-28",
+      "aplicacao_automatica": "NAO",
+      "status": "CANDIDATO_CONDICIONAL_PARA_VALIDACAO",
+      "escopo_operacao": "AQUISICAO_INTERESTADUAL_DIFAL_OU_IMPORTACAO",
+      "cbenef": null,
+      "cbenef_fonte": null,
+      "cbenef_trecho_oficial": null,
+      "condicoes_gerais": [
+        "Máquinas/equipamentos/materiais sem similar nacional do Apêndice LV.",
+        "Captação, geração ou transmissão solar/eólica ou geração a partir de biogás; incorporação ao ativo de gerador instalado em Goiás.",
+        "TARE obrigatório; laudo de ausência de similar por entidade nacional representativa ou órgão federal.",
+        "Pagamento com juros na desincorporação ou até31/12/2032, o primeiro evento.",
+        "Destinação a outro contribuinte goiano ou outra UF implica perda e cobrança com juros e acréscimos desde a entrada.",
+        "Não alcança transporte nem mercadorias em substituição tributária; não autoriza restituição/compensação.",
+        "Não apresentar como isenção nem como redução aplicável à saída interna ordinária.",
+        "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis."
+      ],
+      "rotas_legais_alternativas": [
+        {
+          "item": "12",
+          "apendice": "LV",
+          "codigo_legal": "3926.90.90",
+          "descricao_legal": "Outras obras de plástico e obras de outras matérias das posições 39.01 a 39.14",
+          "trecho_legal_item": "Outras obras de plástico e obras de outras matérias das posições 39.01 a 39.14",
+          "fontes_complementares": [
+            "GO_D10579_2024"
+          ],
+          "restricoes": [
+            "Somente DIFAL da aquisição interestadual OU imposto da importação; não é desoneração da saída interna ordinária.",
+            "Contribuinte deve apresentar TARE vigente individual, laudo de ausência de similar nacional e comprovação de ativo imobilizado de gerador emGO.",
+            "Não há perdão: imposto acrescido de juros na desincorporação ou até31/12/2032, o que ocorrer primeiro; conferir perda pelo§3º."
+          ],
+          "tipo_correspondencia": "CODIGO_LITERAL_ATIVO_CONTEXTO_DIFAL_IMPORTACAO",
+          "vigencia_inicio_correspondencia": "2024-11-18"
+        }
+      ],
+      "modo_avaliacao": "AO_MENOS_UMA_ROTA_LEGAL_E_TODAS_AS_CONDICOES_GERAIS",
+      "destino_da_proposta": "CATALOGO_OPERACIONAL_CONTEXTUAL_SE_DISPONIVEL",
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "fundamento_catalogo_tecnico": {
+        "id_template": "GO_A9_ART30_",
+        "dispositivo": "RCTE/GO, Anexo IX, art. 30",
+        "texto_relevante": "Art. 30. Fica diferido o pagamento do ICMS relativo ao diferencial de alíquotas devido na aquisição interestadual e ao imposto devido na importação de máquinas, equipamentos e materiais, sem similar nacional, relacionados no Apêndice LV deste Anexo, destinados à captação, à geração e à transmissão de energia solar ou eólica, bem como à geração de energia a partir de biogás, incorporadas ao ativo imobilizado dos estabelecimentos geradores instalados neste Estado (Convênio ICMS 109/14).\n§ 1º A utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia, no qual devem ser estabelecidas as condições para a fruição.\n§ 2º O imposto diferido relativo às operações de que trata o caput deste artigo deve ser pago, acrescido de juros de mora, no momento da desincorporação dos bens do ativo imobilizado ou até 31 de dezembro de 2032, o que ocorrer primeiro.\n§ 3º Implica perda do diferimento a destinação das mercadorias beneficiadas com o diferimento para outro contribuinte goiano ou para outra unidade da Federação, a qualquer título, hipótese em que o valor do ICMS diferido será exigido com juros de mora e demais acréscimos legais, conforme dispuser a legislação tributária, contados desde a entrada das mercadorias no estabelecimento.\n§ 4º A ausência de similaridade deve ser comprovada com laudo de entidade de abrangência nacional representativa do setor produtivo das mercadorias relacionadas no Apêndice LV deste Anexo ou de órgão federal competente.\n§ 5º O diferimento do imposto:\nI - não se estende à prestação de serviço de transporte, relacionada com as operações envolvendo as mercadorias;\nII - não se aplica a mercadorias sujeitas ao regime de substituição tributária; e\nIII - não autoriza restituição ou compensação de importância já paga.",
+        "url_fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+        "vigencia_inicio": "2024-11-18",
+        "vigencia_fim": null,
+        "nao_inserir_em_producao_nesta_etapa": true
+      }
+    },
+    {
+      "id_proposta": "PROP_BEN_20261028_GO_A9_ART30__76169900",
+      "template_id_origem": "GO_A9_ART30_",
+      "id_legislacao_existente": null,
+      "fonte_existente_encontrada": false,
+      "ncm": "76169900",
+      "descricao_oficial": "Outras obras de alumínio — Outras",
+      "tipo_beneficio": "DIFERIMENTO",
+      "percentual_carga_efetiva": null,
+      "percentual_reducao_bc": null,
+      "credito_outorgado_percentual": null,
+      "dispositivo": "RCTE/GO, Anexo IX, art. 30",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "trecho_legal_template": "Art. 30. Fica diferido o pagamento do ICMS relativo ao diferencial de alíquotas devido na aquisição interestadual e ao imposto devido na importação de máquinas, equipamentos e materiais, sem similar nacional, relacionados no Apêndice LV deste Anexo, destinados à captação, à geração e à transmissão de energia solar ou eólica, bem como à geração de energia a partir de biogás, incorporadas ao ativo imobilizado dos estabelecimentos geradores instalados neste Estado (Convênio ICMS 109/14).\n§ 1º A utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia, no qual devem ser estabelecidas as condições para a fruição.\n§ 2º O imposto diferido relativo às operações de que trata o caput deste artigo deve ser pago, acrescido de juros de mora, no momento da desincorporação dos bens do ativo imobilizado ou até 31 de dezembro de 2032, o que ocorrer primeiro.\n§ 3º Implica perda do diferimento a destinação das mercadorias beneficiadas com o diferimento para outro contribuinte goiano ou para outra unidade da Federação, a qualquer título, hipótese em que o valor do ICMS diferido será exigido com juros de mora e demais acréscimos legais, conforme dispuser a legislação tributária, contados desde a entrada das mercadorias no estabelecimento.\n§ 4º A ausência de similaridade deve ser comprovada com laudo de entidade de abrangência nacional representativa do setor produtivo das mercadorias relacionadas no Apêndice LV deste Anexo ou de órgão federal competente.\n§ 5º O diferimento do imposto:\nI - não se estende à prestação de serviço de transporte, relacionada com as operações envolvendo as mercadorias;\nII - não se aplica a mercadorias sujeitas ao regime de substituição tributária; e\nIII - não autoriza restituição ou compensação de importância já paga.",
+      "vigencia_inicio_dispositivo_ou_template": "2024-11-18",
+      "vigencia_fim": null,
+      "vigencia_inicio_cadastro_proposto": "2026-10-28",
+      "aplicacao_automatica": "NAO",
+      "status": "CANDIDATO_CONDICIONAL_PARA_VALIDACAO",
+      "escopo_operacao": "AQUISICAO_INTERESTADUAL_DIFAL_OU_IMPORTACAO",
+      "cbenef": null,
+      "cbenef_fonte": null,
+      "cbenef_trecho_oficial": null,
+      "condicoes_gerais": [
+        "Máquinas/equipamentos/materiais sem similar nacional do Apêndice LV.",
+        "Captação, geração ou transmissão solar/eólica ou geração a partir de biogás; incorporação ao ativo de gerador instalado em Goiás.",
+        "TARE obrigatório; laudo de ausência de similar por entidade nacional representativa ou órgão federal.",
+        "Pagamento com juros na desincorporação ou até31/12/2032, o primeiro evento.",
+        "Destinação a outro contribuinte goiano ou outra UF implica perda e cobrança com juros e acréscimos desde a entrada.",
+        "Não alcança transporte nem mercadorias em substituição tributária; não autoriza restituição/compensação.",
+        "Não apresentar como isenção nem como redução aplicável à saída interna ordinária.",
+        "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis."
+      ],
+      "rotas_legais_alternativas": [
+        {
+          "item": "13",
+          "apendice": "LV",
+          "codigo_legal": "7616.99.00",
+          "descricao_legal": "Outras obras de alumínio",
+          "trecho_legal_item": "Outras obras de alumínio",
+          "fontes_complementares": [
+            "GO_D10579_2024"
+          ],
+          "restricoes": [
+            "Somente DIFAL da aquisição interestadual OU imposto da importação; não é desoneração da saída interna ordinária.",
+            "Contribuinte deve apresentar TARE vigente individual, laudo de ausência de similar nacional e comprovação de ativo imobilizado de gerador emGO.",
+            "Não há perdão: imposto acrescido de juros na desincorporação ou até31/12/2032, o que ocorrer primeiro; conferir perda pelo§3º."
+          ],
+          "tipo_correspondencia": "CODIGO_LITERAL_ATIVO_CONTEXTO_DIFAL_IMPORTACAO",
+          "vigencia_inicio_correspondencia": "2024-11-18"
+        }
+      ],
+      "modo_avaliacao": "AO_MENOS_UMA_ROTA_LEGAL_E_TODAS_AS_CONDICOES_GERAIS",
+      "destino_da_proposta": "CATALOGO_OPERACIONAL_CONTEXTUAL_SE_DISPONIVEL",
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "fundamento_catalogo_tecnico": {
+        "id_template": "GO_A9_ART30_",
+        "dispositivo": "RCTE/GO, Anexo IX, art. 30",
+        "texto_relevante": "Art. 30. Fica diferido o pagamento do ICMS relativo ao diferencial de alíquotas devido na aquisição interestadual e ao imposto devido na importação de máquinas, equipamentos e materiais, sem similar nacional, relacionados no Apêndice LV deste Anexo, destinados à captação, à geração e à transmissão de energia solar ou eólica, bem como à geração de energia a partir de biogás, incorporadas ao ativo imobilizado dos estabelecimentos geradores instalados neste Estado (Convênio ICMS 109/14).\n§ 1º A utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia, no qual devem ser estabelecidas as condições para a fruição.\n§ 2º O imposto diferido relativo às operações de que trata o caput deste artigo deve ser pago, acrescido de juros de mora, no momento da desincorporação dos bens do ativo imobilizado ou até 31 de dezembro de 2032, o que ocorrer primeiro.\n§ 3º Implica perda do diferimento a destinação das mercadorias beneficiadas com o diferimento para outro contribuinte goiano ou para outra unidade da Federação, a qualquer título, hipótese em que o valor do ICMS diferido será exigido com juros de mora e demais acréscimos legais, conforme dispuser a legislação tributária, contados desde a entrada das mercadorias no estabelecimento.\n§ 4º A ausência de similaridade deve ser comprovada com laudo de entidade de abrangência nacional representativa do setor produtivo das mercadorias relacionadas no Apêndice LV deste Anexo ou de órgão federal competente.\n§ 5º O diferimento do imposto:\nI - não se estende à prestação de serviço de transporte, relacionada com as operações envolvendo as mercadorias;\nII - não se aplica a mercadorias sujeitas ao regime de substituição tributária; e\nIII - não autoriza restituição ou compensação de importância já paga.",
+        "url_fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+        "vigencia_inicio": "2024-11-18",
+        "vigencia_fim": null,
+        "nao_inserir_em_producao_nesta_etapa": true
+      }
+    },
+    {
+      "id_proposta": "PROP_BEN_20261028_GO_A9_ART30__85176252",
+      "template_id_origem": "GO_A9_ART30_",
+      "id_legislacao_existente": null,
+      "fonte_existente_encontrada": false,
+      "ncm": "85176252",
+      "descricao_oficial": "Aparelhos para recepção, conversão, transmissão ou regeneração de voz, imagens ou outros dados, incluindo os aparelhos de comutação e roteamento — Outros aparelhos para recepção, transmissão ou regeneração de voz, imagens ou outros dados em rede com fio — Terminais ou repetidores sobre linhas de fibras ópticas, com velocidade de transmissão superior a 2,5 Gbit/s",
+      "tipo_beneficio": "DIFERIMENTO",
+      "percentual_carga_efetiva": null,
+      "percentual_reducao_bc": null,
+      "credito_outorgado_percentual": null,
+      "dispositivo": "RCTE/GO, Anexo IX, art. 30",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "trecho_legal_template": "Art. 30. Fica diferido o pagamento do ICMS relativo ao diferencial de alíquotas devido na aquisição interestadual e ao imposto devido na importação de máquinas, equipamentos e materiais, sem similar nacional, relacionados no Apêndice LV deste Anexo, destinados à captação, à geração e à transmissão de energia solar ou eólica, bem como à geração de energia a partir de biogás, incorporadas ao ativo imobilizado dos estabelecimentos geradores instalados neste Estado (Convênio ICMS 109/14).\n§ 1º A utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia, no qual devem ser estabelecidas as condições para a fruição.\n§ 2º O imposto diferido relativo às operações de que trata o caput deste artigo deve ser pago, acrescido de juros de mora, no momento da desincorporação dos bens do ativo imobilizado ou até 31 de dezembro de 2032, o que ocorrer primeiro.\n§ 3º Implica perda do diferimento a destinação das mercadorias beneficiadas com o diferimento para outro contribuinte goiano ou para outra unidade da Federação, a qualquer título, hipótese em que o valor do ICMS diferido será exigido com juros de mora e demais acréscimos legais, conforme dispuser a legislação tributária, contados desde a entrada das mercadorias no estabelecimento.\n§ 4º A ausência de similaridade deve ser comprovada com laudo de entidade de abrangência nacional representativa do setor produtivo das mercadorias relacionadas no Apêndice LV deste Anexo ou de órgão federal competente.\n§ 5º O diferimento do imposto:\nI - não se estende à prestação de serviço de transporte, relacionada com as operações envolvendo as mercadorias;\nII - não se aplica a mercadorias sujeitas ao regime de substituição tributária; e\nIII - não autoriza restituição ou compensação de importância já paga.",
+      "vigencia_inicio_dispositivo_ou_template": "2024-11-18",
+      "vigencia_fim": null,
+      "vigencia_inicio_cadastro_proposto": "2026-10-28",
+      "aplicacao_automatica": "NAO",
+      "status": "CANDIDATO_CONDICIONAL_PARA_VALIDACAO",
+      "escopo_operacao": "AQUISICAO_INTERESTADUAL_DIFAL_OU_IMPORTACAO",
+      "cbenef": null,
+      "cbenef_fonte": null,
+      "cbenef_trecho_oficial": null,
+      "condicoes_gerais": [
+        "Máquinas/equipamentos/materiais sem similar nacional do Apêndice LV.",
+        "Captação, geração ou transmissão solar/eólica ou geração a partir de biogás; incorporação ao ativo de gerador instalado em Goiás.",
+        "TARE obrigatório; laudo de ausência de similar por entidade nacional representativa ou órgão federal.",
+        "Pagamento com juros na desincorporação ou até31/12/2032, o primeiro evento.",
+        "Destinação a outro contribuinte goiano ou outra UF implica perda e cobrança com juros e acréscimos desde a entrada.",
+        "Não alcança transporte nem mercadorias em substituição tributária; não autoriza restituição/compensação.",
+        "Não apresentar como isenção nem como redução aplicável à saída interna ordinária.",
+        "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis."
+      ],
+      "rotas_legais_alternativas": [
+        {
+          "item": "14",
+          "apendice": "LV",
+          "codigo_legal": "8517.62.52",
+          "descricao_legal": "Terminais ou repetidores sobre linhas de fibras ópticas com velocidade de transmissão superior a 2,5 Gbit/s",
+          "trecho_legal_item": "Terminais ou repetidores sobre linhas de fibras ópticas com velocidade de transmissão superior a 2,5 Gbit/s",
+          "fontes_complementares": [
+            "GO_D10579_2024"
+          ],
+          "restricoes": [
+            "Somente DIFAL da aquisição interestadual OU imposto da importação; não é desoneração da saída interna ordinária.",
+            "Contribuinte deve apresentar TARE vigente individual, laudo de ausência de similar nacional e comprovação de ativo imobilizado de gerador emGO.",
+            "Não há perdão: imposto acrescido de juros na desincorporação ou até31/12/2032, o que ocorrer primeiro; conferir perda pelo§3º."
+          ],
+          "tipo_correspondencia": "CODIGO_LITERAL_ATIVO_CONTEXTO_DIFAL_IMPORTACAO",
+          "vigencia_inicio_correspondencia": "2024-11-18"
+        }
+      ],
+      "modo_avaliacao": "AO_MENOS_UMA_ROTA_LEGAL_E_TODAS_AS_CONDICOES_GERAIS",
+      "destino_da_proposta": "CATALOGO_OPERACIONAL_CONTEXTUAL_SE_DISPONIVEL",
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "fundamento_catalogo_tecnico": {
+        "id_template": "GO_A9_ART30_",
+        "dispositivo": "RCTE/GO, Anexo IX, art. 30",
+        "texto_relevante": "Art. 30. Fica diferido o pagamento do ICMS relativo ao diferencial de alíquotas devido na aquisição interestadual e ao imposto devido na importação de máquinas, equipamentos e materiais, sem similar nacional, relacionados no Apêndice LV deste Anexo, destinados à captação, à geração e à transmissão de energia solar ou eólica, bem como à geração de energia a partir de biogás, incorporadas ao ativo imobilizado dos estabelecimentos geradores instalados neste Estado (Convênio ICMS 109/14).\n§ 1º A utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia, no qual devem ser estabelecidas as condições para a fruição.\n§ 2º O imposto diferido relativo às operações de que trata o caput deste artigo deve ser pago, acrescido de juros de mora, no momento da desincorporação dos bens do ativo imobilizado ou até 31 de dezembro de 2032, o que ocorrer primeiro.\n§ 3º Implica perda do diferimento a destinação das mercadorias beneficiadas com o diferimento para outro contribuinte goiano ou para outra unidade da Federação, a qualquer título, hipótese em que o valor do ICMS diferido será exigido com juros de mora e demais acréscimos legais, conforme dispuser a legislação tributária, contados desde a entrada das mercadorias no estabelecimento.\n§ 4º A ausência de similaridade deve ser comprovada com laudo de entidade de abrangência nacional representativa do setor produtivo das mercadorias relacionadas no Apêndice LV deste Anexo ou de órgão federal competente.\n§ 5º O diferimento do imposto:\nI - não se estende à prestação de serviço de transporte, relacionada com as operações envolvendo as mercadorias;\nII - não se aplica a mercadorias sujeitas ao regime de substituição tributária; e\nIII - não autoriza restituição ou compensação de importância já paga.",
+        "url_fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+        "vigencia_inicio": "2024-11-18",
+        "vigencia_fim": null,
+        "nao_inserir_em_producao_nesta_etapa": true
+      }
+    },
+    {
+      "id_proposta": "PROP_BEN_20261028_GO_A9_ART30__85042200",
+      "template_id_origem": "GO_A9_ART30_",
+      "id_legislacao_existente": null,
+      "fonte_existente_encontrada": false,
+      "ncm": "85042200",
+      "descricao_oficial": "Transformadores de dielétrico líquido — De potência superior a 650 kVA, mas não superior a 10.000 kVA",
+      "tipo_beneficio": "DIFERIMENTO",
+      "percentual_carga_efetiva": null,
+      "percentual_reducao_bc": null,
+      "credito_outorgado_percentual": null,
+      "dispositivo": "RCTE/GO, Anexo IX, art. 30",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "trecho_legal_template": "Art. 30. Fica diferido o pagamento do ICMS relativo ao diferencial de alíquotas devido na aquisição interestadual e ao imposto devido na importação de máquinas, equipamentos e materiais, sem similar nacional, relacionados no Apêndice LV deste Anexo, destinados à captação, à geração e à transmissão de energia solar ou eólica, bem como à geração de energia a partir de biogás, incorporadas ao ativo imobilizado dos estabelecimentos geradores instalados neste Estado (Convênio ICMS 109/14).\n§ 1º A utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia, no qual devem ser estabelecidas as condições para a fruição.\n§ 2º O imposto diferido relativo às operações de que trata o caput deste artigo deve ser pago, acrescido de juros de mora, no momento da desincorporação dos bens do ativo imobilizado ou até 31 de dezembro de 2032, o que ocorrer primeiro.\n§ 3º Implica perda do diferimento a destinação das mercadorias beneficiadas com o diferimento para outro contribuinte goiano ou para outra unidade da Federação, a qualquer título, hipótese em que o valor do ICMS diferido será exigido com juros de mora e demais acréscimos legais, conforme dispuser a legislação tributária, contados desde a entrada das mercadorias no estabelecimento.\n§ 4º A ausência de similaridade deve ser comprovada com laudo de entidade de abrangência nacional representativa do setor produtivo das mercadorias relacionadas no Apêndice LV deste Anexo ou de órgão federal competente.\n§ 5º O diferimento do imposto:\nI - não se estende à prestação de serviço de transporte, relacionada com as operações envolvendo as mercadorias;\nII - não se aplica a mercadorias sujeitas ao regime de substituição tributária; e\nIII - não autoriza restituição ou compensação de importância já paga.",
+      "vigencia_inicio_dispositivo_ou_template": "2024-11-18",
+      "vigencia_fim": null,
+      "vigencia_inicio_cadastro_proposto": "2026-10-28",
+      "aplicacao_automatica": "NAO",
+      "status": "CANDIDATO_CONDICIONAL_PARA_VALIDACAO",
+      "escopo_operacao": "AQUISICAO_INTERESTADUAL_DIFAL_OU_IMPORTACAO",
+      "cbenef": null,
+      "cbenef_fonte": null,
+      "cbenef_trecho_oficial": null,
+      "condicoes_gerais": [
+        "Máquinas/equipamentos/materiais sem similar nacional do Apêndice LV.",
+        "Captação, geração ou transmissão solar/eólica ou geração a partir de biogás; incorporação ao ativo de gerador instalado em Goiás.",
+        "TARE obrigatório; laudo de ausência de similar por entidade nacional representativa ou órgão federal.",
+        "Pagamento com juros na desincorporação ou até31/12/2032, o primeiro evento.",
+        "Destinação a outro contribuinte goiano ou outra UF implica perda e cobrança com juros e acréscimos desde a entrada.",
+        "Não alcança transporte nem mercadorias em substituição tributária; não autoriza restituição/compensação.",
+        "Não apresentar como isenção nem como redução aplicável à saída interna ordinária.",
+        "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis."
+      ],
+      "rotas_legais_alternativas": [
+        {
+          "item": "15",
+          "apendice": "LV",
+          "codigo_legal": "8504.22.00",
+          "descricao_legal": "Transformadores de dielétrico líquido de potência superior a 650 kVA, mas não superior a 10.000 kVA",
+          "trecho_legal_item": "Transformadores de dielétrico líquido de potência superior a 650 kVA, mas não superior a 10.000 kVA",
+          "fontes_complementares": [
+            "GO_D10579_2024"
+          ],
+          "restricoes": [
+            "Somente DIFAL da aquisição interestadual OU imposto da importação; não é desoneração da saída interna ordinária.",
+            "Contribuinte deve apresentar TARE vigente individual, laudo de ausência de similar nacional e comprovação de ativo imobilizado de gerador emGO.",
+            "Não há perdão: imposto acrescido de juros na desincorporação ou até31/12/2032, o que ocorrer primeiro; conferir perda pelo§3º."
+          ],
+          "tipo_correspondencia": "CODIGO_LITERAL_ATIVO_CONTEXTO_DIFAL_IMPORTACAO",
+          "vigencia_inicio_correspondencia": "2024-11-18"
+        }
+      ],
+      "modo_avaliacao": "AO_MENOS_UMA_ROTA_LEGAL_E_TODAS_AS_CONDICOES_GERAIS",
+      "destino_da_proposta": "CATALOGO_OPERACIONAL_CONTEXTUAL_SE_DISPONIVEL",
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "fundamento_catalogo_tecnico": {
+        "id_template": "GO_A9_ART30_",
+        "dispositivo": "RCTE/GO, Anexo IX, art. 30",
+        "texto_relevante": "Art. 30. Fica diferido o pagamento do ICMS relativo ao diferencial de alíquotas devido na aquisição interestadual e ao imposto devido na importação de máquinas, equipamentos e materiais, sem similar nacional, relacionados no Apêndice LV deste Anexo, destinados à captação, à geração e à transmissão de energia solar ou eólica, bem como à geração de energia a partir de biogás, incorporadas ao ativo imobilizado dos estabelecimentos geradores instalados neste Estado (Convênio ICMS 109/14).\n§ 1º A utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia, no qual devem ser estabelecidas as condições para a fruição.\n§ 2º O imposto diferido relativo às operações de que trata o caput deste artigo deve ser pago, acrescido de juros de mora, no momento da desincorporação dos bens do ativo imobilizado ou até 31 de dezembro de 2032, o que ocorrer primeiro.\n§ 3º Implica perda do diferimento a destinação das mercadorias beneficiadas com o diferimento para outro contribuinte goiano ou para outra unidade da Federação, a qualquer título, hipótese em que o valor do ICMS diferido será exigido com juros de mora e demais acréscimos legais, conforme dispuser a legislação tributária, contados desde a entrada das mercadorias no estabelecimento.\n§ 4º A ausência de similaridade deve ser comprovada com laudo de entidade de abrangência nacional representativa do setor produtivo das mercadorias relacionadas no Apêndice LV deste Anexo ou de órgão federal competente.\n§ 5º O diferimento do imposto:\nI - não se estende à prestação de serviço de transporte, relacionada com as operações envolvendo as mercadorias;\nII - não se aplica a mercadorias sujeitas ao regime de substituição tributária; e\nIII - não autoriza restituição ou compensação de importância já paga.",
+        "url_fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+        "vigencia_inicio": "2024-11-18",
+        "vigencia_fim": null,
+        "nao_inserir_em_producao_nesta_etapa": true
+      }
+    },
+    {
+      "id_proposta": "PROP_BEN_20261028_GO_A9_ART30__85352100",
+      "template_id_origem": "GO_A9_ART30_",
+      "id_legislacao_existente": null,
+      "fonte_existente_encontrada": false,
+      "ncm": "85352100",
+      "descricao_oficial": "Disjuntores — Para uma tensão inferior a 72,5 kV",
+      "tipo_beneficio": "DIFERIMENTO",
+      "percentual_carga_efetiva": null,
+      "percentual_reducao_bc": null,
+      "credito_outorgado_percentual": null,
+      "dispositivo": "RCTE/GO, Anexo IX, art. 30",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "trecho_legal_template": "Art. 30. Fica diferido o pagamento do ICMS relativo ao diferencial de alíquotas devido na aquisição interestadual e ao imposto devido na importação de máquinas, equipamentos e materiais, sem similar nacional, relacionados no Apêndice LV deste Anexo, destinados à captação, à geração e à transmissão de energia solar ou eólica, bem como à geração de energia a partir de biogás, incorporadas ao ativo imobilizado dos estabelecimentos geradores instalados neste Estado (Convênio ICMS 109/14).\n§ 1º A utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia, no qual devem ser estabelecidas as condições para a fruição.\n§ 2º O imposto diferido relativo às operações de que trata o caput deste artigo deve ser pago, acrescido de juros de mora, no momento da desincorporação dos bens do ativo imobilizado ou até 31 de dezembro de 2032, o que ocorrer primeiro.\n§ 3º Implica perda do diferimento a destinação das mercadorias beneficiadas com o diferimento para outro contribuinte goiano ou para outra unidade da Federação, a qualquer título, hipótese em que o valor do ICMS diferido será exigido com juros de mora e demais acréscimos legais, conforme dispuser a legislação tributária, contados desde a entrada das mercadorias no estabelecimento.\n§ 4º A ausência de similaridade deve ser comprovada com laudo de entidade de abrangência nacional representativa do setor produtivo das mercadorias relacionadas no Apêndice LV deste Anexo ou de órgão federal competente.\n§ 5º O diferimento do imposto:\nI - não se estende à prestação de serviço de transporte, relacionada com as operações envolvendo as mercadorias;\nII - não se aplica a mercadorias sujeitas ao regime de substituição tributária; e\nIII - não autoriza restituição ou compensação de importância já paga.",
+      "vigencia_inicio_dispositivo_ou_template": "2024-11-18",
+      "vigencia_fim": null,
+      "vigencia_inicio_cadastro_proposto": "2026-10-28",
+      "aplicacao_automatica": "NAO",
+      "status": "CANDIDATO_CONDICIONAL_PARA_VALIDACAO",
+      "escopo_operacao": "AQUISICAO_INTERESTADUAL_DIFAL_OU_IMPORTACAO",
+      "cbenef": null,
+      "cbenef_fonte": null,
+      "cbenef_trecho_oficial": null,
+      "condicoes_gerais": [
+        "Máquinas/equipamentos/materiais sem similar nacional do Apêndice LV.",
+        "Captação, geração ou transmissão solar/eólica ou geração a partir de biogás; incorporação ao ativo de gerador instalado em Goiás.",
+        "TARE obrigatório; laudo de ausência de similar por entidade nacional representativa ou órgão federal.",
+        "Pagamento com juros na desincorporação ou até31/12/2032, o primeiro evento.",
+        "Destinação a outro contribuinte goiano ou outra UF implica perda e cobrança com juros e acréscimos desde a entrada.",
+        "Não alcança transporte nem mercadorias em substituição tributária; não autoriza restituição/compensação.",
+        "Não apresentar como isenção nem como redução aplicável à saída interna ordinária.",
+        "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis."
+      ],
+      "rotas_legais_alternativas": [
+        {
+          "item": "16",
+          "apendice": "LV",
+          "codigo_legal": "8535.21.00",
+          "descricao_legal": "Disjuntores para tensão superior a 1 kV e inferior a 72,5 kV",
+          "trecho_legal_item": "Disjuntores para tensão superior a 1 kV e inferior a 72,5 kV",
+          "fontes_complementares": [
+            "GO_D10579_2024"
+          ],
+          "restricoes": [
+            "Somente DIFAL da aquisição interestadual OU imposto da importação; não é desoneração da saída interna ordinária.",
+            "Contribuinte deve apresentar TARE vigente individual, laudo de ausência de similar nacional e comprovação de ativo imobilizado de gerador emGO.",
+            "Não há perdão: imposto acrescido de juros na desincorporação ou até31/12/2032, o que ocorrer primeiro; conferir perda pelo§3º."
+          ],
+          "tipo_correspondencia": "CODIGO_LITERAL_ATIVO_CONTEXTO_DIFAL_IMPORTACAO",
+          "vigencia_inicio_correspondencia": "2024-11-18"
+        }
+      ],
+      "modo_avaliacao": "AO_MENOS_UMA_ROTA_LEGAL_E_TODAS_AS_CONDICOES_GERAIS",
+      "destino_da_proposta": "CATALOGO_OPERACIONAL_CONTEXTUAL_SE_DISPONIVEL",
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "fundamento_catalogo_tecnico": {
+        "id_template": "GO_A9_ART30_",
+        "dispositivo": "RCTE/GO, Anexo IX, art. 30",
+        "texto_relevante": "Art. 30. Fica diferido o pagamento do ICMS relativo ao diferencial de alíquotas devido na aquisição interestadual e ao imposto devido na importação de máquinas, equipamentos e materiais, sem similar nacional, relacionados no Apêndice LV deste Anexo, destinados à captação, à geração e à transmissão de energia solar ou eólica, bem como à geração de energia a partir de biogás, incorporadas ao ativo imobilizado dos estabelecimentos geradores instalados neste Estado (Convênio ICMS 109/14).\n§ 1º A utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia, no qual devem ser estabelecidas as condições para a fruição.\n§ 2º O imposto diferido relativo às operações de que trata o caput deste artigo deve ser pago, acrescido de juros de mora, no momento da desincorporação dos bens do ativo imobilizado ou até 31 de dezembro de 2032, o que ocorrer primeiro.\n§ 3º Implica perda do diferimento a destinação das mercadorias beneficiadas com o diferimento para outro contribuinte goiano ou para outra unidade da Federação, a qualquer título, hipótese em que o valor do ICMS diferido será exigido com juros de mora e demais acréscimos legais, conforme dispuser a legislação tributária, contados desde a entrada das mercadorias no estabelecimento.\n§ 4º A ausência de similaridade deve ser comprovada com laudo de entidade de abrangência nacional representativa do setor produtivo das mercadorias relacionadas no Apêndice LV deste Anexo ou de órgão federal competente.\n§ 5º O diferimento do imposto:\nI - não se estende à prestação de serviço de transporte, relacionada com as operações envolvendo as mercadorias;\nII - não se aplica a mercadorias sujeitas ao regime de substituição tributária; e\nIII - não autoriza restituição ou compensação de importância já paga.",
+        "url_fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+        "vigencia_inicio": "2024-11-18",
+        "vigencia_fim": null,
+        "nao_inserir_em_producao_nesta_etapa": true
+      }
+    },
+    {
+      "id_proposta": "PROP_BEN_20261028_GO_A9_ART30__85022019",
+      "template_id_origem": "GO_A9_ART30_",
+      "id_legislacao_existente": null,
+      "fonte_existente_encontrada": false,
+      "ncm": "85022019",
+      "descricao_oficial": "Grupos eletrogêneos de motor de pistão, de ignição por centelha (faísca) (motor de explosão) — De corrente alternada — Outros",
+      "tipo_beneficio": "DIFERIMENTO",
+      "percentual_carga_efetiva": null,
+      "percentual_reducao_bc": null,
+      "credito_outorgado_percentual": null,
+      "dispositivo": "RCTE/GO, Anexo IX, art. 30",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "trecho_legal_template": "Art. 30. Fica diferido o pagamento do ICMS relativo ao diferencial de alíquotas devido na aquisição interestadual e ao imposto devido na importação de máquinas, equipamentos e materiais, sem similar nacional, relacionados no Apêndice LV deste Anexo, destinados à captação, à geração e à transmissão de energia solar ou eólica, bem como à geração de energia a partir de biogás, incorporadas ao ativo imobilizado dos estabelecimentos geradores instalados neste Estado (Convênio ICMS 109/14).\n§ 1º A utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia, no qual devem ser estabelecidas as condições para a fruição.\n§ 2º O imposto diferido relativo às operações de que trata o caput deste artigo deve ser pago, acrescido de juros de mora, no momento da desincorporação dos bens do ativo imobilizado ou até 31 de dezembro de 2032, o que ocorrer primeiro.\n§ 3º Implica perda do diferimento a destinação das mercadorias beneficiadas com o diferimento para outro contribuinte goiano ou para outra unidade da Federação, a qualquer título, hipótese em que o valor do ICMS diferido será exigido com juros de mora e demais acréscimos legais, conforme dispuser a legislação tributária, contados desde a entrada das mercadorias no estabelecimento.\n§ 4º A ausência de similaridade deve ser comprovada com laudo de entidade de abrangência nacional representativa do setor produtivo das mercadorias relacionadas no Apêndice LV deste Anexo ou de órgão federal competente.\n§ 5º O diferimento do imposto:\nI - não se estende à prestação de serviço de transporte, relacionada com as operações envolvendo as mercadorias;\nII - não se aplica a mercadorias sujeitas ao regime de substituição tributária; e\nIII - não autoriza restituição ou compensação de importância já paga.",
+      "vigencia_inicio_dispositivo_ou_template": "2024-11-18",
+      "vigencia_fim": null,
+      "vigencia_inicio_cadastro_proposto": "2026-10-28",
+      "aplicacao_automatica": "NAO",
+      "status": "CANDIDATO_CONDICIONAL_PARA_VALIDACAO",
+      "escopo_operacao": "AQUISICAO_INTERESTADUAL_DIFAL_OU_IMPORTACAO",
+      "cbenef": null,
+      "cbenef_fonte": null,
+      "cbenef_trecho_oficial": null,
+      "condicoes_gerais": [
+        "Máquinas/equipamentos/materiais sem similar nacional do Apêndice LV.",
+        "Captação, geração ou transmissão solar/eólica ou geração a partir de biogás; incorporação ao ativo de gerador instalado em Goiás.",
+        "TARE obrigatório; laudo de ausência de similar por entidade nacional representativa ou órgão federal.",
+        "Pagamento com juros na desincorporação ou até31/12/2032, o primeiro evento.",
+        "Destinação a outro contribuinte goiano ou outra UF implica perda e cobrança com juros e acréscimos desde a entrada.",
+        "Não alcança transporte nem mercadorias em substituição tributária; não autoriza restituição/compensação.",
+        "Não apresentar como isenção nem como redução aplicável à saída interna ordinária.",
+        "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis."
+      ],
+      "rotas_legais_alternativas": [
+        {
+          "item": "17",
+          "apendice": "LV",
+          "codigo_legal": "8502.20.19",
+          "descricao_legal": "Grupos eletrogêneos de 1.065 kW de potência movidos a biogás",
+          "trecho_legal_item": "Grupos eletrogêneos de 1.065 kW de potência movidos a biogás",
+          "fontes_complementares": [
+            "GO_D10579_2024"
+          ],
+          "restricoes": [
+            "Somente DIFAL da aquisição interestadual OU imposto da importação; não é desoneração da saída interna ordinária.",
+            "Contribuinte deve apresentar TARE vigente individual, laudo de ausência de similar nacional e comprovação de ativo imobilizado de gerador emGO.",
+            "Não há perdão: imposto acrescido de juros na desincorporação ou até31/12/2032, o que ocorrer primeiro; conferir perda pelo§3º."
+          ],
+          "tipo_correspondencia": "CODIGO_LITERAL_ATIVO_CONTEXTO_DIFAL_IMPORTACAO",
+          "vigencia_inicio_correspondencia": "2024-11-18"
+        }
+      ],
+      "modo_avaliacao": "AO_MENOS_UMA_ROTA_LEGAL_E_TODAS_AS_CONDICOES_GERAIS",
+      "destino_da_proposta": "CATALOGO_OPERACIONAL_CONTEXTUAL_SE_DISPONIVEL",
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "fundamento_catalogo_tecnico": {
+        "id_template": "GO_A9_ART30_",
+        "dispositivo": "RCTE/GO, Anexo IX, art. 30",
+        "texto_relevante": "Art. 30. Fica diferido o pagamento do ICMS relativo ao diferencial de alíquotas devido na aquisição interestadual e ao imposto devido na importação de máquinas, equipamentos e materiais, sem similar nacional, relacionados no Apêndice LV deste Anexo, destinados à captação, à geração e à transmissão de energia solar ou eólica, bem como à geração de energia a partir de biogás, incorporadas ao ativo imobilizado dos estabelecimentos geradores instalados neste Estado (Convênio ICMS 109/14).\n§ 1º A utilização do benefício fica condicionada à celebração de Termo de Acordo de Regime Especial - TARE com a Secretaria de Estado da Economia, no qual devem ser estabelecidas as condições para a fruição.\n§ 2º O imposto diferido relativo às operações de que trata o caput deste artigo deve ser pago, acrescido de juros de mora, no momento da desincorporação dos bens do ativo imobilizado ou até 31 de dezembro de 2032, o que ocorrer primeiro.\n§ 3º Implica perda do diferimento a destinação das mercadorias beneficiadas com o diferimento para outro contribuinte goiano ou para outra unidade da Federação, a qualquer título, hipótese em que o valor do ICMS diferido será exigido com juros de mora e demais acréscimos legais, conforme dispuser a legislação tributária, contados desde a entrada das mercadorias no estabelecimento.\n§ 4º A ausência de similaridade deve ser comprovada com laudo de entidade de abrangência nacional representativa do setor produtivo das mercadorias relacionadas no Apêndice LV deste Anexo ou de órgão federal competente.\n§ 5º O diferimento do imposto:\nI - não se estende à prestação de serviço de transporte, relacionada com as operações envolvendo as mercadorias;\nII - não se aplica a mercadorias sujeitas ao regime de substituição tributária; e\nIII - não autoriza restituição ou compensação de importância já paga.",
+        "url_fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+        "vigencia_inicio": "2024-11-18",
+        "vigencia_fim": null,
+        "nao_inserir_em_producao_nesta_etapa": true
+      }
+    }
+  ]
+}

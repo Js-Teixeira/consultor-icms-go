@@ -1,0 +1,894 @@
+{
+  "referencia": "2026-10-28",
+  "natureza": "CORRECAO_CADASTRAL_SEM_PERCENTUAL_ESPECIFICO_COMPROVADO",
+  "hash_ncm": "e8be9b594dd4dd3f7a73211dae70954a",
+  "fontes": [
+    {
+      "id": "GO_CTE",
+      "titulo": "Lei GO 11.651/1991, CTE consolidado",
+      "url": "https://appasp.economia.go.gov.br/Legislacao/arquivos/Cte/CTE.htm",
+      "dispositivo": "art. 27, II, a e b",
+      "jurisdicao": "Goiás",
+      "vigencia": "Alínea a: redação da Lei 20.944/2020 desde 2021-01-01; alínea b: redação da Lei 14.382/2002 desde 2003-01-01. Consolidado oficial atualizado até Lei 24.391, 29/06/2026; consultado em 2026-10-28.",
+      "trecho_curto": "12%; ovo; fubá; macarrão; sal iodado",
+      "trecho_tipo": "Termos literais descontínuos, sem reproduzir a lista completa.",
+      "achado": "A lei estabelece nominal de 12% para mercadorias nomeadas em operações internas, sem vincular estes oito NCMs a uma lista legal. Não resolve expressamente as apresentações em exame."
+    },
+    {
+      "id": "GO_RCTE20",
+      "titulo": "Decreto GO 4.852/1997, RCTE",
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/RCTE.htm",
+      "dispositivo": "art. 20, § 1º, II, a, itens 1 e 4",
+      "jurisdicao": "Goiás",
+      "vigencia": "Item 1: redação do Decreto 9.918/2021 com efeitos desde 2021-01-01; item 4, ovo: texto do regulamento com vigência inicial 1998-01-01. Cabeçalho atual consolidado até Decreto 10.986, de 16/09/2026; consultado em 2026-10-28.",
+      "trecho_curto": "4. ovo;",
+      "achado": "Reproduz a tributação nominal dos produtos enumerados, sem equiparação explícita entre toda apresentação tarifária e o produto legal."
+    },
+    {
+      "id": "GO_RCTE_IX",
+      "titulo": "RCTE, Anexo IX, texto consolidado",
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "dispositivo": "art. 6º, XI, caput e b; art. 8º, XXXIII",
+      "jurisdicao": "Goiás",
+      "vigencia": "Art. 6º, XI, b: redação desde 2001-04-27 (Decreto 5.416/2001). Art. 8º, XXXIII: redação atual desde 2021-03-31 (Decreto 9.773/2020). Trechos atuais identificados por classe ParNormal e âncoras A6XI, A6XIB, A8XXXIII no consolidado, não por textos TextoRevo. Referência 2026-10-28.",
+      "trecho_curto": "em estado natural e desde que não destinados à industrialização; percentual de 7%",
+      "achado": "Isenção de ovos em estado natural não destinados à industrialização e redução de base de cálculo para carga de 7% são tratamentos próprios. Nenhum converte automaticamente todo NCM em nominal de 12%. Ovos não constam da lista da cesta básica do art. 8º, XXXIII."
+    },
+    {
+      "id": "GO_P55",
+      "titulo": "Parecer ECONOMIA/GEOT 55/2023",
+      "url": "https://appasp.economia.go.gov.br/pareceres/arquivos/Benef%C3%ADcio%20Fiscal/Redu%C3%A7%C3%A3o%20de%20BC%20concedida%20por%20prazo%20indeterminado%20-%20Art.%208%C2%B0/XXXIII/P_55_2023_SEI.docx",
+      "dispositivo": "II, A, itens 04 (fubá), 06 (macarrão), 16 (sal); III, conclusões correspondentes",
+      "jurisdicao": "Goiás",
+      "vigencia": "Parecer de 23/02/2023, assinado em 27/02/2023; interpretação administrativa de redução de base de cálculo, não ato que cria vigência de nominal por NCM. Íntegra oficial local e índice oficial conferidos.",
+      "trecho_curto": "não se aplicando o benefício às massas recheadas; desde que iodados; legítimo fubá",
+      "achado": "Item 04 distingue fubá de flocão e creme de milho; item 06 exclui massas recheadas do benefício para macarrão; item 16 inclui origem marinha somente sob requisito de iodação. O assunto é o benefício de carga 7%, não decisão autônoma sobre a alíquota nominal de 12%.",
+      "indice_url": "https://appasp.economia.go.gov.br/pareceres/busca/default.asp?p=7&s=sigar+i"
+    },
+    {
+      "id": "GO_P105",
+      "titulo": "Parecer ECONOMIA/GEOT 105/2023",
+      "url": "https://appasp.economia.go.gov.br/pareceres/arquivos/Cr%C3%A9dito%20de%20ICMS/Transfer%C3%AAncia%20de%20Cr%C3%A9dito/P_105_2023_SEI.docx",
+      "dispositivo": "I – RELATÓRIO, segundo parágrafo; II – FUNDAMENTAÇÃO; II – CONCLUSÃO (numeração do próprio documento)",
+      "jurisdicao": "Goiás",
+      "vigencia": "24/04/2023; parecer sobre transferência de crédito acumulado, não homologação geral da alíquota dos ovoprodutos. Íntegra oficial baixada em 2026-10-28.",
+      "trecho_curto": "ovo líquido; também com a alíquota de 12%",
+      "achado": "A prática de 12% no ovo líquido consta como relato do consulente. A análise e conclusão do órgão respondem transferência de crédito e isenção do ovo em estado natural; não examinam classificação 04089900 nem aprovam toda apresentação sem casca. Não transformar o relatório em comando normativo.",
+      "indice_url": "https://appasp.economia.go.gov.br/pareceres/busca/default.asp?p=3&s=ibte+seria"
+    },
+    {
+      "id": "RFB_TIPI",
+      "titulo": "Receita Federal, TIPI oficial atual",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+      "dispositivo": "Capítulos 4, 11, 19 e 25; Notas 2 e 3 do Capítulo 11; RGI 1 e 6; RGC 1",
+      "jurisdicao": "Federal — classificação fiscal, sem fixar ICMS GO",
+      "vigencia": "Decreto 11.158/2022 e atualizações indicadas na capa até ADE RFB 1, de 30/01/2026, retificado em 12/02/2026; arquivo oficial consultado em 2026-10-28.",
+      "trecho_curto": "Gemas de ovos; Grumos e sêmolas; Massas alimentícias recheadas; Sal a granel, sem agregados",
+      "achado": "A classificação exige hierarquia, notas e características; o rótulo técnico EXATO de busca não prova identidade legal nem direito tributário. A TIPI separa farinha de milho 11022000 de grumos/sêmolas 11031300 e situa 25010011 sob sal a granel sem agregados. Os percentuais de IPI foram desconsiderados.",
+      "paginas_pdf_1_based": [
+        8,
+        27,
+        43,
+        44,
+        61,
+        62,
+        77
+      ]
+    },
+    {
+      "id": "RFB_NESH",
+      "titulo": "Receita Federal, NESH – IN RFB 2.169/2023",
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+      "dispositivo": "Notas explicativas 04.07, 04.08, 11.03, 19.02, 25.01",
+      "jurisdicao": "Federal — interpretação da nomenclatura, sem fixar ICMS GO",
+      "vigencia": "Texto consolidado aprovado pela IN RFB 2.169, de 29/12/2023. Portal oficial o disponibiliza como versão atualizada; baixado em 2026-10-28. Não usado como prova de nominal estadual.",
+      "trecho_curto": "ovos, com casca, conservados ou cozidos; ovos inteiros desprovidos da casca; sêmola é um produto mais granuloso; massas recheadas; ligeiramente iodado",
+      "achado": "04.08 também admite usos industriais não alimentícios e adição de edulcorantes; claras isoladas são excluídas para 35.02. 11.03 distingue sêmolas/grumos de farinha. 19.02 é gênero mais amplo que macarrão. 25.01 compreende sal ligeiramente iodado, mas a nota da posição não escolhe o subitem regional 25010011.",
+      "paginas_pdf_1_based": [
+        70,
+        71,
+        150,
+        251,
+        317
+      ],
+      "evidencia_texto_local": "/workspace/scratch/7812c5f8369a/conclusao_pendencias_20261028/nesh_2022_oficial.txt"
+    }
+  ],
+  "conclusoes": [
+    {
+      "ncm": "04079000",
+      "descricao_oficial": "Ovos de aves, com casca, frescos, conservados ou cozidos — Outros",
+      "resultado_pesquisa": "CONCLUIDA_VINCULO_GENERICO_NAO_DEMONSTRADO",
+      "conclusao_verificavel": "O código residual corresponde a ovo com casca conservado ou cozido; não é o residual dos ovos frescos. Não foi encontrada orientação primária goiana específica que confirme o alcance da nominal de 12% para essas apresentações. Concluir o cadastro genérico como não demonstrado e retirar o percentual operacional, sem declarar exclusão legal definitiva.",
+      "classificacao_exata_versus_produto": "TIPI/SH 0407.1 cobre ovos fertilizados para incubação, 0407.2 os outros ovos frescos; 0407.90 é o residual. A nota NESH 04.07 inclui conservação/cozimento. Não basta informar apenas que o produto é ovo ou assinalar SIM.",
+      "nao_demonstrado": "Alcance do termo ovo (CTE art. 27, II, b) para a conservação/cozimento efetivamente realizados; composição e classificação real do produto.",
+      "criterio_para_enquadramento_concreto": "Identificar processo de conservação/cozimento, casca, ingredientes e destinação; obter enquadramento fiscal documentado na legislação/manifestação GO para a apresentação concreta. Não solicitar prova de estado natural como se constasse da nominal: esse requisito pertence à isenção do Anexo IX.",
+      "nominal_12_versus_beneficios": "A isenção do art. 6º, XI exige estado natural e ausência de destinação à industrialização. Isso não resolve a nominal para ovo conservado/cozido. O benefício cesta 7% não lista ovo.",
+      "fontes_ids": [
+        "GO_CTE",
+        "GO_RCTE20",
+        "RFB_TIPI",
+        "RFB_NESH",
+        "GO_RCTE_IX"
+      ],
+      "texto_apresentacao_recomendado": "Alíquota não determinada pelo cadastro. Ovo conservado/cozido: confirmar o alcance do art. 27, II, b para esta apresentação. Registro anterior continha hipótese de 12%, sem comprovação suficiente.",
+      "decisao_administrativa": "Retirar o percentual do dado corrente (NULL) e preservar o vínculo como anotação de enquadramento não determinado. Não substituir por outra alíquota e não apagar histórico.",
+      "homologacao_fiscal_realizada": false,
+      "hipotese_12_confirmada_para_todo_ncm": false,
+      "conclusao_administrativa": "SEM_PERCENTUAL_ESPECIFICO_COMPROVADO",
+      "motivo_curto": "Ovo conservado/cozido: não demonstrado o alcance nominal para essa apresentação; não confundir com o residual dos ovos frescos.",
+      "fontes": [
+        {
+          "id": "GO_CTE",
+          "url": "https://appasp.economia.go.gov.br/Legislacao/arquivos/Cte/CTE.htm",
+          "dispositivo": "art. 27, II, a e b",
+          "trecho_curto": "12%; ovo; fubá; macarrão; sal iodado",
+          "vigencia": "Alínea a: redação da Lei 20.944/2020 desde 2021-01-01; alínea b: redação da Lei 14.382/2002 desde 2003-01-01. Consolidado oficial atualizado até Lei 24.391, 29/06/2026; consultado em 2026-10-28."
+        },
+        {
+          "id": "GO_RCTE20",
+          "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/RCTE.htm",
+          "dispositivo": "art. 20, § 1º, II, a, itens 1 e 4",
+          "trecho_curto": "4. ovo;",
+          "vigencia": "Item 1: redação do Decreto 9.918/2021 com efeitos desde 2021-01-01; item 4, ovo: texto do regulamento com vigência inicial 1998-01-01. Cabeçalho atual consolidado até Decreto 10.986, de 16/09/2026; consultado em 2026-10-28."
+        },
+        {
+          "id": "RFB_TIPI",
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+          "dispositivo": "Capítulos 4, 11, 19 e 25; Notas 2 e 3 do Capítulo 11; RGI 1 e 6; RGC 1",
+          "trecho_curto": "Gemas de ovos; Grumos e sêmolas; Massas alimentícias recheadas; Sal a granel, sem agregados",
+          "vigencia": "Decreto 11.158/2022 e atualizações indicadas na capa até ADE RFB 1, de 30/01/2026, retificado em 12/02/2026; arquivo oficial consultado em 2026-10-28."
+        },
+        {
+          "id": "RFB_NESH",
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "dispositivo": "Notas explicativas 04.07, 04.08, 11.03, 19.02, 25.01",
+          "trecho_curto": "ovos, com casca, conservados ou cozidos; ovos inteiros desprovidos da casca; sêmola é um produto mais granuloso; massas recheadas; ligeiramente iodado",
+          "vigencia": "Texto consolidado aprovado pela IN RFB 2.169, de 29/12/2023. Portal oficial o disponibiliza como versão atualizada; baixado em 2026-10-28. Não usado como prova de nominal estadual."
+        },
+        {
+          "id": "GO_RCTE_IX",
+          "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+          "dispositivo": "art. 6º, XI, caput e b; art. 8º, XXXIII",
+          "trecho_curto": "em estado natural e desde que não destinados à industrialização; percentual de 7%",
+          "vigencia": "Art. 6º, XI, b: redação desde 2001-04-27 (Decreto 5.416/2001). Art. 8º, XXXIII: redação atual desde 2021-03-31 (Decreto 9.773/2020). Trechos atuais identificados por classe ParNormal e âncoras A6XI, A6XIB, A8XXXIII no consolidado, não por textos TextoRevo. Referência 2026-10-28."
+        }
+      ]
+    },
+    {
+      "ncm": "04081100",
+      "descricao_oficial": "Gemas de ovos — Secas",
+      "resultado_pesquisa": "CONCLUIDA_VINCULO_GENERICO_NAO_DEMONSTRADO",
+      "conclusao_verificavel": "Gema seca não foi demonstrada, por fonte goiana específica, como abrangida pelo termo legal ovo para a nominal de 12%. Encerrar a associação genérica como não demonstrada, retirando o número atual e preservando a hipótese histórica.",
+      "classificacao_exata_versus_produto": "0408.11 é gema seca. A posição 04.08 admite processamentos e adição de edulcorantes e tanto uso alimentar como industrial. Não se presume ovo integral ou em estado natural.",
+      "nao_demonstrado": "Equiparação jurídica de gema desidratada, com a composição concreta, a ovo para a nominal; a descrição tarifária não faz essa equiparação estadual.",
+      "criterio_para_enquadramento_concreto": "Documentar gema/desidratação, ingredientes, finalidade e classificação. Exigir fundamento GO específico ou análise fiscal da identidade do produto; confirmação livre de descrição não substitui esse suporte.",
+      "nominal_12_versus_beneficios": "Não transportar isenção do ovo em estado natural para gema seca. Nenhuma carga cesta de 7% para ovo foi demonstrada pelo art. 8º, XXXIII.",
+      "fontes_ids": [
+        "GO_CTE",
+        "GO_RCTE20",
+        "RFB_TIPI",
+        "RFB_NESH",
+        "GO_RCTE_IX"
+      ],
+      "texto_apresentacao_recomendado": "Alíquota não determinada pelo cadastro. Gema seca: não há comprovação do vínculo nominal de 12% para esta apresentação. Hipótese cadastral anterior preservada no histórico.",
+      "decisao_administrativa": "Retirar o percentual do dado corrente (NULL) e preservar o vínculo como anotação de enquadramento não determinado. Não substituir por outra alíquota e não apagar histórico.",
+      "homologacao_fiscal_realizada": false,
+      "hipotese_12_confirmada_para_todo_ncm": false,
+      "conclusao_administrativa": "SEM_PERCENTUAL_ESPECIFICO_COMPROVADO",
+      "motivo_curto": "Gema seca: falta equiparação específica ao ovo da norma goiana; código não comprova identidade legal.",
+      "fontes": [
+        {
+          "id": "GO_CTE",
+          "url": "https://appasp.economia.go.gov.br/Legislacao/arquivos/Cte/CTE.htm",
+          "dispositivo": "art. 27, II, a e b",
+          "trecho_curto": "12%; ovo; fubá; macarrão; sal iodado",
+          "vigencia": "Alínea a: redação da Lei 20.944/2020 desde 2021-01-01; alínea b: redação da Lei 14.382/2002 desde 2003-01-01. Consolidado oficial atualizado até Lei 24.391, 29/06/2026; consultado em 2026-10-28."
+        },
+        {
+          "id": "GO_RCTE20",
+          "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/RCTE.htm",
+          "dispositivo": "art. 20, § 1º, II, a, itens 1 e 4",
+          "trecho_curto": "4. ovo;",
+          "vigencia": "Item 1: redação do Decreto 9.918/2021 com efeitos desde 2021-01-01; item 4, ovo: texto do regulamento com vigência inicial 1998-01-01. Cabeçalho atual consolidado até Decreto 10.986, de 16/09/2026; consultado em 2026-10-28."
+        },
+        {
+          "id": "RFB_TIPI",
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+          "dispositivo": "Capítulos 4, 11, 19 e 25; Notas 2 e 3 do Capítulo 11; RGI 1 e 6; RGC 1",
+          "trecho_curto": "Gemas de ovos; Grumos e sêmolas; Massas alimentícias recheadas; Sal a granel, sem agregados",
+          "vigencia": "Decreto 11.158/2022 e atualizações indicadas na capa até ADE RFB 1, de 30/01/2026, retificado em 12/02/2026; arquivo oficial consultado em 2026-10-28."
+        },
+        {
+          "id": "RFB_NESH",
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "dispositivo": "Notas explicativas 04.07, 04.08, 11.03, 19.02, 25.01",
+          "trecho_curto": "ovos, com casca, conservados ou cozidos; ovos inteiros desprovidos da casca; sêmola é um produto mais granuloso; massas recheadas; ligeiramente iodado",
+          "vigencia": "Texto consolidado aprovado pela IN RFB 2.169, de 29/12/2023. Portal oficial o disponibiliza como versão atualizada; baixado em 2026-10-28. Não usado como prova de nominal estadual."
+        },
+        {
+          "id": "GO_RCTE_IX",
+          "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+          "dispositivo": "art. 6º, XI, caput e b; art. 8º, XXXIII",
+          "trecho_curto": "em estado natural e desde que não destinados à industrialização; percentual de 7%",
+          "vigencia": "Art. 6º, XI, b: redação desde 2001-04-27 (Decreto 5.416/2001). Art. 8º, XXXIII: redação atual desde 2021-03-31 (Decreto 9.773/2020). Trechos atuais identificados por classe ParNormal e âncoras A6XI, A6XIB, A8XXXIII no consolidado, não por textos TextoRevo. Referência 2026-10-28."
+        }
+      ]
+    },
+    {
+      "ncm": "04081900",
+      "descricao_oficial": "Gemas de ovos — Outras",
+      "resultado_pesquisa": "CONCLUIDA_VINCULO_GENERICO_NAO_DEMONSTRADO",
+      "conclusao_verificavel": "O código abrange outras apresentações de gema e não prova, por si, o produto legal ovo. Não foi encontrada decisão GO que homologue a extensão a todas essas apresentações. Retirar o percentual operacional de 12%; decisão por produto continua possível com documentação própria.",
+      "classificacao_exata_versus_produto": "0408.19 é outras gemas, em oposição às secas 0408.11. O Ex 01 de IPI para frescas não cria alíquota de ICMS. A subposição não se torna prova universal por estar correta no catálogo.",
+      "nao_demonstrado": "Apresentação exata da gema (fresca, congelada, conservada etc.), aditivos e alcance estadual de ovo para essa mercadoria.",
+      "criterio_para_enquadramento_concreto": "Identificar composição, processamento e finalidade e obter suporte goiano para a hipótese concreta. O relato sobre ovo líquido integral no Parecer 105 não homologa gema nem a subposição 04081900.",
+      "nominal_12_versus_beneficios": "A nominal não se confunde com isenção do ovo natural. A distinção de apresentações na TIPI é classificatória; seus Ex e percentuais de IPI não resolvem o benefício estadual.",
+      "fontes_ids": [
+        "GO_CTE",
+        "GO_RCTE20",
+        "RFB_TIPI",
+        "RFB_NESH",
+        "GO_P105",
+        "GO_RCTE_IX"
+      ],
+      "texto_apresentacao_recomendado": "Alíquota não determinada pelo cadastro. Gema em outras apresentações: identificar processamento e comprovar o alcance do termo ovo. O 12% anterior era hipótese cadastral.",
+      "decisao_administrativa": "Retirar o percentual do dado corrente (NULL) e preservar o vínculo como anotação de enquadramento não determinado. Não substituir por outra alíquota e não apagar histórico.",
+      "homologacao_fiscal_realizada": false,
+      "hipotese_12_confirmada_para_todo_ncm": false,
+      "conclusao_administrativa": "SEM_PERCENTUAL_ESPECIFICO_COMPROVADO",
+      "motivo_curto": "Outras gemas: múltiplas apresentações, sem enquadramento nominal específico comprovado.",
+      "fontes": [
+        {
+          "id": "GO_CTE",
+          "url": "https://appasp.economia.go.gov.br/Legislacao/arquivos/Cte/CTE.htm",
+          "dispositivo": "art. 27, II, a e b",
+          "trecho_curto": "12%; ovo; fubá; macarrão; sal iodado",
+          "vigencia": "Alínea a: redação da Lei 20.944/2020 desde 2021-01-01; alínea b: redação da Lei 14.382/2002 desde 2003-01-01. Consolidado oficial atualizado até Lei 24.391, 29/06/2026; consultado em 2026-10-28."
+        },
+        {
+          "id": "GO_RCTE20",
+          "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/RCTE.htm",
+          "dispositivo": "art. 20, § 1º, II, a, itens 1 e 4",
+          "trecho_curto": "4. ovo;",
+          "vigencia": "Item 1: redação do Decreto 9.918/2021 com efeitos desde 2021-01-01; item 4, ovo: texto do regulamento com vigência inicial 1998-01-01. Cabeçalho atual consolidado até Decreto 10.986, de 16/09/2026; consultado em 2026-10-28."
+        },
+        {
+          "id": "RFB_TIPI",
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+          "dispositivo": "Capítulos 4, 11, 19 e 25; Notas 2 e 3 do Capítulo 11; RGI 1 e 6; RGC 1",
+          "trecho_curto": "Gemas de ovos; Grumos e sêmolas; Massas alimentícias recheadas; Sal a granel, sem agregados",
+          "vigencia": "Decreto 11.158/2022 e atualizações indicadas na capa até ADE RFB 1, de 30/01/2026, retificado em 12/02/2026; arquivo oficial consultado em 2026-10-28."
+        },
+        {
+          "id": "RFB_NESH",
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "dispositivo": "Notas explicativas 04.07, 04.08, 11.03, 19.02, 25.01",
+          "trecho_curto": "ovos, com casca, conservados ou cozidos; ovos inteiros desprovidos da casca; sêmola é um produto mais granuloso; massas recheadas; ligeiramente iodado",
+          "vigencia": "Texto consolidado aprovado pela IN RFB 2.169, de 29/12/2023. Portal oficial o disponibiliza como versão atualizada; baixado em 2026-10-28. Não usado como prova de nominal estadual."
+        },
+        {
+          "id": "GO_P105",
+          "url": "https://appasp.economia.go.gov.br/pareceres/arquivos/Cr%C3%A9dito%20de%20ICMS/Transfer%C3%AAncia%20de%20Cr%C3%A9dito/P_105_2023_SEI.docx",
+          "dispositivo": "I – RELATÓRIO, segundo parágrafo; II – FUNDAMENTAÇÃO; II – CONCLUSÃO (numeração do próprio documento)",
+          "trecho_curto": "ovo líquido; também com a alíquota de 12%",
+          "vigencia": "24/04/2023; parecer sobre transferência de crédito acumulado, não homologação geral da alíquota dos ovoprodutos. Íntegra oficial baixada em 2026-10-28."
+        },
+        {
+          "id": "GO_RCTE_IX",
+          "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+          "dispositivo": "art. 6º, XI, caput e b; art. 8º, XXXIII",
+          "trecho_curto": "em estado natural e desde que não destinados à industrialização; percentual de 7%",
+          "vigencia": "Art. 6º, XI, b: redação desde 2001-04-27 (Decreto 5.416/2001). Art. 8º, XXXIII: redação atual desde 2021-03-31 (Decreto 9.773/2020). Trechos atuais identificados por classe ParNormal e âncoras A6XI, A6XIB, A8XXXIII no consolidado, não por textos TextoRevo. Referência 2026-10-28."
+        }
+      ]
+    },
+    {
+      "ncm": "04089100",
+      "descricao_oficial": "Ovos de aves, sem casca, e gemas de ovos, frescos, secos, cozidos em água ou vapor, moldados, congelados ou conservados de outro modo, mesmo adicionados de açúcar ou de outros edulcorantes — Outros — Secos",
+      "resultado_pesquisa": "CONCLUIDA_VINCULO_GENERICO_NAO_DEMONSTRADO",
+      "conclusao_verificavel": "Ovos inteiros sem casca, secos, não foram expressamente enquadrados na nominal por fonte goiana específica localizada. Retirar 12% do dado corrente e manter o enquadramento dependente do produto; isso não afirma que nenhuma operação com esse produto possa receber 12%.",
+      "classificacao_exata_versus_produto": "0408.91 pertence a outros 0408.9, secos, em oposição às gemas isoladas 0408.1. A NESH exclui claras isoladas para 35.02. Não rotular esse código como toda clara/gema em pó indistintamente.",
+      "nao_demonstrado": "Alcance estadual do termo ovo para ovo integral seco/desidratado e a composição real, inclusive eventual edulcorante ou finalidade industrial.",
+      "criterio_para_enquadramento_concreto": "Documentar ovo integral, processamento, formulação, finalidade e classificação; obter análise fiscal específica do alcance legal. Não presumir que o relato sobre ovo líquido cubra produto seco.",
+      "nominal_12_versus_beneficios": "Secagem não comprova o estado natural exigido pela isenção do art. 6º, XI. Esse requisito de isenção não deve ser importado como restrição nominal inventada; a extensão nominal permanece não demonstrada.",
+      "fontes_ids": [
+        "GO_CTE",
+        "GO_RCTE20",
+        "RFB_TIPI",
+        "RFB_NESH",
+        "GO_RCTE_IX"
+      ],
+      "texto_apresentacao_recomendado": "Alíquota não determinada pelo cadastro. Ovo integral seco: falta comprovar o alcance da nominal para essa apresentação. A hipótese histórica de 12% permanece registrada.",
+      "decisao_administrativa": "Retirar o percentual do dado corrente (NULL) e preservar o vínculo como anotação de enquadramento não determinado. Não substituir por outra alíquota e não apagar histórico.",
+      "homologacao_fiscal_realizada": false,
+      "hipotese_12_confirmada_para_todo_ncm": false,
+      "conclusao_administrativa": "SEM_PERCENTUAL_ESPECIFICO_COMPROVADO",
+      "motivo_curto": "Ovo sem casca seco: processamento e alcance estadual não demonstrados; não confundir com clara isolada.",
+      "fontes": [
+        {
+          "id": "GO_CTE",
+          "url": "https://appasp.economia.go.gov.br/Legislacao/arquivos/Cte/CTE.htm",
+          "dispositivo": "art. 27, II, a e b",
+          "trecho_curto": "12%; ovo; fubá; macarrão; sal iodado",
+          "vigencia": "Alínea a: redação da Lei 20.944/2020 desde 2021-01-01; alínea b: redação da Lei 14.382/2002 desde 2003-01-01. Consolidado oficial atualizado até Lei 24.391, 29/06/2026; consultado em 2026-10-28."
+        },
+        {
+          "id": "GO_RCTE20",
+          "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/RCTE.htm",
+          "dispositivo": "art. 20, § 1º, II, a, itens 1 e 4",
+          "trecho_curto": "4. ovo;",
+          "vigencia": "Item 1: redação do Decreto 9.918/2021 com efeitos desde 2021-01-01; item 4, ovo: texto do regulamento com vigência inicial 1998-01-01. Cabeçalho atual consolidado até Decreto 10.986, de 16/09/2026; consultado em 2026-10-28."
+        },
+        {
+          "id": "RFB_TIPI",
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+          "dispositivo": "Capítulos 4, 11, 19 e 25; Notas 2 e 3 do Capítulo 11; RGI 1 e 6; RGC 1",
+          "trecho_curto": "Gemas de ovos; Grumos e sêmolas; Massas alimentícias recheadas; Sal a granel, sem agregados",
+          "vigencia": "Decreto 11.158/2022 e atualizações indicadas na capa até ADE RFB 1, de 30/01/2026, retificado em 12/02/2026; arquivo oficial consultado em 2026-10-28."
+        },
+        {
+          "id": "RFB_NESH",
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "dispositivo": "Notas explicativas 04.07, 04.08, 11.03, 19.02, 25.01",
+          "trecho_curto": "ovos, com casca, conservados ou cozidos; ovos inteiros desprovidos da casca; sêmola é um produto mais granuloso; massas recheadas; ligeiramente iodado",
+          "vigencia": "Texto consolidado aprovado pela IN RFB 2.169, de 29/12/2023. Portal oficial o disponibiliza como versão atualizada; baixado em 2026-10-28. Não usado como prova de nominal estadual."
+        },
+        {
+          "id": "GO_RCTE_IX",
+          "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+          "dispositivo": "art. 6º, XI, caput e b; art. 8º, XXXIII",
+          "trecho_curto": "em estado natural e desde que não destinados à industrialização; percentual de 7%",
+          "vigencia": "Art. 6º, XI, b: redação desde 2001-04-27 (Decreto 5.416/2001). Art. 8º, XXXIII: redação atual desde 2021-03-31 (Decreto 9.773/2020). Trechos atuais identificados por classe ParNormal e âncoras A6XI, A6XIB, A8XXXIII no consolidado, não por textos TextoRevo. Referência 2026-10-28."
+        }
+      ]
+    },
+    {
+      "ncm": "04089900",
+      "descricao_oficial": "Ovos de aves, sem casca, e gemas de ovos, frescos, secos, cozidos em água ou vapor, moldados, congelados ou conservados de outro modo, mesmo adicionados de açúcar ou de outros edulcorantes — Outros",
+      "resultado_pesquisa": "CONCLUIDA_VINCULO_GENERICO_NAO_DEMONSTRADO",
+      "conclusao_verificavel": "Há indício primário sobre ovo líquido no Parecer 105/2023, mas é informação do consulente no relatório. O órgão não decidiu o enquadramento nominal nem identificou o NCM. O achado reduz a incerteza factual sobre a prática relatada, sem sustentar um vínculo universal. Retirar 12% do campo operacional.",
+      "classificacao_exata_versus_produto": "0408.99 corresponde a outros ovos sem casca, não secos; admite várias apresentações e edulcorantes. Ovo líquido integral pode ser investigado como produto desse grupo, mas seu NCM não foi homologado pelo parecer.",
+      "nao_demonstrado": "Decisão fiscal sobre 12% para a mercadoria concreta, classificação exata e composição; o Parecer 105 não é essa decisão.",
+      "criterio_para_enquadramento_concreto": "Descrever se é ovo integral líquido fresco, pasteurizado, congelado ou conservado, com/sem adição. Para reproduzir a situação relatada no P105, provar ainda sua identidade e operação; obter fundamento conclusivo próprio. O relatório não basta para marcar a hipótese como confirmada.",
+      "nominal_12_versus_beneficios": "A fundamentação do P105 trata da isenção do ovo em estado natural não destinado à industrialização e da transferência do crédito mantido. O 12% de ovo líquido figura somente na narrativa. Não transportar a isenção ou uma carga cesta de 7% ao líquido.",
+      "fontes_ids": [
+        "GO_CTE",
+        "GO_RCTE20",
+        "GO_P105",
+        "RFB_TIPI",
+        "RFB_NESH",
+        "GO_RCTE_IX"
+      ],
+      "texto_apresentacao_recomendado": "Alíquota não determinada pelo cadastro. Parecer 105/2023 relata venda de ovo líquido a 12%, sem decidir seu enquadramento/NCM. Validar a mercadoria e a operação antes de aplicar percentual.",
+      "decisao_administrativa": "Retirar o percentual do dado corrente (NULL) e preservar o vínculo como anotação de enquadramento não determinado. Não substituir por outra alíquota e não apagar histórico.",
+      "homologacao_fiscal_realizada": false,
+      "hipotese_12_confirmada_para_todo_ncm": false,
+      "conclusao_administrativa": "SEM_PERCENTUAL_ESPECIFICO_COMPROVADO",
+      "motivo_curto": "Ovo líquido a 12% consta do relato do consulente no Parecer 105, sem decisão do órgão sobre nominal/NCM.",
+      "fontes": [
+        {
+          "id": "GO_CTE",
+          "url": "https://appasp.economia.go.gov.br/Legislacao/arquivos/Cte/CTE.htm",
+          "dispositivo": "art. 27, II, a e b",
+          "trecho_curto": "12%; ovo; fubá; macarrão; sal iodado",
+          "vigencia": "Alínea a: redação da Lei 20.944/2020 desde 2021-01-01; alínea b: redação da Lei 14.382/2002 desde 2003-01-01. Consolidado oficial atualizado até Lei 24.391, 29/06/2026; consultado em 2026-10-28."
+        },
+        {
+          "id": "GO_RCTE20",
+          "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/RCTE.htm",
+          "dispositivo": "art. 20, § 1º, II, a, itens 1 e 4",
+          "trecho_curto": "4. ovo;",
+          "vigencia": "Item 1: redação do Decreto 9.918/2021 com efeitos desde 2021-01-01; item 4, ovo: texto do regulamento com vigência inicial 1998-01-01. Cabeçalho atual consolidado até Decreto 10.986, de 16/09/2026; consultado em 2026-10-28."
+        },
+        {
+          "id": "GO_P105",
+          "url": "https://appasp.economia.go.gov.br/pareceres/arquivos/Cr%C3%A9dito%20de%20ICMS/Transfer%C3%AAncia%20de%20Cr%C3%A9dito/P_105_2023_SEI.docx",
+          "dispositivo": "I – RELATÓRIO, segundo parágrafo; II – FUNDAMENTAÇÃO; II – CONCLUSÃO (numeração do próprio documento)",
+          "trecho_curto": "ovo líquido; também com a alíquota de 12%",
+          "vigencia": "24/04/2023; parecer sobre transferência de crédito acumulado, não homologação geral da alíquota dos ovoprodutos. Íntegra oficial baixada em 2026-10-28."
+        },
+        {
+          "id": "RFB_TIPI",
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+          "dispositivo": "Capítulos 4, 11, 19 e 25; Notas 2 e 3 do Capítulo 11; RGI 1 e 6; RGC 1",
+          "trecho_curto": "Gemas de ovos; Grumos e sêmolas; Massas alimentícias recheadas; Sal a granel, sem agregados",
+          "vigencia": "Decreto 11.158/2022 e atualizações indicadas na capa até ADE RFB 1, de 30/01/2026, retificado em 12/02/2026; arquivo oficial consultado em 2026-10-28."
+        },
+        {
+          "id": "RFB_NESH",
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "dispositivo": "Notas explicativas 04.07, 04.08, 11.03, 19.02, 25.01",
+          "trecho_curto": "ovos, com casca, conservados ou cozidos; ovos inteiros desprovidos da casca; sêmola é um produto mais granuloso; massas recheadas; ligeiramente iodado",
+          "vigencia": "Texto consolidado aprovado pela IN RFB 2.169, de 29/12/2023. Portal oficial o disponibiliza como versão atualizada; baixado em 2026-10-28. Não usado como prova de nominal estadual."
+        },
+        {
+          "id": "GO_RCTE_IX",
+          "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+          "dispositivo": "art. 6º, XI, caput e b; art. 8º, XXXIII",
+          "trecho_curto": "em estado natural e desde que não destinados à industrialização; percentual de 7%",
+          "vigencia": "Art. 6º, XI, b: redação desde 2001-04-27 (Decreto 5.416/2001). Art. 8º, XXXIII: redação atual desde 2021-03-31 (Decreto 9.773/2020). Trechos atuais identificados por classe ParNormal e âncoras A6XI, A6XIB, A8XXXIII no consolidado, não por textos TextoRevo. Referência 2026-10-28."
+        }
+      ]
+    },
+    {
+      "ncm": "11031300",
+      "descricao_oficial": "Grumos e sêmolas — De milho",
+      "resultado_pesquisa": "CONCLUIDA_VINCULO_GENERICO_NAO_DEMONSTRADO",
+      "conclusao_verificavel": "A nomenclatura oficial separa grumos/sêmolas da farinha de milho. Portanto o vínculo genérico como farinha de milho e fubá não está demonstrado e deve perder o percentual atual. Não se conclui alíquota definitiva para o grumo/sêmola a partir da exclusão de benefício de flocão/creme.",
+      "classificacao_exata_versus_produto": "1103.13 é grumo/sêmola de milho; farinha de milho está em 1102.20. Notas 2(B) e 3 do Capítulo 11 usam granulometria, amido e cinzas; o nome comercial fubá não prevalece sobre esses critérios. A NESH descreve moagem grosseira e granulação maior que farinha.",
+      "nao_demonstrado": "Prova técnica de que o produto real é o fubá/farinha legalmente enumerado e compatibilidade com 11031300, ou interpretação estadual que alcance o grumo/sêmola específico.",
+      "criterio_para_enquadramento_concreto": "Pedir laudo granulométrico/composição, processo e denominação técnica. Se for farinha de milho 11022000, corrigir a classificação tecnicamente antes de considerar a regra desse outro código, sem reclassificação automática pelo software. Se permanecer 11031300, não apresentar 12% sem fundamento específico de alcance.",
+      "nominal_12_versus_beneficios": "P55 item04 exclui flocão e creme do benefício de carga 7% porque não são o legítimo fubá examinado. Isso é indício da diferença de identidade; não revoga nominal de 12% nem prova que todo 11031300 seja flocão ou creme. O CTE cita também milho, mas sua menção não foi demonstrada como abrangendo qualquer derivado da moagem.",
+      "fontes_ids": [
+        "GO_CTE",
+        "GO_RCTE20",
+        "GO_P55",
+        "RFB_TIPI",
+        "RFB_NESH"
+      ],
+      "texto_apresentacao_recomendado": "Alíquota não determinada pelo cadastro. Grumos/sêmolas de milho não comprovam farinha de milho ou fubá; validar identidade e classificação. Hipótese anterior de 12% sem suporte específico preservada.",
+      "decisao_administrativa": "Retirar o percentual do dado corrente (NULL) e preservar o vínculo como anotação de enquadramento não determinado. Não substituir por outra alíquota e não apagar histórico.",
+      "homologacao_fiscal_realizada": false,
+      "hipotese_12_confirmada_para_todo_ncm": false,
+      "conclusao_administrativa": "SEM_PERCENTUAL_ESPECIFICO_COMPROVADO",
+      "motivo_curto": "Grumos/sêmolas são separados da farinha na TIPI/NESH; vínculo como fubá/farinha não comprovado.",
+      "fontes": [
+        {
+          "id": "GO_CTE",
+          "url": "https://appasp.economia.go.gov.br/Legislacao/arquivos/Cte/CTE.htm",
+          "dispositivo": "art. 27, II, a e b",
+          "trecho_curto": "12%; ovo; fubá; macarrão; sal iodado",
+          "vigencia": "Alínea a: redação da Lei 20.944/2020 desde 2021-01-01; alínea b: redação da Lei 14.382/2002 desde 2003-01-01. Consolidado oficial atualizado até Lei 24.391, 29/06/2026; consultado em 2026-10-28."
+        },
+        {
+          "id": "GO_RCTE20",
+          "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/RCTE.htm",
+          "dispositivo": "art. 20, § 1º, II, a, itens 1 e 4",
+          "trecho_curto": "4. ovo;",
+          "vigencia": "Item 1: redação do Decreto 9.918/2021 com efeitos desde 2021-01-01; item 4, ovo: texto do regulamento com vigência inicial 1998-01-01. Cabeçalho atual consolidado até Decreto 10.986, de 16/09/2026; consultado em 2026-10-28."
+        },
+        {
+          "id": "GO_P55",
+          "url": "https://appasp.economia.go.gov.br/pareceres/arquivos/Benef%C3%ADcio%20Fiscal/Redu%C3%A7%C3%A3o%20de%20BC%20concedida%20por%20prazo%20indeterminado%20-%20Art.%208%C2%B0/XXXIII/P_55_2023_SEI.docx",
+          "dispositivo": "II, A, itens 04 (fubá), 06 (macarrão), 16 (sal); III, conclusões correspondentes",
+          "trecho_curto": "não se aplicando o benefício às massas recheadas; desde que iodados; legítimo fubá",
+          "vigencia": "Parecer de 23/02/2023, assinado em 27/02/2023; interpretação administrativa de redução de base de cálculo, não ato que cria vigência de nominal por NCM. Íntegra oficial local e índice oficial conferidos."
+        },
+        {
+          "id": "RFB_TIPI",
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+          "dispositivo": "Capítulos 4, 11, 19 e 25; Notas 2 e 3 do Capítulo 11; RGI 1 e 6; RGC 1",
+          "trecho_curto": "Gemas de ovos; Grumos e sêmolas; Massas alimentícias recheadas; Sal a granel, sem agregados",
+          "vigencia": "Decreto 11.158/2022 e atualizações indicadas na capa até ADE RFB 1, de 30/01/2026, retificado em 12/02/2026; arquivo oficial consultado em 2026-10-28."
+        },
+        {
+          "id": "RFB_NESH",
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "dispositivo": "Notas explicativas 04.07, 04.08, 11.03, 19.02, 25.01",
+          "trecho_curto": "ovos, com casca, conservados ou cozidos; ovos inteiros desprovidos da casca; sêmola é um produto mais granuloso; massas recheadas; ligeiramente iodado",
+          "vigencia": "Texto consolidado aprovado pela IN RFB 2.169, de 29/12/2023. Portal oficial o disponibiliza como versão atualizada; baixado em 2026-10-28. Não usado como prova de nominal estadual."
+        }
+      ]
+    },
+    {
+      "ncm": "19022000",
+      "descricao_oficial": "Massas alimentícias, mesmo cozidas ou recheadas (de carne ou de outras substâncias) ou preparadas de outro modo, tais como espaguete, macarrão, aletria, lasanha, nhoque, ravióli e canelone; cuscuz, mesmo preparado — Massas alimentícias recheadas (mesmo cozidas ou preparadas de outro modo)",
+      "resultado_pesquisa": "CONCLUIDA_VINCULO_GENERICO_NAO_DEMONSTRADO",
+      "conclusao_verificavel": "O código exato identifica massa recheada, não o gênero irrestrito macarrão da regra nominal. P55 confirma expressamente a exclusão de massa recheada do benefício para macarrão, mas não decide a nominal. Retirar 12% como vínculo genérico não demonstrado; não declarar que a nominal legal é obrigatoriamente diversa.",
+      "classificacao_exata_versus_produto": "1902.20 é massa recheada. A NESH exemplifica ravióli, canelone e lasanha, enquanto a posição 19.02 reúne várias massas e cuscuz. O fato de macarrão constar no título da posição não transforma toda massa recheada em macarrão.",
+      "nao_demonstrado": "Identidade específica que permitiria tratar a massa recheada concreta como macarrão para CTE art.27, II, a; não foi localizada decisão goiana da nominal para 19022000.",
+      "criterio_para_enquadramento_concreto": "Identificar tipo, forma, recheio e denominação técnica/comercial. Exigir fundamento GO específico para a nominal da massa recheada; descrição afirmando apenas macarrão é insuficiente. Não transportar regra de massa pura para esse código.",
+      "nominal_12_versus_beneficios": "P55 item06 reproduz a orientação de que a redução a carga 7% não se aplica a massas recheadas. Esse resultado é específico do benefício. Não inferir nem 12% nem 19% definitivos da negativa de redução.",
+      "fontes_ids": [
+        "GO_CTE",
+        "GO_RCTE20",
+        "GO_P55",
+        "RFB_TIPI",
+        "RFB_NESH"
+      ],
+      "texto_apresentacao_recomendado": "Alíquota nominal não determinada pelo cadastro. Massa recheada: não há comprovação do vínculo genérico com macarrão. Parecer 55/2023 exclui o benefício de carga 7% para massas recheadas; a nominal exige análise própria.",
+      "decisao_administrativa": "Retirar o percentual do dado corrente (NULL) e preservar o vínculo como anotação de enquadramento não determinado. Não substituir por outra alíquota e não apagar histórico.",
+      "homologacao_fiscal_realizada": false,
+      "hipotese_12_confirmada_para_todo_ncm": false,
+      "conclusao_administrativa": "SEM_PERCENTUAL_ESPECIFICO_COMPROVADO",
+      "motivo_curto": "Massa recheada não prova macarrão; Parecer 55 decide a exclusão do benefício 7%, sem decidir a nominal.",
+      "fontes": [
+        {
+          "id": "GO_CTE",
+          "url": "https://appasp.economia.go.gov.br/Legislacao/arquivos/Cte/CTE.htm",
+          "dispositivo": "art. 27, II, a e b",
+          "trecho_curto": "12%; ovo; fubá; macarrão; sal iodado",
+          "vigencia": "Alínea a: redação da Lei 20.944/2020 desde 2021-01-01; alínea b: redação da Lei 14.382/2002 desde 2003-01-01. Consolidado oficial atualizado até Lei 24.391, 29/06/2026; consultado em 2026-10-28."
+        },
+        {
+          "id": "GO_RCTE20",
+          "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/RCTE.htm",
+          "dispositivo": "art. 20, § 1º, II, a, itens 1 e 4",
+          "trecho_curto": "4. ovo;",
+          "vigencia": "Item 1: redação do Decreto 9.918/2021 com efeitos desde 2021-01-01; item 4, ovo: texto do regulamento com vigência inicial 1998-01-01. Cabeçalho atual consolidado até Decreto 10.986, de 16/09/2026; consultado em 2026-10-28."
+        },
+        {
+          "id": "GO_P55",
+          "url": "https://appasp.economia.go.gov.br/pareceres/arquivos/Benef%C3%ADcio%20Fiscal/Redu%C3%A7%C3%A3o%20de%20BC%20concedida%20por%20prazo%20indeterminado%20-%20Art.%208%C2%B0/XXXIII/P_55_2023_SEI.docx",
+          "dispositivo": "II, A, itens 04 (fubá), 06 (macarrão), 16 (sal); III, conclusões correspondentes",
+          "trecho_curto": "não se aplicando o benefício às massas recheadas; desde que iodados; legítimo fubá",
+          "vigencia": "Parecer de 23/02/2023, assinado em 27/02/2023; interpretação administrativa de redução de base de cálculo, não ato que cria vigência de nominal por NCM. Íntegra oficial local e índice oficial conferidos."
+        },
+        {
+          "id": "RFB_TIPI",
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+          "dispositivo": "Capítulos 4, 11, 19 e 25; Notas 2 e 3 do Capítulo 11; RGI 1 e 6; RGC 1",
+          "trecho_curto": "Gemas de ovos; Grumos e sêmolas; Massas alimentícias recheadas; Sal a granel, sem agregados",
+          "vigencia": "Decreto 11.158/2022 e atualizações indicadas na capa até ADE RFB 1, de 30/01/2026, retificado em 12/02/2026; arquivo oficial consultado em 2026-10-28."
+        },
+        {
+          "id": "RFB_NESH",
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "dispositivo": "Notas explicativas 04.07, 04.08, 11.03, 19.02, 25.01",
+          "trecho_curto": "ovos, com casca, conservados ou cozidos; ovos inteiros desprovidos da casca; sêmola é um produto mais granuloso; massas recheadas; ligeiramente iodado",
+          "vigencia": "Texto consolidado aprovado pela IN RFB 2.169, de 29/12/2023. Portal oficial o disponibiliza como versão atualizada; baixado em 2026-10-28. Não usado como prova de nominal estadual."
+        }
+      ]
+    },
+    {
+      "ncm": "25010011",
+      "descricao_oficial": "Sal marinho",
+      "resultado_pesquisa": "CONCLUIDA_VINCULO_GENERICO_NAO_DEMONSTRADO",
+      "conclusao_verificavel": "O código sal marinho sob sal a granel, sem agregados, não comprova sal iodado. É inadequado confirmar 12% com base somente no código. Retirar o percentual operacional. Não negar 12% a todo sal marinho: o produto iodado e sua classificação precisam ser demonstrados.",
+      "classificacao_exata_versus_produto": "A hierarquia 2501.00.1 é decisiva: sal a granel, sem agregados. NESH 25.01 admite sal ligeiramente iodado na posição 25.01, mas não determina que permaneça no subitem 25010011. A nota genérica da posição não supera o texto restrito do subitem.",
+      "nao_demonstrado": "Iodação efetiva e compatibilidade da mercadoria iodada com a classificação exata 25010011. A presença natural de traços de iodo não foi demonstrada como suficiente para a identidade legal sal iodado.",
+      "criterio_para_enquadramento_concreto": "Conferir ficha técnica, rótulo/laudo de iodação, adição de compostos, forma de acondicionamento e classificação fundamentada. Se a iodação implicar outro subitem, corrigir a classificação antes de reconhecer tratamento; não reclassificar automaticamente para 25010020. Se permanecer sal não iodado, o requisito literal da regra sal iodado não estará atendido.",
+      "nominal_12_versus_beneficios": "P55 item16 admite sal de origem marinha no benefício de carga 7% desde que iodado, sem homologar o NCM 25010011. O benefício candidato7 existente para o código deve apresentar a mesma exigência de provar iodação e compatibilidade do subitem, sem aplicação automática. Essa conclusão sobre7 não prova a nominal12.",
+      "fontes_ids": [
+        "GO_CTE",
+        "GO_RCTE20",
+        "GO_P55",
+        "GO_RCTE_IX",
+        "RFB_TIPI",
+        "RFB_NESH"
+      ],
+      "texto_apresentacao_recomendado": "Alíquota não determinada pelo cadastro. 25010011 é sal marinho a granel, sem agregados; o código não prova sal iodado. Validar iodação e classificação. O 12% histórico e o benefício candidato7 não autorizam aplicação automática.",
+      "decisao_administrativa": "Retirar o percentual do dado corrente (NULL) e preservar o vínculo como anotação de enquadramento não determinado. Não substituir por outra alíquota e não apagar histórico.",
+      "homologacao_fiscal_realizada": false,
+      "hipotese_12_confirmada_para_todo_ncm": false,
+      "conclusao_administrativa": "SEM_PERCENTUAL_ESPECIFICO_COMPROVADO",
+      "motivo_curto": "Sal marinho a granel sem agregados não comprova sal iodado; falta iodação e compatibilidade do subitem.",
+      "fontes": [
+        {
+          "id": "GO_CTE",
+          "url": "https://appasp.economia.go.gov.br/Legislacao/arquivos/Cte/CTE.htm",
+          "dispositivo": "art. 27, II, a e b",
+          "trecho_curto": "12%; ovo; fubá; macarrão; sal iodado",
+          "vigencia": "Alínea a: redação da Lei 20.944/2020 desde 2021-01-01; alínea b: redação da Lei 14.382/2002 desde 2003-01-01. Consolidado oficial atualizado até Lei 24.391, 29/06/2026; consultado em 2026-10-28."
+        },
+        {
+          "id": "GO_RCTE20",
+          "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/RCTE.htm",
+          "dispositivo": "art. 20, § 1º, II, a, itens 1 e 4",
+          "trecho_curto": "4. ovo;",
+          "vigencia": "Item 1: redação do Decreto 9.918/2021 com efeitos desde 2021-01-01; item 4, ovo: texto do regulamento com vigência inicial 1998-01-01. Cabeçalho atual consolidado até Decreto 10.986, de 16/09/2026; consultado em 2026-10-28."
+        },
+        {
+          "id": "GO_P55",
+          "url": "https://appasp.economia.go.gov.br/pareceres/arquivos/Benef%C3%ADcio%20Fiscal/Redu%C3%A7%C3%A3o%20de%20BC%20concedida%20por%20prazo%20indeterminado%20-%20Art.%208%C2%B0/XXXIII/P_55_2023_SEI.docx",
+          "dispositivo": "II, A, itens 04 (fubá), 06 (macarrão), 16 (sal); III, conclusões correspondentes",
+          "trecho_curto": "não se aplicando o benefício às massas recheadas; desde que iodados; legítimo fubá",
+          "vigencia": "Parecer de 23/02/2023, assinado em 27/02/2023; interpretação administrativa de redução de base de cálculo, não ato que cria vigência de nominal por NCM. Íntegra oficial local e índice oficial conferidos."
+        },
+        {
+          "id": "GO_RCTE_IX",
+          "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+          "dispositivo": "art. 6º, XI, caput e b; art. 8º, XXXIII",
+          "trecho_curto": "em estado natural e desde que não destinados à industrialização; percentual de 7%",
+          "vigencia": "Art. 6º, XI, b: redação desde 2001-04-27 (Decreto 5.416/2001). Art. 8º, XXXIII: redação atual desde 2021-03-31 (Decreto 9.773/2020). Trechos atuais identificados por classe ParNormal e âncoras A6XI, A6XIB, A8XXXIII no consolidado, não por textos TextoRevo. Referência 2026-10-28."
+        },
+        {
+          "id": "RFB_TIPI",
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+          "dispositivo": "Capítulos 4, 11, 19 e 25; Notas 2 e 3 do Capítulo 11; RGI 1 e 6; RGC 1",
+          "trecho_curto": "Gemas de ovos; Grumos e sêmolas; Massas alimentícias recheadas; Sal a granel, sem agregados",
+          "vigencia": "Decreto 11.158/2022 e atualizações indicadas na capa até ADE RFB 1, de 30/01/2026, retificado em 12/02/2026; arquivo oficial consultado em 2026-10-28."
+        },
+        {
+          "id": "RFB_NESH",
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "dispositivo": "Notas explicativas 04.07, 04.08, 11.03, 19.02, 25.01",
+          "trecho_curto": "ovos, com casca, conservados ou cozidos; ovos inteiros desprovidos da casca; sêmola é um produto mais granuloso; massas recheadas; ligeiramente iodado",
+          "vigencia": "Texto consolidado aprovado pela IN RFB 2.169, de 29/12/2023. Portal oficial o disponibiliza como versão atualizada; baixado em 2026-10-28. Não usado como prova de nominal estadual."
+        }
+      ]
+    }
+  ],
+  "revisoes": [
+    {
+      "antes": {
+        "ativo": "SIM",
+        "id_regra": "CAND12_20261026_FARINHA_MILHO_FUBA_11031300",
+        "chave_ncm": "11031300",
+        "observacao": "REVISÃO 2026-10-27: alcance normativo ou classificação ainda não resolvidos. O percentual histórico de 12% foi preservado como hipótese, sem confirmar o vínculo. Grumos/sêmolas de milho não são, por descrição, farinha fina/fubá. Não atribuir 12% por este código; demonstrar identidade/classificação do produto e alcance legal. Parecer 55 distingue fubá de flocão/creme. Não aplicar automaticamente. Cadastro anterior: CANDIDATO CONDICIONAL. Cadastro autorizado como possibilidade, sem confirmação de enquadramento fiscal por NCM. Confirmar farinha de milho ou fubá; grumos e sêmolas não comprovam essa descrição por si sós. Início do cadastro: 2026-10-26; redação legal desde 2021-01-01. Vínculo técnico por nomenclatura; proposta CTE27II_FARINHA_MILHO_FUBA_11031300. Conferir benefícios, ST, adicionais e demais condições da operação. Lote CAND12_20261026.",
+        "vigencia_fim": null,
+        "aliquota_icms": 12,
+        "id_legislacao": "LEG_CAND12_20261026_A",
+        "palavras_chave": "Farinha de milho e fubá",
+        "descricao_regra": "PENDENTE DE INTERPRETAÇÃO — hipótese histórica de 12%",
+        "exige_descricao": "SIM",
+        "vigencia_inicio": "2026-10-26",
+        "evidencia_ncm_id": null,
+        "adicional_percentual": null,
+        "regra_consolidada_id": null,
+        "tipo_correspondencia": "EXATO"
+      },
+      "depois": {
+        "ativo": "SIM",
+        "id_regra": "CAND12_20261026_FARINHA_MILHO_FUBA_11031300",
+        "chave_ncm": "11031300",
+        "observacao": "REVISÃO 2026-10-28: percentual específico não comprovado para o NCM genérico. 12% histórico preservado nesta observação e na evidência anterior, sem homologação. O campo numérico fica vazio; isso não afirma alíquota zero nem confirma 19%. A nomenclatura oficial separa grumos/sêmolas da farinha de milho. Portanto o vínculo genérico como farinha de milho e fubá não está demonstrado e deve perder o percentual atual. Não se conclui alíquota definitiva para o grumo/sêmola a partir da exclusão de benefício de flocão/creme. P55 item04 exclui flocão e creme do benefício de carga 7% porque não são o legítimo fubá examinado. Isso é indício da diferença de identidade; não revoga nominal de 12% nem prova que todo 11031300 seja flocão ou creme. O CTE cita também milho, mas sua menção não foi demonstrada como abrangendo qualquer derivado da moagem. Pedir laudo granulométrico/composição, processo e denominação técnica. Se for farinha de milho 11022000, corrigir a classificação tecnicamente antes de considerar a regra desse outro código, sem reclassificação automática pelo software. Se permanecer 11031300, não apresentar 12% sem fundamento específico de alcance. Fontes primárias conferidas em 28/10/2026: Lei GO 11.651/1991, CTE consolidado (art. 27, II, a e b): https://appasp.economia.go.gov.br/Legislacao/arquivos/Cte/CTE.htm; Decreto GO 4.852/1997, RCTE (art. 20, § 1º, II, a, itens 1 e 4): https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/RCTE.htm; Parecer ECONOMIA/GEOT 55/2023 (II, A, itens 04 (fubá), 06 (macarrão), 16 (sal); III, conclusões correspondentes): https://appasp.economia.go.gov.br/pareceres/arquivos/Benef%C3%ADcio%20Fiscal/Redu%C3%A7%C3%A3o%20de%20BC%20concedida%20por%20prazo%20indeterminado%20-%20Art.%208%C2%B0/XXXIII/P_55_2023_SEI.docx; Receita Federal, TIPI oficial atual (Capítulos 4, 11, 19 e 25; Notas 2 e 3 do Capítulo 11; RGI 1 e 6; RGC 1): https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf; Receita Federal, NESH – IN RFB 2.169/2023 (Notas explicativas 04.07, 04.08, 11.03, 19.02, 25.01): https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf. Não aplicar automaticamente. Cadastro anterior: REVISÃO 2026-10-27: alcance normativo ou classificação ainda não resolvidos. O percentual histórico de 12% foi preservado como hipótese, sem confirmar o vínculo. Grumos/sêmolas de milho não são, por descrição, farinha fina/fubá. Não atribuir 12% por este código; demonstrar identidade/classificação do produto e alcance legal. Parecer 55 distingue fubá de flocão/creme. Não aplicar automaticamente. Cadastro anterior: CANDIDATO CONDICIONAL. Cadastro autorizado como possibilidade, sem confirmação de enquadramento fiscal por NCM. Confirmar farinha de milho ou fubá; grumos e sêmolas não comprovam essa descrição por si sós. Início do cadastro: 2026-10-26; redação legal desde 2021-01-01. Vínculo técnico por nomenclatura; proposta CTE27II_FARINHA_MILHO_FUBA_11031300. Conferir benefícios, ST, adicionais e demais condições da operação. Lote CAND12_20261026.",
+        "vigencia_fim": null,
+        "aliquota_icms": null,
+        "id_legislacao": "LEG_CAND12_20261026_A",
+        "palavras_chave": "Farinha de milho e fubá",
+        "descricao_regra": "ALÍQUOTA ESPECÍFICA NÃO COMPROVADA — conferir produto e operação",
+        "exige_descricao": "SIM",
+        "vigencia_inicio": "2026-10-26",
+        "evidencia_ncm_id": null,
+        "adicional_percentual": null,
+        "regra_consolidada_id": null,
+        "tipo_correspondencia": "EXATO"
+      }
+    },
+    {
+      "antes": {
+        "ativo": "SIM",
+        "id_regra": "CAND12_20261026_MACARRAO_19022000",
+        "chave_ncm": "19022000",
+        "observacao": "REVISÃO 2026-10-27: alcance normativo ou classificação ainda não resolvidos. O percentual histórico de 12% foi preservado como hipótese, sem confirmar o vínculo. Massa recheada não se identifica inequivocamente com macarrão. O catálogo anterior incluía o código, mas o Parecer 55/2023 relata exclusão de massas recheadas na RBC7%, apontando risco de falsa equivalência entre qualquer massa e macarrão. Inferência: P por alcance normativo em aberto: fonte sobre RBC não decide nominal 12; NCM de massa recheada por si não prova o produto macarrão. Não atribuir 12. Exigir análise do produto e fundamento específico para tratar a massa recheada como macarrão para a nominal 12; não transportar o benefício 7% automaticamente. Não aplicar automaticamente. Cadastro anterior: CANDIDATO CONDICIONAL. Cadastro autorizado como possibilidade, sem confirmação de enquadramento fiscal por NCM. Confirmar macarrão. A posição inclui massas diferentes, recheadas ou preparadas; cuscuz não foi incluído. Início do cadastro: 2026-10-26; redação legal desde 2021-01-01. Vínculo técnico por nomenclatura; proposta CTE27II_MACARRAO_19022000. Conferir benefícios, ST, adicionais e demais condições da operação. Lote CAND12_20261026.",
+        "vigencia_fim": null,
+        "aliquota_icms": 12,
+        "id_legislacao": "LEG_CAND12_20261026_A",
+        "palavras_chave": "Macarrão",
+        "descricao_regra": "PENDENTE DE INTERPRETAÇÃO — hipótese histórica de 12%",
+        "exige_descricao": "SIM",
+        "vigencia_inicio": "2026-10-26",
+        "evidencia_ncm_id": null,
+        "adicional_percentual": null,
+        "regra_consolidada_id": null,
+        "tipo_correspondencia": "EXATO"
+      },
+      "depois": {
+        "ativo": "SIM",
+        "id_regra": "CAND12_20261026_MACARRAO_19022000",
+        "chave_ncm": "19022000",
+        "observacao": "REVISÃO 2026-10-28: percentual específico não comprovado para o NCM genérico. 12% histórico preservado nesta observação e na evidência anterior, sem homologação. O campo numérico fica vazio; isso não afirma alíquota zero nem confirma 19%. O código exato identifica massa recheada, não o gênero irrestrito macarrão da regra nominal. P55 confirma expressamente a exclusão de massa recheada do benefício para macarrão, mas não decide a nominal. Retirar 12% como vínculo genérico não demonstrado; não declarar que a nominal legal é obrigatoriamente diversa. P55 item06 reproduz a orientação de que a redução a carga 7% não se aplica a massas recheadas. Esse resultado é específico do benefício. Não inferir nem 12% nem 19% definitivos da negativa de redução. Identificar tipo, forma, recheio e denominação técnica/comercial. Exigir fundamento GO específico para a nominal da massa recheada; descrição afirmando apenas macarrão é insuficiente. Não transportar regra de massa pura para esse código. Fontes primárias conferidas em 28/10/2026: Lei GO 11.651/1991, CTE consolidado (art. 27, II, a e b): https://appasp.economia.go.gov.br/Legislacao/arquivos/Cte/CTE.htm; Decreto GO 4.852/1997, RCTE (art. 20, § 1º, II, a, itens 1 e 4): https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/RCTE.htm; Parecer ECONOMIA/GEOT 55/2023 (II, A, itens 04 (fubá), 06 (macarrão), 16 (sal); III, conclusões correspondentes): https://appasp.economia.go.gov.br/pareceres/arquivos/Benef%C3%ADcio%20Fiscal/Redu%C3%A7%C3%A3o%20de%20BC%20concedida%20por%20prazo%20indeterminado%20-%20Art.%208%C2%B0/XXXIII/P_55_2023_SEI.docx; Receita Federal, TIPI oficial atual (Capítulos 4, 11, 19 e 25; Notas 2 e 3 do Capítulo 11; RGI 1 e 6; RGC 1): https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf; Receita Federal, NESH – IN RFB 2.169/2023 (Notas explicativas 04.07, 04.08, 11.03, 19.02, 25.01): https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf. Não aplicar automaticamente. Cadastro anterior: REVISÃO 2026-10-27: alcance normativo ou classificação ainda não resolvidos. O percentual histórico de 12% foi preservado como hipótese, sem confirmar o vínculo. Massa recheada não se identifica inequivocamente com macarrão. O catálogo anterior incluía o código, mas o Parecer 55/2023 relata exclusão de massas recheadas na RBC7%, apontando risco de falsa equivalência entre qualquer massa e macarrão. Inferência: P por alcance normativo em aberto: fonte sobre RBC não decide nominal 12; NCM de massa recheada por si não prova o produto macarrão. Não atribuir 12. Exigir análise do produto e fundamento específico para tratar a massa recheada como macarrão para a nominal 12; não transportar o benefício 7% automaticamente. Não aplicar automaticamente. Cadastro anterior: CANDIDATO CONDICIONAL. Cadastro autorizado como possibilidade, sem confirmação de enquadramento fiscal por NCM. Confirmar macarrão. A posição inclui massas diferentes, recheadas ou preparadas; cuscuz não foi incluído. Início do cadastro: 2026-10-26; redação legal desde 2021-01-01. Vínculo técnico por nomenclatura; proposta CTE27II_MACARRAO_19022000. Conferir benefícios, ST, adicionais e demais condições da operação. Lote CAND12_20261026.",
+        "vigencia_fim": null,
+        "aliquota_icms": null,
+        "id_legislacao": "LEG_CAND12_20261026_A",
+        "palavras_chave": "Macarrão",
+        "descricao_regra": "ALÍQUOTA ESPECÍFICA NÃO COMPROVADA — conferir produto e operação",
+        "exige_descricao": "SIM",
+        "vigencia_inicio": "2026-10-26",
+        "evidencia_ncm_id": null,
+        "adicional_percentual": null,
+        "regra_consolidada_id": null,
+        "tipo_correspondencia": "EXATO"
+      }
+    },
+    {
+      "antes": {
+        "ativo": "SIM",
+        "id_regra": "CAND12_20261026_OVO_04079000",
+        "chave_ncm": "04079000",
+        "observacao": "REVISÃO 2026-10-27: alcance normativo ou classificação ainda não resolvidos. O percentual histórico de 12% foi preservado como hipótese, sem confirmar o vínculo. A nomenclatura residual inclui ovo conservado/cozido; extensão do termo ovo não foi resolvida por fonte específica. Não atribuir 12% pelo código; requer análise da apresentação e alcance normativo. Não aplicar automaticamente. Cadastro anterior: CANDIDATO CONDICIONAL. Cadastro autorizado como possibilidade, sem confirmação de enquadramento fiscal por NCM. Confirmar ovo e apresentação real, inclusive alcance para ovoprodutos, conservados e incubação; não presumir extensão da descrição legal. Início do cadastro: 2026-10-26; redação legal desde 2003-01-01. Vínculo técnico por nomenclatura; proposta CTE27II_OVO_04079000. Conferir benefícios, ST, adicionais e demais condições da operação. Lote CAND12_20261026.",
+        "vigencia_fim": null,
+        "aliquota_icms": 12,
+        "id_legislacao": "LEG_CAND12_20261026_B",
+        "palavras_chave": "Ovo",
+        "descricao_regra": "PENDENTE DE INTERPRETAÇÃO — hipótese histórica de 12%",
+        "exige_descricao": "SIM",
+        "vigencia_inicio": "2026-10-26",
+        "evidencia_ncm_id": null,
+        "adicional_percentual": null,
+        "regra_consolidada_id": null,
+        "tipo_correspondencia": "EXATO"
+      },
+      "depois": {
+        "ativo": "SIM",
+        "id_regra": "CAND12_20261026_OVO_04079000",
+        "chave_ncm": "04079000",
+        "observacao": "REVISÃO 2026-10-28: percentual específico não comprovado para o NCM genérico. 12% histórico preservado nesta observação e na evidência anterior, sem homologação. O campo numérico fica vazio; isso não afirma alíquota zero nem confirma 19%. O código residual corresponde a ovo com casca conservado ou cozido; não é o residual dos ovos frescos. Não foi encontrada orientação primária goiana específica que confirme o alcance da nominal de 12% para essas apresentações. Concluir o cadastro genérico como não demonstrado e retirar o percentual operacional, sem declarar exclusão legal definitiva. A isenção do art. 6º, XI exige estado natural e ausência de destinação à industrialização. Isso não resolve a nominal para ovo conservado/cozido. O benefício cesta 7% não lista ovo. Identificar processo de conservação/cozimento, casca, ingredientes e destinação; obter enquadramento fiscal documentado na legislação/manifestação GO para a apresentação concreta. Não solicitar prova de estado natural como se constasse da nominal: esse requisito pertence à isenção do Anexo IX. Fontes primárias conferidas em 28/10/2026: Lei GO 11.651/1991, CTE consolidado (art. 27, II, a e b): https://appasp.economia.go.gov.br/Legislacao/arquivos/Cte/CTE.htm; Decreto GO 4.852/1997, RCTE (art. 20, § 1º, II, a, itens 1 e 4): https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/RCTE.htm; Receita Federal, TIPI oficial atual (Capítulos 4, 11, 19 e 25; Notas 2 e 3 do Capítulo 11; RGI 1 e 6; RGC 1): https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf; Receita Federal, NESH – IN RFB 2.169/2023 (Notas explicativas 04.07, 04.08, 11.03, 19.02, 25.01): https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf; RCTE, Anexo IX, texto consolidado (art. 6º, XI, caput e b; art. 8º, XXXIII): https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm. Não aplicar automaticamente. Cadastro anterior: REVISÃO 2026-10-27: alcance normativo ou classificação ainda não resolvidos. O percentual histórico de 12% foi preservado como hipótese, sem confirmar o vínculo. A nomenclatura residual inclui ovo conservado/cozido; extensão do termo ovo não foi resolvida por fonte específica. Não atribuir 12% pelo código; requer análise da apresentação e alcance normativo. Não aplicar automaticamente. Cadastro anterior: CANDIDATO CONDICIONAL. Cadastro autorizado como possibilidade, sem confirmação de enquadramento fiscal por NCM. Confirmar ovo e apresentação real, inclusive alcance para ovoprodutos, conservados e incubação; não presumir extensão da descrição legal. Início do cadastro: 2026-10-26; redação legal desde 2003-01-01. Vínculo técnico por nomenclatura; proposta CTE27II_OVO_04079000. Conferir benefícios, ST, adicionais e demais condições da operação. Lote CAND12_20261026.",
+        "vigencia_fim": null,
+        "aliquota_icms": null,
+        "id_legislacao": "LEG_CAND12_20261026_B",
+        "palavras_chave": "Ovo",
+        "descricao_regra": "ALÍQUOTA ESPECÍFICA NÃO COMPROVADA — conferir produto e operação",
+        "exige_descricao": "SIM",
+        "vigencia_inicio": "2026-10-26",
+        "evidencia_ncm_id": null,
+        "adicional_percentual": null,
+        "regra_consolidada_id": null,
+        "tipo_correspondencia": "EXATO"
+      }
+    },
+    {
+      "antes": {
+        "ativo": "SIM",
+        "id_regra": "CAND12_20261026_OVO_04081100",
+        "chave_ncm": "04081100",
+        "observacao": "REVISÃO 2026-10-27: alcance normativo ou classificação ainda não resolvidos. O percentual histórico de 12% foi preservado como hipótese, sem confirmar o vínculo. Ovo sem casca/gema, seco, cozido, moldado, congelado ou com adição pode ser ovoproduto; o termo legal ovo não resolve todo o grupo. Não atribuir 12%; exigir revisão do produto e manifestação normativa para a apresentação concreta. Não aplicar automaticamente. Cadastro anterior: CANDIDATO CONDICIONAL. Cadastro autorizado como possibilidade, sem confirmação de enquadramento fiscal por NCM. Confirmar ovo e apresentação real, inclusive alcance para ovoprodutos, conservados e incubação; não presumir extensão da descrição legal. Início do cadastro: 2026-10-26; redação legal desde 2003-01-01. Vínculo técnico por nomenclatura; proposta CTE27II_OVO_04081100. Conferir benefícios, ST, adicionais e demais condições da operação. Lote CAND12_20261026.",
+        "vigencia_fim": null,
+        "aliquota_icms": 12,
+        "id_legislacao": "LEG_CAND12_20261026_B",
+        "palavras_chave": "Ovo",
+        "descricao_regra": "PENDENTE DE INTERPRETAÇÃO — hipótese histórica de 12%",
+        "exige_descricao": "SIM",
+        "vigencia_inicio": "2026-10-26",
+        "evidencia_ncm_id": null,
+        "adicional_percentual": null,
+        "regra_consolidada_id": null,
+        "tipo_correspondencia": "EXATO"
+      },
+      "depois": {
+        "ativo": "SIM",
+        "id_regra": "CAND12_20261026_OVO_04081100",
+        "chave_ncm": "04081100",
+        "observacao": "REVISÃO 2026-10-28: percentual específico não comprovado para o NCM genérico. 12% histórico preservado nesta observação e na evidência anterior, sem homologação. O campo numérico fica vazio; isso não afirma alíquota zero nem confirma 19%. Gema seca não foi demonstrada, por fonte goiana específica, como abrangida pelo termo legal ovo para a nominal de 12%. Encerrar a associação genérica como não demonstrada, retirando o número atual e preservando a hipótese histórica. Não transportar isenção do ovo em estado natural para gema seca. Nenhuma carga cesta de 7% para ovo foi demonstrada pelo art. 8º, XXXIII. Documentar gema/desidratação, ingredientes, finalidade e classificação. Exigir fundamento GO específico ou análise fiscal da identidade do produto; confirmação livre de descrição não substitui esse suporte. Fontes primárias conferidas em 28/10/2026: Lei GO 11.651/1991, CTE consolidado (art. 27, II, a e b): https://appasp.economia.go.gov.br/Legislacao/arquivos/Cte/CTE.htm; Decreto GO 4.852/1997, RCTE (art. 20, § 1º, II, a, itens 1 e 4): https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/RCTE.htm; Receita Federal, TIPI oficial atual (Capítulos 4, 11, 19 e 25; Notas 2 e 3 do Capítulo 11; RGI 1 e 6; RGC 1): https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf; Receita Federal, NESH – IN RFB 2.169/2023 (Notas explicativas 04.07, 04.08, 11.03, 19.02, 25.01): https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf; RCTE, Anexo IX, texto consolidado (art. 6º, XI, caput e b; art. 8º, XXXIII): https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm. Não aplicar automaticamente. Cadastro anterior: REVISÃO 2026-10-27: alcance normativo ou classificação ainda não resolvidos. O percentual histórico de 12% foi preservado como hipótese, sem confirmar o vínculo. Ovo sem casca/gema, seco, cozido, moldado, congelado ou com adição pode ser ovoproduto; o termo legal ovo não resolve todo o grupo. Não atribuir 12%; exigir revisão do produto e manifestação normativa para a apresentação concreta. Não aplicar automaticamente. Cadastro anterior: CANDIDATO CONDICIONAL. Cadastro autorizado como possibilidade, sem confirmação de enquadramento fiscal por NCM. Confirmar ovo e apresentação real, inclusive alcance para ovoprodutos, conservados e incubação; não presumir extensão da descrição legal. Início do cadastro: 2026-10-26; redação legal desde 2003-01-01. Vínculo técnico por nomenclatura; proposta CTE27II_OVO_04081100. Conferir benefícios, ST, adicionais e demais condições da operação. Lote CAND12_20261026.",
+        "vigencia_fim": null,
+        "aliquota_icms": null,
+        "id_legislacao": "LEG_CAND12_20261026_B",
+        "palavras_chave": "Ovo",
+        "descricao_regra": "ALÍQUOTA ESPECÍFICA NÃO COMPROVADA — conferir produto e operação",
+        "exige_descricao": "SIM",
+        "vigencia_inicio": "2026-10-26",
+        "evidencia_ncm_id": null,
+        "adicional_percentual": null,
+        "regra_consolidada_id": null,
+        "tipo_correspondencia": "EXATO"
+      }
+    },
+    {
+      "antes": {
+        "ativo": "SIM",
+        "id_regra": "CAND12_20261026_OVO_04081900",
+        "chave_ncm": "04081900",
+        "observacao": "REVISÃO 2026-10-27: alcance normativo ou classificação ainda não resolvidos. O percentual histórico de 12% foi preservado como hipótese, sem confirmar o vínculo. Ovo sem casca/gema, seco, cozido, moldado, congelado ou com adição pode ser ovoproduto; o termo legal ovo não resolve todo o grupo. Não atribuir 12%; exigir revisão do produto e manifestação normativa para a apresentação concreta. Não aplicar automaticamente. Cadastro anterior: CANDIDATO CONDICIONAL. Cadastro autorizado como possibilidade, sem confirmação de enquadramento fiscal por NCM. Confirmar ovo e apresentação real, inclusive alcance para ovoprodutos, conservados e incubação; não presumir extensão da descrição legal. Início do cadastro: 2026-10-26; redação legal desde 2003-01-01. Vínculo técnico por nomenclatura; proposta CTE27II_OVO_04081900. Conferir benefícios, ST, adicionais e demais condições da operação. Lote CAND12_20261026.",
+        "vigencia_fim": null,
+        "aliquota_icms": 12,
+        "id_legislacao": "LEG_CAND12_20261026_B",
+        "palavras_chave": "Ovo",
+        "descricao_regra": "PENDENTE DE INTERPRETAÇÃO — hipótese histórica de 12%",
+        "exige_descricao": "SIM",
+        "vigencia_inicio": "2026-10-26",
+        "evidencia_ncm_id": null,
+        "adicional_percentual": null,
+        "regra_consolidada_id": null,
+        "tipo_correspondencia": "EXATO"
+      },
+      "depois": {
+        "ativo": "SIM",
+        "id_regra": "CAND12_20261026_OVO_04081900",
+        "chave_ncm": "04081900",
+        "observacao": "REVISÃO 2026-10-28: percentual específico não comprovado para o NCM genérico. 12% histórico preservado nesta observação e na evidência anterior, sem homologação. O campo numérico fica vazio; isso não afirma alíquota zero nem confirma 19%. O código abrange outras apresentações de gema e não prova, por si, o produto legal ovo. Não foi encontrada decisão GO que homologue a extensão a todas essas apresentações. Retirar o percentual operacional de 12%; decisão por produto continua possível com documentação própria. A nominal não se confunde com isenção do ovo natural. A distinção de apresentações na TIPI é classificatória; seus Ex e percentuais de IPI não resolvem o benefício estadual. Identificar composição, processamento e finalidade e obter suporte goiano para a hipótese concreta. O relato sobre ovo líquido integral no Parecer 105 não homologa gema nem a subposição 04081900. Fontes primárias conferidas em 28/10/2026: Lei GO 11.651/1991, CTE consolidado (art. 27, II, a e b): https://appasp.economia.go.gov.br/Legislacao/arquivos/Cte/CTE.htm; Decreto GO 4.852/1997, RCTE (art. 20, § 1º, II, a, itens 1 e 4): https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/RCTE.htm; Receita Federal, TIPI oficial atual (Capítulos 4, 11, 19 e 25; Notas 2 e 3 do Capítulo 11; RGI 1 e 6; RGC 1): https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf; Receita Federal, NESH – IN RFB 2.169/2023 (Notas explicativas 04.07, 04.08, 11.03, 19.02, 25.01): https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf; Parecer ECONOMIA/GEOT 105/2023 (I – RELATÓRIO, segundo parágrafo; II – FUNDAMENTAÇÃO; II – CONCLUSÃO (numeração do próprio documento)): https://appasp.economia.go.gov.br/pareceres/arquivos/Cr%C3%A9dito%20de%20ICMS/Transfer%C3%AAncia%20de%20Cr%C3%A9dito/P_105_2023_SEI.docx; RCTE, Anexo IX, texto consolidado (art. 6º, XI, caput e b; art. 8º, XXXIII): https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm. Não aplicar automaticamente. Cadastro anterior: REVISÃO 2026-10-27: alcance normativo ou classificação ainda não resolvidos. O percentual histórico de 12% foi preservado como hipótese, sem confirmar o vínculo. Ovo sem casca/gema, seco, cozido, moldado, congelado ou com adição pode ser ovoproduto; o termo legal ovo não resolve todo o grupo. Não atribuir 12%; exigir revisão do produto e manifestação normativa para a apresentação concreta. Não aplicar automaticamente. Cadastro anterior: CANDIDATO CONDICIONAL. Cadastro autorizado como possibilidade, sem confirmação de enquadramento fiscal por NCM. Confirmar ovo e apresentação real, inclusive alcance para ovoprodutos, conservados e incubação; não presumir extensão da descrição legal. Início do cadastro: 2026-10-26; redação legal desde 2003-01-01. Vínculo técnico por nomenclatura; proposta CTE27II_OVO_04081900. Conferir benefícios, ST, adicionais e demais condições da operação. Lote CAND12_20261026.",
+        "vigencia_fim": null,
+        "aliquota_icms": null,
+        "id_legislacao": "LEG_CAND12_20261026_B",
+        "palavras_chave": "Ovo",
+        "descricao_regra": "ALÍQUOTA ESPECÍFICA NÃO COMPROVADA — conferir produto e operação",
+        "exige_descricao": "SIM",
+        "vigencia_inicio": "2026-10-26",
+        "evidencia_ncm_id": null,
+        "adicional_percentual": null,
+        "regra_consolidada_id": null,
+        "tipo_correspondencia": "EXATO"
+      }
+    },
+    {
+      "antes": {
+        "ativo": "SIM",
+        "id_regra": "CAND12_20261026_OVO_04089100",
+        "chave_ncm": "04089100",
+        "observacao": "REVISÃO 2026-10-27: alcance normativo ou classificação ainda não resolvidos. O percentual histórico de 12% foi preservado como hipótese, sem confirmar o vínculo. Ovo sem casca/gema, seco, cozido, moldado, congelado ou com adição pode ser ovoproduto; o termo legal ovo não resolve todo o grupo. Não atribuir 12%; exigir revisão do produto e manifestação normativa para a apresentação concreta. Não aplicar automaticamente. Cadastro anterior: CANDIDATO CONDICIONAL. Cadastro autorizado como possibilidade, sem confirmação de enquadramento fiscal por NCM. Confirmar ovo e apresentação real, inclusive alcance para ovoprodutos, conservados e incubação; não presumir extensão da descrição legal. Início do cadastro: 2026-10-26; redação legal desde 2003-01-01. Vínculo técnico por nomenclatura; proposta CTE27II_OVO_04089100. Conferir benefícios, ST, adicionais e demais condições da operação. Lote CAND12_20261026.",
+        "vigencia_fim": null,
+        "aliquota_icms": 12,
+        "id_legislacao": "LEG_CAND12_20261026_B",
+        "palavras_chave": "Ovo",
+        "descricao_regra": "PENDENTE DE INTERPRETAÇÃO — hipótese histórica de 12%",
+        "exige_descricao": "SIM",
+        "vigencia_inicio": "2026-10-26",
+        "evidencia_ncm_id": null,
+        "adicional_percentual": null,
+        "regra_consolidada_id": null,
+        "tipo_correspondencia": "EXATO"
+      },
+      "depois": {
+        "ativo": "SIM",
+        "id_regra": "CAND12_20261026_OVO_04089100",
+        "chave_ncm": "04089100",
+        "observacao": "REVISÃO 2026-10-28: percentual específico não comprovado para o NCM genérico. 12% histórico preservado nesta observação e na evidência anterior, sem homologação. O campo numérico fica vazio; isso não afirma alíquota zero nem confirma 19%. Ovos inteiros sem casca, secos, não foram expressamente enquadrados na nominal por fonte goiana específica localizada. Retirar 12% do dado corrente e manter o enquadramento dependente do produto; isso não afirma que nenhuma operação com esse produto possa receber 12%. Secagem não comprova o estado natural exigido pela isenção do art. 6º, XI. Esse requisito de isenção não deve ser importado como restrição nominal inventada; a extensão nominal permanece não demonstrada. Documentar ovo integral, processamento, formulação, finalidade e classificação; obter análise fiscal específica do alcance legal. Não presumir que o relato sobre ovo líquido cubra produto seco. Fontes primárias conferidas em 28/10/2026: Lei GO 11.651/1991, CTE consolidado (art. 27, II, a e b): https://appasp.economia.go.gov.br/Legislacao/arquivos/Cte/CTE.htm; Decreto GO 4.852/1997, RCTE (art. 20, § 1º, II, a, itens 1 e 4): https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/RCTE.htm; Receita Federal, TIPI oficial atual (Capítulos 4, 11, 19 e 25; Notas 2 e 3 do Capítulo 11; RGI 1 e 6; RGC 1): https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf; Receita Federal, NESH – IN RFB 2.169/2023 (Notas explicativas 04.07, 04.08, 11.03, 19.02, 25.01): https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf; RCTE, Anexo IX, texto consolidado (art. 6º, XI, caput e b; art. 8º, XXXIII): https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm. Não aplicar automaticamente. Cadastro anterior: REVISÃO 2026-10-27: alcance normativo ou classificação ainda não resolvidos. O percentual histórico de 12% foi preservado como hipótese, sem confirmar o vínculo. Ovo sem casca/gema, seco, cozido, moldado, congelado ou com adição pode ser ovoproduto; o termo legal ovo não resolve todo o grupo. Não atribuir 12%; exigir revisão do produto e manifestação normativa para a apresentação concreta. Não aplicar automaticamente. Cadastro anterior: CANDIDATO CONDICIONAL. Cadastro autorizado como possibilidade, sem confirmação de enquadramento fiscal por NCM. Confirmar ovo e apresentação real, inclusive alcance para ovoprodutos, conservados e incubação; não presumir extensão da descrição legal. Início do cadastro: 2026-10-26; redação legal desde 2003-01-01. Vínculo técnico por nomenclatura; proposta CTE27II_OVO_04089100. Conferir benefícios, ST, adicionais e demais condições da operação. Lote CAND12_20261026.",
+        "vigencia_fim": null,
+        "aliquota_icms": null,
+        "id_legislacao": "LEG_CAND12_20261026_B",
+        "palavras_chave": "Ovo",
+        "descricao_regra": "ALÍQUOTA ESPECÍFICA NÃO COMPROVADA — conferir produto e operação",
+        "exige_descricao": "SIM",
+        "vigencia_inicio": "2026-10-26",
+        "evidencia_ncm_id": null,
+        "adicional_percentual": null,
+        "regra_consolidada_id": null,
+        "tipo_correspondencia": "EXATO"
+      }
+    },
+    {
+      "antes": {
+        "ativo": "SIM",
+        "id_regra": "CAND12_20261026_OVO_04089900",
+        "chave_ncm": "04089900",
+        "observacao": "REVISÃO 2026-10-27: alcance normativo ou classificação ainda não resolvidos. O percentual histórico de 12% foi preservado como hipótese, sem confirmar o vínculo. Ovo sem casca/gema, seco, cozido, moldado, congelado ou com adição pode ser ovoproduto; o termo legal ovo não resolve todo o grupo. Não atribuir 12%; exigir revisão do produto e manifestação normativa para a apresentação concreta. Não aplicar automaticamente. Cadastro anterior: CANDIDATO CONDICIONAL. Cadastro autorizado como possibilidade, sem confirmação de enquadramento fiscal por NCM. Confirmar ovo e apresentação real, inclusive alcance para ovoprodutos, conservados e incubação; não presumir extensão da descrição legal. Início do cadastro: 2026-10-26; redação legal desde 2003-01-01. Vínculo técnico por nomenclatura; proposta CTE27II_OVO_04089900. Conferir benefícios, ST, adicionais e demais condições da operação. Lote CAND12_20261026.",
+        "vigencia_fim": null,
+        "aliquota_icms": 12,
+        "id_legislacao": "LEG_CAND12_20261026_B",
+        "palavras_chave": "Ovo",
+        "descricao_regra": "PENDENTE DE INTERPRETAÇÃO — hipótese histórica de 12%",
+        "exige_descricao": "SIM",
+        "vigencia_inicio": "2026-10-26",
+        "evidencia_ncm_id": null,
+        "adicional_percentual": null,
+        "regra_consolidada_id": null,
+        "tipo_correspondencia": "EXATO"
+      },
+      "depois": {
+        "ativo": "SIM",
+        "id_regra": "CAND12_20261026_OVO_04089900",
+        "chave_ncm": "04089900",
+        "observacao": "REVISÃO 2026-10-28: percentual específico não comprovado para o NCM genérico. 12% histórico preservado nesta observação e na evidência anterior, sem homologação. O campo numérico fica vazio; isso não afirma alíquota zero nem confirma 19%. Há indício primário sobre ovo líquido no Parecer 105/2023, mas é informação do consulente no relatório. O órgão não decidiu o enquadramento nominal nem identificou o NCM. O achado reduz a incerteza factual sobre a prática relatada, sem sustentar um vínculo universal. Retirar 12% do campo operacional. A fundamentação do P105 trata da isenção do ovo em estado natural não destinado à industrialização e da transferência do crédito mantido. O 12% de ovo líquido figura somente na narrativa. Não transportar a isenção ou uma carga cesta de 7% ao líquido. Descrever se é ovo integral líquido fresco, pasteurizado, congelado ou conservado, com/sem adição. Para reproduzir a situação relatada no P105, provar ainda sua identidade e operação; obter fundamento conclusivo próprio. O relatório não basta para marcar a hipótese como confirmada. Fontes primárias conferidas em 28/10/2026: Lei GO 11.651/1991, CTE consolidado (art. 27, II, a e b): https://appasp.economia.go.gov.br/Legislacao/arquivos/Cte/CTE.htm; Decreto GO 4.852/1997, RCTE (art. 20, § 1º, II, a, itens 1 e 4): https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/RCTE.htm; Parecer ECONOMIA/GEOT 105/2023 (I – RELATÓRIO, segundo parágrafo; II – FUNDAMENTAÇÃO; II – CONCLUSÃO (numeração do próprio documento)): https://appasp.economia.go.gov.br/pareceres/arquivos/Cr%C3%A9dito%20de%20ICMS/Transfer%C3%AAncia%20de%20Cr%C3%A9dito/P_105_2023_SEI.docx; Receita Federal, TIPI oficial atual (Capítulos 4, 11, 19 e 25; Notas 2 e 3 do Capítulo 11; RGI 1 e 6; RGC 1): https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf; Receita Federal, NESH – IN RFB 2.169/2023 (Notas explicativas 04.07, 04.08, 11.03, 19.02, 25.01): https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf; RCTE, Anexo IX, texto consolidado (art. 6º, XI, caput e b; art. 8º, XXXIII): https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm. Não aplicar automaticamente. Cadastro anterior: REVISÃO 2026-10-27: alcance normativo ou classificação ainda não resolvidos. O percentual histórico de 12% foi preservado como hipótese, sem confirmar o vínculo. Ovo sem casca/gema, seco, cozido, moldado, congelado ou com adição pode ser ovoproduto; o termo legal ovo não resolve todo o grupo. Não atribuir 12%; exigir revisão do produto e manifestação normativa para a apresentação concreta. Não aplicar automaticamente. Cadastro anterior: CANDIDATO CONDICIONAL. Cadastro autorizado como possibilidade, sem confirmação de enquadramento fiscal por NCM. Confirmar ovo e apresentação real, inclusive alcance para ovoprodutos, conservados e incubação; não presumir extensão da descrição legal. Início do cadastro: 2026-10-26; redação legal desde 2003-01-01. Vínculo técnico por nomenclatura; proposta CTE27II_OVO_04089900. Conferir benefícios, ST, adicionais e demais condições da operação. Lote CAND12_20261026.",
+        "vigencia_fim": null,
+        "aliquota_icms": null,
+        "id_legislacao": "LEG_CAND12_20261026_B",
+        "palavras_chave": "Ovo",
+        "descricao_regra": "ALÍQUOTA ESPECÍFICA NÃO COMPROVADA — conferir produto e operação",
+        "exige_descricao": "SIM",
+        "vigencia_inicio": "2026-10-26",
+        "evidencia_ncm_id": null,
+        "adicional_percentual": null,
+        "regra_consolidada_id": null,
+        "tipo_correspondencia": "EXATO"
+      }
+    },
+    {
+      "antes": {
+        "ativo": "SIM",
+        "id_regra": "CAND12_20261026_SAL_IODADO_25010011",
+        "chave_ncm": "25010011",
+        "observacao": "REVISÃO 2026-10-27: alcance normativo ou classificação ainda não resolvidos. O percentual histórico de 12% foi preservado como hipótese, sem confirmar o vínculo. A descrição situa o item em sal a granel, sem agregados. A iodação exigida pela lei não consta e pode conflitar com esse enquadramento tarifário; não reconhecer 12% antes de resolver o conflito. Verificar adição ou presença de iodo, laudo, rótulo, apresentação e classificação fiscal. Sal não iodado, industrial e sal a granel sem prova da identidade legal não recebem a regra. Não aplicar automaticamente. Cadastro anterior: CANDIDATO CONDICIONAL. Cadastro autorizado como possibilidade, sem confirmação de enquadramento fiscal por NCM. Comprovar sal iodado; sal industrial, água do mar e sal sem iodação não comprovam a descrição legal. Início do cadastro: 2026-10-26; redação legal desde 2021-01-01. Vínculo técnico por nomenclatura; proposta CTE27II_SAL_IODADO_25010011. Conferir benefícios, ST, adicionais e demais condições da operação. Lote CAND12_20261026.",
+        "vigencia_fim": null,
+        "aliquota_icms": 12,
+        "id_legislacao": "LEG_CAND12_20261026_A",
+        "palavras_chave": "Sal iodado",
+        "descricao_regra": "PENDENTE DE INTERPRETAÇÃO — hipótese histórica de 12%",
+        "exige_descricao": "SIM",
+        "vigencia_inicio": "2026-10-26",
+        "evidencia_ncm_id": null,
+        "adicional_percentual": null,
+        "regra_consolidada_id": null,
+        "tipo_correspondencia": "EXATO"
+      },
+      "depois": {
+        "ativo": "SIM",
+        "id_regra": "CAND12_20261026_SAL_IODADO_25010011",
+        "chave_ncm": "25010011",
+        "observacao": "REVISÃO 2026-10-28: percentual específico não comprovado para o NCM genérico. 12% histórico preservado nesta observação e na evidência anterior, sem homologação. O campo numérico fica vazio; isso não afirma alíquota zero nem confirma 19%. O código sal marinho sob sal a granel, sem agregados, não comprova sal iodado. É inadequado confirmar 12% com base somente no código. Retirar o percentual operacional. Não negar 12% a todo sal marinho: o produto iodado e sua classificação precisam ser demonstrados. P55 item16 admite sal de origem marinha no benefício de carga 7% desde que iodado, sem homologar o NCM 25010011. O benefício candidato7 existente para o código deve apresentar a mesma exigência de provar iodação e compatibilidade do subitem, sem aplicação automática. Essa conclusão sobre7 não prova a nominal12. Conferir ficha técnica, rótulo/laudo de iodação, adição de compostos, forma de acondicionamento e classificação fundamentada. Se a iodação implicar outro subitem, corrigir a classificação antes de reconhecer tratamento; não reclassificar automaticamente para 25010020. Se permanecer sal não iodado, o requisito literal da regra sal iodado não estará atendido. Fontes primárias conferidas em 28/10/2026: Lei GO 11.651/1991, CTE consolidado (art. 27, II, a e b): https://appasp.economia.go.gov.br/Legislacao/arquivos/Cte/CTE.htm; Decreto GO 4.852/1997, RCTE (art. 20, § 1º, II, a, itens 1 e 4): https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/RCTE.htm; Parecer ECONOMIA/GEOT 55/2023 (II, A, itens 04 (fubá), 06 (macarrão), 16 (sal); III, conclusões correspondentes): https://appasp.economia.go.gov.br/pareceres/arquivos/Benef%C3%ADcio%20Fiscal/Redu%C3%A7%C3%A3o%20de%20BC%20concedida%20por%20prazo%20indeterminado%20-%20Art.%208%C2%B0/XXXIII/P_55_2023_SEI.docx; RCTE, Anexo IX, texto consolidado (art. 6º, XI, caput e b; art. 8º, XXXIII): https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm; Receita Federal, TIPI oficial atual (Capítulos 4, 11, 19 e 25; Notas 2 e 3 do Capítulo 11; RGI 1 e 6; RGC 1): https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf; Receita Federal, NESH – IN RFB 2.169/2023 (Notas explicativas 04.07, 04.08, 11.03, 19.02, 25.01): https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf. Não aplicar automaticamente. Cadastro anterior: REVISÃO 2026-10-27: alcance normativo ou classificação ainda não resolvidos. O percentual histórico de 12% foi preservado como hipótese, sem confirmar o vínculo. A descrição situa o item em sal a granel, sem agregados. A iodação exigida pela lei não consta e pode conflitar com esse enquadramento tarifário; não reconhecer 12% antes de resolver o conflito. Verificar adição ou presença de iodo, laudo, rótulo, apresentação e classificação fiscal. Sal não iodado, industrial e sal a granel sem prova da identidade legal não recebem a regra. Não aplicar automaticamente. Cadastro anterior: CANDIDATO CONDICIONAL. Cadastro autorizado como possibilidade, sem confirmação de enquadramento fiscal por NCM. Comprovar sal iodado; sal industrial, água do mar e sal sem iodação não comprovam a descrição legal. Início do cadastro: 2026-10-26; redação legal desde 2021-01-01. Vínculo técnico por nomenclatura; proposta CTE27II_SAL_IODADO_25010011. Conferir benefícios, ST, adicionais e demais condições da operação. Lote CAND12_20261026.",
+        "vigencia_fim": null,
+        "aliquota_icms": null,
+        "id_legislacao": "LEG_CAND12_20261026_A",
+        "palavras_chave": "Sal iodado",
+        "descricao_regra": "ALÍQUOTA ESPECÍFICA NÃO COMPROVADA — conferir produto e operação",
+        "exige_descricao": "SIM",
+        "vigencia_inicio": "2026-10-26",
+        "evidencia_ncm_id": null,
+        "adicional_percentual": null,
+        "regra_consolidada_id": null,
+        "tipo_correspondencia": "EXATO"
+      }
+    }
+  ],
+  "limite": "NULL não representa alíquota zero, revogação legal nem confirmação de 19%. A pesquisa do vínculo genérico foi encerrada; a operação concreta exige identidade do produto e fundamento próprio."
+}

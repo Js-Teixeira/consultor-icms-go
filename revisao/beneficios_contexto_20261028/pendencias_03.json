@@ -1,0 +1,1370 @@
+{
+  "referencia": "2026-10-28",
+  "natureza": "INVENTARIO_CONDICIONAL_SEM_PUBLICACAO_AUTOMATICA",
+  "itens": [
+    {
+      "indice_origem": 160,
+      "id_pendencia": "OUTROS_160",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "120",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.12",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Soro Anti-Tetânico"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 161,
+      "id_pendencia": "OUTROS_161",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "136",
+        "apendice": "XVII",
+        "codigo_legal": "3002.20.15",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Vacina meningocócica conjugada do Grupo \"C\""
+      },
+      "decisao": "RESOLVIDA_PARA_CANDIDATO_CONDICIONAL_OU_COMPLEMENTO",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART7_XXXVII_30024115"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 162,
+      "id_pendencia": "OUTROS_162",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "136",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Vacina contra meningite C"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 163,
+      "id_pendencia": "OUTROS_163",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "140",
+        "apendice": "XVII",
+        "codigo_legal": "3003.40.90",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Mesilato de Bromocriptina"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 164,
+      "id_pendencia": "OUTROS_164",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "140",
+        "apendice": "XVII",
+        "codigo_legal": "3004.40.90",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Mesilato de Bromocriptina"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 165,
+      "id_pendencia": "OUTROS_165",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "150",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.23",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Imunoglobulina Anti-Hepatite B 600 mg - injetável - por frasco ou ampola"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 166,
+      "id_pendencia": "OUTROS_166",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "apendice": "XVII",
+        "item": "156",
+        "motivo": "ITEM_EXPRESSAMENTE_REVOGADO_SEM_VINCULO",
+        "trecho": "156 | Revogado"
+      },
+      "decisao": "ENCERRADA_SEM_ASSOCIACAO_ITEM_REVOGADO",
+      "propostas_relacionadas": [],
+      "observacao": "Preservar histórico; não gerar associação ativa."
+    },
+    {
+      "indice_origem": 167,
+      "id_pendencia": "OUTROS_167",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "158",
+        "apendice": "XVII",
+        "codigo_legal": "2935.00.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Sildenafila"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 168,
+      "id_pendencia": "OUTROS_168",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "169",
+        "apendice": "XVII",
+        "codigo_legal": "2939.99.90",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Brometo de ipratrópio"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 169,
+      "id_pendencia": "OUTROS_169",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "169",
+        "apendice": "XVII",
+        "codigo_legal": "3004.40.90",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Brometo de ipratrópio 0,02 mg; Brometo de ipratrópio 0,25 mg | 3004.40.90"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 170,
+      "id_pendencia": "OUTROS_170",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "173",
+        "apendice": "XVII",
+        "codigo_legal": "2922.50.50",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Cloridrato de propranolol"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 171,
+      "id_pendencia": "OUTROS_171",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "176",
+        "apendice": "XVII",
+        "codigo_legal": "2935.00.92",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Glibenclamida"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 172,
+      "id_pendencia": "OUTROS_172",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "177",
+        "apendice": "XVII",
+        "codigo_legal": "2935.00.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Hidroclorotiazida"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 173,
+      "id_pendencia": "OUTROS_173",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "186",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Certolizumabe pegol"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 174,
+      "id_pendencia": "OUTROS_174",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "186",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Certolizumabe pegol 200 mg/ml sol inj ct 2 ser vd inc preenc x 1 ml + 2 lenços umedecidos; Certolizumabe pegol 200 mg/ml sol inj ct 6 ser vd inc preenc x 1 ml + 6 lenços umedecidos"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 175,
+      "id_pendencia": "OUTROS_175",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "187",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Abatacepte"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 176,
+      "id_pendencia": "OUTROS_176",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "187",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Abatacepte 250 mg po liof inj ct fa + ser desc; Abatacepte SC inj 125 mg 4 ser pré + disp + ext | 3002.10.29"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 177,
+      "id_pendencia": "OUTROS_177",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "188",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Golimumabe"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 178,
+      "id_pendencia": "OUTROS_178",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "188",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Golimumabe 50 mg sol inj ct 1 ser preenc x 0,5 ml; Golimumabe 50 mg sol inj ct 1 ser preenc x 0,5 ml acoplada em caneta aplicadora"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 179,
+      "id_pendencia": "OUTROS_179",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "190",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Trastuzumabe"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 180,
+      "id_pendencia": "OUTROS_180",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "190",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Trastuzumabe 150 mg po liof sol inj ct fa vd inc"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 181,
+      "id_pendencia": "OUTROS_181",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "191",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Tocilizumabe"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 182,
+      "id_pendencia": "OUTROS_182",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "191",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Tocilizumabe 80 mg"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 183,
+      "id_pendencia": "OUTROS_183",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "192",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Tenecteplase"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 184,
+      "id_pendencia": "OUTROS_184",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "192",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Tenecteplase 40 mg po liof inj ct fa + ser inj dil x 8 ml; Tenecteplase 50 mg po liof inj ct fa + ser inj dil x 10 ml"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 185,
+      "id_pendencia": "OUTROS_185",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "193",
+        "apendice": "XVII",
+        "codigo_legal": "2935.00.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Bosentana"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 186,
+      "id_pendencia": "OUTROS_186",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "198",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Abatacepte"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 187,
+      "id_pendencia": "OUTROS_187",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "198",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Abatacepte 125mg/ml por seringa preenchida"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 188,
+      "id_pendencia": "OUTROS_188",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "199",
+        "apendice": "XVII",
+        "codigo_legal": "2935.00.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Acetazolamida"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 189,
+      "id_pendencia": "OUTROS_189",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "201",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.38",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Bevacizumabe"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 190,
+      "id_pendencia": "OUTROS_190",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "201",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.38",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Bevacizumabe 25 mg/ml solução injetável (frasco ampola de 4ml)"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 191,
+      "id_pendencia": "OUTROS_191",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "204",
+        "apendice": "XVII",
+        "codigo_legal": "2935.00.99",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Brinzolamida"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 192,
+      "id_pendencia": "OUTROS_192",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "209",
+        "apendice": "XVII",
+        "codigo_legal": "2935.00",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Dorzolamida"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 193,
+      "id_pendencia": "OUTROS_193",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "214",
+        "apendice": "XVII",
+        "codigo_legal": "2939.99.31",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Pilocarpina"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 194,
+      "id_pendencia": "OUTROS_194",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "214",
+        "apendice": "XVII",
+        "codigo_legal": "3003.40.20",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Pilocarpina 20mg/ml (frasco 10ml)"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 195,
+      "id_pendencia": "OUTROS_195",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "214",
+        "apendice": "XVII",
+        "codigo_legal": "3004.40.20",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Pilocarpina 20mg/ml (frasco 10ml)"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 196,
+      "id_pendencia": "OUTROS_196",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "272",
+        "apendice": "XVII",
+        "codigo_legal": "2939.80.00",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Dapagliflozina"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 197,
+      "id_pendencia": "OUTROS_197",
+      "original": {
+        "template_id": "GO_A9_ART6_CLX",
+        "item": "2",
+        "apendice": "LI",
+        "codigo_legal": "2844.40.90",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Agentes Radioativos Marcados com Gálio-68 (68Ga): Ga-PSMA, Ga-DOTA"
+      },
+      "decisao": "PENDENTE_IDENTIDADE_ENTRE_MULTIPLOS_SUCESSORES_OFICIAIS",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "sucessores_documentados": [
+        {
+          "destino": "2844.41.00",
+          "pagina": 2,
+          "ncm_8_digitos": "28444100",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Elementos, isótopos e compostos, radioativos, exceto os das subposições 2844.10, 2844.20 ou 2844.30; ligas, dispersões (incluindo os cermets), produtos cerâmicos e misturas que contenham estes elementos, isótopos ou compostos; resíduos radioativos — Trítio e seus compostos; ligas, dispersões (incluindo os cermets), produtos cerâmicos e misturas que contenham trítio ou seus compostos"
+        },
+        {
+          "destino": "2844.42.00",
+          "pagina": 2,
+          "ncm_8_digitos": "28444200",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Elementos, isótopos e compostos, radioativos, exceto os das subposições 2844.10, 2844.20 ou 2844.30; ligas, dispersões (incluindo os cermets), produtos cerâmicos e misturas que contenham estes elementos, isótopos ou compostos; resíduos radioativos — Actínio-225, actínio-227, califórnio-253, cúrio-240, cúrio-241, cúrio-242, cúrio-243, cúrio-244, einstêinio-253, einstêinio-254, gadolínio-148, polônio-208, polônio-209, polônio-210, rádio-223, urânio-230 ou urânio-232, e seus compostos; ligas, dispersões (incluindo os cermets), produtos cerâmicos e misturas que contenham estes elementos ou compostos"
+        },
+        {
+          "destino": "2844.43.90",
+          "pagina": 3,
+          "ncm_8_digitos": "28444390",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Elementos, isótopos e compostos, radioativos, exceto os das subposições 2844.10, 2844.20 ou 2844.30; ligas, dispersões (incluindo os cermets), produtos cerâmicos e misturas que contenham estes elementos, isótopos ou compostos; resíduos radioativos — Outros elementos, isótopos e compostos, radioativos; ligas, dispersões (incluindo os cermets), produtos cerâmicos e misturas que contenham estes elementos, isótopos ou compostos — Outros"
+        },
+        {
+          "destino": "2844.44.00",
+          "pagina": 3,
+          "ncm_8_digitos": "28444400",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Elementos, isótopos e compostos, radioativos, exceto os das subposições 2844.10, 2844.20 ou 2844.30; ligas, dispersões (incluindo os cermets), produtos cerâmicos e misturas que contenham estes elementos, isótopos ou compostos; resíduos radioativos"
+        }
+      ],
+      "fonte_correlacao": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+      "acao_necessaria": "Selecionar o sucessor do produto concreto pela descrição/notas oficiais e documentação técnica. A tabela pode incluir ex parcial e destinos incompatíveis com o produto; não gerar todos como benefício."
+    },
+    {
+      "indice_origem": 198,
+      "id_pendencia": "OUTROS_198",
+      "original": {
+        "template_id": "GO_A9_ART6_CLX",
+        "item": "3",
+        "apendice": "LI",
+        "codigo_legal": "2844.40.90",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Agentes Radioativos Marcados com Lutécio-177 (177Lu): Lu-PSMA, Lu-DOTA"
+      },
+      "decisao": "PENDENTE_IDENTIDADE_ENTRE_MULTIPLOS_SUCESSORES_OFICIAIS",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "sucessores_documentados": [
+        {
+          "destino": "2844.41.00",
+          "pagina": 2,
+          "ncm_8_digitos": "28444100",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Elementos, isótopos e compostos, radioativos, exceto os das subposições 2844.10, 2844.20 ou 2844.30; ligas, dispersões (incluindo os cermets), produtos cerâmicos e misturas que contenham estes elementos, isótopos ou compostos; resíduos radioativos — Trítio e seus compostos; ligas, dispersões (incluindo os cermets), produtos cerâmicos e misturas que contenham trítio ou seus compostos"
+        },
+        {
+          "destino": "2844.42.00",
+          "pagina": 2,
+          "ncm_8_digitos": "28444200",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Elementos, isótopos e compostos, radioativos, exceto os das subposições 2844.10, 2844.20 ou 2844.30; ligas, dispersões (incluindo os cermets), produtos cerâmicos e misturas que contenham estes elementos, isótopos ou compostos; resíduos radioativos — Actínio-225, actínio-227, califórnio-253, cúrio-240, cúrio-241, cúrio-242, cúrio-243, cúrio-244, einstêinio-253, einstêinio-254, gadolínio-148, polônio-208, polônio-209, polônio-210, rádio-223, urânio-230 ou urânio-232, e seus compostos; ligas, dispersões (incluindo os cermets), produtos cerâmicos e misturas que contenham estes elementos ou compostos"
+        },
+        {
+          "destino": "2844.43.90",
+          "pagina": 3,
+          "ncm_8_digitos": "28444390",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Elementos, isótopos e compostos, radioativos, exceto os das subposições 2844.10, 2844.20 ou 2844.30; ligas, dispersões (incluindo os cermets), produtos cerâmicos e misturas que contenham estes elementos, isótopos ou compostos; resíduos radioativos — Outros elementos, isótopos e compostos, radioativos; ligas, dispersões (incluindo os cermets), produtos cerâmicos e misturas que contenham estes elementos, isótopos ou compostos — Outros"
+        },
+        {
+          "destino": "2844.44.00",
+          "pagina": 3,
+          "ncm_8_digitos": "28444400",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Elementos, isótopos e compostos, radioativos, exceto os das subposições 2844.10, 2844.20 ou 2844.30; ligas, dispersões (incluindo os cermets), produtos cerâmicos e misturas que contenham estes elementos, isótopos ou compostos; resíduos radioativos"
+        }
+      ],
+      "fonte_correlacao": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+      "acao_necessaria": "Selecionar o sucessor do produto concreto pela descrição/notas oficiais e documentação técnica. A tabela pode incluir ex parcial e destinos incompatíveis com o produto; não gerar todos como benefício."
+    },
+    {
+      "indice_origem": 199,
+      "id_pendencia": "OUTROS_199",
+      "original": {
+        "template_id": "GO_A9_ART6_CLX",
+        "item": "4",
+        "apendice": "LI",
+        "codigo_legal": "2844.40.30",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Agentes Radioativos Marcados com Iodo-131 (131l)"
+      },
+      "decisao": "RESOLVIDA_PARA_CANDIDATO_CONDICIONAL_OU_COMPLEMENTO",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART6_CLX_28444330"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 200,
+      "id_pendencia": "OUTROS_200",
+      "original": {
+        "template_id": "GO_A9_ART6_CLX",
+        "item": "5",
+        "apendice": "LI",
+        "codigo_legal": "2844.40.10",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Gerador de Tecnécio-99m (99m-Tc)"
+      },
+      "decisao": "RESOLVIDA_PARA_CANDIDATO_CONDICIONAL_OU_COMPLEMENTO",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART6_CLX_28444310"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 201,
+      "id_pendencia": "OUTROS_201",
+      "original": {
+        "template_id": "GO_A9_ART6_CLX",
+        "item": "6",
+        "apendice": "LI",
+        "codigo_legal": "2844.40.90",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Rádio-223 (223Ra)"
+      },
+      "decisao": "PENDENTE_IDENTIDADE_ENTRE_MULTIPLOS_SUCESSORES_OFICIAIS",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "sucessores_documentados": [
+        {
+          "destino": "2844.41.00",
+          "pagina": 2,
+          "ncm_8_digitos": "28444100",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Elementos, isótopos e compostos, radioativos, exceto os das subposições 2844.10, 2844.20 ou 2844.30; ligas, dispersões (incluindo os cermets), produtos cerâmicos e misturas que contenham estes elementos, isótopos ou compostos; resíduos radioativos — Trítio e seus compostos; ligas, dispersões (incluindo os cermets), produtos cerâmicos e misturas que contenham trítio ou seus compostos"
+        },
+        {
+          "destino": "2844.42.00",
+          "pagina": 2,
+          "ncm_8_digitos": "28444200",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Elementos, isótopos e compostos, radioativos, exceto os das subposições 2844.10, 2844.20 ou 2844.30; ligas, dispersões (incluindo os cermets), produtos cerâmicos e misturas que contenham estes elementos, isótopos ou compostos; resíduos radioativos — Actínio-225, actínio-227, califórnio-253, cúrio-240, cúrio-241, cúrio-242, cúrio-243, cúrio-244, einstêinio-253, einstêinio-254, gadolínio-148, polônio-208, polônio-209, polônio-210, rádio-223, urânio-230 ou urânio-232, e seus compostos; ligas, dispersões (incluindo os cermets), produtos cerâmicos e misturas que contenham estes elementos ou compostos"
+        },
+        {
+          "destino": "2844.43.90",
+          "pagina": 3,
+          "ncm_8_digitos": "28444390",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Elementos, isótopos e compostos, radioativos, exceto os das subposições 2844.10, 2844.20 ou 2844.30; ligas, dispersões (incluindo os cermets), produtos cerâmicos e misturas que contenham estes elementos, isótopos ou compostos; resíduos radioativos — Outros elementos, isótopos e compostos, radioativos; ligas, dispersões (incluindo os cermets), produtos cerâmicos e misturas que contenham estes elementos, isótopos ou compostos — Outros"
+        },
+        {
+          "destino": "2844.44.00",
+          "pagina": 3,
+          "ncm_8_digitos": "28444400",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Elementos, isótopos e compostos, radioativos, exceto os das subposições 2844.10, 2844.20 ou 2844.30; ligas, dispersões (incluindo os cermets), produtos cerâmicos e misturas que contenham estes elementos, isótopos ou compostos; resíduos radioativos"
+        }
+      ],
+      "fonte_correlacao": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+      "acao_necessaria": "Selecionar o sucessor do produto concreto pela descrição/notas oficiais e documentação técnica. A tabela pode incluir ex parcial e destinos incompatíveis com o produto; não gerar todos como benefício."
+    },
+    {
+      "indice_origem": 202,
+      "id_pendencia": "OUTROS_202",
+      "original": {
+        "template_id": "GO_A9_ART6_CLX",
+        "item": "7",
+        "apendice": "LI",
+        "codigo_legal": "2844.40.90",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Actínio-225 (225Ac): Ac-PSMA"
+      },
+      "decisao": "PENDENTE_IDENTIDADE_ENTRE_MULTIPLOS_SUCESSORES_OFICIAIS",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "sucessores_documentados": [
+        {
+          "destino": "2844.41.00",
+          "pagina": 2,
+          "ncm_8_digitos": "28444100",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Elementos, isótopos e compostos, radioativos, exceto os das subposições 2844.10, 2844.20 ou 2844.30; ligas, dispersões (incluindo os cermets), produtos cerâmicos e misturas que contenham estes elementos, isótopos ou compostos; resíduos radioativos — Trítio e seus compostos; ligas, dispersões (incluindo os cermets), produtos cerâmicos e misturas que contenham trítio ou seus compostos"
+        },
+        {
+          "destino": "2844.42.00",
+          "pagina": 2,
+          "ncm_8_digitos": "28444200",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Elementos, isótopos e compostos, radioativos, exceto os das subposições 2844.10, 2844.20 ou 2844.30; ligas, dispersões (incluindo os cermets), produtos cerâmicos e misturas que contenham estes elementos, isótopos ou compostos; resíduos radioativos — Actínio-225, actínio-227, califórnio-253, cúrio-240, cúrio-241, cúrio-242, cúrio-243, cúrio-244, einstêinio-253, einstêinio-254, gadolínio-148, polônio-208, polônio-209, polônio-210, rádio-223, urânio-230 ou urânio-232, e seus compostos; ligas, dispersões (incluindo os cermets), produtos cerâmicos e misturas que contenham estes elementos ou compostos"
+        },
+        {
+          "destino": "2844.43.90",
+          "pagina": 3,
+          "ncm_8_digitos": "28444390",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Elementos, isótopos e compostos, radioativos, exceto os das subposições 2844.10, 2844.20 ou 2844.30; ligas, dispersões (incluindo os cermets), produtos cerâmicos e misturas que contenham estes elementos, isótopos ou compostos; resíduos radioativos — Outros elementos, isótopos e compostos, radioativos; ligas, dispersões (incluindo os cermets), produtos cerâmicos e misturas que contenham estes elementos, isótopos ou compostos — Outros"
+        },
+        {
+          "destino": "2844.44.00",
+          "pagina": 3,
+          "ncm_8_digitos": "28444400",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Elementos, isótopos e compostos, radioativos, exceto os das subposições 2844.10, 2844.20 ou 2844.30; ligas, dispersões (incluindo os cermets), produtos cerâmicos e misturas que contenham estes elementos, isótopos ou compostos; resíduos radioativos"
+        }
+      ],
+      "fonte_correlacao": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+      "acao_necessaria": "Selecionar o sucessor do produto concreto pela descrição/notas oficiais e documentação técnica. A tabela pode incluir ex parcial e destinos incompatíveis com o produto; não gerar todos como benefício."
+    },
+    {
+      "indice_origem": 203,
+      "id_pendencia": "OUTROS_203",
+      "original": {
+        "template_id": "GO_A9_ART30_",
+        "apendice": "LV",
+        "item": "1",
+        "codigo_legal": "7213.10.00",
+        "descricao_legal": "Fio-máquina de ferro ou aço não ligado dentados, com nervuras, sulcos (entalhes) ou relevos, obtidos durante a laminagem",
+        "motivo": "FORA_DO_ESCOPO_SAIDA_INTERNA; DIFERIMENTO_EXCLUSIVO_AQUISICAO_DIFAL_OU_IMPORTACAO",
+        "trecho": "1 | 7213.10.00 | Fio-máquina de ferro ou aço não ligado dentados, com nervuras, sulcos (entalhes) ou relevos, obtidos durante a laminagem"
+      },
+      "decisao": "RESOLVIDA_PARA_PROPOSTA_OPERACIONAL_CONTEXTUAL",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART30__72131000"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 204,
+      "id_pendencia": "OUTROS_204",
+      "original": {
+        "template_id": "GO_A9_ART30_",
+        "apendice": "LV",
+        "item": "2",
+        "codigo_legal": "7214.20.00",
+        "descricao_legal": "Barras de ferro ou aço não ligado simplesmente forjadas, laminadas, estiradas ou extrudadas, a quente, dentadas, com nervuras, sulcos (entalhes) ou relevos, obtidos durante a laminagem, ou torcidas após laminagem",
+        "motivo": "FORA_DO_ESCOPO_SAIDA_INTERNA; DIFERIMENTO_EXCLUSIVO_AQUISICAO_DIFAL_OU_IMPORTACAO",
+        "trecho": "2 | 7214.20.00 | Barras de ferro ou aço não ligado simplesmente forjadas, laminadas, estiradas ou extrudadas, a quente, dentadas, com nervuras, sulcos (entalhes) ou relevos, obtidos durante a laminagem, ou torcidas após laminagem"
+      },
+      "decisao": "RESOLVIDA_PARA_PROPOSTA_OPERACIONAL_CONTEXTUAL",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART30__72142000"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 205,
+      "id_pendencia": "OUTROS_205",
+      "original": {
+        "template_id": "GO_A9_ART30_",
+        "apendice": "LV",
+        "item": "3",
+        "codigo_legal": "7215.50.00",
+        "descricao_legal": "Outras barras de ferro ou aço não ligado simplesmente obtidas ou completamente acabadas a frio",
+        "motivo": "FORA_DO_ESCOPO_SAIDA_INTERNA; DIFERIMENTO_EXCLUSIVO_AQUISICAO_DIFAL_OU_IMPORTACAO",
+        "trecho": "3 | 7215.50.00 | Outras barras de ferro ou aço não ligado simplesmente obtidas ou completamente acabadas a frio"
+      },
+      "decisao": "RESOLVIDA_PARA_PROPOSTA_OPERACIONAL_CONTEXTUAL",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART30__72155000"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 206,
+      "id_pendencia": "OUTROS_206",
+      "original": {
+        "template_id": "GO_A9_ART30_",
+        "apendice": "LV",
+        "item": "4",
+        "codigo_legal": "3917.21.00",
+        "descricao_legal": "Tubos rígidos de polímeros de etileno",
+        "motivo": "FORA_DO_ESCOPO_SAIDA_INTERNA; DIFERIMENTO_EXCLUSIVO_AQUISICAO_DIFAL_OU_IMPORTACAO",
+        "trecho": "4 | 3917.21.00 | Tubos rígidos de polímeros de etileno"
+      },
+      "decisao": "RESOLVIDA_PARA_PROPOSTA_OPERACIONAL_CONTEXTUAL",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART30__39172100"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 207,
+      "id_pendencia": "OUTROS_207",
+      "original": {
+        "template_id": "GO_A9_ART30_",
+        "apendice": "LV",
+        "item": "5",
+        "codigo_legal": "7326.90.90",
+        "descricao_legal": "Outras obras de ferro ou aço",
+        "motivo": "FORA_DO_ESCOPO_SAIDA_INTERNA; DIFERIMENTO_EXCLUSIVO_AQUISICAO_DIFAL_OU_IMPORTACAO",
+        "trecho": "5 | 7326.90.90 | Outras obras de ferro ou aço"
+      },
+      "decisao": "RESOLVIDA_PARA_PROPOSTA_OPERACIONAL_CONTEXTUAL",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART30__73269090"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 208,
+      "id_pendencia": "OUTROS_208",
+      "original": {
+        "template_id": "GO_A9_ART30_",
+        "apendice": "LV",
+        "item": "6",
+        "codigo_legal": "7419.80.90",
+        "descricao_legal": "Outras obras de cobre",
+        "motivo": "FORA_DO_ESCOPO_SAIDA_INTERNA; DIFERIMENTO_EXCLUSIVO_AQUISICAO_DIFAL_OU_IMPORTACAO",
+        "trecho": "6 | 7419.80.90 | Outras obras de cobre"
+      },
+      "decisao": "RESOLVIDA_PARA_PROPOSTA_OPERACIONAL_CONTEXTUAL",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART30__74198090"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 209,
+      "id_pendencia": "OUTROS_209",
+      "original": {
+        "template_id": "GO_A9_ART30_",
+        "apendice": "LV",
+        "item": "7",
+        "codigo_legal": "7308.20.00",
+        "descricao_legal": "Torres e pórticos de ferro fundido, ferro ou aço, exceto as construções pré-fabricadas da posição 94.06",
+        "motivo": "FORA_DO_ESCOPO_SAIDA_INTERNA; DIFERIMENTO_EXCLUSIVO_AQUISICAO_DIFAL_OU_IMPORTACAO",
+        "trecho": "7 | 7308.20.00 | Torres e pórticos de ferro fundido, ferro ou aço, exceto as construções pré-fabricadas da posição 94.06"
+      },
+      "decisao": "RESOLVIDA_PARA_PROPOSTA_OPERACIONAL_CONTEXTUAL",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART30__73082000"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 210,
+      "id_pendencia": "OUTROS_210",
+      "original": {
+        "template_id": "GO_A9_ART30_",
+        "apendice": "LV",
+        "item": "8",
+        "codigo_legal": "7312.90.00",
+        "descricao_legal": "Outras tranças, lingas e artigos semelhantes de ferro ou aço não isolados para usos elétricos",
+        "motivo": "FORA_DO_ESCOPO_SAIDA_INTERNA; DIFERIMENTO_EXCLUSIVO_AQUISICAO_DIFAL_OU_IMPORTACAO",
+        "trecho": "8 | 7312.90.00 | Outras tranças, lingas e artigos semelhantes de ferro ou aço não isolados para usos elétricos"
+      },
+      "decisao": "RESOLVIDA_PARA_PROPOSTA_OPERACIONAL_CONTEXTUAL",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART30__73129000"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 211,
+      "id_pendencia": "OUTROS_211",
+      "original": {
+        "template_id": "GO_A9_ART30_",
+        "apendice": "LV",
+        "item": "9",
+        "codigo_legal": "7325.99.10",
+        "descricao_legal": "Outras obras moldadas de aço",
+        "motivo": "FORA_DO_ESCOPO_SAIDA_INTERNA; DIFERIMENTO_EXCLUSIVO_AQUISICAO_DIFAL_OU_IMPORTACAO",
+        "trecho": "9 | 7325.99.10 | Outras obras moldadas de aço"
+      },
+      "decisao": "RESOLVIDA_PARA_PROPOSTA_OPERACIONAL_CONTEXTUAL",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART30__73259910"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 212,
+      "id_pendencia": "OUTROS_212",
+      "original": {
+        "template_id": "GO_A9_ART30_",
+        "apendice": "LV",
+        "item": "10",
+        "codigo_legal": "3917.32.29",
+        "descricao_legal": "Outros tubos não reforçados de polipropileno",
+        "motivo": "FORA_DO_ESCOPO_SAIDA_INTERNA; DIFERIMENTO_EXCLUSIVO_AQUISICAO_DIFAL_OU_IMPORTACAO",
+        "trecho": "10 | 3917.32.29 | Outros tubos não reforçados de polipropileno"
+      },
+      "decisao": "RESOLVIDA_PARA_PROPOSTA_OPERACIONAL_CONTEXTUAL",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART30__39173229"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 213,
+      "id_pendencia": "OUTROS_213",
+      "original": {
+        "template_id": "GO_A9_ART30_",
+        "apendice": "LV",
+        "item": "11",
+        "codigo_legal": "8546.10.00",
+        "descricao_legal": "Isoladores elétricos de vidro",
+        "motivo": "FORA_DO_ESCOPO_SAIDA_INTERNA; DIFERIMENTO_EXCLUSIVO_AQUISICAO_DIFAL_OU_IMPORTACAO",
+        "trecho": "11 | 8546.10.00 | Isoladores elétricos de vidro"
+      },
+      "decisao": "RESOLVIDA_PARA_PROPOSTA_OPERACIONAL_CONTEXTUAL",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART30__85461000"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 214,
+      "id_pendencia": "OUTROS_214",
+      "original": {
+        "template_id": "GO_A9_ART30_",
+        "apendice": "LV",
+        "item": "12",
+        "codigo_legal": "3926.90.90",
+        "descricao_legal": "Outras obras de plástico e obras de outras matérias das posições 39.01 a 39.14",
+        "motivo": "FORA_DO_ESCOPO_SAIDA_INTERNA; DIFERIMENTO_EXCLUSIVO_AQUISICAO_DIFAL_OU_IMPORTACAO",
+        "trecho": "12 | 3926.90.90 | Outras obras de plástico e obras de outras matérias das posições 39.01 a 39.14"
+      },
+      "decisao": "RESOLVIDA_PARA_PROPOSTA_OPERACIONAL_CONTEXTUAL",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART30__39269090"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 215,
+      "id_pendencia": "OUTROS_215",
+      "original": {
+        "template_id": "GO_A9_ART30_",
+        "apendice": "LV",
+        "item": "13",
+        "codigo_legal": "7616.99.00",
+        "descricao_legal": "Outras obras de alumínio",
+        "motivo": "FORA_DO_ESCOPO_SAIDA_INTERNA; DIFERIMENTO_EXCLUSIVO_AQUISICAO_DIFAL_OU_IMPORTACAO",
+        "trecho": "13 | 7616.99.00 | Outras obras de alumínio"
+      },
+      "decisao": "RESOLVIDA_PARA_PROPOSTA_OPERACIONAL_CONTEXTUAL",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART30__76169900"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 216,
+      "id_pendencia": "OUTROS_216",
+      "original": {
+        "template_id": "GO_A9_ART30_",
+        "apendice": "LV",
+        "item": "14",
+        "codigo_legal": "8517.62.52",
+        "descricao_legal": "Terminais ou repetidores sobre linhas de fibras ópticas com velocidade de transmissão superior a 2,5 Gbit/s",
+        "motivo": "FORA_DO_ESCOPO_SAIDA_INTERNA; DIFERIMENTO_EXCLUSIVO_AQUISICAO_DIFAL_OU_IMPORTACAO",
+        "trecho": "14 | 8517.62.52 | Terminais ou repetidores sobre linhas de fibras ópticas com velocidade de transmissão superior a 2,5 Gbit/s"
+      },
+      "decisao": "RESOLVIDA_PARA_PROPOSTA_OPERACIONAL_CONTEXTUAL",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART30__85176252"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 217,
+      "id_pendencia": "OUTROS_217",
+      "original": {
+        "template_id": "GO_A9_ART30_",
+        "apendice": "LV",
+        "item": "15",
+        "codigo_legal": "8504.22.00",
+        "descricao_legal": "Transformadores de dielétrico líquido de potência superior a 650 kVA, mas não superior a 10.000 kVA",
+        "motivo": "FORA_DO_ESCOPO_SAIDA_INTERNA; DIFERIMENTO_EXCLUSIVO_AQUISICAO_DIFAL_OU_IMPORTACAO",
+        "trecho": "15 | 8504.22.00 | Transformadores de dielétrico líquido de potência superior a 650 kVA, mas não superior a 10.000 kVA"
+      },
+      "decisao": "RESOLVIDA_PARA_PROPOSTA_OPERACIONAL_CONTEXTUAL",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART30__85042200"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 218,
+      "id_pendencia": "OUTROS_218",
+      "original": {
+        "template_id": "GO_A9_ART30_",
+        "apendice": "LV",
+        "item": "16",
+        "codigo_legal": "8535.21.00",
+        "descricao_legal": "Disjuntores para tensão superior a 1 kV e inferior a 72,5 kV",
+        "motivo": "FORA_DO_ESCOPO_SAIDA_INTERNA; DIFERIMENTO_EXCLUSIVO_AQUISICAO_DIFAL_OU_IMPORTACAO",
+        "trecho": "16 | 8535.21.00 | Disjuntores para tensão superior a 1 kV e inferior a 72,5 kV"
+      },
+      "decisao": "RESOLVIDA_PARA_PROPOSTA_OPERACIONAL_CONTEXTUAL",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART30__85352100"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 219,
+      "id_pendencia": "OUTROS_219",
+      "original": {
+        "template_id": "GO_A9_ART30_",
+        "apendice": "LV",
+        "item": "17",
+        "codigo_legal": "8502.20.19",
+        "descricao_legal": "Grupos eletrogêneos de 1.065 kW de potência movidos a biogás",
+        "motivo": "FORA_DO_ESCOPO_SAIDA_INTERNA; DIFERIMENTO_EXCLUSIVO_AQUISICAO_DIFAL_OU_IMPORTACAO",
+        "trecho": "17 | 8502.20.19 | Grupos eletrogêneos de 1.065 kW de potência movidos a biogás"
+      },
+      "decisao": "RESOLVIDA_PARA_PROPOSTA_OPERACIONAL_CONTEXTUAL",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART30__85022019"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 220,
+      "id_pendencia": "OUTROS_220",
+      "original": {
+        "dispositivo": "Anexo IX, art.6, incisoCLIX",
+        "motivo": "CODIGOS_DE_VACINA_ANTIGOS_EXIGEM_CORRELACAO_OFICIAL_E_VALIDACAO_DO_CONTEXTO_PANDEMICO",
+        "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+        "trecho": "CLIX - as operações com vacinas e insumos destinados à produção de vacinas para o enfrentamento à pandemia causada pelo novo agente do Coronavírus - SARS-CoV-2, classificados nos códigos 3002.20.19 e 3002.20.29 da NCM, e as respectivas prestações de serviços de transporte, ficando mantido o crédito (Convênio ICMS 15/21)."
+      },
+      "decisao": "PENDENTE_CONTEXTO_OPERACIONAL_OU_VIGENCIA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Conferir dispositivo e atos remetidos; coletar operação, contribuinte/destinatário, data, regime/TARE, especificação e comprovação da finalidade antes de propor vínculo."
+    },
+    {
+      "indice_origem": 221,
+      "id_pendencia": "OUTROS_221",
+      "original": {
+        "dispositivo": "Anexo IX, art.7, incisoLXXV",
+        "motivo": "FONTE_CONSOLIDADA_INFORMA_TERMINO31_12_2021; CBEN_EXISTENTE_NAO_COMPROVA_PRORROGACAO",
+        "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+        "trecho": "LXXV - as operações internas com medicamentos que possuem farmacêuticos ativos relacionados no Apêndice XLVIII com destino à pessoa jurídica prestadora de serviço de saúde para o Sistema Único de Saúde - SUS para uso no enfrentamento da emergência decorrente da pandemia do novo Coronavírus - SARS-CoV-2, observado o seguinte (Convênio ICMS 90/21):\na) a isenção a que se refere o caput deste artigo alcança também o imposto:\n1. devido em razão de importação realizada pela própria pessoa jurídica prestadora de serviço de saúde;\n2. incidente sobre as prestações de serviço de transporte das mercadorias objeto da isenção; e\n3. decorrente da diferença entre a alíquota interna e interestadual, se couber;\nb) fica mantido o crédito."
+      },
+      "decisao": "HISTORICO_PRAZO_EXAURIDO_SEM_ASSOCIACAO",
+      "propostas_relacionadas": [],
+      "observacao": "Art7ºLXXV: nota lateral diz31/12/2021, mas o quadro central vigente informa30/04/2024 (parágrafos6960–6962). Ambos estão exauridos em28/10/2026. Não usar a nota antiga como inexistência absoluta de prorrogação; cBenef não prorroga.",
+      "acao_necessaria": "Conferir dispositivo e atos remetidos; coletar operação, contribuinte/destinatário, data, regime/TARE, especificação e comprovação da finalidade antes de propor vínculo."
+    },
+    {
+      "indice_origem": 222,
+      "id_pendencia": "OUTROS_222",
+      "original": {
+        "dispositivo": "Anexo IX, art.7, incisoLXXIV",
+        "motivo": "EXIGE_VERIFICAR_VIGENCIA_ATUAL_DO_BENEFICIO_PANDEMICO_ANTES_DE_QUALQUER_VINCULO",
+        "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+        "trecho": "LXXIV - as operações internas e de importação do exterior, bem como nas correspondentes prestações de serviço de transporte realizadas no âmbito das medidas de prevenção e de enfrentamento à pandemia causada pelo novo agente do Coronavírus - SARS-CoV-2, em relação ao oxigênio medicinal, classificado no código 2804.40.00 da NCM, ficando mantido o crédito (Convênio ICMS 41/21);"
+      },
+      "decisao": "PENDENTE_CONTEXTO_OPERACIONAL_OU_VIGENCIA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Conferir dispositivo e atos remetidos; coletar operação, contribuinte/destinatário, data, regime/TARE, especificação e comprovação da finalidade antes de propor vínculo."
+    },
+    {
+      "indice_origem": 223,
+      "id_pendencia": "OUTROS_223",
+      "original": {
+        "dispositivo": "Anexo IX, art.7, incisoXXXVIII",
+        "motivo": "IMPORTACAO_ESPECIFICA_FUNDAÇÃO_BANCO_DE_OLHOS; FORA_SAIDA_INTERNA_ORDINARIA",
+        "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+        "trecho": "XXXVIII - a importação de soro conservante de córnea, classificado no código 3001.90.10 da NBM/SH, realizada pela Fundação Banco de Olhos de Goiás, CNPJ nº 02.600.740/0001-94, reconhecida como entidade filantrópica no Conselho Nacional de Assistência Social - CNAS - sob o nº 28.980.011056/94-21, desde que o soro não possua similar produzido no País e a importação também esteja desonerada dos Impostos de Importação ou sobre Produtos Industrializados (Convênio ICMS 117/02, cláusula primeira)."
+      },
+      "decisao": "PENDENTE_CONTEXTO_OPERACIONAL_OU_VIGENCIA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Conferir dispositivo e atos remetidos; coletar operação, contribuinte/destinatário, data, regime/TARE, especificação e comprovação da finalidade antes de propor vínculo."
+    },
+    {
+      "indice_origem": 224,
+      "id_pendencia": "OUTROS_224",
+      "original": {
+        "dispositivo": "Anexo IX, art.7, incisoXLVII",
+        "motivo": "DIFAL_QUANTIDADE280ACUMULADORES_DESTINATARIO_FURNAS; NAO_BENEFICIO_GERAL_DO_PRODUTO",
+        "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+        "trecho": "XLVII - relativamente ao diferencial de alíquotas, a entrada no território goiano de 280 (duzentos e oitenta) acumuladores elétricos e seus separadores, mesmo de forma quadrada ou retangular de chumbo de peso inferior ou igual a 1.000kg, classificados no código 8507.20.10 da Nomenclatura Comum do Mercosul - NCM - destinados à empresa FURNAS CENTRAIS ELÉTRICAS S/A, inscrita junto ao CNPJ sob o número base 23.274.194, a serem aplicados no sistema de energia solar fotovoltaico, do Programa de Desenvolvimento Energético dos Estados e Municípios - PRODEEM - (Convênio ICMS 19/06, cláusula primeira)."
+      },
+      "decisao": "PENDENTE_CONTEXTO_OPERACIONAL_OU_VIGENCIA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Conferir dispositivo e atos remetidos; coletar operação, contribuinte/destinatário, data, regime/TARE, especificação e comprovação da finalidade antes de propor vínculo."
+    },
+    {
+      "indice_origem": 225,
+      "id_pendencia": "OUTROS_225",
+      "original": {
+        "dispositivo": "Anexo IX, art.7, incisoLVI",
+        "motivo": "PROGRAMA_PROINFO_UCA_PROUCA; CONFERIR_PRAZO_ATUAL_E_PROJETO_ANTES_DE_VINCULAR",
+        "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+        "trecho": "LVI - a saída de computador portátil educacional, classificado nos códigos 8471.30.12, 8471.30.19 e 8471.30.90 da NBM/SH e kit completo para sua montagem, quando adquiridos no âmbito do Programa Nacional de Informática na Educação - ProInfo - em seu Projeto Especial Um Computador por Aluno - UCA -, do Ministério da Educação - MEC -, instituído pela Portaria nº 522, de 9 de abril de 1997, e do Programa Um Computador por Aluno - PROUCA e Regime Especial para Aquisição de Computadores para Uso Educacional - RECOMPE, instituídos pela Lei nº 12.249, de 11 de junho de 2010 e do Regime Especial de Incentivo a Computadores para uso Educacional - REICOMPE, instituído pela Medida Provisória nº 563, de 3 de abril de 2012, ficando mantido o crédito, observado o seguinte (Convênio ICMS 147/07, cláusulas primeira a terceira): (Redação conferida pelo Decreto nº 7.817 - vigência: 01.12.12)\na) os produtos devem ser desonerados das contribuições para o PIS/PASEP e para a COFINS;\nb) a aquisição deve ser realizada por meio de Pregão, ou outro processo licitatório, realizados pelo Fundo Nacional de Desenvolvimento da Educação - FNDE;\nc) o valor correspondente à isenção do ICMS deve ser transferido para o adquirente mediante redução do preço do produto que deve ser demonstrada no documento fiscal;\nd) na importação de kit completo para montagem de computador portátil educacional deve ocorrer também a desoneração do Imposto de Importação.\ne) o benefício aplica-se, também, na aquisição de embalagem, componente, parte e peça para montagem de computador portátil educacional no âmbito do PROUCA, ainda que adquiridos de forma individual. (Redação acrescida pelo Decreto nº 7.817 - vigência: 01.12.12)"
+      },
+      "decisao": "PENDENTE_CONTEXTO_OPERACIONAL_OU_VIGENCIA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Conferir dispositivo e atos remetidos; coletar operação, contribuinte/destinatário, data, regime/TARE, especificação e comprovação da finalidade antes de propor vínculo."
+    },
+    {
+      "indice_origem": 226,
+      "id_pendencia": "OUTROS_226",
+      "original": {
+        "dispositivo": "Anexo IX, art.6, incisoXXXVIII",
+        "motivo": "IMPORTACAO_ATIVO_MAQUINA_LIMPAR_SELECIONAR_FRUTA_SEM_SIMILAR; FORA_SAIDA_INTERNA",
+        "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+        "trecho": "XXXVIII - a entrada de máquina para limpar e selecionar fruta, classificadas nos códigos 8433.60.10 e 8433.60.90 da NBM/SH, sem similar produzido no País, quando importada diretamente do exterior para integração ao ativo imobilizado do contribuinte, para uso exclusivo na atividade do seu estabelecimento (Convênio ICMS 93/91);"
+      },
+      "decisao": "PENDENTE_CONTEXTO_OPERACIONAL_OU_VIGENCIA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Conferir dispositivo e atos remetidos; coletar operação, contribuinte/destinatário, data, regime/TARE, especificação e comprovação da finalidade antes de propor vínculo."
+    },
+    {
+      "indice_origem": 227,
+      "id_pendencia": "OUTROS_227",
+      "original": {
+        "dispositivo": "Anexo IX, art.6, incisoXLVII",
+        "motivo": "TRATOR_COLHEITADEIRA_IMPORTACAO_CODIGOS_NBM_EXTINTOS; EXIGE_CORRELACAO_OFICIAL",
+        "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+        "trecho": "XLVII - a entrada de trator agrícola de quatro rodas e de colheitadeira mecânica de algodão, classificados, respectivamente, nos códigos 8701.90.00 e 8433.59.1 da NBM/SH, sem similar produzido no País, adquiridos do exterior para integrar o ativo imobilizado do importador, para uso exclusivo na sua atividade agrícola, desde que contemplados com isenção ou alíquota reduzida a zero dos Impostos de Importação e sobre Produtos Industrializados (Convênio ICMS 77/93);"
+      },
+      "decisao": "PENDENTE_CONTEXTO_OPERACIONAL_OU_VIGENCIA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Conferir dispositivo e atos remetidos; coletar operação, contribuinte/destinatário, data, regime/TARE, especificação e comprovação da finalidade antes de propor vínculo."
+    },
+    {
+      "indice_origem": 228,
+      "id_pendencia": "OUTROS_228",
+      "original": {
+        "dispositivo": "Anexo IX, art.6, incisoL",
+        "motivo": "INSUMOS_FARMACOS_ANTIRRETROVIRAIS_COM_NBM_HISTORICA; REVISAR_CADA_SUBITEM_E_CORRELACAO_ATUAL",
+        "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+        "trecho": "L - as operações, a seguir enumeradas com respectivos produtos e códigos da NBM, desde que contemplados com isenção ou alíquota zero dos Impostos de Importação ou sobre Produtos Industrializados, ficando mantido o crédito (Convênio ICMS 10/02):\na) recebimento pelo importador de:\n1. produtos intermediários a seguir indicados, destinados à produção de medicamento de uso humano para o tratamento de portadores do vírus da AIDS:\n1.1. Ácido3-hidroxi-2-metilbenzoico, 2918.19.90;\n1.2. Glioxilato de L-Mentila, e 1,4-Ditiano 2,5 Diol, Mentiloxatiolano, 2930.90.39;\n1.3. Cloridrato de 3-cloro-metilpiridina, 2-Cloro-3-(2-clorometil-4-piridilcarboxamido)-4-metilpiridina,2-Cloro-3-(2-ciclopropilamino-3-piridilcarboxamido)-4-etilpiridina,2933.39.29;\n1.4. Benzoato de [3S-(2(2S*3S*)2alfa,4aBeta,8aBeta)]-N-(1,1-dimetiletil) decahidro-2-(2-hidroxi-3-amino-4-(feniltiobutil)-3-isoquinolina carboxamida, 2933.49.90;\n1.5.N-terc-butil-1-(2(S)-hidroxi-4-(R)-[N-[(2)-hidroxiindan-1(S)-il]carbamoil]-5-fenilpentil) piperazina-2(S)-carboxamida, 2933.59.19;\n1.6. Indinavir Base: [1(1S,2R),5(S)]-2,3,5-trideoxi-N-(2,3-dihidro-2-hidroxi-1H-inden-1-il)-5-[2-[[(1,1-dimetiletil)-amino]carbonil]-4-(3-piridinilmetil)-1-piperazinil]-2-(fenilmetil)-D-eritro-pentonamida, 2933.59.19;\n1.7. Citosina, 2933.59.99;\n1.8. Timidina, 2934.99.23;\n1.9. Hidroxibenzoato de (2R-cis)-4-amino-1-[2-hidroxi-metil)-1,3-oxatiolan-5-il]-2(1H)-pirimidinona, 2934.99.39;\n1.10. (2R,5R)-5-(4-amino-2-oxo-2H-pirimidin-1-il)-[1,3]-oxatiolan-2-carboxilato de 2S-isopropil-5R-metil-1R-ciclohexila, 2934.99.99;\n1.11. Ciclopropil-Acetileno, 2902.90.90;\n1.12. Cloreto de Tritila, 2903.69.19;\n1.13. Tiofenol, 2908.20.90;\n1.14. 4-Cloro-2-(trifluoroacetil)-anilina, 2921.42.29;\n1.15. N-tritil-4-cloro-2-(trifluoroacetil)-anilina, 2921.42.29;\n1.16. (S)-4-cloro-alfa-ciclopropiletinil-alfa-trifluorometil-anilina, 2921.42.29;\n1.17. N-metil-2-pirrolidinona, 2924.21.90;\n1.18. Cloreto de terc-butil-dimetil-silano, 2931.00.29;\n1.19. (3S,4aS,8aS)-2-{(2R)-2-[(4S)-2-(3-hidroxi-2-metil-fenil)-4,5-dihidro-1,3-oxazol-4-il]-2-hidroxietil}-N-(1,1-dimetil-etil)-decahidroisoquinolina-3-carboxamida, 2933.49.90;\n1.20. Oxetano (ou : 3´,5´-Anidro-timidina), 2934.99.29;\n1.21. 5-metil-uridina, 2934.99.29;\n1.22. Tritil-azido-timidina, 2334.99.29;\n1.23. 2,3-Dideidro-2,3-dideoxi-inosina, 2934.99.39;\n1.24. Inosina, 2934.99.39;\n1.25. 3-(2-cloro-3-piridil-carbonil)-amino-2-cloro-4-metilpiridina, 2933.39.29;\n1.26. N-(2-cloro-4-metil-3-piridil-2-ciclopropilamino)-3-pridinocarboxamida. 2933.39.29;\n1.27. 5' Benzoil - 2' - 3' - dideidro - 3' - deoxi-timidina;\n1.28. (s)-5-cloro-alfa-(ciclopropiletinil)-2-[((4-metoxifenil)-metil)amino]-alfa-(trifluormetil) benzenometanol, 2921.42.29;\n1.29. Chloromethyl Isopropil Carbonate, 2920.90.90;\n1.30.(R)-[[2-(6-Amino-9H-purin-9-yl)-1-methylethoxy] methyl]phosporic acid, 2934.99.99;\n2. dos fármacos a seguir indicados, destinados à produção de medicamentos de uso humano para o tratamento de portadores do vírus da AIDS:\n2.1. Nelfinavir Base: 3S-[2(2S*,3S*),3alfa,4aBeta,8aBeta]]-N-(1,1-dimetiletil)decahidro-2-[2-hidroxi-3-[(3-hidroxi-2-etilbenzoil)amino]-4-(feniltio)butil]-3-isoquinolina carboxamida, 2933.49.90;\n2.2. Zidovudina - AZT, 2934.99.22;\n2.3. Sulfato de Indinavir, 2924.29.99;\n2.4. Lamivudina, 2934.99.93;\n2.5. Didanosina, 2934.99.29;\n2.6. Zidovudina - AZT - e Nevirapina, 3004.90.79 e 3004.90.99;\n2.7. Mesilato de nelfinavir, 2933.49.90;\n2.8. revogado;\n2.9. Fumarato de Tenofovir Desoproxila, 2933.59.49;\n2.10. Entricitabina, 2934.99.29;\n3. dos medicamentos de uso humano para o tratamento de portadores do vírus da AIDS, a base de:\n3.1. Zalcitabina, Didanosina, Estavudina, Delavirdina, Lamivudina, medicamento resultante da associação de Lopinavir e Ritonavir; 3003.90.99, 3004.90.99, 3003.90.69, 3004.90.59;\n3.2. Saquinavir, Sulfato de Indinavir, Sulfato de Abacavir, 3003.90.78, 3004.90.68;\n3.3. Ziagenavir, 3003.90.79, 3004.90.69;\n3.4. Efavirenz, Ritonavir; 3003.90.88 ; 3004.90.78;\n3.5. Mesilato de nelfinavir, 3004.90.68 e 3003.90.78;\n3.6. Sulfato de Atazanavir, 3004.90.68;\n3.7. Darunavir, 3004.90.79;\n3.8. Enfurvitida - T - 20, 3004.90.68;\n3.9. Fosamprenavir, 3003.90.88 e 3004.90.78;\n3.10. Raltegravir, 3004.90.79;\n3.11.Tipranavir, 3004.90.79;\n3.12. Maraviroque,3004.90.69;\n3.13. Etravirina, 3004.90.69;\n3.14. Fumarato de Tenofovir Desoproxila e Entricitabina, 3004.90.68;\nb) saídas interna e interestadual:\n1. dos fármacos destinados a produção de medicamentos de uso humano para o tratamento dos portadores do vírus da AIDS:\n1.1. Sulfato de Indinavir, 2924.29.99,\n1.2. Ganciclovir, 2933.59.49;\n1.3. Zidovudina, 2934.99.22;\n1.4. Didanosina, 2934.99.29;\n1.5. Estavudina, 2934.99.27;\n1.6. Lamivudina, 2934.99.93;\n1.7. Nevirapina, 2934.99.99;\n1.8. Efavirenz, 2933.99.99;\n1.9. Tenofovir, 2933.59.49;\n1.10. Etravirina, 2933.59.99;\n1.11. Sulfato de Atazanavir, 2933.39.99;\n2. dos medicamentos de uso humano, destinados ao tratamento dos portadores do vírus da AIDS, a base de:\n2.1. Ritonavir, 3003.90.88, 3004.90.78;\n2.2. Zalcitabina, Didanosina, Estavudina, Delavirdina, Lamivudina, medicamento resultante da associação de Lopinavir e Ritonavir; 3003.90.99, 3004.90.99, 3003.90.69, 3004.90.59\n2.3. Saquinavir, Sulfato de Indinavir, Sulfato de Abacavir, 3003.90.78, 3004.90.68;\n2.4. Ziagenavir, 3003.90.79, 3004.90.69;\n2.5. Mesilato de nelfinavir, 3004.90.68 e 3003.90.78;\n2.6. Zidovudina - AZT e Nevirapina, 3004.90.79 e 3004.90.99;\n2.7. Darunavir, 3004.90.79;\n2.8. Fumarato de tenofovir desoproxila, 3003.90.78;\n2.9. Revogado;\n2.10. Enfurvitida - T - 20, 3004.90.68;\n2.11. Fosamprenavir, 3003.90.88 e 3004.90.78;\n2.12. Raltegravir, 3004.90.79;\n2.13.Tipranavir, 3004.90.79;\n2.14. Maraviroque,3004.90.69;\n2.15. Fumarato de Tenofovir Desoproxila e Entricitabina, 3004.90.68;"
+      },
+      "decisao": "PENDENTE_CONTEXTO_OPERACIONAL_OU_VIGENCIA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Conferir dispositivo e atos remetidos; coletar operação, contribuinte/destinatário, data, regime/TARE, especificação e comprovação da finalidade antes de propor vínculo."
+    },
+    {
+      "indice_origem": 229,
+      "id_pendencia": "OUTROS_229",
+      "original": {
+        "dispositivo": "Anexo IX, art.6, incisoCXXXVI",
+        "motivo": "HEMOBRAS_EXCLUSIVA; NCM_DE_HEMODERIVADOS_HISTORICOS_EXIGEM_CORRELACAO; NAO_EXPANDIR_A_MEDICAMENTOS_EM_GERAL",
+        "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+        "trecho": "CXXXVI - a operação realizada pela Empresa Brasileira de Hemoderivados e Biotecnologia - Hemobrás - com fármaco e medicamento derivado do plasma humano coletado nos hemocentros de todo o país, relacionados no Apêndice XXXVI deste Anexo, desde que (Convênio ICMS 103/11):\na) o fármaco e o medicamento estejam beneficiados com isenção ou alíquota zero dos Impostos de Importação ou sobre Produtos Industrializados;\nb) a parcela relativa à receita bruta decorrente da operação prevista neste inciso esteja desonerada das contribuições do PIS/PASEP e COFINS;"
+      },
+      "decisao": "PENDENTE_CONTEXTO_OPERACIONAL_OU_VIGENCIA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Conferir dispositivo e atos remetidos; coletar operação, contribuinte/destinatário, data, regime/TARE, especificação e comprovação da finalidade antes de propor vínculo."
+    },
+    {
+      "indice_origem": 230,
+      "id_pendencia": "OUTROS_230",
+      "original": {
+        "dispositivo": "Anexo IX, art.8, incisoXXV",
+        "motivo": "REGRA_SETOR_FARMACEUTICO_COM_VARIAVEIS_DE_ALIQUOTA_REPASSE_PIS_COFINS_E_CODIGOS_LEGADOS; SEM_CARGA_UNICA",
+        "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+        "trecho": "XXV - no valor equivalente à aplicação, conforme o caso, do percentual previsto na alínea \"a\" sobre o valor da operação com os produtos classificados nas posições 30.01, 30.03, exceto no código 3003.90.56, 30.04, exceto no código 3004.90.46 e 3303.00 a 33.07, nos itens 3002.10.1, 3002.10.2, 3002.10.3, 3002.20.1, 3002.20.2, 3006.30.1 e 3006.30.2 e nos códigos 3002.90.20, 3002.90.92, 3002.90.99, 3005.10.10, 3006.60.00, 3401.11.90, 3401.20.10 e 9603.21.00, todos da NBM/SH, praticada pelo industrial ou importador com destino a contribuinte, ficando mantido o crédito e observado o seguinte (Convênio ICMS 34/06, cláusula primeira, caput e cláusula segunda):\na) o percentual de redução da base de cálculo, que tem por fim excluir o valor das contribuições para o PIS/PASEP e para a COFINS referente às operações subseqüentes cobradas englobadamente na operação, é:\n1. com produto farmacêutico classificado nas posições 30.01, 30.03, exceto no código 3003.90.56, 30.04, exceto no código 3004.90.46, nos itens 3002.10.1, 3002.10.2, 3002.10.3, 3002.20.1, 3002.20.2, 3006.30.1 e 3006.30.2 e nos códigos 3002.90.20, 3002.90.92, 3002.90.99, 3005.10.10, 3006.60.00:\n1.1 interestadual - 9,90% (nove inteiros e noventa centésimos por cento), cumulável com o crédito outorgado previsto no inciso III do art. 11 deste anexo, sendo que nesta hipótese o percentual deve incidir sobre a base de cálculo reduzida;\n1.2. interna - 10,52% (dez inteiros e cinqüenta e dois centésimos por cento), cumulável com a redução da base de cálculo prevista no inciso VIII do caput deste artigo (Convênio ICMS 34/06, cláusula segunda);\n1.3. interestadual sujeita à alíquota de 4% (quatro por cento), nos termos da alínea \"b\" do inciso III do art. 20 deste Regulamento - 9,04% (nove inteiros e quatro centésimos por cento) (Redação acrescida pelo Decreto nº 7.988 - vigência: 30.04.13)\n2. com produto de perfumaria, de toucador ou de higiene pessoal classificado nas posições 33.03 a 33.07 e nos códigos 3401.11.90, 3401.20.10 e 96.03.21.00:\n2.1. interestadual - 10,49% (dez inteiros e quarenta e nove centésimos por cento) acumulável com o crédito outorgado previsto no inciso III do art. 11 deste anexo, sendo que nesta hipótese o percentual deve incidir sobre a base de cálculo reduzida;\n2.2. interna - 11,15% (onze inteiros e quinze centésimos por cento), cumulável com a redução da base de cálculo prevista no inciso VIII do caput deste artigo (Convênio ICMS 34/06, cláusula segunda);\n2.3. interestadual sujeita à alíquota de 4% (quatro por cento), nos termos da alínea \"b\" do inciso III do art. 20 deste Regulamento - 9,59% (nove inteiros e cinquenta e nove centésimos por cento); (Redação conferida pelo Decreto nº 7.988 - vigência: 30.04.13)\nb) não se aplicam as reduções previstas na alínea \"a\" (Convênio ICMS 34/06, cláusula primeira, § 2º):\n1. na operação realizada com produto classificado na posição 3003, exceto no código 3003.90.56, nos itens 3002.10.1, 3002.10.2, 3002.10.3, 3002.20.1, 3002.20.2, 3006.30.1 e 3006.30.2 e nos códigos 3001.20.90, 3001.90.10, 3001.90.90, 3002.90.20, 3002.90.92, 3002.90.99, 3005.10.10 e 3006.60.00, todos da NBM/SH, tributados na forma do inciso I do art. 1º da Lei n°10.147/00 e na posição 3004, exceto no código 3004.90.46 da NBM/SH, quando o industrial ou o importador do mesmo tenha firmado com a União, \"Compromisso de Ajustamento de Conduta, nos termos do § 6º do art. 5º da Lei n°. 7.347, de 24 de julho de 1985\", ou que tenha preenchido os requisitos constantes da Lei n° 10.213, de 27 de março de 2001;\n2. quando ocorrer a exclusão do produto da incidência das contribuições para o PIS/PASEP e para a COFINS, para os produtos farmacêuticos classificados nas posições 30.01, 30.03, exceto no código 3003.90.56, 30.04, exceto no código 3004.90.46, nos itens 3002.10.1, 3002.10.2, 3002.10.3, 3002.20.1, 3002.20.2, 3006.30.1 e 3006.30.2 e nos códigos 3002.90.20, 3002.90.92, 3002.90.99, 3005.10.10, 3006.60.00, na forma do § 2° do art. 1º da Lei nº 10.147/00;\nc) o documento fiscal que acobertar as operações indicadas no caput deve, além das demais indicações previstas na legislação tributária (Convênio ICMS 34/06, cláusula quarta):\n1. conter a identificação do produto pelo respectivo código da NBM/SH e, em relação ao medicamento, a indicação, também, do número do lote de fabricação;\n2. constar no campo \"Informações Complementares\":\n2.1. se existir, o número do regime especial celebrado para utilização de crédito presumido das contribuições para o PIS/PASEP e para a COFINS pelo industrial ou pelo importador do produto classificado na posição 3003, exceto no código 3003.90.56, nos itens 3002.10.1, 3002.10.2, 3002.10.3, 3002.20.1, 3002.20.2, 3006.30.1 e 3006.30.2 e nos códigos 3001.20.90, 3001.90.10, 3001.90.90, 3002.90.20, 3002.90.92, 3002.90.99, 3005.10.10 e 3006.60.00, todos da NBM/SH, tributados na forma do inciso I do art. 1º da Lei n°10.147/00 e na posição 3004, exceto no código 3004.90.46 da NBM/SH, que tenham firmado, com a União, \"Compromisso de Ajustamento de Conduta, nos termos do § 6° do art. 5° da Lei n° 7.347, de 24 de julho de 1985\", visando assegurar a repercussão nos preços da redução da carga tributária em virtude do disposto no art. 3° da Lei n°10.147/00;\n2.2. se o industrial ou importador preencher os requisitos constantes da Lei n°10.213/01, a expressão: \"o remetente preenche os requisitos constantes da Lei n°10.213/01\";\n2.3. nos demais casos, a expressão \"Base de cálculo com redução do PIS/PASEP e da COFINS nos termos do inciso XXV do Anexo IX do art. 8° do RCTE e do Convênio ICMS 34/06\";"
+      },
+      "decisao": "PENDENTE_CONTEXTO_OPERACIONAL_OU_VIGENCIA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Conferir dispositivo e atos remetidos; coletar operação, contribuinte/destinatário, data, regime/TARE, especificação e comprovação da finalidade antes de propor vínculo."
+    },
+    {
+      "indice_origem": 231,
+      "id_pendencia": "OUTROS_231",
+      "original": {
+        "dispositivo": "Anexo IX, art.8, incisoXXXIV",
+        "motivo": "FRALDAS_PRODUZIDAS_GOIAS_COM_CODIGOS_NBM_ANTIGOS; EXIGE_CORRELACAO_OFICIAL; NAO_SUBSTITUIR_POR96190000",
+        "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+        "trecho": "XXXIV - de tal forma que resulte aplicação sobre o valor da operação do percentual equivalente a 9% (nove por cento) na saída interna com fralda descartável, produzida no Estado de Goiás, classificada nos códigos 4818.40.10, 5601.10.00, 6111.20.00, 6111.90.00 e 6209 da NBM/SH (Lei nº 13.453/99, art. 1º, II, \"h\", 1);"
+      },
+      "decisao": "PENDENTE_CONTEXTO_OPERACIONAL_OU_VIGENCIA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Conferir dispositivo e atos remetidos; coletar operação, contribuinte/destinatário, data, regime/TARE, especificação e comprovação da finalidade antes de propor vínculo."
+    },
+    {
+      "indice_origem": 232,
+      "id_pendencia": "OUTROS_232",
+      "original": {
+        "dispositivo": "Anexo IX, art.8, incisoLIV",
+        "motivo": "OPCOES_DE_REDUCAO_E_MANUTENCAO_CREDITO_EXIGEM_REVISAO_E_INTERPRETACAO; NAO_HA_CARGA_UNICA_INEQUIVOCA",
+        "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+        "trecho": "LIV - de tal forma que resulte aplicação dos percentuais indicados nas alíneas \"a\" e \"b\", conforme o caso, sobre o valor da operação com os produtos listados no Apêndice XXXIII deste Anexo, destinados ao tratamento e controle de efluentes industriais e domésticos, mediante o emprego de tecnologia de aceleração da biodegradação, oriundos de empresas licenciadas pelos órgãos competentes estaduais, observado, ainda, o disposto nas alíneas \"c\" e seguintes (Convênio ICMS 8/11):\na) 60% (sessenta por cento), sem a manutenção do crédito;\nb) 35% (trinta e cinco por cento), com a manutenção do crédito;\nc) o contribuinte deve fazer a opção por um dos percentuais de redução constantes nas alíneas \"a\" e \"b\", nos termos do art. 4º deste anexo;\nd) o benefício alcança, também, as operações com esses produtos quando destinados ao tratamento e controle de efluentes industriais, incluídas a desobstrução de tubulações industriais, a inibição de odores e o tratamento de águas de processos produtivos em geral, inclusive das indústrias de papel e de celulose."
+      },
+      "decisao": "PENDENTE_CONTEXTO_OPERACIONAL_OU_VIGENCIA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Conferir dispositivo e atos remetidos; coletar operação, contribuinte/destinatário, data, regime/TARE, especificação e comprovação da finalidade antes de propor vínculo."
+    },
+    {
+      "indice_origem": 233,
+      "id_pendencia": "OUTROS_233",
+      "original": {
+        "dispositivo": "Anexo IX, art.11, incisoLXV",
+        "motivo": "CREDITO_OUTORGADO_EXCLUSIVO_ATACADISTA_SAIDA_INTERESTADUAL_TARE_METAS_PROTEGE; FORA_SAIDA_INTERNA",
+        "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+        "trecho": "LXV - para o estabelecimento atacadista o equivalente à aplicação de 5% (cinco por cento) sobre o valor da respectiva base de cálculo, na saída interestadual de produtos de informática, telecomunicação e automação, relacionados no Apêndice IV deste Anexo, ficando mantido o crédito do imposto até o limite de 7% (sete por cento), observado o seguinte (Lei nº 13.194/97, art. 2º, II, “u”): (Redação conferida pelo Decreto nº 8.299 - vigência: 26.03.14)\na) o beneficiário deve celebrar termo de acordo de regime especial com a Secretaria de Estado da Fazenda, no qual devem ser estabelecidas metas de arrecadação a serem cumpridas pelo beneficiário; (Redação acrescida pelo Decreto nº 8.124 - vigência: 26.03.14)\nb) na definição das metas de arrecadação deve ser considerada a média de arrecadação dos últimos 12 (doze) meses anteriores à celebração do termo de acordo, de todos os estabelecimentos da empresa situados no Estado de Goiás; (Redação acrescida pelo Decreto nº 8.124 - vigência: 26.03.14)\nc) o beneficio pode ser estendido aos produtos referenciados pelo NCM/SH 8528.72.00 - Outros aparelhos receptores de televisão em cores - se a meta de arrecadação estabelecida na alinea \"a\" for superada na forma definida em termo de acordo de regime especial; (Redação acrescida pelo Decreto nº 9.002 - vigência: 21.07.17)"
+      },
+      "decisao": "PENDENTE_CONTEXTO_OPERACIONAL_OU_VIGENCIA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Conferir dispositivo e atos remetidos; coletar operação, contribuinte/destinatário, data, regime/TARE, especificação e comprovação da finalidade antes de propor vínculo."
+    },
+    {
+      "indice_origem": 234,
+      "id_pendencia": "OUTROS_234",
+      "original": {
+        "dispositivo": "AnexoIX, art.7ºXXXVII, ApêndiceXVII,item212",
+        "motivo": "CELULA_NCM_COM_ESPACAMENTO_QUEBRADO_NAO_EXPANDIDA_COMO_PREFIXO",
+        "trecho": "Latanoprosta — campo legal:3003.90. 3 9 / 3004.90.29. O segundo código completo pode ser vinculado; o primeiro exige conferência visual/documental antes de normalizar."
+      },
+      "decisao": "RESOLVIDA_PARA_CANDIDATO_CONDICIONAL_OU_COMPLEMENTO",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART7_XXXVII_30039039"
+      ],
+      "observacao": null
+    }
+  ]
+}

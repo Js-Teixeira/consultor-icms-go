@@ -1,0 +1,2177 @@
+{
+  "referencia": "2026-10-28",
+  "natureza": "INVENTARIO_CONDICIONAL_SEM_PUBLICACAO_AUTOMATICA",
+  "itens": [
+    {
+      "indice_origem": 0,
+      "id_pendencia": "OUTROS_000",
+      "original": {
+        "template_id": "GO_A9_ART6_CLI",
+        "item": "a",
+        "apendice": null,
+        "codigo_legal": "8541.40.16",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "a) célula solar não montada, NCM/SH 8541.40.16;"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 1,
+      "id_pendencia": "OUTROS_001",
+      "original": {
+        "template_id": "GO_A9_ART6_CLVI",
+        "item": null,
+        "apendice": null,
+        "codigo_legal": "3002.90.92",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Zolgensma (Onasemnogene Abeparvovec-xioi), para tratamento da AME"
+      },
+      "decisao": "PENDENTE_IDENTIDADE_ENTRE_MULTIPLOS_SUCESSORES_OFICIAIS",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "sucessores_documentados": [
+        {
+          "destino": "3002.49.92",
+          "pagina": 6,
+          "ncm_8_digitos": "30024992",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Vacinas, toxinas, culturas de microrganismos (exceto leveduras) e produtos semelhantes — Outros — Para a saúde humana"
+        },
+        {
+          "destino": "ex 3002.51.00",
+          "pagina": 6,
+          "ncm_8_digitos": "30025100",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Culturas de células, mesmo modificadas — Produtos de terapia celular"
+        }
+      ],
+      "fonte_correlacao": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+      "acao_necessaria": "Selecionar o sucessor do produto concreto pela descrição/notas oficiais e documentação técnica. A tabela pode incluir ex parcial e destinos incompatíveis com o produto; não gerar todos como benefício."
+    },
+    {
+      "indice_origem": 2,
+      "id_pendencia": "OUTROS_002",
+      "original": {
+        "template_id": "GO_A9_ART6_CLXII",
+        "item": "3",
+        "apendice": null,
+        "codigo_legal": "9406.00.99",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "3. partes, peças, estruturas de suporte, transformador, cabos elétricos, disjuntor, inversor CC/CA ou conversor, string box ou quadro de comando e seguidor solar tipo “tracker”, NCM 9406.00.99, 8544.60.00, 8544.49.00, 8544.42.00, 8537.20.90, 8537.10.90, 8535.29.00, 8504.40.90, 8504.23.00, 8504.22.00, 8504.21.00, 8501.61.00, 8501.34.20-8503.00.90, 8501.33.20, 8501.32.20, 8501.31.20, 8479.89.99, 7610.90.00, 7606.12.90, 7604.29.19, 7604.21.00, 7413.00.00, 7308.90.10, 7308.20.00, 7308.10.00, 7216.50.00, 7216.31.00, 3926.90.90, 3917.29.00;"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 3,
+      "id_pendencia": "OUTROS_003",
+      "original": {
+        "template_id": null,
+        "item": "e",
+        "apendice": null,
+        "codigo_legal": "8501.7",
+        "motivo": "CODIGO_LEGAL_COM_5_OU_7_DIGITOS_NAO_EXPANDIDO_NESTA_ETAPA",
+        "descricao_legal": "e) geradores fotovoltaicos de corrente contínua, 8501.7;",
+        "dispositivo_original": "RCTE/GO, Anexo IX, art. 7, inciso XXVI"
+      },
+      "decisao": "RESOLVIDA_PARA_CANDIDATO_CONDICIONAL_OU_COMPLEMENTO",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART7_XXVI_D20220721_85017100",
+        "PROP_BEN_20261028_GO_A9_ART7_XXVI_D20220721_85017210",
+        "PROP_BEN_20261028_GO_A9_ART7_XXVI_D20220721_85017290"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 4,
+      "id_pendencia": "OUTROS_004",
+      "original": {
+        "template_id": null,
+        "item": "l",
+        "apendice": null,
+        "codigo_legal": "9406.00.99",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "l) torre para suporte de gerador de energia eólica - 7308.20.00 e 9406.00.99;",
+        "dispositivo_original": "RCTE/GO, Anexo IX, art. 7, inciso XXVI"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 5,
+      "id_pendencia": "OUTROS_005",
+      "original": {
+        "template_id": null,
+        "item": "1. conversor de frequência de 1600 kVA e 620V, classificado no código 8504.40.50; (Redação acrescida pelo Decreto nº 8.246 - vigência: 01.06.14",
+        "apendice": null,
+        "codigo_legal": "1600",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "1. conversor de frequência de 1600 kVA e 620V, classificado no código 8504.40.50; (Redação acrescida pelo Decreto nº 8.246 - vigência: 01.06.14)",
+        "dispositivo_original": "RCTE/GO, Anexo IX, art. 7, inciso XXVI"
+      },
+      "decisao": "RESOLVIDA_DOCUMENTALMENTE_SEM_DUPLICAR",
+      "propostas_relacionadas": [
+        "JA_COBERTO_GO_A9_ART7_XXVI_D20140601_85044050"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 6,
+      "id_pendencia": "OUTROS_006",
+      "original": {
+        "template_id": null,
+        "codigo_legal": "8501.7",
+        "motivo": "SUBPOSICAO_LEGAL_DE_5_DIGITOS; NAO_EXPANDIDA_POR_RESTRICAO_DE_ESCOPO_8_6_4_DIGITOS",
+        "trecho": "e) geradores fotovoltaicos de corrente contínua, 8501.7;",
+        "dispositivo_original": "RCTE/GO, Anexo IX, art. 7, inciso XXVI"
+      },
+      "decisao": "RESOLVIDA_PARA_CANDIDATO_CONDICIONAL_OU_COMPLEMENTO",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART7_XXVI_D20220721_85017100",
+        "PROP_BEN_20261028_GO_A9_ART7_XXVI_D20220721_85017210",
+        "PROP_BEN_20261028_GO_A9_ART7_XXVI_D20220721_85017290"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 7,
+      "id_pendencia": "OUTROS_007",
+      "original": {
+        "template_id": null,
+        "item": "b",
+        "apendice": null,
+        "codigo_legal": "3002.10.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "b) interferon alfa-2A, código 3002.10.39;",
+        "dispositivo_original": "RCTE/GO, Anexo IX, art. 7, inciso XXXV"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 8,
+      "id_pendencia": "OUTROS_008",
+      "original": {
+        "template_id": null,
+        "item": "c",
+        "apendice": null,
+        "codigo_legal": "3002.10.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "c) interferon alfa-2B, código 3002.10.39;",
+        "dispositivo_original": "RCTE/GO, Anexo IX, art. 7, inciso XXXV"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 9,
+      "id_pendencia": "OUTROS_009",
+      "original": {
+        "template_id": null,
+        "item": "m",
+        "apendice": null,
+        "codigo_legal": "3002.10.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "m) Complexo Protrombínico Parcialmente Ativado (a PCC), código 3002.10.39;",
+        "dispositivo_original": "RCTE/GO, Anexo IX, art. 7, inciso XXXV"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 10,
+      "id_pendencia": "OUTROS_010",
+      "original": {
+        "template_id": null,
+        "item": "n",
+        "apendice": null,
+        "codigo_legal": "3002.10.38",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "n) rituximabe, código 3002.10.38;",
+        "dispositivo_original": "RCTE/GO, Anexo IX, art. 7, inciso XXXV"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 11,
+      "id_pendencia": "OUTROS_011",
+      "original": {
+        "template_id": "GO_A9_ART7_LXXX",
+        "item": "q",
+        "apendice": null,
+        "codigo_legal": "8421.19.9",
+        "motivo": "CODIGO_LEGAL_COM_5_OU_7_DIGITOS_NAO_EXPANDIDO_NESTA_ETAPA",
+        "descricao_legal": "q) decanter centrífugo rotativo horizontal - 8421.19.9;"
+      },
+      "decisao": "RESOLVIDA_PARA_CANDIDATO_CONDICIONAL_OU_COMPLEMENTO",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART7_LXXX_84211990"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 12,
+      "id_pendencia": "OUTROS_012",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "1",
+        "apendice": "IV",
+        "codigo_legal": "8443.31.00",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Máquinas que executem pelo menos duas das seguintes funções: impressão, cópia ou transmissão de telecópia (fax), capazes de ser conectadas a uma máquina automática para processamento de dados ou a uma rede"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 13,
+      "id_pendencia": "OUTROS_013",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "2",
+        "apendice": "IV",
+        "codigo_legal": "8443.32.11",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Telecopiadore com impressão por sistema térmico (fax)"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 14,
+      "id_pendencia": "OUTROS_014",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "3",
+        "apendice": "IV",
+        "codigo_legal": "8443.32.12",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Telecopiadore com impressão por sistema laser (fax)"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 15,
+      "id_pendencia": "OUTROS_015",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "4",
+        "apendice": "IV",
+        "codigo_legal": "8443.32.13",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Telecopiadore com impressão por jato de tinta (fax)"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 16,
+      "id_pendencia": "OUTROS_016",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "5",
+        "apendice": "IV",
+        "codigo_legal": "8443.32.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Outros Telecopiadores (fax)"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 17,
+      "id_pendencia": "OUTROS_017",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "24",
+        "apendice": "IV",
+        "codigo_legal": "8443.99.24",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Cabeça de impressão, exceto a térmica ou a de jato de tinta"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 18,
+      "id_pendencia": "OUTROS_018",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "25",
+        "apendice": "IV",
+        "codigo_legal": "8443.99.25",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Cabeça de impressão térmica ou de jato de tinta mesmo com depósito de tinta incorporado"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 19,
+      "id_pendencia": "OUTROS_019",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "26",
+        "apendice": "IV",
+        "codigo_legal": "8443.99.26",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Cinta de caracter para uso em computador"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 20,
+      "id_pendencia": "OUTROS_020",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "27",
+        "apendice": "IV",
+        "codigo_legal": "8443.99.27",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Cartucho de tinta para uso em impressora"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 21,
+      "id_pendencia": "OUTROS_021",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "36",
+        "apendice": "IV",
+        "codigo_legal": "8471.41.10",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Máquina automática digital para processamento de dados contendo, no mesmo corpo, pelo menos uma unidade central de processamento e, mesmo combinadas, uma unidade de entrada e uma unidade de saída, de peso inferior a 750g, sem teclado, com reconhecimento de escrita, entrada de dados e de comandos por meio de uma tela (\"écran\") de área inferior a 280cm2 (Palm)"
+      },
+      "decisao": "RESOLVIDA_PARA_CANDIDATO_CONDICIONAL_OU_COMPLEMENTO",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART8_XIII_84713012"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 22,
+      "id_pendencia": "OUTROS_022",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "46",
+        "apendice": "IV",
+        "codigo_legal": "8471.70.11",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Unidade de disco magnético para disco flexível"
+      },
+      "decisao": "RESOLVIDA_PARA_CANDIDATO_CONDICIONAL_OU_COMPLEMENTO",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART8_XIII_84717010"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 23,
+      "id_pendencia": "OUTROS_023",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "47",
+        "apendice": "IV",
+        "codigo_legal": "8471.70.12",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Unidade de disco magnético para disco rígido, com um só conjunto cabeça-disco (HDA - \"Head Disk Assembly\")"
+      },
+      "decisao": "PENDENTE_IDENTIDADE_ENTRE_MULTIPLOS_SUCESSORES_OFICIAIS",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "sucessores_documentados": [
+        {
+          "destino": "ex 8471.70.10",
+          "pagina": 16,
+          "ncm_8_digitos": "84717010",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Unidades de memória — De discos magnéticos"
+        },
+        {
+          "destino": "ex 8471.70.90",
+          "pagina": 16,
+          "ncm_8_digitos": "84717090",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Unidades de memória — Outras, incluídas as combinações de unidades de, pelo menos, dois dos itens precedentes"
+        }
+      ],
+      "fonte_correlacao": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+      "acao_necessaria": "Selecionar o sucessor do produto concreto pela descrição/notas oficiais e documentação técnica. A tabela pode incluir ex parcial e destinos incompatíveis com o produto; não gerar todos como benefício."
+    },
+    {
+      "indice_origem": 24,
+      "id_pendencia": "OUTROS_024",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "48",
+        "apendice": "IV",
+        "codigo_legal": "8471.70.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Outras unidades de memórias"
+      },
+      "decisao": "PENDENTE_IDENTIDADE_ENTRE_MULTIPLOS_SUCESSORES_OFICIAIS",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "sucessores_documentados": [
+        {
+          "destino": "ex 8471.70.10",
+          "pagina": 16,
+          "ncm_8_digitos": "84717010",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Unidades de memória — De discos magnéticos"
+        },
+        {
+          "destino": "ex 8471.70.90",
+          "pagina": 17,
+          "ncm_8_digitos": "84717090",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Unidades de memória — Outras, incluídas as combinações de unidades de, pelo menos, dois dos itens precedentes"
+        }
+      ],
+      "fonte_correlacao": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+      "acao_necessaria": "Selecionar o sucessor do produto concreto pela descrição/notas oficiais e documentação técnica. A tabela pode incluir ex parcial e destinos incompatíveis com o produto; não gerar todos como benefício."
+    },
+    {
+      "indice_origem": 25,
+      "id_pendencia": "OUTROS_025",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "49",
+        "apendice": "IV",
+        "codigo_legal": "8471.70.21",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Unidade de disco óptico para leitura ou gravação de dados por meio óptico, exceto sistema de sensores para controle de qualidade em linha de embalagem, exclusivamente para leitura"
+      },
+      "decisao": "PENDENTE_IDENTIDADE_ENTRE_MULTIPLOS_SUCESSORES_OFICIAIS",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "sucessores_documentados": [
+        {
+          "destino": "ex 8471.70.20",
+          "pagina": 17,
+          "ncm_8_digitos": "84717020",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Unidades de memória — De discos para leitura ou gravação de dados por meios ópticos (unidade de disco óptico)"
+        },
+        {
+          "destino": "ex 8471.70.90",
+          "pagina": 17,
+          "ncm_8_digitos": "84717090",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Unidades de memória — Outras, incluídas as combinações de unidades de, pelo menos, dois dos itens precedentes"
+        }
+      ],
+      "fonte_correlacao": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+      "acao_necessaria": "Selecionar o sucessor do produto concreto pela descrição/notas oficiais e documentação técnica. A tabela pode incluir ex parcial e destinos incompatíveis com o produto; não gerar todos como benefício."
+    },
+    {
+      "indice_origem": 26,
+      "id_pendencia": "OUTROS_026",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "50",
+        "apendice": "IV",
+        "codigo_legal": "8471.70.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Unidade de disco óptico para leitura ou gravação de dados por meio óptico, exceto sistema de sensor para controle de qualidade em linha de embalagem, exclusivamente para leitora de código de barras"
+      },
+      "decisao": "PENDENTE_IDENTIDADE_ENTRE_MULTIPLOS_SUCESSORES_OFICIAIS",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "sucessores_documentados": [
+        {
+          "destino": "ex 8471.70.20",
+          "pagina": 17,
+          "ncm_8_digitos": "84717020",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Unidades de memória — De discos para leitura ou gravação de dados por meios ópticos (unidade de disco óptico)"
+        },
+        {
+          "destino": "ex 8471.70.90",
+          "pagina": 17,
+          "ncm_8_digitos": "84717090",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Unidades de memória — Outras, incluídas as combinações de unidades de, pelo menos, dois dos itens precedentes"
+        }
+      ],
+      "fonte_correlacao": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+      "acao_necessaria": "Selecionar o sucessor do produto concreto pela descrição/notas oficiais e documentação técnica. A tabela pode incluir ex parcial e destinos incompatíveis com o produto; não gerar todos como benefício."
+    },
+    {
+      "indice_origem": 27,
+      "id_pendencia": "OUTROS_027",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "51",
+        "apendice": "IV",
+        "codigo_legal": "8471.70.32",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Unidade de fita magnética para cartucho"
+      },
+      "decisao": "PENDENTE_IDENTIDADE_ENTRE_MULTIPLOS_SUCESSORES_OFICIAIS",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "sucessores_documentados": [
+        {
+          "destino": "ex 8471.70.30",
+          "pagina": 17,
+          "ncm_8_digitos": "84717030",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Unidades de memória — De fitas magnéticas"
+        },
+        {
+          "destino": "ex 8471.70.90",
+          "pagina": 17,
+          "ncm_8_digitos": "84717090",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Unidades de memória — Outras, incluídas as combinações de unidades de, pelo menos, dois dos itens precedentes"
+        }
+      ],
+      "fonte_correlacao": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+      "acao_necessaria": "Selecionar o sucessor do produto concreto pela descrição/notas oficiais e documentação técnica. A tabela pode incluir ex parcial e destinos incompatíveis com o produto; não gerar todos como benefício."
+    },
+    {
+      "indice_origem": 28,
+      "id_pendencia": "OUTROS_028",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "52",
+        "apendice": "IV",
+        "codigo_legal": "8471.70.33",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Unidade de fita magnética para cassete"
+      },
+      "decisao": "PENDENTE_IDENTIDADE_ENTRE_MULTIPLOS_SUCESSORES_OFICIAIS",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "sucessores_documentados": [
+        {
+          "destino": "ex 8471.70.30",
+          "pagina": 17,
+          "ncm_8_digitos": "84717030",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Unidades de memória — De fitas magnéticas"
+        },
+        {
+          "destino": "ex 8471.70.90",
+          "pagina": 17,
+          "ncm_8_digitos": "84717090",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Unidades de memória — Outras, incluídas as combinações de unidades de, pelo menos, dois dos itens precedentes"
+        }
+      ],
+      "fonte_correlacao": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+      "acao_necessaria": "Selecionar o sucessor do produto concreto pela descrição/notas oficiais e documentação técnica. A tabela pode incluir ex parcial e destinos incompatíveis com o produto; não gerar todos como benefício."
+    },
+    {
+      "indice_origem": 29,
+      "id_pendencia": "OUTROS_029",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "53",
+        "apendice": "IV",
+        "codigo_legal": "8471.70.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Unidade de fita magnética, inclusive \"streamer\""
+      },
+      "decisao": "PENDENTE_IDENTIDADE_ENTRE_MULTIPLOS_SUCESSORES_OFICIAIS",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "sucessores_documentados": [
+        {
+          "destino": "ex 8471.70.30",
+          "pagina": 17,
+          "ncm_8_digitos": "84717030",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Unidades de memória — De fitas magnéticas"
+        },
+        {
+          "destino": "ex 8471.70.90",
+          "pagina": 17,
+          "ncm_8_digitos": "84717090",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Unidades de memória — Outras, incluídas as combinações de unidades de, pelo menos, dois dos itens precedentes"
+        }
+      ],
+      "fonte_correlacao": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+      "acao_necessaria": "Selecionar o sucessor do produto concreto pela descrição/notas oficiais e documentação técnica. A tabela pode incluir ex parcial e destinos incompatíveis com o produto; não gerar todos como benefício."
+    },
+    {
+      "indice_origem": 30,
+      "id_pendencia": "OUTROS_030",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "62",
+        "apendice": "IV",
+        "codigo_legal": "8472.90.21",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Máquina eletrônica, com capacidade de comunicação bidirecional com computador ou outra máquina digital"
+      },
+      "decisao": "RESOLVIDA_PARA_CANDIDATO_CONDICIONAL_OU_COMPLEMENTO",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART8_XIII_84729020"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 31,
+      "id_pendencia": "OUTROS_031",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "70",
+        "apendice": "IV",
+        "codigo_legal": "8473.30.43",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Placas de microprocessamento com dispositivo de dissipação de calor, inclusive em cartuchos"
+      },
+      "decisao": "RESOLVIDA_PARA_CANDIDATO_CONDICIONAL_OU_COMPLEMENTO",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART8_XIII_84733049"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 32,
+      "id_pendencia": "OUTROS_032",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "72",
+        "apendice": "IV",
+        "codigo_legal": "8473.30.92",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Tela (\"écran\") para microcomputador portátil, policromática (tela antireflexiva)"
+      },
+      "decisao": "PENDENTE_IDENTIDADE_ENTRE_MULTIPLOS_SUCESSORES_OFICIAIS",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "sucessores_documentados": [
+        {
+          "destino": "ex 8524.91.00",
+          "pagina": 17,
+          "ncm_8_digitos": "85249100",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Módulos de visualização de tela (ecrã*) plana, mesmo que incorporem telas sensíveis ao toque (ecrãs tácteis*) — Outros — De cristais líquidos"
+        },
+        {
+          "destino": "ex 8524.92.00",
+          "pagina": 17,
+          "ncm_8_digitos": "85249200",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Módulos de visualização de tela (ecrã*) plana, mesmo que incorporem telas sensíveis ao toque (ecrãs tácteis*) — Outros — De diodos emissores de luz orgânicos (OLED)"
+        },
+        {
+          "destino": "ex 8524.99.00",
+          "pagina": 17,
+          "ncm_8_digitos": "85249900",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Módulos de visualização de tela (ecrã*) plana, mesmo que incorporem telas sensíveis ao toque (ecrãs tácteis*) — Outros"
+        }
+      ],
+      "fonte_correlacao": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+      "acao_necessaria": "Selecionar o sucessor do produto concreto pela descrição/notas oficiais e documentação técnica. A tabela pode incluir ex parcial e destinos incompatíveis com o produto; não gerar todos como benefício."
+    },
+    {
+      "indice_origem": 33,
+      "id_pendencia": "OUTROS_033",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "73",
+        "apendice": "IV",
+        "codigo_legal": "8473.30.99",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Controlador e/ou formatador para disco magnético tipo flexível"
+      },
+      "decisao": "RESOLVIDA_PARA_CANDIDATO_CONDICIONAL_OU_COMPLEMENTO",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART8_XIII_84733090"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 34,
+      "id_pendencia": "OUTROS_034",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "76",
+        "apendice": "IV",
+        "codigo_legal": "8473.50.34",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Cinta de caracter para uso em computador ou em outro tipo de máquina"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 35,
+      "id_pendencia": "OUTROS_035",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "77",
+        "apendice": "IV",
+        "codigo_legal": "8473.50.35",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Cartucho de tinta para uso em impressora ou outro tipo de máquina de impressão"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 36,
+      "id_pendencia": "OUTROS_036",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "91",
+        "apendice": "IV",
+        "codigo_legal": "8517.62.48",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Roteador digital com velocidade de interface serial de pelo menos 4Mbits/s, próprio para interconexão de rede local com protocolos distintos"
+      },
+      "decisao": "RESOLVIDA_PARA_CANDIDATO_CONDICIONAL_OU_COMPLEMENTO",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART8_XIII_85176249"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 37,
+      "id_pendencia": "OUTROS_037",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "101",
+        "apendice": "IV",
+        "codigo_legal": "8528.41.10",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Unidade de saída por vídeo (\"monitor\") com tubo de raios catódicos, monocromática"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 38,
+      "id_pendencia": "OUTROS_038",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "102",
+        "apendice": "IV",
+        "codigo_legal": "8528.41.20",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Unidade de saída por vídeo (\"monitor\") com tubo de raios catódicos, policromática"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 39,
+      "id_pendencia": "OUTROS_039",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "103",
+        "apendice": "IV",
+        "codigo_legal": "8528.51.10",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Outra unidade de saída por vídeo (\"monitor\") com tubo de raios catódicos, monocromática"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 40,
+      "id_pendencia": "OUTROS_040",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "104",
+        "apendice": "IV",
+        "codigo_legal": "8528.51.20",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Outra unidade de saída por vídeo (\"monitor\") com tubo de raios catódicos, policromática"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 41,
+      "id_pendencia": "OUTROS_041",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "110",
+        "apendice": "IV",
+        "codigo_legal": "8534.00.00",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Circuito impresso com componente elétrico ou eletrônico montados"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 42,
+      "id_pendencia": "OUTROS_042",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "111",
+        "apendice": "IV",
+        "codigo_legal": "8536.30.00",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Aparelho de proteção para circuito elétrico, de potência até 1kVA"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 43,
+      "id_pendencia": "OUTROS_043",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "123",
+        "apendice": "IV",
+        "codigo_legal": "8542.31.99",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Outra memória incluída aquela obtida por associação das tecnologias MOS e bipolar (tecnologia BIMOS)"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 44,
+      "id_pendencia": "OUTROS_044",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "130",
+        "apendice": "IV",
+        "codigo_legal": "8542.90.10",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Suporte-conecto apresentado em tiras (\"lead frames\")"
+      },
+      "decisao": "RESOLVIDA_PARA_CANDIDATO_CONDICIONAL_OU_COMPLEMENTO",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART8_XIII_85429000"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 45,
+      "id_pendencia": "OUTROS_045",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "131",
+        "apendice": "IV",
+        "codigo_legal": "8542.90.20",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Cobertura para encapsulamento (cápsulas)"
+      },
+      "decisao": "RESOLVIDA_PARA_CANDIDATO_CONDICIONAL_OU_COMPLEMENTO",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART8_XIII_85429000"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 46,
+      "id_pendencia": "OUTROS_046",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "132",
+        "apendice": "IV",
+        "codigo_legal": "8542.90.90",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Outra parte de circuito integrado eletrônico"
+      },
+      "decisao": "RESOLVIDA_PARA_CANDIDATO_CONDICIONAL_OU_COMPLEMENTO",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART8_XIII_85429000"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 47,
+      "id_pendencia": "OUTROS_047",
+      "original": {
+        "template_id": "GO_A9_ART8_LIX",
+        "item": null,
+        "apendice": null,
+        "codigo_legal": "8701.20.00",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Veículo automotor da posição/código enumerado no inciso LIX"
+      },
+      "decisao": "PENDENTE_IDENTIDADE_ENTRE_MULTIPLOS_SUCESSORES_OFICIAIS",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "sucessores_documentados": [
+        {
+          "destino": "8701.21.00",
+          "pagina": 23,
+          "ncm_8_digitos": "87012100",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Tratores rodoviários para semirreboques — Unicamente com motor de pistão de ignição por compressão (diesel ou semidiesel)"
+        },
+        {
+          "destino": "8701.22.00",
+          "pagina": 23,
+          "ncm_8_digitos": "87012200",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Tratores rodoviários para semirreboques — Equipados para propulsão, simultaneamente, com motor de pistão de ignição por compressão (diesel ou semidiesel) e motor elétrico"
+        },
+        {
+          "destino": "8701.23.00",
+          "pagina": 23,
+          "ncm_8_digitos": "87012300",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Tratores rodoviários para semirreboques — Equipados para propulsão, simultaneamente, com motor de pistão de ignição por centelha (faísca) e motor elétrico"
+        },
+        {
+          "destino": "8701.24.00",
+          "pagina": 23,
+          "ncm_8_digitos": "87012400",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Tratores rodoviários para semirreboques — Unicamente com motor elétrico para propulsão"
+        },
+        {
+          "destino": "8701.29.00",
+          "pagina": 23,
+          "ncm_8_digitos": "87012900",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Tratores rodoviários para semirreboques — Outros"
+        }
+      ],
+      "fonte_correlacao": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+      "acao_necessaria": "Selecionar o sucessor do produto concreto pela descrição/notas oficiais e documentação técnica. A tabela pode incluir ex parcial e destinos incompatíveis com o produto; não gerar todos como benefício."
+    },
+    {
+      "indice_origem": 48,
+      "id_pendencia": "OUTROS_048",
+      "original": {
+        "template_id": "GO_A9_ART9_I_A",
+        "item": "3",
+        "apendice": "V",
+        "codigo_legal": "8207.19.00",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "BROCAS"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 49,
+      "id_pendencia": "OUTROS_049",
+      "original": {
+        "template_id": "GO_A9_ART9_I_A",
+        "item": "15.1",
+        "apendice": "V",
+        "codigo_legal": "8419.32.00",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Secadores para madeiras, pastas de papel, papéis ou cartões"
+      },
+      "decisao": "PENDENTE_IDENTIDADE_ENTRE_MULTIPLOS_SUCESSORES_OFICIAIS",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "sucessores_documentados": [
+        {
+          "destino": "ex 8419.33.00",
+          "pagina": 14,
+          "ncm_8_digitos": "84193300",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Secadores — Aparelhos de liofilização, aparelhos de criodessecação e secadores por pulverização"
+        },
+        {
+          "destino": "8419.35.00",
+          "pagina": 14,
+          "ncm_8_digitos": "84193500",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Secadores — Outros, para madeiras, pastas de papel, papel ou cartão"
+        }
+      ],
+      "fonte_correlacao": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+      "acao_necessaria": "Selecionar o sucessor do produto concreto pela descrição/notas oficiais e documentação técnica. A tabela pode incluir ex parcial e destinos incompatíveis com o produto; não gerar todos como benefício."
+    },
+    {
+      "indice_origem": 50,
+      "id_pendencia": "OUTROS_050",
+      "original": {
+        "template_id": "GO_A9_ART9_I_A",
+        "apendice": "V",
+        "item": "39.1",
+        "motivo": "ITEM_EXPRESSAMENTE_REVOGADO_SEM_VINCULO",
+        "trecho": "39.1 | Revogado | (Redação revogada pelo Decreto nº 8.802 - vigência: 30.12.15)"
+      },
+      "decisao": "ENCERRADA_SEM_ASSOCIACAO_ITEM_REVOGADO",
+      "propostas_relacionadas": [],
+      "observacao": "Preservar histórico; não gerar associação ativa."
+    },
+    {
+      "indice_origem": 51,
+      "id_pendencia": "OUTROS_051",
+      "original": {
+        "template_id": "GO_A9_ART9_I_A",
+        "apendice": "V",
+        "item": "39.2",
+        "motivo": "ITEM_EXPRESSAMENTE_REVOGADO_SEM_VINCULO",
+        "trecho": "39.2 | Revogado | (Redação revogada pelo Decreto nº 8.802 - vigência: 30.12.15)"
+      },
+      "decisao": "ENCERRADA_SEM_ASSOCIACAO_ITEM_REVOGADO",
+      "propostas_relacionadas": [],
+      "observacao": "Preservar histórico; não gerar associação ativa."
+    },
+    {
+      "indice_origem": 52,
+      "id_pendencia": "OUTROS_052",
+      "original": {
+        "template_id": "GO_A9_ART9_I_A",
+        "apendice": "V",
+        "item": "39.3",
+        "motivo": "ITEM_EXPRESSAMENTE_REVOGADO_SEM_VINCULO",
+        "trecho": "39.3 | Revogado | (Redação revogada pelo Decreto nº 8.802 - vigência: 30.12.15)"
+      },
+      "decisao": "ENCERRADA_SEM_ASSOCIACAO_ITEM_REVOGADO",
+      "propostas_relacionadas": [],
+      "observacao": "Preservar histórico; não gerar associação ativa."
+    },
+    {
+      "indice_origem": 53,
+      "id_pendencia": "OUTROS_053",
+      "original": {
+        "template_id": "GO_A9_ART9_I_A",
+        "apendice": "V",
+        "item": "40.2",
+        "motivo": "ITEM_EXPRESSAMENTE_REVOGADO_SEM_VINCULO",
+        "trecho": "40.2 | Revogado | (Redação revogada pelo Decreto nº 8.802 - vigência: 30.12.15)"
+      },
+      "decisao": "ENCERRADA_SEM_ASSOCIACAO_ITEM_REVOGADO",
+      "propostas_relacionadas": [],
+      "observacao": "Preservar histórico; não gerar associação ativa."
+    },
+    {
+      "indice_origem": 54,
+      "id_pendencia": "OUTROS_054",
+      "original": {
+        "template_id": "GO_A9_ART9_I_A",
+        "item": "48.8",
+        "apendice": "V",
+        "codigo_legal": "8459.40.00",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Outras máquinas para mandrilar"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 55,
+      "id_pendencia": "OUTROS_055",
+      "original": {
+        "template_id": "GO_A9_ART9_I_A",
+        "item": "49.1",
+        "apendice": "V",
+        "codigo_legal": "8460.11.00",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Máquinas para retificar superfícies planas, cujo posicionamento sobre qualquer dos eixos pode ser estabelecido com precisão de pelo menos 0,01mm, de comando numérico"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 56,
+      "id_pendencia": "OUTROS_056",
+      "original": {
+        "template_id": "GO_A9_ART9_I_A",
+        "item": "49.3",
+        "apendice": "V",
+        "codigo_legal": "8460.21.00",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Outras máquinas para retificar, cujo posicionamento sobre qualquer dos eixos pode ser estabelecido com precisão de pelo menos 0,01mm, de comando numérico"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 57,
+      "id_pendencia": "OUTROS_057",
+      "original": {
+        "template_id": "GO_A9_ART9_I_A",
+        "item": "51.1",
+        "apendice": "V",
+        "codigo_legal": "8462.10.11",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Máquinas para estampar"
+      },
+      "decisao": "PENDENTE_IDENTIDADE_ENTRE_MULTIPLOS_SUCESSORES_OFICIAIS",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "sucessores_documentados": [
+        {
+          "destino": "ex 8462.19.00",
+          "pagina": 14,
+          "ncm_8_digitos": "84621900",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Máquinas para trabalhar a quente (incluindo as prensas) para forjar por matrizagem ou de forjamento livre ou de estampar, martelos, martelos-pilões e martinetes — Outras"
+        },
+        {
+          "destino": "ex 8462.61.00",
+          "pagina": 14,
+          "ncm_8_digitos": "84626100",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Prensas hidráulicas"
+        },
+        {
+          "destino": "ex 8462.62.00",
+          "pagina": 14,
+          "ncm_8_digitos": "84626200",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Prensas mecânicas"
+        },
+        {
+          "destino": "ex 8462.63.00",
+          "pagina": 14,
+          "ncm_8_digitos": "84626300",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Servoprensas"
+        },
+        {
+          "destino": "ex 8462.69.00",
+          "pagina": 14,
+          "ncm_8_digitos": "84626900",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Outras"
+        },
+        {
+          "destino": "ex 8462.90.00",
+          "pagina": 14,
+          "ncm_8_digitos": "84629000",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Máquinas-ferramentas (incluindo as prensas) para forjar ou estampar, martelos, martelos-pilões e martinetes, para trabalhar metais (excluindo os laminadores); máquinas-ferramentas (incluindo as prensas, as linhas de corte longitudinal e as linhas de corte transversal) para enrolar, arquear, dobrar, endireitar, aplanar, cisalhar, puncionar, chanfrar ou mordiscar metais (excluindo as bancas para estirar); prensas para trabalhar metais ou carbonetos metálicos, não especificadas acima — Outras"
+        }
+      ],
+      "fonte_correlacao": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+      "acao_necessaria": "Selecionar o sucessor do produto concreto pela descrição/notas oficiais e documentação técnica. A tabela pode incluir ex parcial e destinos incompatíveis com o produto; não gerar todos como benefício."
+    },
+    {
+      "indice_origem": 58,
+      "id_pendencia": "OUTROS_058",
+      "original": {
+        "template_id": "GO_A9_ART9_I_A",
+        "item": "51.2",
+        "apendice": "V",
+        "codigo_legal": "8462.10.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Outras máquinas (incluídas as prensas) para forjar ou estampar, martelos, martelos-pilões e martinetes, de comando numérico"
+      },
+      "decisao": "PENDENTE_IDENTIDADE_ENTRE_MULTIPLOS_SUCESSORES_OFICIAIS",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "sucessores_documentados": [
+        {
+          "destino": "ex 8462.11.00",
+          "pagina": 14,
+          "ncm_8_digitos": "84621100",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Máquinas para trabalhar a quente (incluindo as prensas) para forjar por matrizagem ou de forjamento livre ou de estampar, martelos, martelos-pilões e martinetes — Máquinas para forjamento em matriz fechada"
+        },
+        {
+          "destino": "ex 8462.19.00",
+          "pagina": 14,
+          "ncm_8_digitos": "84621900",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Máquinas para trabalhar a quente (incluindo as prensas) para forjar por matrizagem ou de forjamento livre ou de estampar, martelos, martelos-pilões e martinetes — Outras"
+        },
+        {
+          "destino": "ex 8462.51.00",
+          "pagina": 14,
+          "ncm_8_digitos": "84625100",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Máquinas (excluindo as prensas) para trabalhar tubos, perfis ocos, perfis e barras — De comando numérico"
+        },
+        {
+          "destino": "ex 8462.61.00",
+          "pagina": 14,
+          "ncm_8_digitos": "84626100",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Prensas hidráulicas"
+        },
+        {
+          "destino": "ex 8462.62.00",
+          "pagina": 14,
+          "ncm_8_digitos": "84626200",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Prensas mecânicas"
+        },
+        {
+          "destino": "ex 8462.63.00",
+          "pagina": 14,
+          "ncm_8_digitos": "84626300",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Servoprensas"
+        },
+        {
+          "destino": "ex 8462.69.00",
+          "pagina": 14,
+          "ncm_8_digitos": "84626900",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Outras"
+        },
+        {
+          "destino": "ex 8462.90.00",
+          "pagina": 14,
+          "ncm_8_digitos": "84629000",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Máquinas-ferramentas (incluindo as prensas) para forjar ou estampar, martelos, martelos-pilões e martinetes, para trabalhar metais (excluindo os laminadores); máquinas-ferramentas (incluindo as prensas, as linhas de corte longitudinal e as linhas de corte transversal) para enrolar, arquear, dobrar, endireitar, aplanar, cisalhar, puncionar, chanfrar ou mordiscar metais (excluindo as bancas para estirar); prensas para trabalhar metais ou carbonetos metálicos, não especificadas acima — Outras"
+        }
+      ],
+      "fonte_correlacao": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+      "acao_necessaria": "Selecionar o sucessor do produto concreto pela descrição/notas oficiais e documentação técnica. A tabela pode incluir ex parcial e destinos incompatíveis com o produto; não gerar todos como benefício."
+    },
+    {
+      "indice_origem": 59,
+      "id_pendencia": "OUTROS_059",
+      "original": {
+        "template_id": "GO_A9_ART9_I_A",
+        "item": "51.3",
+        "apendice": "V",
+        "codigo_legal": "8462.10.90",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Outras máquinas (incluídas as prensas) para forjar ou estampar, martelos, martelos-pilões e martinetes"
+      },
+      "decisao": "PENDENTE_IDENTIDADE_ENTRE_MULTIPLOS_SUCESSORES_OFICIAIS",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "sucessores_documentados": [
+        {
+          "destino": "ex 8462.11.00",
+          "pagina": 14,
+          "ncm_8_digitos": "84621100",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Máquinas para trabalhar a quente (incluindo as prensas) para forjar por matrizagem ou de forjamento livre ou de estampar, martelos, martelos-pilões e martinetes — Máquinas para forjamento em matriz fechada"
+        },
+        {
+          "destino": "ex 8462.19.00",
+          "pagina": 14,
+          "ncm_8_digitos": "84621900",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Máquinas para trabalhar a quente (incluindo as prensas) para forjar por matrizagem ou de forjamento livre ou de estampar, martelos, martelos-pilões e martinetes — Outras"
+        },
+        {
+          "destino": "ex 8462.59.00",
+          "pagina": 14,
+          "ncm_8_digitos": "84625900",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Máquinas (excluindo as prensas) para trabalhar tubos, perfis ocos, perfis e barras — Outras"
+        },
+        {
+          "destino": "ex 8462.61.00",
+          "pagina": 14,
+          "ncm_8_digitos": "84626100",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Prensas hidráulicas"
+        },
+        {
+          "destino": "ex 8462.62.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84626200",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Prensas mecânicas"
+        },
+        {
+          "destino": "ex 8462.63.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84626300",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Servoprensas"
+        },
+        {
+          "destino": "ex 8462.69.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84626900",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Outras"
+        },
+        {
+          "destino": "ex 8462.90.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84629000",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Máquinas-ferramentas (incluindo as prensas) para forjar ou estampar, martelos, martelos-pilões e martinetes, para trabalhar metais (excluindo os laminadores); máquinas-ferramentas (incluindo as prensas, as linhas de corte longitudinal e as linhas de corte transversal) para enrolar, arquear, dobrar, endireitar, aplanar, cisalhar, puncionar, chanfrar ou mordiscar metais (excluindo as bancas para estirar); prensas para trabalhar metais ou carbonetos metálicos, não especificadas acima — Outras"
+        }
+      ],
+      "fonte_correlacao": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+      "acao_necessaria": "Selecionar o sucessor do produto concreto pela descrição/notas oficiais e documentação técnica. A tabela pode incluir ex parcial e destinos incompatíveis com o produto; não gerar todos como benefício."
+    },
+    {
+      "indice_origem": 60,
+      "id_pendencia": "OUTROS_060",
+      "original": {
+        "template_id": "GO_A9_ART9_I_A",
+        "item": "51.4",
+        "apendice": "V",
+        "codigo_legal": "8462.21.00",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Máquinas (incluídas as prensas) para enrolar, arquear, dobrar, endireitar ou aplanar, de comando numérico"
+      },
+      "decisao": "PENDENTE_IDENTIDADE_ENTRE_MULTIPLOS_SUCESSORES_OFICIAIS",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "sucessores_documentados": [
+        {
+          "destino": "ex 8462.22.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84622200",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Máquinas (incluindo as prensas dobradeiras) para enrolar, arquear, dobrar, endireitar ou aplanar, para produtos planos — Máquinas para formação de perfis"
+        },
+        {
+          "destino": "8462.23.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84622300",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Máquinas (incluindo as prensas dobradeiras) para enrolar, arquear, dobrar, endireitar ou aplanar, para produtos planos — Prensas dobradeiras, de comando numérico"
+        },
+        {
+          "destino": "8462.24.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84622400",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Máquinas (incluindo as prensas dobradeiras) para enrolar, arquear, dobrar, endireitar ou aplanar, para produtos planos — Prensas para painéis, de comando numérico"
+        },
+        {
+          "destino": "8462.25.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84622500",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Máquinas (incluindo as prensas dobradeiras) para enrolar, arquear, dobrar, endireitar ou aplanar, para produtos planos — Máquinas de conformação por rolos, de comando numérico"
+        },
+        {
+          "destino": "8462.26.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84622600",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Máquinas (incluindo as prensas dobradeiras) para enrolar, arquear, dobrar, endireitar ou aplanar, para produtos planos — Outras máquinas para enrolar, arquear, dobrar, endireitar ou aplanar, de comando numérico"
+        },
+        {
+          "destino": "ex 8462.51.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84625100",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Máquinas (excluindo as prensas) para trabalhar tubos, perfis ocos, perfis e barras — De comando numérico"
+        },
+        {
+          "destino": "ex 8462.61.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84626100",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Prensas hidráulicas"
+        },
+        {
+          "destino": "ex 8462.62.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84626200",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Prensas mecânicas"
+        },
+        {
+          "destino": "ex 8462.63.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84626300",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Servoprensas"
+        },
+        {
+          "destino": "ex 8462.69.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84626900",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Outras"
+        },
+        {
+          "destino": "ex 8462.90.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84629000",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Máquinas-ferramentas (incluindo as prensas) para forjar ou estampar, martelos, martelos-pilões e martinetes, para trabalhar metais (excluindo os laminadores); máquinas-ferramentas (incluindo as prensas, as linhas de corte longitudinal e as linhas de corte transversal) para enrolar, arquear, dobrar, endireitar, aplanar, cisalhar, puncionar, chanfrar ou mordiscar metais (excluindo as bancas para estirar); prensas para trabalhar metais ou carbonetos metálicos, não especificadas acima — Outras"
+        }
+      ],
+      "fonte_correlacao": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+      "acao_necessaria": "Selecionar o sucessor do produto concreto pela descrição/notas oficiais e documentação técnica. A tabela pode incluir ex parcial e destinos incompatíveis com o produto; não gerar todos como benefício."
+    },
+    {
+      "indice_origem": 61,
+      "id_pendencia": "OUTROS_061",
+      "original": {
+        "template_id": "GO_A9_ART9_I_A",
+        "item": "51.6",
+        "apendice": "V",
+        "codigo_legal": "8462.31.00",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Máquinas (incluídas as prensas) para cisalhar, exceto as máquinas combinadas de puncionar e cisalhar, de comando numérico"
+      },
+      "decisao": "PENDENTE_IDENTIDADE_ENTRE_MULTIPLOS_SUCESSORES_OFICIAIS",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "sucessores_documentados": [
+        {
+          "destino": "ex 8462.32.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84623200",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Linhas de corte longitudinal, linhas de corte transversal e outras máquinas (excluindo as prensas) para cisalhar, para produtos planos, exceto as máquinas combinadas de puncionar e cisalhar — Linhas de corte longitudinal e linhas de corte transversal"
+        },
+        {
+          "destino": "8462.33.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84623300",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Linhas de corte longitudinal, linhas de corte transversal e outras máquinas (excluindo as prensas) para cisalhar, para produtos planos, exceto as máquinas combinadas de puncionar e cisalhar — Máquinas para cisalhar, de comando numérico"
+        },
+        {
+          "destino": "ex 8462.51.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84625100",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Máquinas (excluindo as prensas) para trabalhar tubos, perfis ocos, perfis e barras — De comando numérico"
+        },
+        {
+          "destino": "ex 8462.61.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84626100",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Prensas hidráulicas"
+        },
+        {
+          "destino": "ex 8462.62.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84626200",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Prensas mecânicas"
+        },
+        {
+          "destino": "ex 8462.63.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84626300",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Servoprensas"
+        },
+        {
+          "destino": "ex 8462.69.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84626900",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Outras"
+        },
+        {
+          "destino": "ex 8462.90.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84629000",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Máquinas-ferramentas (incluindo as prensas) para forjar ou estampar, martelos, martelos-pilões e martinetes, para trabalhar metais (excluindo os laminadores); máquinas-ferramentas (incluindo as prensas, as linhas de corte longitudinal e as linhas de corte transversal) para enrolar, arquear, dobrar, endireitar, aplanar, cisalhar, puncionar, chanfrar ou mordiscar metais (excluindo as bancas para estirar); prensas para trabalhar metais ou carbonetos metálicos, não especificadas acima — Outras"
+        }
+      ],
+      "fonte_correlacao": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+      "acao_necessaria": "Selecionar o sucessor do produto concreto pela descrição/notas oficiais e documentação técnica. A tabela pode incluir ex parcial e destinos incompatíveis com o produto; não gerar todos como benefício."
+    },
+    {
+      "indice_origem": 62,
+      "id_pendencia": "OUTROS_062",
+      "original": {
+        "template_id": "GO_A9_ART9_I_A",
+        "item": "51.7",
+        "apendice": "V",
+        "codigo_legal": "8462.39.10",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Máquinas (incluídas as prensas) para cisalhar, exceto as máquinas combinadas de puncionar e cisalhar, tipo guilhotina"
+      },
+      "decisao": "PENDENTE_IDENTIDADE_ENTRE_MULTIPLOS_SUCESSORES_OFICIAIS",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "sucessores_documentados": [
+        {
+          "destino": "ex 8462.32.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84623200",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Linhas de corte longitudinal, linhas de corte transversal e outras máquinas (excluindo as prensas) para cisalhar, para produtos planos, exceto as máquinas combinadas de puncionar e cisalhar — Linhas de corte longitudinal e linhas de corte transversal"
+        },
+        {
+          "destino": "ex 8462.39.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84623900",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Linhas de corte longitudinal, linhas de corte transversal e outras máquinas (excluindo as prensas) para cisalhar, para produtos planos, exceto as máquinas combinadas de puncionar e cisalhar — Outras"
+        },
+        {
+          "destino": "ex 8462.59.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84625900",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Máquinas (excluindo as prensas) para trabalhar tubos, perfis ocos, perfis e barras — Outras"
+        },
+        {
+          "destino": "ex 8462.61.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84626100",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Prensas hidráulicas"
+        },
+        {
+          "destino": "ex 8462.62.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84626200",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Prensas mecânicas"
+        },
+        {
+          "destino": "ex 8462.63.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84626300",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Servoprensas"
+        },
+        {
+          "destino": "ex 8462.69.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84626900",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Outras"
+        },
+        {
+          "destino": "ex 8462.90.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84629000",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Máquinas-ferramentas (incluindo as prensas) para forjar ou estampar, martelos, martelos-pilões e martinetes, para trabalhar metais (excluindo os laminadores); máquinas-ferramentas (incluindo as prensas, as linhas de corte longitudinal e as linhas de corte transversal) para enrolar, arquear, dobrar, endireitar, aplanar, cisalhar, puncionar, chanfrar ou mordiscar metais (excluindo as bancas para estirar); prensas para trabalhar metais ou carbonetos metálicos, não especificadas acima — Outras"
+        }
+      ],
+      "fonte_correlacao": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+      "acao_necessaria": "Selecionar o sucessor do produto concreto pela descrição/notas oficiais e documentação técnica. A tabela pode incluir ex parcial e destinos incompatíveis com o produto; não gerar todos como benefício."
+    },
+    {
+      "indice_origem": 63,
+      "id_pendencia": "OUTROS_063",
+      "original": {
+        "template_id": "GO_A9_ART9_I_A",
+        "item": "51.8",
+        "apendice": "V",
+        "codigo_legal": "8462.39.90",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Outras máquinas (incluídas as prensas) para cisalhar, exceto as máquinas combinadas de puncionar e cisalhar"
+      },
+      "decisao": "PENDENTE_IDENTIDADE_ENTRE_MULTIPLOS_SUCESSORES_OFICIAIS",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "sucessores_documentados": [
+        {
+          "destino": "ex 8462.32.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84623200",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Linhas de corte longitudinal, linhas de corte transversal e outras máquinas (excluindo as prensas) para cisalhar, para produtos planos, exceto as máquinas combinadas de puncionar e cisalhar — Linhas de corte longitudinal e linhas de corte transversal"
+        },
+        {
+          "destino": "ex 8462.39.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84623900",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Linhas de corte longitudinal, linhas de corte transversal e outras máquinas (excluindo as prensas) para cisalhar, para produtos planos, exceto as máquinas combinadas de puncionar e cisalhar — Outras"
+        },
+        {
+          "destino": "ex 8462.59.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84625900",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Máquinas (excluindo as prensas) para trabalhar tubos, perfis ocos, perfis e barras — Outras"
+        },
+        {
+          "destino": "ex 8462.61.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84626100",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Prensas hidráulicas"
+        },
+        {
+          "destino": "ex 8462.62.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84626200",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Prensas mecânicas"
+        },
+        {
+          "destino": "ex 8462.63.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84626300",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Servoprensas"
+        },
+        {
+          "destino": "ex 8462.69.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84626900",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Outras"
+        },
+        {
+          "destino": "ex 8462.90.00",
+          "pagina": 15,
+          "ncm_8_digitos": "84629000",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Máquinas-ferramentas (incluindo as prensas) para forjar ou estampar, martelos, martelos-pilões e martinetes, para trabalhar metais (excluindo os laminadores); máquinas-ferramentas (incluindo as prensas, as linhas de corte longitudinal e as linhas de corte transversal) para enrolar, arquear, dobrar, endireitar, aplanar, cisalhar, puncionar, chanfrar ou mordiscar metais (excluindo as bancas para estirar); prensas para trabalhar metais ou carbonetos metálicos, não especificadas acima — Outras"
+        }
+      ],
+      "fonte_correlacao": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+      "acao_necessaria": "Selecionar o sucessor do produto concreto pela descrição/notas oficiais e documentação técnica. A tabela pode incluir ex parcial e destinos incompatíveis com o produto; não gerar todos como benefício."
+    },
+    {
+      "indice_origem": 64,
+      "id_pendencia": "OUTROS_064",
+      "original": {
+        "template_id": "GO_A9_ART9_I_A",
+        "item": "51.9",
+        "apendice": "V",
+        "codigo_legal": "8462.41.00",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Máquinas (incluídas as prensas) para puncionar ou para chanfrar, incluídas as máquinas combinadas de puncionar e cisalhar, de comando numérico"
+      },
+      "decisao": "PENDENTE_IDENTIDADE_ENTRE_MULTIPLOS_SUCESSORES_OFICIAIS",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "sucessores_documentados": [
+        {
+          "destino": "ex 8462.42.00",
+          "pagina": 16,
+          "ncm_8_digitos": "84624200",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Máquinas (excluindo as prensas) para puncionar, chanfrar ou mordiscar, para produtos planos, incluindo as máquinas combinadas de puncionar e cisalhar — De comando numérico"
+        },
+        {
+          "destino": "ex 8462.51.00",
+          "pagina": 16,
+          "ncm_8_digitos": "84625100",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Máquinas (excluindo as prensas) para trabalhar tubos, perfis ocos, perfis e barras — De comando numérico"
+        },
+        {
+          "destino": "ex 8462.61.00",
+          "pagina": 16,
+          "ncm_8_digitos": "84626100",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Prensas hidráulicas"
+        },
+        {
+          "destino": "ex 8462.62.00",
+          "pagina": 16,
+          "ncm_8_digitos": "84626200",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Prensas mecânicas"
+        },
+        {
+          "destino": "ex 8462.63.00",
+          "pagina": 16,
+          "ncm_8_digitos": "84626300",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Servoprensas"
+        },
+        {
+          "destino": "ex 8462.69.00",
+          "pagina": 16,
+          "ncm_8_digitos": "84626900",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Outras"
+        },
+        {
+          "destino": "ex 8462.90.00",
+          "pagina": 16,
+          "ncm_8_digitos": "84629000",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Máquinas-ferramentas (incluindo as prensas) para forjar ou estampar, martelos, martelos-pilões e martinetes, para trabalhar metais (excluindo os laminadores); máquinas-ferramentas (incluindo as prensas, as linhas de corte longitudinal e as linhas de corte transversal) para enrolar, arquear, dobrar, endireitar, aplanar, cisalhar, puncionar, chanfrar ou mordiscar metais (excluindo as bancas para estirar); prensas para trabalhar metais ou carbonetos metálicos, não especificadas acima — Outras"
+        }
+      ],
+      "fonte_correlacao": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+      "acao_necessaria": "Selecionar o sucessor do produto concreto pela descrição/notas oficiais e documentação técnica. A tabela pode incluir ex parcial e destinos incompatíveis com o produto; não gerar todos como benefício."
+    },
+    {
+      "indice_origem": 65,
+      "id_pendencia": "OUTROS_065",
+      "original": {
+        "template_id": "GO_A9_ART9_I_A",
+        "item": "51.11",
+        "apendice": "V",
+        "codigo_legal": "8462.91.11",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Prensas hidráulicas de capacidade igual ou inferior a 35.000kN, para moldagem de pós metálicos por sinterização"
+      },
+      "decisao": "RESOLVIDA_PARA_CANDIDATO_CONDICIONAL_OU_COMPLEMENTO",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART9_I_A_84629000"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 66,
+      "id_pendencia": "OUTROS_066",
+      "original": {
+        "template_id": "GO_A9_ART9_I_A",
+        "item": "51.12",
+        "apendice": "V",
+        "codigo_legal": "8462.91.91",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Outras prensas hidráulicas, para moldagem de pós metálicos por sinterização"
+      },
+      "decisao": "RESOLVIDA_PARA_CANDIDATO_CONDICIONAL_OU_COMPLEMENTO",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART9_I_A_84629000"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 67,
+      "id_pendencia": "OUTROS_067",
+      "original": {
+        "template_id": "GO_A9_ART9_I_A",
+        "item": "51.13",
+        "apendice": "V",
+        "codigo_legal": "8462.91.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Outras prensas hidráulicas de capacidade igual ou inferior a 35.000 kN"
+      },
+      "decisao": "PENDENTE_IDENTIDADE_ENTRE_MULTIPLOS_SUCESSORES_OFICIAIS",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "sucessores_documentados": [
+        {
+          "destino": "ex 8462.61.00",
+          "pagina": 16,
+          "ncm_8_digitos": "84626100",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Prensas hidráulicas"
+        },
+        {
+          "destino": "ex 8462.90.00",
+          "pagina": 16,
+          "ncm_8_digitos": "84629000",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Máquinas-ferramentas (incluindo as prensas) para forjar ou estampar, martelos, martelos-pilões e martinetes, para trabalhar metais (excluindo os laminadores); máquinas-ferramentas (incluindo as prensas, as linhas de corte longitudinal e as linhas de corte transversal) para enrolar, arquear, dobrar, endireitar, aplanar, cisalhar, puncionar, chanfrar ou mordiscar metais (excluindo as bancas para estirar); prensas para trabalhar metais ou carbonetos metálicos, não especificadas acima — Outras"
+        }
+      ],
+      "fonte_correlacao": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+      "acao_necessaria": "Selecionar o sucessor do produto concreto pela descrição/notas oficiais e documentação técnica. A tabela pode incluir ex parcial e destinos incompatíveis com o produto; não gerar todos como benefício."
+    },
+    {
+      "indice_origem": 68,
+      "id_pendencia": "OUTROS_068",
+      "original": {
+        "template_id": "GO_A9_ART9_I_A",
+        "item": "51.14",
+        "apendice": "V",
+        "codigo_legal": "8462.91.99",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Outras prensas hidráulicas"
+      },
+      "decisao": "PENDENTE_IDENTIDADE_ENTRE_MULTIPLOS_SUCESSORES_OFICIAIS",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "sucessores_documentados": [
+        {
+          "destino": "ex 8462.61.00",
+          "pagina": 16,
+          "ncm_8_digitos": "84626100",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Prensas hidráulicas"
+        },
+        {
+          "destino": "ex 8462.90.00",
+          "pagina": 16,
+          "ncm_8_digitos": "84629000",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Máquinas-ferramentas (incluindo as prensas) para forjar ou estampar, martelos, martelos-pilões e martinetes, para trabalhar metais (excluindo os laminadores); máquinas-ferramentas (incluindo as prensas, as linhas de corte longitudinal e as linhas de corte transversal) para enrolar, arquear, dobrar, endireitar, aplanar, cisalhar, puncionar, chanfrar ou mordiscar metais (excluindo as bancas para estirar); prensas para trabalhar metais ou carbonetos metálicos, não especificadas acima — Outras"
+        }
+      ],
+      "fonte_correlacao": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+      "acao_necessaria": "Selecionar o sucessor do produto concreto pela descrição/notas oficiais e documentação técnica. A tabela pode incluir ex parcial e destinos incompatíveis com o produto; não gerar todos como benefício."
+    },
+    {
+      "indice_origem": 69,
+      "id_pendencia": "OUTROS_069",
+      "original": {
+        "template_id": "GO_A9_ART9_I_A",
+        "item": "51.15",
+        "apendice": "V",
+        "codigo_legal": "8462.99.10",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Prensas para moldagem de pós metálicos por sinterização"
+      },
+      "decisao": "RESOLVIDA_PARA_CANDIDATO_CONDICIONAL_OU_COMPLEMENTO",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART9_I_A_84629000"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 70,
+      "id_pendencia": "OUTROS_070",
+      "original": {
+        "template_id": "GO_A9_ART9_I_A",
+        "item": "51.16",
+        "apendice": "V",
+        "codigo_legal": "8462.99.20",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Prensas para extrusão"
+      },
+      "decisao": "PENDENTE_IDENTIDADE_ENTRE_MULTIPLOS_SUCESSORES_OFICIAIS",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "sucessores_documentados": [
+        {
+          "destino": "ex 8462.62.00",
+          "pagina": 16,
+          "ncm_8_digitos": "84626200",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Prensas mecânicas"
+        },
+        {
+          "destino": "ex 8462.63.00",
+          "pagina": 16,
+          "ncm_8_digitos": "84626300",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Servoprensas"
+        },
+        {
+          "destino": "ex 8462.69.00",
+          "pagina": 16,
+          "ncm_8_digitos": "84626900",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Outras"
+        },
+        {
+          "destino": "ex 8462.90.00",
+          "pagina": 16,
+          "ncm_8_digitos": "84629000",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Máquinas-ferramentas (incluindo as prensas) para forjar ou estampar, martelos, martelos-pilões e martinetes, para trabalhar metais (excluindo os laminadores); máquinas-ferramentas (incluindo as prensas, as linhas de corte longitudinal e as linhas de corte transversal) para enrolar, arquear, dobrar, endireitar, aplanar, cisalhar, puncionar, chanfrar ou mordiscar metais (excluindo as bancas para estirar); prensas para trabalhar metais ou carbonetos metálicos, não especificadas acima — Outras"
+        }
+      ],
+      "fonte_correlacao": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+      "acao_necessaria": "Selecionar o sucessor do produto concreto pela descrição/notas oficiais e documentação técnica. A tabela pode incluir ex parcial e destinos incompatíveis com o produto; não gerar todos como benefício."
+    },
+    {
+      "indice_origem": 71,
+      "id_pendencia": "OUTROS_071",
+      "original": {
+        "template_id": "GO_A9_ART9_I_A",
+        "item": "51.17",
+        "apendice": "V",
+        "codigo_legal": "8462.99.90",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Outras prensas"
+      },
+      "decisao": "PENDENTE_IDENTIDADE_ENTRE_MULTIPLOS_SUCESSORES_OFICIAIS",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "sucessores_documentados": [
+        {
+          "destino": "ex 8462.42.00",
+          "pagina": 16,
+          "ncm_8_digitos": "84624200",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Máquinas (excluindo as prensas) para puncionar, chanfrar ou mordiscar, para produtos planos, incluindo as máquinas combinadas de puncionar e cisalhar — De comando numérico"
+        },
+        {
+          "destino": "ex 8462.49.00",
+          "pagina": 16,
+          "ncm_8_digitos": "84624900",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Máquinas (excluindo as prensas) para puncionar, chanfrar ou mordiscar, para produtos planos, incluindo as máquinas combinadas de puncionar e cisalhar — Outras"
+        },
+        {
+          "destino": "ex 8462.62.00",
+          "pagina": 16,
+          "ncm_8_digitos": "84626200",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Prensas mecânicas"
+        },
+        {
+          "destino": "ex 8462.63.00",
+          "pagina": 16,
+          "ncm_8_digitos": "84626300",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Servoprensas"
+        },
+        {
+          "destino": "ex 8462.69.00",
+          "pagina": 16,
+          "ncm_8_digitos": "84626900",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Prensas para trabalhar metal a frio — Outras"
+        },
+        {
+          "destino": "ex 8462.90.00",
+          "pagina": 16,
+          "ncm_8_digitos": "84629000",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Máquinas-ferramentas (incluindo as prensas) para forjar ou estampar, martelos, martelos-pilões e martinetes, para trabalhar metais (excluindo os laminadores); máquinas-ferramentas (incluindo as prensas, as linhas de corte longitudinal e as linhas de corte transversal) para enrolar, arquear, dobrar, endireitar, aplanar, cisalhar, puncionar, chanfrar ou mordiscar metais (excluindo as bancas para estirar); prensas para trabalhar metais ou carbonetos metálicos, não especificadas acima — Outras"
+        }
+      ],
+      "fonte_correlacao": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+      "acao_necessaria": "Selecionar o sucessor do produto concreto pela descrição/notas oficiais e documentação técnica. A tabela pode incluir ex parcial e destinos incompatíveis com o produto; não gerar todos como benefício."
+    },
+    {
+      "indice_origem": 72,
+      "id_pendencia": "OUTROS_072",
+      "original": {
+        "template_id": "GO_A9_ART9_I_A",
+        "item": "55.13",
+        "apendice": "V",
+        "codigo_legal": "8466.94.30",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Outros acessórios e partes para prensas para extrusão"
+      },
+      "decisao": "RESOLVIDA_PARA_CANDIDATO_CONDICIONAL_OU_COMPLEMENTO",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART9_I_A_84669490"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 73,
+      "id_pendencia": "OUTROS_073",
+      "original": {
+        "template_id": "GO_A9_ART9_I_A",
+        "item": "63.9",
+        "apendice": "V",
+        "codigo_legal": "8480.79.00",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Outros moldes para borracha ou plásticos"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 74,
+      "id_pendencia": "OUTROS_074",
+      "original": {
+        "template_id": "GO_A9_ART9_I_A",
+        "item": "67.1",
+        "apendice": "V",
+        "codigo_legal": "8514.10.10",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fornos de resistência, de aquecimento indireto, industriais"
+      },
+      "decisao": "PENDENTE_IDENTIDADE_ENTRE_MULTIPLOS_SUCESSORES_OFICIAIS",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "sucessores_documentados": [
+        {
+          "destino": "ex 8514.11.00",
+          "pagina": 18,
+          "ncm_8_digitos": "85141100",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Fornos de resistência (de aquecimento indireto) — Prensas isostáticas a quente"
+        },
+        {
+          "destino": "ex 8514.19.00",
+          "pagina": 18,
+          "ncm_8_digitos": "85141900",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Fornos de resistência (de aquecimento indireto) — Outros"
+        }
+      ],
+      "fonte_correlacao": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+      "acao_necessaria": "Selecionar o sucessor do produto concreto pela descrição/notas oficiais e documentação técnica. A tabela pode incluir ex parcial e destinos incompatíveis com o produto; não gerar todos como benefício."
+    },
+    {
+      "indice_origem": 75,
+      "id_pendencia": "OUTROS_075",
+      "original": {
+        "template_id": "GO_A9_ART9_I_A",
+        "item": "67.4",
+        "apendice": "V",
+        "codigo_legal": "8514.30.11",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fornos de resistência, de aquecimento direto, industriais"
+      },
+      "decisao": "RESOLVIDA_PARA_CANDIDATO_CONDICIONAL_OU_COMPLEMENTO",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART9_I_A_85143900"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 76,
+      "id_pendencia": "OUTROS_076",
+      "original": {
+        "template_id": "GO_A9_ART9_I_A",
+        "item": "67.5",
+        "apendice": "V",
+        "codigo_legal": "8514.30.21",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fornos de arco voltaico, industriais"
+      },
+      "decisao": "RESOLVIDA_PARA_CANDIDATO_CONDICIONAL_OU_COMPLEMENTO",
+      "propostas_relacionadas": [
+        "PROP_BEN_20261028_GO_A9_ART9_I_A_85143200"
+      ],
+      "observacao": null
+    },
+    {
+      "indice_origem": 77,
+      "id_pendencia": "OUTROS_077",
+      "original": {
+        "template_id": "GO_A9_ART9_I_A",
+        "item": "67.6",
+        "apendice": "V",
+        "codigo_legal": "8514.30.90",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Outros fornos elétricos industriais; fornos industriais de banho; fornos industriais de raios infra-vermelhos"
+      },
+      "decisao": "PENDENTE_IDENTIDADE_ENTRE_MULTIPLOS_SUCESSORES_OFICIAIS",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "sucessores_documentados": [
+        {
+          "destino": "8514.31.00",
+          "pagina": 18,
+          "ncm_8_digitos": "85143100",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Fornos elétricos industriais ou de laboratório, incluindo os que funcionam por indução ou por perdas dielétricas; outros aparelhos industriais ou de laboratório para tratamento térmico de matérias por indução ou por perdas dielétricas — Outros fornos — Fornos de feixe de elétrons"
+        },
+        {
+          "destino": "ex 8514.32.00",
+          "pagina": 18,
+          "ncm_8_digitos": "85143200",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Fornos elétricos industriais ou de laboratório, incluindo os que funcionam por indução ou por perdas dielétricas; outros aparelhos industriais ou de laboratório para tratamento térmico de matérias por indução ou por perdas dielétricas — Outros fornos — Fornos de plasma e fornos de arco a vácuo"
+        },
+        {
+          "destino": "ex 8514.39.00",
+          "pagina": 18,
+          "ncm_8_digitos": "85143900",
+          "ativo_no_catalogo": true,
+          "descricao_oficial": "Fornos elétricos industriais ou de laboratório, incluindo os que funcionam por indução ou por perdas dielétricas; outros aparelhos industriais ou de laboratório para tratamento térmico de matérias por indução ou por perdas dielétricas — Outros fornos — Outros"
+        }
+      ],
+      "fonte_correlacao": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+      "acao_necessaria": "Selecionar o sucessor do produto concreto pela descrição/notas oficiais e documentação técnica. A tabela pode incluir ex parcial e destinos incompatíveis com o produto; não gerar todos como benefício."
+    },
+    {
+      "indice_origem": 78,
+      "id_pendencia": "OUTROS_078",
+      "original": {
+        "template_id": "GO_A9_ART9_I_A",
+        "item": "69",
+        "apendice": "V",
+        "codigo_legal": "8543.30.00",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "INSTALAÇÃO CONTÍNUA DE GALVANOPLASTIA ELETROLÍTICA DE FIOS DE AÇO, POR PROCESSO DE ALTA DENSIDADE DE CORRENTE, COM UNIDADES DE DECAPAGEM ELETROLÍTICA, DE LAVAGEM E DE ESTANHAGEM, COM CONTROLADOR DE PROCESSO"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    },
+    {
+      "indice_origem": 79,
+      "id_pendencia": "OUTROS_079",
+      "original": {
+        "template_id": "GO_A9_ART9_I_B2",
+        "item": "1.1",
+        "apendice": "VI",
+        "codigo_legal": "3923.90.00",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Reservatórios, tambores, latas e recipientes semelhantes, de plástico, de capacidade não superior a 300 litros, para transporte de leite"
+      },
+      "decisao": "PENDENTE_CADEIA_CORRELACAO_OFICIAL_COMPLETA",
+      "propostas_relacionadas": [],
+      "observacao": null,
+      "acao_necessaria": "Localizar ato federal/tabela oficial da mudança pertinente e eventual cadeia anterior ou posterior a2017→2022; confrontar descrição e todos os sucessores com catálogo ativo. Ausência nesta tabela não prova inexistência de sucessor.",
+      "checagem_realizada": "Código sem linha correspondente na tabelaMDIC2017→2022 consultada; busca específica por cada item não foi concluída."
+    }
+  ]
+}

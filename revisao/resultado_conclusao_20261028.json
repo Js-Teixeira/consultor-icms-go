@@ -1,0 +1,60 @@
+{
+  "data_aplicacao": "2026-10-28",
+  "natureza": "REFERENCIA_FISCAL_CONDICIONAL_NAO_HOMOLOGADA",
+  "producao_conferida_somente_leitura": true,
+  "identica_ao_ensaio": true,
+  "banco": {
+    "ncm": "10516",
+    "aliquotas": "634",
+    "regras12": "626",
+    "ncms12": "622",
+    "sem_percentual": "8",
+    "beneficios": "1797",
+    "ncms_beneficios": "1526",
+    "legislacao": "63",
+    "hash_aliquotas": "468a85a8096be4e9f5431f275570adf9",
+    "hash_beneficios": "04ce10b7d3d0f5668f18e5a9dad2d440",
+    "hash_legislacao": "3429081a227f0b62e86c5ad88a2b764c",
+    "hash_ncm": "e8be9b594dd4dd3f7a73211dae70954a"
+  },
+  "alteracoes": {
+    "nominais_sem_percentual_comprovado": 8,
+    "novos_beneficios": 20,
+    "complementos_por_correlacao": 5,
+    "correcao_de_nota_metodologica_legada": 1
+  },
+  "testes": {
+    "suite": 598,
+    "avisos": 38,
+    "ncms_no_motor": 10516,
+    "beneficios_no_motor": 1797
+  },
+  "revisao_independente": {
+    "parecer_final_concluido": false,
+    "interrompida_por_limite_de_uso": true,
+    "checagens_realizadas": [
+      "Suíte de 597 testes anterior à correção final",
+      "24 pares distintos confrontados com o PDF MDIC",
+      "298 caputs e 235 pendências completos",
+      "20 impedimentos temporais conferidos na auditoria saneada"
+    ],
+    "achados_importantes_corrigidos": [
+      "Colisão de delimitador no gerador antigo",
+      "Condição metodológica obsoleta dos radiofármacos"
+    ],
+    "minor_conhecido": "Documentação histórica rotulada e conclusão atual apontada no README"
+  },
+  "rotina": {
+    "habilitada": true,
+    "frequencia": "Semanal, segunda-feira de manhã",
+    "fuso": "America/Sao_Paulo",
+    "antecedencia_vencimentos_dias": 45,
+    "altera_regras_automaticamente": false
+  },
+  "limites": {
+    "pendencias_tecnicas_residuais": 175,
+    "operacoes_condicionais_inventariadas": 298,
+    "hipoteses_difal_importacao_somente_catalogo": 17,
+    "sem_confirmacao_fiscal_automatica": true
+  }
+}

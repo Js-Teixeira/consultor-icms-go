@@ -1,0 +1,592 @@
+{
+  "versao": 2,
+  "data_referencia": "2026-10-26",
+  "jurisdicao": "GO",
+  "norma": "Lei nº 11.651/1991",
+  "dispositivo": "art. 27, inciso II",
+  "natureza": "PROPOSTA_TECNICA_SEM_APROVACAO_FISCAL",
+  "limites": "Mapeamento por nomenclatura; não exaure tratamentos fiscais nem comprova benefício, classificação oficial do produto ou aplicação dos 12%. As datas são da redação legal examinada, não da existência de cada NCM.",
+  "dispositivos_excluidos": {
+    "e": "Revogada desde 2023-05-01",
+    "g": "Revogada desde 2016-01-01",
+    "i": "Declarada inconstitucional (ADI 7371), não incluída"
+  },
+  "familias": [
+    {
+      "id": "ACUCAR",
+      "alinea": "a",
+      "produto": "Açúcar",
+      "prefixos": [
+        "1701"
+      ],
+      "excluir": [],
+      "condicoes": "Confirmar açúcar; não estender a confeitos, preparações ou outros açúcares sem revisão.",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "açúcar; arroz; café; farinhas de mandioca, de milho e de trigo; feijão; fubá; iogurte; macarrão; margarina vegetal; manteiga de leite; milho; óleo vegetal comestível, exceto de oliva; queijo, inclusive requeijão; rapadura; sal iodado e vinagre;",
+      "vigencia_inicio": "2021-01-01",
+      "vigencia_fim": null
+    },
+    {
+      "id": "ARROZ",
+      "alinea": "a",
+      "produto": "Arroz",
+      "prefixos": [
+        "1006"
+      ],
+      "excluir": [],
+      "condicoes": "Confirmar arroz e finalidade; sementes, benefícios e demais tratamentos exigem análise própria.",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "açúcar; arroz; café; farinhas de mandioca, de milho e de trigo; feijão; fubá; iogurte; macarrão; margarina vegetal; manteiga de leite; milho; óleo vegetal comestível, exceto de oliva; queijo, inclusive requeijão; rapadura; sal iodado e vinagre;",
+      "vigencia_inicio": "2021-01-01",
+      "vigencia_fim": null
+    },
+    {
+      "id": "CAFE",
+      "alinea": "a",
+      "produto": "Café",
+      "prefixos": [
+        "090111",
+        "090112",
+        "090121",
+        "090122"
+      ],
+      "excluir": [],
+      "condicoes": "Confirmar café; não estender a cascas, sucedâneos ou preparações por palavras herdadas da posição.",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "açúcar; arroz; café; farinhas de mandioca, de milho e de trigo; feijão; fubá; iogurte; macarrão; margarina vegetal; manteiga de leite; milho; óleo vegetal comestível, exceto de oliva; queijo, inclusive requeijão; rapadura; sal iodado e vinagre;",
+      "vigencia_inicio": "2021-01-01",
+      "vigencia_fim": null
+    },
+    {
+      "id": "CAFE_SOLUVEL",
+      "alinea": "a",
+      "produto": "Café solúvel puro, inclusive descafeinado",
+      "prefixos": [
+        "21011110"
+      ],
+      "excluir": [],
+      "condicoes": "Confirmar produto puro, 100% café, inclusive descafeinado; não estender a cappuccino, café com leite, misturas ou outros extratos. O vínculo aos 12% é proposta técnica a partir do termo café no art. 27, II, a, do CTE e depende de revisão fiscal. O Parecer GO 225/2022 trata de redução de base de cálculo para café solúvel puro e não confirma a alíquota nominal de 12% nem sua aplicação atual. Benefício e condições devem ser verificados separadamente. Parecer: https://appasp.economia.go.gov.br/pareceres/arquivos/Benef%C3%ADcio%20Fiscal/Redu%C3%A7%C3%A3o%20de%20BC%20concedida%20por%20prazo%20indeterminado%20-%20Art.%208%C2%B0/XXXIII/P_225_2022_SEI.docx",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "açúcar; arroz; café; farinhas de mandioca, de milho e de trigo; feijão; fubá; iogurte; macarrão; margarina vegetal; manteiga de leite; milho; óleo vegetal comestível, exceto de oliva; queijo, inclusive requeijão; rapadura; sal iodado e vinagre;",
+      "vigencia_inicio": "2021-01-01",
+      "vigencia_fim": null
+    },
+    {
+      "id": "FARINHA_MANDIOCA",
+      "alinea": "a",
+      "produto": "Farinha de mandioca",
+      "prefixos": [
+        "11062000"
+      ],
+      "excluir": [],
+      "condicoes": "Confirmar farinha de mandioca. O código também abrange sagu e outras raízes/tubérculos; não inclui automaticamente fécula.",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "açúcar; arroz; café; farinhas de mandioca, de milho e de trigo; feijão; fubá; iogurte; macarrão; margarina vegetal; manteiga de leite; milho; óleo vegetal comestível, exceto de oliva; queijo, inclusive requeijão; rapadura; sal iodado e vinagre;",
+      "vigencia_inicio": "2021-01-01",
+      "vigencia_fim": null
+    },
+    {
+      "id": "FARINHA_MILHO_FUBA",
+      "alinea": "a",
+      "produto": "Farinha de milho e fubá",
+      "prefixos": [
+        "11022000",
+        "11031300"
+      ],
+      "excluir": [],
+      "condicoes": "Confirmar farinha de milho ou fubá; grumos e sêmolas não comprovam essa descrição por si sós.",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "açúcar; arroz; café; farinhas de mandioca, de milho e de trigo; feijão; fubá; iogurte; macarrão; margarina vegetal; manteiga de leite; milho; óleo vegetal comestível, exceto de oliva; queijo, inclusive requeijão; rapadura; sal iodado e vinagre;",
+      "vigencia_inicio": "2021-01-01",
+      "vigencia_fim": null
+    },
+    {
+      "id": "FARINHA_TRIGO",
+      "alinea": "a",
+      "produto": "Farinha de trigo",
+      "prefixos": [
+        "11010010"
+      ],
+      "excluir": [],
+      "condicoes": "Confirmar farinha de trigo; não ampliar para mistura com centeio, pré-misturas ou preparados.",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "açúcar; arroz; café; farinhas de mandioca, de milho e de trigo; feijão; fubá; iogurte; macarrão; margarina vegetal; manteiga de leite; milho; óleo vegetal comestível, exceto de oliva; queijo, inclusive requeijão; rapadura; sal iodado e vinagre;",
+      "vigencia_inicio": "2021-01-01",
+      "vigencia_fim": null
+    },
+    {
+      "id": "FEIJAO",
+      "alinea": "a",
+      "produto": "Feijão",
+      "prefixos": [
+        "071331",
+        "071332",
+        "071333",
+        "071334",
+        "071335",
+        "071339",
+        "071360"
+      ],
+      "excluir": [],
+      "condicoes": "Confirmar feijão; finalidade para alimentação ou semeadura e eventuais benefícios devem ser analisados separadamente.",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "açúcar; arroz; café; farinhas de mandioca, de milho e de trigo; feijão; fubá; iogurte; macarrão; margarina vegetal; manteiga de leite; milho; óleo vegetal comestível, exceto de oliva; queijo, inclusive requeijão; rapadura; sal iodado e vinagre;",
+      "vigencia_inicio": "2021-01-01",
+      "vigencia_fim": null
+    },
+    {
+      "id": "IOGURTE",
+      "alinea": "a",
+      "produto": "Iogurte",
+      "prefixos": [
+        "040320"
+      ],
+      "excluir": [],
+      "condicoes": "Confirmar iogurte; não abranger automaticamente bebidas lácteas, quefir e outros fermentados.",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "açúcar; arroz; café; farinhas de mandioca, de milho e de trigo; feijão; fubá; iogurte; macarrão; margarina vegetal; manteiga de leite; milho; óleo vegetal comestível, exceto de oliva; queijo, inclusive requeijão; rapadura; sal iodado e vinagre;",
+      "vigencia_inicio": "2021-01-01",
+      "vigencia_fim": null
+    },
+    {
+      "id": "MACARRAO",
+      "alinea": "a",
+      "produto": "Macarrão",
+      "prefixos": [
+        "190211",
+        "190219",
+        "190220",
+        "190230"
+      ],
+      "excluir": [],
+      "condicoes": "Confirmar macarrão. A posição inclui massas diferentes, recheadas ou preparadas; cuscuz não foi incluído.",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "açúcar; arroz; café; farinhas de mandioca, de milho e de trigo; feijão; fubá; iogurte; macarrão; margarina vegetal; manteiga de leite; milho; óleo vegetal comestível, exceto de oliva; queijo, inclusive requeijão; rapadura; sal iodado e vinagre;",
+      "vigencia_inicio": "2021-01-01",
+      "vigencia_fim": null
+    },
+    {
+      "id": "MARGARINA",
+      "alinea": "a",
+      "produto": "Margarina vegetal",
+      "prefixos": [
+        "15171000",
+        "15179090"
+      ],
+      "excluir": [],
+      "condicoes": "Confirmar margarina vegetal e composição. Misturas, gorduras animais e outras preparações não comprovam o enquadramento.",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "açúcar; arroz; café; farinhas de mandioca, de milho e de trigo; feijão; fubá; iogurte; macarrão; margarina vegetal; manteiga de leite; milho; óleo vegetal comestível, exceto de oliva; queijo, inclusive requeijão; rapadura; sal iodado e vinagre;",
+      "vigencia_inicio": "2021-01-01",
+      "vigencia_fim": null
+    },
+    {
+      "id": "MANTEIGA",
+      "alinea": "a",
+      "produto": "Manteiga de leite",
+      "prefixos": [
+        "04051000"
+      ],
+      "excluir": [],
+      "condicoes": "Confirmar manteiga de leite; não estender automaticamente a butter oil ou pasta de espalhar.",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "açúcar; arroz; café; farinhas de mandioca, de milho e de trigo; feijão; fubá; iogurte; macarrão; margarina vegetal; manteiga de leite; milho; óleo vegetal comestível, exceto de oliva; queijo, inclusive requeijão; rapadura; sal iodado e vinagre;",
+      "vigencia_inicio": "2021-01-01",
+      "vigencia_fim": null
+    },
+    {
+      "id": "MILHO",
+      "alinea": "a",
+      "produto": "Milho",
+      "prefixos": [
+        "1005"
+      ],
+      "excluir": [],
+      "condicoes": "Confirmar milho e finalidade; sementes e benefícios agropecuários exigem revisão própria.",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "açúcar; arroz; café; farinhas de mandioca, de milho e de trigo; feijão; fubá; iogurte; macarrão; margarina vegetal; manteiga de leite; milho; óleo vegetal comestível, exceto de oliva; queijo, inclusive requeijão; rapadura; sal iodado e vinagre;",
+      "vigencia_inicio": "2021-01-01",
+      "vigencia_fim": null
+    },
+    {
+      "id": "OLEO_VEGETAL",
+      "alinea": "a",
+      "produto": "Óleo vegetal comestível, exceto de oliva",
+      "prefixos": [
+        "1507",
+        "1508",
+        "1511",
+        "1512",
+        "1513",
+        "1514",
+        "1515",
+        "15179010"
+      ],
+      "excluir": [
+        "151530",
+        "151560",
+        "15159010",
+        "15159021",
+        "15159022"
+      ],
+      "condicoes": "Comprovar origem vegetal e destinação comestível; excluir oliva/azeitona, usos técnicos e óleos microbianos. O NCM não comprova a aptidão alimentar.",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "açúcar; arroz; café; farinhas de mandioca, de milho e de trigo; feijão; fubá; iogurte; macarrão; margarina vegetal; manteiga de leite; milho; óleo vegetal comestível, exceto de oliva; queijo, inclusive requeijão; rapadura; sal iodado e vinagre;",
+      "vigencia_inicio": "2021-01-01",
+      "vigencia_fim": null
+    },
+    {
+      "id": "QUEIJO",
+      "alinea": "a",
+      "produto": "Queijo, inclusive requeijão",
+      "prefixos": [
+        "0406"
+      ],
+      "excluir": [],
+      "condicoes": "Confirmar queijo ou requeijão; preparações alimentícias e substitutos vegetais não são automaticamente abrangidos.",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "açúcar; arroz; café; farinhas de mandioca, de milho e de trigo; feijão; fubá; iogurte; macarrão; margarina vegetal; manteiga de leite; milho; óleo vegetal comestível, exceto de oliva; queijo, inclusive requeijão; rapadura; sal iodado e vinagre;",
+      "vigencia_inicio": "2021-01-01",
+      "vigencia_fim": null
+    },
+    {
+      "id": "RAPADURA",
+      "alinea": "a",
+      "produto": "Rapadura",
+      "prefixos": [
+        "17011300",
+        "17011400",
+        "17019900"
+      ],
+      "excluir": [],
+      "condicoes": "Confirmar rapadura por composição e apresentação; estes códigos também abrangem açúcar e não comprovam a identidade do produto.",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "açúcar; arroz; café; farinhas de mandioca, de milho e de trigo; feijão; fubá; iogurte; macarrão; margarina vegetal; manteiga de leite; milho; óleo vegetal comestível, exceto de oliva; queijo, inclusive requeijão; rapadura; sal iodado e vinagre;",
+      "vigencia_inicio": "2021-01-01",
+      "vigencia_fim": null
+    },
+    {
+      "id": "SAL_IODADO",
+      "alinea": "a",
+      "produto": "Sal iodado",
+      "prefixos": [
+        "25010011",
+        "25010020",
+        "25010090"
+      ],
+      "excluir": [],
+      "condicoes": "Comprovar sal iodado; sal industrial, água do mar e sal sem iodação não comprovam a descrição legal.",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "açúcar; arroz; café; farinhas de mandioca, de milho e de trigo; feijão; fubá; iogurte; macarrão; margarina vegetal; manteiga de leite; milho; óleo vegetal comestível, exceto de oliva; queijo, inclusive requeijão; rapadura; sal iodado e vinagre;",
+      "vigencia_inicio": "2021-01-01",
+      "vigencia_fim": null
+    },
+    {
+      "id": "VINAGRE",
+      "alinea": "a",
+      "produto": "Vinagre",
+      "prefixos": [
+        "22090000"
+      ],
+      "excluir": [],
+      "condicoes": "Confirmar vinagre; o mesmo NCM também abrange sucedâneos obtidos do ácido acético.",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "açúcar; arroz; café; farinhas de mandioca, de milho e de trigo; feijão; fubá; iogurte; macarrão; margarina vegetal; manteiga de leite; milho; óleo vegetal comestível, exceto de oliva; queijo, inclusive requeijão; rapadura; sal iodado e vinagre;",
+      "vigencia_inicio": "2021-01-01",
+      "vigencia_fim": null
+    },
+    {
+      "id": "OVO",
+      "alinea": "b",
+      "produto": "Ovo",
+      "prefixos": [
+        "0407",
+        "0408"
+      ],
+      "excluir": [],
+      "condicoes": "Confirmar ovo e apresentação real, inclusive alcance para ovoprodutos, conservados e incubação; não presumir extensão da descrição legal.",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "ovo, leite em estado natural, pasteurizado ou esterilizado (UHT), ave, peixe e gado vivos, bem como carne fresca, resfriada, congelada, salgada, temperada ou salmourada, e miúdo comestível resultantes do abate desses animais;",
+      "vigencia_inicio": "2003-01-01",
+      "vigencia_fim": null
+    },
+    {
+      "id": "LEITE",
+      "alinea": "b",
+      "produto": "Leite em estado natural, pasteurizado ou esterilizado (UHT)",
+      "prefixos": [
+        "040110",
+        "040120",
+        "04014010",
+        "04015010"
+      ],
+      "excluir": [],
+      "condicoes": "Confirmar leite em estado natural, pasteurizado ou UHT. Creme de leite, leite concentrado, leite em pó e doces não estão comprovados por esta correspondência.",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "ovo, leite em estado natural, pasteurizado ou esterilizado (UHT), ave, peixe e gado vivos, bem como carne fresca, resfriada, congelada, salgada, temperada ou salmourada, e miúdo comestível resultantes do abate desses animais;",
+      "vigencia_inicio": "2003-01-01",
+      "vigencia_fim": null
+    },
+    {
+      "id": "AVE_VIVA",
+      "alinea": "b",
+      "produto": "Ave viva",
+      "prefixos": [
+        "0105",
+        "010631",
+        "010632",
+        "010633",
+        "010639"
+      ],
+      "excluir": [],
+      "condicoes": "Confirmar ave viva e alcance da descrição legal, especialmente espécie e finalidade; demais benefícios são análise separada.",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "ovo, leite em estado natural, pasteurizado ou esterilizado (UHT), ave, peixe e gado vivos, bem como carne fresca, resfriada, congelada, salgada, temperada ou salmourada, e miúdo comestível resultantes do abate desses animais;",
+      "vigencia_inicio": "2003-01-01",
+      "vigencia_fim": null
+    },
+    {
+      "id": "GADO_VIVO",
+      "alinea": "b",
+      "produto": "Gado vivo",
+      "prefixos": [
+        "0101",
+        "0102",
+        "0103",
+        "0104"
+      ],
+      "excluir": [],
+      "condicoes": "Confirmar espécie e enquadramento no termo legal gado; a aproximação por nomenclatura não resolve o alcance desse termo.",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "ovo, leite em estado natural, pasteurizado ou esterilizado (UHT), ave, peixe e gado vivos, bem como carne fresca, resfriada, congelada, salgada, temperada ou salmourada, e miúdo comestível resultantes do abate desses animais;",
+      "vigencia_inicio": "2003-01-01",
+      "vigencia_fim": null
+    },
+    {
+      "id": "PEIXE_VIVO",
+      "alinea": "b",
+      "produto": "Peixe vivo",
+      "prefixos": [
+        "0301"
+      ],
+      "excluir": [],
+      "condicoes": "Confirmar peixe vivo; demais animais aquáticos não foram incluídos por mera pertença ao capítulo 03.",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "ovo, leite em estado natural, pasteurizado ou esterilizado (UHT), ave, peixe e gado vivos, bem como carne fresca, resfriada, congelada, salgada, temperada ou salmourada, e miúdo comestível resultantes do abate desses animais;",
+      "vigencia_inicio": "2003-01-01",
+      "vigencia_fim": null
+    },
+    {
+      "id": "CARNE_GADO_AVE",
+      "alinea": "b",
+      "produto": "Carne e miúdo comestível de gado ou ave",
+      "prefixos": [
+        "0201",
+        "0202",
+        "0203",
+        "0204",
+        "0205",
+        "0206",
+        "0207",
+        "0210"
+      ],
+      "excluir": [
+        "021091",
+        "021092",
+        "021093"
+      ],
+      "condicoes": "Comprovar espécie abrangida e carne fresca, resfriada, congelada, salgada, temperada ou salmourada, ou miúdo comestível. Produtos secos, defumados, gorduras e preparações não comprovam automaticamente as condições.",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "ovo, leite em estado natural, pasteurizado ou esterilizado (UHT), ave, peixe e gado vivos, bem como carne fresca, resfriada, congelada, salgada, temperada ou salmourada, e miúdo comestível resultantes do abate desses animais;",
+      "vigencia_inicio": "2003-01-01",
+      "vigencia_fim": null
+    },
+    {
+      "id": "CARNE_PEIXE",
+      "alinea": "b",
+      "produto": "Carne e miúdo comestível de peixe",
+      "prefixos": [
+        "0302",
+        "0303",
+        "0304",
+        "0305"
+      ],
+      "excluir": [
+        "03054",
+        "03055"
+      ],
+      "condicoes": "Comprovar peixe e apresentação admitida no art. 27, II, b. Secagem, defumação, cozimento e processamento exigem revisão; não incluir crustáceos e moluscos.",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "ovo, leite em estado natural, pasteurizado ou esterilizado (UHT), ave, peixe e gado vivos, bem como carne fresca, resfriada, congelada, salgada, temperada ou salmourada, e miúdo comestível resultantes do abate desses animais;",
+      "vigencia_inicio": "2003-01-01",
+      "vigencia_fim": null
+    },
+    {
+      "id": "PAO_FRANCES",
+      "alinea": "c",
+      "produto": "Pão francês",
+      "prefixos": [
+        "19059090"
+      ],
+      "excluir": [],
+      "condicoes": "Confirmar pão francês; este NCM inclui diversos outros produtos de padaria. Não abrange automaticamente todos os pães.",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "pão francês;",
+      "vigencia_inicio": "1997-01-01",
+      "vigencia_fim": null
+    },
+    {
+      "id": "ENERGIA_RURAL",
+      "alinea": "d",
+      "produto": "Energia elétrica para consumo em estabelecimento de produtor rural",
+      "prefixos": [
+        "27160000"
+      ],
+      "excluir": [],
+      "condicoes": "Comprovar consumo em estabelecimento de produtor rural; o NCM não comprova o destinatário nem a finalidade.",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "energia elétrica, para o consumo em estabelecimento de produtor rural;",
+      "vigencia_inicio": "1997-01-01",
+      "vigencia_fim": null
+    },
+    {
+      "id": "HORTIFRUTICOLA",
+      "alinea": "f",
+      "produto": "Hortifrutícola em estado natural",
+      "prefixos": [
+        "0701",
+        "0702",
+        "0703",
+        "0704",
+        "0705",
+        "0706",
+        "0707",
+        "0708",
+        "0709",
+        "0714",
+        "0801",
+        "0802",
+        "0803",
+        "0804",
+        "0805",
+        "0806",
+        "0807",
+        "0808",
+        "0809",
+        "0810"
+      ],
+      "excluir": [
+        "080111",
+        "080620",
+        "08041020",
+        "08042020"
+      ],
+      "condicoes": "Comprovar produto hortifrutícola em estado natural. Os códigos podem conter apresentações secas, congeladas ou transformadas, que não comprovam esta condição; conferir isenções, reduções e demais tratamentos próprios.",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "hortifrutícola em estado natural;",
+      "vigencia_inicio": "1999-05-01",
+      "vigencia_fim": null
+    },
+    {
+      "id": "ABSORVENTE",
+      "alinea": "h",
+      "produto": "Absorvente higiênico",
+      "prefixos": [
+        "96190000"
+      ],
+      "excluir": [],
+      "condicoes": "Confirmar absorvente higiênico; o mesmo código inclui fraldas, cueiros e outros artigos. Conferir eventuais benefícios específicos.",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "absorvente higiênico, água sanitária, fósforo, papel higiênico, pasta dental, sabão em barra e sabonete;",
+      "vigencia_inicio": "1999-05-01",
+      "vigencia_fim": null
+    },
+    {
+      "id": "AGUA_SANITARIA",
+      "alinea": "h",
+      "produto": "Água sanitária",
+      "prefixos": [
+        "28289011"
+      ],
+      "excluir": [],
+      "condicoes": "Confirmar água sanitária e formulação/apresentação; hipoclorito de sódio para uso industrial não comprova essa descrição.",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "absorvente higiênico, água sanitária, fósforo, papel higiênico, pasta dental, sabão em barra e sabonete;",
+      "vigencia_inicio": "1999-05-01",
+      "vigencia_fim": null
+    },
+    {
+      "id": "FOSFORO",
+      "alinea": "h",
+      "produto": "Fósforo",
+      "prefixos": [
+        "36050000"
+      ],
+      "excluir": [],
+      "condicoes": "Confirmar fósforo; não estender a artigos pirotécnicos ou outras mercadorias.",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "absorvente higiênico, água sanitária, fósforo, papel higiênico, pasta dental, sabão em barra e sabonete;",
+      "vigencia_inicio": "1999-05-01",
+      "vigencia_fim": null
+    },
+    {
+      "id": "PAPEL_HIGIENICO",
+      "alinea": "h",
+      "produto": "Papel higiênico",
+      "prefixos": [
+        "48181000"
+      ],
+      "excluir": [],
+      "condicoes": "Confirmar papel higiênico; não estender a papel-toalha, guardanapos ou papel base.",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "absorvente higiênico, água sanitária, fósforo, papel higiênico, pasta dental, sabão em barra e sabonete;",
+      "vigencia_inicio": "1999-05-01",
+      "vigencia_fim": null
+    },
+    {
+      "id": "PASTA_DENTAL",
+      "alinea": "h",
+      "produto": "Pasta dental",
+      "prefixos": [
+        "33061000"
+      ],
+      "excluir": [],
+      "condicoes": "Confirmar pasta dental; a subposição de dentifrícios pode abranger apresentações diferentes.",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "absorvente higiênico, água sanitária, fósforo, papel higiênico, pasta dental, sabão em barra e sabonete;",
+      "vigencia_inicio": "1999-05-01",
+      "vigencia_fim": null
+    },
+    {
+      "id": "SABAO_BARRA",
+      "alinea": "h",
+      "produto": "Sabão em barra",
+      "prefixos": [
+        "340111",
+        "340119"
+      ],
+      "excluir": [],
+      "condicoes": "Confirmar sabão em barra. Produtos tensoativos em formas moldadas, papel e mantas impregnadas do mesmo código não comprovam a descrição.",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "absorvente higiênico, água sanitária, fósforo, papel higiênico, pasta dental, sabão em barra e sabonete;",
+      "vigencia_inicio": "1999-05-01",
+      "vigencia_fim": null
+    },
+    {
+      "id": "SABONETE",
+      "alinea": "h",
+      "produto": "Sabonete",
+      "prefixos": [
+        "340111",
+        "34012010",
+        "34013000"
+      ],
+      "excluir": [],
+      "condicoes": "Confirmar sabonete, inclusive alcance para a apresentação líquida. Outros produtos de lavagem da pele não são automaticamente abrangidos.",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "absorvente higiênico, água sanitária, fósforo, papel higiênico, pasta dental, sabão em barra e sabonete;",
+      "vigencia_inicio": "1999-05-01",
+      "vigencia_fim": null
+    }
+  ]
+}

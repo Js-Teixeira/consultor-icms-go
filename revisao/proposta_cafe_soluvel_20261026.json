@@ -1,0 +1,97 @@
+{
+  "data_referencia": "2026-10-26",
+  "natureza": "PROPOSTA_PENDENTE_APROVACAO_FISCAL",
+  "aplicada_producao": false,
+  "cobertura_integral_12_demonstrada": false,
+  "ncms_ativos": 10516,
+  "ncms_com_regra_12_producao": 607,
+  "ncms_com_candidato_catalogo_v2": 608,
+  "novas_propostas": [
+    {
+      "proposta_id": "CTE27II_CAFE_SOLUVEL_21011110",
+      "ncm": "21011110",
+      "descricao_oficial": "Extratos, essências e concentrados — Café solúvel, mesmo descafeinado",
+      "familia_id": "CAFE_SOLUVEL",
+      "descricao_legal": "Café solúvel puro, inclusive descafeinado",
+      "aliquota_proposta_condicionada": "12",
+      "aliquota_confirmada": "",
+      "status": "PENDENTE_REVISAO_FISCAL",
+      "acao": "REVISAR_NOVA_REGRA",
+      "cadastros_existentes": "",
+      "fundamento": "Lei nº 11.651/1991, art. 27, II, a",
+      "alinea": "a",
+      "fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+      "trecho_legal": "açúcar; arroz; café; farinhas de mandioca, de milho e de trigo; feijão; fubá; iogurte; macarrão; margarina vegetal; manteiga de leite; milho; óleo vegetal comestível, exceto de oliva; queijo, inclusive requeijão; rapadura; sal iodado e vinagre;",
+      "condicoes": "Confirmar produto puro, 100% café, inclusive descafeinado; não estender a cappuccino, café com leite, misturas ou outros extratos. O vínculo aos 12% é proposta técnica a partir do termo café no art. 27, II, a, do CTE e depende de revisão fiscal. O Parecer GO 225/2022 trata de redução de base de cálculo para café solúvel puro e não confirma a alíquota nominal de 12% nem sua aplicação atual. Benefício e condições devem ser verificados separadamente. Parecer: https://appasp.economia.go.gov.br/pareceres/arquivos/Benef%C3%ADcio%20Fiscal/Redu%C3%A7%C3%A3o%20de%20BC%20concedida%20por%20prazo%20indeterminado%20-%20Art.%208%C2%B0/XXXIII/P_225_2022_SEI.docx",
+      "vigencia_redacao_inicio": "2021-01-01",
+      "vigencia_ncm": "CONFERIR_NA_FONTE_NCM",
+      "metodo_vinculo": "PROPOSTA_TECNICA_POR_NOMENCLATURA",
+      "data_referencia": "2026-10-26"
+    }
+  ],
+  "carga_preparada": {
+    "lote": "CAND12_20261026",
+    "legislacao": [
+      {
+        "id_legislacao": "LEG_CAND12_20261026_A",
+        "norma": "Lei nº 11.651/1991 - Código Tributário do Estado de Goiás",
+        "numero": "11.651",
+        "ano": "1991",
+        "anexo": null,
+        "artigo": "27",
+        "paragrafo": null,
+        "inciso": "II",
+        "alinea": "a",
+        "item": null,
+        "resumo": "Referência legal para possibilidades condicionais de 12%; não confirma vínculo NCM/produto.",
+        "texto_relevante": "açúcar; arroz; café; farinhas de mandioca, de milho e de trigo; feijão; fubá; iogurte; macarrão; margarina vegetal; manteiga de leite; milho; óleo vegetal comestível, exceto de oliva; queijo, inclusive requeijão; rapadura; sal iodado e vinagre;",
+        "url_fonte": "https://appasp.economia.go.gov.br/legislacao/arquivos/Cte/CTE.htm",
+        "vigencia_inicio": "2021-01-01",
+        "vigencia_fim": null,
+        "data_verificacao": "2026-10-26",
+        "ativo": "SIM"
+      }
+    ],
+    "aliquotas": [
+      {
+        "id_regra": "CAND12_20261026_CAFE_SOLUVEL_21011110",
+        "chave_ncm": "21011110",
+        "tipo_correspondencia": "EXATO",
+        "descricao_regra": "Possibilidade condicionada de 12% — Café solúvel puro, inclusive descafeinado",
+        "palavras_chave": "Café solúvel puro, inclusive descafeinado",
+        "aliquota_icms": 12,
+        "adicional_percentual": null,
+        "id_legislacao": "LEG_CAND12_20261026_A",
+        "regra_consolidada_id": null,
+        "evidencia_ncm_id": null,
+        "vigencia_inicio": "2026-10-26",
+        "vigencia_fim": null,
+        "observacao": "CANDIDATO CONDICIONAL. Cadastro autorizado como possibilidade, sem confirmação de enquadramento fiscal por NCM. Confirmar produto puro, 100% café, inclusive descafeinado; não estender a cappuccino, café com leite, misturas ou outros extratos. O vínculo aos 12% é proposta técnica a partir do termo café no art. 27, II, a, do CTE e depende de revisão fiscal. O Parecer GO 225/2022 trata de redução de base de cálculo para café solúvel puro e não confirma a alíquota nominal de 12% nem sua aplicação atual. Benefício e condições devem ser verificados separadamente. Parecer: https://appasp.economia.go.gov.br/pareceres/arquivos/Benef%C3%ADcio%20Fiscal/Redu%C3%A7%C3%A3o%20de%20BC%20concedida%20por%20prazo%20indeterminado%20-%20Art.%208%C2%B0/XXXIII/P_225_2022_SEI.docx Início do cadastro: 2026-10-26; redação legal desde 2021-01-01. Vínculo técnico por nomenclatura; proposta CTE27II_CAFE_SOLUVEL_21011110. Conferir benefícios, ST, adicionais e demais condições da operação. Lote CAND12_20261026.",
+        "ativo": "SIM",
+        "exige_descricao": "SIM"
+      }
+    ]
+  },
+  "validacao_motor": {
+    "situacao": "VERIFICACAO_NECESSARIA",
+    "regra_priorizada": null,
+    "possibilidades": 1
+  },
+  "fontes_examinadas": [
+    {
+      "arquivo": "parecer_55.docx",
+      "sha256": "42fe74ce66917575a76a7fa86897838dd5ef87e8b606621d546e724fbf4fc8bb",
+      "bytes": 51397
+    },
+    {
+      "arquivo": "parecer_225.docx",
+      "sha256": "b0b7d668793a06ec118230ac86cbb4eaaed412f76f64a6563d70bb955c6c778d",
+      "bytes": 18629
+    },
+    {
+      "arquivo": "rcte-go-completo-20261026.html",
+      "sha256": "042e9e7a5beb450b5f90d0a752e0c05934b9d8447759c23805bbaaec90ef671e",
+      "bytes": 9944393
+    }
+  ]
+}
