@@ -1,0 +1,40 @@
+{
+  "RFB_TIPI_ATUAL": {
+    "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+    "arquivo_pdf": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.pdf",
+    "sha256": "7270eafd26cf905fd954ca34f9a7bb8131a0a102eeae579d0a2a016cc55ca270",
+    "versao": "TIPI aprovada pelo Decreto11.158/2022; capa lista atualizações até ADE RFB1/2026. Arquivo oficial baixado e verificado nesta sessão em28/10/2026.",
+    "uso": "Nomes de produtos, hierarquia e apresentação; não foi importada qualquer alíquota federal para ICMS.",
+    "data_consulta": "2026-10-28"
+  },
+  "RFB_NESH": {
+    "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+    "arquivo_texto": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+    "versao": "Sétima edição2022, atualizada até junho2023, arquivo oficial disponibilizado pela RFB. Texto consolidado aprovado pela IN RFB2169/2023, vigente desde01/02/2024.",
+    "uso": "Delimitação de antissoros, produtos imunológicos e forma de apresentação.",
+    "data_consulta": "2026-10-28"
+  },
+  "GO_ATUAL": {
+    "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+    "arquivo": "finalizacao_20261027/evidencias/anexo9_beneficios.html",
+    "sha256": "e4538fdfd070f17eb2c34fdf43d2b42ae604e8746f92b15f13b7eb48485961a5",
+    "verificacao": "Download oficial em28/10/2026 com hash idêntico ao arquivo fornecido; metadata preservada em../multiplas/evidencias/downloads.json.",
+    "uso": "Único fundamento dos parâmetros e condições do benefício proposto.",
+    "data_consulta": "2026-10-28"
+  },
+  "GO_PARECER_115_2024": {
+    "url": "https://appasp.economia.go.gov.br/pareceres/arquivos/Decreto%20n%C2%BA%204.852-97%20-%20RCTE%20-%20Informa%C3%A7%C3%B5es%20Gerais/P_115_2024_SEI.docx",
+    "arquivo": "conclusao_pendencias_20261028/evidencias/parecer115_2024_oficial.txt",
+    "data": "05/06/2024",
+    "uso": "Orienta continuidade objetiva das mesmas características, inclusive em benefício estadual autônomo. Não se fabricou cadeia histórica não localizada.",
+    "trecho": "desde que não haja alteração das características da mercadoria objeto do benefício fiscal",
+    "data_consulta": "2026-10-28"
+  },
+  "FEDERAL_CORROBORACAO_SOROS": {
+    "url": "https://legis.senado.leg.br/norma/40180341/publicacao/40181032",
+    "arquivo": "continuidade_175_20261028/identidade_direta_130/evidencias/lc214_anexo_xiv_senado.html",
+    "versao": "LC214/2025, publicação original do AnexoXIV, DOU16/01/2025, disponível no Senado. Usada somente como corroboração denominativa e do NCM dos soros.",
+    "uso": "Nenhuma regra, alíquota, vigência de IBS/CBS ou benefício dessa lei foi aplicada ao ICMS/GO; o enquadramento atual da nomenclatura vem da TIPI/NESH.",
+    "data_consulta": "2026-10-28"
+  }
+}

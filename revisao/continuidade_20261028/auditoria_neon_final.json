@@ -1,0 +1,56 @@
+{
+  "implantacao_em": "2026-10-29",
+  "referencia_documental": "2026-10-28",
+  "natureza": "CANDIDATOS_CONDICIONAIS",
+  "homologacao_fiscal": false,
+  "antes": {
+    "ncm": "10516",
+    "beneficios": "1797",
+    "hash_beneficios": "04ce10b7d3d0f5668f18e5a9dad2d440",
+    "hash_legislacao": "3429081a227f0b62e86c5ad88a2b764c",
+    "hash_aliquotas": "468a85a8096be4e9f5431f275570adf9"
+  },
+  "ensaio": {
+    "data_ensaio": "2026-10-29",
+    "branch_id": "br-small-hill-b6zne5fx",
+    "estado_final": {
+      "ncm": "10516",
+      "aliquotas": "634",
+      "beneficios": "2221",
+      "ncms_com_beneficio": "1863",
+      "legislacao": "69",
+      "hash_beneficios": "8b015cb71282bae978a5485d74ae75a2",
+      "hash_legislacao": "21c15967bc1cde206b815885f3bb4ac4",
+      "hash_aliquotas": "468a85a8096be4e9f5431f275570adf9"
+    },
+    "reexecucao_integral_sem_alteracoes": true,
+    "conflito_rejeitado": true,
+    "erro_conflito": "NeonDbError: Conflito na inserção em beneficios; carga cancelada",
+    "estado_apos_conflito": {
+      "beneficios": "2221",
+      "hash_beneficios": "8b015cb71282bae978a5485d74ae75a2",
+      "hash_legislacao": "21c15967bc1cde206b815885f3bb4ac4",
+      "hash_aliquotas": "468a85a8096be4e9f5431f275570adf9"
+    }
+  },
+  "preservacao_das_duas_propostas_iniciais": {
+    "conferidos": "2",
+    "preservados": true
+  },
+  "lotes_aplicados": 11,
+  "producao_lida_com_role": "consultor_readonly",
+  "producao": {
+    "ncm": "10516",
+    "aliquotas": "634",
+    "beneficios": "2221",
+    "ncms_com_beneficio": "1863",
+    "legislacao": "69",
+    "hash_beneficios": "8b015cb71282bae978a5485d74ae75a2",
+    "hash_legislacao": "21c15967bc1cde206b815885f3bb4ac4",
+    "hash_aliquotas": "468a85a8096be4e9f5431f275570adf9"
+  },
+  "producao_igual_ao_ensaio": true,
+  "novos_beneficios": 424,
+  "beneficios_complementados": 9,
+  "fontes_novas": 6
+}

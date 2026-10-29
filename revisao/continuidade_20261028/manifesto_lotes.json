@@ -1,0 +1,86 @@
+{
+  "referencia": "2026-10-28",
+  "natureza": "CANDIDATOS_CONDICIONAIS",
+  "beneficios_novos": 424,
+  "complementos": 9,
+  "fontes_novas": 6,
+  "lotes": [
+    {
+      "arquivo": "lote_01.json",
+      "novos_beneficios": 40,
+      "revisoes": 9,
+      "fontes_novas": 6,
+      "bytes_sql": 294750
+    },
+    {
+      "arquivo": "lote_02.json",
+      "novos_beneficios": 40,
+      "revisoes": 0,
+      "fontes_novas": 0,
+      "bytes_sql": 180492
+    },
+    {
+      "arquivo": "lote_03.json",
+      "novos_beneficios": 40,
+      "revisoes": 0,
+      "fontes_novas": 0,
+      "bytes_sql": 178580
+    },
+    {
+      "arquivo": "lote_04.json",
+      "novos_beneficios": 40,
+      "revisoes": 0,
+      "fontes_novas": 0,
+      "bytes_sql": 180106
+    },
+    {
+      "arquivo": "lote_05.json",
+      "novos_beneficios": 40,
+      "revisoes": 0,
+      "fontes_novas": 0,
+      "bytes_sql": 180531
+    },
+    {
+      "arquivo": "lote_06.json",
+      "novos_beneficios": 40,
+      "revisoes": 0,
+      "fontes_novas": 0,
+      "bytes_sql": 184189
+    },
+    {
+      "arquivo": "lote_07.json",
+      "novos_beneficios": 40,
+      "revisoes": 0,
+      "fontes_novas": 0,
+      "bytes_sql": 180679
+    },
+    {
+      "arquivo": "lote_08.json",
+      "novos_beneficios": 40,
+      "revisoes": 0,
+      "fontes_novas": 0,
+      "bytes_sql": 183162
+    },
+    {
+      "arquivo": "lote_09.json",
+      "novos_beneficios": 40,
+      "revisoes": 0,
+      "fontes_novas": 0,
+      "bytes_sql": 171666
+    },
+    {
+      "arquivo": "lote_10.json",
+      "novos_beneficios": 40,
+      "revisoes": 0,
+      "fontes_novas": 0,
+      "bytes_sql": 215674
+    },
+    {
+      "arquivo": "lote_11.json",
+      "novos_beneficios": 24,
+      "revisoes": 0,
+      "fontes_novas": 0,
+      "bytes_sql": 332588
+    }
+  ]
+}

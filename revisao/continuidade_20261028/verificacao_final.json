@@ -1,0 +1,337 @@
+{
+  "verificado_em": "2026-10-29",
+  "suite": "598 passed, 38 warnings in 12.70s",
+  "validacao_integral": {
+    "referencia": "2026-10-28",
+    "ncms_verificados": 10516,
+    "hipotese_nominal_12": 622,
+    "referencia_geral_19": 9886,
+    "revisar": 8,
+    "beneficios_verificados": 2221,
+    "beneficios_por_tipo": {
+      "CARGA_EFETIVA": 854,
+      "ISENCAO": 893,
+      "REDUCAO_BASE_CALCULO": 350,
+      "CREDITO_OUTORGADO": 124
+    },
+    "ncms_com_beneficio": 1863,
+    "fontes": 69,
+    "vencimentos_20261231": 1141,
+    "complementos_com_alternativa_anterior_preservada": 9,
+    "aliquotas_nominais_inalteradas": true,
+    "amostras_interface": [
+      {
+        "ncm": "30012010",
+        "metricas": [
+          {
+            "rotulo": "Alíquota",
+            "valor": "19,00%"
+          },
+          {
+            "rotulo": "Benefício",
+            "valor": "1 candidato"
+          },
+          {
+            "rotulo": "Situação",
+            "valor": "Revisão fiscal"
+          }
+        ]
+      },
+      {
+        "ncm": "33030010",
+        "metricas": [
+          {
+            "rotulo": "Alíquota",
+            "valor": "19,00%"
+          },
+          {
+            "rotulo": "Benefício",
+            "valor": "1 candidato"
+          },
+          {
+            "rotulo": "Situação",
+            "valor": "Revisão fiscal"
+          }
+        ]
+      },
+      {
+        "ncm": "96190000",
+        "metricas": [
+          {
+            "rotulo": "Alíquota",
+            "valor": "12,00%"
+          },
+          {
+            "rotulo": "Benefício",
+            "valor": "3 candidatos"
+          },
+          {
+            "rotulo": "Situação",
+            "valor": "Revisão fiscal"
+          }
+        ]
+      },
+      {
+        "ncm": "61112000",
+        "metricas": [
+          {
+            "rotulo": "Alíquota",
+            "valor": "19,00%"
+          },
+          {
+            "rotulo": "Benefício",
+            "valor": "Não identificado"
+          },
+          {
+            "rotulo": "Situação",
+            "valor": "Revisão fiscal"
+          }
+        ]
+      },
+      {
+        "ncm": "35040090",
+        "metricas": [
+          {
+            "rotulo": "Alíquota",
+            "valor": "19,00%"
+          },
+          {
+            "rotulo": "Benefício",
+            "valor": "2 candidatos"
+          },
+          {
+            "rotulo": "Situação",
+            "valor": "Revisão fiscal"
+          }
+        ]
+      },
+      {
+        "ncm": "28444200",
+        "metricas": [
+          {
+            "rotulo": "Alíquota",
+            "valor": "19,00%"
+          },
+          {
+            "rotulo": "Benefício",
+            "valor": "1 candidato"
+          },
+          {
+            "rotulo": "Situação",
+            "valor": "Revisão fiscal"
+          }
+        ]
+      },
+      {
+        "ncm": "30024992",
+        "metricas": [
+          {
+            "rotulo": "Alíquota",
+            "valor": "19,00%"
+          },
+          {
+            "rotulo": "Benefício",
+            "valor": "2 candidatos"
+          },
+          {
+            "rotulo": "Situação",
+            "valor": "Revisão fiscal"
+          }
+        ]
+      },
+      {
+        "ncm": "25010011",
+        "metricas": [
+          {
+            "rotulo": "Alíquota",
+            "valor": "Revisar"
+          },
+          {
+            "rotulo": "Benefício",
+            "valor": "1 candidato"
+          },
+          {
+            "rotulo": "Situação",
+            "valor": "Revisão fiscal"
+          }
+        ]
+      }
+    ],
+    "segundos": 40.67
+  },
+  "manifestos_estaveis": {
+    "contextos13/validacao_final.json": {
+      "sha256": "8865a9ae255abf6c1b326d04fc565b517f21cd1ed67e32688c4e212f48d6f108",
+      "conteudo": {
+        "estado": "FINAL_ESTAVEL_CORRIGIDO",
+        "verificado_em": "2026-10-28T16:54:08.222963+00:00",
+        "contextos": 13,
+        "beneficios": 373,
+        "fontes_legais": 6,
+        "aliquotas_criadas": 0,
+        "distribuicao": {
+          "OUTROS_220": 2,
+          "OUTROS_222": 0,
+          "OUTROS_223": 0,
+          "OUTROS_224": 0,
+          "OUTROS_225": 0,
+          "OUTROS_226": 0,
+          "OUTROS_227": 0,
+          "OUTROS_228": 21,
+          "OUTROS_229": 1,
+          "OUTROS_230": 348,
+          "OUTROS_231": 1,
+          "OUTROS_232": 0,
+          "OUTROS_233": 0
+        },
+        "fraldas_apenas_96190000": true,
+        "fraldas_tipo_CARGA_EFETIVA_9": true,
+        "XXV_condicoes_completas_e_texto_atual": true,
+        "LIV_parametros_numericos_bloqueados": true,
+        "homologacao": false,
+        "demonstrabilidade": false,
+        "escrita_repo_neon_git": false,
+        "hashes_sha256": {
+          "conclusoes.json": "01de87cf5d24cc03d0c92f1f161b57c00819952ce12a34296c324073daa6455e",
+          "propostas_condicionais.json": "76bf4e2e8ad75341fde02c577bb474714016f78836e575f23b2ec46423601c27",
+          "catalogo_tecnico.json": "2f8e08472f52b8d591c9e47f827b8e25eff8d0defc7b3613b95611dde863909b",
+          "LEITURA.md": "8abb76fd33030fb3e90f4285c44ab077de9039c3223e672847861cc977f8b624"
+        },
+        "NESH_capturada_por_cabecalho_e_marcador": true,
+        "NESH_fraldas_absorventes_descartaveis_conferidos": true,
+        "exclusoes_6111_6209_conferidas": true,
+        "TIPI_96190000_conferida": true,
+        "erro_splitlines_formfeed_corrigido": true,
+        "localizadores_federais": [
+          {
+            "arquivo_local": "/workspace/scratch/7812c5f8369a/conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+            "linhas_1base": [
+              56973,
+              56990
+            ],
+            "metodo_localizacao": "CABECALHO_TEXTUAL_UNICO_ATE_MARCADOR_DA_PAGINA; linhas físicas LF"
+          },
+          {
+            "arquivo_local": "/workspace/scratch/7812c5f8369a/conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+            "linhas_1base": [
+              57651,
+              57669
+            ],
+            "metodo_localizacao": "CABECALHO_TEXTUAL_UNICO_ATE_MARCADOR_DA_PAGINA; linhas físicas LF"
+          },
+          {
+            "arquivo_local": "/workspace/scratch/7812c5f8369a/conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+            "linhas_1base": [
+              103095,
+              103111
+            ],
+            "metodo_localizacao": "CABECALHO_TEXTUAL_UNICO_ATE_MARCADOR_DA_PAGINA; linhas físicas LF"
+          },
+          {
+            "arquivo_local": "/workspace/scratch/7812c5f8369a/continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+            "linhas_1base": [
+              26492,
+              26493
+            ],
+            "metodo_localizacao": "CABECALHO_TEXTUAL_UNICO_NCM_96190000; linhas físicas LF"
+          }
+        ]
+      }
+    },
+    "identidade_direta_130/manifesto_lote24_estavel.json": {
+      "sha256": "824c3cb4e8a6f6d652edb279c6e6389e24fa613bec9f827e986835dc7b7970c3",
+      "conteudo": [
+        {
+          "arquivo": "conclusoes.json",
+          "sha256": "f049d7104eaed3b1c03b5dec331be1ae81faf1c4e5ee7f5e4ba1409a0fd22ad7",
+          "bytes": 185303
+        },
+        {
+          "arquivo": "propostas.json",
+          "sha256": "507e58b42a326da9566ae724a70f712ebc6476702cce66fd42ba1a076a52a573",
+          "bytes": 115582
+        },
+        {
+          "arquivo": "fontes.json",
+          "sha256": "557faecd66d596faf6e10968f2bd79b93d3e1e755f0ad5d5b6b04fa3aaf09cc4",
+          "bytes": 2957
+        },
+        {
+          "arquivo": "LEIA_ME_LOTE24.md",
+          "sha256": "4a12a659c4357c9cfe0c7755377061057067a8d9be8606813745cb45d52af8bb",
+          "bytes": 3094
+        },
+        {
+          "arquivo": "validacao_lote24.json",
+          "sha256": "764f9a20ba64572845e698973cbb8ac0d48342ec3293bf49c5045e73a2af6409",
+          "bytes": 274
+        },
+        {
+          "arquivo": "montar_identidades.py",
+          "sha256": "b696378bac7a1258a8f705f5e4599e873b3a72578142a48ad3ea74eadfac5746",
+          "bytes": 22116
+        }
+      ]
+    },
+    "identidade_direta_106_adicional/manifesto_final_estavel.json": {
+      "sha256": "6dd659d3d5809a2e4a51c88521807818539628129bac9ecd0e8bc6d75301e621",
+      "conteudo": [
+        {
+          "arquivo": "LEIA_ME_FINAL.md",
+          "bytes": 5131,
+          "sha256": "636ad3b9415d61f02ce2f5e9068f7cd3de75104c65c097dbb5af538194482068"
+        },
+        {
+          "arquivo": "auditoria_106.json",
+          "bytes": 594765,
+          "sha256": "c97f086ab05e1751ccabdd03c94856ace5800ebbc5ff7fd9a24f371b2032d32f"
+        },
+        {
+          "arquivo": "conclusoes_adicionais.json",
+          "bytes": 89312,
+          "sha256": "e20d823c731ee9ad61fb99d3f9a7406f7f87e087e7e11965d922e335f85f10be"
+        },
+        {
+          "arquivo": "evidencias/dou_tentativas.json",
+          "bytes": 606,
+          "sha256": "8564872dff996648471a1a79853c0b952d649f2dceef1bf4b6fb7bd0329fffd1"
+        },
+        {
+          "arquivo": "evidencias/trechos_por_classe.json",
+          "bytes": 58144,
+          "sha256": "cf413c32548c90c89123311b72af75ce5edf1ded743977b47feda323ed1593ca"
+        },
+        {
+          "arquivo": "execucao_final.json",
+          "bytes": 3896,
+          "sha256": "95f0542ea90fd2c7bda9684fe0678027b415713a994cc023a1398a12a5f5a4fd"
+        },
+        {
+          "arquivo": "fontes.json",
+          "bytes": 3429,
+          "sha256": "7e6d58845697911c70d4a8e5d0d8656364afd13a6a612debb0f34ef48b8a2b39"
+        },
+        {
+          "arquivo": "montar_triagem106.py",
+          "bytes": 41030,
+          "sha256": "d7829eeb3ff08ec8809ae9efc20dc7230ae773b4c24047c0e0847c24a60af231"
+        },
+        {
+          "arquivo": "propostas_adicionais.json",
+          "bytes": 92455,
+          "sha256": "c4c422bbeb435c78d836a52f89c559cb491edfc9eceeded1c7878376945ad657"
+        },
+        {
+          "arquivo": "resumo_triagem106.json",
+          "bytes": 3896,
+          "sha256": "95f0542ea90fd2c7bda9684fe0678027b415713a994cc023a1398a12a5f5a4fd"
+        },
+        {
+          "arquivo": "validacao_final.json",
+          "bytes": 257,
+          "sha256": "8e24fdc26f084215aa9d41508a2c42d49e5da6a724e7fb426fa91c4911defd94"
+        }
+      ]
+    }
+  }
+}

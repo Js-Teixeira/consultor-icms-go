@@ -1,0 +1,19 @@
+{
+  "referencia": "2026-10-28",
+  "branch_ensaio": "br-round-star-b63s2l9o",
+  "antes": {
+    "beneficios": "1834",
+    "hash": "c76d00f012598e5f00754f7c5c77e806"
+  },
+  "depois": {
+    "beneficios": "1834",
+    "hash": "c76d00f012598e5f00754f7c5c77e806"
+  },
+  "apos": {
+    "beneficios": "1834",
+    "hash": "c76d00f012598e5f00754f7c5c77e806"
+  },
+  "idempotencia": true,
+  "conflito_rejeitado": true,
+  "erro_conflito": "NeonDbError: Conflito na inserção em beneficios; carga cancelada"
+}

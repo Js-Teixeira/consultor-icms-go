@@ -1,0 +1,3701 @@
+[
+  {
+    "id_pendencia": "OUTROS_220",
+    "status": "CONCLUIDO_CANDIDATOS_CONDICIONAIS_RESTRITOS",
+    "pendencia_generica_contexto_encerrada": true,
+    "data_referencia": "2026-10-28",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 6, inciso CLIX",
+    "fonte_principal_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+    "fonte_dispositivo_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A6CLIX",
+    "trecho_legal": "CLIX - as operações com vacinas e insumos destinados à produção de vacinas para o enfrentamento à pandemia causada pelo novo agente do Coronavírus - SARS-CoV-2, classificados nos códigos 3002.20.19 e 3002.20.29 da NCM, e as respectivas prestações de serviços de transporte, ficando mantido o crédito (Convênio ICMS 15/21).",
+    "fontes_primarias": [
+      "https://www.confaz.fazenda.gov.br/legislacao/convenios/2021/CV015_21",
+      "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_09975.htm",
+      "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+      "https://www.confaz.fazenda.gov.br/legislacao/convenios/1996/CV117_96"
+    ],
+    "vigencia": {
+      "inicio_texto_aplicavel": "2021-10-29",
+      "fim": null,
+      "situacao_na_referencia": "TEXTO_ATUAL_NO_CONSOLIDADO_OFICIAL_REVALIDADO",
+      "observacao": "Início da redação aplicável, não substitui datas de cada mercadoria/subitem; datas do registro proposto são conservadas separadamente.",
+      "fundamento_inicio": {
+        "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_09975.htm",
+        "dispositivo": "art.1º e art.2º",
+        "trecho": "Publicado no DOE de29.10.21; entra em vigor na data de sua publicação."
+      }
+    },
+    "cbenef": {
+      "codigo": "GO811141",
+      "quantidade_linhas_exatas": 1,
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Secretario/IN/IN_1518_2022.htm",
+      "linha": [
+        "GO811141",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "SIM",
+        "SIM",
+        "SIM",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "RCTE, Anexo IX, Art 6º, Inciso CLIX",
+        "ISENÇÃO - Operações com vacinas e insumos destinados à produção de vacinas para o enfrentamento ao Coronavírus",
+        ""
+      ],
+      "observacao": "O cadastro de cBenef não comprova prazo ou fruição; a validade decorre do dispositivo e do quadro central de prazos."
+    },
+    "fatos_confirmados": [
+      "O inciso integra a seção de isenções por prazo indeterminado. O texto atual e o Convênio 15/21 não fixam data final. Isto não dispensa a finalidade específica pandêmica.",
+      "MDIC 2017→2022: 3002.20.19→3002.41.19 (página 5) e 3002.20.29→3002.41.29 (página 6), sem Ex na tabela. A API pública RFB comprova ambos vigentes desde 01/04/2022.",
+      "O Convênio 117/96 inclui Goiás e preserva o tratamento da mercadoria na reclassificação, sem expandir sua descrição."
+    ],
+    "condicoes_operacionais": [
+      "Saída interna de vacina ou insumo destinado à produção de vacina para enfrentamento à pandemia SARS-CoV-2. Comprovar documentalmente essa finalidade específica, a identidade da mercadoria e a classificação correspondente. Fica mantido o crédito. Não abrange todas as vacinas nem insumos de outros NCM por simples associação de finalidade. A finalidade pandêmica após o encerramento da emergência não é presumida pela data ou pelo NCM."
+    ],
+    "pendencias_residuais_especificas": [],
+    "tipo_beneficio": "ISENCAO",
+    "aliquota_nominal": null,
+    "percentual_reducao_bc": null,
+    "carga_efetiva": null,
+    "credito_outorgado_percentual": null,
+    "catalogo_tecnico": [],
+    "demonstrabilidade": {
+      "fonte_normativa_revalidada": true,
+      "direito_em_operacao_concreta_comprovado": false,
+      "aplicacao_automatica": false
+    },
+    "homologacao": false,
+    "propostas_condicionais": [
+      {
+        "id_beneficio": "BEN_CONT13_20261028_220_30024119",
+        "chave_ncm": "30024119",
+        "tipo_beneficio": "ISENCAO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_220_30024129",
+        "chave_ncm": "30024129",
+        "tipo_beneficio": "ISENCAO"
+      }
+    ]
+  },
+  {
+    "id_pendencia": "OUTROS_222",
+    "status": "ENCERRADO_PRAZO_EXPIRADO",
+    "pendencia_generica_contexto_encerrada": true,
+    "data_referencia": "2026-10-28",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso LXXIV",
+    "fonte_principal_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+    "fonte_dispositivo_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7LXXIV",
+    "trecho_legal": "LXXIV - as operações internas e de importação do exterior, bem como nas correspondentes prestações de serviço de transporte realizadas no âmbito das medidas de prevenção e de enfrentamento à pandemia causada pelo novo agente do Coronavírus - SARS-CoV-2, em relação ao oxigênio medicinal, classificado no código 2804.40.00 da NCM, ficando mantido o crédito (Convênio ICMS 41/21);",
+    "fontes_primarias": [
+      "https://www.confaz.fazenda.gov.br/legislacao/convenios/2021/CV041_21",
+      "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_09975.htm"
+    ],
+    "vigencia": {
+      "inicio_texto_aplicavel": "2021-10-29",
+      "fim": "2024-04-30",
+      "situacao_na_referencia": "PRAZO_EXPIRADO",
+      "observacao": "Início da redação aplicável, não substitui datas de cada mercadoria/subitem; datas do registro proposto são conservadas separadamente.",
+      "fundamento_fim": {
+        "url": "https://www.confaz.fazenda.gov.br/legislacao/convenios/2021/CV041_21",
+        "trecho": "Prorrogado, até30.04.24, pelo Conv.ICMS178/21."
+      }
+    },
+    "cbenef": {
+      "codigo": "GO812047",
+      "quantidade_linhas_exatas": 1,
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Secretario/IN/IN_1518_2022.htm",
+      "linha": [
+        "GO812047",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "SIM",
+        "SIM",
+        "SIM",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "RCTE, Anexo IX, Art 7º, Inciso LXXIV",
+        "ISENÇÃO - operações internas e de importação de oxigênio medicinal, classificado no código 2804.40.00 da NCM",
+        ""
+      ],
+      "observacao": "O cadastro de cBenef não comprova prazo ou fruição; a validade decorre do dispositivo e do quadro central de prazos."
+    },
+    "fatos_confirmados": [
+      "O quadro central do art.7º, §1º, mantém data limite 2024-04-30; o Convênio remetido confirma a última prorrogação. Nenhuma proposta operacional atual é criada.",
+      "A permanência do texto do inciso ou de cBenef na tabela não reabre prazo expirado."
+    ],
+    "condicoes_operacionais": [],
+    "pendencias_residuais_especificas": [],
+    "tipo_beneficio": "ISENCAO",
+    "aliquota_nominal": null,
+    "percentual_reducao_bc": null,
+    "carga_efetiva": null,
+    "credito_outorgado_percentual": null,
+    "catalogo_tecnico": [
+      {
+        "classificacao": "HISTORICO_PRAZO_ENCERRADO",
+        "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso LXXIV",
+        "data_final": "2024-04-30",
+        "texto": "LXXIV - as operações internas e de importação do exterior, bem como nas correspondentes prestações de serviço de transporte realizadas no âmbito das medidas de prevenção e de enfrentamento à pandemia causada pelo novo agente do Coronavírus - SARS-CoV-2, em relação ao oxigênio medicinal, classificado no código 2804.40.00 da NCM, ficando mantido o crédito (Convênio ICMS 41/21);",
+        "vincular_consulta_interna_atual": false
+      }
+    ],
+    "demonstrabilidade": {
+      "fonte_normativa_revalidada": true,
+      "direito_em_operacao_concreta_comprovado": false,
+      "aplicacao_automatica": false
+    },
+    "homologacao": false,
+    "quadro_central_prazo": {
+      "tabela": 7,
+      "indice_linha_tabela_0base": 836,
+      "celulas": [
+        {
+          "text": "LXXIV",
+          "paras": [
+            {
+              "class": "MsoNormal",
+              "text": "LXXIV\n  "
+            }
+          ],
+          "attrs": {
+            "width": "157",
+            "nowrap": null,
+            "colspan": "3",
+            "valign": "top",
+            "style": "width:114.1pt;border:solid black 1.0pt;\n  mso-border-alt:solid black .75pt;background:white;padding:.75pt .75pt .75pt .75pt"
+          }
+        },
+        {
+          "text": "CV ICMS 41/21",
+          "paras": [
+            {
+              "class": "MsoNormal",
+              "text": "CV ICMS 41/21\n  "
+            }
+          ],
+          "attrs": {
+            "width": "220",
+            "nowrap": null,
+            "valign": "top",
+            "style": "width:162.3pt;border:solid black 1.0pt;\n  mso-border-alt:solid black .75pt;background:white;padding:.75pt .75pt .75pt .75pt"
+          }
+        },
+        {
+          "text": "30/04/24",
+          "paras": [
+            {
+              "class": "MsoNormal",
+              "text": "30/04/24\n  "
+            }
+          ],
+          "attrs": {
+            "width": "253",
+            "nowrap": null,
+            "colspan": "2",
+            "valign": "top",
+            "style": "width:185.9pt;border:solid black 1.0pt;\n  mso-border-alt:solid black .75pt;background:white;padding:.75pt .75pt .75pt .75pt"
+          }
+        }
+      ],
+      "nao_usar_p_start_como_indice_do_dispositivo": true
+    },
+    "propostas_condicionais": []
+  },
+  {
+    "id_pendencia": "OUTROS_223",
+    "status": "ENCERRADO_FORA_ESCOPO_CATALOGO_TECNICO",
+    "pendencia_generica_contexto_encerrada": true,
+    "data_referencia": "2026-10-28",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso XXXVIII",
+    "fonte_principal_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+    "fonte_dispositivo_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7XXXVIII",
+    "trecho_legal": "XXXVIII - a importação de soro conservante de córnea, classificado no código 3001.90.10 da NBM/SH, realizada pela Fundação Banco de Olhos de Goiás, CNPJ nº 02.600.740/0001-94, reconhecida como entidade filantrópica no Conselho Nacional de Assistência Social - CNAS - sob o nº 28.980.011056/94-21, desde que o soro não possua similar produzido no País e a importação também esteja desonerada dos Impostos de Importação ou sobre Produtos Industrializados (Convênio ICMS 117/02, cláusula primeira).",
+    "fontes_primarias": [
+      "https://www.confaz.fazenda.gov.br/legislacao/convenios/2002/CV117_02",
+      "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_10896.htm"
+    ],
+    "vigencia": {
+      "inicio_texto_aplicavel": "2002-10-14",
+      "fim": "2026-12-31",
+      "situacao_na_referencia": "TEXTO_ATUAL_NO_CONSOLIDADO_OFICIAL_REVALIDADO",
+      "observacao": "Início da redação aplicável, não substitui datas de cada mercadoria/subitem; datas do registro proposto são conservadas separadamente.",
+      "fundamento_fim": {
+        "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_10896.htm",
+        "dispositivo": "art.1º, art.7º §1º, e art.4º I",
+        "trecho": "XXXVIII/CV117/02 eXLVII/CV19/06:31/12/26; efeitos a partir de1º demaio de2026."
+      }
+    },
+    "cbenef": {
+      "codigo": "GO812024",
+      "quantidade_linhas_exatas": 1,
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Secretario/IN/IN_1518_2022.htm",
+      "linha": [
+        "GO812024",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "SIM",
+        "SIM",
+        "SIM",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "RCTE, Anexo IX, Art 7º, Inciso XXXVIII",
+        "ISENÇÃO - Importação de soro conservante de córnea, realizada pela Fundação Banco de Olhos de Goiás",
+        ""
+      ],
+      "observacao": "O cadastro de cBenef não comprova prazo ou fruição; a validade decorre do dispositivo e do quadro central de prazos."
+    },
+    "fatos_confirmados": [
+      "A hipótese legal está suficientemente identificada como operação fora do escopo da consulta de saída interna. Ausência de dados de uma operação concreta é condição de fruição, não pendência de descoberta do gênero."
+    ],
+    "condicoes_operacionais": [
+      "Fundação Banco de Olhos de Goiás, CNPJ02.600.740/0001-94; soro conservante de córnea sem similar nacional; importação desonerada deII ouIPI; atestado de inexistência de similar conforme Convênio117/02."
+    ],
+    "pendencias_residuais_especificas": [],
+    "tipo_beneficio": "ISENCAO",
+    "aliquota_nominal": null,
+    "percentual_reducao_bc": null,
+    "carga_efetiva": null,
+    "credito_outorgado_percentual": null,
+    "catalogo_tecnico": [
+      {
+        "classificacao": "IMPORTACAO_EXCLUSIVA_ENTIDADE",
+        "codigos_literais": [
+          "3001.90.10"
+        ],
+        "condicoes": "Fundação Banco de Olhos de Goiás, CNPJ02.600.740/0001-94; soro conservante de córnea sem similar nacional; importação desonerada deII ouIPI; atestado de inexistência de similar conforme Convênio117/02.",
+        "vincular_consulta_interna_atual": false,
+        "percentual_reducao_bc": null,
+        "aliquota_nominal": null,
+        "cbenef": "GO812024",
+        "homologacao": false
+      }
+    ],
+    "demonstrabilidade": {
+      "fonte_normativa_revalidada": true,
+      "direito_em_operacao_concreta_comprovado": false,
+      "aplicacao_automatica": false
+    },
+    "homologacao": false,
+    "quadro_central_prazo": {
+      "tabela": 7,
+      "indice_linha_tabela_0base": 475,
+      "celulas": [
+        {
+          "text": "XXXVIII",
+          "paras": [
+            {
+              "class": "MsoNormal",
+              "text": "XXXVIII\n  "
+            }
+          ],
+          "attrs": {
+            "width": "157",
+            "nowrap": null,
+            "colspan": "3",
+            "valign": "top",
+            "style": "width:114.1pt;border:solid black 1.0pt;\n  mso-border-alt:solid black .75pt;background:white;padding:.75pt .75pt .75pt .75pt"
+          }
+        },
+        {
+          "text": "CV ICMS 117/02",
+          "paras": [
+            {
+              "class": "MsoNormal",
+              "text": "CV ICMS 117/02\n  "
+            }
+          ],
+          "attrs": {
+            "width": "220",
+            "nowrap": null,
+            "valign": "top",
+            "style": "width:162.3pt;border:solid black 1.0pt;\n  mso-border-alt:solid black .75pt;background:white;padding:.75pt .75pt .75pt .75pt"
+          }
+        },
+        {
+          "text": "31/12/26",
+          "paras": [
+            {
+              "class": "MsoNormal",
+              "text": "31/12/26\n  "
+            }
+          ],
+          "attrs": {
+            "width": "253",
+            "nowrap": null,
+            "colspan": "2",
+            "valign": "top",
+            "style": "width:185.9pt;border:solid black 1.0pt;\n  mso-border-alt:solid black .75pt;background:white;padding:.75pt .75pt .75pt .75pt"
+          }
+        }
+      ]
+    },
+    "propostas_condicionais": []
+  },
+  {
+    "id_pendencia": "OUTROS_224",
+    "status": "ENCERRADO_FORA_ESCOPO_CATALOGO_TECNICO",
+    "pendencia_generica_contexto_encerrada": true,
+    "data_referencia": "2026-10-28",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso XLVII",
+    "fonte_principal_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+    "fonte_dispositivo_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7XLVII",
+    "trecho_legal": "XLVII - relativamente ao diferencial de alíquotas, a entrada no território goiano de 280 (duzentos e oitenta) acumuladores elétricos e seus separadores, mesmo de forma quadrada ou retangular de chumbo de peso inferior ou igual a 1.000kg, classificados no código 8507.20.10 da Nomenclatura Comum do Mercosul - NCM - destinados à empresa FURNAS CENTRAIS ELÉTRICAS S/A, inscrita junto ao CNPJ sob o número base 23.274.194, a serem aplicados no sistema de energia solar fotovoltaico, do Programa de Desenvolvimento Energético dos Estados e Municípios - PRODEEM - (Convênio ICMS 19/06, cláusula primeira).",
+    "fontes_primarias": [
+      "https://www.confaz.fazenda.gov.br/legislacao/convenios/2006/CV019_06",
+      "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_10896.htm"
+    ],
+    "vigencia": {
+      "inicio_texto_aplicavel": "2006-04-18",
+      "fim": "2026-12-31",
+      "situacao_na_referencia": "TEXTO_ATUAL_NO_CONSOLIDADO_OFICIAL_REVALIDADO",
+      "observacao": "Início da redação aplicável, não substitui datas de cada mercadoria/subitem; datas do registro proposto são conservadas separadamente.",
+      "fundamento_fim": {
+        "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_10896.htm",
+        "dispositivo": "art.1º, art.7º §1º, e art.4º I",
+        "trecho": "XXXVIII/CV117/02 eXLVII/CV19/06:31/12/26; efeitos a partir de1º demaio de2026."
+      }
+    },
+    "cbenef": {
+      "codigo": "GO812033",
+      "quantidade_linhas_exatas": 1,
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Secretario/IN/IN_1518_2022.htm",
+      "linha": [
+        "GO812033",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "SIM",
+        "SIM",
+        "SIM",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "RCTE, Anexo IX, Art 7º, Inciso XLVII",
+        "ISENÇÃO - Relativamente ao diferencial de alíquotas, a entrada no território goiano de 280 acumuladores elétricos e seus separadores destinados à empresa FURNAS",
+        ""
+      ],
+      "observacao": "O cadastro de cBenef não comprova prazo ou fruição; a validade decorre do dispositivo e do quadro central de prazos."
+    },
+    "fatos_confirmados": [
+      "A hipótese legal está suficientemente identificada como operação fora do escopo da consulta de saída interna. Ausência de dados de uma operação concreta é condição de fruição, não pendência de descoberta do gênero."
+    ],
+    "condicoes_operacionais": [
+      "Entrada emGO de280 acumuladores/separadores até1000kg destinados àFURNAS, CNPJ base23.274.194, paraPRODEEM solarfotovoltaico. A prorrogação não renova quantidade já consumida."
+    ],
+    "pendencias_residuais_especificas": [],
+    "tipo_beneficio": "ISENCAO",
+    "aliquota_nominal": null,
+    "percentual_reducao_bc": null,
+    "carga_efetiva": null,
+    "credito_outorgado_percentual": null,
+    "catalogo_tecnico": [
+      {
+        "classificacao": "DIFAL_ESPECIFICO_QUANTIDADE_DESTINATARIO",
+        "codigos_literais": [
+          "8507.20.10"
+        ],
+        "condicoes": "Entrada emGO de280 acumuladores/separadores até1000kg destinados àFURNAS, CNPJ base23.274.194, paraPRODEEM solarfotovoltaico. A prorrogação não renova quantidade já consumida.",
+        "vincular_consulta_interna_atual": false,
+        "percentual_reducao_bc": null,
+        "aliquota_nominal": null,
+        "cbenef": "GO812033",
+        "homologacao": false
+      }
+    ],
+    "demonstrabilidade": {
+      "fonte_normativa_revalidada": true,
+      "direito_em_operacao_concreta_comprovado": false,
+      "aplicacao_automatica": false
+    },
+    "homologacao": false,
+    "quadro_central_prazo": {
+      "tabela": 7,
+      "indice_linha_tabela_0base": 619,
+      "celulas": [
+        {
+          "text": "XLVII",
+          "paras": [
+            {
+              "class": "MsoNormal",
+              "text": "XLVII\n  "
+            }
+          ],
+          "attrs": {
+            "width": "157",
+            "nowrap": null,
+            "colspan": "3",
+            "valign": "top",
+            "style": "width:114.1pt;border:solid black 1.0pt;\n  mso-border-alt:solid black .75pt;background:white;padding:.75pt .75pt .75pt .75pt"
+          }
+        },
+        {
+          "text": "CV ICMS 19/06",
+          "paras": [
+            {
+              "class": "MsoNormal",
+              "text": "CV ICMS 19/06\n  "
+            }
+          ],
+          "attrs": {
+            "width": "220",
+            "nowrap": null,
+            "valign": "top",
+            "style": "width:162.3pt;border:solid black 1.0pt;\n  mso-border-alt:solid black .75pt;background:white;padding:.75pt .75pt .75pt .75pt"
+          }
+        },
+        {
+          "text": "31/12/26",
+          "paras": [
+            {
+              "class": "MsoNormal",
+              "text": "31/12/26\n  "
+            }
+          ],
+          "attrs": {
+            "width": "253",
+            "nowrap": null,
+            "colspan": "2",
+            "valign": "top",
+            "style": "width:185.9pt;border:solid black 1.0pt;\n  mso-border-alt:solid black .75pt;background:white;padding:.75pt .75pt .75pt .75pt"
+          }
+        }
+      ]
+    },
+    "propostas_condicionais": []
+  },
+  {
+    "id_pendencia": "OUTROS_225",
+    "status": "ENCERRADO_PRAZO_EXPIRADO",
+    "pendencia_generica_contexto_encerrada": true,
+    "data_referencia": "2026-10-28",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso LVI",
+    "fonte_principal_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+    "fonte_dispositivo_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A7LVI",
+    "trecho_legal": "LVI - a saída de computador portátil educacional, classificado nos códigos 8471.30.12, 8471.30.19 e 8471.30.90 da NBM/SH e kit completo para sua montagem, quando adquiridos no âmbito do Programa Nacional de Informática na Educação - ProInfo - em seu Projeto Especial Um Computador por Aluno - UCA -, do Ministério da Educação - MEC -, instituído pela Portaria nº 522, de 9 de abril de 1997, e do Programa Um Computador por Aluno - PROUCA e Regime Especial para Aquisição de Computadores para Uso Educacional - RECOMPE, instituídos pela Lei nº 12.249, de 11 de junho de 2010 e do Regime Especial de Incentivo a Computadores para uso Educacional - REICOMPE, instituído pela Medida Provisória nº 563, de 3 de abril de 2012, ficando mantido o crédito, observado o seguinte (Convênio ICMS 147/07, cláusulas primeira a terceira): (Redação conferida pelo Decreto nº 7.817 - vigência: 01.12.12)",
+    "fontes_primarias": [
+      "https://www.confaz.fazenda.gov.br/legislacao/convenios/2007/CV147_07",
+      "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_07817.htm"
+    ],
+    "vigencia": {
+      "inicio_texto_aplicavel": "2012-12-01",
+      "fim": "2020-12-31",
+      "situacao_na_referencia": "PRAZO_EXPIRADO",
+      "observacao": "Início da redação aplicável, não substitui datas de cada mercadoria/subitem; datas do registro proposto são conservadas separadamente.",
+      "fundamento_fim": {
+        "url": "https://www.confaz.fazenda.gov.br/legislacao/convenios/2007/CV147_07",
+        "trecho": "Prorrogado, até31.12.20, pelo Conv.ICMS101/20."
+      }
+    },
+    "cbenef": {
+      "codigo": null,
+      "quantidade_linhas_exatas": 0,
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Secretario/IN/IN_1518_2022.htm",
+      "linha": null,
+      "observacao": "O cadastro de cBenef não comprova prazo ou fruição; a validade decorre do dispositivo e do quadro central de prazos."
+    },
+    "fatos_confirmados": [
+      "O quadro central do art.7º, §1º, mantém data limite 2020-12-31; o Convênio remetido confirma a última prorrogação. Nenhuma proposta operacional atual é criada.",
+      "A permanência do texto do inciso ou de cBenef na tabela não reabre prazo expirado."
+    ],
+    "condicoes_operacionais": [],
+    "pendencias_residuais_especificas": [],
+    "tipo_beneficio": "ISENCAO",
+    "aliquota_nominal": null,
+    "percentual_reducao_bc": null,
+    "carga_efetiva": null,
+    "credito_outorgado_percentual": null,
+    "catalogo_tecnico": [
+      {
+        "classificacao": "HISTORICO_PRAZO_ENCERRADO",
+        "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso LVI",
+        "data_final": "2020-12-31",
+        "texto": "LVI - a saída de computador portátil educacional, classificado nos códigos 8471.30.12, 8471.30.19 e 8471.30.90 da NBM/SH e kit completo para sua montagem, quando adquiridos no âmbito do Programa Nacional de Informática na Educação - ProInfo - em seu Projeto Especial Um Computador por Aluno - UCA -, do Ministério da Educação - MEC -, instituído pela Portaria nº 522, de 9 de abril de 1997, e do Programa Um Computador por Aluno - PROUCA e Regime Especial para Aquisição de Computadores para Uso Educacional - RECOMPE, instituídos pela Lei nº 12.249, de 11 de junho de 2010 e do Regime Especial de Incentivo a Computadores para uso Educacional - REICOMPE, instituído pela Medida Provisória nº 563, de 3 de abril de 2012, ficando mantido o crédito, observado o seguinte (Convênio ICMS 147/07, cláusulas primeira a terceira): (Redação conferida pelo Decreto nº 7.817 - vigência: 01.12.12)",
+        "vincular_consulta_interna_atual": false
+      }
+    ],
+    "demonstrabilidade": {
+      "fonte_normativa_revalidada": true,
+      "direito_em_operacao_concreta_comprovado": false,
+      "aplicacao_automatica": false
+    },
+    "homologacao": false,
+    "quadro_central_prazo": {
+      "tabela": 7,
+      "indice_linha_tabela_0base": 723,
+      "celulas": [
+        {
+          "text": "LVI",
+          "paras": [
+            {
+              "class": "MsoNormal",
+              "text": "LVI\n  "
+            }
+          ],
+          "attrs": {
+            "width": "157",
+            "nowrap": null,
+            "colspan": "3",
+            "valign": "top",
+            "style": "width:114.1pt;border:solid black 1.0pt;\n  mso-border-alt:solid black .75pt;background:white;padding:.75pt .75pt .75pt .75pt"
+          }
+        },
+        {
+          "text": "CV ICMS 147/07",
+          "paras": [
+            {
+              "class": "MsoNormal",
+              "text": "CV ICMS 147/07\n  "
+            }
+          ],
+          "attrs": {
+            "width": "220",
+            "nowrap": null,
+            "valign": "top",
+            "style": "width:162.3pt;border:solid black 1.0pt;\n  mso-border-alt:solid black .75pt;background:white;padding:.75pt .75pt .75pt .75pt"
+          }
+        },
+        {
+          "text": "31/12/20",
+          "paras": [
+            {
+              "class": "MsoNormal",
+              "text": "31/12/20\n  "
+            }
+          ],
+          "attrs": {
+            "width": "253",
+            "nowrap": null,
+            "colspan": "2",
+            "valign": "top",
+            "style": "width:185.9pt;border:solid black 1.0pt;\n  mso-border-alt:solid black .75pt;background:white;padding:.75pt .75pt .75pt .75pt"
+          }
+        }
+      ],
+      "nao_usar_p_start_como_indice_do_dispositivo": true
+    },
+    "propostas_condicionais": []
+  },
+  {
+    "id_pendencia": "OUTROS_226",
+    "status": "ENCERRADO_FORA_ESCOPO_CATALOGO_TECNICO",
+    "pendencia_generica_contexto_encerrada": true,
+    "data_referencia": "2026-10-28",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 6, inciso XXXVIII",
+    "fonte_principal_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+    "fonte_dispositivo_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A6XXXVIII",
+    "trecho_legal": "XXXVIII - a entrada de máquina para limpar e selecionar fruta, classificadas nos códigos 8433.60.10 e 8433.60.90 da NBM/SH, sem similar produzido no País, quando importada diretamente do exterior para integração ao ativo imobilizado do contribuinte, para uso exclusivo na atividade do seu estabelecimento (Convênio ICMS 93/91);",
+    "fontes_primarias": [
+      "https://www.confaz.fazenda.gov.br/legislacao/convenios/1991/CV093_91",
+      "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_05002.htm"
+    ],
+    "vigencia": {
+      "inicio_texto_aplicavel": "1999-01-01",
+      "fim": null,
+      "situacao_na_referencia": "TEXTO_ATUAL_NO_CONSOLIDADO_OFICIAL_REVALIDADO",
+      "observacao": "Início da redação aplicável, não substitui datas de cada mercadoria/subitem; datas do registro proposto são conservadas separadamente."
+    },
+    "cbenef": {
+      "codigo": "GO811037",
+      "quantidade_linhas_exatas": 1,
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Secretario/IN/IN_1518_2022.htm",
+      "linha": [
+        "GO811037",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "SIM",
+        "SIM",
+        "SIM",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "RCTE, Anexo IX, Art 6º, Inciso XXXVIII",
+        "ISENÇÃO - Entrada de máquina para limpar e selecionar fruta, sem similar produzido no País, quando importada diretamente do exterior",
+        ""
+      ],
+      "observacao": "O cadastro de cBenef não comprova prazo ou fruição; a validade decorre do dispositivo e do quadro central de prazos."
+    },
+    "fatos_confirmados": [
+      "A hipótese legal está suficientemente identificada como operação fora do escopo da consulta de saída interna. Ausência de dados de uma operação concreta é condição de fruição, não pendência de descoberta do gênero."
+    ],
+    "condicoes_operacionais": [
+      "Importação direta de máquina para limpar/selecionar frutas, sem similar nacional, para ativoimobilizado e usoexclusivo no estabelecimento; atestado de similaridade pelo órgão/entidade competente. Convênio93/91 atual menciona apenas8433.60.90; divergência GO/Convênio deve ser preservada."
+    ],
+    "pendencias_residuais_especificas": [
+      {
+        "tipo": "DIVERGENCIA_CODIGO_AUTORIZACAO_CONFAZ_GO",
+        "codigo": "8433.60.10",
+        "observacao": "Não usar o inciso para presumir isenção deste código na importação; verificar alcance e eventual correlação antes de eventual escopo novo.",
+        "impede_encerramento_escopo_interno": false
+      }
+    ],
+    "tipo_beneficio": "ISENCAO",
+    "aliquota_nominal": null,
+    "percentual_reducao_bc": null,
+    "carga_efetiva": null,
+    "credito_outorgado_percentual": null,
+    "catalogo_tecnico": [
+      {
+        "classificacao": "IMPORTACAO_ATIVO_IMOBILIZADO",
+        "codigos_literais": [
+          "8433.60.10",
+          "8433.60.90"
+        ],
+        "condicoes": "Importação direta de máquina para limpar/selecionar frutas, sem similar nacional, para ativoimobilizado e usoexclusivo no estabelecimento; atestado de similaridade pelo órgão/entidade competente. Convênio93/91 atual menciona apenas8433.60.90; divergência GO/Convênio deve ser preservada.",
+        "vincular_consulta_interna_atual": false,
+        "percentual_reducao_bc": null,
+        "aliquota_nominal": null,
+        "cbenef": "GO811037",
+        "homologacao": false
+      }
+    ],
+    "demonstrabilidade": {
+      "fonte_normativa_revalidada": true,
+      "direito_em_operacao_concreta_comprovado": false,
+      "aplicacao_automatica": false
+    },
+    "homologacao": false,
+    "propostas_condicionais": []
+  },
+  {
+    "id_pendencia": "OUTROS_227",
+    "status": "ENCERRADO_FORA_ESCOPO_CATALOGO_TECNICO",
+    "pendencia_generica_contexto_encerrada": true,
+    "data_referencia": "2026-10-28",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 6, inciso XLVII",
+    "fonte_principal_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+    "fonte_dispositivo_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A6XLVII",
+    "trecho_legal": "XLVII - a entrada de trator agrícola de quatro rodas e de colheitadeira mecânica de algodão, classificados, respectivamente, nos códigos 8701.90.00 e 8433.59.1 da NBM/SH, sem similar produzido no País, adquiridos do exterior para integrar o ativo imobilizado do importador, para uso exclusivo na sua atividade agrícola, desde que contemplados com isenção ou alíquota reduzida a zero dos Impostos de Importação e sobre Produtos Industrializados (Convênio ICMS 77/93);",
+    "fontes_primarias": [
+      "https://www.confaz.fazenda.gov.br/legislacao/convenios/1993/CV077_93",
+      "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_05002.htm"
+    ],
+    "vigencia": {
+      "inicio_texto_aplicavel": "1999-01-01",
+      "fim": null,
+      "situacao_na_referencia": "TEXTO_ATUAL_NO_CONSOLIDADO_OFICIAL_REVALIDADO",
+      "observacao": "Início da redação aplicável, não substitui datas de cada mercadoria/subitem; datas do registro proposto são conservadas separadamente."
+    },
+    "cbenef": {
+      "codigo": "GO811046",
+      "quantidade_linhas_exatas": 1,
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Secretario/IN/IN_1518_2022.htm",
+      "linha": [
+        "GO811046",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "SIM",
+        "SIM",
+        "SIM",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "RCTE, Anexo IX, Art 6º, Inciso XLVII",
+        "ISENÇÃO - Entrada de trator agrícola de quatro rodas e de colheitadeira mecânica de algodão, sem similar produzido no País",
+        ""
+      ],
+      "observacao": "O cadastro de cBenef não comprova prazo ou fruição; a validade decorre do dispositivo e do quadro central de prazos."
+    },
+    "fatos_confirmados": [
+      "A hipótese legal está suficientemente identificada como operação fora do escopo da consulta de saída interna. Ausência de dados de uma operação concreta é condição de fruição, não pendência de descoberta do gênero."
+    ],
+    "condicoes_operacionais": [
+      "Trator agrícola de4rodas e colheitadeira mecânica de algodão, sem similar nacional, importados diretamente para ativoimobilizado e usoexclusivo agrícola, comII eIPI isentos/zero. Exige atestado; códigos antigos não se convertem por semelhança."
+    ],
+    "pendencias_residuais_especificas": [
+      {
+        "tipo": "CORRELACAO_APENAS_SE_HOUVER_EXPANSAO_A_IMPORTACAO",
+        "codigos": [
+          "8701.90.00",
+          "8433.59.1"
+        ],
+        "impede_encerramento_escopo_interno": false
+      }
+    ],
+    "tipo_beneficio": "ISENCAO",
+    "aliquota_nominal": null,
+    "percentual_reducao_bc": null,
+    "carga_efetiva": null,
+    "credito_outorgado_percentual": null,
+    "catalogo_tecnico": [
+      {
+        "classificacao": "IMPORTACAO_ATIVO_AGRICOLA",
+        "codigos_literais": [
+          "8701.90.00",
+          "8433.59.1"
+        ],
+        "condicoes": "Trator agrícola de4rodas e colheitadeira mecânica de algodão, sem similar nacional, importados diretamente para ativoimobilizado e usoexclusivo agrícola, comII eIPI isentos/zero. Exige atestado; códigos antigos não se convertem por semelhança.",
+        "vincular_consulta_interna_atual": false,
+        "percentual_reducao_bc": null,
+        "aliquota_nominal": null,
+        "cbenef": "GO811046",
+        "homologacao": false
+      }
+    ],
+    "demonstrabilidade": {
+      "fonte_normativa_revalidada": true,
+      "direito_em_operacao_concreta_comprovado": false,
+      "aplicacao_automatica": false
+    },
+    "homologacao": false,
+    "propostas_condicionais": []
+  },
+  {
+    "id_pendencia": "OUTROS_228",
+    "status": "CONCLUIDO_CANDIDATOS_CONDICIONAIS_RESTRITOS",
+    "pendencia_generica_contexto_encerrada": true,
+    "data_referencia": "2026-10-28",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 6, inciso L",
+    "fonte_principal_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+    "fonte_dispositivo_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A6L",
+    "trecho_legal": "L - as operações, a seguir enumeradas com respectivos produtos e códigos da NBM, desde que contemplados com isenção ou alíquota zero dos Impostos de Importação ou sobre Produtos Industrializados, ficando mantido o crédito (Convênio ICMS 10/02):",
+    "fontes_primarias": [
+      "https://www.confaz.fazenda.gov.br/legislacao/convenios/2002/CV010_02",
+      "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_05628.htm",
+      "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_10234.htm"
+    ],
+    "vigencia": {
+      "inicio_texto_aplicavel": "2002-04-08",
+      "fim": null,
+      "situacao_na_referencia": "TEXTO_ATUAL_NO_CONSOLIDADO_OFICIAL_REVALIDADO",
+      "observacao": "Início da redação aplicável, não substitui datas de cada mercadoria/subitem; datas do registro proposto são conservadas separadamente."
+    },
+    "cbenef": {
+      "codigo": "GO811049",
+      "quantidade_linhas_exatas": 1,
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Secretario/IN/IN_1518_2022.htm",
+      "linha": [
+        "GO811049",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "SIM",
+        "SIM",
+        "SIM",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "RCTE, Anexo IX, Art 6º, Inciso L",
+        "ISENÇÃO - Operações com produtos e medicamentos destinados ao tratamento de portadores do vírus da AIDS",
+        ""
+      ],
+      "observacao": "O cadastro de cBenef não comprova prazo ou fruição; a validade decorre do dispositivo e do quadro central de prazos."
+    },
+    "fatos_confirmados": [
+      "A alínea a disciplina recebimento por importador; a alínea b disciplina saídas interna e interestadual. Somente a rota interna da alínea b origina propostas aqui.",
+      "Todos os 21 NCM distintos literais da alínea b estão ativos no catálogo. A descrição específica do fármaco ou medicamento e as condições federais continuam obrigatórias.",
+      "O item 1.12, Entricitabina, é texto atual na classe PargrafoAlterador; não pode ser perdido por filtro restrito a ParNormal. O item 2.9 está revogado e é excluído."
+    ],
+    "condicoes_operacionais": [
+      "Saída interna de fármaco destinado à produção de medicamento humano para tratamento dos portadores do vírus da AIDS, ou de medicamento humano destinado a esse tratamento, exatamente conforme a composição e o subitem da alínea b. Comprovar isenção ou alíquota zero do Imposto de Importação ou do IPI para o produto. Fica mantido o crédito. A alínea a, relativa ao recebimento pelo importador, não fundamenta estas propostas internas."
+    ],
+    "pendencias_residuais_especificas": [],
+    "tipo_beneficio": "ISENCAO",
+    "aliquota_nominal": null,
+    "percentual_reducao_bc": null,
+    "carga_efetiva": null,
+    "credito_outorgado_percentual": null,
+    "catalogo_tecnico": [
+      {
+        "classificacao": "RECEBIMENTO_PELO_IMPORTADOR",
+        "subdispositivo": "alínea a, itens1 a3",
+        "vincular_consulta_interna_atual": false,
+        "observacao": "A lista detalhada da alínea a foi preservada nas evidências de origem e não foi convertida em saída interna."
+      }
+    ],
+    "demonstrabilidade": {
+      "fonte_normativa_revalidada": true,
+      "direito_em_operacao_concreta_comprovado": false,
+      "aplicacao_automatica": false
+    },
+    "homologacao": false,
+    "texto_legal_completo": "L - as operações, a seguir enumeradas com respectivos produtos e códigos da NBM, desde que contemplados com isenção ou alíquota zero dos Impostos de Importação ou sobre Produtos Industrializados, ficando mantido o crédito (Convênio ICMS 10/02):\nb) saídas interna e interestadual:\n1. dos fármacos destinados a produção de medicamentos de uso humano para o tratamento dos portadores do vírus da AIDS:\n1.1. Sulfato de Indinavir, 2924.29.99,\n1.2. Ganciclovir, 2933.59.49;\n1.3. Zidovudina, 2934.99.22;\n1.4. Didanosina, 2934.99.29;\n1.5. Estavudina, 2934.99.27;\n1.6. Lamivudina, 2934.99.93;\n1.7. Nevirapina, 2934.99.99;\n1.8. Efavirenz, 2933.99.99;\n1.9. Tenofovir, 2933.59.49;\n1.10. Etravirina, 2933.59.99;\n1.11. Sulfato de Atazanavir, 2933.39.99;\n1.12. Entricitabina, 2934.99.29;\n2. dos medicamentos de uso humano, destinados ao tratamento dos portadores do vírus da AIDS, a base de:\n2.1. Ritonavir, 3003.90.88, 3004.90.78;\n2.2. Zalcitabina, Didanosina, Estavudina, Delavirdina, Lamivudina, medicamento resultante da associação de Lopinavir e Ritonavir; 3003.90.99, 3004.90.99, 3003.90.69, 3004.90.59\n2.3. Saquinavir, Sulfato de Indinavir, Sulfato de Abacavir, 3003.90.78, 3004.90.68;\n2.4. Ziagenavir, 3003.90.79, 3004.90.69;\n2.5. Mesilato de nelfinavir, 3004.90.68 e 3003.90.78;\n2.6. Zidovudina - AZT e Nevirapina, 3004.90.79 e 3004.90.99;\n2.7. Darunavir, 3004.90.79;\n2.8. Fumarato de tenofovir desoproxila, 3003.90.78;\n2.9. Revogado;\n2.10. Enfurvitida - T - 20, 3004.90.68;\n2.11. Fosamprenavir, 3003.90.88 e 3004.90.78;\n2.12. Raltegravir, 3004.90.79;\n2.13.Tipranavir, 3004.90.79;\n2.14. Maraviroque,3004.90.69;\n2.15. Fumarato de Tenofovir Desoproxila e Entricitabina, 3004.90.68;",
+    "propostas_condicionais": [
+      {
+        "id_beneficio": "BEN_CONT13_20261028_228_29242999",
+        "chave_ncm": "29242999",
+        "tipo_beneficio": "ISENCAO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_228_29333999",
+        "chave_ncm": "29333999",
+        "tipo_beneficio": "ISENCAO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_228_29335949",
+        "chave_ncm": "29335949",
+        "tipo_beneficio": "ISENCAO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_228_29335999",
+        "chave_ncm": "29335999",
+        "tipo_beneficio": "ISENCAO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_228_29339999",
+        "chave_ncm": "29339999",
+        "tipo_beneficio": "ISENCAO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_228_29349922",
+        "chave_ncm": "29349922",
+        "tipo_beneficio": "ISENCAO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_228_29349927",
+        "chave_ncm": "29349927",
+        "tipo_beneficio": "ISENCAO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_228_29349929",
+        "chave_ncm": "29349929",
+        "tipo_beneficio": "ISENCAO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_228_29349993",
+        "chave_ncm": "29349993",
+        "tipo_beneficio": "ISENCAO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_228_29349999",
+        "chave_ncm": "29349999",
+        "tipo_beneficio": "ISENCAO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_228_30039069",
+        "chave_ncm": "30039069",
+        "tipo_beneficio": "ISENCAO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_228_30039078",
+        "chave_ncm": "30039078",
+        "tipo_beneficio": "ISENCAO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_228_30039079",
+        "chave_ncm": "30039079",
+        "tipo_beneficio": "ISENCAO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_228_30039088",
+        "chave_ncm": "30039088",
+        "tipo_beneficio": "ISENCAO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_228_30039099",
+        "chave_ncm": "30039099",
+        "tipo_beneficio": "ISENCAO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_228_30049059",
+        "chave_ncm": "30049059",
+        "tipo_beneficio": "ISENCAO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_228_30049068",
+        "chave_ncm": "30049068",
+        "tipo_beneficio": "ISENCAO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_228_30049069",
+        "chave_ncm": "30049069",
+        "tipo_beneficio": "ISENCAO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_228_30049078",
+        "chave_ncm": "30049078",
+        "tipo_beneficio": "ISENCAO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_228_30049079",
+        "chave_ncm": "30049079",
+        "tipo_beneficio": "ISENCAO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_228_30049099",
+        "chave_ncm": "30049099",
+        "tipo_beneficio": "ISENCAO"
+      }
+    ]
+  },
+  {
+    "id_pendencia": "OUTROS_229",
+    "status": "CONCLUIDO_PARCIAL_LITERAL_ATIVO_CORRELACAO_RESIDUAL",
+    "pendencia_generica_contexto_encerrada": true,
+    "data_referencia": "2026-10-28",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 6, inciso CXXXVI",
+    "fonte_principal_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+    "fonte_dispositivo_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A6CXXXVI",
+    "trecho_legal": "CXXXVI - a operação realizada pela Empresa Brasileira de Hemoderivados e Biotecnologia - Hemobrás - com fármaco e medicamento derivado do plasma humano coletado nos hemocentros de todo o país, relacionados no Apêndice XXXVI deste Anexo, desde que (Convênio ICMS 103/11):",
+    "fontes_primarias": [
+      "https://www.confaz.fazenda.gov.br/legislacao/convenios/2011/CV103_11",
+      "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_07569.htm",
+      "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_07945.htm"
+    ],
+    "vigencia": {
+      "inicio_texto_aplicavel": "2011-10-21",
+      "fim": null,
+      "situacao_na_referencia": "TEXTO_ATUAL_NO_CONSOLIDADO_OFICIAL_REVALIDADO",
+      "observacao": "Início da redação aplicável, não substitui datas de cada mercadoria/subitem; datas do registro proposto são conservadas separadamente."
+    },
+    "cbenef": {
+      "codigo": "GO811122",
+      "quantidade_linhas_exatas": 1,
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Secretario/IN/IN_1518_2022.htm",
+      "linha": [
+        "GO811122",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "SIM",
+        "SIM",
+        "SIM",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "RCTE, Anexo IX, Art 6º, Inciso CXXXVI",
+        "ISENÇÃO - Operação realizada pela Empresa Brasileira de Hemoderivados e Biotecnologia - Hemobrás - com fármaco e medicamento derivado do plasma humano",
+        ""
+      ],
+      "observacao": "O cadastro de cBenef não comprova prazo ou fruição; a validade decorre do dispositivo e do quadro central de prazos."
+    },
+    "fatos_confirmados": [
+      "3504.00.90 permanece ativo e aparece nos nove itens de fármacos do Apêndice XXXVI. O benefício não se estende às demais matérias proteicas do código.",
+      "3002.10.37 e 3002.10.39 não são ativos no catálogo atual e não são convertidos sem cadeia oficial.",
+      "O subtítulo do Apêndice XXXVI refere CXXXII, mas o caput expresso do art. 6º, CXXXVI remete a esse apêndice e o Convênio 103/11 confirma as mercadorias. A inconsistência editorial é registrada.",
+      "A cláusula primeira-A acrescida pelo Convênio 142/24 autoriza Pernambuco e não é adotada como benefício interno de Goiás."
+    ],
+    "condicoes_operacionais": [
+      "Operação interna realizada pela Empresa Brasileira de Hemoderivados e Biotecnologia — Hemobrás, com fármaco derivado do plasma humano coletado nos hemocentros de todo o Brasil, exatamente relacionado no Apêndice XXXVI. Comprovar isenção ou alíquota zero do Imposto de Importação ou do IPI para o produto e desoneração de PIS/PASEP e COFINS sobre a parcela da receita bruta decorrente da operação. Não se aplica aos demais produtos proteicos de 3504.00.90 nem a operações de outro remetente."
+    ],
+    "pendencias_residuais_especificas": [
+      {
+        "tipo": "CADEIA_CORRELACAO_MEDICAMENTOS_APXXXVI",
+        "codigos": [
+          "3002.10.37",
+          "3002.10.39"
+        ],
+        "alcance": "Somente9apresentações descritas no ApêndiceXXXVI; não afeta a proposta literal3504.00.90."
+      }
+    ],
+    "tipo_beneficio": "ISENCAO",
+    "aliquota_nominal": null,
+    "percentual_reducao_bc": null,
+    "carga_efetiva": null,
+    "credito_outorgado_percentual": null,
+    "catalogo_tecnico": [],
+    "demonstrabilidade": {
+      "fonte_normativa_revalidada": true,
+      "direito_em_operacao_concreta_comprovado": false,
+      "aplicacao_automatica": false
+    },
+    "homologacao": false,
+    "texto_legal_completo": "CXXXVI - a operação realizada pela Empresa Brasileira de Hemoderivados e Biotecnologia - Hemobrás - com fármaco e medicamento derivado do plasma humano coletado nos hemocentros de todo o país, relacionados no Apêndice XXXVI deste Anexo, desde que (Convênio ICMS 103/11):\na) o fármaco e o medicamento estejam beneficiados com isenção ou alíquota zero dos Impostos de Importação ou sobre Produtos Industrializados;\nb) a parcela relativa à receita bruta decorrente da operação prevista neste inciso esteja desonerada das contribuições do PIS/PASEP e COFINS;\nApêndice XXXVI — fármacos relacionados:\nItem I: Albumina Humana — 3504.00.90\nItem II: Concentrado de Fator IX — 3504.00.90\nItem III: Concentrado de Fator VIII — 3504.00.90\nItem IV: Concentrado de Fator VIII — 3504.00.90\nItem V: Concentrado de Fator VIII — 3504.00.90\nItem VI: Concentrado de Fator de Von Willebrand — 3504.00.90\nItem VII: Concentrado de Fator VIII (Redação acrescida pelo Decreto nº 7945 - vigência: 08.01.13) — 3504.00.90\nItem VIII: Concentrado de Fator VIII (Redação acrescida pelo Decreto nº 7945 - vigência: 08.01.13) — 3504.00.90\nItem IX: Concentrado de Fator VIII (Redação acrescida pelo Decreto nº 7945 - vigência: 08.01.13) — 3504.00.90",
+    "propostas_condicionais": [
+      {
+        "id_beneficio": "BEN_CONT13_20261028_229_35040090",
+        "chave_ncm": "35040090",
+        "tipo_beneficio": "ISENCAO"
+      }
+    ]
+  },
+  {
+    "id_pendencia": "OUTROS_230",
+    "status": "CONCLUIDO_PARCIAL_SAIDA_INTERNA_COM_CORRELACOES_RESIDUAIS",
+    "pendencia_generica_contexto_encerrada": true,
+    "data_referencia": "2026-10-28",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 8, inciso XXV",
+    "fonte_principal_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+    "fonte_dispositivo_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A8XXV",
+    "trecho_legal": "XXV - no valor equivalente à aplicação, conforme o caso, do percentual previsto na alínea \"a\" sobre o valor da operação com os produtos classificados nas posições 30.01, 30.03, exceto no código 3003.90.56, 30.04, exceto no código 3004.90.46 e 3303.00 a 33.07, nos itens 3002.10.1, 3002.10.2, 3002.10.3, 3002.20.1, 3002.20.2, 3006.30.1 e 3006.30.2 e nos códigos 3002.90.20, 3002.90.92, 3002.90.99, 3005.10.10, 3006.60.00, 3401.11.90, 3401.20.10 e 9603.21.00, todos da NBM/SH, praticada pelo industrial ou importador com destino a contribuinte, ficando mantido o crédito e observado o seguinte (Convênio ICMS 34/06, cláusula primeira, caput e cláusula segunda):",
+    "fontes_primarias": [
+      "https://www.confaz.fazenda.gov.br/legislacao/convenios/2006/CV034_06",
+      "https://www.confaz.fazenda.gov.br/legislacao/convenios/2026/CV088_26",
+      "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_06551.htm"
+    ],
+    "vigencia": {
+      "inicio_texto_aplicavel": "2006-07-31",
+      "fim": "2026-12-31",
+      "situacao_na_referencia": "TEXTO_ATUAL_NO_CONSOLIDADO_OFICIAL_REVALIDADO",
+      "observacao": "Início da redação aplicável, não substitui datas de cada mercadoria/subitem; datas do registro proposto são conservadas separadamente.",
+      "fundamento_inicio": {
+        "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_06551.htm",
+        "dispositivo": "art.6º II c",
+        "trecho": "31 de julho de2006, quanto ao incisoXXV do caput doart.8º doAnexoIX."
+      },
+      "fundamento_fim": {
+        "url": "https://www.confaz.fazenda.gov.br/legislacao/convenios/2026/CV088_26",
+        "dispositivo": "cláusula primeira",
+        "trecho": "produzindo efeitos até31 de dezembro de2026"
+      }
+    },
+    "cbenef": {
+      "codigo": "GO821013",
+      "quantidade_linhas_exatas": 1,
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Secretario/IN/IN_1518_2022.htm",
+      "linha": [
+        "GO821013",
+        "",
+        "",
+        "",
+        "",
+        "SIM",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "SIM",
+        "",
+        "RCTE, Anexo IX, Art 8º, Inciso XXV",
+        "REDUÇÃO DE BASE DE CÁLCULO - Operação com os produtos relacionados no Convênio ICMS 34/06, praticada pelo industrial ou importador com destino a contribuinte",
+        ""
+      ],
+      "observacao": "O cadastro de cBenef não comprova prazo ou fruição; a validade decorre do dispositivo e do quadro central de prazos."
+    },
+    "fatos_confirmados": [
+      "Rota interna farmacêutica: redução de base de cálculo de 10,52%; perfumaria, toucador e higiene: 11,15%. Não são alíquotas nominais nem cargas finais. Fica mantido o crédito.",
+      "O remetente deve ser industrial ou importador e o destinatário contribuinte. Exclusões de PIS/COFINS e condições do compromisso ou regime federal podem afastar a redução. A cumulação com o art. 8º, VIII é expressa e exige verificação específica.",
+      "O Convênio 88/26 limita os efeitos do Convênio 34/06 a 31/12/2026. Nenhum percentual interestadual é cadastrado como operação interna.",
+      "As posições legais ativas e os códigos literais ativos podem ser cobertos de modo condicional sem converter os antigos códigos 3002. Não são propostos todos os produtos por simples semelhança terapêutica."
+    ],
+    "condicoes_operacionais": [
+      "Saída INTERNA realizada por industrial ou importador com destino a contribuinte, com produto da categoria e da classificação legal. A redução da base de cálculo exclui o valor de PIS/PASEP e COFINS referente às operações subsequentes cobrado englobadamente na operação; comprovar esse enquadramento. Para produtos farmacêuticos, observar as exclusões da alínea b: não aplicar nas hipóteses nela previstas de compromisso de ajustamento de conduta firmado com a União ou preenchimento dos requisitos da Lei 10.213/2001; também não aplicar quando o produto estiver excluído da incidência de PIS/PASEP e COFINS na forma do § 2º do art. 1º da Lei 10.147/2000. O documento fiscal deve identificar o NCM e, para medicamentos, o lote de fabricação. Nas informações complementares, indicar o regime especial federal quando existente, a declaração exigida sobre a Lei 10.213/2001 quando cabível, ou a expressão legal de base de cálculo com redução do PIS/PASEP e da COFINS, conforme a alínea c. Quando houver compromisso/regime federal referido em c.2.1, comprovar o repasse mediante a repercussão nos preços da redução da carga tributária prevista no art. 3º da Lei 10.147/2000; essa documentação não afasta uma exclusão da alínea b. Fica mantido o crédito. Os subitens a.1.2 e a.2.2 autorizam expressamente a cumulação com a redução de base prevista no art. 8º, VIII; somente cumular após comprovar, separadamente, as condições de ambas as regras e o procedimento de cálculo aplicável. Os percentuais de 10,52% e 11,15% são redução de base, não alíquota nominal nem carga final."
+    ],
+    "pendencias_residuais_especificas": [
+      {
+        "tipo": "CORRELACAO_CODIGOS_LEGADOS_SOMENTE_PARCELA_3002",
+        "codigos": [
+          "3002.10.1",
+          "3002.10.2",
+          "3002.10.3",
+          "3002.20.1",
+          "3002.20.2",
+          "3002.90.20",
+          "3002.90.92",
+          "3002.90.99"
+        ],
+        "observacao": "Requer cadeias históricas e delimitação do alcance. Os348candidatos por posições/literais ativos independem dessa ampliação."
+      }
+    ],
+    "tipo_beneficio": "REDUCAO_BASE_CALCULO",
+    "aliquota_nominal": null,
+    "percentual_reducao_bc": null,
+    "carga_efetiva": null,
+    "credito_outorgado_percentual": null,
+    "catalogo_tecnico": [],
+    "demonstrabilidade": {
+      "fonte_normativa_revalidada": true,
+      "direito_em_operacao_concreta_comprovado": false,
+      "aplicacao_automatica": false
+    },
+    "homologacao": false,
+    "opcoes_percentuais": [
+      {
+        "rota": "interna farmacêutica",
+        "percentual_reducao_bc": 10.52,
+        "carga_efetiva": null,
+        "aliquota_nominal": null
+      },
+      {
+        "rota": "interna perfumaria/toucador/higiene",
+        "percentual_reducao_bc": 11.15,
+        "carga_efetiva": null,
+        "aliquota_nominal": null
+      }
+    ],
+    "texto_legal_completo": "XXV - no valor equivalente à aplicação, conforme o caso, do percentual previsto na alínea \"a\" sobre o valor da operação com os produtos classificados nas posições 30.01, 30.03, exceto no código 3003.90.56, 30.04, exceto no código 3004.90.46 e 3303.00 a 33.07, nos itens 3002.10.1, 3002.10.2, 3002.10.3, 3002.20.1, 3002.20.2, 3006.30.1 e 3006.30.2 e nos códigos 3002.90.20, 3002.90.92, 3002.90.99, 3005.10.10, 3006.60.00, 3401.11.90, 3401.20.10 e 9603.21.00, todos da NBM/SH, praticada pelo industrial ou importador com destino a contribuinte, ficando mantido o crédito e observado o seguinte (Convênio ICMS 34/06, cláusula primeira, caput e cláusula segunda):\na) o percentual de redução da base de cálculo, que tem por fim excluir o valor das contribuições para o PIS/PASEP e para a COFINS referente às operações subseqüentes cobradas englobadamente na operação, é:\n1. com produto farmacêutico classificado nas posições 30.01, 30.03, exceto no código 3003.90.56, 30.04, exceto no código 3004.90.46, nos itens 3002.10.1, 3002.10.2, 3002.10.3, 3002.20.1, 3002.20.2, 3006.30.1 e 3006.30.2 e nos códigos 3002.90.20, 3002.90.92, 3002.90.99, 3005.10.10, 3006.60.00:\n1.1 interestadual - 9,90% (nove inteiros e noventa centésimos por cento), cumulável com o crédito outorgado previsto no inciso III do art. 11 deste anexo, sendo que nesta hipótese o percentual deve incidir sobre a base de cálculo reduzida;\n1.2. interna - 10,52% (dez inteiros e cinqüenta e dois centésimos por cento), cumulável com a redução da base de cálculo prevista no inciso VIII do caput deste artigo (Convênio ICMS 34/06, cláusula segunda);\n1.3. interestadual sujeita à alíquota de 4% (quatro por cento), nos termos da alínea \"b\" do inciso III do art. 20 deste Regulamento - 9,04% (nove inteiros e quatro centésimos por cento) (Redação acrescida pelo Decreto nº 7.988 - vigência: 30.04.13)\n2. com produto de perfumaria, de toucador ou de higiene pessoal classificado nas posições 33.03 a 33.07 e nos códigos 3401.11.90, 3401.20.10 e 96.03.21.00:\n2.1. interestadual - 10,49% (dez inteiros e quarenta e nove centésimos por cento) acumulável com o crédito outorgado previsto no inciso III do art. 11 deste anexo, sendo que nesta hipótese o percentual deve incidir sobre a base de cálculo reduzida;\n2.2. interna - 11,15% (onze inteiros e quinze centésimos por cento), cumulável com a redução da base de cálculo prevista no inciso VIII do caput deste artigo (Convênio ICMS 34/06, cláusula segunda);\n2.3. interestadual sujeita à alíquota de 4% (quatro por cento), nos termos da alínea \"b\" do inciso III do art. 20 deste Regulamento - 9,59% (nove inteiros e cinquenta e nove centésimos por cento); (Redação conferida pelo Decreto nº 7.988 - vigência: 30.04.13)\nb) não se aplicam as reduções previstas na alínea \"a\" (Convênio ICMS 34/06, cláusula primeira, § 2º):\n1. na operação realizada com produto classificado na posição 3003, exceto no código 3003.90.56, nos itens 3002.10.1, 3002.10.2, 3002.10.3, 3002.20.1, 3002.20.2, 3006.30.1 e 3006.30.2 e nos códigos 3001.20.90, 3001.90.10, 3001.90.90, 3002.90.20, 3002.90.92, 3002.90.99, 3005.10.10 e 3006.60.00, todos da NBM/SH, tributados na forma do inciso I do art. 1º da Lei n°10.147/00 e na posição 3004, exceto no código 3004.90.46 da NBM/SH, quando o industrial ou o importador do mesmo tenha firmado com a União, \"Compromisso de Ajustamento de Conduta, nos termos do § 6º do art. 5º da Lei n°. 7.347, de 24 de julho de 1985\", ou que tenha preenchido os requisitos constantes da Lei n° 10.213, de 27 de março de 2001;\n2. quando ocorrer a exclusão do produto da incidência das contribuições para o PIS/PASEP e para a COFINS, para os produtos farmacêuticos classificados nas posições 30.01, 30.03, exceto no código 3003.90.56, 30.04, exceto no código 3004.90.46, nos itens 3002.10.1, 3002.10.2, 3002.10.3, 3002.20.1, 3002.20.2, 3006.30.1 e 3006.30.2 e nos códigos 3002.90.20, 3002.90.92, 3002.90.99, 3005.10.10, 3006.60.00, na forma do § 2° do art. 1º da Lei nº 10.147/00;\nc) o documento fiscal que acobertar as operações indicadas no caput deve, além das demais indicações previstas na legislação tributária (Convênio ICMS 34/06, cláusula quarta):\n1. conter a identificação do produto pelo respectivo código da NBM/SH e, em relação ao medicamento, a indicação, também, do número do lote de fabricação;\n2. constar no campo \"Informações Complementares\":\n2.1. se existir, o número do regime especial celebrado para utilização de crédito presumido das contribuições para o PIS/PASEP e para a COFINS pelo industrial ou pelo importador do produto classificado na posição 3003, exceto no código 3003.90.56, nos itens 3002.10.1, 3002.10.2, 3002.10.3, 3002.20.1, 3002.20.2, 3006.30.1 e 3006.30.2 e nos códigos 3001.20.90, 3001.90.10, 3001.90.90, 3002.90.20, 3002.90.92, 3002.90.99, 3005.10.10 e 3006.60.00, todos da NBM/SH, tributados na forma do inciso I do art. 1º da Lei n°10.147/00 e na posição 3004, exceto no código 3004.90.46 da NBM/SH, que tenham firmado, com a União, \"Compromisso de Ajustamento de Conduta, nos termos do § 6° do art. 5° da Lei n° 7.347, de 24 de julho de 1985\", visando assegurar a repercussão nos preços da redução da carga tributária em virtude do disposto no art. 3° da Lei n°10.147/00;\n2.2. se o industrial ou importador preencher os requisitos constantes da Lei n°10.213/01, a expressão: \"o remetente preenche os requisitos constantes da Lei n°10.213/01\";\n2.3. nos demais casos, a expressão \"Base de cálculo com redução do PIS/PASEP e da COFINS nos termos do inciso XXV do Anexo IX do art. 8° do RCTE e do Convênio ICMS 34/06\";",
+    "propostas_condicionais": [
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30012010",
+        "chave_ncm": "30012010",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30012090",
+        "chave_ncm": "30012090",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30019010",
+        "chave_ncm": "30019010",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30019020",
+        "chave_ncm": "30019020",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30019031",
+        "chave_ncm": "30019031",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30019039",
+        "chave_ncm": "30019039",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30019090",
+        "chave_ncm": "30019090",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30031011",
+        "chave_ncm": "30031011",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30031012",
+        "chave_ncm": "30031012",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30031013",
+        "chave_ncm": "30031013",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30031014",
+        "chave_ncm": "30031014",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30031015",
+        "chave_ncm": "30031015",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30031019",
+        "chave_ncm": "30031019",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30031020",
+        "chave_ncm": "30031020",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30032011",
+        "chave_ncm": "30032011",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30032019",
+        "chave_ncm": "30032019",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30032021",
+        "chave_ncm": "30032021",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30032029",
+        "chave_ncm": "30032029",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30032031",
+        "chave_ncm": "30032031",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30032032",
+        "chave_ncm": "30032032",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30032039",
+        "chave_ncm": "30032039",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30032041",
+        "chave_ncm": "30032041",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30032049",
+        "chave_ncm": "30032049",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30032051",
+        "chave_ncm": "30032051",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30032052",
+        "chave_ncm": "30032052",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30032059",
+        "chave_ncm": "30032059",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30032061",
+        "chave_ncm": "30032061",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30032062",
+        "chave_ncm": "30032062",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30032063",
+        "chave_ncm": "30032063",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30032069",
+        "chave_ncm": "30032069",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30032071",
+        "chave_ncm": "30032071",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30032072",
+        "chave_ncm": "30032072",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30032073",
+        "chave_ncm": "30032073",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30032079",
+        "chave_ncm": "30032079",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30032091",
+        "chave_ncm": "30032091",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30032092",
+        "chave_ncm": "30032092",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30032093",
+        "chave_ncm": "30032093",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30032094",
+        "chave_ncm": "30032094",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30032095",
+        "chave_ncm": "30032095",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30032099",
+        "chave_ncm": "30032099",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30033100",
+        "chave_ncm": "30033100",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30033911",
+        "chave_ncm": "30033911",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30033912",
+        "chave_ncm": "30033912",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30033913",
+        "chave_ncm": "30033913",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30033914",
+        "chave_ncm": "30033914",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30033915",
+        "chave_ncm": "30033915",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30033916",
+        "chave_ncm": "30033916",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30033917",
+        "chave_ncm": "30033917",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30033918",
+        "chave_ncm": "30033918",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30033919",
+        "chave_ncm": "30033919",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30033921",
+        "chave_ncm": "30033921",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30033922",
+        "chave_ncm": "30033922",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30033923",
+        "chave_ncm": "30033923",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30033924",
+        "chave_ncm": "30033924",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30033925",
+        "chave_ncm": "30033925",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30033926",
+        "chave_ncm": "30033926",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30033927",
+        "chave_ncm": "30033927",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30033929",
+        "chave_ncm": "30033929",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30033931",
+        "chave_ncm": "30033931",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30033932",
+        "chave_ncm": "30033932",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30033933",
+        "chave_ncm": "30033933",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30033934",
+        "chave_ncm": "30033934",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30033935",
+        "chave_ncm": "30033935",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30033936",
+        "chave_ncm": "30033936",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30033937",
+        "chave_ncm": "30033937",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30033939",
+        "chave_ncm": "30033939",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30033981",
+        "chave_ncm": "30033981",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30033982",
+        "chave_ncm": "30033982",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30033991",
+        "chave_ncm": "30033991",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30033992",
+        "chave_ncm": "30033992",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30033994",
+        "chave_ncm": "30033994",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30033995",
+        "chave_ncm": "30033995",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30033999",
+        "chave_ncm": "30033999",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30034100",
+        "chave_ncm": "30034100",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30034200",
+        "chave_ncm": "30034200",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30034300",
+        "chave_ncm": "30034300",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30034910",
+        "chave_ncm": "30034910",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30034920",
+        "chave_ncm": "30034920",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30034930",
+        "chave_ncm": "30034930",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30034940",
+        "chave_ncm": "30034940",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30034950",
+        "chave_ncm": "30034950",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30034990",
+        "chave_ncm": "30034990",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30036000",
+        "chave_ncm": "30036000",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039011",
+        "chave_ncm": "30039011",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039012",
+        "chave_ncm": "30039012",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039013",
+        "chave_ncm": "30039013",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039014",
+        "chave_ncm": "30039014",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039015",
+        "chave_ncm": "30039015",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039016",
+        "chave_ncm": "30039016",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039017",
+        "chave_ncm": "30039017",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039019",
+        "chave_ncm": "30039019",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039021",
+        "chave_ncm": "30039021",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039022",
+        "chave_ncm": "30039022",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039023",
+        "chave_ncm": "30039023",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039024",
+        "chave_ncm": "30039024",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039025",
+        "chave_ncm": "30039025",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039029",
+        "chave_ncm": "30039029",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039031",
+        "chave_ncm": "30039031",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039032",
+        "chave_ncm": "30039032",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039033",
+        "chave_ncm": "30039033",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039034",
+        "chave_ncm": "30039034",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039035",
+        "chave_ncm": "30039035",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039036",
+        "chave_ncm": "30039036",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039037",
+        "chave_ncm": "30039037",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039038",
+        "chave_ncm": "30039038",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039039",
+        "chave_ncm": "30039039",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039041",
+        "chave_ncm": "30039041",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039042",
+        "chave_ncm": "30039042",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039043",
+        "chave_ncm": "30039043",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039044",
+        "chave_ncm": "30039044",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039045",
+        "chave_ncm": "30039045",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039046",
+        "chave_ncm": "30039046",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039047",
+        "chave_ncm": "30039047",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039048",
+        "chave_ncm": "30039048",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039049",
+        "chave_ncm": "30039049",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039051",
+        "chave_ncm": "30039051",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039052",
+        "chave_ncm": "30039052",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039053",
+        "chave_ncm": "30039053",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039054",
+        "chave_ncm": "30039054",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039055",
+        "chave_ncm": "30039055",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039057",
+        "chave_ncm": "30039057",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039058",
+        "chave_ncm": "30039058",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039059",
+        "chave_ncm": "30039059",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039061",
+        "chave_ncm": "30039061",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039062",
+        "chave_ncm": "30039062",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039063",
+        "chave_ncm": "30039063",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039064",
+        "chave_ncm": "30039064",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039065",
+        "chave_ncm": "30039065",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039066",
+        "chave_ncm": "30039066",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039067",
+        "chave_ncm": "30039067",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039069",
+        "chave_ncm": "30039069",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039071",
+        "chave_ncm": "30039071",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039072",
+        "chave_ncm": "30039072",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039073",
+        "chave_ncm": "30039073",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039074",
+        "chave_ncm": "30039074",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039075",
+        "chave_ncm": "30039075",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039076",
+        "chave_ncm": "30039076",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039077",
+        "chave_ncm": "30039077",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039078",
+        "chave_ncm": "30039078",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039079",
+        "chave_ncm": "30039079",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039081",
+        "chave_ncm": "30039081",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039082",
+        "chave_ncm": "30039082",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039083",
+        "chave_ncm": "30039083",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039084",
+        "chave_ncm": "30039084",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039085",
+        "chave_ncm": "30039085",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039086",
+        "chave_ncm": "30039086",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039087",
+        "chave_ncm": "30039087",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039088",
+        "chave_ncm": "30039088",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039089",
+        "chave_ncm": "30039089",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039091",
+        "chave_ncm": "30039091",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039092",
+        "chave_ncm": "30039092",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039093",
+        "chave_ncm": "30039093",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039094",
+        "chave_ncm": "30039094",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039095",
+        "chave_ncm": "30039095",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039096",
+        "chave_ncm": "30039096",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039097",
+        "chave_ncm": "30039097",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30039099",
+        "chave_ncm": "30039099",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30041011",
+        "chave_ncm": "30041011",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30041012",
+        "chave_ncm": "30041012",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30041013",
+        "chave_ncm": "30041013",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30041014",
+        "chave_ncm": "30041014",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30041015",
+        "chave_ncm": "30041015",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30041019",
+        "chave_ncm": "30041019",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30041020",
+        "chave_ncm": "30041020",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30042011",
+        "chave_ncm": "30042011",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30042019",
+        "chave_ncm": "30042019",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30042021",
+        "chave_ncm": "30042021",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30042029",
+        "chave_ncm": "30042029",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30042031",
+        "chave_ncm": "30042031",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30042032",
+        "chave_ncm": "30042032",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30042039",
+        "chave_ncm": "30042039",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30042041",
+        "chave_ncm": "30042041",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30042049",
+        "chave_ncm": "30042049",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30042051",
+        "chave_ncm": "30042051",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30042052",
+        "chave_ncm": "30042052",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30042059",
+        "chave_ncm": "30042059",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30042061",
+        "chave_ncm": "30042061",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30042062",
+        "chave_ncm": "30042062",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30042063",
+        "chave_ncm": "30042063",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30042069",
+        "chave_ncm": "30042069",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30042071",
+        "chave_ncm": "30042071",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30042072",
+        "chave_ncm": "30042072",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30042073",
+        "chave_ncm": "30042073",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30042079",
+        "chave_ncm": "30042079",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30042091",
+        "chave_ncm": "30042091",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30042092",
+        "chave_ncm": "30042092",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30042093",
+        "chave_ncm": "30042093",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30042094",
+        "chave_ncm": "30042094",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30042095",
+        "chave_ncm": "30042095",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30042099",
+        "chave_ncm": "30042099",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043100",
+        "chave_ncm": "30043100",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043210",
+        "chave_ncm": "30043210",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043220",
+        "chave_ncm": "30043220",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043290",
+        "chave_ncm": "30043290",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043911",
+        "chave_ncm": "30043911",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043912",
+        "chave_ncm": "30043912",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043913",
+        "chave_ncm": "30043913",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043914",
+        "chave_ncm": "30043914",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043915",
+        "chave_ncm": "30043915",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043916",
+        "chave_ncm": "30043916",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043917",
+        "chave_ncm": "30043917",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043918",
+        "chave_ncm": "30043918",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043919",
+        "chave_ncm": "30043919",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043921",
+        "chave_ncm": "30043921",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043922",
+        "chave_ncm": "30043922",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043923",
+        "chave_ncm": "30043923",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043924",
+        "chave_ncm": "30043924",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043925",
+        "chave_ncm": "30043925",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043926",
+        "chave_ncm": "30043926",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043927",
+        "chave_ncm": "30043927",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043928",
+        "chave_ncm": "30043928",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043929",
+        "chave_ncm": "30043929",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043931",
+        "chave_ncm": "30043931",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043932",
+        "chave_ncm": "30043932",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043933",
+        "chave_ncm": "30043933",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043934",
+        "chave_ncm": "30043934",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043935",
+        "chave_ncm": "30043935",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043936",
+        "chave_ncm": "30043936",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043937",
+        "chave_ncm": "30043937",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043939",
+        "chave_ncm": "30043939",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043981",
+        "chave_ncm": "30043981",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043982",
+        "chave_ncm": "30043982",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043991",
+        "chave_ncm": "30043991",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043992",
+        "chave_ncm": "30043992",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043994",
+        "chave_ncm": "30043994",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30043999",
+        "chave_ncm": "30043999",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30044100",
+        "chave_ncm": "30044100",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30044200",
+        "chave_ncm": "30044200",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30044300",
+        "chave_ncm": "30044300",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30044910",
+        "chave_ncm": "30044910",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30044920",
+        "chave_ncm": "30044920",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30044930",
+        "chave_ncm": "30044930",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30044940",
+        "chave_ncm": "30044940",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30044950",
+        "chave_ncm": "30044950",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30044990",
+        "chave_ncm": "30044990",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30045010",
+        "chave_ncm": "30045010",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30045020",
+        "chave_ncm": "30045020",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30045030",
+        "chave_ncm": "30045030",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30045040",
+        "chave_ncm": "30045040",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30045050",
+        "chave_ncm": "30045050",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30045060",
+        "chave_ncm": "30045060",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30045090",
+        "chave_ncm": "30045090",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30046000",
+        "chave_ncm": "30046000",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049011",
+        "chave_ncm": "30049011",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049012",
+        "chave_ncm": "30049012",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049013",
+        "chave_ncm": "30049013",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049014",
+        "chave_ncm": "30049014",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049015",
+        "chave_ncm": "30049015",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049019",
+        "chave_ncm": "30049019",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049021",
+        "chave_ncm": "30049021",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049022",
+        "chave_ncm": "30049022",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049023",
+        "chave_ncm": "30049023",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049024",
+        "chave_ncm": "30049024",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049025",
+        "chave_ncm": "30049025",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049026",
+        "chave_ncm": "30049026",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049027",
+        "chave_ncm": "30049027",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049028",
+        "chave_ncm": "30049028",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049029",
+        "chave_ncm": "30049029",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049031",
+        "chave_ncm": "30049031",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049032",
+        "chave_ncm": "30049032",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049033",
+        "chave_ncm": "30049033",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049034",
+        "chave_ncm": "30049034",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049035",
+        "chave_ncm": "30049035",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049036",
+        "chave_ncm": "30049036",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049037",
+        "chave_ncm": "30049037",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049038",
+        "chave_ncm": "30049038",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049039",
+        "chave_ncm": "30049039",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049041",
+        "chave_ncm": "30049041",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049042",
+        "chave_ncm": "30049042",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049043",
+        "chave_ncm": "30049043",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049044",
+        "chave_ncm": "30049044",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049045",
+        "chave_ncm": "30049045",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049047",
+        "chave_ncm": "30049047",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049048",
+        "chave_ncm": "30049048",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049049",
+        "chave_ncm": "30049049",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049051",
+        "chave_ncm": "30049051",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049052",
+        "chave_ncm": "30049052",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049053",
+        "chave_ncm": "30049053",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049054",
+        "chave_ncm": "30049054",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049055",
+        "chave_ncm": "30049055",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049057",
+        "chave_ncm": "30049057",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049058",
+        "chave_ncm": "30049058",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049059",
+        "chave_ncm": "30049059",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049061",
+        "chave_ncm": "30049061",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049062",
+        "chave_ncm": "30049062",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049063",
+        "chave_ncm": "30049063",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049064",
+        "chave_ncm": "30049064",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049065",
+        "chave_ncm": "30049065",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049066",
+        "chave_ncm": "30049066",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049067",
+        "chave_ncm": "30049067",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049068",
+        "chave_ncm": "30049068",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049069",
+        "chave_ncm": "30049069",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049071",
+        "chave_ncm": "30049071",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049072",
+        "chave_ncm": "30049072",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049073",
+        "chave_ncm": "30049073",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049074",
+        "chave_ncm": "30049074",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049075",
+        "chave_ncm": "30049075",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049076",
+        "chave_ncm": "30049076",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049077",
+        "chave_ncm": "30049077",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049078",
+        "chave_ncm": "30049078",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049079",
+        "chave_ncm": "30049079",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049091",
+        "chave_ncm": "30049091",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049092",
+        "chave_ncm": "30049092",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049093",
+        "chave_ncm": "30049093",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049094",
+        "chave_ncm": "30049094",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049095",
+        "chave_ncm": "30049095",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049096",
+        "chave_ncm": "30049096",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049097",
+        "chave_ncm": "30049097",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049098",
+        "chave_ncm": "30049098",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30049099",
+        "chave_ncm": "30049099",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30051010",
+        "chave_ncm": "30051010",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30063011",
+        "chave_ncm": "30063011",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30063012",
+        "chave_ncm": "30063012",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30063013",
+        "chave_ncm": "30063013",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30063015",
+        "chave_ncm": "30063015",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30063016",
+        "chave_ncm": "30063016",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30063017",
+        "chave_ncm": "30063017",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30063018",
+        "chave_ncm": "30063018",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30063019",
+        "chave_ncm": "30063019",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30063021",
+        "chave_ncm": "30063021",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30063029",
+        "chave_ncm": "30063029",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_FARM_INTERNA_30066000",
+        "chave_ncm": "30066000",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_HIGIENE_INTERNA_33030010",
+        "chave_ncm": "33030010",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_HIGIENE_INTERNA_33030020",
+        "chave_ncm": "33030020",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_HIGIENE_INTERNA_33041000",
+        "chave_ncm": "33041000",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_HIGIENE_INTERNA_33042010",
+        "chave_ncm": "33042010",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_HIGIENE_INTERNA_33042090",
+        "chave_ncm": "33042090",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_HIGIENE_INTERNA_33043000",
+        "chave_ncm": "33043000",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_HIGIENE_INTERNA_33049100",
+        "chave_ncm": "33049100",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_HIGIENE_INTERNA_33049910",
+        "chave_ncm": "33049910",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_HIGIENE_INTERNA_33049990",
+        "chave_ncm": "33049990",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_HIGIENE_INTERNA_33051000",
+        "chave_ncm": "33051000",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_HIGIENE_INTERNA_33052000",
+        "chave_ncm": "33052000",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_HIGIENE_INTERNA_33053000",
+        "chave_ncm": "33053000",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_HIGIENE_INTERNA_33059000",
+        "chave_ncm": "33059000",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_HIGIENE_INTERNA_33061000",
+        "chave_ncm": "33061000",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_HIGIENE_INTERNA_33062000",
+        "chave_ncm": "33062000",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_HIGIENE_INTERNA_33069000",
+        "chave_ncm": "33069000",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_HIGIENE_INTERNA_33071000",
+        "chave_ncm": "33071000",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_HIGIENE_INTERNA_33072010",
+        "chave_ncm": "33072010",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_HIGIENE_INTERNA_33072090",
+        "chave_ncm": "33072090",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_HIGIENE_INTERNA_33073000",
+        "chave_ncm": "33073000",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_HIGIENE_INTERNA_33074100",
+        "chave_ncm": "33074100",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_HIGIENE_INTERNA_33074900",
+        "chave_ncm": "33074900",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_HIGIENE_INTERNA_33079000",
+        "chave_ncm": "33079000",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_HIGIENE_INTERNA_34011190",
+        "chave_ncm": "34011190",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_HIGIENE_INTERNA_34012010",
+        "chave_ncm": "34012010",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      },
+      {
+        "id_beneficio": "BEN_CONT13_20261028_230_HIGIENE_INTERNA_96032100",
+        "chave_ncm": "96032100",
+        "tipo_beneficio": "REDUCAO_BASE_CALCULO"
+      }
+    ]
+  },
+  {
+    "id_pendencia": "OUTROS_231",
+    "status": "CONCLUIDO_IDENTIDADE_ATUAL_FRALDA_96190000",
+    "pendencia_generica_contexto_encerrada": true,
+    "data_referencia": "2026-10-28",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 8, inciso XXXIV",
+    "fonte_principal_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+    "fonte_dispositivo_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A8XXXIV",
+    "trecho_legal": "XXXIV - de tal forma que resulte aplicação sobre o valor da operação do percentual equivalente a 9% (nove por cento) na saída interna com fralda descartável, produzida no Estado de Goiás, classificada nos códigos 4818.40.10, 5601.10.00, 6111.20.00, 6111.90.00 e 6209 da NBM/SH (Lei nº 13.453/99, art. 1º, II, \"h\", 1);",
+    "fontes_primarias": [
+      "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_06769.htm",
+      "https://appasp.economia.go.gov.br/legislacao/arquivos/Leis/L_13453.htm",
+      "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+      "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/notas-explicativas-do-sistema-harmonizado",
+      "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+      "https://documentos.mercosur.int/simfiles/docinformativos/42140_Tabla%20de%20correlaci%C3%B3n%20NCM%202007-2012.xlsx",
+      "https://portalunico.siscomex.gov.br/classif/api/publico/nomenclatura/download/json",
+      "https://www.confaz.fazenda.gov.br/legislacao/convenios/1996/CV117_96"
+    ],
+    "vigencia": {
+      "inicio_texto_aplicavel": "2008-08-01",
+      "fim": null,
+      "situacao_na_referencia": "TEXTO_ATUAL_NO_CONSOLIDADO_OFICIAL_REVALIDADO",
+      "observacao": "Início da redação aplicável, não substitui datas de cada mercadoria/subitem; datas do registro proposto são conservadas separadamente.",
+      "fundamento_inicio": {
+        "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_06769.htm",
+        "dispositivo": "art. 1º e art. 3º, III",
+        "trecho": "Art. 8º, XXXIV com carga de 9%; efeitos a partir de 1º de agosto de 2008. A proposta atual conserva data cadastral 28/10/2026."
+      }
+    },
+    "cbenef": {
+      "codigo": "GO821020",
+      "quantidade_linhas_exatas": 1,
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Secretario/IN/IN_1518_2022.htm",
+      "linha": [
+        "GO821020",
+        "",
+        "",
+        "",
+        "",
+        "SIM",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "SIM",
+        "",
+        "RCTE, Anexo IX, Art 8º, Inciso XXXIV",
+        "REDUÇÃO DE BASE DE CÁLCULO - Saída interna com fralda descartável, produzida no Estado de Goiás",
+        ""
+      ],
+      "observacao": "O cadastro de cBenef não comprova prazo ou fruição; a validade decorre do dispositivo e do quadro central de prazos."
+    },
+    "fatos_confirmados": [
+      "O resultado autorizado é carga de 9% sobre o valor da operação, obtida por redução de base de cálculo. Não se trata de alíquota nominal de 9%.",
+      "A NESH oficial atual exclui expressamente cueiros e fraldas para bebês das posições 61.11 e 62.09, remetendo-os à posição 96.19. Portanto, os cinco candidatos de vestuário foram retirados: a continuidade literal de um código não prova continuidade da cesta de mercadorias.",
+      "A posição 96.19 da NESH nomeia fraldas de qualquer matéria, inclusive fraldas para adultos, e informa que em regra geral os artigos são descartáveis. A RFB atual possui o único NCM de oito dígitos 96190000 nessa posição. O benefício é restrito à fralda DESCARTÁVEL produzida em Goiás, não a todos os artigos higiênicos do código.",
+      "A tabela primária Mercosur 2007→2012 corrobora migrações parciais dos códigos antigos para Ex 9619.00.00. Não foi presumida uma ponte histórica 2012→2017; a identificação material atual está provada diretamente pela NESH."
+    ],
+    "condicoes_operacionais": [
+      "Saída INTERNA de FRALDA DESCARTÁVEL produzida no Estado de Goiás, com identidade material e classificação atual em 9619.00.00 comprovadas pela ficha técnica e pelos documentos fiscais de fabricação/origem. Não abrange absorventes, tampões, outros artigos higiênicos, fraldas reutilizáveis ou mercadoria produzida fora de Goiás. As posições atuais 61.11 e 62.09 excluem fraldas; nenhum vestuário de bebê é incluído por identidade literal do NCM antigo. A natureza jurídica é redução de base de cálculo para resultar carga de 9% sobre o valor da operação; o cadastro usa CARGA_EFETIVA = 9, sem alíquota nominal e sem percentual de redução fixo."
+    ],
+    "pendencias_residuais_especificas": [],
+    "tipo_beneficio": "REDUCAO_BASE_CALCULO",
+    "aliquota_nominal": null,
+    "percentual_reducao_bc": null,
+    "carga_efetiva": 9,
+    "credito_outorgado_percentual": null,
+    "catalogo_tecnico": [],
+    "demonstrabilidade": {
+      "fonte_normativa_revalidada": true,
+      "direito_em_operacao_concreta_comprovado": false,
+      "aplicacao_automatica": false
+    },
+    "homologacao": false,
+    "evidencias_federais_identidade_atual": [
+      {
+        "fonte_url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+        "arquivo_local": "/workspace/scratch/7812c5f8369a/conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+        "linhas_1base": [
+          56973,
+          56990
+        ],
+        "metodo_localizacao": "CABECALHO_TEXTUAL_UNICO_ATE_MARCADOR_DA_PAGINA; linhas físicas LF",
+        "cabecalho_regex": "61\\.11\\s*-\\s*Vestuário e seus acessórios, de malha, para bebês\\.",
+        "marcador_fim": "XI-6111-1",
+        "offset_caractere_inicio": 3582606,
+        "trecho": "61.11 - Vestuário e seus acessórios, de malha, para bebês.\n\n          6111.20 - De algodão\n          6111.30 - De fibras sintéticas\n          6111.90 - De outras matérias têxteis\n\n\nNos termos da Nota 6 a) do presente Capítulo, a expressão “vestuário e seus acessórios, para bebês”\ncompreende os artigos para crianças de tenra idade, de estatura não superior a 86 cm.\nEntre os artigos que se incluem nesta posição podem citar-se: os vestidos de batizado, bibes, macacões\npara bebês, babadouros ou babeiros, luvas, mitenes e semelhantes, calçado de malha para bebês, sem\nsola exterior colada, costurada (cosida) ou de outro modo fixada ou aplicada à parte superior.\nDeve notar-se que os artigos suscetíveis de inclusão simultânea na presente posição e noutras posições\ndo presente Capítulo devem ser classificados na posição 61.11 (ver a Nota 6 b) deste Capítulo).\nEsta posição não compreende:\na)   As toucas de malha para bebês (posição 65.05).\nb)   Os cueiros e fraldas para bebês (posição 96.19).\nc)   Os acessórios abrangidos mais especificamente noutros Capítulos da Nomenclatura."
+      },
+      {
+        "fonte_url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+        "arquivo_local": "/workspace/scratch/7812c5f8369a/conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+        "linhas_1base": [
+          57651,
+          57669
+        ],
+        "metodo_localizacao": "CABECALHO_TEXTUAL_UNICO_ATE_MARCADOR_DA_PAGINA; linhas físicas LF",
+        "cabecalho_regex": "62\\.09\\s*-\\s*Vestuário e seus acessórios, para bebês\\.",
+        "marcador_fim": "XI-6209-1",
+        "offset_caractere_inicio": 3620755,
+        "trecho": "62.09 - Vestuário e seus acessórios, para bebês.\n\n          6209.20 - De algodão\n          6209.30 - De fibras sintéticas\n          6209.90 - De outras matérias têxteis\n\n\nNos termos da Nota 5 a) do presente Capítulo, a expressão “vestuário e seus acessórios, para bebês”\ncompreende os artigos para crianças de tenra idade, de estatura não superior a 86 cm.\nEntre os artigos que se incluem nesta posição podem citar-se: os vestidos de batizado, bibes, macacões\npara bebês, babadouros ou babeiros, luvas, mitenes e semelhantes, calçado para bebês, com exceção dos\nde malha, sem sola exterior colada, costurada (cosida) ou de outro modo fixada ou aplicada à parte\nsuperior.\nDeve notar-se que os artigos suscetíveis de inclusão simultânea na presente posição e noutras posições\ndo presente Capítulo devem ser classificados na posição 62.09 (Ver a Nota 5 b) deste Capítulo).\nEsta posição não compreende:\na)   As toucas para bebês (posição 65.05).\nb)   Os cueiros e fraldas para bebês (posição 96.19).\nc)   Os acessórios abrangidos mais especificamente noutros Capítulos da Nomenclatura."
+      },
+      {
+        "fonte_url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+        "arquivo_local": "/workspace/scratch/7812c5f8369a/conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+        "linhas_1base": [
+          103095,
+          103111
+        ],
+        "metodo_localizacao": "CABECALHO_TEXTUAL_UNICO_ATE_MARCADOR_DA_PAGINA; linhas físicas LF",
+        "cabecalho_regex": "96\\.19\\s*-\\s*Absorventes",
+        "marcador_fim": "XX-9619-1",
+        "offset_caractere_inicio": 6609767,
+        "trecho": "96.19 - Absorventes (Pensos*) e tampões higiênicos, cueiros, fraldas e artigos higiênicos\n        semelhantes, de qualquer matéria.\n\nA presente posição abrange os absorventes (pensos*) e tampões higiênicos, cueiros, fraldas e artigos\nhigiênicos semelhantes, incluindo as compressas de aleitamento higiênicas absorventes, as fraldas para\nadultos com incontinência urinária e os forros de calcinhas femininas, de qualquer matéria.\nEm regra geral, os artigos da presente posição são descartáveis. Muito desses artigos são constituídos a)\npor uma camada interna (de falso tecido (tecido não tecido), por exemplo) concebida para evacuar os\nlíquidos que estão em contato com a pele, evitando, desse modo, qualquer tipo de irritação, b) por um\nnúcleo absorvente que recebe e estoca os líquidos até que o produto seja descartado e c) por uma camada\nexterna (de plástico, por exemplo) que impede qualquer vazamento dos líquidos contidos no núcleo\nabsorvente. A forma dos artigos desta posição é geralmente concebida para ser ajustada ao corpo\nhumano. A presente posição compreende igualmente os artigos tradicionais semelhantes constituídos\nunicamente por matérias têxteis e que são geralmente reutilizáveis após lavagem.\nEsta posição não compreende os produtos tais como lençóis descartáveis utilizados em cirurgias e as almofadas absorventes\npara camas hospitalares, mesas de operação ou cadeiras de rodas, nem as compressas de aleitamento e outros artigos não\nabsorventes (geralmente seguem o regime da matéria constitutiva)."
+      },
+      {
+        "fonte_url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+        "arquivo_local": "/workspace/scratch/7812c5f8369a/continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+        "linhas_1base": [
+          26492,
+          26493
+        ],
+        "metodo_localizacao": "CABECALHO_TEXTUAL_UNICO_NCM_96190000; linhas físicas LF",
+        "offset_caractere_inicio": 2261824,
+        "trecho": "9619.00.00   Absorventes (Pensos*) e tampões higiênicos, cueiros, fraldas e artigos higiênicos\n             semelhantes, de qualquer matéria.                                                           0",
+        "observacao": "Usada somente para identidade e codificação material; a coluna de IPI não é a carga de ICMS proposta."
+      }
+    ],
+    "correlacoes_historicas_corroboração": {
+      "fonte": {
+        "arquivo": "mercosur_2007_2012.xlsx",
+        "url": "https://documentos.mercosur.int/simfiles/docinformativos/42140_Tabla%20de%20correlaci%C3%B3n%20NCM%202007-2012.xlsx",
+        "verificado_em": "2026-10-28T15:11:19.985649+00:00",
+        "baixado": true,
+        "bytes": 27778,
+        "sha256": "c1c71399785853da9f9a97a38151e70233ff26648ee7420f8b4c75deefc71754",
+        "origem_primaria": true,
+        "editor": "Secretaría del MERCOSUR — Sistema de Información MERCOSUR",
+        "tipo": "documento_informativo_oficial",
+        "ato_juridico": false,
+        "efeitos": "Tabela técnica de correspondência entre versões da NCM. Não é ato normativo de instituição de classificação, vigência ou benefício fiscal. Não substitui os atos de incorporação da nomenclatura nem a confrontação da mercadoria.",
+        "documento": "MERCOSUR/CXXIV CCM/DI Nº41/11",
+        "pagina_origem": "https://documentos.mercosur.int/docinformativos/1048",
+        "pagina_ata": "https://documentos.mercosur.int/public/reuniones/doc/3934",
+        "data_documental": "2011-11-30",
+        "data_documental_base": "Data final da reunião CXXIV CCM, 28–30/11/2011; portal do DI não informa data própria do anexo.",
+        "ano_origem": 2007,
+        "ano_destino": 2012,
+        "descricao_disponivel": false,
+        "limitacoes": [
+          "Somente linhas de mudanças presentes; ausência de linha não prova inexistência nem continuidade automática.",
+          "Título da página contém erro material 2012-2077; arquivos e cabeçalhos indicam 2012-2007.",
+          "ex e correspondências parciais devem ser preservados."
+        ]
+      },
+      "arestas": [
+        {
+          "arquivo": "mercosur_2007_2012.xlsx",
+          "planilha": "2007-2012",
+          "documento": "MERCOSUR/CXXIV CCM/DI Nº41/11",
+          "natureza": "documento_informativo_oficial_nao_ato_normativo",
+          "ano_origem": 2007,
+          "ano_destino": 2012,
+          "codigo_origem": "4818.40.10",
+          "codigo_destino": "9619.00.00",
+          "origem_ex": false,
+          "destino_ex": true,
+          "parcial": true,
+          "origem_literal": "4818.40.10 ",
+          "destino_literal": "ex9619.00.00",
+          "linha_excel": 807,
+          "celula_origem": "B807",
+          "celula_destino": "C807",
+          "origem_por_continuacao": false,
+          "alvo_origem_exato": false,
+          "alvo_destino_exato": false
+        },
+        {
+          "arquivo": "mercosur_2007_2012.xlsx",
+          "planilha": "2007-2012",
+          "documento": "MERCOSUR/CXXIV CCM/DI Nº41/11",
+          "natureza": "documento_informativo_oficial_nao_ato_normativo",
+          "ano_origem": 2007,
+          "ano_destino": 2012,
+          "codigo_origem": "5601.10.00",
+          "codigo_destino": "9619.00.00",
+          "origem_ex": false,
+          "destino_ex": true,
+          "parcial": true,
+          "origem_literal": "5601.10.00 ",
+          "destino_literal": "ex9619.00.00",
+          "linha_excel": 810,
+          "celula_origem": "B810",
+          "celula_destino": "C810",
+          "origem_por_continuacao": false,
+          "alvo_origem_exato": false,
+          "alvo_destino_exato": false
+        },
+        {
+          "arquivo": "mercosur_2007_2012.xlsx",
+          "planilha": "2007-2012",
+          "documento": "MERCOSUR/CXXIV CCM/DI Nº41/11",
+          "natureza": "documento_informativo_oficial_nao_ato_normativo",
+          "ano_origem": 2007,
+          "ano_destino": 2012,
+          "codigo_origem": "6111.20.00",
+          "codigo_destino": "9619.00.00",
+          "origem_ex": false,
+          "destino_ex": true,
+          "parcial": true,
+          "origem_literal": "6111.20.00",
+          "destino_literal": "ex9619.00.00",
+          "linha_excel": 822,
+          "celula_origem": "B821",
+          "celula_destino": "C822",
+          "origem_por_continuacao": true,
+          "alvo_origem_exato": false,
+          "alvo_destino_exato": false
+        },
+        {
+          "arquivo": "mercosur_2007_2012.xlsx",
+          "planilha": "2007-2012",
+          "documento": "MERCOSUR/CXXIV CCM/DI Nº41/11",
+          "natureza": "documento_informativo_oficial_nao_ato_normativo",
+          "ano_origem": 2007,
+          "ano_destino": 2012,
+          "codigo_origem": "6111.90.00",
+          "codigo_destino": "9619.00.00",
+          "origem_ex": false,
+          "destino_ex": true,
+          "parcial": true,
+          "origem_literal": "6111.90.00",
+          "destino_literal": "ex9619.00.00",
+          "linha_excel": 826,
+          "celula_origem": "B825",
+          "celula_destino": "C826",
+          "origem_por_continuacao": true,
+          "alvo_origem_exato": false,
+          "alvo_destino_exato": false
+        },
+        {
+          "arquivo": "mercosur_2007_2012.xlsx",
+          "planilha": "2007-2012",
+          "documento": "MERCOSUR/CXXIV CCM/DI Nº41/11",
+          "natureza": "documento_informativo_oficial_nao_ato_normativo",
+          "ano_origem": 2007,
+          "ano_destino": 2012,
+          "codigo_origem": "6209.20.00",
+          "codigo_destino": "9619.00.00",
+          "origem_ex": false,
+          "destino_ex": true,
+          "parcial": true,
+          "origem_literal": "6209.20.00",
+          "destino_literal": "ex9619.00.00",
+          "linha_excel": 836,
+          "celula_origem": "B835",
+          "celula_destino": "C836",
+          "origem_por_continuacao": true,
+          "alvo_origem_exato": false,
+          "alvo_destino_exato": false
+        },
+        {
+          "arquivo": "mercosur_2007_2012.xlsx",
+          "planilha": "2007-2012",
+          "documento": "MERCOSUR/CXXIV CCM/DI Nº41/11",
+          "natureza": "documento_informativo_oficial_nao_ato_normativo",
+          "ano_origem": 2007,
+          "ano_destino": 2012,
+          "codigo_origem": "6209.30.00",
+          "codigo_destino": "9619.00.00",
+          "origem_ex": false,
+          "destino_ex": true,
+          "parcial": true,
+          "origem_literal": "6209.30.00",
+          "destino_literal": "ex9619.00.00",
+          "linha_excel": 838,
+          "celula_origem": "B837",
+          "celula_destino": "C838",
+          "origem_por_continuacao": true,
+          "alvo_origem_exato": false,
+          "alvo_destino_exato": false
+        },
+        {
+          "arquivo": "mercosur_2007_2012.xlsx",
+          "planilha": "2007-2012",
+          "documento": "MERCOSUR/CXXIV CCM/DI Nº41/11",
+          "natureza": "documento_informativo_oficial_nao_ato_normativo",
+          "ano_origem": 2007,
+          "ano_destino": 2012,
+          "codigo_origem": "6209.90.10",
+          "codigo_destino": "9619.00.00",
+          "origem_ex": false,
+          "destino_ex": true,
+          "parcial": true,
+          "origem_literal": "6209.90.10",
+          "destino_literal": "ex9619.00.00",
+          "linha_excel": 840,
+          "celula_origem": "B839",
+          "celula_destino": "C840",
+          "origem_por_continuacao": true,
+          "alvo_origem_exato": false,
+          "alvo_destino_exato": false
+        },
+        {
+          "arquivo": "mercosur_2007_2012.xlsx",
+          "planilha": "2007-2012",
+          "documento": "MERCOSUR/CXXIV CCM/DI Nº41/11",
+          "natureza": "documento_informativo_oficial_nao_ato_normativo",
+          "ano_origem": 2007,
+          "ano_destino": 2012,
+          "codigo_origem": "6209.90.90",
+          "codigo_destino": "9619.00.00",
+          "origem_ex": false,
+          "destino_ex": true,
+          "parcial": true,
+          "origem_literal": "6209.90.90",
+          "destino_literal": "ex9619.00.00",
+          "linha_excel": 842,
+          "celula_origem": "B841",
+          "celula_destino": "C842",
+          "origem_por_continuacao": true,
+          "alvo_origem_exato": false,
+          "alvo_destino_exato": false
+        }
+      ],
+      "alcance": "Corroboração histórica de partes dos códigos antigos para 9619.00.00, preservando Ex. Não se afirma uma ponte ininterrupta 2012→2017. A proposta atual usa a identificação expressa da fralda na NESH e o NCM vigente da RFB."
+    },
+    "texto_legal_completo": "XXXIV - de tal forma que resulte aplicação sobre o valor da operação do percentual equivalente a 9% (nove por cento) na saída interna com fralda descartável, produzida no Estado de Goiás, classificada nos códigos 4818.40.10, 5601.10.00, 6111.20.00, 6111.90.00 e 6209 da NBM/SH (Lei nº 13.453/99, art. 1º, II, \"h\", 1);\nIdentificação federal atual da mercadoria (NESH, posição 96.19):\n96.19 - Absorventes (Pensos*) e tampões higiênicos, cueiros, fraldas e artigos higiênicos\n        semelhantes, de qualquer matéria.\n\nA presente posição abrange os absorventes (pensos*) e tampões higiênicos, cueiros, fraldas e artigos\nhigiênicos semelhantes, incluindo as compressas de aleitamento higiênicas absorventes, as fraldas para\nadultos com incontinência urinária e os forros de calcinhas femininas, de qualquer matéria.\nEm regra geral, os artigos da presente posição são descartáveis. Muito desses artigos são constituídos a)\npor uma camada interna (de falso tecido (tecido não tecido), por exemplo) concebida para evacuar os\nlíquidos que estão em contato com a pele, evitando, desse modo, qualquer tipo de irritação, b) por um\nnúcleo absorvente que recebe e estoca os líquidos até que o produto seja descartado e c) por uma camada\nexterna (de plástico, por exemplo) que impede qualquer vazamento dos líquidos contidos no núcleo\nabsorvente. A forma dos artigos desta posição é geralmente concebida para ser ajustada ao corpo\nhumano. A presente posição compreende igualmente os artigos tradicionais semelhantes constituídos\nunicamente por matérias têxteis e que são geralmente reutilizáveis após lavagem.\nEsta posição não compreende os produtos tais como lençóis descartáveis utilizados em cirurgias e as almofadas absorventes\npara camas hospitalares, mesas de operação ou cadeiras de rodas, nem as compressas de aleitamento e outros artigos não\nabsorventes (geralmente seguem o regime da matéria constitutiva).\nAs posições 61.11 e 62.09 excluem expressamente cueiros e fraldas para bebês, remetendo à posição 96.19.\nFonte: https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+    "propostas_condicionais": [
+      {
+        "id_beneficio": "BEN_CONT13_20261028_231_96190000",
+        "chave_ncm": "96190000",
+        "tipo_beneficio": "CARGA_EFETIVA"
+      }
+    ]
+  },
+  {
+    "id_pendencia": "OUTROS_232",
+    "status": "ENCERRADO_CONTEXTO_COM_PENDENCIA_ESPECIFICA_PARAMETRIZACAO",
+    "pendencia_generica_contexto_encerrada": true,
+    "data_referencia": "2026-10-28",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 8, inciso LIV",
+    "fonte_principal_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+    "fonte_dispositivo_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A8LIV",
+    "trecho_legal": "LIV - de tal forma que resulte aplicação dos percentuais indicados nas alíneas \"a\" e \"b\", conforme o caso, sobre o valor da operação com os produtos listados no Apêndice XXXIII deste Anexo, destinados ao tratamento e controle de efluentes industriais e domésticos, mediante o emprego de tecnologia de aceleração da biodegradação, oriundos de empresas licenciadas pelos órgãos competentes estaduais, observado, ainda, o disposto nas alíneas \"c\" e seguintes (Convênio ICMS 8/11):",
+    "fontes_primarias": [
+      "https://www.confaz.fazenda.gov.br/legislacao/convenios/2011/CV008_11",
+      "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_07402.htm"
+    ],
+    "vigencia": {
+      "inicio_texto_aplicavel": "2011-07-18",
+      "fim": null,
+      "situacao_na_referencia": "TEXTO_ATUAL_NO_CONSOLIDADO_OFICIAL_REVALIDADO",
+      "observacao": "Início da redação aplicável, não substitui datas de cada mercadoria/subitem; datas do registro proposto são conservadas separadamente."
+    },
+    "cbenef": {
+      "codigo": "GO821035",
+      "quantidade_linhas_exatas": 1,
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Secretario/IN/IN_1518_2022.htm",
+      "linha": [
+        "GO821035",
+        "",
+        "",
+        "",
+        "",
+        "SIM",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "SIM",
+        "",
+        "RCTE, Anexo IX, Art 8º, Inciso LIV",
+        "REDUÇÃO DE BASE DE CÁLCULO - Operação com os produtos listados no Apêndice XXXIII do Anexo IX do RCTE, destinados ao tratamento e controle de efluentes industriais e domésticos",
+        ""
+      ],
+      "observacao": "O cadastro de cBenef não comprova prazo ou fruição; a validade decorre do dispositivo e do quadro central de prazos."
+    },
+    "fatos_confirmados": [
+      "Convênio8/11 cláusula primeira,§1º: carga tributária poderá ser reduzida EM60% sem manutenção doscréditos ou EM35% com manutenção. São opções de redução, nunca alíquotas nominais.",
+      "GO art.8ºLIV reproduz no caput linguagem de aplicação depercentuais sobre valor daoperação, mas alínea c qualifica-os como percentuais deredução. Decreto7402/2011 contém a mesma redação. Não se calcula uma carga ou BC certa por superinterpretação.",
+      "Os4NCM distintos literais do ApêndiceXXXIII estão ativos:27030000,28369919,35079019,35079041. A lista tem26itens com descrição restrita, que devem ser preservados.",
+      "A referência do cabeçalho do ApêndiceXXXIII aLIII é inconsistente com remissão expressa deLIV; oConvênio8/11 e oDecreto7402 confirmam a relação."
+    ],
+    "condicoes_operacionais": [
+      "Produtos listados noApêndiceXXXIII destinados aotratamento/controle deefluentes industriais/domésticos mediante aceleração dabiodegradação, oriundos deempresa licenciada por órgão estadualcompetente. Opção conformeart.4º registrada e mantida pelo período legal; respeitar alternativa decrédito escolhida."
+    ],
+    "pendencias_residuais_especificas": [
+      {
+        "tipo": "INTERPRETACAO_GO_PARAMETRIZACAO_ART8_LIV",
+        "objeto": "Resolver a redação do caputGO perantealínea c eConvênio8/11 para parametrização. Exige validaçãofiscal/manifestaçãoformal se necessário.",
+        "campos_bloqueados": [
+          "percentual_reducao_bc",
+          "carga_efetiva",
+          "aliquota_nominal"
+        ],
+        "escopo": "Apenas aexpressão numérica; não permanece uma pendênciagenérica de gênero ou operação.",
+        "homologacao": false
+      }
+    ],
+    "tipo_beneficio": "REDUCAO_BASE_CALCULO",
+    "aliquota_nominal": null,
+    "percentual_reducao_bc": null,
+    "carga_efetiva": null,
+    "credito_outorgado_percentual": null,
+    "catalogo_tecnico": [
+      {
+        "classificacao": "RBC_OPCAO_CREDITO_COM_PARAMETRIZACAO_BLOQUEADA",
+        "ncm": "27030000",
+        "descricao_oficial": "Turfa (incluindo a turfa para cama de animais), mesmo aglomerada.",
+        "rotas": [
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6582,
+            "celulas": [
+              "1",
+              "2703.00.00",
+              "TURFA (Absorvente Orgânico) Absorvente natural biodegradável (100% orgânico), bioremediador para emergências ambientais decorrentes de derrames e/ou vazamentos de óleos, solventes e demais derivados de hidrocarbonetos e de produtos químicos, em plantas industriais e demais processos e ocorrências em estradas, companhias elétricas, corpos d´água, etc."
+            ]
+          }
+        ],
+        "condicoes": "Produtos listados noApêndiceXXXIII destinados aotratamento/controle deefluentes industriais/domésticos mediante aceleração dabiodegradação, oriundos deempresa licenciada por órgão estadualcompetente. Opção conformeart.4º registrada e mantida pelo período legal; respeitar alternativa decrédito escolhida.",
+        "cbenef": "GO821035",
+        "percentual_reducao_bc": null,
+        "carga_efetiva": null,
+        "aliquota_nominal": null,
+        "vincular_consulta_interna_atual": false,
+        "motivo": "Regra normativa identificada; bloqueio específico deinterpretação quantitativa.",
+        "homologacao": false
+      },
+      {
+        "classificacao": "RBC_OPCAO_CREDITO_COM_PARAMETRIZACAO_BLOQUEADA",
+        "ncm": "28369919",
+        "descricao_oficial": "Carbonatos; peroxocarbonatos (percarbonatos); carbonato de amônio comercial que contenha carbamato de amônio — Outros — Carbonatos — Outros",
+        "rotas": [
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6583,
+            "celulas": [
+              "2",
+              "2836.99.19",
+              "Ativadores biológicos - macro e micro nutrientes para tratamento de efluentes domésticos e industriais, em caixas de gordura, fossas, sumidouros e estações de tratamento de efluentes biológicos (lagoas anaeróbicas e aeróbicas, lodos ativados, filtros biológicos, etc.)."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6584,
+            "celulas": [
+              "3",
+              "2836.99.19",
+              "Composto de nutrientes balanceados para otimização de lodos e acelerador da decomposição biológica de tratamento de efluentes. Ativador biológico composto de macro e micro nutrientes para uso em sistemas de tratamento de efluentes."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6585,
+            "celulas": [
+              "4",
+              "2836.99.19",
+              "Composto de nutrientes para tratamento biológico de efluentes domésticos e industriais com problemas de odores e alta carga orgânica."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6586,
+            "celulas": [
+              "5",
+              "2836.99.19",
+              "Composto de nutrientes especialmente formulados para tratamento biológico de efluentes oriundos do processamento de leite e seus derivados."
+            ]
+          }
+        ],
+        "condicoes": "Produtos listados noApêndiceXXXIII destinados aotratamento/controle deefluentes industriais/domésticos mediante aceleração dabiodegradação, oriundos deempresa licenciada por órgão estadualcompetente. Opção conformeart.4º registrada e mantida pelo período legal; respeitar alternativa decrédito escolhida.",
+        "cbenef": "GO821035",
+        "percentual_reducao_bc": null,
+        "carga_efetiva": null,
+        "aliquota_nominal": null,
+        "vincular_consulta_interna_atual": false,
+        "motivo": "Regra normativa identificada; bloqueio específico deinterpretação quantitativa.",
+        "homologacao": false
+      },
+      {
+        "classificacao": "RBC_OPCAO_CREDITO_COM_PARAMETRIZACAO_BLOQUEADA",
+        "ncm": "35079019",
+        "descricao_oficial": "Enzimas; enzimas preparadas não especificadas nem compreendidas noutras posições — Outras — Amilases e seus concentrados — Outros",
+        "rotas": [
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6587,
+            "celulas": [
+              "6",
+              "3507.90.19",
+              "Ativadores biológicos - macro e micro nutrientes - para tratamento de efluentes industriais, estações de tratamento de efluentes biológicos (lagoas anaeróbicas e aeróbicas, lodos ativados, filtros biológicos, etc) e domésticos (caixas de gordura, fossas, filtros e sumidouros)."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6588,
+            "celulas": [
+              "7",
+              "3507.90.19",
+              "Ativador biológico natural para tratamento de efluentes domésticos e industriais em sistemas de caixa de gordura, fossa, sumidouro, filtros, lodo ativado, lagoa anaeróbica e outros processos biológicos."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6589,
+            "celulas": [
+              "8",
+              "3507.90.19",
+              "Combinação de agentes biológicos existentes na natureza que metabolizam os componentes geradores de mau cheiro, transformando-as em produtos inertes."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6590,
+            "celulas": [
+              "9",
+              "3507.90.19",
+              "Composto enzimático para desobstrução de tubulações e sistemas comatados por material orgânico (óleos, graxas, gorduras, proteína e carboidratos). Utilizado em caixas de gordura, pasteurizadores, tubulações e sistemas em geral."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6591,
+            "celulas": [
+              "10",
+              "3507.90.19",
+              "Composto para sistemas com mau cheiro (cigarro, odores, fritura e material orgânico em decomposição). Usado em tubulações, caixa de gordura, banheiros, mictórios, interior de veículos, carpetes, cozinhas, sem biocidas etc."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6592,
+            "celulas": [
+              "11",
+              "3507.90.19",
+              "Detergente enzimático utilizado na quebra de cadeia de gorduras, óleos, graxas, proteínas e carboidratos."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6593,
+            "celulas": [
+              "12",
+              "3507.90.19",
+              "Detergente enzimático em gel para limpeza das mãos."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6594,
+            "celulas": [
+              "13",
+              "3507.90.19",
+              "Detergente enzimático utilizado para limpeza pesada de hidrocarbonetos e seus derivados."
+            ]
+          }
+        ],
+        "condicoes": "Produtos listados noApêndiceXXXIII destinados aotratamento/controle deefluentes industriais/domésticos mediante aceleração dabiodegradação, oriundos deempresa licenciada por órgão estadualcompetente. Opção conformeart.4º registrada e mantida pelo período legal; respeitar alternativa decrédito escolhida.",
+        "cbenef": "GO821035",
+        "percentual_reducao_bc": null,
+        "carga_efetiva": null,
+        "aliquota_nominal": null,
+        "vincular_consulta_interna_atual": false,
+        "motivo": "Regra normativa identificada; bloqueio específico deinterpretação quantitativa.",
+        "homologacao": false
+      },
+      {
+        "classificacao": "RBC_OPCAO_CREDITO_COM_PARAMETRIZACAO_BLOQUEADA",
+        "ncm": "35079041",
+        "descricao_oficial": "Enzimas; enzimas preparadas não especificadas nem compreendidas noutras posições — Outras — Enzimas preparadas — À base de celulases",
+        "rotas": [
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6595,
+            "celulas": [
+              "14",
+              "3507.90.41",
+              "Produto usado na desagregação e refinação das fibras de papel reciclado e celulose. As enzimas auxiliam na limpeza mecânica, de feltros, telas formadoras, lonas de onduladeiras. Reduz e pitches e stiches."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6596,
+            "celulas": [
+              "15",
+              "3507.90.41",
+              "Produto usado na desagregação e refinação das fibras de papel reciclado e celulose. As enzimas auxiliam na limpeza mecânica, de feltros, telas formadoras, lonas de onduladeiras. Reduz e pitches e stiches, com adição de dispersante."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6597,
+            "celulas": [
+              "16",
+              "3507.90.41",
+              "Produto enzimático usado na limpeza de feltros, telas formadoras e lonas de onduladeiras. Produto com tenso ativo para limpeza de sistemas, usado em processos de dosagens contínuas, por meio de bicos. Usado também em boil out e limpezas de tanques, caixas, circuitos de aproximação, mesa plana e caixa de entrada. Reduz pitches e stiches."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6598,
+            "celulas": [
+              "17",
+              "3507.90.41",
+              "Biocida para uso em águas de processo, impedindo o crescimento de algas, fungos, bactérias."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6599,
+            "celulas": [
+              "18",
+              "3507.90.41",
+              "Composto enzimático usado na desobstrução de tubulações, sistemas e circuitos de amido. Limpeza em processos de fabricação de papel."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6600,
+            "celulas": [
+              "19",
+              "3507.90.41",
+              "Produto enzimático utilizado na limpeza de sistemas com grande deposição de tintas e materiais orgânicos e inorgânicos. Limpeza de incrustações inorgânicas aderidas a incrustações orgânicas. Usado também como dispersante de tintas em aparas com alto teor de corantes."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6601,
+            "celulas": [
+              "20",
+              "3507.90.41",
+              "Composto enzimático com dispersantes inorgânicos usado no processo de papel e celulose que contenham contaminações de tintas e resinas; para desincrustrações de matérias orgânicas e inorgânicas. Utilizado também nos processos de destintamento e alvejamento de aparas."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6602,
+            "celulas": [
+              "21",
+              "3507.90.41",
+              "Auxiliar de refinação melhorando a drenagem na mesa plana, melhorando o refino e o consumo de energia na planta produtiva."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6603,
+            "celulas": [
+              "22",
+              "3507.90.41",
+              "Auxiliar de branqueamento nos processos de polpação de celulose e fibras."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6604,
+            "celulas": [
+              "23",
+              "3507.90.41",
+              "Auxiliar de desagregação para limpeza de Parafina, Hotmelt e PVA."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6605,
+            "celulas": [
+              "24",
+              "3507.90.41",
+              "Composto Biológico e Enzimático, auxiliar de processos de separação de fibras."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6606,
+            "celulas": [
+              "25",
+              "3507.90.41",
+              "Utilizado para auxiliar o pré-cozimento e cozimento de fibras."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6607,
+            "celulas": [
+              "26",
+              "3507.90.41",
+              "Utilizado para auxiliar o refino, desagregação pesada e papel tissue."
+            ]
+          }
+        ],
+        "condicoes": "Produtos listados noApêndiceXXXIII destinados aotratamento/controle deefluentes industriais/domésticos mediante aceleração dabiodegradação, oriundos deempresa licenciada por órgão estadualcompetente. Opção conformeart.4º registrada e mantida pelo período legal; respeitar alternativa decrédito escolhida.",
+        "cbenef": "GO821035",
+        "percentual_reducao_bc": null,
+        "carga_efetiva": null,
+        "aliquota_nominal": null,
+        "vincular_consulta_interna_atual": false,
+        "motivo": "Regra normativa identificada; bloqueio específico deinterpretação quantitativa.",
+        "homologacao": false
+      }
+    ],
+    "demonstrabilidade": {
+      "fonte_normativa_revalidada": true,
+      "direito_em_operacao_concreta_comprovado": false,
+      "aplicacao_automatica": false
+    },
+    "homologacao": false,
+    "opcoes_fontes_sem_parametrizacao": [
+      {
+        "percentual_literal": 60,
+        "natureza_confaz": "REDUCAO_EM_PERCENTUAL",
+        "manutencao_credito": false
+      },
+      {
+        "percentual_literal": 35,
+        "natureza_confaz": "REDUCAO_EM_PERCENTUAL",
+        "manutencao_credito": true
+      }
+    ],
+    "propostas_condicionais": []
+  },
+  {
+    "id_pendencia": "OUTROS_233",
+    "status": "ENCERRADO_FORA_ESCOPO_CATALOGO_TECNICO",
+    "pendencia_generica_contexto_encerrada": true,
+    "data_referencia": "2026-10-28",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 11, inciso LXV",
+    "fonte_principal_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+    "fonte_dispositivo_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm#A11LXVa",
+    "trecho_legal": "LXV - para o estabelecimento atacadista o equivalente à aplicação de 5% (cinco por cento) sobre o valor da respectiva base de cálculo, na saída interestadual de produtos de informática, telecomunicação e automação, relacionados no Apêndice IV deste Anexo, ficando mantido o crédito do imposto até o limite de 7% (sete por cento), observado o seguinte (Lei nº 13.194/97, art. 2º, II, “u”): (Redação conferida pelo Decreto nº 8.299 - vigência: 26.03.14)",
+    "fontes_primarias": [
+      "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_08299.htm",
+      "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_09002.htm"
+    ],
+    "vigencia": {
+      "inicio_texto_aplicavel": "2014-03-26",
+      "fim": null,
+      "situacao_na_referencia": "TEXTO_ATUAL_NO_CONSOLIDADO_OFICIAL_REVALIDADO",
+      "observacao": "Início da redação aplicável, não substitui datas de cada mercadoria/subitem; datas do registro proposto são conservadas separadamente."
+    },
+    "cbenef": {
+      "codigo": null,
+      "quantidade_linhas_exatas": 0,
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Secretario/IN/IN_1518_2022.htm",
+      "linha": null,
+      "observacao": "O cadastro de cBenef não comprova prazo ou fruição; a validade decorre do dispositivo e do quadro central de prazos."
+    },
+    "fatos_confirmados": [
+      "Crédito outorgado de5% sobreBC daoperação interestadual por atacadista; manutenção do crédito doimposto até7%. Nenhum desses percentuais é alíquota interna.",
+      "TARE e metas dearrecadação são condições expressas; televisão85287200 depende ainda desuperação dameta eprevisão noTARE.",
+      "Art.1º,§3º,I,c incluiart.11LXV nas hipóteses decontribuiçãoaoPROTEGE. A contribuição e regramento corrente precisam ser considerados nafruição."
+    ],
+    "condicoes_operacionais": [
+      "Estabelecimento atacadista, saída INTERESTADUAL, produto de informática/telecomunicação/automação doApêndiceIV;TARE,metas eapuração apartir damédia dosúltimos12meses de todos osestabelecimentos goianos;limite decrédito7%,PROTEGE e regras gerais."
+    ],
+    "pendencias_residuais_especificas": [],
+    "tipo_beneficio": "CREDITO_OUTORGADO",
+    "aliquota_nominal": null,
+    "percentual_reducao_bc": null,
+    "carga_efetiva": null,
+    "credito_outorgado_percentual": 5,
+    "catalogo_tecnico": [
+      {
+        "classificacao": "CREDITO_OUTORGADO_SAIDA_INTERESTADUAL_TARE",
+        "apendice": "IV",
+        "credito_outorgado_percentual": 5,
+        "limite_manutencao_credito_percentual": 7,
+        "aliquota_nominal": null,
+        "carga_efetiva": null,
+        "condicoes": "Estabelecimento atacadista, saída INTERESTADUAL, produto de informática/telecomunicação/automação doApêndiceIV;TARE,metas eapuração apartir damédia dosúltimos12meses de todos osestabelecimentos goianos;limite decrédito7%,PROTEGE e regras gerais.",
+        "extensao_85287200": "Somente se a meta for superada naforma definida emTARE; não é cobertura universal do produto.",
+        "vincular_consulta_interna_atual": false,
+        "homologacao": false
+      }
+    ],
+    "demonstrabilidade": {
+      "fonte_normativa_revalidada": true,
+      "direito_em_operacao_concreta_comprovado": false,
+      "aplicacao_automatica": false
+    },
+    "homologacao": false,
+    "propostas_condicionais": []
+  }
+]

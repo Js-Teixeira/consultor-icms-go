@@ -1,0 +1,945 @@
+[
+  {
+    "id_pendencia": "OUTROS_194",
+    "indice_origem": 194,
+    "original": {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "item": "214",
+      "apendice": "XVII",
+      "codigo_legal": "3003.40.20",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Medicamento: Pilocarpina 20mg/ml (frasco 10ml)"
+    },
+    "triagem_documental_individual_concluida": true,
+    "data_referencia": "2026-10-28",
+    "categoria": "IDENTIDADE_MATERIAL_DIRETA_ATUAL_DOCUMENTADA",
+    "decisao": "CANDIDATO_CONDICIONAL_ADICIONAL",
+    "razao_concreta": "O produto e a apresentação são idênticos à linha195. A identificação atual direta é com30044920, para medicamento de pilocarpina dosado/varejo. A origem antiga30034020 não foi convertida para30034920 nem usada para afirmar cadeia; a mesma identidade atual não deixa de existir porque há uma segunda origem legal antiga. Não criar outro cadastro para esse par.",
+    "documento_necessario": "Para aplicação concreta: documentação da mercadoria e atendimento integral às condições legais. Não há proposta de aplicação automática.",
+    "evidencias": [
+      {
+        "fonte": "TIPI",
+        "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+        "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+        "pagina_pdf_1_base": 151,
+        "linha_texto_1_base": 8718,
+        "trecho": "3004.49.20        Pilocarpina, seu nitrato ou seu cloridrato                                                      0\n3004.49.30        Metanossulfonato de di-hidroergocristina                                                        0\n3004.49.40        Codeína ou seus sais                                                                            0\n3004.49.50        Granisetron; tropisetrona ou seu cloridrato"
+      }
+    ],
+    "opcoes_tecnicas_nao_propostas": [],
+    "proposta_adicional": true,
+    "rotas_propostas": [
+      {
+        "ncm": "30044920",
+        "condicao_especifica": "Pilocarpina20mg/ml, frasco10ml; mesmo produto material já coberto em OUTROS_195 do lote24."
+      }
+    ],
+    "tipo_impedimento_principal": "SEM_IMPEDIMENTO_DOCUMENTAL_DE_IDENTIDADE",
+    "fonte_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "XVII",
+      "item": "214",
+      "descricao_corrente": "Medicamento: Pilocarpina 20mg/ml (frasco 10ml)",
+      "sha256_fonte_verificada": "e4538fdfd070f17eb2c34fdf43d2b42ae604e8746f92b15f13b7eb48485961a5"
+    },
+    "corroboracoes_federais_auxiliares": [],
+    "pesquisa_nominal_tipi": null,
+    "cadeia_historica": {
+      "localizada_nesta_rodada": false,
+      "nao_usada_como_presuncao": true,
+      "observacao": "Nos positivos o fundamento é a identidade atual material; nos demais a lacuna específica acima deve ser resolvida por prova primária, ficha técnica ou cadeia oficial com identidade. Ausência de cadeia não foi usada sozinha para negar identidade nominal."
+    },
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA"
+  },
+  {
+    "id_pendencia": "OUTROS_000",
+    "indice_origem": 0,
+    "original": {
+      "template_id": "GO_A9_ART6_CLI",
+      "item": "a",
+      "apendice": null,
+      "codigo_legal": "8541.40.16",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "a) célula solar não montada, NCM/SH 8541.40.16;"
+    },
+    "triagem_documental_individual_concluida": true,
+    "data_referencia": "2026-10-28",
+    "categoria": "IDENTIDADE_MATERIAL_DIRETA_ATUAL_DOCUMENTADA",
+    "decisao": "CANDIDATO_CONDICIONAL_ADICIONAL",
+    "razao_concreta": "A TIPI atual nomeia células solares orgânicas e outras células solares sob854142(não montadas em módulos/painéis). O recorte legal célula solar não montada tem essas duas alternativas materiais explícitas; excluir85414290 que não nomeia célula solar e85414300 de módulos/painéis. Não se presumiu a tecnologia do produto concreto.",
+    "documento_necessario": "Para aplicação concreta: documentação da mercadoria e atendimento integral às condições legais. Não há proposta de aplicação automática.",
+    "evidencias": [
+      {
+        "fonte": "TIPI",
+        "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+        "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+        "pagina_pdf_1_base": 408,
+        "linha_texto_1_base": 23549,
+        "trecho": "8541.42      -- Células fotovoltaicas não montadas em módulos nem em painéis\n8541.42.10        Células solares orgânicas                                                               0\n8541.42.20        Outras células solares                                                                  0\n\f                                                                                                            ALÍQUOTA\n   NCM                                              DESCRIÇÃO"
+      }
+    ],
+    "opcoes_tecnicas_nao_propostas": [],
+    "proposta_adicional": true,
+    "rotas_propostas": [
+      {
+        "ncm": "85414210",
+        "condicao_especifica": "Célula solar ORGÂNICA não montada em módulo/painel."
+      },
+      {
+        "ncm": "85414220",
+        "condicao_especifica": "Outra célula SOLAR não montada em módulo/painel, excluída a orgânica."
+      }
+    ],
+    "tipo_impedimento_principal": "SEM_IMPEDIMENTO_DOCUMENTAL_DE_IDENTIDADE",
+    "fonte_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": null,
+      "item": "a",
+      "descricao_corrente": "a) célula solar não montada, NCM/SH 8541.40.16;",
+      "sha256_fonte_verificada": "e4538fdfd070f17eb2c34fdf43d2b42ae604e8746f92b15f13b7eb48485961a5"
+    },
+    "corroboracoes_federais_auxiliares": [],
+    "pesquisa_nominal_tipi": null,
+    "cadeia_historica": {
+      "localizada_nesta_rodada": false,
+      "nao_usada_como_presuncao": true,
+      "observacao": "Nos positivos o fundamento é a identidade atual material; nos demais a lacuna específica acima deve ser resolvida por prova primária, ficha técnica ou cadeia oficial com identidade. Ausência de cadeia não foi usada sozinha para negar identidade nominal."
+    },
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA"
+  },
+  {
+    "id_pendencia": "OUTROS_055",
+    "indice_origem": 55,
+    "original": {
+      "template_id": "GO_A9_ART9_I_A",
+      "item": "49.1",
+      "apendice": "V",
+      "codigo_legal": "8460.11.00",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Máquinas para retificar superfícies planas, cujo posicionamento sobre qualquer dos eixos pode ser estabelecido com precisão de pelo menos 0,01mm, de comando numérico"
+    },
+    "triagem_documental_individual_concluida": true,
+    "data_referencia": "2026-10-28",
+    "categoria": "IDENTIDADE_MATERIAL_DIRETA_ATUAL_DOCUMENTADA",
+    "decisao": "CANDIDATO_CONDICIONAL_ADICIONAL",
+    "razao_concreta": "O código atual nomeia retificadora de superfícies planas de comando numérico. A identidade de função/CNC é direta; conservar a especificação adicional de precisão da lei, sem estender o benefício à cesta inteira.",
+    "documento_necessario": "Para aplicação concreta: documentação da mercadoria e atendimento integral às condições legais. Não há proposta de aplicação automática.",
+    "evidencias": [
+      {
+        "fonte": "TIPI",
+        "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+        "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+        "pagina_pdf_1_base": 376,
+        "linha_texto_1_base": 21469,
+        "trecho": "8460.1       - Máquinas para retificar superfícies planas:\n8460.12.00   -- De comando numérico                                                                       0\n8460.19.00   -- Outras                                                                                    0\n8460.2       - Outras máquinas para retificar:\n8460.22.00   -- Máquinas para retificar sem centro, de comando numérico                                   0\n8460.23.00   -- Outras máquinas para retificar superfícies cilíndricas, de comando numérico               0\n8460.24.00   -- Outras, de comando numérico                                                               0\n8460.29.00   -- Outras                                                                                    0\n8460.3       - Máquinas para afiar:\n8460.31.00"
+      }
+    ],
+    "opcoes_tecnicas_nao_propostas": [],
+    "proposta_adicional": true,
+    "rotas_propostas": [
+      {
+        "ncm": "84601200",
+        "condicao_especifica": "Retificadora de superfície plana,CNC, cujo posicionamento sobre qualquer dos eixos pode ser estabelecido com precisão de pelo menos0,01mm, conforme descrição legal."
+      }
+    ],
+    "tipo_impedimento_principal": "SEM_IMPEDIMENTO_DOCUMENTAL_DE_IDENTIDADE",
+    "fonte_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "V",
+      "item": "49.1",
+      "descricao_corrente": "Máquinas para retificar superfícies planas, cujo posicionamento sobre qualquer dos eixos pode ser estabelecido com precisão de pelo menos 0,01mm, de comando numérico",
+      "sha256_fonte_verificada": "e4538fdfd070f17eb2c34fdf43d2b42ae604e8746f92b15f13b7eb48485961a5"
+    },
+    "corroboracoes_federais_auxiliares": [],
+    "pesquisa_nominal_tipi": null,
+    "cadeia_historica": {
+      "localizada_nesta_rodada": false,
+      "nao_usada_como_presuncao": true,
+      "observacao": "Nos positivos o fundamento é a identidade atual material; nos demais a lacuna específica acima deve ser resolvida por prova primária, ficha técnica ou cadeia oficial com identidade. Ausência de cadeia não foi usada sozinha para negar identidade nominal."
+    },
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA"
+  },
+  {
+    "id_pendencia": "OUTROS_078",
+    "indice_origem": 78,
+    "original": {
+      "template_id": "GO_A9_ART9_I_A",
+      "item": "69",
+      "apendice": "V",
+      "codigo_legal": "8543.30.00",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "INSTALAÇÃO CONTÍNUA DE GALVANOPLASTIA ELETROLÍTICA DE FIOS DE AÇO, POR PROCESSO DE ALTA DENSIDADE DE CORRENTE, COM UNIDADES DE DECAPAGEM ELETROLÍTICA, DE LAVAGEM E DE ESTANHAGEM, COM CONTROLADOR DE PROCESSO"
+    },
+    "triagem_documental_individual_concluida": true,
+    "data_referencia": "2026-10-28",
+    "categoria": "IDENTIDADE_MATERIAL_DIRETA_ATUAL_DOCUMENTADA",
+    "decisao": "CANDIDATO_CONDICIONAL_ADICIONAL",
+    "razao_concreta": "A função legal de galvanoplastia é expressa no cabeçalho atual854330 e nas NESH. O subitem10 trata especificamente aparelhos de eletrólise com células de membrana, que não descreve a instalação contínua de galvanoplastia apresentada como unidade funcional. O candidato90 é restrito à instalação completa descrita, não a qualquer eletrólise ou equipamento avulso.",
+    "documento_necessario": "Para aplicação concreta: documentação da mercadoria e atendimento integral às condições legais. Não há proposta de aplicação automática.",
+    "evidencias": [
+      {
+        "fonte": "TIPI",
+        "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+        "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+        "pagina_pdf_1_base": 410,
+        "linha_texto_1_base": 23624,
+        "trecho": "8543.30      - Máquinas e aparelhos de galvanoplastia, eletrólise ou eletroforese\n8543.30.10        De eletrólise, com células de membrana                                                    0\n8543.30.90        Outros                                                                                    0\n8543.40.00   - Cigarros eletrônicos e dispositivos de vaporização elétricos de uso pessoal semelhantes     6,5\n8543.70      - Outras máqui"
+      },
+      {
+        "fonte": "NESH",
+        "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+        "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+        "pagina_pdf_1_base": 2203,
+        "linha_texto_1_base": 90300,
+        "trecho": "10) Os aparelhos de galvanoplastia, de eletrólise, de eletroforese, exceto as máquinas e aparelhos\n    da posição 84.86 e os aparelhos de eletroforese da posição 90.27\n11) Os cigarros eletrônicos e dispositivos de vaporização elétricos de uso pessoal semelhantes.\n   Este grupo compreende:\n   1º) Os dispositivos comumente denominados “cigarros eletrônicos”, que aquecem e vaporizam\n       líquidos ou soluções que o utilizador inala diretamente, com ou sem nicotina, das\n       subposições 2404.12 ou 2404.19; e\n   2º) Os outros dispositivos de vaporização elétricos de uso pessoal, tais como os sistemas\n       aquecidos eletricamente para fumar tabaco (EHTS), dispositivos de vibração ultrassônica,\n       etc., que produzem um aerossol a partir de produtos de tabaco (produtos da subposição\n       2404.11) ou de outros produtos que contenham nicotina ou sucedâneos do tabaco ou da\n       nicotina (produtos das subposições 2404.12 ou 2404.19), destinados à inalação sem\n       combustão.\n   São dispositivos elétricos que funcionam, sem combustão, para produzir um aerossol que o\n   utilizador p"
+      }
+    ],
+    "opcoes_tecnicas_nao_propostas": [],
+    "proposta_adicional": true,
+    "rotas_propostas": [
+      {
+        "ncm": "85433090",
+        "condicao_especifica": "Somente instalação contínua de GALVANOPLASTIA de fios de aço, com todas as unidades/processo/controle da linha legal; não eletrolisador isolado com células de membrana."
+      }
+    ],
+    "tipo_impedimento_principal": "SEM_IMPEDIMENTO_DOCUMENTAL_DE_IDENTIDADE",
+    "fonte_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "V",
+      "item": "69",
+      "descricao_corrente": "INSTALAÇÃO CONTÍNUA DE GALVANOPLASTIA ELETROLÍTICA DE FIOS DE AÇO, POR PROCESSO DE ALTA DENSIDADE DE CORRENTE, COM UNIDADES DE DECAPAGEM ELETROLÍTICA, DE LAVAGEM E DE ESTANHAGEM, COM CONTROLADOR DE PROCESSO",
+      "sha256_fonte_verificada": "e4538fdfd070f17eb2c34fdf43d2b42ae604e8746f92b15f13b7eb48485961a5"
+    },
+    "corroboracoes_federais_auxiliares": [],
+    "pesquisa_nominal_tipi": null,
+    "cadeia_historica": {
+      "localizada_nesta_rodada": false,
+      "nao_usada_como_presuncao": true,
+      "observacao": "Nos positivos o fundamento é a identidade atual material; nos demais a lacuna específica acima deve ser resolvida por prova primária, ficha técnica ou cadeia oficial com identidade. Ausência de cadeia não foi usada sozinha para negar identidade nominal."
+    },
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA"
+  },
+  {
+    "id_pendencia": "OUTROS_084",
+    "indice_origem": 84,
+    "original": {
+      "template_id": "GO_A9_ART9_I_B2",
+      "item": "5.2",
+      "apendice": "VI",
+      "codigo_legal": "8201.20.00",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Forcados e forquilhas"
+    },
+    "triagem_documental_individual_concluida": true,
+    "data_referencia": "2026-10-28",
+    "categoria": "IDENTIDADE_MATERIAL_DIRETA_ATUAL_DOCUMENTADA",
+    "decisao": "CANDIDATO_CONDICIONAL_ADICIONAL",
+    "razao_concreta": "A posição8201 nomeia forcados/forquilhas e os demais subitens específicos atuais nomeiam pás,enxadas/ancinhos,machados,tesouras; essas duas ferramentas permanecem no item19000 de outras ferramentas manuais agrícolas. A identidade de nome,função e uso agrícola é direta. A cesta de82019000 mudou com a inclusão de bens antes82012000.",
+    "documento_necessario": "Para aplicação concreta: documentação da mercadoria e atendimento integral às condições legais. Não há proposta de aplicação automática.",
+    "evidencias": [
+      {
+        "fonte": "TIPI",
+        "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+        "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+        "pagina_pdf_1_base": 343,
+        "linha_texto_1_base": 19380,
+        "trecho": "82.01         Pás, alviões, picaretas, enxadas, sachos, forcados, forquilhas, ancinhos e\n                  raspadeiras; machados, podões e ferramentas semelhantes com gume; tesouras de\n                  podar de qualquer tipo; foices e foicinhas, facas para feno ou para palha, tesouras\n                  para sebes, cunhas e outras ferramentas manuais para agricultura, horticultura ou\n                  silvicultura.\n    8201.10.00    - Pás                                                                                           0\n    8201.30.00    - Alviões, picaretas, enxadas, sachos, ancinhos e raspadeiras                                   0\n    8201.40.00    - Machados, podões e ferramentas semelhantes com gume                                           0\n    8201.50.00    - Tesouras de podar (incluindo as tesouras para aves) manipuladas com uma das mãos              0\n    8201.60.00    - Tesouras para sebes, tesouras de podar e ferramentas semelhantes, manipuladas com\n                    as duas mãos                                                                                  0\n    8201.90.00    - Outras ferramentas manuais para agricultura, horticultura e silvicultura                      0\n\n    82.02         Serras manuais; folhas de serras de qualquer tipo (incluindo as fresas-serras e as\n                  folhas não dentadas para serrar).\n    8202.10.00    - Serra"
+      }
+    ],
+    "opcoes_tecnicas_nao_propostas": [],
+    "proposta_adicional": true,
+    "rotas_propostas": [
+      {
+        "ncm": "82019000",
+        "condicao_especifica": "Forcados e forquilhas MANUAIS para agricultura/horticultura/silvicultura da linha legal; não outras ferramentas por compartilharem o código."
+      }
+    ],
+    "tipo_impedimento_principal": "SEM_IMPEDIMENTO_DOCUMENTAL_DE_IDENTIDADE",
+    "fonte_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "VI",
+      "item": "5.2",
+      "descricao_corrente": "Forcados e forquilhas",
+      "sha256_fonte_verificada": "e4538fdfd070f17eb2c34fdf43d2b42ae604e8746f92b15f13b7eb48485961a5"
+    },
+    "corroboracoes_federais_auxiliares": [],
+    "pesquisa_nominal_tipi": null,
+    "cadeia_historica": {
+      "localizada_nesta_rodada": false,
+      "nao_usada_como_presuncao": true,
+      "observacao": "Nos positivos o fundamento é a identidade atual material; nos demais a lacuna específica acima deve ser resolvida por prova primária, ficha técnica ou cadeia oficial com identidade. Ausência de cadeia não foi usada sozinha para negar identidade nominal."
+    },
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA"
+  },
+  {
+    "id_pendencia": "OUTROS_086",
+    "indice_origem": 86,
+    "original": {
+      "template_id": "GO_A9_ART9_I_B2",
+      "item": "10.4",
+      "apendice": "VI",
+      "codigo_legal": "8424.81.29",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Outros irrigadores e sistemas de irrigação, inclusive os elementos integrantes desses sistemas, como máquinas, aparelhos, equipamentos, dispositivos e instrumentos"
+    },
+    "triagem_documental_individual_concluida": true,
+    "data_referencia": "2026-10-28",
+    "categoria": "IDENTIDADE_MATERIAL_DIRETA_ATUAL_DOCUMENTADA",
+    "decisao": "CANDIDATO_CONDICIONAL_ADICIONAL",
+    "razao_concreta": "O cabeçalho atual8424822 nomeia irrigadores e sistemas de irrigação e distingue por aspersão21 de outros29. A lei nomeia Outros irrigadores/sistemas; manter exatamente esse recorte, finalidade e apresentação, sem migrar elementos avulsos para o código do sistema.",
+    "documento_necessario": "Para aplicação concreta: documentação da mercadoria e atendimento integral às condições legais. Não há proposta de aplicação automática.",
+    "evidencias": [
+      {
+        "fonte": "TIPI",
+        "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+        "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+        "pagina_pdf_1_base": 362,
+        "linha_texto_1_base": 20544,
+        "trecho": "8424.82      -- Para agricultura ou horticultura\n8424.82.2         Irrigadores e sistemas de irrigação\n8424.82.21          Por aspersão                                                                             0\n8424.82.29          Outros                                                                                   0\n8424.82.90        Outros                                                                                     0\n8424.89      -- Outros"
+      }
+    ],
+    "opcoes_tecnicas_nao_propostas": [],
+    "proposta_adicional": true,
+    "rotas_propostas": [
+      {
+        "ncm": "84248229",
+        "condicao_especifica": "Somente outros IRRIGADORES/SISTEMAS DE IRRIGAÇÃO para agricultura/horticultura, excluídos os por aspersão; peças avulsas exigem sua própria classificação."
+      }
+    ],
+    "tipo_impedimento_principal": "SEM_IMPEDIMENTO_DOCUMENTAL_DE_IDENTIDADE",
+    "fonte_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "VI",
+      "item": "10.4",
+      "descricao_corrente": "Outros irrigadores e sistemas de irrigação, inclusive os elementos integrantes desses sistemas, como máquinas, aparelhos, equipamentos, dispositivos e instrumentos",
+      "sha256_fonte_verificada": "e4538fdfd070f17eb2c34fdf43d2b42ae604e8746f92b15f13b7eb48485961a5"
+    },
+    "corroboracoes_federais_auxiliares": [],
+    "pesquisa_nominal_tipi": null,
+    "cadeia_historica": {
+      "localizada_nesta_rodada": false,
+      "nao_usada_como_presuncao": true,
+      "observacao": "Nos positivos o fundamento é a identidade atual material; nos demais a lacuna específica acima deve ser resolvida por prova primária, ficha técnica ou cadeia oficial com identidade. Ausência de cadeia não foi usada sozinha para negar identidade nominal."
+    },
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA"
+  },
+  {
+    "id_pendencia": "OUTROS_092",
+    "indice_origem": 92,
+    "original": {
+      "template_id": "GO_A9_ART9_I_B2",
+      "item": "25",
+      "apendice": "VI",
+      "codigo_legal": "9406.00.10",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Estufa agrícola pré-fabricada em estrutura de aço ou alumínio, com coberturas e fechamentos em filmes, telas ou placas de plástico, opcionalmente com janelas e cortinas de acionamento manual ou motorizado, exaustores, iluminação elétrica, bancadas de cultivo e sistemas de aquecimento"
+    },
+    "triagem_documental_individual_concluida": true,
+    "data_referencia": "2026-10-28",
+    "categoria": "IDENTIDADE_MATERIAL_DIRETA_ATUAL_DOCUMENTADA",
+    "decisao": "CANDIDATO_CONDICIONAL_ADICIONAL",
+    "razao_concreta": "O atual94069010 nomeia Estufas sob outras construções pré-fabricadas, enquanto94061010 é de madeira. A descrição legal explicita estufa agrícola pré-fabricada de aço/alumínio/plástico, com equipamentos opcionais de construção compatíveis com a NESH9406. A identidade material é direta.",
+    "documento_necessario": "Para aplicação concreta: documentação da mercadoria e atendimento integral às condições legais. Não há proposta de aplicação automática.",
+    "evidencias": [
+      {
+        "fonte": "TIPI",
+        "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+        "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+        "pagina_pdf_1_base": 453,
+        "linha_texto_1_base": 26103,
+        "trecho": "94.06        Construções pré-fabricadas.\n9406.10      - De madeira\n9406.10.10       Estufas                                                                                     0\n9406.10.90       Outras                                                                                      0\n9406.20.00   - Unidades de construção modulares, de aço                                                      0\n9406.90      - Outras\n9406.90.10       Estufas                                                                                     0\n9406.90.20       Com estrutura de ferro ou aço e paredes exteriores constituídas principalmente dessas\n                 matérias                                                                                    0\n9406.90.90       Outras"
+      },
+      {
+        "fonte": "NESH",
+        "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+        "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+        "pagina_pdf_1_base": 2456,
+        "linha_texto_1_base": 101252,
+        "trecho": "94.06 - Construções pré-fabricadas (+).\n\n         9406.10 - De madeira\n         9406.20 - Unidades de construção modulares, de aço\n         9406.90 - Outras\n\n\nEsta posição abrange as construções                   pré-fabricadas,     também      denominadas        “construções\nindustrializadas”, de quaisquer matérias.\nEssas construções, concebidas para os mais variados usos, tais como habitação, barracas de canteiros\n(estaleiros) de obras, escritórios, escolas, lojas, hangares, garagens e estufas, apresentam-se, geralmente,\nsob a forma:\n–   de construções completas, inteiramente montadas, prontas para serem utilizadas;\n–   de construções completas, não montadas;\n–   de construções incompletas, montadas ou não, mas apresentando, nesse estado, as características\n    essenciais de construções pré-fabricadas.\nNos casos de construções que se apresentam não montadas, os elementos necessários para a sua\nedificação podem apresentar-se quer parcialmente montados (por exemplo, paredes, armaduras de\ntelhado) ou fornecidos nas dimensões definitivas (vigas, principalmente), quer ainda, alguns outros, com\ncomprimento indeterminado para serem ajustados no momento da montagem (vigas de apoio, matérias\nisolantes, etc.).\nAs construções desta posição podem ser equipadas ou não. Contudo, só o equipamento fixo fornecido\nnormalmente com essas construções é admitido, o qual pode englobar, por exemplo, a instalação elétrica\n(cabos, tomadas de corrente, interruptores, disjuntores, campainhas, etc.), a aparelhagem de\naquecimento ou de ar-condicionado (caldeiras, radiadores, aparelhos de ar-condicionado, etc.), o\nequipamento sanitário (banheiras, duchas, aquecedores de água, etc.) ou de cozinha (pias, coifas\naspirantes (exaustores), fogões, etc.), bem como os móveis embutidos ou concebidos para serem\nembutidos (armários, etc.).\nSão igualmente consideradas como construções pré-fabricadas as “unidades de construção modulares”\ncom estrutura de aço, também denominadas de módulos. Esses módulos são normalmente do tamanho\ne da forma de um contêiner (contentor*) padrão destinado ao transporte multimodal. No interior,\ncontudo, esses módulos são em grande parte ou totalmente pré-equipados com paredes, piso (pavimento)\ne teto, portas e janelas, eletricidade e canalização, dependendo do tipo de construção modular. Podem\nainda ser equipadas com outras instalações, por exemplo, escadas, móveis embutidos, equipamentos de\ncozinha, aparelhos sanitários, revestimento exterior e telhado. Os módulos são estruturalmente\nautoportantes e concebidos para serem montados com outros módulos (horizontal ou verticalmente) para\nformar construções permanentes, por exemplo, hospitais, hotéis, residências, instalações municipais ou\nescolas. Podem incluir elementos de montagem permanentes para interligá-los.\nNo entanto, as unidades de construção modulares não são equipadas com um chassis permanente (“casas móveis”)\n(Capítulo 87).\n\nOs materiais que se destinam a assegurar a montagem ou o acabamento das construções pré-fabricadas\n(por exemplo, pregos, cola, gesso, argamassa, fios e cabos elétricos, tubos, tintas, papéis de parede,\ncarpete) devem ser classificados com as mencionadas construções desde que sejam apresentados com\nestas últimas em quantidades apropriadas.\nAs partes de construções, bem como os objetos de equipamento, apresentados isoladamente, sendo ou não reconhecíveis como\ndestinados a equipar essas construções, excluem-se desta posição e seguem o seu próprio regime, em todos os casos.\n\n\n                                                           o\n                                                          oo\n\n\n\n\n                                                     XX-9406-1\n\f                                                                                                             94.06\n\nNotas Explicativas de subposições.\nSubposição 9406.10\nPara efeitos de classificação nesta subposição, a expressão “de madeira” refere-se a construções pré-fabricadas em\nque a estrutura, paredes exteriores, piso (pavimento) (se piso (pavimento) presente) e outros elementos construtivos\ncaracterísticos são constituídos essencialmente de madeira.\nSubposição 9406.20\nEsta subposição não compreende as construções fabricadas apresentadas como módulos de construção por montar\n(“flat pack”) ou como unidades de montagem que não sejam estruturalmente autoportantes (subposição 9406.90),\nnem as construções totalmente independentes, tais como as utilizadas como quiosques de rua ou escritórios de"
+      }
+    ],
+    "opcoes_tecnicas_nao_propostas": [],
+    "proposta_adicional": true,
+    "rotas_propostas": [
+      {
+        "ncm": "94069010",
+        "condicao_especifica": "Estufa AGRÍCOLA pré-fabricada de estrutura de aço/alumínio e fechamentos em filme/tela/placa plástica da linha legal; excluir construção de madeira e partes avulsas."
+      }
+    ],
+    "tipo_impedimento_principal": "SEM_IMPEDIMENTO_DOCUMENTAL_DE_IDENTIDADE",
+    "fonte_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "VI",
+      "item": "25",
+      "descricao_corrente": "Estufa agrícola pré-fabricada em estrutura de aço ou alumínio, com coberturas e fechamentos em filmes, telas ou placas de plástico, opcionalmente com janelas e cortinas de acionamento manual ou motorizado, exaustores, iluminação elétrica, bancadas de cultivo e sistemas de aquecimento",
+      "sha256_fonte_verificada": "e4538fdfd070f17eb2c34fdf43d2b42ae604e8746f92b15f13b7eb48485961a5"
+    },
+    "corroboracoes_federais_auxiliares": [],
+    "pesquisa_nominal_tipi": null,
+    "cadeia_historica": {
+      "localizada_nesta_rodada": false,
+      "nao_usada_como_presuncao": true,
+      "observacao": "Nos positivos o fundamento é a identidade atual material; nos demais a lacuna específica acima deve ser resolvida por prova primária, ficha técnica ou cadeia oficial com identidade. Ausência de cadeia não foi usada sozinha para negar identidade nominal."
+    },
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA"
+  },
+  {
+    "id_pendencia": "OUTROS_135",
+    "indice_origem": 135,
+    "original": {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "item": "108",
+      "apendice": "XVII",
+      "codigo_legal": "3002.10.19",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Fármaco: Soro Anti-Bot/Crotálico"
+    },
+    "triagem_documental_individual_concluida": true,
+    "data_referencia": "2026-10-28",
+    "categoria": "IDENTIDADE_MATERIAL_DIRETA_ATUAL_DOCUMENTADA",
+    "decisao": "CANDIDATO_CONDICIONAL_ADICIONAL",
+    "razao_concreta": "A categoria atual de antissoros identifica materialmente este produto; a publicação federal nominal confirma 301 | SORO ANTIBOTRÓPICO (PENTAVALENTE) E ANTICROTÁLICO | 3002.12.11. Soros mistos antiofídicos permanecem antivenenosos30021211, e soros antibotulínico/antirrábico são antissoros específicos residuais30021219. Não confundir soro antibotulínico com toxina botulínica30024992 ou com antitoxina microbiana.",
+    "documento_necessario": "Para aplicação concreta: documentação da mercadoria e atendimento integral às condições legais. Não há proposta de aplicação automática.",
+    "evidencias": [
+      {
+        "fonte": "TIPI",
+        "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+        "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+        "pagina_pdf_1_base": 144,
+        "linha_texto_1_base": 8293,
+        "trecho": "3002.12        -- Antissoros e outras frações do sangue\n    3002.12.1           Antissoros específicos de animais ou de pessoas imunizados\n    3002.12.11           Antiofídicos e outros antivenenosos                                                        0\n    3002.12.12           Antitetânico                                                                               0\n    3002.12.13           Anticatarral                                                                               0\n    3002.12.14           Antipiogênico                                                                              0\n    3002.12.15           Antidiftérico                                                                              0\n    3002.12.16           Polivalentes                                                                               0\n    3002.12.19           Outros                                                                                     0\n    3002.12.2           Outras frações do sangue, exceto as preparadas como medicamentos\n    3002.12.21           Imunoglobulina anti-Rh                                                                     0\n    3002.12.22           Outras imunoglobulinas séricas                                                             0\n    3002.12.23           Concentrado de fator VIII                                                                  0\n    3002.12.24           Soroalbumina, sob a forma de gel, para preparação de reagentes de diagnóstico              0\n    3002.12.29           Outros                                                                                     0\n    3002.12.3           Outras frações do sangue, preparadas como medicamentos\n    3002.12.31           Soroalbumina, exceto a humana                                                              0\n    3002.12.32           Plasmina (fibrinolisina)                                                                   0\n    3002.12.33           Uroquinase                                                                                 0\n\f                                                                                                          ALÍQUOTA\n   NCM                                             DESCRIÇÃO\n                                                                                                             (%)\n3002.12.34         Imunoglobulina e cloridrato de histamina, associados"
+      },
+      {
+        "fonte": "NESH",
+        "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+        "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+        "pagina_pdf_1_base": 749,
+        "linha_texto_1_base": 29355,
+        "trecho": "Os soros específicos contra as doenças, quer sejam provocadas por microrganismos patogênicos,\n       por toxinas ou por certos fenômenos alérgicos, etc., provêm do sangue de animais ou de pessoas\n       imunizados. Entre os soros específicos podem citar-se os soros antidiftérico, antidisentérico,\n       antigangrenoso, antimeningocócico, antipneumocócico, antitetânico, antiestafilocócico,\n       antiestreptocócico, antiofídico, antivenenoso e antialérgico. Os soros específicos são também\n       utilizados para fins de diagnóstico, incluindo para proceder a testes in vitro. As imunoglobulinas\n       específicas são preparações purificadas de soros específicos de animais ou de pessoas\n       imunizados.\n       Esta posição não abrange a albumina do sangue não preparada para fins terapêuticos ou profiláticos (posição 35.02)\n       nem as globulinas (exceto as globulinas do sangue e as soroglobulinas) (posição 35.04), e os medicamentos que não\n       sejam um líquido extraído do san"
+      },
+      {
+        "fonte": "FEDERAL_CORROBORACAO_NOMINAL",
+        "url": "https://legis.senado.leg.br/norma/40180341/publicacao/40181032",
+        "anexo": "XIV",
+        "item": "301",
+        "trecho": "301 | SORO ANTIBOTRÓPICO (PENTAVALENTE) E ANTICROTÁLICO | 3002.12.11",
+        "uso": "Somente identidade/nome/código; nenhuma regraIBS/CBS transferida aoICMS."
+      }
+    ],
+    "opcoes_tecnicas_nao_propostas": [],
+    "proposta_adicional": true,
+    "rotas_propostas": [
+      {
+        "ncm": "30021211",
+        "condicao_especifica": "Somente o soro nominal da linha e coluna legal: Fármaco: Soro Anti-Bot/Crotálico"
+      }
+    ],
+    "tipo_impedimento_principal": "SEM_IMPEDIMENTO_DOCUMENTAL_DE_IDENTIDADE",
+    "fonte_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "XVII",
+      "item": "108",
+      "descricao_corrente": "Fármaco: Soro Anti-Bot/Crotálico",
+      "sha256_fonte_verificada": "e4538fdfd070f17eb2c34fdf43d2b42ae604e8746f92b15f13b7eb48485961a5"
+    },
+    "corroboracoes_federais_auxiliares": [],
+    "pesquisa_nominal_tipi": null,
+    "cadeia_historica": {
+      "localizada_nesta_rodada": false,
+      "nao_usada_como_presuncao": true,
+      "observacao": "Nos positivos o fundamento é a identidade atual material; nos demais a lacuna específica acima deve ser resolvida por prova primária, ficha técnica ou cadeia oficial com identidade. Ausência de cadeia não foi usada sozinha para negar identidade nominal."
+    },
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA"
+  },
+  {
+    "id_pendencia": "OUTROS_136",
+    "indice_origem": 136,
+    "original": {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "item": "108",
+      "apendice": "XVII",
+      "codigo_legal": "3002.10.19",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Medicamento: Soro Anti-Bot/Crotálico"
+    },
+    "triagem_documental_individual_concluida": true,
+    "data_referencia": "2026-10-28",
+    "categoria": "IDENTIDADE_MATERIAL_DIRETA_ATUAL_DOCUMENTADA",
+    "decisao": "CANDIDATO_CONDICIONAL_ADICIONAL",
+    "razao_concreta": "A categoria atual de antissoros identifica materialmente este produto; a publicação federal nominal confirma 301 | SORO ANTIBOTRÓPICO (PENTAVALENTE) E ANTICROTÁLICO | 3002.12.11. Soros mistos antiofídicos permanecem antivenenosos30021211, e soros antibotulínico/antirrábico são antissoros específicos residuais30021219. Não confundir soro antibotulínico com toxina botulínica30024992 ou com antitoxina microbiana.",
+    "documento_necessario": "Para aplicação concreta: documentação da mercadoria e atendimento integral às condições legais. Não há proposta de aplicação automática.",
+    "evidencias": [
+      {
+        "fonte": "TIPI",
+        "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+        "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+        "pagina_pdf_1_base": 144,
+        "linha_texto_1_base": 8293,
+        "trecho": "3002.12        -- Antissoros e outras frações do sangue\n    3002.12.1           Antissoros específicos de animais ou de pessoas imunizados\n    3002.12.11           Antiofídicos e outros antivenenosos                                                        0\n    3002.12.12           Antitetânico                                                                               0\n    3002.12.13           Anticatarral                                                                               0\n    3002.12.14           Antipiogênico                                                                              0\n    3002.12.15           Antidiftérico                                                                              0\n    3002.12.16           Polivalentes                                                                               0\n    3002.12.19           Outros                                                                                     0\n    3002.12.2           Outras frações do sangue, exceto as preparadas como medicamentos\n    3002.12.21           Imunoglobulina anti-Rh                                                                     0\n    3002.12.22           Outras imunoglobulinas séricas                                                             0\n    3002.12.23           Concentrado de fator VIII                                                                  0\n    3002.12.24           Soroalbumina, sob a forma de gel, para preparação de reagentes de diagnóstico              0\n    3002.12.29           Outros                                                                                     0\n    3002.12.3           Outras frações do sangue, preparadas como medicamentos\n    3002.12.31           Soroalbumina, exceto a humana                                                              0\n    3002.12.32           Plasmina (fibrinolisina)                                                                   0\n    3002.12.33           Uroquinase                                                                                 0\n\f                                                                                                          ALÍQUOTA\n   NCM                                             DESCRIÇÃO\n                                                                                                             (%)\n3002.12.34         Imunoglobulina e cloridrato de histamina, associados"
+      },
+      {
+        "fonte": "NESH",
+        "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+        "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+        "pagina_pdf_1_base": 749,
+        "linha_texto_1_base": 29355,
+        "trecho": "Os soros específicos contra as doenças, quer sejam provocadas por microrganismos patogênicos,\n       por toxinas ou por certos fenômenos alérgicos, etc., provêm do sangue de animais ou de pessoas\n       imunizados. Entre os soros específicos podem citar-se os soros antidiftérico, antidisentérico,\n       antigangrenoso, antimeningocócico, antipneumocócico, antitetânico, antiestafilocócico,\n       antiestreptocócico, antiofídico, antivenenoso e antialérgico. Os soros específicos são também\n       utilizados para fins de diagnóstico, incluindo para proceder a testes in vitro. As imunoglobulinas\n       específicas são preparações purificadas de soros específicos de animais ou de pessoas\n       imunizados.\n       Esta posição não abrange a albumina do sangue não preparada para fins terapêuticos ou profiláticos (posição 35.02)\n       nem as globulinas (exceto as globulinas do sangue e as soroglobulinas) (posição 35.04), e os medicamentos que não\n       sejam um líquido extraído do san"
+      },
+      {
+        "fonte": "FEDERAL_CORROBORACAO_NOMINAL",
+        "url": "https://legis.senado.leg.br/norma/40180341/publicacao/40181032",
+        "anexo": "XIV",
+        "item": "301",
+        "trecho": "301 | SORO ANTIBOTRÓPICO (PENTAVALENTE) E ANTICROTÁLICO | 3002.12.11",
+        "uso": "Somente identidade/nome/código; nenhuma regraIBS/CBS transferida aoICMS."
+      }
+    ],
+    "opcoes_tecnicas_nao_propostas": [],
+    "proposta_adicional": true,
+    "rotas_propostas": [
+      {
+        "ncm": "30021211",
+        "condicao_especifica": "Somente o soro nominal da linha e coluna legal: Medicamento: Soro Anti-Bot/Crotálico"
+      }
+    ],
+    "tipo_impedimento_principal": "SEM_IMPEDIMENTO_DOCUMENTAL_DE_IDENTIDADE",
+    "fonte_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "XVII",
+      "item": "108",
+      "descricao_corrente": "Medicamento: Soro Anti-Bot/Crotálico",
+      "sha256_fonte_verificada": "e4538fdfd070f17eb2c34fdf43d2b42ae604e8746f92b15f13b7eb48485961a5"
+    },
+    "corroboracoes_federais_auxiliares": [],
+    "pesquisa_nominal_tipi": null,
+    "cadeia_historica": {
+      "localizada_nesta_rodada": false,
+      "nao_usada_como_presuncao": true,
+      "observacao": "Nos positivos o fundamento é a identidade atual material; nos demais a lacuna específica acima deve ser resolvida por prova primária, ficha técnica ou cadeia oficial com identidade. Ausência de cadeia não foi usada sozinha para negar identidade nominal."
+    },
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA"
+  },
+  {
+    "id_pendencia": "OUTROS_137",
+    "indice_origem": 137,
+    "original": {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "item": "109",
+      "apendice": "XVII",
+      "codigo_legal": "3002.10.19",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Fármaco: Soro Anti-Bot/Laquético"
+    },
+    "triagem_documental_individual_concluida": true,
+    "data_referencia": "2026-10-28",
+    "categoria": "IDENTIDADE_MATERIAL_DIRETA_ATUAL_DOCUMENTADA",
+    "decisao": "CANDIDATO_CONDICIONAL_ADICIONAL",
+    "razao_concreta": "A categoria atual de antissoros identifica materialmente este produto; a publicação federal nominal confirma 302 | SORO ANTIBOTRÓPICO (PENTAVALENTE) E ANTILAQUÉTICO | 3002.12.11. Soros mistos antiofídicos permanecem antivenenosos30021211, e soros antibotulínico/antirrábico são antissoros específicos residuais30021219. Não confundir soro antibotulínico com toxina botulínica30024992 ou com antitoxina microbiana.",
+    "documento_necessario": "Para aplicação concreta: documentação da mercadoria e atendimento integral às condições legais. Não há proposta de aplicação automática.",
+    "evidencias": [
+      {
+        "fonte": "TIPI",
+        "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+        "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+        "pagina_pdf_1_base": 144,
+        "linha_texto_1_base": 8293,
+        "trecho": "3002.12        -- Antissoros e outras frações do sangue\n    3002.12.1           Antissoros específicos de animais ou de pessoas imunizados\n    3002.12.11           Antiofídicos e outros antivenenosos                                                        0\n    3002.12.12           Antitetânico                                                                               0\n    3002.12.13           Anticatarral                                                                               0\n    3002.12.14           Antipiogênico                                                                              0\n    3002.12.15           Antidiftérico                                                                              0\n    3002.12.16           Polivalentes                                                                               0\n    3002.12.19           Outros                                                                                     0\n    3002.12.2           Outras frações do sangue, exceto as preparadas como medicamentos\n    3002.12.21           Imunoglobulina anti-Rh                                                                     0\n    3002.12.22           Outras imunoglobulinas séricas                                                             0\n    3002.12.23           Concentrado de fator VIII                                                                  0\n    3002.12.24           Soroalbumina, sob a forma de gel, para preparação de reagentes de diagnóstico              0\n    3002.12.29           Outros                                                                                     0\n    3002.12.3           Outras frações do sangue, preparadas como medicamentos\n    3002.12.31           Soroalbumina, exceto a humana                                                              0\n    3002.12.32           Plasmina (fibrinolisina)                                                                   0\n    3002.12.33           Uroquinase                                                                                 0\n\f                                                                                                          ALÍQUOTA\n   NCM                                             DESCRIÇÃO\n                                                                                                             (%)\n3002.12.34         Imunoglobulina e cloridrato de histamina, associados"
+      },
+      {
+        "fonte": "NESH",
+        "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+        "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+        "pagina_pdf_1_base": 749,
+        "linha_texto_1_base": 29355,
+        "trecho": "Os soros específicos contra as doenças, quer sejam provocadas por microrganismos patogênicos,\n       por toxinas ou por certos fenômenos alérgicos, etc., provêm do sangue de animais ou de pessoas\n       imunizados. Entre os soros específicos podem citar-se os soros antidiftérico, antidisentérico,\n       antigangrenoso, antimeningocócico, antipneumocócico, antitetânico, antiestafilocócico,\n       antiestreptocócico, antiofídico, antivenenoso e antialérgico. Os soros específicos são também\n       utilizados para fins de diagnóstico, incluindo para proceder a testes in vitro. As imunoglobulinas\n       específicas são preparações purificadas de soros específicos de animais ou de pessoas\n       imunizados.\n       Esta posição não abrange a albumina do sangue não preparada para fins terapêuticos ou profiláticos (posição 35.02)\n       nem as globulinas (exceto as globulinas do sangue e as soroglobulinas) (posição 35.04), e os medicamentos que não\n       sejam um líquido extraído do san"
+      },
+      {
+        "fonte": "FEDERAL_CORROBORACAO_NOMINAL",
+        "url": "https://legis.senado.leg.br/norma/40180341/publicacao/40181032",
+        "anexo": "XIV",
+        "item": "302",
+        "trecho": "302 | SORO ANTIBOTRÓPICO (PENTAVALENTE) E ANTILAQUÉTICO | 3002.12.11",
+        "uso": "Somente identidade/nome/código; nenhuma regraIBS/CBS transferida aoICMS."
+      }
+    ],
+    "opcoes_tecnicas_nao_propostas": [],
+    "proposta_adicional": true,
+    "rotas_propostas": [
+      {
+        "ncm": "30021211",
+        "condicao_especifica": "Somente o soro nominal da linha e coluna legal: Fármaco: Soro Anti-Bot/Laquético"
+      }
+    ],
+    "tipo_impedimento_principal": "SEM_IMPEDIMENTO_DOCUMENTAL_DE_IDENTIDADE",
+    "fonte_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "XVII",
+      "item": "109",
+      "descricao_corrente": "Fármaco: Soro Anti-Bot/Laquético",
+      "sha256_fonte_verificada": "e4538fdfd070f17eb2c34fdf43d2b42ae604e8746f92b15f13b7eb48485961a5"
+    },
+    "corroboracoes_federais_auxiliares": [],
+    "pesquisa_nominal_tipi": null,
+    "cadeia_historica": {
+      "localizada_nesta_rodada": false,
+      "nao_usada_como_presuncao": true,
+      "observacao": "Nos positivos o fundamento é a identidade atual material; nos demais a lacuna específica acima deve ser resolvida por prova primária, ficha técnica ou cadeia oficial com identidade. Ausência de cadeia não foi usada sozinha para negar identidade nominal."
+    },
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA"
+  },
+  {
+    "id_pendencia": "OUTROS_138",
+    "indice_origem": 138,
+    "original": {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "item": "109",
+      "apendice": "XVII",
+      "codigo_legal": "3002.10.19",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Medicamento: Soro Anti-Bot/Laquético"
+    },
+    "triagem_documental_individual_concluida": true,
+    "data_referencia": "2026-10-28",
+    "categoria": "IDENTIDADE_MATERIAL_DIRETA_ATUAL_DOCUMENTADA",
+    "decisao": "CANDIDATO_CONDICIONAL_ADICIONAL",
+    "razao_concreta": "A categoria atual de antissoros identifica materialmente este produto; a publicação federal nominal confirma 302 | SORO ANTIBOTRÓPICO (PENTAVALENTE) E ANTILAQUÉTICO | 3002.12.11. Soros mistos antiofídicos permanecem antivenenosos30021211, e soros antibotulínico/antirrábico são antissoros específicos residuais30021219. Não confundir soro antibotulínico com toxina botulínica30024992 ou com antitoxina microbiana.",
+    "documento_necessario": "Para aplicação concreta: documentação da mercadoria e atendimento integral às condições legais. Não há proposta de aplicação automática.",
+    "evidencias": [
+      {
+        "fonte": "TIPI",
+        "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+        "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+        "pagina_pdf_1_base": 144,
+        "linha_texto_1_base": 8293,
+        "trecho": "3002.12        -- Antissoros e outras frações do sangue\n    3002.12.1           Antissoros específicos de animais ou de pessoas imunizados\n    3002.12.11           Antiofídicos e outros antivenenosos                                                        0\n    3002.12.12           Antitetânico                                                                               0\n    3002.12.13           Anticatarral                                                                               0\n    3002.12.14           Antipiogênico                                                                              0\n    3002.12.15           Antidiftérico                                                                              0\n    3002.12.16           Polivalentes                                                                               0\n    3002.12.19           Outros                                                                                     0\n    3002.12.2           Outras frações do sangue, exceto as preparadas como medicamentos\n    3002.12.21           Imunoglobulina anti-Rh                                                                     0\n    3002.12.22           Outras imunoglobulinas séricas                                                             0\n    3002.12.23           Concentrado de fator VIII                                                                  0\n    3002.12.24           Soroalbumina, sob a forma de gel, para preparação de reagentes de diagnóstico              0\n    3002.12.29           Outros                                                                                     0\n    3002.12.3           Outras frações do sangue, preparadas como medicamentos\n    3002.12.31           Soroalbumina, exceto a humana                                                              0\n    3002.12.32           Plasmina (fibrinolisina)                                                                   0\n    3002.12.33           Uroquinase                                                                                 0\n\f                                                                                                          ALÍQUOTA\n   NCM                                             DESCRIÇÃO\n                                                                                                             (%)\n3002.12.34         Imunoglobulina e cloridrato de histamina, associados"
+      },
+      {
+        "fonte": "NESH",
+        "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+        "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+        "pagina_pdf_1_base": 749,
+        "linha_texto_1_base": 29355,
+        "trecho": "Os soros específicos contra as doenças, quer sejam provocadas por microrganismos patogênicos,\n       por toxinas ou por certos fenômenos alérgicos, etc., provêm do sangue de animais ou de pessoas\n       imunizados. Entre os soros específicos podem citar-se os soros antidiftérico, antidisentérico,\n       antigangrenoso, antimeningocócico, antipneumocócico, antitetânico, antiestafilocócico,\n       antiestreptocócico, antiofídico, antivenenoso e antialérgico. Os soros específicos são também\n       utilizados para fins de diagnóstico, incluindo para proceder a testes in vitro. As imunoglobulinas\n       específicas são preparações purificadas de soros específicos de animais ou de pessoas\n       imunizados.\n       Esta posição não abrange a albumina do sangue não preparada para fins terapêuticos ou profiláticos (posição 35.02)\n       nem as globulinas (exceto as globulinas do sangue e as soroglobulinas) (posição 35.04), e os medicamentos que não\n       sejam um líquido extraído do san"
+      },
+      {
+        "fonte": "FEDERAL_CORROBORACAO_NOMINAL",
+        "url": "https://legis.senado.leg.br/norma/40180341/publicacao/40181032",
+        "anexo": "XIV",
+        "item": "302",
+        "trecho": "302 | SORO ANTIBOTRÓPICO (PENTAVALENTE) E ANTILAQUÉTICO | 3002.12.11",
+        "uso": "Somente identidade/nome/código; nenhuma regraIBS/CBS transferida aoICMS."
+      }
+    ],
+    "opcoes_tecnicas_nao_propostas": [],
+    "proposta_adicional": true,
+    "rotas_propostas": [
+      {
+        "ncm": "30021211",
+        "condicao_especifica": "Somente o soro nominal da linha e coluna legal: Medicamento: Soro Anti-Bot/Laquético"
+      }
+    ],
+    "tipo_impedimento_principal": "SEM_IMPEDIMENTO_DOCUMENTAL_DE_IDENTIDADE",
+    "fonte_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "XVII",
+      "item": "109",
+      "descricao_corrente": "Medicamento: Soro Anti-Bot/Laquético",
+      "sha256_fonte_verificada": "e4538fdfd070f17eb2c34fdf43d2b42ae604e8746f92b15f13b7eb48485961a5"
+    },
+    "corroboracoes_federais_auxiliares": [],
+    "pesquisa_nominal_tipi": null,
+    "cadeia_historica": {
+      "localizada_nesta_rodada": false,
+      "nao_usada_como_presuncao": true,
+      "observacao": "Nos positivos o fundamento é a identidade atual material; nos demais a lacuna específica acima deve ser resolvida por prova primária, ficha técnica ou cadeia oficial com identidade. Ausência de cadeia não foi usada sozinha para negar identidade nominal."
+    },
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA"
+  },
+  {
+    "id_pendencia": "OUTROS_141",
+    "indice_origem": 141,
+    "original": {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "item": "111",
+      "apendice": "XVII",
+      "codigo_legal": "3002.10.19",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Fármaco: Soro Anti-Botulínico"
+    },
+    "triagem_documental_individual_concluida": true,
+    "data_referencia": "2026-10-28",
+    "categoria": "IDENTIDADE_MATERIAL_DIRETA_ATUAL_DOCUMENTADA",
+    "decisao": "CANDIDATO_CONDICIONAL_ADICIONAL",
+    "razao_concreta": "A categoria atual de antissoros identifica materialmente este produto; a publicação federal nominal confirma 303 | SORO ANTIBOTULÍNICO AB (BIVALENTE) | 3002.12.19. Soros mistos antiofídicos permanecem antivenenosos30021211, e soros antibotulínico/antirrábico são antissoros específicos residuais30021219. Não confundir soro antibotulínico com toxina botulínica30024992 ou com antitoxina microbiana.",
+    "documento_necessario": "Para aplicação concreta: documentação da mercadoria e atendimento integral às condições legais. Não há proposta de aplicação automática.",
+    "evidencias": [
+      {
+        "fonte": "TIPI",
+        "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+        "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+        "pagina_pdf_1_base": 144,
+        "linha_texto_1_base": 8293,
+        "trecho": "3002.12        -- Antissoros e outras frações do sangue\n    3002.12.1           Antissoros específicos de animais ou de pessoas imunizados\n    3002.12.11           Antiofídicos e outros antivenenosos                                                        0\n    3002.12.12           Antitetânico                                                                               0\n    3002.12.13           Anticatarral                                                                               0\n    3002.12.14           Antipiogênico                                                                              0\n    3002.12.15           Antidiftérico                                                                              0\n    3002.12.16           Polivalentes                                                                               0\n    3002.12.19           Outros                                                                                     0\n    3002.12.2           Outras frações do sangue, exceto as preparadas como medicamentos\n    3002.12.21           Imunoglobulina anti-Rh                                                                     0\n    3002.12.22           Outras imunoglobulinas séricas                                                             0\n    3002.12.23           Concentrado de fator VIII                                                                  0\n    3002.12.24           Soroalbumina, sob a forma de gel, para preparação de reagentes de diagnóstico              0\n    3002.12.29           Outros                                                                                     0\n    3002.12.3           Outras frações do sangue, preparadas como medicamentos\n    3002.12.31           Soroalbumina, exceto a humana                                                              0\n    3002.12.32           Plasmina (fibrinolisina)                                                                   0\n    3002.12.33           Uroquinase                                                                                 0\n\f                                                                                                          ALÍQUOTA\n   NCM                                             DESCRIÇÃO\n                                                                                                             (%)\n3002.12.34         Imunoglobulina e cloridrato de histamina, associados"
+      },
+      {
+        "fonte": "NESH",
+        "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+        "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+        "pagina_pdf_1_base": 749,
+        "linha_texto_1_base": 29355,
+        "trecho": "Os soros específicos contra as doenças, quer sejam provocadas por microrganismos patogênicos,\n       por toxinas ou por certos fenômenos alérgicos, etc., provêm do sangue de animais ou de pessoas\n       imunizados. Entre os soros específicos podem citar-se os soros antidiftérico, antidisentérico,\n       antigangrenoso, antimeningocócico, antipneumocócico, antitetânico, antiestafilocócico,\n       antiestreptocócico, antiofídico, antivenenoso e antialérgico. Os soros específicos são também\n       utilizados para fins de diagnóstico, incluindo para proceder a testes in vitro. As imunoglobulinas\n       específicas são preparações purificadas de soros específicos de animais ou de pessoas\n       imunizados.\n       Esta posição não abrange a albumina do sangue não preparada para fins terapêuticos ou profiláticos (posição 35.02)\n       nem as globulinas (exceto as globulinas do sangue e as soroglobulinas) (posição 35.04), e os medicamentos que não\n       sejam um líquido extraído do san"
+      },
+      {
+        "fonte": "FEDERAL_CORROBORACAO_NOMINAL",
+        "url": "https://legis.senado.leg.br/norma/40180341/publicacao/40181032",
+        "anexo": "XIV",
+        "item": "303",
+        "trecho": "303 | SORO ANTIBOTULÍNICO AB (BIVALENTE) | 3002.12.19",
+        "uso": "Somente identidade/nome/código; nenhuma regraIBS/CBS transferida aoICMS."
+      }
+    ],
+    "opcoes_tecnicas_nao_propostas": [],
+    "proposta_adicional": true,
+    "rotas_propostas": [
+      {
+        "ncm": "30021219",
+        "condicao_especifica": "Somente o soro nominal da linha e coluna legal: Fármaco: Soro Anti-Botulínico"
+      }
+    ],
+    "tipo_impedimento_principal": "SEM_IMPEDIMENTO_DOCUMENTAL_DE_IDENTIDADE",
+    "fonte_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "XVII",
+      "item": "111",
+      "descricao_corrente": "Fármaco: Soro Anti-Botulínico",
+      "sha256_fonte_verificada": "e4538fdfd070f17eb2c34fdf43d2b42ae604e8746f92b15f13b7eb48485961a5"
+    },
+    "corroboracoes_federais_auxiliares": [],
+    "pesquisa_nominal_tipi": null,
+    "cadeia_historica": {
+      "localizada_nesta_rodada": false,
+      "nao_usada_como_presuncao": true,
+      "observacao": "Nos positivos o fundamento é a identidade atual material; nos demais a lacuna específica acima deve ser resolvida por prova primária, ficha técnica ou cadeia oficial com identidade. Ausência de cadeia não foi usada sozinha para negar identidade nominal."
+    },
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA"
+  },
+  {
+    "id_pendencia": "OUTROS_142",
+    "indice_origem": 142,
+    "original": {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "item": "111",
+      "apendice": "XVII",
+      "codigo_legal": "3002.10.19",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Medicamento: Soro Anti-Botulínico"
+    },
+    "triagem_documental_individual_concluida": true,
+    "data_referencia": "2026-10-28",
+    "categoria": "IDENTIDADE_MATERIAL_DIRETA_ATUAL_DOCUMENTADA",
+    "decisao": "CANDIDATO_CONDICIONAL_ADICIONAL",
+    "razao_concreta": "A categoria atual de antissoros identifica materialmente este produto; a publicação federal nominal confirma 303 | SORO ANTIBOTULÍNICO AB (BIVALENTE) | 3002.12.19. Soros mistos antiofídicos permanecem antivenenosos30021211, e soros antibotulínico/antirrábico são antissoros específicos residuais30021219. Não confundir soro antibotulínico com toxina botulínica30024992 ou com antitoxina microbiana.",
+    "documento_necessario": "Para aplicação concreta: documentação da mercadoria e atendimento integral às condições legais. Não há proposta de aplicação automática.",
+    "evidencias": [
+      {
+        "fonte": "TIPI",
+        "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+        "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+        "pagina_pdf_1_base": 144,
+        "linha_texto_1_base": 8293,
+        "trecho": "3002.12        -- Antissoros e outras frações do sangue\n    3002.12.1           Antissoros específicos de animais ou de pessoas imunizados\n    3002.12.11           Antiofídicos e outros antivenenosos                                                        0\n    3002.12.12           Antitetânico                                                                               0\n    3002.12.13           Anticatarral                                                                               0\n    3002.12.14           Antipiogênico                                                                              0\n    3002.12.15           Antidiftérico                                                                              0\n    3002.12.16           Polivalentes                                                                               0\n    3002.12.19           Outros                                                                                     0\n    3002.12.2           Outras frações do sangue, exceto as preparadas como medicamentos\n    3002.12.21           Imunoglobulina anti-Rh                                                                     0\n    3002.12.22           Outras imunoglobulinas séricas                                                             0\n    3002.12.23           Concentrado de fator VIII                                                                  0\n    3002.12.24           Soroalbumina, sob a forma de gel, para preparação de reagentes de diagnóstico              0\n    3002.12.29           Outros                                                                                     0\n    3002.12.3           Outras frações do sangue, preparadas como medicamentos\n    3002.12.31           Soroalbumina, exceto a humana                                                              0\n    3002.12.32           Plasmina (fibrinolisina)                                                                   0\n    3002.12.33           Uroquinase                                                                                 0\n\f                                                                                                          ALÍQUOTA\n   NCM                                             DESCRIÇÃO\n                                                                                                             (%)\n3002.12.34         Imunoglobulina e cloridrato de histamina, associados"
+      },
+      {
+        "fonte": "NESH",
+        "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+        "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+        "pagina_pdf_1_base": 749,
+        "linha_texto_1_base": 29355,
+        "trecho": "Os soros específicos contra as doenças, quer sejam provocadas por microrganismos patogênicos,\n       por toxinas ou por certos fenômenos alérgicos, etc., provêm do sangue de animais ou de pessoas\n       imunizados. Entre os soros específicos podem citar-se os soros antidiftérico, antidisentérico,\n       antigangrenoso, antimeningocócico, antipneumocócico, antitetânico, antiestafilocócico,\n       antiestreptocócico, antiofídico, antivenenoso e antialérgico. Os soros específicos são também\n       utilizados para fins de diagnóstico, incluindo para proceder a testes in vitro. As imunoglobulinas\n       específicas são preparações purificadas de soros específicos de animais ou de pessoas\n       imunizados.\n       Esta posição não abrange a albumina do sangue não preparada para fins terapêuticos ou profiláticos (posição 35.02)\n       nem as globulinas (exceto as globulinas do sangue e as soroglobulinas) (posição 35.04), e os medicamentos que não\n       sejam um líquido extraído do san"
+      },
+      {
+        "fonte": "FEDERAL_CORROBORACAO_NOMINAL",
+        "url": "https://legis.senado.leg.br/norma/40180341/publicacao/40181032",
+        "anexo": "XIV",
+        "item": "303",
+        "trecho": "303 | SORO ANTIBOTULÍNICO AB (BIVALENTE) | 3002.12.19",
+        "uso": "Somente identidade/nome/código; nenhuma regraIBS/CBS transferida aoICMS."
+      }
+    ],
+    "opcoes_tecnicas_nao_propostas": [],
+    "proposta_adicional": true,
+    "rotas_propostas": [
+      {
+        "ncm": "30021219",
+        "condicao_especifica": "Somente o soro nominal da linha e coluna legal: Medicamento: Soro Anti-Botulínico"
+      }
+    ],
+    "tipo_impedimento_principal": "SEM_IMPEDIMENTO_DOCUMENTAL_DE_IDENTIDADE",
+    "fonte_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "XVII",
+      "item": "111",
+      "descricao_corrente": "Medicamento: Soro Anti-Botulínico",
+      "sha256_fonte_verificada": "e4538fdfd070f17eb2c34fdf43d2b42ae604e8746f92b15f13b7eb48485961a5"
+    },
+    "corroboracoes_federais_auxiliares": [],
+    "pesquisa_nominal_tipi": null,
+    "cadeia_historica": {
+      "localizada_nesta_rodada": false,
+      "nao_usada_como_presuncao": true,
+      "observacao": "Nos positivos o fundamento é a identidade atual material; nos demais a lacuna específica acima deve ser resolvida por prova primária, ficha técnica ou cadeia oficial com identidade. Ausência de cadeia não foi usada sozinha para negar identidade nominal."
+    },
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA"
+  },
+  {
+    "id_pendencia": "OUTROS_157",
+    "indice_origem": 157,
+    "original": {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "item": "119",
+      "apendice": "XVII",
+      "codigo_legal": "3002.10.19",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Fármaco: Soro Anti-Rábico"
+    },
+    "triagem_documental_individual_concluida": true,
+    "data_referencia": "2026-10-28",
+    "categoria": "IDENTIDADE_MATERIAL_DIRETA_ATUAL_DOCUMENTADA",
+    "decisao": "CANDIDATO_CONDICIONAL_ADICIONAL",
+    "razao_concreta": "A categoria atual de antissoros identifica materialmente este produto; a publicação federal nominal confirma 310 | SORO ANTIRRÁBICO | 3002.12.19. Soros mistos antiofídicos permanecem antivenenosos30021211, e soros antibotulínico/antirrábico são antissoros específicos residuais30021219. Não confundir soro antibotulínico com toxina botulínica30024992 ou com antitoxina microbiana.",
+    "documento_necessario": "Para aplicação concreta: documentação da mercadoria e atendimento integral às condições legais. Não há proposta de aplicação automática.",
+    "evidencias": [
+      {
+        "fonte": "TIPI",
+        "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+        "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+        "pagina_pdf_1_base": 144,
+        "linha_texto_1_base": 8293,
+        "trecho": "3002.12        -- Antissoros e outras frações do sangue\n    3002.12.1           Antissoros específicos de animais ou de pessoas imunizados\n    3002.12.11           Antiofídicos e outros antivenenosos                                                        0\n    3002.12.12           Antitetânico                                                                               0\n    3002.12.13           Anticatarral                                                                               0\n    3002.12.14           Antipiogênico                                                                              0\n    3002.12.15           Antidiftérico                                                                              0\n    3002.12.16           Polivalentes                                                                               0\n    3002.12.19           Outros                                                                                     0\n    3002.12.2           Outras frações do sangue, exceto as preparadas como medicamentos\n    3002.12.21           Imunoglobulina anti-Rh                                                                     0\n    3002.12.22           Outras imunoglobulinas séricas                                                             0\n    3002.12.23           Concentrado de fator VIII                                                                  0\n    3002.12.24           Soroalbumina, sob a forma de gel, para preparação de reagentes de diagnóstico              0\n    3002.12.29           Outros                                                                                     0\n    3002.12.3           Outras frações do sangue, preparadas como medicamentos\n    3002.12.31           Soroalbumina, exceto a humana                                                              0\n    3002.12.32           Plasmina (fibrinolisina)                                                                   0\n    3002.12.33           Uroquinase                                                                                 0\n\f                                                                                                          ALÍQUOTA\n   NCM                                             DESCRIÇÃO\n                                                                                                             (%)\n3002.12.34         Imunoglobulina e cloridrato de histamina, associados"
+      },
+      {
+        "fonte": "NESH",
+        "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+        "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+        "pagina_pdf_1_base": 749,
+        "linha_texto_1_base": 29355,
+        "trecho": "Os soros específicos contra as doenças, quer sejam provocadas por microrganismos patogênicos,\n       por toxinas ou por certos fenômenos alérgicos, etc., provêm do sangue de animais ou de pessoas\n       imunizados. Entre os soros específicos podem citar-se os soros antidiftérico, antidisentérico,\n       antigangrenoso, antimeningocócico, antipneumocócico, antitetânico, antiestafilocócico,\n       antiestreptocócico, antiofídico, antivenenoso e antialérgico. Os soros específicos são também\n       utilizados para fins de diagnóstico, incluindo para proceder a testes in vitro. As imunoglobulinas\n       específicas são preparações purificadas de soros específicos de animais ou de pessoas\n       imunizados.\n       Esta posição não abrange a albumina do sangue não preparada para fins terapêuticos ou profiláticos (posição 35.02)\n       nem as globulinas (exceto as globulinas do sangue e as soroglobulinas) (posição 35.04), e os medicamentos que não\n       sejam um líquido extraído do san"
+      },
+      {
+        "fonte": "FEDERAL_CORROBORACAO_NOMINAL",
+        "url": "https://legis.senado.leg.br/norma/40180341/publicacao/40181032",
+        "anexo": "XIV",
+        "item": "310",
+        "trecho": "310 | SORO ANTIRRÁBICO | 3002.12.19",
+        "uso": "Somente identidade/nome/código; nenhuma regraIBS/CBS transferida aoICMS."
+      }
+    ],
+    "opcoes_tecnicas_nao_propostas": [],
+    "proposta_adicional": true,
+    "rotas_propostas": [
+      {
+        "ncm": "30021219",
+        "condicao_especifica": "Somente o soro nominal da linha e coluna legal: Fármaco: Soro Anti-Rábico"
+      }
+    ],
+    "tipo_impedimento_principal": "SEM_IMPEDIMENTO_DOCUMENTAL_DE_IDENTIDADE",
+    "fonte_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "XVII",
+      "item": "119",
+      "descricao_corrente": "Fármaco: Soro Anti-Rábico",
+      "sha256_fonte_verificada": "e4538fdfd070f17eb2c34fdf43d2b42ae604e8746f92b15f13b7eb48485961a5"
+    },
+    "corroboracoes_federais_auxiliares": [],
+    "pesquisa_nominal_tipi": null,
+    "cadeia_historica": {
+      "localizada_nesta_rodada": false,
+      "nao_usada_como_presuncao": true,
+      "observacao": "Nos positivos o fundamento é a identidade atual material; nos demais a lacuna específica acima deve ser resolvida por prova primária, ficha técnica ou cadeia oficial com identidade. Ausência de cadeia não foi usada sozinha para negar identidade nominal."
+    },
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA"
+  },
+  {
+    "id_pendencia": "OUTROS_158",
+    "indice_origem": 158,
+    "original": {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "item": "119",
+      "apendice": "XVII",
+      "codigo_legal": "3002.10.19",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Medicamento: Soro Anti-Rábico"
+    },
+    "triagem_documental_individual_concluida": true,
+    "data_referencia": "2026-10-28",
+    "categoria": "IDENTIDADE_MATERIAL_DIRETA_ATUAL_DOCUMENTADA",
+    "decisao": "CANDIDATO_CONDICIONAL_ADICIONAL",
+    "razao_concreta": "A categoria atual de antissoros identifica materialmente este produto; a publicação federal nominal confirma 310 | SORO ANTIRRÁBICO | 3002.12.19. Soros mistos antiofídicos permanecem antivenenosos30021211, e soros antibotulínico/antirrábico são antissoros específicos residuais30021219. Não confundir soro antibotulínico com toxina botulínica30024992 ou com antitoxina microbiana.",
+    "documento_necessario": "Para aplicação concreta: documentação da mercadoria e atendimento integral às condições legais. Não há proposta de aplicação automática.",
+    "evidencias": [
+      {
+        "fonte": "TIPI",
+        "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+        "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+        "pagina_pdf_1_base": 144,
+        "linha_texto_1_base": 8293,
+        "trecho": "3002.12        -- Antissoros e outras frações do sangue\n    3002.12.1           Antissoros específicos de animais ou de pessoas imunizados\n    3002.12.11           Antiofídicos e outros antivenenosos                                                        0\n    3002.12.12           Antitetânico                                                                               0\n    3002.12.13           Anticatarral                                                                               0\n    3002.12.14           Antipiogênico                                                                              0\n    3002.12.15           Antidiftérico                                                                              0\n    3002.12.16           Polivalentes                                                                               0\n    3002.12.19           Outros                                                                                     0\n    3002.12.2           Outras frações do sangue, exceto as preparadas como medicamentos\n    3002.12.21           Imunoglobulina anti-Rh                                                                     0\n    3002.12.22           Outras imunoglobulinas séricas                                                             0\n    3002.12.23           Concentrado de fator VIII                                                                  0\n    3002.12.24           Soroalbumina, sob a forma de gel, para preparação de reagentes de diagnóstico              0\n    3002.12.29           Outros                                                                                     0\n    3002.12.3           Outras frações do sangue, preparadas como medicamentos\n    3002.12.31           Soroalbumina, exceto a humana                                                              0\n    3002.12.32           Plasmina (fibrinolisina)                                                                   0\n    3002.12.33           Uroquinase                                                                                 0\n\f                                                                                                          ALÍQUOTA\n   NCM                                             DESCRIÇÃO\n                                                                                                             (%)\n3002.12.34         Imunoglobulina e cloridrato de histamina, associados"
+      },
+      {
+        "fonte": "NESH",
+        "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+        "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+        "pagina_pdf_1_base": 749,
+        "linha_texto_1_base": 29355,
+        "trecho": "Os soros específicos contra as doenças, quer sejam provocadas por microrganismos patogênicos,\n       por toxinas ou por certos fenômenos alérgicos, etc., provêm do sangue de animais ou de pessoas\n       imunizados. Entre os soros específicos podem citar-se os soros antidiftérico, antidisentérico,\n       antigangrenoso, antimeningocócico, antipneumocócico, antitetânico, antiestafilocócico,\n       antiestreptocócico, antiofídico, antivenenoso e antialérgico. Os soros específicos são também\n       utilizados para fins de diagnóstico, incluindo para proceder a testes in vitro. As imunoglobulinas\n       específicas são preparações purificadas de soros específicos de animais ou de pessoas\n       imunizados.\n       Esta posição não abrange a albumina do sangue não preparada para fins terapêuticos ou profiláticos (posição 35.02)\n       nem as globulinas (exceto as globulinas do sangue e as soroglobulinas) (posição 35.04), e os medicamentos que não\n       sejam um líquido extraído do san"
+      },
+      {
+        "fonte": "FEDERAL_CORROBORACAO_NOMINAL",
+        "url": "https://legis.senado.leg.br/norma/40180341/publicacao/40181032",
+        "anexo": "XIV",
+        "item": "310",
+        "trecho": "310 | SORO ANTIRRÁBICO | 3002.12.19",
+        "uso": "Somente identidade/nome/código; nenhuma regraIBS/CBS transferida aoICMS."
+      }
+    ],
+    "opcoes_tecnicas_nao_propostas": [],
+    "proposta_adicional": true,
+    "rotas_propostas": [
+      {
+        "ncm": "30021219",
+        "condicao_especifica": "Somente o soro nominal da linha e coluna legal: Medicamento: Soro Anti-Rábico"
+      }
+    ],
+    "tipo_impedimento_principal": "SEM_IMPEDIMENTO_DOCUMENTAL_DE_IDENTIDADE",
+    "fonte_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "XVII",
+      "item": "119",
+      "descricao_corrente": "Medicamento: Soro Anti-Rábico",
+      "sha256_fonte_verificada": "e4538fdfd070f17eb2c34fdf43d2b42ae604e8746f92b15f13b7eb48485961a5"
+    },
+    "corroboracoes_federais_auxiliares": [],
+    "pesquisa_nominal_tipi": null,
+    "cadeia_historica": {
+      "localizada_nesta_rodada": false,
+      "nao_usada_como_presuncao": true,
+      "observacao": "Nos positivos o fundamento é a identidade atual material; nos demais a lacuna específica acima deve ser resolvida por prova primária, ficha técnica ou cadeia oficial com identidade. Ausência de cadeia não foi usada sozinha para negar identidade nominal."
+    },
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA"
+  }
+]

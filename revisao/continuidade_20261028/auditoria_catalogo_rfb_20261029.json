@@ -1,0 +1,13 @@
+{
+  "verificacao_em": "2026-10-29",
+  "fonte": "https://portalunico.siscomex.gov.br/classif/api/publico/nomenclatura/download/json",
+  "atualizacao_fonte": "Vigente em 29/10/2026",
+  "ato_fonte": "Resolução Gecex nº 926/2026",
+  "sha256_resposta": "4de3ae9cdb5bd57500f5fdb9e689be0a78586146351fc7297e05d014f663aebc",
+  "ncm_oito_digitos_na_rfb": 10516,
+  "ncm_ativos_na_base": 10516,
+  "ausentes_na_base": [],
+  "excedentes_na_base": [],
+  "catalogo_integral_conferido": true,
+  "limite": "Compara códigos ativos; não homologa alíquota ou benefício."
+}

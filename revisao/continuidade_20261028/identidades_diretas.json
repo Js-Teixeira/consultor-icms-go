@@ -1,0 +1,2602 @@
+[
+  {
+    "id_pendencia": "OUTROS_133",
+    "indice_origem": 133,
+    "original": {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "item": "107",
+      "apendice": "XVII",
+      "codigo_legal": "3002.10.19",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Fármaco: Soro Anti-Aracnídico"
+    },
+    "conclusao": "IDENTIDADE_ATUAL_DIRETA_DOCUMENTADA_PARA_CANDIDATO_CONDICIONAL",
+    "metodo": "IDENTIDADE_NOMINAL_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+    "ncm_atual": "30021211",
+    "descricao_oficial_atual": "Antissoros e outras frações do sangue — Antissoros específicos de animais ou de pessoas imunizados — Antiofídicos e outros antivenenosos",
+    "classe_identidade": "SORO_ESPECIFICO",
+    "criterio": "O produto legal nomeado é soro antiofídico/antivenenoso. A TIPI atual identifica nominalmente esse soro ou a categoria material específica de antissoros antiofídicos e antivenenosos, e a NESH30.02 distingue antissoros de vacinas e de medicamentos de outra natureza. A fonte federal complementar identifica o mesmo soro pelo nome e pelo código. A classificação30.02 permanece mesmo quando apresentado em doses.",
+    "restricoes_produto": "Somente o soro específico da linha e da coluna legal de origem; não qualquer soro, vacina, imunoglobulina, solução fisiológica ou outro produto do código. Não intercambiar as colunas fármaco e medicamento.",
+    "cadeia_historica": {
+      "localizada": false,
+      "alegada": false,
+      "observacao": "A inexistência de cadeia completa nesta pesquisa não foi preenchida por troca de dígitos. O candidato deriva do produto objetivamente nomeado na lei e identificado na descrição federal atual."
+    },
+    "evidencias_federais": [
+      {
+        "id": "TIPI_NOMINAL",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+          "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+          "pagina_pdf_1_base": 144,
+          "linha_texto_1_base": 8295,
+          "trecho": "3002.12.11           Antiofídicos e outros antivenenosos                                                        0\n    3002.12.12           Antitetânico                                                                               0\n    3002.12.13           Anticatarral"
+        }
+      },
+      {
+        "id": "NESH_ANTISSOROS",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 749,
+          "linha_texto_1_base": 29355,
+          "trecho": "Os soros específicos contra as doenças, quer sejam provocadas por microrganismos patogênicos,\n       por toxinas ou por certos fenômenos alérgicos, etc., provêm do sangue de animais ou de pessoas\n       imunizados. Entre os soros específicos podem citar-se os soros antidiftérico, antidisentérico,\n       antigangrenoso, antimeningocócico, antipneumocócico, antitetânico, antiestafilocócico,\n       antiestreptocócico, antiofídico, antivenenoso e antialérgico. Os soros específicos são também\n       utilizados para fins de diagnóstico, incluindo para proceder a testes in vitro. As imunoglobulinas\n       específicas são preparações purificadas de soros específicos de animais ou de pessoas\n       imunizados.\n       Esta posição não abrange a albumina do sangue não preparada para fins terapêuticos ou profiláticos (posição 35.02)\n       nem as globulinas (exceto as globulinas do sangue e as soroglobulinas) (posição 35.04), e os medicamentos que não\n       sejam um líquido extra"
+        }
+      },
+      {
+        "id": "NESH_FORMA_APRESENTACAO",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 750,
+          "linha_texto_1_base": 29457,
+          "trecho": "Os produtos incluídos nesta posição podem apresentar-se sob qualquer forma, mesmo doseados ou\nacondicionados para venda a retalho.\n\n\n                                                      VI-"
+        }
+      },
+      {
+        "id": "FEDERAL_CORROBORACAO_NOME",
+        "conteudo": {
+          "url": "https://legis.senado.leg.br/norma/40180341/publicacao/40181032",
+          "anexo": "XIV",
+          "item": "299",
+          "trecho": "299 | SORO ANTIARACNÍDICO (LOXOSCELES, PHONEUTRIA E TITYUS) | 3002.12.11",
+          "uso": "Somente identidade/nome e código; nenhuma regra IBS/CBS importada."
+        }
+      }
+    ],
+    "evidencia_legal_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "XVII",
+      "item": "107",
+      "coluna": "FARMACO",
+      "descricao_corrente_confirmada": "Fármaco: Soro Anti-Aracnídico",
+      "fonte_extracao_corrente": "finalizacao_20261027/beneficios_outros.json/inventario_pendencias",
+      "trecho_linha_complementar": null,
+      "localizadores_tabelas_raw": [
+        {
+          "tabela_extraida": 58,
+          "trecho": "90 | Soro Anti-Aracnídico | 3002.10.19 | Soro Anti-Aracnídico | 3002.10.19"
+        },
+        {
+          "tabela_extraida": 59,
+          "trecho": " | 107 | Soro Anti-Aracnídico | 3002.10.19 | Soro Anti-Aracnídico | 3002.10.19 |  | "
+        }
+      ],
+      "observacao": "O inventário corrente fornecido distingue históricos e redações futuras; os localizadores raw auxiliam a conferência, sem autorizar aplicar redação revogada."
+    },
+    "template_id": "GO_A9_ART7_XXXVII",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso XXXVII",
+    "jurisdicao": "GO",
+    "parametros_fiscais_originais": {
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "cbenef": "GO812023",
+      "escopo_operacao": "AMBAS",
+      "vigencia_inicio": "2010-01-01",
+      "vigencia_fim": "2026-12-31"
+    },
+    "condicoes_originais": [
+      "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+      "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+      "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+      "Receita desonerada de PIS/PASEP e COFINS.",
+      "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+      "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+      "Mantido o crédito.",
+      "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+      "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+    ],
+    "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+    "vigencia_observacao": "Datas descrevem a redação/condição consultada. A apresentação específica de cada item exige conferência da nota de alteração; não autoriza aplicação retroativa.",
+    "data_referencia": "2026-10-28",
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA",
+    "cobre_codigo_atual_inteiro": false,
+    "limite": "Comprovar produto e apresentação da linha, destinatário público, operação e todos os requisitos da norma. Identidade nominal não confirma o direito ao benefício."
+  },
+  {
+    "id_pendencia": "OUTROS_134",
+    "indice_origem": 134,
+    "original": {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "item": "107",
+      "apendice": "XVII",
+      "codigo_legal": "3002.10.19",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Medicamento: Soro Anti-Aracnídico"
+    },
+    "conclusao": "IDENTIDADE_ATUAL_DIRETA_DOCUMENTADA_PARA_CANDIDATO_CONDICIONAL",
+    "metodo": "IDENTIDADE_NOMINAL_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+    "ncm_atual": "30021211",
+    "descricao_oficial_atual": "Antissoros e outras frações do sangue — Antissoros específicos de animais ou de pessoas imunizados — Antiofídicos e outros antivenenosos",
+    "classe_identidade": "SORO_ESPECIFICO",
+    "criterio": "O produto legal nomeado é soro antiofídico/antivenenoso. A TIPI atual identifica nominalmente esse soro ou a categoria material específica de antissoros antiofídicos e antivenenosos, e a NESH30.02 distingue antissoros de vacinas e de medicamentos de outra natureza. A fonte federal complementar identifica o mesmo soro pelo nome e pelo código. A classificação30.02 permanece mesmo quando apresentado em doses.",
+    "restricoes_produto": "Somente o soro específico da linha e da coluna legal de origem; não qualquer soro, vacina, imunoglobulina, solução fisiológica ou outro produto do código. Não intercambiar as colunas fármaco e medicamento.",
+    "cadeia_historica": {
+      "localizada": false,
+      "alegada": false,
+      "observacao": "A inexistência de cadeia completa nesta pesquisa não foi preenchida por troca de dígitos. O candidato deriva do produto objetivamente nomeado na lei e identificado na descrição federal atual."
+    },
+    "evidencias_federais": [
+      {
+        "id": "TIPI_NOMINAL",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+          "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+          "pagina_pdf_1_base": 144,
+          "linha_texto_1_base": 8295,
+          "trecho": "3002.12.11           Antiofídicos e outros antivenenosos                                                        0\n    3002.12.12           Antitetânico                                                                               0\n    3002.12.13           Anticatarral"
+        }
+      },
+      {
+        "id": "NESH_ANTISSOROS",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 749,
+          "linha_texto_1_base": 29355,
+          "trecho": "Os soros específicos contra as doenças, quer sejam provocadas por microrganismos patogênicos,\n       por toxinas ou por certos fenômenos alérgicos, etc., provêm do sangue de animais ou de pessoas\n       imunizados. Entre os soros específicos podem citar-se os soros antidiftérico, antidisentérico,\n       antigangrenoso, antimeningocócico, antipneumocócico, antitetânico, antiestafilocócico,\n       antiestreptocócico, antiofídico, antivenenoso e antialérgico. Os soros específicos são também\n       utilizados para fins de diagnóstico, incluindo para proceder a testes in vitro. As imunoglobulinas\n       específicas são preparações purificadas de soros específicos de animais ou de pessoas\n       imunizados.\n       Esta posição não abrange a albumina do sangue não preparada para fins terapêuticos ou profiláticos (posição 35.02)\n       nem as globulinas (exceto as globulinas do sangue e as soroglobulinas) (posição 35.04), e os medicamentos que não\n       sejam um líquido extra"
+        }
+      },
+      {
+        "id": "NESH_FORMA_APRESENTACAO",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 750,
+          "linha_texto_1_base": 29457,
+          "trecho": "Os produtos incluídos nesta posição podem apresentar-se sob qualquer forma, mesmo doseados ou\nacondicionados para venda a retalho.\n\n\n                                                      VI-"
+        }
+      },
+      {
+        "id": "FEDERAL_CORROBORACAO_NOME",
+        "conteudo": {
+          "url": "https://legis.senado.leg.br/norma/40180341/publicacao/40181032",
+          "anexo": "XIV",
+          "item": "299",
+          "trecho": "299 | SORO ANTIARACNÍDICO (LOXOSCELES, PHONEUTRIA E TITYUS) | 3002.12.11",
+          "uso": "Somente identidade/nome e código; nenhuma regra IBS/CBS importada."
+        }
+      }
+    ],
+    "evidencia_legal_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "XVII",
+      "item": "107",
+      "coluna": "MEDICAMENTO",
+      "descricao_corrente_confirmada": "Medicamento: Soro Anti-Aracnídico",
+      "fonte_extracao_corrente": "finalizacao_20261027/beneficios_outros.json/inventario_pendencias",
+      "trecho_linha_complementar": null,
+      "localizadores_tabelas_raw": [
+        {
+          "tabela_extraida": 58,
+          "trecho": "90 | Soro Anti-Aracnídico | 3002.10.19 | Soro Anti-Aracnídico | 3002.10.19"
+        },
+        {
+          "tabela_extraida": 59,
+          "trecho": " | 107 | Soro Anti-Aracnídico | 3002.10.19 | Soro Anti-Aracnídico | 3002.10.19 |  | "
+        }
+      ],
+      "observacao": "O inventário corrente fornecido distingue históricos e redações futuras; os localizadores raw auxiliam a conferência, sem autorizar aplicar redação revogada."
+    },
+    "template_id": "GO_A9_ART7_XXXVII",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso XXXVII",
+    "jurisdicao": "GO",
+    "parametros_fiscais_originais": {
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "cbenef": "GO812023",
+      "escopo_operacao": "AMBAS",
+      "vigencia_inicio": "2010-01-01",
+      "vigencia_fim": "2026-12-31"
+    },
+    "condicoes_originais": [
+      "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+      "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+      "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+      "Receita desonerada de PIS/PASEP e COFINS.",
+      "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+      "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+      "Mantido o crédito.",
+      "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+      "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+    ],
+    "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+    "vigencia_observacao": "Datas descrevem a redação/condição consultada. A apresentação específica de cada item exige conferência da nota de alteração; não autoriza aplicação retroativa.",
+    "data_referencia": "2026-10-28",
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA",
+    "cobre_codigo_atual_inteiro": false,
+    "limite": "Comprovar produto e apresentação da linha, destinatário público, operação e todos os requisitos da norma. Identidade nominal não confirma o direito ao benefício."
+  },
+  {
+    "id_pendencia": "OUTROS_139",
+    "indice_origem": 139,
+    "original": {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "item": "110",
+      "apendice": "XVII",
+      "codigo_legal": "3002.10.19",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Fármaco: Soro Anti-Botrópico"
+    },
+    "conclusao": "IDENTIDADE_ATUAL_DIRETA_DOCUMENTADA_PARA_CANDIDATO_CONDICIONAL",
+    "metodo": "IDENTIDADE_NOMINAL_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+    "ncm_atual": "30021211",
+    "descricao_oficial_atual": "Antissoros e outras frações do sangue — Antissoros específicos de animais ou de pessoas imunizados — Antiofídicos e outros antivenenosos",
+    "classe_identidade": "SORO_ESPECIFICO",
+    "criterio": "O produto legal nomeado é soro antiofídico/antivenenoso. A TIPI atual identifica nominalmente esse soro ou a categoria material específica de antissoros antiofídicos e antivenenosos, e a NESH30.02 distingue antissoros de vacinas e de medicamentos de outra natureza. A fonte federal complementar identifica o mesmo soro pelo nome e pelo código. A classificação30.02 permanece mesmo quando apresentado em doses.",
+    "restricoes_produto": "Somente o soro específico da linha e da coluna legal de origem; não qualquer soro, vacina, imunoglobulina, solução fisiológica ou outro produto do código. Não intercambiar as colunas fármaco e medicamento.",
+    "cadeia_historica": {
+      "localizada": false,
+      "alegada": false,
+      "observacao": "A inexistência de cadeia completa nesta pesquisa não foi preenchida por troca de dígitos. O candidato deriva do produto objetivamente nomeado na lei e identificado na descrição federal atual."
+    },
+    "evidencias_federais": [
+      {
+        "id": "TIPI_NOMINAL",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+          "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+          "pagina_pdf_1_base": 144,
+          "linha_texto_1_base": 8295,
+          "trecho": "3002.12.11           Antiofídicos e outros antivenenosos                                                        0\n    3002.12.12           Antitetânico                                                                               0\n    3002.12.13           Anticatarral"
+        }
+      },
+      {
+        "id": "NESH_ANTISSOROS",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 749,
+          "linha_texto_1_base": 29355,
+          "trecho": "Os soros específicos contra as doenças, quer sejam provocadas por microrganismos patogênicos,\n       por toxinas ou por certos fenômenos alérgicos, etc., provêm do sangue de animais ou de pessoas\n       imunizados. Entre os soros específicos podem citar-se os soros antidiftérico, antidisentérico,\n       antigangrenoso, antimeningocócico, antipneumocócico, antitetânico, antiestafilocócico,\n       antiestreptocócico, antiofídico, antivenenoso e antialérgico. Os soros específicos são também\n       utilizados para fins de diagnóstico, incluindo para proceder a testes in vitro. As imunoglobulinas\n       específicas são preparações purificadas de soros específicos de animais ou de pessoas\n       imunizados.\n       Esta posição não abrange a albumina do sangue não preparada para fins terapêuticos ou profiláticos (posição 35.02)\n       nem as globulinas (exceto as globulinas do sangue e as soroglobulinas) (posição 35.04), e os medicamentos que não\n       sejam um líquido extra"
+        }
+      },
+      {
+        "id": "NESH_FORMA_APRESENTACAO",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 750,
+          "linha_texto_1_base": 29457,
+          "trecho": "Os produtos incluídos nesta posição podem apresentar-se sob qualquer forma, mesmo doseados ou\nacondicionados para venda a retalho.\n\n\n                                                      VI-"
+        }
+      },
+      {
+        "id": "FEDERAL_CORROBORACAO_NOME",
+        "conteudo": {
+          "url": "https://legis.senado.leg.br/norma/40180341/publicacao/40181032",
+          "anexo": "XIV",
+          "item": "300",
+          "trecho": "300 | SORO ANTIBOTRÓPICO (PENTAVALENTE) | 3002.12.11",
+          "uso": "Somente identidade/nome e código; nenhuma regra IBS/CBS importada."
+        }
+      }
+    ],
+    "evidencia_legal_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "XVII",
+      "item": "110",
+      "coluna": "FARMACO",
+      "descricao_corrente_confirmada": "Fármaco: Soro Anti-Botrópico",
+      "fonte_extracao_corrente": "finalizacao_20261027/beneficios_outros.json/inventario_pendencias",
+      "trecho_linha_complementar": null,
+      "localizadores_tabelas_raw": [
+        {
+          "tabela_extraida": 58,
+          "trecho": "91 | Soro Anti-Botrópico | 3002.10.19 | Soro Anti-Botrópico | 3002.10.19"
+        },
+        {
+          "tabela_extraida": 59,
+          "trecho": " | 110 | Soro Anti-Botrópico | 3002.10.19 | Soro Anti-Botrópico | 3002.10.19 |  | "
+        }
+      ],
+      "observacao": "O inventário corrente fornecido distingue históricos e redações futuras; os localizadores raw auxiliam a conferência, sem autorizar aplicar redação revogada."
+    },
+    "template_id": "GO_A9_ART7_XXXVII",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso XXXVII",
+    "jurisdicao": "GO",
+    "parametros_fiscais_originais": {
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "cbenef": "GO812023",
+      "escopo_operacao": "AMBAS",
+      "vigencia_inicio": "2010-01-01",
+      "vigencia_fim": "2026-12-31"
+    },
+    "condicoes_originais": [
+      "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+      "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+      "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+      "Receita desonerada de PIS/PASEP e COFINS.",
+      "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+      "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+      "Mantido o crédito.",
+      "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+      "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+    ],
+    "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+    "vigencia_observacao": "Datas descrevem a redação/condição consultada. A apresentação específica de cada item exige conferência da nota de alteração; não autoriza aplicação retroativa.",
+    "data_referencia": "2026-10-28",
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA",
+    "cobre_codigo_atual_inteiro": false,
+    "limite": "Comprovar produto e apresentação da linha, destinatário público, operação e todos os requisitos da norma. Identidade nominal não confirma o direito ao benefício."
+  },
+  {
+    "id_pendencia": "OUTROS_140",
+    "indice_origem": 140,
+    "original": {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "item": "110",
+      "apendice": "XVII",
+      "codigo_legal": "3002.10.19",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Medicamento: Soro Anti-Botrópico"
+    },
+    "conclusao": "IDENTIDADE_ATUAL_DIRETA_DOCUMENTADA_PARA_CANDIDATO_CONDICIONAL",
+    "metodo": "IDENTIDADE_NOMINAL_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+    "ncm_atual": "30021211",
+    "descricao_oficial_atual": "Antissoros e outras frações do sangue — Antissoros específicos de animais ou de pessoas imunizados — Antiofídicos e outros antivenenosos",
+    "classe_identidade": "SORO_ESPECIFICO",
+    "criterio": "O produto legal nomeado é soro antiofídico/antivenenoso. A TIPI atual identifica nominalmente esse soro ou a categoria material específica de antissoros antiofídicos e antivenenosos, e a NESH30.02 distingue antissoros de vacinas e de medicamentos de outra natureza. A fonte federal complementar identifica o mesmo soro pelo nome e pelo código. A classificação30.02 permanece mesmo quando apresentado em doses.",
+    "restricoes_produto": "Somente o soro específico da linha e da coluna legal de origem; não qualquer soro, vacina, imunoglobulina, solução fisiológica ou outro produto do código. Não intercambiar as colunas fármaco e medicamento.",
+    "cadeia_historica": {
+      "localizada": false,
+      "alegada": false,
+      "observacao": "A inexistência de cadeia completa nesta pesquisa não foi preenchida por troca de dígitos. O candidato deriva do produto objetivamente nomeado na lei e identificado na descrição federal atual."
+    },
+    "evidencias_federais": [
+      {
+        "id": "TIPI_NOMINAL",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+          "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+          "pagina_pdf_1_base": 144,
+          "linha_texto_1_base": 8295,
+          "trecho": "3002.12.11           Antiofídicos e outros antivenenosos                                                        0\n    3002.12.12           Antitetânico                                                                               0\n    3002.12.13           Anticatarral"
+        }
+      },
+      {
+        "id": "NESH_ANTISSOROS",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 749,
+          "linha_texto_1_base": 29355,
+          "trecho": "Os soros específicos contra as doenças, quer sejam provocadas por microrganismos patogênicos,\n       por toxinas ou por certos fenômenos alérgicos, etc., provêm do sangue de animais ou de pessoas\n       imunizados. Entre os soros específicos podem citar-se os soros antidiftérico, antidisentérico,\n       antigangrenoso, antimeningocócico, antipneumocócico, antitetânico, antiestafilocócico,\n       antiestreptocócico, antiofídico, antivenenoso e antialérgico. Os soros específicos são também\n       utilizados para fins de diagnóstico, incluindo para proceder a testes in vitro. As imunoglobulinas\n       específicas são preparações purificadas de soros específicos de animais ou de pessoas\n       imunizados.\n       Esta posição não abrange a albumina do sangue não preparada para fins terapêuticos ou profiláticos (posição 35.02)\n       nem as globulinas (exceto as globulinas do sangue e as soroglobulinas) (posição 35.04), e os medicamentos que não\n       sejam um líquido extra"
+        }
+      },
+      {
+        "id": "NESH_FORMA_APRESENTACAO",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 750,
+          "linha_texto_1_base": 29457,
+          "trecho": "Os produtos incluídos nesta posição podem apresentar-se sob qualquer forma, mesmo doseados ou\nacondicionados para venda a retalho.\n\n\n                                                      VI-"
+        }
+      },
+      {
+        "id": "FEDERAL_CORROBORACAO_NOME",
+        "conteudo": {
+          "url": "https://legis.senado.leg.br/norma/40180341/publicacao/40181032",
+          "anexo": "XIV",
+          "item": "300",
+          "trecho": "300 | SORO ANTIBOTRÓPICO (PENTAVALENTE) | 3002.12.11",
+          "uso": "Somente identidade/nome e código; nenhuma regra IBS/CBS importada."
+        }
+      }
+    ],
+    "evidencia_legal_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "XVII",
+      "item": "110",
+      "coluna": "MEDICAMENTO",
+      "descricao_corrente_confirmada": "Medicamento: Soro Anti-Botrópico",
+      "fonte_extracao_corrente": "finalizacao_20261027/beneficios_outros.json/inventario_pendencias",
+      "trecho_linha_complementar": null,
+      "localizadores_tabelas_raw": [
+        {
+          "tabela_extraida": 58,
+          "trecho": "91 | Soro Anti-Botrópico | 3002.10.19 | Soro Anti-Botrópico | 3002.10.19"
+        },
+        {
+          "tabela_extraida": 59,
+          "trecho": " | 110 | Soro Anti-Botrópico | 3002.10.19 | Soro Anti-Botrópico | 3002.10.19 |  | "
+        }
+      ],
+      "observacao": "O inventário corrente fornecido distingue históricos e redações futuras; os localizadores raw auxiliam a conferência, sem autorizar aplicar redação revogada."
+    },
+    "template_id": "GO_A9_ART7_XXXVII",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso XXXVII",
+    "jurisdicao": "GO",
+    "parametros_fiscais_originais": {
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "cbenef": "GO812023",
+      "escopo_operacao": "AMBAS",
+      "vigencia_inicio": "2010-01-01",
+      "vigencia_fim": "2026-12-31"
+    },
+    "condicoes_originais": [
+      "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+      "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+      "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+      "Receita desonerada de PIS/PASEP e COFINS.",
+      "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+      "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+      "Mantido o crédito.",
+      "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+      "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+    ],
+    "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+    "vigencia_observacao": "Datas descrevem a redação/condição consultada. A apresentação específica de cada item exige conferência da nota de alteração; não autoriza aplicação retroativa.",
+    "data_referencia": "2026-10-28",
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA",
+    "cobre_codigo_atual_inteiro": false,
+    "limite": "Comprovar produto e apresentação da linha, destinatário público, operação e todos os requisitos da norma. Identidade nominal não confirma o direito ao benefício."
+  },
+  {
+    "id_pendencia": "OUTROS_143",
+    "indice_origem": 143,
+    "original": {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "item": "112",
+      "apendice": "XVII",
+      "codigo_legal": "3002.10.19",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Fármaco: Soro Anti-Crotálico"
+    },
+    "conclusao": "IDENTIDADE_ATUAL_DIRETA_DOCUMENTADA_PARA_CANDIDATO_CONDICIONAL",
+    "metodo": "IDENTIDADE_NOMINAL_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+    "ncm_atual": "30021211",
+    "descricao_oficial_atual": "Antissoros e outras frações do sangue — Antissoros específicos de animais ou de pessoas imunizados — Antiofídicos e outros antivenenosos",
+    "classe_identidade": "SORO_ESPECIFICO",
+    "criterio": "O produto legal nomeado é soro antiofídico/antivenenoso. A TIPI atual identifica nominalmente esse soro ou a categoria material específica de antissoros antiofídicos e antivenenosos, e a NESH30.02 distingue antissoros de vacinas e de medicamentos de outra natureza. A fonte federal complementar identifica o mesmo soro pelo nome e pelo código. A classificação30.02 permanece mesmo quando apresentado em doses.",
+    "restricoes_produto": "Somente o soro específico da linha e da coluna legal de origem; não qualquer soro, vacina, imunoglobulina, solução fisiológica ou outro produto do código. Não intercambiar as colunas fármaco e medicamento.",
+    "cadeia_historica": {
+      "localizada": false,
+      "alegada": false,
+      "observacao": "A inexistência de cadeia completa nesta pesquisa não foi preenchida por troca de dígitos. O candidato deriva do produto objetivamente nomeado na lei e identificado na descrição federal atual."
+    },
+    "evidencias_federais": [
+      {
+        "id": "TIPI_NOMINAL",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+          "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+          "pagina_pdf_1_base": 144,
+          "linha_texto_1_base": 8295,
+          "trecho": "3002.12.11           Antiofídicos e outros antivenenosos                                                        0\n    3002.12.12           Antitetânico                                                                               0\n    3002.12.13           Anticatarral"
+        }
+      },
+      {
+        "id": "NESH_ANTISSOROS",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 749,
+          "linha_texto_1_base": 29355,
+          "trecho": "Os soros específicos contra as doenças, quer sejam provocadas por microrganismos patogênicos,\n       por toxinas ou por certos fenômenos alérgicos, etc., provêm do sangue de animais ou de pessoas\n       imunizados. Entre os soros específicos podem citar-se os soros antidiftérico, antidisentérico,\n       antigangrenoso, antimeningocócico, antipneumocócico, antitetânico, antiestafilocócico,\n       antiestreptocócico, antiofídico, antivenenoso e antialérgico. Os soros específicos são também\n       utilizados para fins de diagnóstico, incluindo para proceder a testes in vitro. As imunoglobulinas\n       específicas são preparações purificadas de soros específicos de animais ou de pessoas\n       imunizados.\n       Esta posição não abrange a albumina do sangue não preparada para fins terapêuticos ou profiláticos (posição 35.02)\n       nem as globulinas (exceto as globulinas do sangue e as soroglobulinas) (posição 35.04), e os medicamentos que não\n       sejam um líquido extra"
+        }
+      },
+      {
+        "id": "NESH_FORMA_APRESENTACAO",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 750,
+          "linha_texto_1_base": 29457,
+          "trecho": "Os produtos incluídos nesta posição podem apresentar-se sob qualquer forma, mesmo doseados ou\nacondicionados para venda a retalho.\n\n\n                                                      VI-"
+        }
+      },
+      {
+        "id": "FEDERAL_CORROBORACAO_NOME",
+        "conteudo": {
+          "url": "https://legis.senado.leg.br/norma/40180341/publicacao/40181032",
+          "anexo": "XIV",
+          "item": "304",
+          "trecho": "304 | SORO ANTICROTÁLICO | 3002.12.11",
+          "uso": "Somente identidade/nome e código; nenhuma regra IBS/CBS importada."
+        }
+      }
+    ],
+    "evidencia_legal_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "XVII",
+      "item": "112",
+      "coluna": "FARMACO",
+      "descricao_corrente_confirmada": "Fármaco: Soro Anti-Crotálico",
+      "fonte_extracao_corrente": "finalizacao_20261027/beneficios_outros.json/inventario_pendencias",
+      "trecho_linha_complementar": null,
+      "localizadores_tabelas_raw": [
+        {
+          "tabela_extraida": 58,
+          "trecho": "95 | Soro Anti-Crotálico | 3002.10.19 | Soro Anti-Crotálico | 3002.10.19"
+        },
+        {
+          "tabela_extraida": 59,
+          "trecho": " | 112 | Soro Anti-Crotálico | 3002.10.19 | Soro Anti-Crotálico | 3002.10.19 |  | "
+        }
+      ],
+      "observacao": "O inventário corrente fornecido distingue históricos e redações futuras; os localizadores raw auxiliam a conferência, sem autorizar aplicar redação revogada."
+    },
+    "template_id": "GO_A9_ART7_XXXVII",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso XXXVII",
+    "jurisdicao": "GO",
+    "parametros_fiscais_originais": {
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "cbenef": "GO812023",
+      "escopo_operacao": "AMBAS",
+      "vigencia_inicio": "2010-01-01",
+      "vigencia_fim": "2026-12-31"
+    },
+    "condicoes_originais": [
+      "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+      "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+      "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+      "Receita desonerada de PIS/PASEP e COFINS.",
+      "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+      "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+      "Mantido o crédito.",
+      "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+      "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+    ],
+    "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+    "vigencia_observacao": "Datas descrevem a redação/condição consultada. A apresentação específica de cada item exige conferência da nota de alteração; não autoriza aplicação retroativa.",
+    "data_referencia": "2026-10-28",
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA",
+    "cobre_codigo_atual_inteiro": false,
+    "limite": "Comprovar produto e apresentação da linha, destinatário público, operação e todos os requisitos da norma. Identidade nominal não confirma o direito ao benefício."
+  },
+  {
+    "id_pendencia": "OUTROS_144",
+    "indice_origem": 144,
+    "original": {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "item": "112",
+      "apendice": "XVII",
+      "codigo_legal": "3002.10.19",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Medicamento: Soro Anti-Crotálico"
+    },
+    "conclusao": "IDENTIDADE_ATUAL_DIRETA_DOCUMENTADA_PARA_CANDIDATO_CONDICIONAL",
+    "metodo": "IDENTIDADE_NOMINAL_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+    "ncm_atual": "30021211",
+    "descricao_oficial_atual": "Antissoros e outras frações do sangue — Antissoros específicos de animais ou de pessoas imunizados — Antiofídicos e outros antivenenosos",
+    "classe_identidade": "SORO_ESPECIFICO",
+    "criterio": "O produto legal nomeado é soro antiofídico/antivenenoso. A TIPI atual identifica nominalmente esse soro ou a categoria material específica de antissoros antiofídicos e antivenenosos, e a NESH30.02 distingue antissoros de vacinas e de medicamentos de outra natureza. A fonte federal complementar identifica o mesmo soro pelo nome e pelo código. A classificação30.02 permanece mesmo quando apresentado em doses.",
+    "restricoes_produto": "Somente o soro específico da linha e da coluna legal de origem; não qualquer soro, vacina, imunoglobulina, solução fisiológica ou outro produto do código. Não intercambiar as colunas fármaco e medicamento.",
+    "cadeia_historica": {
+      "localizada": false,
+      "alegada": false,
+      "observacao": "A inexistência de cadeia completa nesta pesquisa não foi preenchida por troca de dígitos. O candidato deriva do produto objetivamente nomeado na lei e identificado na descrição federal atual."
+    },
+    "evidencias_federais": [
+      {
+        "id": "TIPI_NOMINAL",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+          "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+          "pagina_pdf_1_base": 144,
+          "linha_texto_1_base": 8295,
+          "trecho": "3002.12.11           Antiofídicos e outros antivenenosos                                                        0\n    3002.12.12           Antitetânico                                                                               0\n    3002.12.13           Anticatarral"
+        }
+      },
+      {
+        "id": "NESH_ANTISSOROS",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 749,
+          "linha_texto_1_base": 29355,
+          "trecho": "Os soros específicos contra as doenças, quer sejam provocadas por microrganismos patogênicos,\n       por toxinas ou por certos fenômenos alérgicos, etc., provêm do sangue de animais ou de pessoas\n       imunizados. Entre os soros específicos podem citar-se os soros antidiftérico, antidisentérico,\n       antigangrenoso, antimeningocócico, antipneumocócico, antitetânico, antiestafilocócico,\n       antiestreptocócico, antiofídico, antivenenoso e antialérgico. Os soros específicos são também\n       utilizados para fins de diagnóstico, incluindo para proceder a testes in vitro. As imunoglobulinas\n       específicas são preparações purificadas de soros específicos de animais ou de pessoas\n       imunizados.\n       Esta posição não abrange a albumina do sangue não preparada para fins terapêuticos ou profiláticos (posição 35.02)\n       nem as globulinas (exceto as globulinas do sangue e as soroglobulinas) (posição 35.04), e os medicamentos que não\n       sejam um líquido extra"
+        }
+      },
+      {
+        "id": "NESH_FORMA_APRESENTACAO",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 750,
+          "linha_texto_1_base": 29457,
+          "trecho": "Os produtos incluídos nesta posição podem apresentar-se sob qualquer forma, mesmo doseados ou\nacondicionados para venda a retalho.\n\n\n                                                      VI-"
+        }
+      },
+      {
+        "id": "FEDERAL_CORROBORACAO_NOME",
+        "conteudo": {
+          "url": "https://legis.senado.leg.br/norma/40180341/publicacao/40181032",
+          "anexo": "XIV",
+          "item": "304",
+          "trecho": "304 | SORO ANTICROTÁLICO | 3002.12.11",
+          "uso": "Somente identidade/nome e código; nenhuma regra IBS/CBS importada."
+        }
+      }
+    ],
+    "evidencia_legal_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "XVII",
+      "item": "112",
+      "coluna": "MEDICAMENTO",
+      "descricao_corrente_confirmada": "Medicamento: Soro Anti-Crotálico",
+      "fonte_extracao_corrente": "finalizacao_20261027/beneficios_outros.json/inventario_pendencias",
+      "trecho_linha_complementar": null,
+      "localizadores_tabelas_raw": [
+        {
+          "tabela_extraida": 58,
+          "trecho": "95 | Soro Anti-Crotálico | 3002.10.19 | Soro Anti-Crotálico | 3002.10.19"
+        },
+        {
+          "tabela_extraida": 59,
+          "trecho": " | 112 | Soro Anti-Crotálico | 3002.10.19 | Soro Anti-Crotálico | 3002.10.19 |  | "
+        }
+      ],
+      "observacao": "O inventário corrente fornecido distingue históricos e redações futuras; os localizadores raw auxiliam a conferência, sem autorizar aplicar redação revogada."
+    },
+    "template_id": "GO_A9_ART7_XXXVII",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso XXXVII",
+    "jurisdicao": "GO",
+    "parametros_fiscais_originais": {
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "cbenef": "GO812023",
+      "escopo_operacao": "AMBAS",
+      "vigencia_inicio": "2010-01-01",
+      "vigencia_fim": "2026-12-31"
+    },
+    "condicoes_originais": [
+      "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+      "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+      "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+      "Receita desonerada de PIS/PASEP e COFINS.",
+      "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+      "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+      "Mantido o crédito.",
+      "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+      "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+    ],
+    "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+    "vigencia_observacao": "Datas descrevem a redação/condição consultada. A apresentação específica de cada item exige conferência da nota de alteração; não autoriza aplicação retroativa.",
+    "data_referencia": "2026-10-28",
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA",
+    "cobre_codigo_atual_inteiro": false,
+    "limite": "Comprovar produto e apresentação da linha, destinatário público, operação e todos os requisitos da norma. Identidade nominal não confirma o direito ao benefício."
+  },
+  {
+    "id_pendencia": "OUTROS_147",
+    "indice_origem": 147,
+    "original": {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "item": "114",
+      "apendice": "XVII",
+      "codigo_legal": "3002.10.19",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Fármaco: Soro Anti-Elapídico"
+    },
+    "conclusao": "IDENTIDADE_ATUAL_DIRETA_DOCUMENTADA_PARA_CANDIDATO_CONDICIONAL",
+    "metodo": "IDENTIDADE_NOMINAL_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+    "ncm_atual": "30021211",
+    "descricao_oficial_atual": "Antissoros e outras frações do sangue — Antissoros específicos de animais ou de pessoas imunizados — Antiofídicos e outros antivenenosos",
+    "classe_identidade": "SORO_ESPECIFICO",
+    "criterio": "O produto legal nomeado é soro antiofídico/antivenenoso. A TIPI atual identifica nominalmente esse soro ou a categoria material específica de antissoros antiofídicos e antivenenosos, e a NESH30.02 distingue antissoros de vacinas e de medicamentos de outra natureza. A fonte federal complementar identifica o mesmo soro pelo nome e pelo código. A classificação30.02 permanece mesmo quando apresentado em doses.",
+    "restricoes_produto": "Somente o soro específico da linha e da coluna legal de origem; não qualquer soro, vacina, imunoglobulina, solução fisiológica ou outro produto do código. Não intercambiar as colunas fármaco e medicamento.",
+    "cadeia_historica": {
+      "localizada": false,
+      "alegada": false,
+      "observacao": "A inexistência de cadeia completa nesta pesquisa não foi preenchida por troca de dígitos. O candidato deriva do produto objetivamente nomeado na lei e identificado na descrição federal atual."
+    },
+    "evidencias_federais": [
+      {
+        "id": "TIPI_NOMINAL",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+          "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+          "pagina_pdf_1_base": 144,
+          "linha_texto_1_base": 8295,
+          "trecho": "3002.12.11           Antiofídicos e outros antivenenosos                                                        0\n    3002.12.12           Antitetânico                                                                               0\n    3002.12.13           Anticatarral"
+        }
+      },
+      {
+        "id": "NESH_ANTISSOROS",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 749,
+          "linha_texto_1_base": 29355,
+          "trecho": "Os soros específicos contra as doenças, quer sejam provocadas por microrganismos patogênicos,\n       por toxinas ou por certos fenômenos alérgicos, etc., provêm do sangue de animais ou de pessoas\n       imunizados. Entre os soros específicos podem citar-se os soros antidiftérico, antidisentérico,\n       antigangrenoso, antimeningocócico, antipneumocócico, antitetânico, antiestafilocócico,\n       antiestreptocócico, antiofídico, antivenenoso e antialérgico. Os soros específicos são também\n       utilizados para fins de diagnóstico, incluindo para proceder a testes in vitro. As imunoglobulinas\n       específicas são preparações purificadas de soros específicos de animais ou de pessoas\n       imunizados.\n       Esta posição não abrange a albumina do sangue não preparada para fins terapêuticos ou profiláticos (posição 35.02)\n       nem as globulinas (exceto as globulinas do sangue e as soroglobulinas) (posição 35.04), e os medicamentos que não\n       sejam um líquido extra"
+        }
+      },
+      {
+        "id": "NESH_FORMA_APRESENTACAO",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 750,
+          "linha_texto_1_base": 29457,
+          "trecho": "Os produtos incluídos nesta posição podem apresentar-se sob qualquer forma, mesmo doseados ou\nacondicionados para venda a retalho.\n\n\n                                                      VI-"
+        }
+      },
+      {
+        "id": "FEDERAL_CORROBORACAO_NOME",
+        "conteudo": {
+          "url": "https://legis.senado.leg.br/norma/40180341/publicacao/40181032",
+          "anexo": "XIV",
+          "item": "306",
+          "trecho": "306 | SORO ANTIELAPÍDICO (BIVALENTE) | 3002.12.11",
+          "uso": "Somente identidade/nome e código; nenhuma regra IBS/CBS importada."
+        }
+      }
+    ],
+    "evidencia_legal_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "XVII",
+      "item": "114",
+      "coluna": "FARMACO",
+      "descricao_corrente_confirmada": "Fármaco: Soro Anti-Elapídico",
+      "fonte_extracao_corrente": "finalizacao_20261027/beneficios_outros.json/inventario_pendencias",
+      "trecho_linha_complementar": null,
+      "localizadores_tabelas_raw": [
+        {
+          "tabela_extraida": 58,
+          "trecho": "97 | Soro Anti-Elapídico | 3002.10.19 | Soro Anti-Elapídico | 3002.10.19"
+        },
+        {
+          "tabela_extraida": 59,
+          "trecho": " | 114 | Soro Anti-Elapídico | 3002.10.19 | Soro Anti-Elapídico | 3002.10.19 |  | "
+        }
+      ],
+      "observacao": "O inventário corrente fornecido distingue históricos e redações futuras; os localizadores raw auxiliam a conferência, sem autorizar aplicar redação revogada."
+    },
+    "template_id": "GO_A9_ART7_XXXVII",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso XXXVII",
+    "jurisdicao": "GO",
+    "parametros_fiscais_originais": {
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "cbenef": "GO812023",
+      "escopo_operacao": "AMBAS",
+      "vigencia_inicio": "2010-01-01",
+      "vigencia_fim": "2026-12-31"
+    },
+    "condicoes_originais": [
+      "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+      "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+      "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+      "Receita desonerada de PIS/PASEP e COFINS.",
+      "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+      "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+      "Mantido o crédito.",
+      "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+      "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+    ],
+    "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+    "vigencia_observacao": "Datas descrevem a redação/condição consultada. A apresentação específica de cada item exige conferência da nota de alteração; não autoriza aplicação retroativa.",
+    "data_referencia": "2026-10-28",
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA",
+    "cobre_codigo_atual_inteiro": false,
+    "limite": "Comprovar produto e apresentação da linha, destinatário público, operação e todos os requisitos da norma. Identidade nominal não confirma o direito ao benefício."
+  },
+  {
+    "id_pendencia": "OUTROS_148",
+    "indice_origem": 148,
+    "original": {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "item": "114",
+      "apendice": "XVII",
+      "codigo_legal": "3002.10.19",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Medicamento: Soro Anti-Elapídico"
+    },
+    "conclusao": "IDENTIDADE_ATUAL_DIRETA_DOCUMENTADA_PARA_CANDIDATO_CONDICIONAL",
+    "metodo": "IDENTIDADE_NOMINAL_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+    "ncm_atual": "30021211",
+    "descricao_oficial_atual": "Antissoros e outras frações do sangue — Antissoros específicos de animais ou de pessoas imunizados — Antiofídicos e outros antivenenosos",
+    "classe_identidade": "SORO_ESPECIFICO",
+    "criterio": "O produto legal nomeado é soro antiofídico/antivenenoso. A TIPI atual identifica nominalmente esse soro ou a categoria material específica de antissoros antiofídicos e antivenenosos, e a NESH30.02 distingue antissoros de vacinas e de medicamentos de outra natureza. A fonte federal complementar identifica o mesmo soro pelo nome e pelo código. A classificação30.02 permanece mesmo quando apresentado em doses.",
+    "restricoes_produto": "Somente o soro específico da linha e da coluna legal de origem; não qualquer soro, vacina, imunoglobulina, solução fisiológica ou outro produto do código. Não intercambiar as colunas fármaco e medicamento.",
+    "cadeia_historica": {
+      "localizada": false,
+      "alegada": false,
+      "observacao": "A inexistência de cadeia completa nesta pesquisa não foi preenchida por troca de dígitos. O candidato deriva do produto objetivamente nomeado na lei e identificado na descrição federal atual."
+    },
+    "evidencias_federais": [
+      {
+        "id": "TIPI_NOMINAL",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+          "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+          "pagina_pdf_1_base": 144,
+          "linha_texto_1_base": 8295,
+          "trecho": "3002.12.11           Antiofídicos e outros antivenenosos                                                        0\n    3002.12.12           Antitetânico                                                                               0\n    3002.12.13           Anticatarral"
+        }
+      },
+      {
+        "id": "NESH_ANTISSOROS",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 749,
+          "linha_texto_1_base": 29355,
+          "trecho": "Os soros específicos contra as doenças, quer sejam provocadas por microrganismos patogênicos,\n       por toxinas ou por certos fenômenos alérgicos, etc., provêm do sangue de animais ou de pessoas\n       imunizados. Entre os soros específicos podem citar-se os soros antidiftérico, antidisentérico,\n       antigangrenoso, antimeningocócico, antipneumocócico, antitetânico, antiestafilocócico,\n       antiestreptocócico, antiofídico, antivenenoso e antialérgico. Os soros específicos são também\n       utilizados para fins de diagnóstico, incluindo para proceder a testes in vitro. As imunoglobulinas\n       específicas são preparações purificadas de soros específicos de animais ou de pessoas\n       imunizados.\n       Esta posição não abrange a albumina do sangue não preparada para fins terapêuticos ou profiláticos (posição 35.02)\n       nem as globulinas (exceto as globulinas do sangue e as soroglobulinas) (posição 35.04), e os medicamentos que não\n       sejam um líquido extra"
+        }
+      },
+      {
+        "id": "NESH_FORMA_APRESENTACAO",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 750,
+          "linha_texto_1_base": 29457,
+          "trecho": "Os produtos incluídos nesta posição podem apresentar-se sob qualquer forma, mesmo doseados ou\nacondicionados para venda a retalho.\n\n\n                                                      VI-"
+        }
+      },
+      {
+        "id": "FEDERAL_CORROBORACAO_NOME",
+        "conteudo": {
+          "url": "https://legis.senado.leg.br/norma/40180341/publicacao/40181032",
+          "anexo": "XIV",
+          "item": "306",
+          "trecho": "306 | SORO ANTIELAPÍDICO (BIVALENTE) | 3002.12.11",
+          "uso": "Somente identidade/nome e código; nenhuma regra IBS/CBS importada."
+        }
+      }
+    ],
+    "evidencia_legal_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "XVII",
+      "item": "114",
+      "coluna": "MEDICAMENTO",
+      "descricao_corrente_confirmada": "Medicamento: Soro Anti-Elapídico",
+      "fonte_extracao_corrente": "finalizacao_20261027/beneficios_outros.json/inventario_pendencias",
+      "trecho_linha_complementar": null,
+      "localizadores_tabelas_raw": [
+        {
+          "tabela_extraida": 58,
+          "trecho": "97 | Soro Anti-Elapídico | 3002.10.19 | Soro Anti-Elapídico | 3002.10.19"
+        },
+        {
+          "tabela_extraida": 59,
+          "trecho": " | 114 | Soro Anti-Elapídico | 3002.10.19 | Soro Anti-Elapídico | 3002.10.19 |  | "
+        }
+      ],
+      "observacao": "O inventário corrente fornecido distingue históricos e redações futuras; os localizadores raw auxiliam a conferência, sem autorizar aplicar redação revogada."
+    },
+    "template_id": "GO_A9_ART7_XXXVII",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso XXXVII",
+    "jurisdicao": "GO",
+    "parametros_fiscais_originais": {
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "cbenef": "GO812023",
+      "escopo_operacao": "AMBAS",
+      "vigencia_inicio": "2010-01-01",
+      "vigencia_fim": "2026-12-31"
+    },
+    "condicoes_originais": [
+      "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+      "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+      "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+      "Receita desonerada de PIS/PASEP e COFINS.",
+      "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+      "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+      "Mantido o crédito.",
+      "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+      "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+    ],
+    "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+    "vigencia_observacao": "Datas descrevem a redação/condição consultada. A apresentação específica de cada item exige conferência da nota de alteração; não autoriza aplicação retroativa.",
+    "data_referencia": "2026-10-28",
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA",
+    "cobre_codigo_atual_inteiro": false,
+    "limite": "Comprovar produto e apresentação da linha, destinatário público, operação e todos os requisitos da norma. Identidade nominal não confirma o direito ao benefício."
+  },
+  {
+    "id_pendencia": "OUTROS_149",
+    "indice_origem": 149,
+    "original": {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "item": "115",
+      "apendice": "XVII",
+      "codigo_legal": "3002.10.19",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Fármaco: Soro Anti-Escorpiônico"
+    },
+    "conclusao": "IDENTIDADE_ATUAL_DIRETA_DOCUMENTADA_PARA_CANDIDATO_CONDICIONAL",
+    "metodo": "IDENTIDADE_NOMINAL_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+    "ncm_atual": "30021211",
+    "descricao_oficial_atual": "Antissoros e outras frações do sangue — Antissoros específicos de animais ou de pessoas imunizados — Antiofídicos e outros antivenenosos",
+    "classe_identidade": "SORO_ESPECIFICO",
+    "criterio": "O produto legal nomeado é soro antiofídico/antivenenoso. A TIPI atual identifica nominalmente esse soro ou a categoria material específica de antissoros antiofídicos e antivenenosos, e a NESH30.02 distingue antissoros de vacinas e de medicamentos de outra natureza. A fonte federal complementar identifica o mesmo soro pelo nome e pelo código. A classificação30.02 permanece mesmo quando apresentado em doses.",
+    "restricoes_produto": "Somente o soro específico da linha e da coluna legal de origem; não qualquer soro, vacina, imunoglobulina, solução fisiológica ou outro produto do código. Não intercambiar as colunas fármaco e medicamento.",
+    "cadeia_historica": {
+      "localizada": false,
+      "alegada": false,
+      "observacao": "A inexistência de cadeia completa nesta pesquisa não foi preenchida por troca de dígitos. O candidato deriva do produto objetivamente nomeado na lei e identificado na descrição federal atual."
+    },
+    "evidencias_federais": [
+      {
+        "id": "TIPI_NOMINAL",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+          "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+          "pagina_pdf_1_base": 144,
+          "linha_texto_1_base": 8295,
+          "trecho": "3002.12.11           Antiofídicos e outros antivenenosos                                                        0\n    3002.12.12           Antitetânico                                                                               0\n    3002.12.13           Anticatarral"
+        }
+      },
+      {
+        "id": "NESH_ANTISSOROS",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 749,
+          "linha_texto_1_base": 29355,
+          "trecho": "Os soros específicos contra as doenças, quer sejam provocadas por microrganismos patogênicos,\n       por toxinas ou por certos fenômenos alérgicos, etc., provêm do sangue de animais ou de pessoas\n       imunizados. Entre os soros específicos podem citar-se os soros antidiftérico, antidisentérico,\n       antigangrenoso, antimeningocócico, antipneumocócico, antitetânico, antiestafilocócico,\n       antiestreptocócico, antiofídico, antivenenoso e antialérgico. Os soros específicos são também\n       utilizados para fins de diagnóstico, incluindo para proceder a testes in vitro. As imunoglobulinas\n       específicas são preparações purificadas de soros específicos de animais ou de pessoas\n       imunizados.\n       Esta posição não abrange a albumina do sangue não preparada para fins terapêuticos ou profiláticos (posição 35.02)\n       nem as globulinas (exceto as globulinas do sangue e as soroglobulinas) (posição 35.04), e os medicamentos que não\n       sejam um líquido extra"
+        }
+      },
+      {
+        "id": "NESH_FORMA_APRESENTACAO",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 750,
+          "linha_texto_1_base": 29457,
+          "trecho": "Os produtos incluídos nesta posição podem apresentar-se sob qualquer forma, mesmo doseados ou\nacondicionados para venda a retalho.\n\n\n                                                      VI-"
+        }
+      },
+      {
+        "id": "FEDERAL_CORROBORACAO_NOME",
+        "conteudo": {
+          "url": "https://legis.senado.leg.br/norma/40180341/publicacao/40181032",
+          "anexo": "XIV",
+          "item": "307",
+          "trecho": "307 | SORO ANTIESCORPIÔNICO | 3002.12.11",
+          "uso": "Somente identidade/nome e código; nenhuma regra IBS/CBS importada."
+        }
+      }
+    ],
+    "evidencia_legal_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "XVII",
+      "item": "115",
+      "coluna": "FARMACO",
+      "descricao_corrente_confirmada": "Fármaco: Soro Anti-Escorpiônico",
+      "fonte_extracao_corrente": "finalizacao_20261027/beneficios_outros.json/inventario_pendencias",
+      "trecho_linha_complementar": null,
+      "localizadores_tabelas_raw": [
+        {
+          "tabela_extraida": 58,
+          "trecho": "98 | Soro Anti-Escorpiônico | 3002.10.19 | Soro Anti-Escorpiônico | 3002.10.19"
+        },
+        {
+          "tabela_extraida": 59,
+          "trecho": " | 115 | Soro Anti-Escorpiônico | 3002.10.19 | Soro Anti-Escorpiônico | 3002.10.19 |  | "
+        }
+      ],
+      "observacao": "O inventário corrente fornecido distingue históricos e redações futuras; os localizadores raw auxiliam a conferência, sem autorizar aplicar redação revogada."
+    },
+    "template_id": "GO_A9_ART7_XXXVII",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso XXXVII",
+    "jurisdicao": "GO",
+    "parametros_fiscais_originais": {
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "cbenef": "GO812023",
+      "escopo_operacao": "AMBAS",
+      "vigencia_inicio": "2010-01-01",
+      "vigencia_fim": "2026-12-31"
+    },
+    "condicoes_originais": [
+      "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+      "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+      "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+      "Receita desonerada de PIS/PASEP e COFINS.",
+      "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+      "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+      "Mantido o crédito.",
+      "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+      "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+    ],
+    "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+    "vigencia_observacao": "Datas descrevem a redação/condição consultada. A apresentação específica de cada item exige conferência da nota de alteração; não autoriza aplicação retroativa.",
+    "data_referencia": "2026-10-28",
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA",
+    "cobre_codigo_atual_inteiro": false,
+    "limite": "Comprovar produto e apresentação da linha, destinatário público, operação e todos os requisitos da norma. Identidade nominal não confirma o direito ao benefício."
+  },
+  {
+    "id_pendencia": "OUTROS_150",
+    "indice_origem": 150,
+    "original": {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "item": "115",
+      "apendice": "XVII",
+      "codigo_legal": "3002.10.19",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Medicamento: Soro Anti-Escorpiônico"
+    },
+    "conclusao": "IDENTIDADE_ATUAL_DIRETA_DOCUMENTADA_PARA_CANDIDATO_CONDICIONAL",
+    "metodo": "IDENTIDADE_NOMINAL_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+    "ncm_atual": "30021211",
+    "descricao_oficial_atual": "Antissoros e outras frações do sangue — Antissoros específicos de animais ou de pessoas imunizados — Antiofídicos e outros antivenenosos",
+    "classe_identidade": "SORO_ESPECIFICO",
+    "criterio": "O produto legal nomeado é soro antiofídico/antivenenoso. A TIPI atual identifica nominalmente esse soro ou a categoria material específica de antissoros antiofídicos e antivenenosos, e a NESH30.02 distingue antissoros de vacinas e de medicamentos de outra natureza. A fonte federal complementar identifica o mesmo soro pelo nome e pelo código. A classificação30.02 permanece mesmo quando apresentado em doses.",
+    "restricoes_produto": "Somente o soro específico da linha e da coluna legal de origem; não qualquer soro, vacina, imunoglobulina, solução fisiológica ou outro produto do código. Não intercambiar as colunas fármaco e medicamento.",
+    "cadeia_historica": {
+      "localizada": false,
+      "alegada": false,
+      "observacao": "A inexistência de cadeia completa nesta pesquisa não foi preenchida por troca de dígitos. O candidato deriva do produto objetivamente nomeado na lei e identificado na descrição federal atual."
+    },
+    "evidencias_federais": [
+      {
+        "id": "TIPI_NOMINAL",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+          "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+          "pagina_pdf_1_base": 144,
+          "linha_texto_1_base": 8295,
+          "trecho": "3002.12.11           Antiofídicos e outros antivenenosos                                                        0\n    3002.12.12           Antitetânico                                                                               0\n    3002.12.13           Anticatarral"
+        }
+      },
+      {
+        "id": "NESH_ANTISSOROS",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 749,
+          "linha_texto_1_base": 29355,
+          "trecho": "Os soros específicos contra as doenças, quer sejam provocadas por microrganismos patogênicos,\n       por toxinas ou por certos fenômenos alérgicos, etc., provêm do sangue de animais ou de pessoas\n       imunizados. Entre os soros específicos podem citar-se os soros antidiftérico, antidisentérico,\n       antigangrenoso, antimeningocócico, antipneumocócico, antitetânico, antiestafilocócico,\n       antiestreptocócico, antiofídico, antivenenoso e antialérgico. Os soros específicos são também\n       utilizados para fins de diagnóstico, incluindo para proceder a testes in vitro. As imunoglobulinas\n       específicas são preparações purificadas de soros específicos de animais ou de pessoas\n       imunizados.\n       Esta posição não abrange a albumina do sangue não preparada para fins terapêuticos ou profiláticos (posição 35.02)\n       nem as globulinas (exceto as globulinas do sangue e as soroglobulinas) (posição 35.04), e os medicamentos que não\n       sejam um líquido extra"
+        }
+      },
+      {
+        "id": "NESH_FORMA_APRESENTACAO",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 750,
+          "linha_texto_1_base": 29457,
+          "trecho": "Os produtos incluídos nesta posição podem apresentar-se sob qualquer forma, mesmo doseados ou\nacondicionados para venda a retalho.\n\n\n                                                      VI-"
+        }
+      },
+      {
+        "id": "FEDERAL_CORROBORACAO_NOME",
+        "conteudo": {
+          "url": "https://legis.senado.leg.br/norma/40180341/publicacao/40181032",
+          "anexo": "XIV",
+          "item": "307",
+          "trecho": "307 | SORO ANTIESCORPIÔNICO | 3002.12.11",
+          "uso": "Somente identidade/nome e código; nenhuma regra IBS/CBS importada."
+        }
+      }
+    ],
+    "evidencia_legal_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "XVII",
+      "item": "115",
+      "coluna": "MEDICAMENTO",
+      "descricao_corrente_confirmada": "Medicamento: Soro Anti-Escorpiônico",
+      "fonte_extracao_corrente": "finalizacao_20261027/beneficios_outros.json/inventario_pendencias",
+      "trecho_linha_complementar": null,
+      "localizadores_tabelas_raw": [
+        {
+          "tabela_extraida": 58,
+          "trecho": "98 | Soro Anti-Escorpiônico | 3002.10.19 | Soro Anti-Escorpiônico | 3002.10.19"
+        },
+        {
+          "tabela_extraida": 59,
+          "trecho": " | 115 | Soro Anti-Escorpiônico | 3002.10.19 | Soro Anti-Escorpiônico | 3002.10.19 |  | "
+        }
+      ],
+      "observacao": "O inventário corrente fornecido distingue históricos e redações futuras; os localizadores raw auxiliam a conferência, sem autorizar aplicar redação revogada."
+    },
+    "template_id": "GO_A9_ART7_XXXVII",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso XXXVII",
+    "jurisdicao": "GO",
+    "parametros_fiscais_originais": {
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "cbenef": "GO812023",
+      "escopo_operacao": "AMBAS",
+      "vigencia_inicio": "2010-01-01",
+      "vigencia_fim": "2026-12-31"
+    },
+    "condicoes_originais": [
+      "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+      "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+      "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+      "Receita desonerada de PIS/PASEP e COFINS.",
+      "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+      "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+      "Mantido o crédito.",
+      "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+      "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+    ],
+    "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+    "vigencia_observacao": "Datas descrevem a redação/condição consultada. A apresentação específica de cada item exige conferência da nota de alteração; não autoriza aplicação retroativa.",
+    "data_referencia": "2026-10-28",
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA",
+    "cobre_codigo_atual_inteiro": false,
+    "limite": "Comprovar produto e apresentação da linha, destinatário público, operação e todos os requisitos da norma. Identidade nominal não confirma o direito ao benefício."
+  },
+  {
+    "id_pendencia": "OUTROS_153",
+    "indice_origem": 153,
+    "original": {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "item": "117",
+      "apendice": "XVII",
+      "codigo_legal": "3002.10.19",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Fármaco: Soro Anti-Lonômia"
+    },
+    "conclusao": "IDENTIDADE_ATUAL_DIRETA_DOCUMENTADA_PARA_CANDIDATO_CONDICIONAL",
+    "metodo": "IDENTIDADE_NOMINAL_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+    "ncm_atual": "30021211",
+    "descricao_oficial_atual": "Antissoros e outras frações do sangue — Antissoros específicos de animais ou de pessoas imunizados — Antiofídicos e outros antivenenosos",
+    "classe_identidade": "SORO_ESPECIFICO",
+    "criterio": "O produto legal nomeado é soro antiofídico/antivenenoso. A TIPI atual identifica nominalmente esse soro ou a categoria material específica de antissoros antiofídicos e antivenenosos, e a NESH30.02 distingue antissoros de vacinas e de medicamentos de outra natureza. A fonte federal complementar identifica o mesmo soro pelo nome e pelo código. A classificação30.02 permanece mesmo quando apresentado em doses.",
+    "restricoes_produto": "Somente o soro específico da linha e da coluna legal de origem; não qualquer soro, vacina, imunoglobulina, solução fisiológica ou outro produto do código. Não intercambiar as colunas fármaco e medicamento.",
+    "cadeia_historica": {
+      "localizada": false,
+      "alegada": false,
+      "observacao": "A inexistência de cadeia completa nesta pesquisa não foi preenchida por troca de dígitos. O candidato deriva do produto objetivamente nomeado na lei e identificado na descrição federal atual."
+    },
+    "evidencias_federais": [
+      {
+        "id": "TIPI_NOMINAL",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+          "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+          "pagina_pdf_1_base": 144,
+          "linha_texto_1_base": 8295,
+          "trecho": "3002.12.11           Antiofídicos e outros antivenenosos                                                        0\n    3002.12.12           Antitetânico                                                                               0\n    3002.12.13           Anticatarral"
+        }
+      },
+      {
+        "id": "NESH_ANTISSOROS",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 749,
+          "linha_texto_1_base": 29355,
+          "trecho": "Os soros específicos contra as doenças, quer sejam provocadas por microrganismos patogênicos,\n       por toxinas ou por certos fenômenos alérgicos, etc., provêm do sangue de animais ou de pessoas\n       imunizados. Entre os soros específicos podem citar-se os soros antidiftérico, antidisentérico,\n       antigangrenoso, antimeningocócico, antipneumocócico, antitetânico, antiestafilocócico,\n       antiestreptocócico, antiofídico, antivenenoso e antialérgico. Os soros específicos são também\n       utilizados para fins de diagnóstico, incluindo para proceder a testes in vitro. As imunoglobulinas\n       específicas são preparações purificadas de soros específicos de animais ou de pessoas\n       imunizados.\n       Esta posição não abrange a albumina do sangue não preparada para fins terapêuticos ou profiláticos (posição 35.02)\n       nem as globulinas (exceto as globulinas do sangue e as soroglobulinas) (posição 35.04), e os medicamentos que não\n       sejam um líquido extra"
+        }
+      },
+      {
+        "id": "NESH_FORMA_APRESENTACAO",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 750,
+          "linha_texto_1_base": 29457,
+          "trecho": "Os produtos incluídos nesta posição podem apresentar-se sob qualquer forma, mesmo doseados ou\nacondicionados para venda a retalho.\n\n\n                                                      VI-"
+        }
+      },
+      {
+        "id": "FEDERAL_CORROBORACAO_NOME",
+        "conteudo": {
+          "url": "https://legis.senado.leg.br/norma/40180341/publicacao/40181032",
+          "anexo": "XIV",
+          "item": "308",
+          "trecho": "308 | SORO ANTILONÔMICO | 3002.12.11",
+          "uso": "Somente identidade/nome e código; nenhuma regra IBS/CBS importada."
+        }
+      }
+    ],
+    "evidencia_legal_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "XVII",
+      "item": "117",
+      "coluna": "FARMACO",
+      "descricao_corrente_confirmada": "Fármaco: Soro Anti-Lonômia",
+      "fonte_extracao_corrente": "finalizacao_20261027/beneficios_outros.json/inventario_pendencias",
+      "trecho_linha_complementar": null,
+      "localizadores_tabelas_raw": [
+        {
+          "tabela_extraida": 58,
+          "trecho": "100 | Soro Anti-Lonômia | 3002.10.19 | Soro Anti-Lonômia | 3002.10.19"
+        },
+        {
+          "tabela_extraida": 59,
+          "trecho": " | 117 | Soro Anti-Lonômia | 3002.10.19 | Soro Anti-Lonômia | 3002.10.19 |  | "
+        }
+      ],
+      "observacao": "O inventário corrente fornecido distingue históricos e redações futuras; os localizadores raw auxiliam a conferência, sem autorizar aplicar redação revogada."
+    },
+    "template_id": "GO_A9_ART7_XXXVII",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso XXXVII",
+    "jurisdicao": "GO",
+    "parametros_fiscais_originais": {
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "cbenef": "GO812023",
+      "escopo_operacao": "AMBAS",
+      "vigencia_inicio": "2010-01-01",
+      "vigencia_fim": "2026-12-31"
+    },
+    "condicoes_originais": [
+      "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+      "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+      "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+      "Receita desonerada de PIS/PASEP e COFINS.",
+      "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+      "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+      "Mantido o crédito.",
+      "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+      "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+    ],
+    "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+    "vigencia_observacao": "Datas descrevem a redação/condição consultada. A apresentação específica de cada item exige conferência da nota de alteração; não autoriza aplicação retroativa.",
+    "data_referencia": "2026-10-28",
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA",
+    "cobre_codigo_atual_inteiro": false,
+    "limite": "Comprovar produto e apresentação da linha, destinatário público, operação e todos os requisitos da norma. Identidade nominal não confirma o direito ao benefício."
+  },
+  {
+    "id_pendencia": "OUTROS_154",
+    "indice_origem": 154,
+    "original": {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "item": "117",
+      "apendice": "XVII",
+      "codigo_legal": "3002.10.19",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Medicamento: Soro Anti-Lonômia"
+    },
+    "conclusao": "IDENTIDADE_ATUAL_DIRETA_DOCUMENTADA_PARA_CANDIDATO_CONDICIONAL",
+    "metodo": "IDENTIDADE_NOMINAL_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+    "ncm_atual": "30021211",
+    "descricao_oficial_atual": "Antissoros e outras frações do sangue — Antissoros específicos de animais ou de pessoas imunizados — Antiofídicos e outros antivenenosos",
+    "classe_identidade": "SORO_ESPECIFICO",
+    "criterio": "O produto legal nomeado é soro antiofídico/antivenenoso. A TIPI atual identifica nominalmente esse soro ou a categoria material específica de antissoros antiofídicos e antivenenosos, e a NESH30.02 distingue antissoros de vacinas e de medicamentos de outra natureza. A fonte federal complementar identifica o mesmo soro pelo nome e pelo código. A classificação30.02 permanece mesmo quando apresentado em doses.",
+    "restricoes_produto": "Somente o soro específico da linha e da coluna legal de origem; não qualquer soro, vacina, imunoglobulina, solução fisiológica ou outro produto do código. Não intercambiar as colunas fármaco e medicamento.",
+    "cadeia_historica": {
+      "localizada": false,
+      "alegada": false,
+      "observacao": "A inexistência de cadeia completa nesta pesquisa não foi preenchida por troca de dígitos. O candidato deriva do produto objetivamente nomeado na lei e identificado na descrição federal atual."
+    },
+    "evidencias_federais": [
+      {
+        "id": "TIPI_NOMINAL",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+          "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+          "pagina_pdf_1_base": 144,
+          "linha_texto_1_base": 8295,
+          "trecho": "3002.12.11           Antiofídicos e outros antivenenosos                                                        0\n    3002.12.12           Antitetânico                                                                               0\n    3002.12.13           Anticatarral"
+        }
+      },
+      {
+        "id": "NESH_ANTISSOROS",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 749,
+          "linha_texto_1_base": 29355,
+          "trecho": "Os soros específicos contra as doenças, quer sejam provocadas por microrganismos patogênicos,\n       por toxinas ou por certos fenômenos alérgicos, etc., provêm do sangue de animais ou de pessoas\n       imunizados. Entre os soros específicos podem citar-se os soros antidiftérico, antidisentérico,\n       antigangrenoso, antimeningocócico, antipneumocócico, antitetânico, antiestafilocócico,\n       antiestreptocócico, antiofídico, antivenenoso e antialérgico. Os soros específicos são também\n       utilizados para fins de diagnóstico, incluindo para proceder a testes in vitro. As imunoglobulinas\n       específicas são preparações purificadas de soros específicos de animais ou de pessoas\n       imunizados.\n       Esta posição não abrange a albumina do sangue não preparada para fins terapêuticos ou profiláticos (posição 35.02)\n       nem as globulinas (exceto as globulinas do sangue e as soroglobulinas) (posição 35.04), e os medicamentos que não\n       sejam um líquido extra"
+        }
+      },
+      {
+        "id": "NESH_FORMA_APRESENTACAO",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 750,
+          "linha_texto_1_base": 29457,
+          "trecho": "Os produtos incluídos nesta posição podem apresentar-se sob qualquer forma, mesmo doseados ou\nacondicionados para venda a retalho.\n\n\n                                                      VI-"
+        }
+      },
+      {
+        "id": "FEDERAL_CORROBORACAO_NOME",
+        "conteudo": {
+          "url": "https://legis.senado.leg.br/norma/40180341/publicacao/40181032",
+          "anexo": "XIV",
+          "item": "308",
+          "trecho": "308 | SORO ANTILONÔMICO | 3002.12.11",
+          "uso": "Somente identidade/nome e código; nenhuma regra IBS/CBS importada."
+        }
+      }
+    ],
+    "evidencia_legal_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "XVII",
+      "item": "117",
+      "coluna": "MEDICAMENTO",
+      "descricao_corrente_confirmada": "Medicamento: Soro Anti-Lonômia",
+      "fonte_extracao_corrente": "finalizacao_20261027/beneficios_outros.json/inventario_pendencias",
+      "trecho_linha_complementar": null,
+      "localizadores_tabelas_raw": [
+        {
+          "tabela_extraida": 58,
+          "trecho": "100 | Soro Anti-Lonômia | 3002.10.19 | Soro Anti-Lonômia | 3002.10.19"
+        },
+        {
+          "tabela_extraida": 59,
+          "trecho": " | 117 | Soro Anti-Lonômia | 3002.10.19 | Soro Anti-Lonômia | 3002.10.19 |  | "
+        }
+      ],
+      "observacao": "O inventário corrente fornecido distingue históricos e redações futuras; os localizadores raw auxiliam a conferência, sem autorizar aplicar redação revogada."
+    },
+    "template_id": "GO_A9_ART7_XXXVII",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso XXXVII",
+    "jurisdicao": "GO",
+    "parametros_fiscais_originais": {
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "cbenef": "GO812023",
+      "escopo_operacao": "AMBAS",
+      "vigencia_inicio": "2010-01-01",
+      "vigencia_fim": "2026-12-31"
+    },
+    "condicoes_originais": [
+      "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+      "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+      "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+      "Receita desonerada de PIS/PASEP e COFINS.",
+      "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+      "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+      "Mantido o crédito.",
+      "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+      "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+    ],
+    "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+    "vigencia_observacao": "Datas descrevem a redação/condição consultada. A apresentação específica de cada item exige conferência da nota de alteração; não autoriza aplicação retroativa.",
+    "data_referencia": "2026-10-28",
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA",
+    "cobre_codigo_atual_inteiro": false,
+    "limite": "Comprovar produto e apresentação da linha, destinatário público, operação e todos os requisitos da norma. Identidade nominal não confirma o direito ao benefício."
+  },
+  {
+    "id_pendencia": "OUTROS_155",
+    "indice_origem": 155,
+    "original": {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "item": "118",
+      "apendice": "XVII",
+      "codigo_legal": "3002.10.19",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Fármaco: Soro Anti-Loxoscélico"
+    },
+    "conclusao": "IDENTIDADE_ATUAL_DIRETA_DOCUMENTADA_PARA_CANDIDATO_CONDICIONAL",
+    "metodo": "IDENTIDADE_NOMINAL_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+    "ncm_atual": "30021211",
+    "descricao_oficial_atual": "Antissoros e outras frações do sangue — Antissoros específicos de animais ou de pessoas imunizados — Antiofídicos e outros antivenenosos",
+    "classe_identidade": "SORO_ESPECIFICO",
+    "criterio": "O produto legal nomeado é soro antiofídico/antivenenoso. A TIPI atual identifica nominalmente esse soro ou a categoria material específica de antissoros antiofídicos e antivenenosos, e a NESH30.02 distingue antissoros de vacinas e de medicamentos de outra natureza. A fonte federal complementar identifica o mesmo soro pelo nome e pelo código. A classificação30.02 permanece mesmo quando apresentado em doses.",
+    "restricoes_produto": "Somente o soro específico da linha e da coluna legal de origem; não qualquer soro, vacina, imunoglobulina, solução fisiológica ou outro produto do código. Não intercambiar as colunas fármaco e medicamento.",
+    "cadeia_historica": {
+      "localizada": false,
+      "alegada": false,
+      "observacao": "A inexistência de cadeia completa nesta pesquisa não foi preenchida por troca de dígitos. O candidato deriva do produto objetivamente nomeado na lei e identificado na descrição federal atual."
+    },
+    "evidencias_federais": [
+      {
+        "id": "TIPI_NOMINAL",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+          "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+          "pagina_pdf_1_base": 144,
+          "linha_texto_1_base": 8295,
+          "trecho": "3002.12.11           Antiofídicos e outros antivenenosos                                                        0\n    3002.12.12           Antitetânico                                                                               0\n    3002.12.13           Anticatarral"
+        }
+      },
+      {
+        "id": "NESH_ANTISSOROS",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 749,
+          "linha_texto_1_base": 29355,
+          "trecho": "Os soros específicos contra as doenças, quer sejam provocadas por microrganismos patogênicos,\n       por toxinas ou por certos fenômenos alérgicos, etc., provêm do sangue de animais ou de pessoas\n       imunizados. Entre os soros específicos podem citar-se os soros antidiftérico, antidisentérico,\n       antigangrenoso, antimeningocócico, antipneumocócico, antitetânico, antiestafilocócico,\n       antiestreptocócico, antiofídico, antivenenoso e antialérgico. Os soros específicos são também\n       utilizados para fins de diagnóstico, incluindo para proceder a testes in vitro. As imunoglobulinas\n       específicas são preparações purificadas de soros específicos de animais ou de pessoas\n       imunizados.\n       Esta posição não abrange a albumina do sangue não preparada para fins terapêuticos ou profiláticos (posição 35.02)\n       nem as globulinas (exceto as globulinas do sangue e as soroglobulinas) (posição 35.04), e os medicamentos que não\n       sejam um líquido extra"
+        }
+      },
+      {
+        "id": "NESH_FORMA_APRESENTACAO",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 750,
+          "linha_texto_1_base": 29457,
+          "trecho": "Os produtos incluídos nesta posição podem apresentar-se sob qualquer forma, mesmo doseados ou\nacondicionados para venda a retalho.\n\n\n                                                      VI-"
+        }
+      },
+      {
+        "id": "FEDERAL_CORROBORACAO_NOME",
+        "conteudo": {
+          "url": "https://legis.senado.leg.br/norma/40180341/publicacao/40181032",
+          "anexo": "XIV",
+          "item": "309",
+          "trecho": "309 | SORO ANTILOXOSCÉLICO (TRIVALENTE) | 3002.12.11",
+          "uso": "Somente identidade/nome e código; nenhuma regra IBS/CBS importada."
+        }
+      }
+    ],
+    "evidencia_legal_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "XVII",
+      "item": "118",
+      "coluna": "FARMACO",
+      "descricao_corrente_confirmada": "Fármaco: Soro Anti-Loxoscélico",
+      "fonte_extracao_corrente": "finalizacao_20261027/beneficios_outros.json/inventario_pendencias",
+      "trecho_linha_complementar": null,
+      "localizadores_tabelas_raw": [
+        {
+          "tabela_extraida": 58,
+          "trecho": "101 | Soro Anti-Loxoscélico | 3002.10.19 | Soro Anti-Loxoscélico | 3002.10.19"
+        },
+        {
+          "tabela_extraida": 59,
+          "trecho": " | 118 | Soro Anti-Loxoscélico | 3002.10.19 | Soro Anti-Loxoscélico | 3002.10.19 |  | "
+        }
+      ],
+      "observacao": "O inventário corrente fornecido distingue históricos e redações futuras; os localizadores raw auxiliam a conferência, sem autorizar aplicar redação revogada."
+    },
+    "template_id": "GO_A9_ART7_XXXVII",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso XXXVII",
+    "jurisdicao": "GO",
+    "parametros_fiscais_originais": {
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "cbenef": "GO812023",
+      "escopo_operacao": "AMBAS",
+      "vigencia_inicio": "2010-01-01",
+      "vigencia_fim": "2026-12-31"
+    },
+    "condicoes_originais": [
+      "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+      "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+      "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+      "Receita desonerada de PIS/PASEP e COFINS.",
+      "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+      "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+      "Mantido o crédito.",
+      "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+      "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+    ],
+    "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+    "vigencia_observacao": "Datas descrevem a redação/condição consultada. A apresentação específica de cada item exige conferência da nota de alteração; não autoriza aplicação retroativa.",
+    "data_referencia": "2026-10-28",
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA",
+    "cobre_codigo_atual_inteiro": false,
+    "limite": "Comprovar produto e apresentação da linha, destinatário público, operação e todos os requisitos da norma. Identidade nominal não confirma o direito ao benefício."
+  },
+  {
+    "id_pendencia": "OUTROS_156",
+    "indice_origem": 156,
+    "original": {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "item": "118",
+      "apendice": "XVII",
+      "codigo_legal": "3002.10.19",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Medicamento: Soro Anti-Loxoscélico"
+    },
+    "conclusao": "IDENTIDADE_ATUAL_DIRETA_DOCUMENTADA_PARA_CANDIDATO_CONDICIONAL",
+    "metodo": "IDENTIDADE_NOMINAL_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+    "ncm_atual": "30021211",
+    "descricao_oficial_atual": "Antissoros e outras frações do sangue — Antissoros específicos de animais ou de pessoas imunizados — Antiofídicos e outros antivenenosos",
+    "classe_identidade": "SORO_ESPECIFICO",
+    "criterio": "O produto legal nomeado é soro antiofídico/antivenenoso. A TIPI atual identifica nominalmente esse soro ou a categoria material específica de antissoros antiofídicos e antivenenosos, e a NESH30.02 distingue antissoros de vacinas e de medicamentos de outra natureza. A fonte federal complementar identifica o mesmo soro pelo nome e pelo código. A classificação30.02 permanece mesmo quando apresentado em doses.",
+    "restricoes_produto": "Somente o soro específico da linha e da coluna legal de origem; não qualquer soro, vacina, imunoglobulina, solução fisiológica ou outro produto do código. Não intercambiar as colunas fármaco e medicamento.",
+    "cadeia_historica": {
+      "localizada": false,
+      "alegada": false,
+      "observacao": "A inexistência de cadeia completa nesta pesquisa não foi preenchida por troca de dígitos. O candidato deriva do produto objetivamente nomeado na lei e identificado na descrição federal atual."
+    },
+    "evidencias_federais": [
+      {
+        "id": "TIPI_NOMINAL",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+          "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+          "pagina_pdf_1_base": 144,
+          "linha_texto_1_base": 8295,
+          "trecho": "3002.12.11           Antiofídicos e outros antivenenosos                                                        0\n    3002.12.12           Antitetânico                                                                               0\n    3002.12.13           Anticatarral"
+        }
+      },
+      {
+        "id": "NESH_ANTISSOROS",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 749,
+          "linha_texto_1_base": 29355,
+          "trecho": "Os soros específicos contra as doenças, quer sejam provocadas por microrganismos patogênicos,\n       por toxinas ou por certos fenômenos alérgicos, etc., provêm do sangue de animais ou de pessoas\n       imunizados. Entre os soros específicos podem citar-se os soros antidiftérico, antidisentérico,\n       antigangrenoso, antimeningocócico, antipneumocócico, antitetânico, antiestafilocócico,\n       antiestreptocócico, antiofídico, antivenenoso e antialérgico. Os soros específicos são também\n       utilizados para fins de diagnóstico, incluindo para proceder a testes in vitro. As imunoglobulinas\n       específicas são preparações purificadas de soros específicos de animais ou de pessoas\n       imunizados.\n       Esta posição não abrange a albumina do sangue não preparada para fins terapêuticos ou profiláticos (posição 35.02)\n       nem as globulinas (exceto as globulinas do sangue e as soroglobulinas) (posição 35.04), e os medicamentos que não\n       sejam um líquido extra"
+        }
+      },
+      {
+        "id": "NESH_FORMA_APRESENTACAO",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 750,
+          "linha_texto_1_base": 29457,
+          "trecho": "Os produtos incluídos nesta posição podem apresentar-se sob qualquer forma, mesmo doseados ou\nacondicionados para venda a retalho.\n\n\n                                                      VI-"
+        }
+      },
+      {
+        "id": "FEDERAL_CORROBORACAO_NOME",
+        "conteudo": {
+          "url": "https://legis.senado.leg.br/norma/40180341/publicacao/40181032",
+          "anexo": "XIV",
+          "item": "309",
+          "trecho": "309 | SORO ANTILOXOSCÉLICO (TRIVALENTE) | 3002.12.11",
+          "uso": "Somente identidade/nome e código; nenhuma regra IBS/CBS importada."
+        }
+      }
+    ],
+    "evidencia_legal_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "XVII",
+      "item": "118",
+      "coluna": "MEDICAMENTO",
+      "descricao_corrente_confirmada": "Medicamento: Soro Anti-Loxoscélico",
+      "fonte_extracao_corrente": "finalizacao_20261027/beneficios_outros.json/inventario_pendencias",
+      "trecho_linha_complementar": null,
+      "localizadores_tabelas_raw": [
+        {
+          "tabela_extraida": 58,
+          "trecho": "101 | Soro Anti-Loxoscélico | 3002.10.19 | Soro Anti-Loxoscélico | 3002.10.19"
+        },
+        {
+          "tabela_extraida": 59,
+          "trecho": " | 118 | Soro Anti-Loxoscélico | 3002.10.19 | Soro Anti-Loxoscélico | 3002.10.19 |  | "
+        }
+      ],
+      "observacao": "O inventário corrente fornecido distingue históricos e redações futuras; os localizadores raw auxiliam a conferência, sem autorizar aplicar redação revogada."
+    },
+    "template_id": "GO_A9_ART7_XXXVII",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso XXXVII",
+    "jurisdicao": "GO",
+    "parametros_fiscais_originais": {
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "cbenef": "GO812023",
+      "escopo_operacao": "AMBAS",
+      "vigencia_inicio": "2010-01-01",
+      "vigencia_fim": "2026-12-31"
+    },
+    "condicoes_originais": [
+      "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+      "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+      "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+      "Receita desonerada de PIS/PASEP e COFINS.",
+      "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+      "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+      "Mantido o crédito.",
+      "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+      "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+    ],
+    "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+    "vigencia_observacao": "Datas descrevem a redação/condição consultada. A apresentação específica de cada item exige conferência da nota de alteração; não autoriza aplicação retroativa.",
+    "data_referencia": "2026-10-28",
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA",
+    "cobre_codigo_atual_inteiro": false,
+    "limite": "Comprovar produto e apresentação da linha, destinatário público, operação e todos os requisitos da norma. Identidade nominal não confirma o direito ao benefício."
+  },
+  {
+    "id_pendencia": "OUTROS_145",
+    "indice_origem": 145,
+    "original": {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "item": "113",
+      "apendice": "XVII",
+      "codigo_legal": "3002.10.15",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Fármaco: Soro Anti-Diftérico"
+    },
+    "conclusao": "IDENTIDADE_ATUAL_DIRETA_DOCUMENTADA_PARA_CANDIDATO_CONDICIONAL",
+    "metodo": "IDENTIDADE_NOMINAL_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+    "ncm_atual": "30021215",
+    "descricao_oficial_atual": "Antissoros e outras frações do sangue — Antissoros específicos de animais ou de pessoas imunizados — Antidiftérico",
+    "classe_identidade": "SORO_ESPECIFICO",
+    "criterio": "O produto legal nomeado é soro antidiftérico. A TIPI atual identifica nominalmente esse soro ou a categoria material específica de antissoros antiofídicos e antivenenosos, e a NESH30.02 distingue antissoros de vacinas e de medicamentos de outra natureza. A fonte federal complementar identifica o mesmo soro pelo nome e pelo código. A classificação30.02 permanece mesmo quando apresentado em doses.",
+    "restricoes_produto": "Somente o soro específico da linha e da coluna legal de origem; não qualquer soro, vacina, imunoglobulina, solução fisiológica ou outro produto do código. Não intercambiar as colunas fármaco e medicamento.",
+    "cadeia_historica": {
+      "localizada": false,
+      "alegada": false,
+      "observacao": "A inexistência de cadeia completa nesta pesquisa não foi preenchida por troca de dígitos. O candidato deriva do produto objetivamente nomeado na lei e identificado na descrição federal atual."
+    },
+    "evidencias_federais": [
+      {
+        "id": "TIPI_NOMINAL",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+          "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+          "pagina_pdf_1_base": 144,
+          "linha_texto_1_base": 8299,
+          "trecho": "3002.12.15           Antidiftérico                                                                              0\n    3002.12.16           Polivalentes                                                                               0\n    3002.12.19           Outros"
+        }
+      },
+      {
+        "id": "NESH_ANTISSOROS",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 749,
+          "linha_texto_1_base": 29355,
+          "trecho": "Os soros específicos contra as doenças, quer sejam provocadas por microrganismos patogênicos,\n       por toxinas ou por certos fenômenos alérgicos, etc., provêm do sangue de animais ou de pessoas\n       imunizados. Entre os soros específicos podem citar-se os soros antidiftérico, antidisentérico,\n       antigangrenoso, antimeningocócico, antipneumocócico, antitetânico, antiestafilocócico,\n       antiestreptocócico, antiofídico, antivenenoso e antialérgico. Os soros específicos são também\n       utilizados para fins de diagnóstico, incluindo para proceder a testes in vitro. As imunoglobulinas\n       específicas são preparações purificadas de soros específicos de animais ou de pessoas\n       imunizados.\n       Esta posição não abrange a albumina do sangue não preparada para fins terapêuticos ou profiláticos (posição 35.02)\n       nem as globulinas (exceto as globulinas do sangue e as soroglobulinas) (posição 35.04), e os medicamentos que não\n       sejam um líquido extra"
+        }
+      },
+      {
+        "id": "NESH_FORMA_APRESENTACAO",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 750,
+          "linha_texto_1_base": 29457,
+          "trecho": "Os produtos incluídos nesta posição podem apresentar-se sob qualquer forma, mesmo doseados ou\nacondicionados para venda a retalho.\n\n\n                                                      VI-"
+        }
+      },
+      {
+        "id": "FEDERAL_CORROBORACAO_NOME",
+        "conteudo": {
+          "url": "https://legis.senado.leg.br/norma/40180341/publicacao/40181032",
+          "anexo": "XIV",
+          "item": "305",
+          "trecho": "305 | SORO ANTIDIFTÉRICO | 3002.12.15",
+          "uso": "Somente identidade/nome e código; nenhuma regra IBS/CBS importada."
+        }
+      }
+    ],
+    "evidencia_legal_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "XVII",
+      "item": "113",
+      "coluna": "FARMACO",
+      "descricao_corrente_confirmada": "Fármaco: Soro Anti-Diftérico",
+      "fonte_extracao_corrente": "finalizacao_20261027/beneficios_outros.json/inventario_pendencias",
+      "trecho_linha_complementar": null,
+      "localizadores_tabelas_raw": [
+        {
+          "tabela_extraida": 58,
+          "trecho": "96 | Soro Anti-Diftérico | 3002.10.15 | Soro Anti-Diftérico | 3002.10.15"
+        },
+        {
+          "tabela_extraida": 59,
+          "trecho": " | 113 | Soro Anti-Diftérico | 3002.10.15 | Soro Anti-Diftérico | 3002.10.15 |  | "
+        }
+      ],
+      "observacao": "O inventário corrente fornecido distingue históricos e redações futuras; os localizadores raw auxiliam a conferência, sem autorizar aplicar redação revogada."
+    },
+    "template_id": "GO_A9_ART7_XXXVII",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso XXXVII",
+    "jurisdicao": "GO",
+    "parametros_fiscais_originais": {
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "cbenef": "GO812023",
+      "escopo_operacao": "AMBAS",
+      "vigencia_inicio": "2010-01-01",
+      "vigencia_fim": "2026-12-31"
+    },
+    "condicoes_originais": [
+      "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+      "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+      "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+      "Receita desonerada de PIS/PASEP e COFINS.",
+      "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+      "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+      "Mantido o crédito.",
+      "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+      "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+    ],
+    "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+    "vigencia_observacao": "Datas descrevem a redação/condição consultada. A apresentação específica de cada item exige conferência da nota de alteração; não autoriza aplicação retroativa.",
+    "data_referencia": "2026-10-28",
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA",
+    "cobre_codigo_atual_inteiro": false,
+    "limite": "Comprovar produto e apresentação da linha, destinatário público, operação e todos os requisitos da norma. Identidade nominal não confirma o direito ao benefício."
+  },
+  {
+    "id_pendencia": "OUTROS_146",
+    "indice_origem": 146,
+    "original": {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "item": "113",
+      "apendice": "XVII",
+      "codigo_legal": "3002.10.15",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Medicamento: Soro Anti-Diftérico"
+    },
+    "conclusao": "IDENTIDADE_ATUAL_DIRETA_DOCUMENTADA_PARA_CANDIDATO_CONDICIONAL",
+    "metodo": "IDENTIDADE_NOMINAL_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+    "ncm_atual": "30021215",
+    "descricao_oficial_atual": "Antissoros e outras frações do sangue — Antissoros específicos de animais ou de pessoas imunizados — Antidiftérico",
+    "classe_identidade": "SORO_ESPECIFICO",
+    "criterio": "O produto legal nomeado é soro antidiftérico. A TIPI atual identifica nominalmente esse soro ou a categoria material específica de antissoros antiofídicos e antivenenosos, e a NESH30.02 distingue antissoros de vacinas e de medicamentos de outra natureza. A fonte federal complementar identifica o mesmo soro pelo nome e pelo código. A classificação30.02 permanece mesmo quando apresentado em doses.",
+    "restricoes_produto": "Somente o soro específico da linha e da coluna legal de origem; não qualquer soro, vacina, imunoglobulina, solução fisiológica ou outro produto do código. Não intercambiar as colunas fármaco e medicamento.",
+    "cadeia_historica": {
+      "localizada": false,
+      "alegada": false,
+      "observacao": "A inexistência de cadeia completa nesta pesquisa não foi preenchida por troca de dígitos. O candidato deriva do produto objetivamente nomeado na lei e identificado na descrição federal atual."
+    },
+    "evidencias_federais": [
+      {
+        "id": "TIPI_NOMINAL",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+          "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+          "pagina_pdf_1_base": 144,
+          "linha_texto_1_base": 8299,
+          "trecho": "3002.12.15           Antidiftérico                                                                              0\n    3002.12.16           Polivalentes                                                                               0\n    3002.12.19           Outros"
+        }
+      },
+      {
+        "id": "NESH_ANTISSOROS",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 749,
+          "linha_texto_1_base": 29355,
+          "trecho": "Os soros específicos contra as doenças, quer sejam provocadas por microrganismos patogênicos,\n       por toxinas ou por certos fenômenos alérgicos, etc., provêm do sangue de animais ou de pessoas\n       imunizados. Entre os soros específicos podem citar-se os soros antidiftérico, antidisentérico,\n       antigangrenoso, antimeningocócico, antipneumocócico, antitetânico, antiestafilocócico,\n       antiestreptocócico, antiofídico, antivenenoso e antialérgico. Os soros específicos são também\n       utilizados para fins de diagnóstico, incluindo para proceder a testes in vitro. As imunoglobulinas\n       específicas são preparações purificadas de soros específicos de animais ou de pessoas\n       imunizados.\n       Esta posição não abrange a albumina do sangue não preparada para fins terapêuticos ou profiláticos (posição 35.02)\n       nem as globulinas (exceto as globulinas do sangue e as soroglobulinas) (posição 35.04), e os medicamentos que não\n       sejam um líquido extra"
+        }
+      },
+      {
+        "id": "NESH_FORMA_APRESENTACAO",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 750,
+          "linha_texto_1_base": 29457,
+          "trecho": "Os produtos incluídos nesta posição podem apresentar-se sob qualquer forma, mesmo doseados ou\nacondicionados para venda a retalho.\n\n\n                                                      VI-"
+        }
+      },
+      {
+        "id": "FEDERAL_CORROBORACAO_NOME",
+        "conteudo": {
+          "url": "https://legis.senado.leg.br/norma/40180341/publicacao/40181032",
+          "anexo": "XIV",
+          "item": "305",
+          "trecho": "305 | SORO ANTIDIFTÉRICO | 3002.12.15",
+          "uso": "Somente identidade/nome e código; nenhuma regra IBS/CBS importada."
+        }
+      }
+    ],
+    "evidencia_legal_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "XVII",
+      "item": "113",
+      "coluna": "MEDICAMENTO",
+      "descricao_corrente_confirmada": "Medicamento: Soro Anti-Diftérico",
+      "fonte_extracao_corrente": "finalizacao_20261027/beneficios_outros.json/inventario_pendencias",
+      "trecho_linha_complementar": null,
+      "localizadores_tabelas_raw": [
+        {
+          "tabela_extraida": 58,
+          "trecho": "96 | Soro Anti-Diftérico | 3002.10.15 | Soro Anti-Diftérico | 3002.10.15"
+        },
+        {
+          "tabela_extraida": 59,
+          "trecho": " | 113 | Soro Anti-Diftérico | 3002.10.15 | Soro Anti-Diftérico | 3002.10.15 |  | "
+        }
+      ],
+      "observacao": "O inventário corrente fornecido distingue históricos e redações futuras; os localizadores raw auxiliam a conferência, sem autorizar aplicar redação revogada."
+    },
+    "template_id": "GO_A9_ART7_XXXVII",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso XXXVII",
+    "jurisdicao": "GO",
+    "parametros_fiscais_originais": {
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "cbenef": "GO812023",
+      "escopo_operacao": "AMBAS",
+      "vigencia_inicio": "2010-01-01",
+      "vigencia_fim": "2026-12-31"
+    },
+    "condicoes_originais": [
+      "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+      "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+      "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+      "Receita desonerada de PIS/PASEP e COFINS.",
+      "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+      "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+      "Mantido o crédito.",
+      "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+      "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+    ],
+    "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+    "vigencia_observacao": "Datas descrevem a redação/condição consultada. A apresentação específica de cada item exige conferência da nota de alteração; não autoriza aplicação retroativa.",
+    "data_referencia": "2026-10-28",
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA",
+    "cobre_codigo_atual_inteiro": false,
+    "limite": "Comprovar produto e apresentação da linha, destinatário público, operação e todos os requisitos da norma. Identidade nominal não confirma o direito ao benefício."
+  },
+  {
+    "id_pendencia": "OUTROS_159",
+    "indice_origem": 159,
+    "original": {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "item": "120",
+      "apendice": "XVII",
+      "codigo_legal": "3002.10.12",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Fármaco: Soro Anti-Tetânico"
+    },
+    "conclusao": "IDENTIDADE_ATUAL_DIRETA_DOCUMENTADA_PARA_CANDIDATO_CONDICIONAL",
+    "metodo": "IDENTIDADE_NOMINAL_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+    "ncm_atual": "30021212",
+    "descricao_oficial_atual": "Antissoros e outras frações do sangue — Antissoros específicos de animais ou de pessoas imunizados — Antitetânico",
+    "classe_identidade": "SORO_ESPECIFICO",
+    "criterio": "O produto legal nomeado é soro antitetânico. A TIPI atual identifica nominalmente esse soro ou a categoria material específica de antissoros antiofídicos e antivenenosos, e a NESH30.02 distingue antissoros de vacinas e de medicamentos de outra natureza. A fonte federal complementar identifica o mesmo soro pelo nome e pelo código. A classificação30.02 permanece mesmo quando apresentado em doses.",
+    "restricoes_produto": "Somente o soro específico da linha e da coluna legal de origem; não qualquer soro, vacina, imunoglobulina, solução fisiológica ou outro produto do código. Não intercambiar as colunas fármaco e medicamento.",
+    "cadeia_historica": {
+      "localizada": false,
+      "alegada": false,
+      "observacao": "A inexistência de cadeia completa nesta pesquisa não foi preenchida por troca de dígitos. O candidato deriva do produto objetivamente nomeado na lei e identificado na descrição federal atual."
+    },
+    "evidencias_federais": [
+      {
+        "id": "TIPI_NOMINAL",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+          "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+          "pagina_pdf_1_base": 144,
+          "linha_texto_1_base": 8296,
+          "trecho": "3002.12.12           Antitetânico                                                                               0\n    3002.12.13           Anticatarral                                                                               0\n    3002.12.14           Antipiogênico"
+        }
+      },
+      {
+        "id": "NESH_ANTISSOROS",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 749,
+          "linha_texto_1_base": 29355,
+          "trecho": "Os soros específicos contra as doenças, quer sejam provocadas por microrganismos patogênicos,\n       por toxinas ou por certos fenômenos alérgicos, etc., provêm do sangue de animais ou de pessoas\n       imunizados. Entre os soros específicos podem citar-se os soros antidiftérico, antidisentérico,\n       antigangrenoso, antimeningocócico, antipneumocócico, antitetânico, antiestafilocócico,\n       antiestreptocócico, antiofídico, antivenenoso e antialérgico. Os soros específicos são também\n       utilizados para fins de diagnóstico, incluindo para proceder a testes in vitro. As imunoglobulinas\n       específicas são preparações purificadas de soros específicos de animais ou de pessoas\n       imunizados.\n       Esta posição não abrange a albumina do sangue não preparada para fins terapêuticos ou profiláticos (posição 35.02)\n       nem as globulinas (exceto as globulinas do sangue e as soroglobulinas) (posição 35.04), e os medicamentos que não\n       sejam um líquido extra"
+        }
+      },
+      {
+        "id": "NESH_FORMA_APRESENTACAO",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 750,
+          "linha_texto_1_base": 29457,
+          "trecho": "Os produtos incluídos nesta posição podem apresentar-se sob qualquer forma, mesmo doseados ou\nacondicionados para venda a retalho.\n\n\n                                                      VI-"
+        }
+      },
+      {
+        "id": "FEDERAL_CORROBORACAO_NOME",
+        "conteudo": {
+          "url": "https://legis.senado.leg.br/norma/40180341/publicacao/40181032",
+          "anexo": "XIV",
+          "item": "311",
+          "trecho": "311 | SORO ANTITETÂNICO | 3002.12.12",
+          "uso": "Somente identidade/nome e código; nenhuma regra IBS/CBS importada."
+        }
+      }
+    ],
+    "evidencia_legal_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "XVII",
+      "item": "120",
+      "coluna": "FARMACO",
+      "descricao_corrente_confirmada": "Fármaco: Soro Anti-Tetânico",
+      "fonte_extracao_corrente": "finalizacao_20261027/beneficios_outros.json/inventario_pendencias",
+      "trecho_linha_complementar": null,
+      "localizadores_tabelas_raw": [
+        {
+          "tabela_extraida": 58,
+          "trecho": "103 | Soro Anti-Tetânico | 3002.10.12 | Soro Anti-Tetânico | 3002.10.12"
+        },
+        {
+          "tabela_extraida": 59,
+          "trecho": " | 120 | Soro Anti-Tetânico | 3002.10.12 | Soro Anti-Tetânico | 3002.10.12 |  | "
+        }
+      ],
+      "observacao": "O inventário corrente fornecido distingue históricos e redações futuras; os localizadores raw auxiliam a conferência, sem autorizar aplicar redação revogada."
+    },
+    "template_id": "GO_A9_ART7_XXXVII",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso XXXVII",
+    "jurisdicao": "GO",
+    "parametros_fiscais_originais": {
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "cbenef": "GO812023",
+      "escopo_operacao": "AMBAS",
+      "vigencia_inicio": "2010-01-01",
+      "vigencia_fim": "2026-12-31"
+    },
+    "condicoes_originais": [
+      "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+      "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+      "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+      "Receita desonerada de PIS/PASEP e COFINS.",
+      "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+      "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+      "Mantido o crédito.",
+      "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+      "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+    ],
+    "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+    "vigencia_observacao": "Datas descrevem a redação/condição consultada. A apresentação específica de cada item exige conferência da nota de alteração; não autoriza aplicação retroativa.",
+    "data_referencia": "2026-10-28",
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA",
+    "cobre_codigo_atual_inteiro": false,
+    "limite": "Comprovar produto e apresentação da linha, destinatário público, operação e todos os requisitos da norma. Identidade nominal não confirma o direito ao benefício."
+  },
+  {
+    "id_pendencia": "OUTROS_160",
+    "indice_origem": 160,
+    "original": {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "item": "120",
+      "apendice": "XVII",
+      "codigo_legal": "3002.10.12",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Medicamento: Soro Anti-Tetânico"
+    },
+    "conclusao": "IDENTIDADE_ATUAL_DIRETA_DOCUMENTADA_PARA_CANDIDATO_CONDICIONAL",
+    "metodo": "IDENTIDADE_NOMINAL_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+    "ncm_atual": "30021212",
+    "descricao_oficial_atual": "Antissoros e outras frações do sangue — Antissoros específicos de animais ou de pessoas imunizados — Antitetânico",
+    "classe_identidade": "SORO_ESPECIFICO",
+    "criterio": "O produto legal nomeado é soro antitetânico. A TIPI atual identifica nominalmente esse soro ou a categoria material específica de antissoros antiofídicos e antivenenosos, e a NESH30.02 distingue antissoros de vacinas e de medicamentos de outra natureza. A fonte federal complementar identifica o mesmo soro pelo nome e pelo código. A classificação30.02 permanece mesmo quando apresentado em doses.",
+    "restricoes_produto": "Somente o soro específico da linha e da coluna legal de origem; não qualquer soro, vacina, imunoglobulina, solução fisiológica ou outro produto do código. Não intercambiar as colunas fármaco e medicamento.",
+    "cadeia_historica": {
+      "localizada": false,
+      "alegada": false,
+      "observacao": "A inexistência de cadeia completa nesta pesquisa não foi preenchida por troca de dígitos. O candidato deriva do produto objetivamente nomeado na lei e identificado na descrição federal atual."
+    },
+    "evidencias_federais": [
+      {
+        "id": "TIPI_NOMINAL",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+          "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+          "pagina_pdf_1_base": 144,
+          "linha_texto_1_base": 8296,
+          "trecho": "3002.12.12           Antitetânico                                                                               0\n    3002.12.13           Anticatarral                                                                               0\n    3002.12.14           Antipiogênico"
+        }
+      },
+      {
+        "id": "NESH_ANTISSOROS",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 749,
+          "linha_texto_1_base": 29355,
+          "trecho": "Os soros específicos contra as doenças, quer sejam provocadas por microrganismos patogênicos,\n       por toxinas ou por certos fenômenos alérgicos, etc., provêm do sangue de animais ou de pessoas\n       imunizados. Entre os soros específicos podem citar-se os soros antidiftérico, antidisentérico,\n       antigangrenoso, antimeningocócico, antipneumocócico, antitetânico, antiestafilocócico,\n       antiestreptocócico, antiofídico, antivenenoso e antialérgico. Os soros específicos são também\n       utilizados para fins de diagnóstico, incluindo para proceder a testes in vitro. As imunoglobulinas\n       específicas são preparações purificadas de soros específicos de animais ou de pessoas\n       imunizados.\n       Esta posição não abrange a albumina do sangue não preparada para fins terapêuticos ou profiláticos (posição 35.02)\n       nem as globulinas (exceto as globulinas do sangue e as soroglobulinas) (posição 35.04), e os medicamentos que não\n       sejam um líquido extra"
+        }
+      },
+      {
+        "id": "NESH_FORMA_APRESENTACAO",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 750,
+          "linha_texto_1_base": 29457,
+          "trecho": "Os produtos incluídos nesta posição podem apresentar-se sob qualquer forma, mesmo doseados ou\nacondicionados para venda a retalho.\n\n\n                                                      VI-"
+        }
+      },
+      {
+        "id": "FEDERAL_CORROBORACAO_NOME",
+        "conteudo": {
+          "url": "https://legis.senado.leg.br/norma/40180341/publicacao/40181032",
+          "anexo": "XIV",
+          "item": "311",
+          "trecho": "311 | SORO ANTITETÂNICO | 3002.12.12",
+          "uso": "Somente identidade/nome e código; nenhuma regra IBS/CBS importada."
+        }
+      }
+    ],
+    "evidencia_legal_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "XVII",
+      "item": "120",
+      "coluna": "MEDICAMENTO",
+      "descricao_corrente_confirmada": "Medicamento: Soro Anti-Tetânico",
+      "fonte_extracao_corrente": "finalizacao_20261027/beneficios_outros.json/inventario_pendencias",
+      "trecho_linha_complementar": null,
+      "localizadores_tabelas_raw": [
+        {
+          "tabela_extraida": 58,
+          "trecho": "103 | Soro Anti-Tetânico | 3002.10.12 | Soro Anti-Tetânico | 3002.10.12"
+        },
+        {
+          "tabela_extraida": 59,
+          "trecho": " | 120 | Soro Anti-Tetânico | 3002.10.12 | Soro Anti-Tetânico | 3002.10.12 |  | "
+        }
+      ],
+      "observacao": "O inventário corrente fornecido distingue históricos e redações futuras; os localizadores raw auxiliam a conferência, sem autorizar aplicar redação revogada."
+    },
+    "template_id": "GO_A9_ART7_XXXVII",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso XXXVII",
+    "jurisdicao": "GO",
+    "parametros_fiscais_originais": {
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "cbenef": "GO812023",
+      "escopo_operacao": "AMBAS",
+      "vigencia_inicio": "2010-01-01",
+      "vigencia_fim": "2026-12-31"
+    },
+    "condicoes_originais": [
+      "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+      "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+      "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+      "Receita desonerada de PIS/PASEP e COFINS.",
+      "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+      "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+      "Mantido o crédito.",
+      "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+      "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+    ],
+    "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+    "vigencia_observacao": "Datas descrevem a redação/condição consultada. A apresentação específica de cada item exige conferência da nota de alteração; não autoriza aplicação retroativa.",
+    "data_referencia": "2026-10-28",
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA",
+    "cobre_codigo_atual_inteiro": false,
+    "limite": "Comprovar produto e apresentação da linha, destinatário público, operação e todos os requisitos da norma. Identidade nominal não confirma o direito ao benefício."
+  },
+  {
+    "id_pendencia": "OUTROS_170",
+    "indice_origem": 170,
+    "original": {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "item": "173",
+      "apendice": "XVII",
+      "codigo_legal": "2922.50.50",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Fármaco: Cloridrato de propranolol"
+    },
+    "conclusao": "IDENTIDADE_ATUAL_DIRETA_DOCUMENTADA_PARA_CANDIDATO_CONDICIONAL",
+    "metodo": "IDENTIDADE_NOMINAL_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+    "ncm_atual": "29221996",
+    "descricao_oficial_atual": "Aminoálcoois, exceto os que contenham mais de um tipo de função oxigenada, seus éteres e seus ésteres; sais destes produtos — Outros — Propranolol e seus sais",
+    "classe_identidade": "FARMACO_NOMINAL",
+    "criterio": "A TIPI29221996 nomeia Propranolol e seus sais. Cloridrato de propranolol é o sal expressamente nomeado pela lei goiana, e não se está escolhendo um residual ou inferindo deslocamento do código antigo29225050.",
+    "restricoes_produto": "Somente cloridrato de propranolol como fármaco da linha173. Não estender à base livre, a outros sais ou ao medicamento acabado pela mera inclusão no mesmo código. Comprovar identidade química e apresentação de matéria-prima.",
+    "cadeia_historica": {
+      "localizada": false,
+      "alegada": false,
+      "observacao": "A inexistência de cadeia completa nesta pesquisa não foi preenchida por troca de dígitos. O candidato deriva do produto objetivamente nomeado na lei e identificado na descrição federal atual."
+    },
+    "evidencias_federais": [
+      {
+        "id": "TIPI_NOMINAL",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+          "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+          "pagina_pdf_1_base": 121,
+          "linha_texto_1_base": 6813,
+          "trecho": "2922.19.96          Propranolol e seus sais                                                              0\n2922.19.99          Outros                                                                               0\n2922.2       - Aminonaftóis e outros aminofenóis, exceto os que contenham mais de um tipo de função\n               oxigenada, seus étere"
+        }
+      }
+    ],
+    "evidencia_legal_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "XVII",
+      "item": "173",
+      "coluna": "FARMACO",
+      "descricao_corrente_confirmada": "Fármaco: Cloridrato de propranolol",
+      "fonte_extracao_corrente": "finalizacao_20261027/beneficios_outros.json/inventario_pendencias",
+      "trecho_linha_complementar": "173 | Cloridrato de propranolol | 2922.50.50 | Cloridrato de propranolol 40 mg | 3004.90.36\n",
+      "localizadores_tabelas_raw": [
+        {
+          "tabela_extraida": 59,
+          "trecho": " | 173 | Cloridrato de propranolol | 2922.50.50 | Cloridrato de propranolol 40 mg | 3004.90.36 |  | "
+        }
+      ],
+      "observacao": "O inventário corrente fornecido distingue históricos e redações futuras; os localizadores raw auxiliam a conferência, sem autorizar aplicar redação revogada."
+    },
+    "template_id": "GO_A9_ART7_XXXVII",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso XXXVII",
+    "jurisdicao": "GO",
+    "parametros_fiscais_originais": {
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "cbenef": "GO812023",
+      "escopo_operacao": "AMBAS",
+      "vigencia_inicio": "2010-01-01",
+      "vigencia_fim": "2026-12-31"
+    },
+    "condicoes_originais": [
+      "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+      "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+      "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+      "Receita desonerada de PIS/PASEP e COFINS.",
+      "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+      "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+      "Mantido o crédito.",
+      "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+      "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+    ],
+    "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+    "vigencia_observacao": "Datas descrevem a redação/condição consultada. A apresentação específica de cada item exige conferência da nota de alteração; não autoriza aplicação retroativa.",
+    "data_referencia": "2026-10-28",
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA",
+    "cobre_codigo_atual_inteiro": false,
+    "limite": "Comprovar produto e apresentação da linha, destinatário público, operação e todos os requisitos da norma. Identidade nominal não confirma o direito ao benefício."
+  },
+  {
+    "id_pendencia": "OUTROS_193",
+    "indice_origem": 193,
+    "original": {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "item": "214",
+      "apendice": "XVII",
+      "codigo_legal": "2939.99.31",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Fármaco: Pilocarpina"
+    },
+    "conclusao": "IDENTIDADE_ATUAL_DIRETA_DOCUMENTADA_PARA_CANDIDATO_CONDICIONAL",
+    "metodo": "IDENTIDADE_NOMINAL_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+    "ncm_atual": "29397931",
+    "descricao_oficial_atual": "Alcaloides, naturais ou reproduzidos por síntese, seus sais, éteres, ésteres e outros derivados — Outros, de origem vegetal — Outros — Pilocarpina e seus sais — Pilocarpina, seu nitrato e seu cloridrato",
+    "classe_identidade": "FARMACO_NOMINAL",
+    "criterio": "A TIPI29397931 nomeia Pilocarpina, seu nitrato e seu cloridrato. A lei nomeia Pilocarpina como fármaco; a correspondência é diretamente com o composto identificado, sem depender de suposta troca29399931→29397931.",
+    "restricoes_produto": "Somente pilocarpina da coluna fármaco do item214, em apresentação de matéria-prima. Não estender automaticamente a nitrato/cloridrato ou outros derivados apenas porque compartilham o NCM.",
+    "cadeia_historica": {
+      "localizada": false,
+      "alegada": false,
+      "observacao": "A inexistência de cadeia completa nesta pesquisa não foi preenchida por troca de dígitos. O candidato deriva do produto objetivamente nomeado na lei e identificado na descrição federal atual."
+    },
+    "evidencias_federais": [
+      {
+        "id": "TIPI_NOMINAL",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+          "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+          "pagina_pdf_1_base": 140,
+          "linha_texto_1_base": 8079,
+          "trecho": "2939.79.31         Pilocarpina, seu nitrato e seu cloridrato                                                   0\n2939.79.39         Outros                                                                                      0\n2939.79.40        Tiocolquicósido                                                                              0\n2939.79.90"
+        }
+      }
+    ],
+    "evidencia_legal_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "XVII",
+      "item": "214",
+      "coluna": "FARMACO",
+      "descricao_corrente_confirmada": "Fármaco: Pilocarpina",
+      "fonte_extracao_corrente": "finalizacao_20261027/beneficios_outros.json/inventario_pendencias",
+      "trecho_linha_complementar": null,
+      "localizadores_tabelas_raw": [
+        {
+          "tabela_extraida": 59,
+          "trecho": " | 214 | Pilocarpina | 2939.99.31 | Pilocarpina 20mg/ml (frasco 10ml) | 3003.40.20 / 3004.40.20 |  | "
+        }
+      ],
+      "observacao": "O inventário corrente fornecido distingue históricos e redações futuras; os localizadores raw auxiliam a conferência, sem autorizar aplicar redação revogada."
+    },
+    "template_id": "GO_A9_ART7_XXXVII",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso XXXVII",
+    "jurisdicao": "GO",
+    "parametros_fiscais_originais": {
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "cbenef": "GO812023",
+      "escopo_operacao": "AMBAS",
+      "vigencia_inicio": "2010-01-01",
+      "vigencia_fim": "2026-12-31"
+    },
+    "condicoes_originais": [
+      "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+      "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+      "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+      "Receita desonerada de PIS/PASEP e COFINS.",
+      "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+      "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+      "Mantido o crédito.",
+      "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+      "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+    ],
+    "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+    "vigencia_observacao": "Datas descrevem a redação/condição consultada. A apresentação específica de cada item exige conferência da nota de alteração; não autoriza aplicação retroativa.",
+    "data_referencia": "2026-10-28",
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA",
+    "cobre_codigo_atual_inteiro": false,
+    "limite": "Comprovar produto e apresentação da linha, destinatário público, operação e todos os requisitos da norma. Identidade nominal não confirma o direito ao benefício."
+  },
+  {
+    "id_pendencia": "OUTROS_195",
+    "indice_origem": 195,
+    "original": {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "item": "214",
+      "apendice": "XVII",
+      "codigo_legal": "3004.40.20",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Medicamento: Pilocarpina 20mg/ml (frasco 10ml)"
+    },
+    "conclusao": "IDENTIDADE_ATUAL_DIRETA_DOCUMENTADA_PARA_CANDIDATO_CONDICIONAL",
+    "metodo": "IDENTIDADE_NOMINAL_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+    "ncm_atual": "30044920",
+    "descricao_oficial_atual": "Medicamentos (exceto os produtos das posições 30.02, 30.05 ou 30.06) constituídos por produtos misturados ou não misturados, preparados para fins terapêuticos ou profiláticos, apresentados em doses (incluindo os destinados a serem administrados por via percutânea) ou acondicionados para venda a retalho — Outros, que contenham alcaloides ou seus derivados — Outros — Pilocarpina, seu nitrato ou seu cloridrato",
+    "classe_identidade": "MEDICAMENTO_NOMINAL_APRESENTACAO_COMPATIVEL",
+    "criterio": "A TIPI30044920 nomeia Pilocarpina, seu nitrato ou seu cloridrato dentro da posição30.04: medicamentos apresentados em doses ou acondicionados para venda a retalho. A descrição legal pilocarpina20mg/ml em frasco10ml é compatível com essa apresentação. A seleção é nominal e material, não uma troca mecânica300440→300449.",
+    "restricoes_produto": "Somente medicamento pilocarpina20mg/ml, frasco10ml, da coluna medicamento do item214. Não abrange outra concentração/apresentação, outros alcaloides ou qualquer produto do código.",
+    "cadeia_historica": {
+      "localizada": false,
+      "alegada": false,
+      "observacao": "A inexistência de cadeia completa nesta pesquisa não foi preenchida por troca de dígitos. O candidato deriva do produto objetivamente nomeado na lei e identificado na descrição federal atual."
+    },
+    "evidencias_federais": [
+      {
+        "id": "TIPI_NOMINAL",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+          "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+          "pagina_pdf_1_base": 151,
+          "linha_texto_1_base": 8718,
+          "trecho": "3004.49.20        Pilocarpina, seu nitrato ou seu cloridrato                                                      0\n3004.49.30        Metanossulfonato de di-hidroergocristina                                                        0\n3004.49.40        Codeína ou seus sais                                                                            0\n30"
+        }
+      },
+      {
+        "id": "TIPI_POSICAO_3004",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+          "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+          "pagina_pdf_1_base": 149,
+          "linha_texto_1_base": 8607,
+          "trecho": "30.04        Medicamentos (exceto os produtos das posições 30.02, 30.05 ou 30.06) constituídos\n             por produtos misturados ou não misturados, preparados para fins terapêuticos ou\n             profiláticos, apresentados em doses (incluindo os destinados a serem administrados\n             por via percutânea) ou acondicionados para venda a retalho.\n3004.10      - Que contenham penicilinas ou seus derivados, com estrutura do ácido penicilânico, ou\n               estreptomicinas ou seus derivados\n3004.10.1         Que contenham penicilinas ou seus derivados, com estrutura do ácido penicilânico\n3004.10.11         Ampicilina ou seus sais"
+        }
+      }
+    ],
+    "evidencia_legal_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "XVII",
+      "item": "214",
+      "coluna": "MEDICAMENTO",
+      "descricao_corrente_confirmada": "Medicamento: Pilocarpina 20mg/ml (frasco 10ml)",
+      "fonte_extracao_corrente": "finalizacao_20261027/beneficios_outros.json/inventario_pendencias",
+      "trecho_linha_complementar": null,
+      "localizadores_tabelas_raw": [
+        {
+          "tabela_extraida": 59,
+          "trecho": " | 214 | Pilocarpina | 2939.99.31 | Pilocarpina 20mg/ml (frasco 10ml) | 3003.40.20 / 3004.40.20 |  | "
+        }
+      ],
+      "observacao": "O inventário corrente fornecido distingue históricos e redações futuras; os localizadores raw auxiliam a conferência, sem autorizar aplicar redação revogada."
+    },
+    "template_id": "GO_A9_ART7_XXXVII",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso XXXVII",
+    "jurisdicao": "GO",
+    "parametros_fiscais_originais": {
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "cbenef": "GO812023",
+      "escopo_operacao": "AMBAS",
+      "vigencia_inicio": "2010-01-01",
+      "vigencia_fim": "2026-12-31"
+    },
+    "condicoes_originais": [
+      "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+      "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+      "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+      "Receita desonerada de PIS/PASEP e COFINS.",
+      "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+      "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+      "Mantido o crédito.",
+      "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+      "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+    ],
+    "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+    "vigencia_observacao": "Datas descrevem a redação/condição consultada. A apresentação específica de cada item exige conferência da nota de alteração; não autoriza aplicação retroativa.",
+    "data_referencia": "2026-10-28",
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA",
+    "cobre_codigo_atual_inteiro": false,
+    "limite": "Comprovar produto e apresentação da linha, destinatário público, operação e todos os requisitos da norma. Identidade nominal não confirma o direito ao benefício."
+  },
+  {
+    "id_pendencia": "OUTROS_180",
+    "indice_origem": 180,
+    "original": {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "item": "190",
+      "apendice": "XVII",
+      "codigo_legal": "3002.10.29",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Medicamento: Trastuzumabe 150 mg po liof sol inj ct fa vd inc"
+    },
+    "conclusao": "IDENTIDADE_ATUAL_DIRETA_DOCUMENTADA_PARA_CANDIDATO_CONDICIONAL",
+    "metodo": "IDENTIDADE_NOMINAL_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+    "ncm_atual": "30021520",
+    "descricao_oficial_atual": "Produtos imunológicos, apresentados em doses ou acondicionados para venda a retalho — Basiliximab (DCI); bevacizumab (DCI); daclizumab (DCI); etanercept (DCI); gemtuzumab ozogamicin (DCI); oprelvekin (DCI); rituximab (DCI); trastuzumab (DCI)",
+    "classe_identidade": "BIOLOGICO_NOMINAL_DOSE",
+    "criterio": "A TIPI30021520 nomeia trastuzumab(DCI), equivalente à denominação legal Trastuzumabe, sob produtos imunológicos apresentados em doses ou acondicionados para venda a retalho. O pó liofilizado para solução injetável150mg em frasco-ampola está expressamente dosado na descrição goiana; não se escolheu entre213/214/215 sem conhecer a apresentação.",
+    "restricoes_produto": "Somente Trastuzumabe150mg, pó liofilizado para solução injetável, apresentação descrita na linha190. Não incluir o fármaco não dosado, outros anticorpos, outras doses ou quaisquer produtos do mesmo NCM.",
+    "cadeia_historica": {
+      "localizada": false,
+      "alegada": false,
+      "observacao": "A inexistência de cadeia completa nesta pesquisa não foi preenchida por troca de dígitos. O candidato deriva do produto objetivamente nomeado na lei e identificado na descrição federal atual."
+    },
+    "evidencias_federais": [
+      {
+        "id": "TIPI_NOMINAL",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+          "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+          "pagina_pdf_1_base": 145,
+          "linha_texto_1_base": 8325,
+          "trecho": "3002.15.20         Basiliximab (DCI); bevacizumab (DCI); daclizumab (DCI); etanercept (DCI);\n                   gemtuzumab ozogamicin (DCI); oprelvekin (DCI); rituximab (DCI); trastuzumab (DCI)         0\n3002.15.90         Outros                                                                                    0\n3002.4       - Vacinas, toxinas, culturas de microrganismos (exceto leveduras) e produtos semelhantes:\n3002.41      -- Vacinas para medicina humana\n3002.41.1        Não apresentadas em doses, nem acondicionadas para venda a retalho\n3002.41.11         Contra a gripe"
+        }
+      },
+      {
+        "id": "NESH_PRODUTOS_IMUNOLOGICOS",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 749,
+          "linha_texto_1_base": 29369,
+          "trecho": "2) Os produtos imunológicos, mesmo modificados ou obtidos por via biotecnológica.\n       Os produtos utilizados para fins de diagnóstico, de análises imunológicas ou para fins\n       terapêuticos consideram-se como pertencentes a esta categoria. São definidos do seguinte modo:\n       a) Anticorpos monoclonais (MAB) - imunoglobulinas específicas compostas de células de\n          hibridomas selecionadas e clonadas, mantidas em cultura in vitro ou sob a forma de tumor\n          ascítico.\n       b) Fragmentos de anticorpos - partes ativas de uma proteína de anticorpos obtidas, por\n          exemplo, por clivagem enzimática específica. Este grupo inclui, entre outros, os anticorpos\n          de cadeia simples (scFv).\n       c) Conjugados de anticorpos e de fragmentos de anticorpos - conjugados que contêm pelo\n          menos um anticorpo ou um fragmento de anticorpo. Os tipos mais simples"
+        }
+      }
+    ],
+    "evidencia_legal_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "XVII",
+      "item": "190",
+      "coluna": "MEDICAMENTO",
+      "descricao_corrente_confirmada": "Medicamento: Trastuzumabe 150 mg po liof sol inj ct fa vd inc",
+      "fonte_extracao_corrente": "finalizacao_20261027/beneficios_outros.json/inventario_pendencias",
+      "trecho_linha_complementar": null,
+      "localizadores_tabelas_raw": [
+        {
+          "tabela_extraida": 59,
+          "trecho": " | 190 | Trastuzumabe | 3002.10.29 | Trastuzumabe 150 mg po liof sol inj ct fa vd inc | 3002.10.29 |  | "
+        }
+      ],
+      "observacao": "O inventário corrente fornecido distingue históricos e redações futuras; os localizadores raw auxiliam a conferência, sem autorizar aplicar redação revogada."
+    },
+    "template_id": "GO_A9_ART7_XXXVII",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso XXXVII",
+    "jurisdicao": "GO",
+    "parametros_fiscais_originais": {
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "cbenef": "GO812023",
+      "escopo_operacao": "AMBAS",
+      "vigencia_inicio": "2010-01-01",
+      "vigencia_fim": "2026-12-31"
+    },
+    "condicoes_originais": [
+      "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+      "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+      "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+      "Receita desonerada de PIS/PASEP e COFINS.",
+      "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+      "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+      "Mantido o crédito.",
+      "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+      "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+    ],
+    "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+    "vigencia_observacao": "Datas descrevem a redação/condição consultada. A apresentação específica de cada item exige conferência da nota de alteração; não autoriza aplicação retroativa.",
+    "data_referencia": "2026-10-28",
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA",
+    "cobre_codigo_atual_inteiro": false,
+    "limite": "Comprovar produto e apresentação da linha, destinatário público, operação e todos os requisitos da norma. Identidade nominal não confirma o direito ao benefício."
+  },
+  {
+    "id_pendencia": "OUTROS_190",
+    "indice_origem": 190,
+    "original": {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "item": "201",
+      "apendice": "XVII",
+      "codigo_legal": "3002.10.38",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Medicamento: Bevacizumabe 25 mg/ml solução injetável (frasco ampola de 4ml)"
+    },
+    "conclusao": "IDENTIDADE_ATUAL_DIRETA_DOCUMENTADA_PARA_CANDIDATO_CONDICIONAL",
+    "metodo": "IDENTIDADE_NOMINAL_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+    "ncm_atual": "30021520",
+    "descricao_oficial_atual": "Produtos imunológicos, apresentados em doses ou acondicionados para venda a retalho — Basiliximab (DCI); bevacizumab (DCI); daclizumab (DCI); etanercept (DCI); gemtuzumab ozogamicin (DCI); oprelvekin (DCI); rituximab (DCI); trastuzumab (DCI)",
+    "classe_identidade": "BIOLOGICO_NOMINAL_DOSE",
+    "criterio": "A TIPI30021520 nomeia bevacizumab(DCI), equivalente à denominação legal Bevacizumabe, sob produtos imunológicos apresentados em doses ou acondicionados para venda a retalho. A solução injetável25mg/ml em frasco-ampola4ml satisfaz a apresentação dosada especificada pela lei.",
+    "restricoes_produto": "Somente Bevacizumabe25mg/ml, solução injetável, frasco-ampola4ml da coluna medicamento do item201. Não incluir o fármaco não dosado, outras doses ou outros produtos30021520.",
+    "cadeia_historica": {
+      "localizada": false,
+      "alegada": false,
+      "observacao": "A inexistência de cadeia completa nesta pesquisa não foi preenchida por troca de dígitos. O candidato deriva do produto objetivamente nomeado na lei e identificado na descrição federal atual."
+    },
+    "evidencias_federais": [
+      {
+        "id": "TIPI_NOMINAL",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+          "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+          "pagina_pdf_1_base": 145,
+          "linha_texto_1_base": 8325,
+          "trecho": "3002.15.20         Basiliximab (DCI); bevacizumab (DCI); daclizumab (DCI); etanercept (DCI);\n                   gemtuzumab ozogamicin (DCI); oprelvekin (DCI); rituximab (DCI); trastuzumab (DCI)         0\n3002.15.90         Outros                                                                                    0\n3002.4       - Vacinas, toxinas, culturas de microrganismos (exceto leveduras) e produtos semelhantes:\n3002.41      -- Vacinas para medicina humana\n3002.41.1        Não apresentadas em doses, nem acondicionadas para venda a retalho\n3002.41.11         Contra a gripe"
+        }
+      },
+      {
+        "id": "NESH_PRODUTOS_IMUNOLOGICOS",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 749,
+          "linha_texto_1_base": 29369,
+          "trecho": "2) Os produtos imunológicos, mesmo modificados ou obtidos por via biotecnológica.\n       Os produtos utilizados para fins de diagnóstico, de análises imunológicas ou para fins\n       terapêuticos consideram-se como pertencentes a esta categoria. São definidos do seguinte modo:\n       a) Anticorpos monoclonais (MAB) - imunoglobulinas específicas compostas de células de\n          hibridomas selecionadas e clonadas, mantidas em cultura in vitro ou sob a forma de tumor\n          ascítico.\n       b) Fragmentos de anticorpos - partes ativas de uma proteína de anticorpos obtidas, por\n          exemplo, por clivagem enzimática específica. Este grupo inclui, entre outros, os anticorpos\n          de cadeia simples (scFv).\n       c) Conjugados de anticorpos e de fragmentos de anticorpos - conjugados que contêm pelo\n          menos um anticorpo ou um fragmento de anticorpo. Os tipos mais simples"
+        }
+      }
+    ],
+    "evidencia_legal_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "XVII",
+      "item": "201",
+      "coluna": "MEDICAMENTO",
+      "descricao_corrente_confirmada": "Medicamento: Bevacizumabe 25 mg/ml solução injetável (frasco ampola de 4ml)",
+      "fonte_extracao_corrente": "finalizacao_20261027/beneficios_outros.json/inventario_pendencias",
+      "trecho_linha_complementar": null,
+      "localizadores_tabelas_raw": [
+        {
+          "tabela_extraida": 59,
+          "trecho": " | 201 | Bevacizumabe | 3002.10.38 | Bevacizumabe 25 mg/ml solução injetável (frasco ampola de 4ml) | 3002.10.38 |  | "
+        }
+      ],
+      "observacao": "O inventário corrente fornecido distingue históricos e redações futuras; os localizadores raw auxiliam a conferência, sem autorizar aplicar redação revogada."
+    },
+    "template_id": "GO_A9_ART7_XXXVII",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso XXXVII",
+    "jurisdicao": "GO",
+    "parametros_fiscais_originais": {
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "cbenef": "GO812023",
+      "escopo_operacao": "AMBAS",
+      "vigencia_inicio": "2010-01-01",
+      "vigencia_fim": "2026-12-31"
+    },
+    "condicoes_originais": [
+      "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+      "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+      "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+      "Receita desonerada de PIS/PASEP e COFINS.",
+      "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+      "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+      "Mantido o crédito.",
+      "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+      "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+    ],
+    "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+    "vigencia_observacao": "Datas descrevem a redação/condição consultada. A apresentação específica de cada item exige conferência da nota de alteração; não autoriza aplicação retroativa.",
+    "data_referencia": "2026-10-28",
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA",
+    "cobre_codigo_atual_inteiro": false,
+    "limite": "Comprovar produto e apresentação da linha, destinatário público, operação e todos os requisitos da norma. Identidade nominal não confirma o direito ao benefício."
+  },
+  {
+    "id_pendencia": "OUTROS_098",
+    "indice_origem": 98,
+    "original": {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "item": "14",
+      "apendice": "XVII",
+      "codigo_legal": "3002.10.36",
+      "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+      "descricao_legal": "Medicamento: Betainterferona - 6.000.000 UI (22 mcg) - Injetável - (por seringa preenchida); Betainterferona - 12.000.000 UI (44 mcg) - Injetável - (por seringa preenchida); Betainterferona 6.000.000 UI (30 mcg)- injetável - seringa preenchida ou frasco ampola; Betainterferona 9.600.000 UI - Injetável - (por frasco/ampola); Betainterferona 1a | Betainterferona 1a - 6.000.000 UI (22 mcg) - Injetável - (por seringa preenchida); Betainterferona 1a - 12.000.000 UI (44 mcg) - Injetável - (por seringa preenchida); Betainterferona 1a 6.000.000 UI (30 mcg)- injetável - seringa preenchida ou frasco ampola; Betainterferona 1b | Betainterferona 1b - 9.600.000 UI - Injetável - (por frasco/ampola)"
+    },
+    "conclusao": "IDENTIDADE_ATUAL_DIRETA_DOCUMENTADA_PARA_CANDIDATO_CONDICIONAL",
+    "metodo": "IDENTIDADE_NOMINAL_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+    "ncm_atual": "30021510",
+    "descricao_oficial_atual": "Produtos imunológicos, apresentados em doses ou acondicionados para venda a retalho — betainterferona; alfapeginterferona 2a",
+    "classe_identidade": "BIOLOGICO_NOMINAL_DOSE",
+    "criterio": "A TIPI30021510 nomeia betainterferona sob produtos imunológicos apresentados em doses ou acondicionados para venda a retalho. Todas as alternativas da linha legal selecionada são betainterferona, inclusive1a/1b, em doses injetáveis definidas. Não é necessário presumir um sucessor para produto biológico sem apresentação conhecida.",
+    "restricoes_produto": "Somente betainterferona nas apresentações do item14:6000000UI(22mcg),12000000UI(44mcg),6000000UI(30mcg) ou9600000UI, com as seringas/frascos descritos. Não abranger alfapeginterferona2a apenas porque compartilha o código.",
+    "cadeia_historica": {
+      "localizada": false,
+      "alegada": false,
+      "observacao": "A inexistência de cadeia completa nesta pesquisa não foi preenchida por troca de dígitos. O candidato deriva do produto objetivamente nomeado na lei e identificado na descrição federal atual."
+    },
+    "evidencias_federais": [
+      {
+        "id": "TIPI_NOMINAL",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+          "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+          "pagina_pdf_1_base": 145,
+          "linha_texto_1_base": 8324,
+          "trecho": "3002.15.10         betainterferona; alfapeginterferona 2a                                                    0\n3002.15.20         Basiliximab (DCI); bevacizumab (DCI); daclizumab (DCI); etanercept (DCI);\n                   gemtuzumab ozogamicin (DCI); oprelvekin (DCI); rituximab (DCI); trastuzumab (DCI)         0\n3002.15.90         Outros"
+        }
+      },
+      {
+        "id": "NESH_PRODUTOS_IMUNOLOGICOS",
+        "conteudo": {
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+          "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+          "pagina_pdf_1_base": 749,
+          "linha_texto_1_base": 29369,
+          "trecho": "2) Os produtos imunológicos, mesmo modificados ou obtidos por via biotecnológica.\n       Os produtos utilizados para fins de diagnóstico, de análises imunológicas ou para fins\n       terapêuticos consideram-se como pertencentes a esta categoria. São definidos do seguinte modo:\n       a) Anticorpos monoclonais (MAB) - imunoglobulinas específicas compostas de células de\n          hibridomas selecionadas e clonadas, mantidas em cultura in vitro ou sob a forma de tumor\n          ascítico.\n       b) Fragmentos de anticorpos - partes ativas de uma proteína de anticorpos obtidas, por\n          exemplo, por clivagem enzimática específica. Este grupo inclui, entre outros, os anticorpos\n          de cadeia simples (scFv).\n       c) Conjugados de anticorpos e de fragmentos de anticorpos - conjugados que contêm pelo\n          menos um anticorpo ou um fragmento de anticorpo. Os tipos mais simples"
+        }
+      }
+    ],
+    "evidencia_legal_go": {
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "apendice": "XVII",
+      "item": "14",
+      "coluna": "MEDICAMENTO",
+      "descricao_corrente_confirmada": "Medicamento: Betainterferona - 6.000.000 UI (22 mcg) - Injetável - (por seringa preenchida); Betainterferona - 12.000.000 UI (44 mcg) - Injetável - (por seringa preenchida); Betainterferona 6.000.000 UI (30 mcg)- injetável - seringa preenchida ou frasco ampola; Betainterferona 9.600.000 UI - Injetável - (por frasco/ampola); Betainterferona 1a | Betainterferona 1a - 6.000.000 UI (22 mcg) - Injetável - (por seringa preenchida); Betainterferona 1a - 12.000.000 UI (44 mcg) - Injetável - (por seringa preenchida); Betainterferona 1a 6.000.000 UI (30 mcg)- injetável - seringa preenchida ou frasco ampola; Betainterferona 1b | Betainterferona 1b - 9.600.000 UI - Injetável - (por frasco/ampola)",
+      "fonte_extracao_corrente": "finalizacao_20261027/beneficios_outros.json/inventario_pendencias",
+      "trecho_linha_complementar": "14 | Betainterferona | 3504.00.90 | Betainterferona - 6.000.000 UI (22 mcg) - Injetável - (por seringa preenchida) | 3002.10.36\nBetainterferona - 12.000.000 UI (44 mcg) - Injetável - (por seringa preenchida)\nBetainterferona 6.000.000 UI (30 mcg)- injetável - seringa preenchida ou frasco ampola\nBetainterferona 9.600.000 UI - Injetável - (por frasco/ampola)\nBetainterferona 1a | Betainterferona 1a - 6.000.000 UI (22 mcg) - Injetável - (por seringa preenchida)\nBetainterferona 1a - 12.000.000 UI (44 mcg) - Injetável - (por seringa preenchida)\nBetainterferona 1a 6.000.000 UI (30 mcg)- injetável - seringa preenchida ou frasco ampola\nBetainterferona 1b | Betainterferona 1b - 9.600.000 UI - Injetável - (por frasco/ampola)",
+      "localizadores_tabelas_raw": [
+        {
+          "tabela_extraida": 58,
+          "trecho": "50 | Interferon Beta 1ª | 3002.10.36 | Interferon Beta 1a - 3.000.000 UI - injetável - (por frasco/ampola) Interferon Beta 1a - 6.000.000 UI (22 mcg) - Injetável - (por seringa pré-preenchida) Interferon Beta 1a - 12.000.000 UI (44 mcg) - Injetável - (por seringa pré-preenchida) Interferon Beta 1a - 6.000.000 UI (30 mcg) - Frasco/ampola para injeção intramuscular + diluente + mais seringa/agulha por frasco/ampola Betainterferona 1a 6.000.000 UI (30 mcg)- injetável - seringa preenchida | 3002.10.36"
+        },
+        {
+          "tabela_extraida": 59,
+          "trecho": " | 14 | Betainterferona | 3504.00.90 | Betainterferona - 6.000.000 UI (22 mcg) - Injetável - (por seringa preenchida) | 3002.10.36 |  | "
+        }
+      ],
+      "observacao": "O inventário corrente fornecido distingue históricos e redações futuras; os localizadores raw auxiliam a conferência, sem autorizar aplicar redação revogada."
+    },
+    "template_id": "GO_A9_ART7_XXXVII",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso XXXVII",
+    "jurisdicao": "GO",
+    "parametros_fiscais_originais": {
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "cbenef": "GO812023",
+      "escopo_operacao": "AMBAS",
+      "vigencia_inicio": "2010-01-01",
+      "vigencia_fim": "2026-12-31"
+    },
+    "condicoes_originais": [
+      "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+      "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+      "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+      "Receita desonerada de PIS/PASEP e COFINS.",
+      "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+      "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+      "Mantido o crédito.",
+      "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+      "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+    ],
+    "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+    "vigencia_observacao": "Datas descrevem a redação/condição consultada. A apresentação específica de cada item exige conferência da nota de alteração; não autoriza aplicação retroativa.",
+    "data_referencia": "2026-10-28",
+    "aplicacao_automatica": "NAO",
+    "revisao_fiscal_humana": "OBRIGATORIA",
+    "cobre_codigo_atual_inteiro": false,
+    "limite": "Comprovar produto e apresentação da linha, destinatário público, operação e todos os requisitos da norma. Identidade nominal não confirma o direito ao benefício."
+  }
+]
