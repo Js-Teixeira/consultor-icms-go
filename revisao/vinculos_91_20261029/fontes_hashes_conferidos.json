@@ -1,0 +1,558 @@
+{
+  "referencia": "2026-10-29",
+  "fontes_conferidas": [
+    {
+      "grupo": "quimicos",
+      "id": "RFB_NVE159_2024",
+      "arquivo_original_pesquisa": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_139921_anexo_75295.pdf",
+      "sha256": "67c338881e790b908c999403bfcb4553b7e968112f922bd49fed3c909239d48f",
+      "bytes": 2975658,
+      "url": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/139921/anexo/75295"
+    },
+    {
+      "grupo": "quimicos",
+      "id": "RFB_NVE159_ATO",
+      "arquivo_original_pesquisa": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_139921_vigente.json",
+      "sha256": "368095d5e6f1d389e7cf59e1909d04a46cf2ffe3867e133f6396c7bbc9b70e0a",
+      "bytes": 12833,
+      "url": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/139921/visao/vigente"
+    },
+    {
+      "grupo": "quimicos",
+      "id": "RFB_TIPI_ATUAL",
+      "arquivo_original_pesquisa": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.pdf",
+      "sha256": "7270eafd26cf905fd954ca34f9a7bb8131a0a102eeae579d0a2a016cc55ca270",
+      "bytes": 9009764,
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf"
+    },
+    {
+      "grupo": "quimicos",
+      "id": "RFB_NESH_2022",
+      "arquivo_original_pesquisa": "conclusao_pendencias_20261028/nesh_2022_oficial.pdf",
+      "sha256": "2f25d9dc0433f107ed1d498ff8e8f7928bf0fab4e279cca950aede1f50e57f9d",
+      "bytes": 15647943,
+      "url": null
+    },
+    {
+      "grupo": "quimicos",
+      "id": "GO_ANEXO_IX",
+      "arquivo_original_pesquisa": "finalizacao_20261027/evidencias/anexo9_beneficios.html",
+      "sha256": "e4538fdfd070f17eb2c34fdf43d2b42ae604e8746f92b15f13b7eb48485961a5",
+      "bytes": 72656340,
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm"
+    },
+    {
+      "grupo": "quimicos",
+      "id": "ANVISA_DCB2013",
+      "arquivo_original_pesquisa": "resolver_91_20261029/quimicos_pesquisa/evidencias/manual_dcb_anvisa.pdf",
+      "sha256": "cd0da7b7f52d1703bce65847ec25e4f7ca9cc668b37e6aee51f2f756217576b0",
+      "bytes": 4402148,
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/farmacopeia/dcb/arquivos/8140json-file-1/@@download/file/8140json-file-1.pdf"
+    },
+    {
+      "grupo": "quimicos",
+      "id": "RFB_COMPENDIO_CECLAM",
+      "arquivo_original_pesquisa": "resolver_91_20261029/quimicos_pesquisa/evidencias/compendio_ceclam_oficial.pdf",
+      "sha256": "77e4d27dc225f4d98a7872752ec7db545052de9e4448f6c229c250635b8761f7",
+      "bytes": 3576274,
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/compedio-ceclam.pdf/@@download/file"
+    },
+    {
+      "grupo": "quimicos",
+      "id": "ANVISA_RDC19_2011",
+      "arquivo_original_pesquisa": "resolver_91_20261029/quimicos_pesquisa/evidencias/anvisa_rdc19_2011.html",
+      "sha256": "4d29f5d5830d354c4931e85e403cd8dcce52d9bcf46344525c2ab4da58388a9f",
+      "bytes": 64993,
+      "url": "https://bvsms.saude.gov.br/bvs/saudelegis/anvisa/2011/res0019_05_05_2011.html"
+    },
+    {
+      "grupo": "quimicos",
+      "id": "RFB_SC_121674",
+      "arquivo_original_pesquisa": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_121674_vigente.json",
+      "sha256": "ccf6dd0a567a22d9f0b1673356e0a59f0f48c5f8dc7a2fe906f3c32cc3167ed7",
+      "bytes": 4747,
+      "url": "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/121674"
+    },
+    {
+      "grupo": "quimicos",
+      "id": "RFB_SC_121676",
+      "arquivo_original_pesquisa": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_121676_vigente.json",
+      "sha256": "394c1c61d64d071a724860801c0a32bddc3c342f8aff0ca48d586088b12dbf15",
+      "bytes": 4711,
+      "url": "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/121676"
+    },
+    {
+      "grupo": "quimicos",
+      "id": "RFB_SC_62838",
+      "arquivo_original_pesquisa": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_62838_vigente.json",
+      "sha256": "3e122180cded9f3dd04567b0681e0499433b8968d3cceb01716fa2cca245e9d9",
+      "bytes": 6208,
+      "url": "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/62838"
+    },
+    {
+      "grupo": "quimicos",
+      "id": "RFB_SC_100721",
+      "arquivo_original_pesquisa": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_100721_vigente.json",
+      "sha256": "c0ea98a8de6c59bfc309ff8d0d8bb16ad0871162f26ff01d1682fe0fbe260e64",
+      "bytes": 3944,
+      "url": "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/100721"
+    },
+    {
+      "grupo": "quimicos",
+      "id": "RFB_SC_121689",
+      "arquivo_original_pesquisa": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_121689_vigente.json",
+      "sha256": "470ac1e7bd341c645fc8218350daef91697d7f129d0895478d0ae2a8ddead823",
+      "bytes": 4663,
+      "url": "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/121689"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "TIPI_NOTA2",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c",
+      "bytes": 2300899,
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "TIPI_NOTA_SUB",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c",
+      "bytes": 2300899,
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "NESH_IMUNO",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/nesh_2022.txt",
+      "sha256": "b60731dbe38771890389d989f554b9d3ef6f97b7214f7be8c3a263092d92256c",
+      "bytes": 6835289,
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "NESH_SOROS",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/nesh_2022.txt",
+      "sha256": "b60731dbe38771890389d989f554b9d3ef6f97b7214f7be8c3a263092d92256c",
+      "bytes": 6835289,
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "NESH_ENZIMAS",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/nesh_2022.txt",
+      "sha256": "b60731dbe38771890389d989f554b9d3ef6f97b7214f7be8c3a263092d92256c",
+      "bytes": 6835289,
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "NESH_EXCLUSAO_SANGUE",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/nesh_2022.txt",
+      "sha256": "b60731dbe38771890389d989f554b9d3ef6f97b7214f7be8c3a263092d92256c",
+      "bytes": 6835289,
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "TIPI_ANTISSOROS",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c",
+      "bytes": 2300899,
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "TIPI_IGG",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c",
+      "bytes": 2300899,
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "TIPI_IMUNO",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c",
+      "bytes": 2300899,
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "TIPI_VACINAS",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c",
+      "bytes": 2300899,
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "TIPI_ALCALOIDES",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c",
+      "bytes": 2300899,
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "TIPI_LEVODOPA",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c",
+      "bytes": 2300899,
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "NVE_ANTIHB",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/nve159_2024.txt",
+      "sha256": "a7833330b419ecd58bfe0a07a9f4ba467bd68889bf75ccb60a315c132eed3c05",
+      "bytes": 1010453,
+      "url": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/139921/visao/vigente"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "NVE_MOLGRAMOSTIM",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/nve159_2024.txt",
+      "sha256": "a7833330b419ecd58bfe0a07a9f4ba467bd68889bf75ccb60a315c132eed3c05",
+      "bytes": 1010453,
+      "url": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/139921/visao/vigente"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "NVE_IPRATROPIO",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/nve159_2024.txt",
+      "sha256": "a7833330b419ecd58bfe0a07a9f4ba467bd68889bf75ccb60a315c132eed3c05",
+      "bytes": 1010453,
+      "url": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/139921/visao/vigente"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "NVE_TENECTEPLASE",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/nve159_2024.txt",
+      "sha256": "a7833330b419ecd58bfe0a07a9f4ba467bd68889bf75ccb60a315c132eed3c05",
+      "bytes": 1010453,
+      "url": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/139921/visao/vigente"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "NVE_LEVODOPA",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/nve159_2024.txt",
+      "sha256": "a7833330b419ecd58bfe0a07a9f4ba467bd68889bf75ccb60a315c132eed3c05",
+      "bytes": 1010453,
+      "url": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/139921/visao/vigente"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "NVE_BROMO_FARMACO",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/nve159_2024.txt",
+      "sha256": "a7833330b419ecd58bfe0a07a9f4ba467bd68889bf75ccb60a315c132eed3c05",
+      "bytes": 1010453,
+      "url": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/139921/visao/vigente"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "TIPI_2007_SOROS",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_2007_camara.txt",
+      "sha256": "34a79de1fb6b75141d2fee44ebb1b24880c0fa7ce34ae3091118f3ea6fd36508",
+      "bytes": 2254545,
+      "url": "https://www2.camara.leg.br/legin/fed/decret/2006/decreto-6006-28-dezembro-2006-548912-anexo-pe.pdf"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "EMA_ABATACEPTE",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/ema_orencia.html",
+      "sha256": "22c72dc77e56358f165c5cd08ac1a03c4bbad979f4ba4794ec67e2c03547ba8a",
+      "bytes": 240834,
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/orencia"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "MS_GOLIMUMABE",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/ms_golimumabe.html",
+      "sha256": "4cb0a66673152fcea22ffa1f5403033972d69a847e3bedb1dc63b7ac91a57131",
+      "bytes": 272978,
+      "url": "https://www.gov.br/conitec/pt-br/assuntos/noticias/2021/dezembro/consulta-publica-recebe-contribuicoes-sobre-medicamento-para-tratamento-de-retocolite-ulcerativa"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "ANVISA_TOCILIZUMABE",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/anvisa_tocilizumabe.html",
+      "sha256": "bb0b59a5fb87fb7ac66ac8f9d2f630a856f380645fb85caa58b64e1c928dc520",
+      "bytes": 430078,
+      "url": "https://www.gov.br/anvisa/pt-br/comunicacao/campanhas/coronavirus/medicamentos/tocilizumabe"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "EMA_INFLIXIMABE",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/ema_remicade.pdf",
+      "sha256": "3fe5ec643ebd8b47f3d2adf8a19ade1224c614e70c07c2d563b0cf68054693ab",
+      "bytes": 368340,
+      "url": "https://www.ema.europa.eu/en/documents/product-information/remicade-epar-product-information_en.pdf"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "EMA_BEVACIZUMABE",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/ema_avastin.pdf",
+      "sha256": "66d06bf8e8d4853783377bc4046bd6b4b0e313cc348c230743646f93a9381bb1",
+      "bytes": 683334,
+      "url": "https://www.ema.europa.eu/en/documents/product-information/avastin-epar-product-information_en.pdf"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "ANVISA_RITUXIMABE",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/anvisa_rituximabe.html",
+      "sha256": "d369db81e86cb386d5bc085ce5cf5f4f8a39fa6e59a466335cb22c9ca679ae80",
+      "bytes": 438013,
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/medicamentos/novos-medicamentos-e-indicacoes/ruxience-rituximabe-novo-registro"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "MS_ADALIMUMABE",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/ms_adalimumabe.pdf",
+      "sha256": "45a92322a281e2b28c07a49ead8a05ae372ad99b4c33c635bcd55c432ce26e93",
+      "bytes": 124195,
+      "url": "https://www.gov.br/saude/pt-br/composicao/conjur/demandas-judiciais/notas-tecnicas/notas-tecnicas-medicamentos/a/adalimumabe.pdf"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "ANVISA_FILGRASTIM",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/anvisa_filgrastim.html",
+      "sha256": "7ce78b54767dbfb4c7828f3a77d4f797aacc4c68d0cf51dc09a736a3906166f9",
+      "bytes": 438868,
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/medicamentos/novos-medicamentos-e-indicacoes/fil-filgrastim-novo-medicamento"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "MS_MOLGRAMOSTIM",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/ms_molgramostim.pdf",
+      "sha256": "20d48249cf08ec0dd4d311e5e6b81e5c009dca60b7c8cae1c754dd1936072211",
+      "bytes": 490363,
+      "url": "https://www.gov.br/conitec/pt-br/midias/relatorios/2016/relatorio_molgramostim_final.pdf/@@display-file/file"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "FDA_TENECTEPLASE",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/fda_tnkase.pdf",
+      "sha256": "f0fce6229855b9db523df466825aa1e80863217c24fed1adfd3d47cc8d6e7dbb",
+      "bytes": 423814,
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/103909s5197lbl.pdf"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "AEMPS_FEIBA",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/aemps_feiba.html",
+      "sha256": "5734c155bb30e0298fd5599c5257c28c738068eb8c3aeacb4f3ebba58a9d3169",
+      "bytes": 210971,
+      "url": "https://cima.aemps.es/cima/dochtml/ft/89446/FT_89446.html"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "ANVISA_ANTIHB",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/anvisa_farmacopeia_hemoderivados.pdf",
+      "sha256": "a36723bc319723f5637abc9616f7f416ba107cc3db274791354f7bac5803e7c1",
+      "bytes": 4860602,
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/farmacopeia/farmacopeia-brasileira/arquivos/7993json-file-1/@@download/file/7993json-file-1.pdf"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "MS_ANTIHB2026",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/ms_anti_hepatite_2026.pdf",
+      "sha256": "2363141e548e52f4d9ed2a70f61c49da30da9dae083804bf90c659bb2d555efd",
+      "bytes": 61743,
+      "url": "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/notas-tecnicas/2026/nota-tecnica-no-48-2026-cgici-dpni-svsa-ms"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "MS_BROMO_SITUACAO",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/ms_bromocriptina_rel581.pdf",
+      "sha256": "551828a7cede3aab4c1bc0367c43a6087afd0f0ea95816bc2805f525c3904895",
+      "bytes": 275432,
+      "url": "https://www.gov.br/conitec/pt-br/midias/consultas/relatorios/2025/sociedade/relatorio-para-sociedade-no-581-exclusao-bromocriptina-parkinson-89"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "MS_BROMO_IDENTIDADE",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/ms_bromocriptina_135.html",
+      "sha256": "08112673ed179407ace8f737ca91c4723e88d5f191cb41ac6c4c4fa23a6a5f96",
+      "bytes": 33339,
+      "url": "https://anvisalegis.datalegis.net/action/ActionDatalegis.php?acao=abrirTextoAto&cod_menu=8542&cod_modulo=310&link=S&numeroAto=00000135&orgao=SVS%2FMS&seqAto=000&tipo=POR&valorAno=1997"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "MG_CORROBORACAO",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/mg_farmacos.html",
+      "sha256": "32afa680445c53b2ad05937b12089dffb74c5516cd6773fdac0ac9df7c3b8662",
+      "bytes": 876594,
+      "url": "https://www.fazenda.mg.gov.br/empresas/legislacao_tributaria/ricms_2023_seco/anexox2023_12.html"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "SAUDE_PR_GRAFIA",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/saude_pr_latrodectus.html",
+      "sha256": "5189f0fcfb91ed3c0bf925448bdf3277428846d73f088cb236cf6808a59ce72e",
+      "bytes": 201103,
+      "url": "https://www.saude.pr.gov.br/Pagina/Acidentes-por-Aranhas"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "FDA_LATRODECTUS",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/fda_latrodectus.html",
+      "sha256": "40b80758f09c2f356d39343234aaecb79a00de0d1a803073ebb53f77eba5ffe9",
+      "bytes": 31493,
+      "url": "https://www.fda.gov/vaccines-blood-biologics/approved-blood-products/black-widow-spider-antivenin-equine"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "ROTULO_LATRODECTUS",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/rotulo_latrodectus.html",
+      "sha256": "499c5855bb9bbaae569267585d99b319efd7d84b6d03e0a9f5447a2de1ca77e9",
+      "bytes": 142896,
+      "url": "https://dailymed.awsprod.nlm.nih.gov/dailymed/drugInfo.cfm?setid=600e54ad-af13-462f-8a2d-2c3f7d91a8cd"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "LC214_CORROBORACAO",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/senado_anexo14.html",
+      "sha256": "4ef08917d1fe41c846e271fa1c8c7d8303d1e9741ce0898062e039eede2e7ea1",
+      "bytes": 362933,
+      "url": "https://legis.senado.leg.br/norma/40180341/publicacao/40181032"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "MS_CERTOLIZUMABE",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/ms_certolizumabe.pdf",
+      "sha256": "884f3d8015593af27650a3746e00c4befc91711f0469fb17dd04f999ab176f90",
+      "bytes": 3545732,
+      "url": "https://www.gov.br/conitec/pt-br/midias/consultas/relatorios/2021/20210423_relatorio_certolizumabe_psoriase_cp_32.pdf/@@display-file/file"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "NCM_30021219",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c",
+      "bytes": 2300899,
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "NCM_30021239",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c",
+      "bytes": 2300899,
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "NCM_30021300",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c",
+      "bytes": 2300899,
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "NCM_30021400",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c",
+      "bytes": 2300899,
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "NCM_30021510",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c",
+      "bytes": 2300899,
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "NCM_30021520",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c",
+      "bytes": 2300899,
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "NCM_30021590",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c",
+      "bytes": 2300899,
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "NCM_30024115",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c",
+      "bytes": 2300899,
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "NCM_30024125",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c",
+      "bytes": 2300899,
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "NCM_30034990",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c",
+      "bytes": 2300899,
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "NCM_30044940",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c",
+      "bytes": 2300899,
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "NCM_30044990",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c",
+      "bytes": 2300899,
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "NCM_30049019",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c",
+      "bytes": 2300899,
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "NCM_30049035",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c",
+      "bytes": 2300899,
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "GO_XXXV",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/go_anexo9_paragrafos_20261029.json",
+      "sha256": "61258679b82f3e330eb9ae6807e5a471050c465a2f0ea779bf3c888f46b5840e",
+      "bytes": 4505636,
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm"
+    },
+    {
+      "grupo": "medicamentos",
+      "id": "GO_XXXVII",
+      "arquivo_original_pesquisa": "resolver_91_20261029/medicamentos_pesquisa/evidencias/go_anexo9_paragrafos_20261029.json",
+      "sha256": "61258679b82f3e330eb9ae6807e5a471050c465a2f0ea779bf3c888f46b5840e",
+      "bytes": 4505636,
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm"
+    }
+  ],
+  "limite": "Caminhos identificam os arquivos originais da pesquisa. Os catálogos e rotas preservam URLs, trechos e localizadores; nem todos os documentos integrais estão versionados."
+}

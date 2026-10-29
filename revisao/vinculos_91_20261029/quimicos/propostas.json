@@ -1,0 +1,3385 @@
+{
+  "data_referencia": "2026-10-29",
+  "natureza": "PROPOSTAS_RESTRITAS_PARA_INCORPORACAO_CONDICIONAL_SEM_HOMOLOGACAO",
+  "propostas": [
+    {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "29314990",
+      "natureza": "CANDIDATO_CONDICIONAL_IDENTIDADE_QUIMICA_DOCUMENTAL",
+      "acao_proposta": "NOVO_CANDIDATO_CONDICIONAL",
+      "registro_existente": null,
+      "id_legislacao_original": "LEG_FIN20261027_GO_A9_ART7_XXXVII",
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "percentual_reducao_bc": null,
+      "cbenef_original": "GO812023",
+      "escopo_operacao_original": "AMBAS",
+      "vigencia_beneficio_original": {
+        "inicio": "2010-01-01",
+        "fim": "2026-12-31"
+      },
+      "condicoes_originais": [
+        "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+        "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+        "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+        "Receita desonerada de PIS/PASEP e COFINS.",
+        "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+        "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+        "Mantido o crédito.",
+        "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+        "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+      ],
+      "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+      "rotas_alternativas_mesmo_template": [
+        {
+          "id_pendencia": "OUTROS_096",
+          "apendice": "XVII",
+          "item": "4",
+          "coluna_legal": "FARMACO",
+          "codigo_legal_original": "2931.00.39",
+          "descricao_legal": "Fármaco: Alendronato de sódio",
+          "tipo_vinculo": "IDENTIDADE_NOMINAL_FEDERAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+          "identidades_quimicas": [
+            {
+              "forma_quimica": "Alendronato de sódio",
+              "cas": "121268-17-5"
+            }
+          ],
+          "criterio": "A NVE oficial relaciona nominalmente Alendronato de sódio (CAS121268-17-5) ao NCM29314990. O catálogo atual contém o destino. O vínculo se funda na identidade material explicitada pelo ato federal e na descrição da linhaGO, sem alegar uma cadeia histórica universal do antigo código.",
+          "condicoes_especificas": "Somente alendronato de sódio CAS121268-17-5, insumo isolado. Não ácido alendrônico nem medicamento70/10mg por comprimido.",
+          "evidencias_federais": [
+            {
+              "fonte_id": "RFB_NVE159_2024",
+              "url": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/139921/anexo/75295",
+              "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_139921_anexo_75295.pdf",
+              "pagina_pdf_1_base": 23,
+              "localizador": "Anexo Único, linha NCM 29314990, nível U, atributo AA (CAS/DCB), especificação 0007",
+              "trecho": "29314990   U   AA   CAS/DCB   0007   121268-17-5/Alendronato de sódio",
+              "data_consulta": "2026-10-29"
+            },
+            {
+              "fonte_id": "RFB_TIPI_ATUAL",
+              "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+              "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.pdf",
+              "pagina_pdf_1_base": 128,
+              "localizador": "Tabela NCM, subitem 2931.49.90",
+              "trecho": "2931.49.90       Outros                                                                                         0",
+              "data_consulta": "2026-10-29"
+            }
+          ],
+          "evidencia_legal_go": {
+            "fonte_id": "GO_ANEXO_IX",
+            "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+            "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/go_OUTROS_096.html",
+            "localizador": "Apêndice XVII, item 4, colunas FÁRMACOS/NCM preservadas com rowspan; sem parágrafos históricos TextoRevo/NovaRedRev/NotaRev",
+            "trecho": "4 Alendronato de sódio 2931.00.39 Alendronato de sódio 70 mg - por comprimido 3004.90.59 | Alendronato de sódio 10 mg - por comprimido",
+            "data_cache": "2026-10-27",
+            "data_analise": "2026-10-29",
+            "celulas": [
+              {
+                "row_index_0": 4925,
+                "texto_atual": "4 Alendronato de sódio 2931.00.39 Alendronato de sódio 70 mg - por comprimido 3004.90.59",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 2,
+                    "texto_atual": "4"
+                  },
+                  {
+                    "rowspan": 2,
+                    "texto_atual": "Alendronato de sódio"
+                  },
+                  {
+                    "rowspan": 2,
+                    "texto_atual": "2931.00.39"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Alendronato de sódio 70 mg - por comprimido"
+                  },
+                  {
+                    "rowspan": 2,
+                    "texto_atual": "3004.90.59"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 62631938
+              },
+              {
+                "row_index_0": 4926,
+                "texto_atual": "Alendronato de sódio 10 mg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Alendronato de sódio 10 mg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 62639325
+              }
+            ]
+          },
+          "limite_classificatorio": "Confirmar composição, pureza e forma química efetivas do fornecimento; a NVE é atributo complementar à NCM e não homologação fiscal da operação."
+        },
+        {
+          "id_pendencia": "OUTROS_123",
+          "apendice": "XVII",
+          "item": "77",
+          "coluna_legal": "FARMACO",
+          "codigo_legal_original": "2931.00.49",
+          "descricao_legal": "Fármaco: Pamidronato dissódico",
+          "tipo_vinculo": "IDENTIDADE_NOMINAL_FEDERAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+          "identidades_quimicas": [
+            {
+              "forma_quimica": "Pamidronato dissódico",
+              "cas": "57248-88-1"
+            }
+          ],
+          "criterio": "A NVE oficial relaciona nominalmente Pamidronato dissódico (CAS57248-88-1) ao NCM29314990. O catálogo atual contém o destino. O vínculo se funda na identidade material explicitada pelo ato federal e na descrição da linhaGO, sem alegar uma cadeia histórica universal do antigo código.",
+          "condicoes_especificas": "Somente pamidronato dissódico CAS57248-88-1, insumo isolado, sem presumir outros sais/hidratos ou preparados injetáveis.",
+          "evidencias_federais": [
+            {
+              "fonte_id": "RFB_NVE159_2024",
+              "url": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/139921/anexo/75295",
+              "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_139921_anexo_75295.pdf",
+              "pagina_pdf_1_base": 23,
+              "localizador": "Anexo Único, linha NCM 29314990, nível U, atributo AA (CAS/DCB), especificação 0006",
+              "trecho": "29314990   U   AA   CAS/DCB   0006   057248-88-1/Pamidronato dissódico",
+              "data_consulta": "2026-10-29"
+            },
+            {
+              "fonte_id": "RFB_TIPI_ATUAL",
+              "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+              "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.pdf",
+              "pagina_pdf_1_base": 128,
+              "localizador": "Tabela NCM, subitem 2931.49.90",
+              "trecho": "2931.49.90       Outros                                                                                         0",
+              "data_consulta": "2026-10-29"
+            }
+          ],
+          "evidencia_legal_go": {
+            "fonte_id": "GO_ANEXO_IX",
+            "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+            "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/go_OUTROS_123.html",
+            "localizador": "Apêndice XVII, item 77, colunas FÁRMACOS/NCM preservadas com rowspan; sem parágrafos históricos TextoRevo/NovaRedRev/NotaRev",
+            "trecho": "77 Pamidronato dissódico 2931.00.49 Pamidronato Dissódico 60 mg injetável - por frasco/ ampola 3003.90.69/ 3004.90.59 | Pamidronato Dissódico 90 mg injetável - por frasco/ ampola",
+            "data_cache": "2026-10-27",
+            "data_analise": "2026-10-29",
+            "celulas": [
+              {
+                "row_index_0": 5443,
+                "texto_atual": "77 Pamidronato dissódico 2931.00.49 Pamidronato Dissódico 60 mg injetável - por frasco/ ampola 3003.90.69/ 3004.90.59",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 2,
+                    "texto_atual": "77"
+                  },
+                  {
+                    "rowspan": 2,
+                    "texto_atual": "Pamidronato dissódico"
+                  },
+                  {
+                    "rowspan": 2,
+                    "texto_atual": "2931.00.49"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Pamidronato Dissódico 60 mg injetável - por frasco/ ampola"
+                  },
+                  {
+                    "rowspan": 2,
+                    "texto_atual": "3003.90.69/ 3004.90.59"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64733317
+              },
+              {
+                "row_index_0": 5444,
+                "texto_atual": "Pamidronato Dissódico 90 mg injetável - por frasco/ ampola",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Pamidronato Dissódico 90 mg injetável - por frasco/ ampola"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64740880
+              }
+            ]
+          },
+          "limite_classificatorio": "Confirmar composição, pureza e forma química efetivas do fornecimento; a NVE é atributo complementar à NCM e não homologação fiscal da operação."
+        }
+      ],
+      "instrucao_complementacao": "Unir somente as identidades e rotas explícitas, sem alargar a todoNCM; preservar todos os escopos anteriores e não combinar automaticamente benefícios.",
+      "combinacao_automatica_beneficios": "NAO",
+      "aplicacao_automatica": "NAO",
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "fonte_legal_go": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "data_referencia": "2026-10-29"
+    },
+    {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "29322000",
+      "natureza": "CANDIDATO_CONDICIONAL_IDENTIDADE_QUIMICA_DOCUMENTAL",
+      "acao_proposta": "NOVO_CANDIDATO_CONDICIONAL",
+      "registro_existente": null,
+      "id_legislacao_original": "LEG_FIN20261027_GO_A9_ART7_XXXVII",
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "percentual_reducao_bc": null,
+      "cbenef_original": "GO812023",
+      "escopo_operacao_original": "AMBAS",
+      "vigencia_beneficio_original": {
+        "inicio": "2010-01-01",
+        "fim": "2026-12-31"
+      },
+      "condicoes_originais": [
+        "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+        "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+        "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+        "Receita desonerada de PIS/PASEP e COFINS.",
+        "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+        "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+        "Mantido o crédito.",
+        "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+        "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+      ],
+      "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+      "rotas_alternativas_mesmo_template": [
+        {
+          "id_pendencia": "OUTROS_120",
+          "apendice": "XVII",
+          "item": "72",
+          "coluna_legal": "FARMACO",
+          "codigo_legal_original": "2932.29.90",
+          "descricao_legal": "Fármaco: Micofenolato de Sódio",
+          "tipo_vinculo": "IDENTIDADE_NOMINAL_FEDERAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+          "identidades_quimicas": [
+            {
+              "forma_quimica": "Micofenolato de sódio",
+              "cas": "37415-62-6"
+            }
+          ],
+          "criterio": "A NVE oficial relaciona nominalmente Micofenolato de sódio (CAS37415-62-6) ao NCM29322000. O catálogo atual contém o destino. O vínculo se funda na identidade material explicitada pelo ato federal e na descrição da linhaGO, sem alegar uma cadeia histórica universal do antigo código.",
+          "condicoes_especificas": "Somente micofenolato de sódio CAS37415-62-6. A NVE o nomeia em29322000; micofenolato mofetila CAS115007-34-6 figura separadamente em29349919 e não integra esta rota.",
+          "evidencias_federais": [
+            {
+              "fonte_id": "RFB_NVE159_2024",
+              "url": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/139921/anexo/75295",
+              "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_139921_anexo_75295.pdf",
+              "pagina_pdf_1_base": 24,
+              "localizador": "Anexo Único, linha NCM 29322000, nível U, atributo AA (CAS/DCB), especificação 0023",
+              "trecho": "29322000   U   AA   CAS/DCB    0023   037415-62-6/Micofenolato de sódio",
+              "data_consulta": "2026-10-29"
+            },
+            {
+              "fonte_id": "RFB_TIPI_ATUAL",
+              "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+              "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.pdf",
+              "pagina_pdf_1_base": 129,
+              "localizador": "Tabela NCM, subitem 2932.20.00",
+              "trecho": "2932.20.00   - Lactonas                                                                                       0",
+              "data_consulta": "2026-10-29"
+            },
+            {
+              "fonte_id": "RFB_SC_100721",
+              "url": "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/100721",
+              "url_api": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/100721/visao/vigente",
+              "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_100721_vigente.json",
+              "localizador": "Solução de Consulta Cosit nº 98174, de 29 de abril de 2019, ementa; Publicado(a) no DOU de 13/05/2019, seção 1, página 18",
+              "trecho": "Assunto: Classificação de Mercadorias \n \n Código NCM: 3004.90.59 \n \n Mercadoria: Medicamento (imunossupressor) utilizado para fins profiláticos contra a rejeição de transplante renal alogênico, à base de micofenolato de sódio, apresentado na forma de comprimidos revestidos (contidos em blister de alumínio), com liberação retardada, acondicionado em caixas para venda a retalho com 20, 50, 100, 120, 250 ou 500 comprimidos. \n \n Dispositivos Legais: RGI/SH 1 (Nota 2 da Seção VI), RGI/SH 6 e RGC 1 da NCM, constante da TEC, aprovada pela Resolução Camex nº 125, de 2016, e da TIPI, aprovada pelo Decreto n.º 8.950, de 2016, e subsídios extraídos das Nesh, aprovadas pelo Decreto nº 435, de 1992 e atualizadas pela IN RFB nº 1.788, de 2018. Assunto: Classificação de Mercadorias",
+              "vigente_na_api": true,
+              "data_consulta": "2026-10-29"
+            }
+          ],
+          "evidencia_legal_go": {
+            "fonte_id": "GO_ANEXO_IX",
+            "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+            "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/go_OUTROS_120.html",
+            "localizador": "Apêndice XVII, item 72, colunas FÁRMACOS/NCM preservadas com rowspan; sem parágrafos históricos TextoRevo/NovaRedRev/NotaRev",
+            "trecho": "72 Micofenolato de Sódio 2932.29.90 Micofenolato de Sódio 180 mg - por comprimido 3003.90.69/ 3004.90.59 | Micofenolato de Sódio 360 mg - por comprimido",
+            "data_cache": "2026-10-27",
+            "data_analise": "2026-10-29",
+            "celulas": [
+              {
+                "row_index_0": 5348,
+                "texto_atual": "72 Micofenolato de Sódio 2932.29.90 Micofenolato de Sódio 180 mg - por comprimido 3003.90.69/ 3004.90.59",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 2,
+                    "texto_atual": "72"
+                  },
+                  {
+                    "rowspan": 2,
+                    "texto_atual": "Micofenolato de Sódio"
+                  },
+                  {
+                    "rowspan": 2,
+                    "texto_atual": "2932.29.90"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Micofenolato de Sódio 180 mg - por comprimido"
+                  },
+                  {
+                    "rowspan": 2,
+                    "texto_atual": "3003.90.69/ 3004.90.59"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64417661
+              },
+              {
+                "row_index_0": 5349,
+                "texto_atual": "Micofenolato de Sódio 360 mg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Micofenolato de Sódio 360 mg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64425578
+              }
+            ]
+          },
+          "limite_classificatorio": "Confirmar composição, pureza e forma química efetivas do fornecimento; a NVE é atributo complementar à NCM e não homologação fiscal da operação."
+        },
+        {
+          "id_pendencia": "OUTROS_125",
+          "apendice": "XVII",
+          "item": "94",
+          "coluna_legal": "FARMACO",
+          "codigo_legal_original": "2932.29.90",
+          "descricao_legal": "Fármaco: Sinvastatina",
+          "tipo_vinculo": "IDENTIDADE_NOMINAL_FEDERAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+          "identidades_quimicas": [
+            {
+              "forma_quimica": "Sinvastatina",
+              "cas": "79902-63-9"
+            }
+          ],
+          "criterio": "A NVE oficial relaciona nominalmente Sinvastatina (CAS79902-63-9) ao NCM29322000. O catálogo atual contém o destino. O vínculo se funda na identidade material explicitada pelo ato federal e na descrição da linhaGO, sem alegar uma cadeia histórica universal do antigo código.",
+          "condicoes_especificas": "Somente sinvastatina CAS79902-63-9, insumo isolado; a SC98.396/2021 descreve pureza mínima97%, pó branco/esbranquiçado cristalino, tambores de fibra. Comprovar correspondência material ou classificação fiscal individual do produto; excluir medicamentos acabados.",
+          "evidencias_federais": [
+            {
+              "fonte_id": "RFB_NVE159_2024",
+              "url": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/139921/anexo/75295",
+              "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_139921_anexo_75295.pdf",
+              "pagina_pdf_1_base": 24,
+              "localizador": "Anexo Único, linha NCM 29322000, nível U, atributo AA (CAS/DCB), especificação 0003",
+              "trecho": "29322000   U   AA   CAS/DCB    0003   079902-63-9/Sinvastatina",
+              "data_consulta": "2026-10-29"
+            },
+            {
+              "fonte_id": "RFB_TIPI_ATUAL",
+              "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+              "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.pdf",
+              "pagina_pdf_1_base": 129,
+              "localizador": "Tabela NCM, subitem 2932.20.00",
+              "trecho": "2932.20.00   - Lactonas                                                                                       0",
+              "data_consulta": "2026-10-29"
+            },
+            {
+              "fonte_id": "RFB_SC_121676",
+              "url": "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/121676",
+              "url_api": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/121676/visao/vigente",
+              "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_121676_vigente.json",
+              "localizador": "Solução de Consulta Cosit nº 98396, de 28 de outubro de 2021, ementa; Publicado(a) no DOU de 23/11/2021, seção 1, página 23",
+              "trecho": "Assunto: Classificação de Mercadorias \n \n Código NCM: 2932.20.00 \n \n Mercadoria: Sinvastatina (CAS 79902-63-9) com grau de pureza mínimo de 97%, princípio ativo utilizado na fabricação de medicamentos antilipêmicos, apresentado na forma de pó branco ou esbranquiçado cristalino, acondicionado em tambores de fibra. \n \n Dispositivos Legais: RGI 1 e RGI 6 da TEC aprovada pela Resolução Camex nº 125, de 2016, e da Tipi, aprovada pelo Decreto nº 8.950, de 2016; e subsídios extraídos das Nesh, aprovadas pelo Dec. nº 435, de 1992, e atualizadas pela IN RFB nº 1.788, de 2018, e alterações posteriores. SC Cosit nº 98.390-2021 LUIZ HENRIQUE DOMINGUES \n \n Presidente da 4ª Turma",
+              "vigente_na_api": true,
+              "data_consulta": "2026-10-29"
+            }
+          ],
+          "evidencia_legal_go": {
+            "fonte_id": "GO_ANEXO_IX",
+            "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+            "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/go_OUTROS_125.html",
+            "localizador": "Apêndice XVII, item 94, colunas FÁRMACOS/NCM preservadas com rowspan; sem parágrafos históricos TextoRevo/NovaRedRev/NotaRev",
+            "trecho": "94 Sinvastatina 2932.29.90 Sinvastatina 80 mg - por comprimido 3003.90.69/ 3004.90.59 | Sinvastatina 5 mg - por comprimido | Sinvastatina 10 mg - por comprimido | Sinvastatina 20 mg - por comprimido | Sinvastatina 40 mg - por comprimido",
+            "data_cache": "2026-10-27",
+            "data_analise": "2026-10-29",
+            "celulas": [
+              {
+                "row_index_0": 5541,
+                "texto_atual": "94 Sinvastatina 2932.29.90 Sinvastatina 80 mg - por comprimido 3003.90.69/ 3004.90.59",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 5,
+                    "texto_atual": "94"
+                  },
+                  {
+                    "rowspan": 5,
+                    "texto_atual": "Sinvastatina"
+                  },
+                  {
+                    "rowspan": 5,
+                    "texto_atual": "2932.29.90"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Sinvastatina 80 mg - por comprimido"
+                  },
+                  {
+                    "rowspan": 5,
+                    "texto_atual": "3003.90.69/ 3004.90.59"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 65160558
+              },
+              {
+                "row_index_0": 5542,
+                "texto_atual": "Sinvastatina 5 mg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Sinvastatina 5 mg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 65168000
+              },
+              {
+                "row_index_0": 5543,
+                "texto_atual": "Sinvastatina 10 mg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Sinvastatina 10 mg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 65170453
+              },
+              {
+                "row_index_0": 5544,
+                "texto_atual": "Sinvastatina 20 mg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Sinvastatina 20 mg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 65172907
+              },
+              {
+                "row_index_0": 5545,
+                "texto_atual": "Sinvastatina 40 mg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Sinvastatina 40 mg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 65175361
+              }
+            ]
+          },
+          "limite_classificatorio": "Confirmar composição, pureza e forma química efetivas do fornecimento; a NVE é atributo complementar à NCM e não homologação fiscal da operação."
+        }
+      ],
+      "instrucao_complementacao": "Unir somente as identidades e rotas explícitas, sem alargar a todoNCM; preservar todos os escopos anteriores e não combinar automaticamente benefícios.",
+      "combinacao_automatica_beneficios": "NAO",
+      "aplicacao_automatica": "NAO",
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "fonte_legal_go": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "data_referencia": "2026-10-29"
+    },
+    {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "29329999",
+      "natureza": "CANDIDATO_CONDICIONAL_IDENTIDADE_QUIMICA_DOCUMENTAL",
+      "acao_proposta": "NOVO_CANDIDATO_CONDICIONAL",
+      "registro_existente": null,
+      "id_legislacao_original": "LEG_FIN20261027_GO_A9_ART7_XXXVII",
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "percentual_reducao_bc": null,
+      "cbenef_original": "GO812023",
+      "escopo_operacao_original": "AMBAS",
+      "vigencia_beneficio_original": {
+        "inicio": "2010-01-01",
+        "fim": "2026-12-31"
+      },
+      "condicoes_originais": [
+        "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+        "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+        "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+        "Receita desonerada de PIS/PASEP e COFINS.",
+        "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+        "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+        "Mantido o crédito.",
+        "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+        "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+      ],
+      "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+      "rotas_alternativas_mesmo_template": [
+        {
+          "id_pendencia": "OUTROS_128",
+          "apendice": "XVII",
+          "item": "100",
+          "coluna_legal": "FARMACO",
+          "codigo_legal_original": "2935.00.99",
+          "descricao_legal": "Fármaco: Topiramato",
+          "tipo_vinculo": "IDENTIDADE_NOMINAL_FEDERAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+          "identidades_quimicas": [
+            {
+              "forma_quimica": "Topiramato",
+              "cas": "97240-79-4"
+            }
+          ],
+          "criterio": "A NVE oficial relaciona nominalmente Topiramato (CAS97240-79-4) ao NCM29329999. O catálogo atual contém o destino. O vínculo se funda na identidade material explicitada pelo ato federal e na descrição da linhaGO, sem alegar uma cadeia histórica universal do antigo código.",
+          "condicoes_especificas": "Somente topiramato CAS97240-79-4, como insumo em pó acondicionado em tambores, identidade da SC111/2015 e da NVE. A classificação atual29329999 difere materialmente da sulfonamida29350099 informada na lei; não copiar código30049059 do medicamento.",
+          "evidencias_federais": [
+            {
+              "fonte_id": "RFB_NVE159_2024",
+              "url": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/139921/anexo/75295",
+              "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_139921_anexo_75295.pdf",
+              "pagina_pdf_1_base": 25,
+              "localizador": "Anexo Único, linha NCM 29329999, nível U, atributo AA (CAS/DCB), especificação 0038",
+              "trecho": "29329999   U   AA   CAS/DCB    0038   097240-79-4/Topiramato",
+              "data_consulta": "2026-10-29"
+            },
+            {
+              "fonte_id": "RFB_TIPI_ATUAL",
+              "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+              "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.pdf",
+              "pagina_pdf_1_base": 129,
+              "localizador": "Tabela NCM, subitem 2932.99.99",
+              "trecho": "2932.99.99         Outros                                                                                     0",
+              "data_consulta": "2026-10-29"
+            },
+            {
+              "fonte_id": "RFB_SC_62838",
+              "url": "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/62838",
+              "url_api": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/62838/visao/vigente",
+              "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_62838_vigente.json",
+              "localizador": "Solução de Consulta Coana nº 111, de 27 de março de 2015, ementa; Publicado(a) no DOU de 07/04/2015, seção 1, página 45",
+              "trecho": "ASSUNTO: Classificação de Mercadorias EMENTA: Código NCM: 2932.99.99 Mercadoria: Topiramato, CAS number 97240-79-4, princípio ativo para a fabricação de medicamentos anticonvulsivos, apresentado na forma de pó, acondicionado em tambores. DISPOSITIVOS LEGAIS: RGI 1 (textos da Nota 1 a) e 3 do Captítulo 29 e da posição 29.32) e RGI 6 (textos da subposição de 1º nível 2932.9 e da subposição de 2º nível 2932.99) e RGC 1 (textos do item 2932.99.9 e do subitem 2932.99.99), da NCM constante da TEC, aprovada pela Resolução Camex nº 94, de 8 de dezembro de 2011, e da Tipi, aprovada pelo Decreto nº 7.660, de 23 de dezembro de 2011; e em subsídios extraídos das Nesh, aprovadas pelo Decreto nº 435, de 27 de janeiro de 1992, e atualizadas pela IN RFB nº 807, de 11 de janeiro de 2008, e alterações posteriores. ASSUNTO: Classificação de Mercadorias EMENTA: Código NCM: 2932.99.99 Mercadoria: Topiramato, CAS number 97240-79-4, princípio ativo para a fabricação de medicamentos anticonvulsivos, apresentado na forma de pó, acondicionado em tambores. DISPOSITIVOS LEGAIS: RGI 1 (textos da Nota 1 a) e 3 do Captítulo 29 e da posição 29.32) e RGI 6 (textos da subposição de 1º nível 2932.9 e da subposição de 2º nível 2932.99) e RGC 1 (textos do item 2932.99.9 e do subitem 2932.99.99), da NCM constante da TEC, aprovada pela Resolução Camex nº 94, de 8 de dezembro de 2011, e da Tipi, aprovada pelo Decreto nº 7.660, de 23 de dezembro de 2011; e em subsídios extraídos das Nesh, aprovadas pelo Decreto nº 435, de 27 de janeiro de 1992, e atualizadas pela IN RFB nº 807, de 11 de janeiro de 2008, e alterações posteriores. DANIELLE CARVALHO DE LACERDA Presidente da 3ª Turma",
+              "vigente_na_api": true,
+              "data_consulta": "2026-10-29"
+            }
+          ],
+          "evidencia_legal_go": {
+            "fonte_id": "GO_ANEXO_IX",
+            "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+            "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/go_OUTROS_128.html",
+            "localizador": "Apêndice XVII, item 100, colunas FÁRMACOS/NCM preservadas com rowspan; sem parágrafos históricos TextoRevo/NovaRedRev/NotaRev",
+            "trecho": "100 Topiramato 2935.00.99 Topiramato 100 mg - por comprimido 3004.90.59 | Topiramato 25 mg - por comprimido | Topiramato 50 mg - por comprimido",
+            "data_cache": "2026-10-27",
+            "data_analise": "2026-10-29",
+            "celulas": [
+              {
+                "row_index_0": 5600,
+                "texto_atual": "100 Topiramato 2935.00.99 Topiramato 100 mg - por comprimido 3004.90.59",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 3,
+                    "texto_atual": "100"
+                  },
+                  {
+                    "rowspan": 3,
+                    "texto_atual": "Topiramato"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "2935.00.99"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Topiramato 100 mg - por comprimido"
+                  },
+                  {
+                    "rowspan": 3,
+                    "texto_atual": "3004.90.59"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 65405701
+              },
+              {
+                "row_index_0": 5601,
+                "texto_atual": "Topiramato 25 mg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Topiramato 25 mg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 65416197
+              },
+              {
+                "row_index_0": 5602,
+                "texto_atual": "Topiramato 50 mg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Topiramato 50 mg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 65421029
+              }
+            ]
+          },
+          "limite_classificatorio": "Confirmar composição, pureza e forma química efetivas do fornecimento; a NVE é atributo complementar à NCM e não homologação fiscal da operação."
+        }
+      ],
+      "instrucao_complementacao": "Unir somente as identidades e rotas explícitas, sem alargar a todoNCM; preservar todos os escopos anteriores e não combinar automaticamente benefícios.",
+      "combinacao_automatica_beneficios": "NAO",
+      "aplicacao_automatica": "NAO",
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "fonte_legal_go": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "data_referencia": "2026-10-29"
+    },
+    {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "29333939",
+      "natureza": "CANDIDATO_CONDICIONAL_IDENTIDADE_QUIMICA_DOCUMENTAL",
+      "acao_proposta": "COMPLEMENTAR_CANDIDATO_EXISTENTE",
+      "registro_existente": "BEN_FIN20261027_GO_A9_ART7_XXXVII_29333939",
+      "id_legislacao_original": "LEG_FIN20261027_GO_A9_ART7_XXXVII",
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "percentual_reducao_bc": null,
+      "cbenef_original": "GO812023",
+      "escopo_operacao_original": "AMBAS",
+      "vigencia_beneficio_original": {
+        "inicio": "2010-01-01",
+        "fim": "2026-12-31"
+      },
+      "condicoes_originais": [
+        "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+        "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+        "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+        "Receita desonerada de PIS/PASEP e COFINS.",
+        "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+        "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+        "Mantido o crédito.",
+        "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+        "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+      ],
+      "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+      "rotas_alternativas_mesmo_template": [
+        {
+          "id_pendencia": "OUTROS_124",
+          "apendice": "XVII",
+          "item": "86",
+          "coluna_legal": "FARMACO",
+          "codigo_legal_original": "2931.00.49",
+          "descricao_legal": "Fármaco: Risedronato Sódico",
+          "tipo_vinculo": "IDENTIDADE_NOMINAL_FEDERAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+          "identidades_quimicas": [
+            {
+              "forma_quimica": "Risedronato sódico",
+              "cas": "115436-72-1"
+            }
+          ],
+          "criterio": "A NVE oficial relaciona nominalmente Risedronato sódico (CAS115436-72-1) ao NCM29333939. O catálogo atual contém o destino. O vínculo se funda na identidade material explicitada pelo ato federal e na descrição da linhaGO, sem alegar uma cadeia histórica universal do antigo código.",
+          "condicoes_especificas": "Somente risedronato sódico CAS115436-72-1. NVE primária o nomeia em29333939; o código legal29310049 não foi transportado mecanicamente para2931. A classificação nominal atual tem prevalência documental sobre essa mera hipótese.",
+          "evidencias_federais": [
+            {
+              "fonte_id": "RFB_NVE159_2024",
+              "url": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/139921/anexo/75295",
+              "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_139921_anexo_75295.pdf",
+              "pagina_pdf_1_base": 29,
+              "localizador": "Anexo Único, linha NCM 29333939, nível U, atributo AA (CAS/DCB), especificação 0003",
+              "trecho": "29333939   U   AA   CAS/DCB   0003   115436-72-1/Risedronato sódico",
+              "data_consulta": "2026-10-29"
+            },
+            {
+              "fonte_id": "RFB_TIPI_ATUAL",
+              "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+              "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.pdf",
+              "pagina_pdf_1_base": 131,
+              "localizador": "Tabela NCM, subitem 2933.39.39",
+              "trecho": "2933.39.39         Outros                                                                                        0",
+              "data_consulta": "2026-10-29"
+            }
+          ],
+          "evidencia_legal_go": {
+            "fonte_id": "GO_ANEXO_IX",
+            "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+            "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/go_OUTROS_124.html",
+            "localizador": "Apêndice XVII, item 86, colunas FÁRMACOS/NCM preservadas com rowspan; sem parágrafos históricos TextoRevo/NovaRedRev/NotaRev",
+            "trecho": "86 Risedronato Sódico 2931.00.49 Risedronato Sódico 35 mg - por comprimido 3003.90.69/ 3004.90.59",
+            "data_cache": "2026-10-27",
+            "data_analise": "2026-10-29",
+            "celulas": [
+              {
+                "row_index_0": 5504,
+                "texto_atual": "86 Risedronato Sódico 2931.00.49 Risedronato Sódico 35 mg - por comprimido 3003.90.69/ 3004.90.59",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "86"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Risedronato Sódico"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "2931.00.49"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Risedronato Sódico 35 mg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "3003.90.69/ 3004.90.59"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64989701
+              }
+            ]
+          },
+          "limite_classificatorio": "Confirmar composição, pureza e forma química efetivas do fornecimento; a NVE é atributo complementar à NCM e não homologação fiscal da operação."
+        }
+      ],
+      "instrucao_complementacao": "Unir somente as identidades e rotas explícitas, sem alargar a todoNCM; preservar todos os escopos anteriores e não combinar automaticamente benefícios.",
+      "combinacao_automatica_beneficios": "NAO",
+      "aplicacao_automatica": "NAO",
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "fonte_legal_go": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "data_referencia": "2026-10-29"
+    },
+    {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "29349999",
+      "natureza": "CANDIDATO_CONDICIONAL_IDENTIDADE_QUIMICA_DOCUMENTAL",
+      "acao_proposta": "COMPLEMENTAR_CANDIDATO_EXISTENTE",
+      "registro_existente": "BEN_FIN20261027_GO_A9_ART7_XXXVII_29349999",
+      "id_legislacao_original": "LEG_FIN20261027_GO_A9_ART7_XXXVII",
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "percentual_reducao_bc": null,
+      "cbenef_original": "GO812023",
+      "escopo_operacao_original": "AMBAS",
+      "vigencia_beneficio_original": {
+        "inicio": "2010-01-01",
+        "fim": "2026-12-31"
+      },
+      "condicoes_originais": [
+        "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+        "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+        "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+        "Receita desonerada de PIS/PASEP e COFINS.",
+        "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+        "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+        "Mantido o crédito.",
+        "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+        "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+      ],
+      "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+      "rotas_alternativas_mesmo_template": [
+        {
+          "id_pendencia": "OUTROS_167",
+          "apendice": "XVII",
+          "item": "158",
+          "coluna_legal": "FARMACO",
+          "codigo_legal_original": "2935.00.19",
+          "descricao_legal": "Fármaco: Sildenafila",
+          "tipo_vinculo": "IDENTIDADE_NOMINAL_FEDERAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+          "identidades_quimicas": [
+            {
+              "forma_quimica": "Sildenafila",
+              "cas": "139755-83-2"
+            }
+          ],
+          "criterio": "A NVE oficial relaciona nominalmente Sildenafila (CAS139755-83-2) ao NCM29349999. O catálogo atual contém o destino. O vínculo se funda na identidade material explicitada pelo ato federal e na descrição da linhaGO, sem alegar uma cadeia histórica universal do antigo código.",
+          "condicoes_especificas": "Somente sildenafila base, CAS139755-83-2, como fármaco isolado. A NVE a nomeia em29349999; o citrato tem rota própria em29359019. A diferença entre NVE da base e a SC do citrato não autoriza transformar uma forma na outra. A adequação classificatória da base exige revisão fiscal expressa diante da fundamentação sulfonamida da SC do citrato.",
+          "evidencias_federais": [
+            {
+              "fonte_id": "RFB_NVE159_2024",
+              "url": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/139921/anexo/75295",
+              "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_139921_anexo_75295.pdf",
+              "pagina_pdf_1_base": 45,
+              "localizador": "Anexo Único, linha NCM 29349999, nível U, atributo AA (CAS/DCB), especificação 0086",
+              "trecho": "29349999   U   AA   CAS/DCB   0086   139755-83-2/Sildenafila",
+              "data_consulta": "2026-10-29"
+            },
+            {
+              "fonte_id": "RFB_TIPI_ATUAL",
+              "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+              "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.pdf",
+              "pagina_pdf_1_base": 136,
+              "localizador": "Tabela NCM, subitem 2934.99.99",
+              "trecho": "2934.99.99         Outros                                                                                   0",
+              "data_consulta": "2026-10-29"
+            }
+          ],
+          "evidencia_legal_go": {
+            "fonte_id": "GO_ANEXO_IX",
+            "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+            "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/go_OUTROS_167.html",
+            "localizador": "Apêndice XVII, item 158, colunas FÁRMACOS/NCM preservadas com rowspan; sem parágrafos históricos TextoRevo/NovaRedRev/NotaRev",
+            "trecho": "158 Sildenafila 2935.00.19 Sildenafila 20 mg - por comprimido 3003.90.99/3004.90.99 | Citrato de Sildenafila Citrato de Sildenafila 20 mg - por comprimido",
+            "data_cache": "2026-10-27",
+            "data_analise": "2026-10-29",
+            "celulas": [
+              {
+                "row_index_0": 5761,
+                "texto_atual": "158 Sildenafila 2935.00.19 Sildenafila 20 mg - por comprimido 3003.90.99/3004.90.99",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 2,
+                    "texto_atual": "158"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Sildenafila"
+                  },
+                  {
+                    "rowspan": 2,
+                    "texto_atual": "2935.00.19"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Sildenafila 20 mg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "3003.90.99/3004.90.99"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 66352846
+              },
+              {
+                "row_index_0": 5762,
+                "texto_atual": "Citrato de Sildenafila Citrato de Sildenafila 20 mg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Citrato de Sildenafila"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Citrato de Sildenafila 20 mg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 66362215
+              }
+            ]
+          },
+          "limite_classificatorio": "Confirmar composição, pureza e forma química efetivas do fornecimento; a NVE é atributo complementar à NCM e não homologação fiscal da operação.",
+          "alerta_especifico": "NVE da base eSC do citrato têm destinos diferentes. Preservar as duas formas e exigir revisão fiscal; não unificarCAS nem declarar a mesma classificação para ambas."
+        }
+      ],
+      "instrucao_complementacao": "Unir somente as identidades e rotas explícitas, sem alargar a todoNCM; preservar todos os escopos anteriores e não combinar automaticamente benefícios.",
+      "combinacao_automatica_beneficios": "NAO",
+      "aplicacao_automatica": "NAO",
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "fonte_legal_go": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "data_referencia": "2026-10-29"
+    },
+    {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "29359019",
+      "natureza": "CANDIDATO_CONDICIONAL_IDENTIDADE_QUIMICA_DOCUMENTAL",
+      "acao_proposta": "NOVO_CANDIDATO_CONDICIONAL",
+      "registro_existente": null,
+      "id_legislacao_original": "LEG_FIN20261027_GO_A9_ART7_XXXVII",
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "percentual_reducao_bc": null,
+      "cbenef_original": "GO812023",
+      "escopo_operacao_original": "AMBAS",
+      "vigencia_beneficio_original": {
+        "inicio": "2010-01-01",
+        "fim": "2026-12-31"
+      },
+      "condicoes_originais": [
+        "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+        "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+        "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+        "Receita desonerada de PIS/PASEP e COFINS.",
+        "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+        "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+        "Mantido o crédito.",
+        "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+        "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+      ],
+      "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+      "rotas_alternativas_mesmo_template": [
+        {
+          "id_pendencia": "OUTROS_167",
+          "apendice": "XVII",
+          "item": "158",
+          "coluna_legal": "FARMACO",
+          "codigo_legal_original": "2935.00.19",
+          "descricao_legal": "Fármaco: Citrato de Sildenafila (segunda célula expressa do item158)",
+          "tipo_vinculo": "IDENTIDADE_NOMINAL_FEDERAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+          "identidades_quimicas": [
+            {
+              "forma_quimica": "Citrato de sildenafila",
+              "cas": "171599-83-0"
+            }
+          ],
+          "criterio": "A leiGO lista Citrato de Sildenafila expressamente na segunda célula fármaco do item158, compartilhandoNCM2935.00.19. A SC98.394/2021 classifica precisamente o citratoCAS171599-83-0 em29359019. Não se toma a classificação do citrato para a base.",
+          "condicoes_especificas": "Somente citrato de sildenafila CAS171599-83-0, insumo isolado com pureza mínima98%, pó cristalino branco acondicionado em tambores de papelão, ou identidade/classificação federal individual equivalente demonstrada. Excluir a base desta rota e todo medicamento dosado.",
+          "evidencias_federais": [
+            {
+              "fonte_id": "RFB_SC_121674",
+              "url": "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/121674",
+              "url_api": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/121674/visao/vigente",
+              "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_121674_vigente.json",
+              "localizador": "Solução de Consulta Cosit nº 98394, de 28 de outubro de 2021, ementa; Publicado(a) no DOU de 23/11/2021, seção 1, página 23",
+              "trecho": "Assunto: Classificação de Mercadorias \n \n Código NCM: 2935.90.19 \n \n Mercadoria: Citrato de sildenafila (CAS 171599-83-0) com grau de pureza mínimo de 98%, princípio ativo utilizado na fabricação de medicamento para tratamento da disfunção erétil masculina, apresentado na forma de pó cristalino branco, acondicionado em tambores de papelão. \n \n Dispositivos Legais: RGI 1, RGI 6 e RGC 1 da TEC aprovada pela Resolução Camex nº 125, de 2016, e da Tipi, aprovada pelo Decreto nº 8.950, de 2016; e subsídios extraídos das Nesh, aprovadas pelo Dec. nº 435, de 1992, e atualizadas pela IN RFB nº 1.788, de 2018, e alterações posteriores. SC Cosit nº 98.394-2021 LUIZ HENRIQUE DOMINGUES \n \n Presidente da 4ª Turma",
+              "vigente_na_api": true,
+              "data_consulta": "2026-10-29"
+            },
+            {
+              "fonte_id": "RFB_TIPI_ATUAL",
+              "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+              "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.pdf",
+              "pagina_pdf_1_base": 136,
+              "localizador": "Tabela NCM, subitem 2935.90.19",
+              "trecho": "2935.90.19          Outras                                                                                  0",
+              "data_consulta": "2026-10-29"
+            }
+          ],
+          "evidencia_legal_go": {
+            "fonte_id": "GO_ANEXO_IX",
+            "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+            "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/go_OUTROS_167.html",
+            "localizador": "Apêndice XVII, item 158, colunas FÁRMACOS/NCM preservadas com rowspan; sem parágrafos históricos TextoRevo/NovaRedRev/NotaRev",
+            "trecho": "158 Sildenafila 2935.00.19 Sildenafila 20 mg - por comprimido 3003.90.99/3004.90.99 | Citrato de Sildenafila Citrato de Sildenafila 20 mg - por comprimido",
+            "data_cache": "2026-10-27",
+            "data_analise": "2026-10-29",
+            "celulas": [
+              {
+                "row_index_0": 5761,
+                "texto_atual": "158 Sildenafila 2935.00.19 Sildenafila 20 mg - por comprimido 3003.90.99/3004.90.99",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 2,
+                    "texto_atual": "158"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Sildenafila"
+                  },
+                  {
+                    "rowspan": 2,
+                    "texto_atual": "2935.00.19"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Sildenafila 20 mg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "3003.90.99/3004.90.99"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 66352846
+              },
+              {
+                "row_index_0": 5762,
+                "texto_atual": "Citrato de Sildenafila Citrato de Sildenafila 20 mg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Citrato de Sildenafila"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Citrato de Sildenafila 20 mg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 66362215
+              }
+            ]
+          },
+          "limite_classificatorio": "Confirmar composição, pureza e forma química efetivas do fornecimento; a NVE é atributo complementar à NCM e não homologação fiscal da operação."
+        },
+        {
+          "id_pendencia": "OUTROS_185",
+          "apendice": "XVII",
+          "item": "193",
+          "coluna_legal": "FARMACO",
+          "codigo_legal_original": "2935.00.19",
+          "descricao_legal": "Fármaco: Bosentana",
+          "tipo_vinculo": "IDENTIDADE_NOMINAL_FEDERAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+          "identidades_quimicas": [
+            {
+              "forma_quimica": "Bosentana",
+              "cas": "147536-97-8"
+            }
+          ],
+          "criterio": "A NVE oficial relaciona nominalmente Bosentana (CAS147536-97-8) ao NCM29359019. O catálogo atual contém o destino. O vínculo se funda na identidade material explicitada pelo ato federal e na descrição da linhaGO, sem alegar uma cadeia histórica universal do antigo código.",
+          "condicoes_especificas": "Somente bosentana da identidade CAS147536-97-8. Não presumir identidade de monoidrato, outros sais ou medicamentos dosados.",
+          "evidencias_federais": [
+            {
+              "fonte_id": "RFB_NVE159_2024",
+              "url": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/139921/anexo/75295",
+              "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_139921_anexo_75295.pdf",
+              "pagina_pdf_1_base": 46,
+              "localizador": "Anexo Único, linha NCM 29359019, nível U, atributo AA (CAS/DCB), especificação 0007",
+              "trecho": "29359019   U   AA   CAS/DCB   0007   147536-97-8/Bosentana",
+              "data_consulta": "2026-10-29"
+            },
+            {
+              "fonte_id": "RFB_TIPI_ATUAL",
+              "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+              "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.pdf",
+              "pagina_pdf_1_base": 136,
+              "localizador": "Tabela NCM, subitem 2935.90.19",
+              "trecho": "2935.90.19          Outras                                                                                  0",
+              "data_consulta": "2026-10-29"
+            }
+          ],
+          "evidencia_legal_go": {
+            "fonte_id": "GO_ANEXO_IX",
+            "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+            "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/go_OUTROS_185.html",
+            "localizador": "Apêndice XVII, item 193, colunas FÁRMACOS/NCM preservadas com rowspan; sem parágrafos históricos TextoRevo/NovaRedRev/NotaRev",
+            "trecho": "193 Bosentana 2935.00.19 Bosentana - concentrações 62,5mg e 125mg, caixa com 60 comprimidos 3004.90.79",
+            "data_cache": "2026-10-27",
+            "data_analise": "2026-10-29",
+            "celulas": [
+              {
+                "row_index_0": 5874,
+                "texto_atual": "193 Bosentana 2935.00.19 Bosentana - concentrações 62,5mg e 125mg, caixa com 60 comprimidos 3004.90.79",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "193"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Bosentana"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "2935.00.19"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Bosentana - concentrações 62,5mg e 125mg, caixa com 60 comprimidos"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "3004.90.79"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 66982216
+              }
+            ]
+          },
+          "limite_classificatorio": "Confirmar composição, pureza e forma química efetivas do fornecimento; a NVE é atributo complementar à NCM e não homologação fiscal da operação."
+        },
+        {
+          "id_pendencia": "OUTROS_126",
+          "apendice": "XVII",
+          "item": "97",
+          "coluna_legal": "FARMACO",
+          "codigo_legal_original": "2935.00.19",
+          "descricao_legal": "Fármaco: Sulfassalazina",
+          "tipo_vinculo": "IDENTIDADE_NOMINAL_FEDERAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+          "identidades_quimicas": [
+            {
+              "forma_quimica": "Sulfassalazina",
+              "cas": "599-79-1"
+            }
+          ],
+          "criterio": "A NVE oficial relaciona nominalmente Sulfassalazina (CAS599-79-1) ao NCM29359019. O catálogo atual contém o destino. O vínculo se funda na identidade material explicitada pelo ato federal e na descrição da linhaGO, sem alegar uma cadeia histórica universal do antigo código.",
+          "condicoes_especificas": "Somente sulfassalazina CAS599-79-1, insumo isolado, sem cobrir as demais sulfonamidas do residual.",
+          "evidencias_federais": [
+            {
+              "fonte_id": "RFB_NVE159_2024",
+              "url": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/139921/anexo/75295",
+              "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_139921_anexo_75295.pdf",
+              "pagina_pdf_1_base": 46,
+              "localizador": "Anexo Único, linha NCM 29359019, nível U, atributo AA (CAS/DCB), especificação 0006",
+              "trecho": "29359019   U   AA   CAS/DCB   0006   000599-79-1/Sulfassalazina",
+              "data_consulta": "2026-10-29"
+            },
+            {
+              "fonte_id": "RFB_TIPI_ATUAL",
+              "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+              "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.pdf",
+              "pagina_pdf_1_base": 136,
+              "localizador": "Tabela NCM, subitem 2935.90.19",
+              "trecho": "2935.90.19          Outras                                                                                  0",
+              "data_consulta": "2026-10-29"
+            }
+          ],
+          "evidencia_legal_go": {
+            "fonte_id": "GO_ANEXO_IX",
+            "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+            "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/go_OUTROS_126.html",
+            "localizador": "Apêndice XVII, item 97, colunas FÁRMACOS/NCM preservadas com rowspan; sem parágrafos históricos TextoRevo/NovaRedRev/NotaRev",
+            "trecho": "97 Sulfassalazina 2935.00.19 Sulfassalazina 500 mg - (por comprimido) 3003.90.89/ 3004.90.79",
+            "data_cache": "2026-10-27",
+            "data_analise": "2026-10-29",
+            "celulas": [
+              {
+                "row_index_0": 5583,
+                "texto_atual": "97 Sulfassalazina 2935.00.19 Sulfassalazina 500 mg - (por comprimido) 3003.90.89/ 3004.90.79",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "97"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Sulfassalazina"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "2935.00.19"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Sulfassalazina 500 mg - (por comprimido)"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "3003.90.89/ 3004.90.79"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 65317632
+              }
+            ]
+          },
+          "limite_classificatorio": "Confirmar composição, pureza e forma química efetivas do fornecimento; a NVE é atributo complementar à NCM e não homologação fiscal da operação."
+        }
+      ],
+      "instrucao_complementacao": "Unir somente as identidades e rotas explícitas, sem alargar a todoNCM; preservar todos os escopos anteriores e não combinar automaticamente benefícios.",
+      "combinacao_automatica_beneficios": "NAO",
+      "aplicacao_automatica": "NAO",
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "fonte_legal_go": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "data_referencia": "2026-10-29"
+    },
+    {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "29359029",
+      "natureza": "CANDIDATO_CONDICIONAL_IDENTIDADE_QUIMICA_DOCUMENTAL",
+      "acao_proposta": "COMPLEMENTAR_CANDIDATO_EXISTENTE",
+      "registro_existente": "BEN_FIN20261027_GO_A9_ART7_XXXVII_29359029",
+      "id_legislacao_original": "LEG_FIN20261027_GO_A9_ART7_XXXVII",
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "percentual_reducao_bc": null,
+      "cbenef_original": "GO812023",
+      "escopo_operacao_original": "AMBAS",
+      "vigencia_beneficio_original": {
+        "inicio": "2010-01-01",
+        "fim": "2026-12-31"
+      },
+      "condicoes_originais": [
+        "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+        "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+        "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+        "Receita desonerada de PIS/PASEP e COFINS.",
+        "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+        "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+        "Mantido o crédito.",
+        "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+        "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+      ],
+      "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+      "rotas_alternativas_mesmo_template": [
+        {
+          "id_pendencia": "OUTROS_172",
+          "apendice": "XVII",
+          "item": "177",
+          "coluna_legal": "FARMACO",
+          "codigo_legal_original": "2935.00.29",
+          "descricao_legal": "Fármaco: Hidroclorotiazida",
+          "tipo_vinculo": "IDENTIDADE_NOMINAL_FEDERAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+          "identidades_quimicas": [
+            {
+              "forma_quimica": "Hidroclorotiazida",
+              "cas": "58-93-5"
+            }
+          ],
+          "criterio": "A NVE oficial relaciona nominalmente Hidroclorotiazida (CAS58-93-5) ao NCM29359029. O catálogo atual contém o destino. O vínculo se funda na identidade material explicitada pelo ato federal e na descrição da linhaGO, sem alegar uma cadeia histórica universal do antigo código.",
+          "condicoes_especificas": "Somente hidroclorotiazida CAS58-93-5, insumo isolado; não associações com outros fármacos ou todo o residual29359029.",
+          "evidencias_federais": [
+            {
+              "fonte_id": "RFB_NVE159_2024",
+              "url": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/139921/anexo/75295",
+              "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_139921_anexo_75295.pdf",
+              "pagina_pdf_1_base": 47,
+              "localizador": "Anexo Único, linha NCM 29359029, nível U, atributo AA (CAS/DCB), especificação 0001",
+              "trecho": "29359029   U   AA   CAS/DCB   0001   000058-93-5/Hidroclorotiazida",
+              "data_consulta": "2026-10-29"
+            },
+            {
+              "fonte_id": "RFB_TIPI_ATUAL",
+              "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+              "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.pdf",
+              "pagina_pdf_1_base": 137,
+              "localizador": "Tabela NCM, subitem 2935.90.29",
+              "trecho": "2935.90.29       Outras                                                                         0",
+              "data_consulta": "2026-10-29"
+            }
+          ],
+          "evidencia_legal_go": {
+            "fonte_id": "GO_ANEXO_IX",
+            "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+            "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/go_OUTROS_172.html",
+            "localizador": "Apêndice XVII, item 177, colunas FÁRMACOS/NCM preservadas com rowspan; sem parágrafos históricos TextoRevo/NovaRedRev/NotaRev",
+            "trecho": "177 Hidroclorotiazida 2935.00.29 Hidroclorotiazida 25 mg 3004.90.79",
+            "data_cache": "2026-10-27",
+            "data_analise": "2026-10-29",
+            "celulas": [
+              {
+                "row_index_0": 5829,
+                "texto_atual": "177 Hidroclorotiazida 2935.00.29 Hidroclorotiazida 25 mg 3004.90.79",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "177"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Hidroclorotiazida"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "2935.00.29"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Hidroclorotiazida 25 mg"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "3004.90.79"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 66733794
+              }
+            ]
+          },
+          "limite_classificatorio": "Confirmar composição, pureza e forma química efetivas do fornecimento; a NVE é atributo complementar à NCM e não homologação fiscal da operação."
+        },
+        {
+          "id_pendencia": "OUTROS_188",
+          "apendice": "XVII",
+          "item": "199",
+          "coluna_legal": "FARMACO",
+          "codigo_legal_original": "2935.00.29",
+          "descricao_legal": "Fármaco: Acetazolamida",
+          "tipo_vinculo": "IDENTIDADE_NOMINAL_FEDERAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+          "identidades_quimicas": [
+            {
+              "forma_quimica": "Acetazolamida",
+              "cas": "59-66-5"
+            }
+          ],
+          "criterio": "A NVE oficial relaciona nominalmente Acetazolamida (CAS59-66-5) ao NCM29359029. O catálogo atual contém o destino. O vínculo se funda na identidade material explicitada pelo ato federal e na descrição da linhaGO, sem alegar uma cadeia histórica universal do antigo código.",
+          "condicoes_especificas": "Somente acetazolamida CAS59-66-5, base. A própria NVE distingue acetazolamida sódica CAS1424-27-7 em29359099; esta forma não foi incluída nesta rota.",
+          "evidencias_federais": [
+            {
+              "fonte_id": "RFB_NVE159_2024",
+              "url": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/139921/anexo/75295",
+              "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_139921_anexo_75295.pdf",
+              "pagina_pdf_1_base": 47,
+              "localizador": "Anexo Único, linha NCM 29359029, nível U, atributo AA (CAS/DCB), especificação 0002",
+              "trecho": "29359029   U   AA   CAS/DCB   0002   000059-66-5/Acetazolamida",
+              "data_consulta": "2026-10-29"
+            },
+            {
+              "fonte_id": "RFB_TIPI_ATUAL",
+              "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+              "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.pdf",
+              "pagina_pdf_1_base": 137,
+              "localizador": "Tabela NCM, subitem 2935.90.29",
+              "trecho": "2935.90.29       Outras                                                                         0",
+              "data_consulta": "2026-10-29"
+            }
+          ],
+          "evidencia_legal_go": {
+            "fonte_id": "GO_ANEXO_IX",
+            "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+            "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/go_OUTROS_188.html",
+            "localizador": "Apêndice XVII, item 199, colunas FÁRMACOS/NCM preservadas com rowspan; sem parágrafos históricos TextoRevo/NovaRedRev/NotaRev",
+            "trecho": "199 Acetazolamida 2935.00.29 Acetazolamida 250mg (comprimido) 3003.90.89 / 3004.90.79",
+            "data_cache": "2026-10-27",
+            "data_analise": "2026-10-29",
+            "celulas": [
+              {
+                "row_index_0": 5896,
+                "texto_atual": "199 Acetazolamida 2935.00.29 Acetazolamida 250mg (comprimido) 3003.90.89 / 3004.90.79",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "199"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Acetazolamida"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "2935.00.29"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Acetazolamida 250mg (comprimido)"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "3003.90.89 / 3004.90.79"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 67101553
+              }
+            ]
+          },
+          "limite_classificatorio": "Confirmar composição, pureza e forma química efetivas do fornecimento; a NVE é atributo complementar à NCM e não homologação fiscal da operação."
+        }
+      ],
+      "instrucao_complementacao": "Unir somente as identidades e rotas explícitas, sem alargar a todoNCM; preservar todos os escopos anteriores e não combinar automaticamente benefícios.",
+      "combinacao_automatica_beneficios": "NAO",
+      "aplicacao_automatica": "NAO",
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "fonte_legal_go": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "data_referencia": "2026-10-29"
+    },
+    {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "29359092",
+      "natureza": "CANDIDATO_CONDICIONAL_IDENTIDADE_QUIMICA_DOCUMENTAL",
+      "acao_proposta": "NOVO_CANDIDATO_CONDICIONAL",
+      "registro_existente": null,
+      "id_legislacao_original": "LEG_FIN20261027_GO_A9_ART7_XXXVII",
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "percentual_reducao_bc": null,
+      "cbenef_original": "GO812023",
+      "escopo_operacao_original": "AMBAS",
+      "vigencia_beneficio_original": {
+        "inicio": "2010-01-01",
+        "fim": "2026-12-31"
+      },
+      "condicoes_originais": [
+        "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+        "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+        "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+        "Receita desonerada de PIS/PASEP e COFINS.",
+        "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+        "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+        "Mantido o crédito.",
+        "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+        "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+      ],
+      "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+      "rotas_alternativas_mesmo_template": [
+        {
+          "id_pendencia": "OUTROS_171",
+          "apendice": "XVII",
+          "item": "176",
+          "coluna_legal": "FARMACO",
+          "codigo_legal_original": "2935.00.92",
+          "descricao_legal": "Fármaco: Glibenclamida",
+          "tipo_vinculo": "IDENTIDADE_NOMINAL_FEDERAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+          "identidades_quimicas": [
+            {
+              "forma_quimica": "Glibenclamida",
+              "cas": "10238-21-8"
+            }
+          ],
+          "criterio": "A NVE oficial relaciona nominalmente Glibenclamida (CAS10238-21-8) ao NCM29359092. O catálogo atual contém o destino. O vínculo se funda na identidade material explicitada pelo ato federal e na descrição da linhaGO, sem alegar uma cadeia histórica universal do antigo código. A denominação Gliburida daTIPI é reconciliada pela linhaNVE de Glibenclamida/CAS10238-21-8 no mesmo subitem.",
+          "condicoes_especificas": "Somente glibenclamida CAS10238-21-8; a NVE liga este nome a29359092 e a TIPI denomina o mesmo subitem Gliburida. Não deduzido pela conservação do final92.",
+          "evidencias_federais": [
+            {
+              "fonte_id": "RFB_NVE159_2024",
+              "url": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/139921/anexo/75295",
+              "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_139921_anexo_75295.pdf",
+              "pagina_pdf_1_base": 47,
+              "localizador": "Anexo Único, linha NCM 29359092, nível U, atributo AA (CAS/DCB), especificação 0001",
+              "trecho": "29359092   U   AA   CAS/DCB   0001   010238-21-8/Glibenclamida",
+              "data_consulta": "2026-10-29"
+            },
+            {
+              "fonte_id": "RFB_TIPI_ATUAL",
+              "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+              "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.pdf",
+              "pagina_pdf_1_base": 137,
+              "localizador": "Tabela NCM, subitem 2935.90.92",
+              "trecho": "2935.90.92       Gliburida                                                                     0",
+              "data_consulta": "2026-10-29"
+            }
+          ],
+          "evidencia_legal_go": {
+            "fonte_id": "GO_ANEXO_IX",
+            "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+            "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/go_OUTROS_171.html",
+            "localizador": "Apêndice XVII, item 176, colunas FÁRMACOS/NCM preservadas com rowspan; sem parágrafos históricos TextoRevo/NovaRedRev/NotaRev",
+            "trecho": "176 Glibenclamida 2935.00.92 Glibenclamida 5 mg 3004.90.79",
+            "data_cache": "2026-10-27",
+            "data_analise": "2026-10-29",
+            "celulas": [
+              {
+                "row_index_0": 5827,
+                "texto_atual": "176 Glibenclamida 2935.00.92 Glibenclamida 5 mg 3004.90.79",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "176"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Glibenclamida"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "2935.00.92"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Glibenclamida 5 mg"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "3004.90.79"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 66722626
+              }
+            ]
+          },
+          "limite_classificatorio": "Confirmar composição, pureza e forma química efetivas do fornecimento; a NVE é atributo complementar à NCM e não homologação fiscal da operação."
+        }
+      ],
+      "instrucao_complementacao": "Unir somente as identidades e rotas explícitas, sem alargar a todoNCM; preservar todos os escopos anteriores e não combinar automaticamente benefícios.",
+      "combinacao_automatica_beneficios": "NAO",
+      "aplicacao_automatica": "NAO",
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "fonte_legal_go": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "data_referencia": "2026-10-29"
+    },
+    {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "29359099",
+      "natureza": "CANDIDATO_CONDICIONAL_IDENTIDADE_QUIMICA_DOCUMENTAL",
+      "acao_proposta": "COMPLEMENTAR_CANDIDATO_EXISTENTE",
+      "registro_existente": "BEN_FIN20261027_GO_A9_ART7_XXXVII_29359099",
+      "id_legislacao_original": "LEG_FIN20261027_GO_A9_ART7_XXXVII",
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "percentual_reducao_bc": null,
+      "cbenef_original": "GO812023",
+      "escopo_operacao_original": "AMBAS",
+      "vigencia_beneficio_original": {
+        "inicio": "2010-01-01",
+        "fim": "2026-12-31"
+      },
+      "condicoes_originais": [
+        "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+        "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+        "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+        "Receita desonerada de PIS/PASEP e COFINS.",
+        "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+        "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+        "Mantido o crédito.",
+        "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+        "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+      ],
+      "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+      "rotas_alternativas_mesmo_template": [
+        {
+          "id_pendencia": "OUTROS_191",
+          "apendice": "XVII",
+          "item": "204",
+          "coluna_legal": "FARMACO",
+          "codigo_legal_original": "2935.00.99",
+          "descricao_legal": "Fármaco: Brinzolamida",
+          "tipo_vinculo": "IDENTIDADE_NOMINAL_FEDERAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+          "identidades_quimicas": [
+            {
+              "forma_quimica": "Brinzolamida",
+              "cas": "138890-62-7"
+            }
+          ],
+          "criterio": "A NVE oficial relaciona nominalmente Brinzolamida (CAS138890-62-7) ao NCM29359099. O catálogo atual contém o destino. O vínculo se funda na identidade material explicitada pelo ato federal e na descrição da linhaGO, sem alegar uma cadeia histórica universal do antigo código.",
+          "condicoes_especificas": "Somente brinzolamida CAS138890-62-7, insumo isolado; não a solução oftálmica da coluna medicamento.",
+          "evidencias_federais": [
+            {
+              "fonte_id": "RFB_NVE159_2024",
+              "url": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/139921/anexo/75295",
+              "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_139921_anexo_75295.pdf",
+              "pagina_pdf_1_base": 48,
+              "localizador": "Anexo Único, linha NCM 29359099, nível U, atributo AA (CAS/DCB), especificação 0005",
+              "trecho": "29359099   U   AA   CAS/DCB   0005   138890-62-7/Brinzolamida",
+              "data_consulta": "2026-10-29"
+            },
+            {
+              "fonte_id": "RFB_TIPI_ATUAL",
+              "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+              "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.pdf",
+              "pagina_pdf_1_base": 137,
+              "localizador": "Tabela NCM, subitem 2935.90.99",
+              "trecho": "2935.90.99       Outras                                                                        0",
+              "data_consulta": "2026-10-29"
+            }
+          ],
+          "evidencia_legal_go": {
+            "fonte_id": "GO_ANEXO_IX",
+            "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+            "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/go_OUTROS_191.html",
+            "localizador": "Apêndice XVII, item 204, colunas FÁRMACOS/NCM preservadas com rowspan; sem parágrafos históricos TextoRevo/NovaRedRev/NotaRev",
+            "trecho": "204 Brinzolamida 2935.00.99 Brinzolamida 10 mg/ml solução oftálmica (frasco 5ml) 3003.90.89 / 3004.90.79",
+            "data_cache": "2026-10-27",
+            "data_analise": "2026-10-29",
+            "celulas": [
+              {
+                "row_index_0": 5906,
+                "texto_atual": "204 Brinzolamida 2935.00.99 Brinzolamida 10 mg/ml solução oftálmica (frasco 5ml) 3003.90.89 / 3004.90.79",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "204"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Brinzolamida"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "2935.00.99"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Brinzolamida 10 mg/ml solução oftálmica (frasco 5ml)"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "3003.90.89 / 3004.90.79"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 67174026
+              }
+            ]
+          },
+          "limite_classificatorio": "Confirmar composição, pureza e forma química efetivas do fornecimento; a NVE é atributo complementar à NCM e não homologação fiscal da operação."
+        },
+        {
+          "id_pendencia": "OUTROS_192",
+          "apendice": "XVII",
+          "item": "209",
+          "coluna_legal": "FARMACO",
+          "codigo_legal_original": "2935.00",
+          "descricao_legal": "Fármaco: Dorzolamida",
+          "tipo_vinculo": "IDENTIDADE_NOMINAL_FEDERAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+          "identidades_quimicas": [
+            {
+              "forma_quimica": "Dorzolamida",
+              "cas": "120279-96-1"
+            }
+          ],
+          "criterio": "A NVE oficial relaciona nominalmente Dorzolamida (CAS120279-96-1) ao NCM29359099. O catálogo atual contém o destino. O vínculo se funda na identidade material explicitada pelo ato federal e na descrição da linhaGO, sem alegar uma cadeia histórica universal do antigo código.",
+          "condicoes_especificas": "Somente dorzolamida base CAS120279-96-1. A NVE lista separadamente cloridrato de dorzolamida CAS130693-82-2 no mesmoNCM; coincidência de destino não estende o alcance legal ao sal. O literal integral GO é2935.00 99, corrigindo captura incompleta2935.00.",
+          "evidencias_federais": [
+            {
+              "fonte_id": "RFB_NVE159_2024",
+              "url": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/139921/anexo/75295",
+              "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_139921_anexo_75295.pdf",
+              "pagina_pdf_1_base": 48,
+              "localizador": "Anexo Único, linha NCM 29359099, nível U, atributo AA (CAS/DCB), especificação 0014",
+              "trecho": "29359099   U   AA   CAS/DCB   0014   120279-96-1/Dorzolamida",
+              "data_consulta": "2026-10-29"
+            },
+            {
+              "fonte_id": "RFB_TIPI_ATUAL",
+              "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+              "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.pdf",
+              "pagina_pdf_1_base": 137,
+              "localizador": "Tabela NCM, subitem 2935.90.99",
+              "trecho": "2935.90.99       Outras                                                                        0",
+              "data_consulta": "2026-10-29"
+            }
+          ],
+          "evidencia_legal_go": {
+            "fonte_id": "GO_ANEXO_IX",
+            "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+            "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/go_OUTROS_192.html",
+            "localizador": "Apêndice XVII, item 209, colunas FÁRMACOS/NCM preservadas com rowspan; sem parágrafos históricos TextoRevo/NovaRedRev/NotaRev",
+            "trecho": "209 Dorzolamida 2935.00 99 Dorzolamida 50mg/ml solução oftálmica (frasco 5ml) 3003.90.89 / 3004.90.79",
+            "data_cache": "2026-10-27",
+            "data_analise": "2026-10-29",
+            "celulas": [
+              {
+                "row_index_0": 5916,
+                "texto_atual": "209 Dorzolamida 2935.00 99 Dorzolamida 50mg/ml solução oftálmica (frasco 5ml) 3003.90.89 / 3004.90.79",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "209"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Dorzolamida"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "2935.00 99"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Dorzolamida 50mg/ml solução oftálmica (frasco 5ml)"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "3003.90.89 / 3004.90.79"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 67250623
+              }
+            ]
+          },
+          "limite_classificatorio": "Confirmar composição, pureza e forma química efetivas do fornecimento; a NVE é atributo complementar à NCM e não homologação fiscal da operação."
+        }
+      ],
+      "instrucao_complementacao": "Unir somente as identidades e rotas explícitas, sem alargar a todoNCM; preservar todos os escopos anteriores e não combinar automaticamente benefícios.",
+      "combinacao_automatica_beneficios": "NAO",
+      "aplicacao_automatica": "NAO",
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "fonte_legal_go": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "data_referencia": "2026-10-29"
+    },
+    {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "29379030",
+      "natureza": "CANDIDATO_CONDICIONAL_IDENTIDADE_QUIMICA_DOCUMENTAL",
+      "acao_proposta": "NOVO_CANDIDATO_CONDICIONAL",
+      "registro_existente": null,
+      "id_legislacao_original": "LEG_FIN20261027_GO_A9_ART7_XXXVII",
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "percentual_reducao_bc": null,
+      "cbenef_original": "GO812023",
+      "escopo_operacao_original": "AMBAS",
+      "vigencia_beneficio_original": {
+        "inicio": "2010-01-01",
+        "fim": "2026-12-31"
+      },
+      "condicoes_originais": [
+        "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+        "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+        "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+        "Receita desonerada de PIS/PASEP e COFINS.",
+        "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+        "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+        "Mantido o crédito.",
+        "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+        "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+      ],
+      "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+      "rotas_alternativas_mesmo_template": [
+        {
+          "id_pendencia": "OUTROS_118",
+          "apendice": "XVII",
+          "item": "65",
+          "coluna_legal": "FARMACO",
+          "codigo_legal_original": "2937.40.10",
+          "descricao_legal": "Fármaco: Levotiroxina Sódica (célula expressa do item65)",
+          "tipo_vinculo": "IDENTIDADE_NOMINAL_MATERIAL_TIPI_COM_FORMA_EXPRESSA_GO",
+          "identidades_quimicas": [
+            {
+              "forma_quimica": "Levotiroxina sódica",
+              "cas": "55-03-8"
+            }
+          ],
+          "criterio": "A leitura da célula fármaco do item65 mostra Levotiroxina Sódica expressamente, separada da base. A TIPI nomeia Levotiroxina sódica em29379030. OCAS55-03-8 é corroborado pela NVE de preparações à base da mesma identidade; não foi deduzido do código legal29374010.",
+          "condicoes_especificas": "Somente levotiroxina sódica identificada comoCAS55-03-8, insumo isolado. As formas monoidratada e pentaidratada são expressas na lei, mas não foram abrangidas automaticamente nesta rota: exigir identidadeCAS/forma e classificação documental antes de ampliá-la. Excluir a base da rota29379030 e os medicamentos3003/3004.",
+          "evidencias_federais": [
+            {
+              "fonte_id": "RFB_TIPI_ATUAL",
+              "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+              "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.pdf",
+              "pagina_pdf_1_base": 139,
+              "localizador": "Tabela NCM, subitem 2937.90.30",
+              "trecho": "2937.90.30       Levotiroxina sódica                                                                        0",
+              "data_consulta": "2026-10-29"
+            },
+            {
+              "fonte_id": "RFB_NVE159_2024",
+              "url": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/139921/anexo/75295",
+              "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_139921_anexo_75295.pdf",
+              "pagina_pdf_1_base": 69,
+              "localizador": "Anexo Único, linha NCM 30033981, nível U, atributo AA (CAS/DCB), especificação 0001",
+              "trecho": "30033981   U   AA   CAS/DCB    0001   000055-03-8/À base de levotiroxina sódica",
+              "data_consulta": "2026-10-29"
+            }
+          ],
+          "evidencia_legal_go": {
+            "fonte_id": "GO_ANEXO_IX",
+            "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+            "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/go_OUTROS_118.html",
+            "localizador": "Apêndice XVII, item 65, colunas FÁRMACOS/NCM preservadas com rowspan; sem parágrafos históricos TextoRevo/NovaRedRev/NotaRev",
+            "trecho": "65 Levotiroxina 2937.40.10 Levotiroxina 150 mcg - por comprimido 3003.39.81/ 3004.39.81 | Levotiroxina 25 mcg - por comprimido | Levotiroxina 50 mcg - por comprimido | Levotiroxina 100 mcg - por comprimido | Levotiroxina Sódica Monoidratada Levotiroxina Sódica Monoidratada 150 mcg - por comprimido | Levotiroxina Sódica Monoidratada 25 mcg - por comprimido | Levotiroxina Sódica Monoidratada 50 mcg - por comprimido | Levotiroxina Sódica Monoidratada 100 mcg - por comprimido | Levotiroxina Sódica Pentaidratada Levotiroxina Sódica Pentaidratada 150 mcg - por comprimido | Levotiroxina Sódica Pentaidratada 25 mcg - por comprimido | Levotiroxina Sódica Pentaidratada 50 mcg - por comprimido | Levotiroxina Sódica Pentaidratada 100 mcg - por comprimido | Levotiroxina Sódica Levotiroxina Sódica 150 mcg - por comprimido | Levotiroxina Sódica 25 mcg - por comprimido | Levotiroxina Sódica 50 mcg - por comprimido | Levotiroxina Sódica 100 mcg - por comprimido",
+            "data_cache": "2026-10-27",
+            "data_analise": "2026-10-29",
+            "celulas": [
+              {
+                "row_index_0": 5274,
+                "texto_atual": "65 Levotiroxina 2937.40.10 Levotiroxina 150 mcg - por comprimido 3003.39.81/ 3004.39.81",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 16,
+                    "texto_atual": "65"
+                  },
+                  {
+                    "rowspan": 4,
+                    "texto_atual": "Levotiroxina"
+                  },
+                  {
+                    "rowspan": 16,
+                    "texto_atual": "2937.40.10"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Levotiroxina 150 mcg - por comprimido"
+                  },
+                  {
+                    "rowspan": 16,
+                    "texto_atual": "3003.39.81/ 3004.39.81"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64128331
+              },
+              {
+                "row_index_0": 5275,
+                "texto_atual": "Levotiroxina 25 mcg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Levotiroxina 25 mcg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64135778
+              },
+              {
+                "row_index_0": 5276,
+                "texto_atual": "Levotiroxina 50 mcg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Levotiroxina 50 mcg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64138233
+              },
+              {
+                "row_index_0": 5277,
+                "texto_atual": "Levotiroxina 100 mcg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Levotiroxina 100 mcg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64140688
+              },
+              {
+                "row_index_0": 5278,
+                "texto_atual": "Levotiroxina Sódica Monoidratada Levotiroxina Sódica Monoidratada 150 mcg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 4,
+                    "texto_atual": "Levotiroxina Sódica Monoidratada"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Levotiroxina Sódica Monoidratada 150 mcg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64143144
+              },
+              {
+                "row_index_0": 5279,
+                "texto_atual": "Levotiroxina Sódica Monoidratada 25 mcg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Levotiroxina Sódica Monoidratada 25 mcg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64148084
+              },
+              {
+                "row_index_0": 5280,
+                "texto_atual": "Levotiroxina Sódica Monoidratada 50 mcg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Levotiroxina Sódica Monoidratada 50 mcg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64150559
+              },
+              {
+                "row_index_0": 5281,
+                "texto_atual": "Levotiroxina Sódica Monoidratada 100 mcg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Levotiroxina Sódica Monoidratada 100 mcg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64153034
+              },
+              {
+                "row_index_0": 5282,
+                "texto_atual": "Levotiroxina Sódica Pentaidratada Levotiroxina Sódica Pentaidratada 150 mcg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 4,
+                    "texto_atual": "Levotiroxina Sódica Pentaidratada"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Levotiroxina Sódica Pentaidratada 150 mcg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64155510
+              },
+              {
+                "row_index_0": 5283,
+                "texto_atual": "Levotiroxina Sódica Pentaidratada 25 mcg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Levotiroxina Sódica Pentaidratada 25 mcg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64160452
+              },
+              {
+                "row_index_0": 5284,
+                "texto_atual": "Levotiroxina Sódica Pentaidratada 50 mcg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Levotiroxina Sódica Pentaidratada 50 mcg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64162969
+              },
+              {
+                "row_index_0": 5285,
+                "texto_atual": "Levotiroxina Sódica Pentaidratada 100 mcg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Levotiroxina Sódica Pentaidratada 100 mcg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64165486
+              },
+              {
+                "row_index_0": 5286,
+                "texto_atual": "Levotiroxina Sódica Levotiroxina Sódica 150 mcg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 4,
+                    "texto_atual": "Levotiroxina Sódica"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Levotiroxina Sódica 150 mcg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64168004
+              },
+              {
+                "row_index_0": 5287,
+                "texto_atual": "Levotiroxina Sódica 25 mcg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Levotiroxina Sódica 25 mcg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64171881
+              },
+              {
+                "row_index_0": 5288,
+                "texto_atual": "Levotiroxina Sódica 50 mcg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Levotiroxina Sódica 50 mcg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64174343
+              },
+              {
+                "row_index_0": 5289,
+                "texto_atual": "Levotiroxina Sódica 100 mcg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Levotiroxina Sódica 100 mcg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64176805
+              }
+            ]
+          },
+          "limite_classificatorio": "Confirmar composição, pureza e forma química efetivas do fornecimento; a NVE é atributo complementar à NCM e não homologação fiscal da operação."
+        }
+      ],
+      "instrucao_complementacao": "Unir somente as identidades e rotas explícitas, sem alargar a todoNCM; preservar todos os escopos anteriores e não combinar automaticamente benefícios.",
+      "combinacao_automatica_beneficios": "NAO",
+      "aplicacao_automatica": "NAO",
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "fonte_legal_go": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "data_referencia": "2026-10-29"
+    },
+    {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "29379090",
+      "natureza": "CANDIDATO_CONDICIONAL_IDENTIDADE_QUIMICA_DOCUMENTAL",
+      "acao_proposta": "COMPLEMENTAR_CANDIDATO_EXISTENTE",
+      "registro_existente": "BEN_FIN20261027_GO_A9_ART7_XXXVII_29379090",
+      "id_legislacao_original": "LEG_FIN20261027_GO_A9_ART7_XXXVII",
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "percentual_reducao_bc": null,
+      "cbenef_original": "GO812023",
+      "escopo_operacao_original": "AMBAS",
+      "vigencia_beneficio_original": {
+        "inicio": "2010-01-01",
+        "fim": "2026-12-31"
+      },
+      "condicoes_originais": [
+        "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+        "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+        "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+        "Receita desonerada de PIS/PASEP e COFINS.",
+        "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+        "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+        "Mantido o crédito.",
+        "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+        "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+      ],
+      "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+      "rotas_alternativas_mesmo_template": [
+        {
+          "id_pendencia": "OUTROS_118",
+          "apendice": "XVII",
+          "item": "65",
+          "coluna_legal": "FARMACO",
+          "codigo_legal_original": "2937.40.10",
+          "descricao_legal": "Fármaco: Levotiroxina",
+          "tipo_vinculo": "IDENTIDADE_NOMINAL_FEDERAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+          "identidades_quimicas": [
+            {
+              "forma_quimica": "Levotiroxina",
+              "cas": "51-48-9"
+            }
+          ],
+          "criterio": "A NVE oficial relaciona nominalmente Levotiroxina (CAS51-48-9) ao NCM29379090. O catálogo atual contém o destino. O vínculo se funda na identidade material explicitada pelo ato federal e na descrição da linhaGO, sem alegar uma cadeia histórica universal do antigo código.",
+          "condicoes_especificas": "Somente levotiroxina base CAS51-48-9, explicitamente listada em29379090 pela NVE. Não se converte29374010 por semelhança nem se presume sódio. Levotiroxina sódica tem rota segregada porque o item65 a lista expressamente em célula própria.",
+          "evidencias_federais": [
+            {
+              "fonte_id": "RFB_NVE159_2024",
+              "url": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/139921/anexo/75295",
+              "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_139921_anexo_75295.pdf",
+              "pagina_pdf_1_base": 55,
+              "localizador": "Anexo Único, linha NCM 29379090, nível U, atributo AA (CAS/DCB), especificação 0047",
+              "trecho": "29379090   U   AA   CAS/DCB   0047   000051-48-9/Levotiroxina",
+              "data_consulta": "2026-10-29"
+            },
+            {
+              "fonte_id": "RFB_TIPI_ATUAL",
+              "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+              "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.pdf",
+              "pagina_pdf_1_base": 139,
+              "localizador": "Tabela NCM, subitem 2937.90.90",
+              "trecho": "2937.90.90       Outros                                                                                     0",
+              "data_consulta": "2026-10-29"
+            }
+          ],
+          "evidencia_legal_go": {
+            "fonte_id": "GO_ANEXO_IX",
+            "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+            "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/go_OUTROS_118.html",
+            "localizador": "Apêndice XVII, item 65, colunas FÁRMACOS/NCM preservadas com rowspan; sem parágrafos históricos TextoRevo/NovaRedRev/NotaRev",
+            "trecho": "65 Levotiroxina 2937.40.10 Levotiroxina 150 mcg - por comprimido 3003.39.81/ 3004.39.81 | Levotiroxina 25 mcg - por comprimido | Levotiroxina 50 mcg - por comprimido | Levotiroxina 100 mcg - por comprimido | Levotiroxina Sódica Monoidratada Levotiroxina Sódica Monoidratada 150 mcg - por comprimido | Levotiroxina Sódica Monoidratada 25 mcg - por comprimido | Levotiroxina Sódica Monoidratada 50 mcg - por comprimido | Levotiroxina Sódica Monoidratada 100 mcg - por comprimido | Levotiroxina Sódica Pentaidratada Levotiroxina Sódica Pentaidratada 150 mcg - por comprimido | Levotiroxina Sódica Pentaidratada 25 mcg - por comprimido | Levotiroxina Sódica Pentaidratada 50 mcg - por comprimido | Levotiroxina Sódica Pentaidratada 100 mcg - por comprimido | Levotiroxina Sódica Levotiroxina Sódica 150 mcg - por comprimido | Levotiroxina Sódica 25 mcg - por comprimido | Levotiroxina Sódica 50 mcg - por comprimido | Levotiroxina Sódica 100 mcg - por comprimido",
+            "data_cache": "2026-10-27",
+            "data_analise": "2026-10-29",
+            "celulas": [
+              {
+                "row_index_0": 5274,
+                "texto_atual": "65 Levotiroxina 2937.40.10 Levotiroxina 150 mcg - por comprimido 3003.39.81/ 3004.39.81",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 16,
+                    "texto_atual": "65"
+                  },
+                  {
+                    "rowspan": 4,
+                    "texto_atual": "Levotiroxina"
+                  },
+                  {
+                    "rowspan": 16,
+                    "texto_atual": "2937.40.10"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Levotiroxina 150 mcg - por comprimido"
+                  },
+                  {
+                    "rowspan": 16,
+                    "texto_atual": "3003.39.81/ 3004.39.81"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64128331
+              },
+              {
+                "row_index_0": 5275,
+                "texto_atual": "Levotiroxina 25 mcg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Levotiroxina 25 mcg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64135778
+              },
+              {
+                "row_index_0": 5276,
+                "texto_atual": "Levotiroxina 50 mcg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Levotiroxina 50 mcg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64138233
+              },
+              {
+                "row_index_0": 5277,
+                "texto_atual": "Levotiroxina 100 mcg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Levotiroxina 100 mcg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64140688
+              },
+              {
+                "row_index_0": 5278,
+                "texto_atual": "Levotiroxina Sódica Monoidratada Levotiroxina Sódica Monoidratada 150 mcg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 4,
+                    "texto_atual": "Levotiroxina Sódica Monoidratada"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Levotiroxina Sódica Monoidratada 150 mcg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64143144
+              },
+              {
+                "row_index_0": 5279,
+                "texto_atual": "Levotiroxina Sódica Monoidratada 25 mcg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Levotiroxina Sódica Monoidratada 25 mcg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64148084
+              },
+              {
+                "row_index_0": 5280,
+                "texto_atual": "Levotiroxina Sódica Monoidratada 50 mcg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Levotiroxina Sódica Monoidratada 50 mcg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64150559
+              },
+              {
+                "row_index_0": 5281,
+                "texto_atual": "Levotiroxina Sódica Monoidratada 100 mcg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Levotiroxina Sódica Monoidratada 100 mcg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64153034
+              },
+              {
+                "row_index_0": 5282,
+                "texto_atual": "Levotiroxina Sódica Pentaidratada Levotiroxina Sódica Pentaidratada 150 mcg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 4,
+                    "texto_atual": "Levotiroxina Sódica Pentaidratada"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Levotiroxina Sódica Pentaidratada 150 mcg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64155510
+              },
+              {
+                "row_index_0": 5283,
+                "texto_atual": "Levotiroxina Sódica Pentaidratada 25 mcg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Levotiroxina Sódica Pentaidratada 25 mcg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64160452
+              },
+              {
+                "row_index_0": 5284,
+                "texto_atual": "Levotiroxina Sódica Pentaidratada 50 mcg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Levotiroxina Sódica Pentaidratada 50 mcg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64162969
+              },
+              {
+                "row_index_0": 5285,
+                "texto_atual": "Levotiroxina Sódica Pentaidratada 100 mcg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Levotiroxina Sódica Pentaidratada 100 mcg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64165486
+              },
+              {
+                "row_index_0": 5286,
+                "texto_atual": "Levotiroxina Sódica Levotiroxina Sódica 150 mcg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 4,
+                    "texto_atual": "Levotiroxina Sódica"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Levotiroxina Sódica 150 mcg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64168004
+              },
+              {
+                "row_index_0": 5287,
+                "texto_atual": "Levotiroxina Sódica 25 mcg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Levotiroxina Sódica 25 mcg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64171881
+              },
+              {
+                "row_index_0": 5288,
+                "texto_atual": "Levotiroxina Sódica 50 mcg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Levotiroxina Sódica 50 mcg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64174343
+              },
+              {
+                "row_index_0": 5289,
+                "texto_atual": "Levotiroxina Sódica 100 mcg - por comprimido",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Levotiroxina Sódica 100 mcg - por comprimido"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 64176805
+              }
+            ]
+          },
+          "limite_classificatorio": "Confirmar composição, pureza e forma química efetivas do fornecimento; a NVE é atributo complementar à NCM e não homologação fiscal da operação."
+        }
+      ],
+      "instrucao_complementacao": "Unir somente as identidades e rotas explícitas, sem alargar a todoNCM; preservar todos os escopos anteriores e não combinar automaticamente benefícios.",
+      "combinacao_automatica_beneficios": "NAO",
+      "aplicacao_automatica": "NAO",
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "fonte_legal_go": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "data_referencia": "2026-10-29"
+    },
+    {
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "29397990",
+      "natureza": "CANDIDATO_CONDICIONAL_IDENTIDADE_QUIMICA_DOCUMENTAL",
+      "acao_proposta": "NOVO_CANDIDATO_CONDICIONAL",
+      "registro_existente": null,
+      "id_legislacao_original": "LEG_FIN20261027_GO_A9_ART7_XXXVII",
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "percentual_reducao_bc": null,
+      "cbenef_original": "GO812023",
+      "escopo_operacao_original": "AMBAS",
+      "vigencia_beneficio_original": {
+        "inicio": "2010-01-01",
+        "fim": "2026-12-31"
+      },
+      "condicoes_originais": [
+        "Fármacos e medicamentos exatamente relacionados no Apêndice XVII, com princípio ativo, apresentação, dose e produto da linha correspondente.",
+        "Destinados a órgãos da Administração Pública direta/indireta federal, estadual e municipal e suas fundações.",
+        "Isenção ou alíquota zero de Imposto de Importação ou IPI.",
+        "Receita desonerada de PIS/PASEP e COFINS.",
+        "Deduzir ICMS do preço e demonstrar em propostas de licitação e documentos fiscais.",
+        "Não reduzir os recursos de cofinanciamento dos Medicamentos Excepcionais do SIA/SUS transferidos ao Estado/Municípios.",
+        "Mantido o crédito.",
+        "Fármacos e medicamentos são classificados separadamente na tabela; não intercambiar as colunas.",
+        "Item278 e alteração do267 com efeitos01/01/2027 não são vinculados na referência27/10/2026."
+      ],
+      "regras_gerais_originais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+      "rotas_alternativas_mesmo_template": [
+        {
+          "id_pendencia": "OUTROS_168",
+          "apendice": "XVII",
+          "item": "169",
+          "coluna_legal": "FARMACO",
+          "codigo_legal_original": "2939.99.90",
+          "descricao_legal": "Fármaco: Brometo de ipratrópio",
+          "tipo_vinculo": "IDENTIDADE_NOMINAL_FEDERAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+          "identidades_quimicas": [
+            {
+              "forma_quimica": "Brometo de ipratrópio",
+              "cas": "22254-24-6"
+            }
+          ],
+          "criterio": "A NVE oficial relaciona nominalmente Brometo de ipratrópio (CAS22254-24-6) ao NCM29397990. O catálogo atual contém o destino. O vínculo se funda na identidade material explicitada pelo ato federal e na descrição da linhaGO, sem alegar uma cadeia histórica universal do antigo código.",
+          "condicoes_especificas": "Somente brometo de ipratrópio (brometo de tropano), CAS22254-24-6, insumo isolado. Não inclui automaticamente outras formas/hidratos ou a solução/comprimido medicamentoso.",
+          "evidencias_federais": [
+            {
+              "fonte_id": "RFB_NVE159_2024",
+              "url": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/139921/anexo/75295",
+              "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_139921_anexo_75295.pdf",
+              "pagina_pdf_1_base": 57,
+              "localizador": "Anexo Único, linha NCM 29397990, nível U, atributo AA (CAS/DCB), especificação 0001",
+              "trecho": "29397990   U   AA   CAS/DCB   0001   022254-24-6/Brometo de ipratrópio(brometo de tropano)",
+              "data_consulta": "2026-10-29"
+            },
+            {
+              "fonte_id": "RFB_TIPI_ATUAL",
+              "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+              "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.pdf",
+              "pagina_pdf_1_base": 140,
+              "localizador": "Tabela NCM, subitem 2939.79.90",
+              "trecho": "2939.79.90        Outros                                                                                       0",
+              "data_consulta": "2026-10-29"
+            }
+          ],
+          "evidencia_legal_go": {
+            "fonte_id": "GO_ANEXO_IX",
+            "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+            "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/go_OUTROS_168.html",
+            "localizador": "Apêndice XVII, item 169, colunas FÁRMACOS/NCM preservadas com rowspan; sem parágrafos históricos TextoRevo/NovaRedRev/NotaRev",
+            "trecho": "169 Brometo de ipratrópio 2939.99.90 Brometo de ipratrópio 0,02 mg 3004.40.90 | Brometo de ipratrópio 0,25 mg 3004.40.90",
+            "data_cache": "2026-10-27",
+            "data_analise": "2026-10-29",
+            "celulas": [
+              {
+                "row_index_0": 5802,
+                "texto_atual": "169 Brometo de ipratrópio 2939.99.90 Brometo de ipratrópio 0,02 mg 3004.40.90",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 2,
+                    "texto_atual": "169"
+                  },
+                  {
+                    "rowspan": 2,
+                    "texto_atual": "Brometo de ipratrópio"
+                  },
+                  {
+                    "rowspan": 2,
+                    "texto_atual": "2939.99.90"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Brometo de ipratrópio 0,02 mg"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "3004.40.90"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 66583969
+              },
+              {
+                "row_index_0": 5803,
+                "texto_atual": "Brometo de ipratrópio 0,25 mg 3004.40.90",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Brometo de ipratrópio 0,25 mg"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "3004.40.90"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 66591987
+              }
+            ]
+          },
+          "limite_classificatorio": "Confirmar composição, pureza e forma química efetivas do fornecimento; a NVE é atributo complementar à NCM e não homologação fiscal da operação."
+        },
+        {
+          "id_pendencia": "OUTROS_107",
+          "apendice": "XVII",
+          "item": "48",
+          "coluna_legal": "FARMACO",
+          "codigo_legal_original": "2939.99.90",
+          "descricao_legal": "Fármaco: Galantamina",
+          "tipo_vinculo": "IDENTIDADE_NOMINAL_FEDERAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+          "identidades_quimicas": [
+            {
+              "forma_quimica": "Galantamina",
+              "cas": "357-70-0"
+            },
+            {
+              "forma_quimica": "Bromidrato/Hidrobrometo de galantamina",
+              "cas": "1953-04-4"
+            }
+          ],
+          "criterio": "A NVE oficial relaciona nominalmente Galantamina (CAS357-70-0) ao NCM29397990. O catálogo atual contém o destino. O vínculo se funda na identidade material explicitada pelo ato federal e na descrição da linhaGO, sem alegar uma cadeia histórica universal do antigo código.",
+          "condicoes_especificas": "Somente as identidades explicitamente relacionadas na coluna fármaco do item48: galantamina base CAS357-70-0 e bromidrato/hidrobrometo de galantamina CAS1953-04-4. A leitura das células com rowspan mostra que os nomes do sal constam legalmente, e não foram inferidos do nome da base. Excluir demais sais.",
+          "evidencias_federais": [
+            {
+              "fonte_id": "RFB_NVE159_2024",
+              "url": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/139921/anexo/75295",
+              "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_139921_anexo_75295.pdf",
+              "pagina_pdf_1_base": 58,
+              "localizador": "Anexo Único, linha NCM 29397990, nível U, atributo AA (CAS/DCB), especificação 0019",
+              "trecho": "29397990   U   AA   CAS/DCB    0019   000357-70-0/Galantamina",
+              "data_consulta": "2026-10-29"
+            },
+            {
+              "fonte_id": "RFB_TIPI_ATUAL",
+              "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+              "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.pdf",
+              "pagina_pdf_1_base": 140,
+              "localizador": "Tabela NCM, subitem 2939.79.90",
+              "trecho": "2939.79.90        Outros                                                                                       0",
+              "data_consulta": "2026-10-29"
+            },
+            {
+              "fonte_id": "RFB_NVE159_2024",
+              "url": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/139921/anexo/75295",
+              "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_139921_anexo_75295.pdf",
+              "pagina_pdf_1_base": 58,
+              "localizador": "Anexo Único, linha NCM 29397990, nível U, atributo AA (CAS/DCB), especificação 0007",
+              "trecho": "29397990   U   AA   CAS/DCB    0007   001953-04-4/Bromidrato de galantamina",
+              "data_consulta": "2026-10-29"
+            }
+          ],
+          "evidencia_legal_go": {
+            "fonte_id": "GO_ANEXO_IX",
+            "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+            "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/go_OUTROS_107.html",
+            "localizador": "Apêndice XVII, item 48, colunas FÁRMACOS/NCM preservadas com rowspan; sem parágrafos históricos TextoRevo/NovaRedRev/NotaRev",
+            "trecho": "48 Galantamina 2939.99.90 Galantamina 8 mg - por cápsula 3003.90.79/ 3004.90.69 | Galantamina 16 mg - por cápsula | Galantamina 24 mg - por cápsula | Bromidrato de Galantamina Bromidrato de Galantamina 8 mg - por cápsula | Bromidrato de Galantamina 16 mg - por cápsula | Bromidrato de Galantamina 24 mg - por cápsula | Hidrobrometo de Galantamina Hidrobrometo de Galantamina 8 mg - por cápsula | Hidrobrometo de Galantamina 16 mg - por cápsula | Hidrobrometo de Galantamina 24 mg - por cápsula",
+            "data_cache": "2026-10-27",
+            "data_analise": "2026-10-29",
+            "celulas": [
+              {
+                "row_index_0": 5194,
+                "texto_atual": "48 Galantamina 2939.99.90 Galantamina 8 mg - por cápsula 3003.90.79/ 3004.90.69",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 9,
+                    "texto_atual": "48"
+                  },
+                  {
+                    "rowspan": 3,
+                    "texto_atual": "Galantamina"
+                  },
+                  {
+                    "rowspan": 9,
+                    "texto_atual": "2939.99.90"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Galantamina 8 mg - por cápsula"
+                  },
+                  {
+                    "rowspan": 9,
+                    "texto_atual": "3003.90.79/ 3004.90.69"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 63744636
+              },
+              {
+                "row_index_0": 5195,
+                "texto_atual": "Galantamina 16 mg - por cápsula",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Galantamina 16 mg - por cápsula"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 63752072
+              },
+              {
+                "row_index_0": 5196,
+                "texto_atual": "Galantamina 24 mg - por cápsula",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Galantamina 24 mg - por cápsula"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 63754522
+              },
+              {
+                "row_index_0": 5197,
+                "texto_atual": "Bromidrato de Galantamina Bromidrato de Galantamina 8 mg - por cápsula",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 3,
+                    "texto_atual": "Bromidrato de Galantamina"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Bromidrato de Galantamina 8 mg - por cápsula"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 63756972
+              },
+              {
+                "row_index_0": 5198,
+                "texto_atual": "Bromidrato de Galantamina 16 mg - por cápsula",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Bromidrato de Galantamina 16 mg - por cápsula"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 63760855
+              },
+              {
+                "row_index_0": 5199,
+                "texto_atual": "Bromidrato de Galantamina 24 mg - por cápsula",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Bromidrato de Galantamina 24 mg - por cápsula"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 63763319
+              },
+              {
+                "row_index_0": 5200,
+                "texto_atual": "Hidrobrometo de Galantamina Hidrobrometo de Galantamina 8 mg - por cápsula",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 3,
+                    "texto_atual": "Hidrobrometo de Galantamina"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Hidrobrometo de Galantamina 8 mg - por cápsula"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 63765783
+              },
+              {
+                "row_index_0": 5201,
+                "texto_atual": "Hidrobrometo de Galantamina 16 mg - por cápsula",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Hidrobrometo de Galantamina 16 mg - por cápsula"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 63770188
+              },
+              {
+                "row_index_0": 5202,
+                "texto_atual": "Hidrobrometo de Galantamina 24 mg - por cápsula",
+                "celulas": [
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": "Hidrobrometo de Galantamina 24 mg - por cápsula"
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  },
+                  {
+                    "rowspan": 1,
+                    "texto_atual": ""
+                  }
+                ],
+                "offset_html_byte_aproximado": 63772654
+              }
+            ]
+          },
+          "limite_classificatorio": "Confirmar composição, pureza e forma química efetivas do fornecimento; a NVE é atributo complementar à NCM e não homologação fiscal da operação."
+        }
+      ],
+      "instrucao_complementacao": "Unir somente as identidades e rotas explícitas, sem alargar a todoNCM; preservar todos os escopos anteriores e não combinar automaticamente benefícios.",
+      "combinacao_automatica_beneficios": "NAO",
+      "aplicacao_automatica": "NAO",
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "fonte_legal_go": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "data_referencia": "2026-10-29"
+    }
+  ],
+  "total_ids_positivos": 17,
+  "total_rotas": 19,
+  "total_beneficios_agrupados": 12,
+  "ids_sem_proposta": [
+    "OUTROS_196",
+    "OUTROS_112",
+    "OUTROS_115"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "referencia": "2026-10-29",
+  "decisoes_sobre_itens_nao_julgados": [
+    {
+      "tema": "Homologação de mercadoria/operação concreta",
+      "decisao": "Manter todos os vínculos como candidatos condicionais com revisão humana, sem regra_consolidada_id ou evidencia_ncm_id. Não homologar nem aplicar automaticamente.",
+      "limite_se_incorreto": "Aplicar sem os fatos exigidos pode enquadrar incorretamente o produto; o sistema conserva o aviso e as condições."
+    },
+    {
+      "tema": "Tensão sildenafila base/citrato",
+      "decisao": "Preservar rotas segregadas por CAS e documento primário, com revisão fiscal expressa na rota da base; não resolver a divergência por inferência.",
+      "limite_se_incorreto": "A classificação concreta pode exigir consulta fiscal; nenhum direito à isenção está certificado."
+    },
+    {
+      "tema": "Retroatividade e equivalência histórica universal",
+      "decisao": "Usar início cadastral29/10/2026 e vínculos materiais restritos; NVE/TIPI/Rastreador não homologam retroativamente o alcance goiano.",
+      "limite_se_incorreto": "Não cobre operações históricas nem autoriza transportar cestas inteiras."
+    },
+    {
+      "tema": "Testes, Neon, CI e autorização",
+      "decisao": "Implementador principal executa e registra suite,ensaios,conflitos,comparação integral e leitura de produção; revisão documental não é apresentada como execução desses testes. Autorização condicional/Git/integração preservada da sessão.",
+      "limite_se_incorreto": "Falha em qualquer guarda/teste impede declarar implantação concluída."
+    },
+    {
+      "tema": "Exaustividade de legislação posterior",
+      "decisao": "Registrar fontes e data29/10/2026; não declarar cobertura fiscal universal ou exaustividade de atos não consultados.",
+      "limite_se_incorreto": "Atualização normativa futura ou ato não identificado pode exigir nova revisão; candidatos não substituem consulta legal."
+    }
+  ],
+  "I1": "Corrigido por teste RED→GREEN;8IDsparciais conservados; lote operacional idêntico ao revisado/ensaio.",
+  "menores_adiados": [],
+  "homologacao_fiscal": false
+}

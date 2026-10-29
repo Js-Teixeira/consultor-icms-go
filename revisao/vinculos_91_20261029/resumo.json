@@ -1,0 +1,47 @@
+{
+  "referencia": "2026-10-29",
+  "ids_investigados": 91,
+  "ids_com_proposta": 80,
+  "ids_sem_proposta": [
+    "OUTROS_002",
+    "OUTROS_039",
+    "OUTROS_040",
+    "OUTROS_041",
+    "OUTROS_043",
+    "OUTROS_112",
+    "OUTROS_115",
+    "OUTROS_151",
+    "OUTROS_152",
+    "OUTROS_183",
+    "OUTROS_196"
+  ],
+  "ids_parciais": [
+    "OUTROS_118",
+    "OUTROS_101",
+    "OUTROS_102",
+    "OUTROS_017",
+    "OUTROS_019",
+    "OUTROS_034",
+    "OUTROS_035",
+    "OUTROS_083"
+  ],
+  "pares": 60,
+  "rotas": 107,
+  "novos": 46,
+  "complementos": 14,
+  "novas_fontes": 3,
+  "beneficios_esperados": 2267,
+  "fontes_esperadas": 72,
+  "partes_sql": 2,
+  "tipos_novos": {
+    "ISENCAO": 18,
+    "CARGA_EFETIVA": 28
+  },
+  "base_producao_antes": {
+    "beneficios": 2221,
+    "legislacao": 69,
+    "aliquotas": 634
+  },
+  "sem_alteracao_nominal": true,
+  "homologacao_fiscal": false
+}

@@ -1,0 +1,94 @@
+{
+  "data_referencia": "2026-10-29",
+  "status": "APROVADO_DOCUMENTALMENTE_PARA_REVISAO_HUMANA_SEM_HOMOLOGACAO",
+  "checagens": [
+    {
+      "checagem": "43 IDs únicos e exatamente o escopo autorizado",
+      "resultado": "PASS"
+    },
+    {
+      "checagem": "originais preservados integralmente",
+      "resultado": "PASS"
+    },
+    {
+      "checagem": "pares(template,NCM) únicos",
+      "resultado": "PASS"
+    },
+    {
+      "checagem": "todos NCMs propostos têm8dígitos e estão ativos no catálogo10516",
+      "resultado": "PASS"
+    },
+    {
+      "checagem": "nenhum percentual novo e cBenef apenasoriginaisGO812022/GO812023",
+      "resultado": "PASS"
+    },
+    {
+      "checagem": "aplicação e combinação automáticas vedadas; revisãofiscal obrigatória",
+      "resultado": "PASS"
+    },
+    {
+      "checagem": "fontes de toda conclusão resolvem no registro",
+      "resultado": "PASS"
+    },
+    {
+      "checagem": "toda fonte temURL,versão,consulta,localizador e trecho",
+      "resultado": "PASS"
+    },
+    {
+      "checagem": "SHA256 das evidênciasregistradasconfere",
+      "resultado": "PASS"
+    },
+    {
+      "checagem": "todos os40IDs candidatos e somente eles aparecem naspropostas",
+      "resultado": "PASS"
+    },
+    {
+      "checagem": "NCMs de cada conclusão e rotas são coincidentes",
+      "resultado": "PASS"
+    },
+    {
+      "checagem": "codeína dosada somente30044940 e comresíduos explícitos",
+      "resultado": "PASS"
+    },
+    {
+      "checagem": "interferonas agregadas têm subrotas porNCM",
+      "resultado": "PASS"
+    },
+    {
+      "checagem": "fármacosimunológicos não usam ramo dosado300215",
+      "resultado": "PASS"
+    },
+    {
+      "checagem": "levodopa associações em30049035 com dose/originalmantidos",
+      "resultado": "PASS"
+    },
+    {
+      "checagem": "nenhuma hipótese bloqueada foi proposta",
+      "resultado": "PASS"
+    },
+    {
+      "checagem": "três templatesderivados com datas/fonte comprovadas",
+      "resultado": "PASS"
+    },
+    {
+      "checagem": "parâmetrosfiscaisdos templatesoriginais preservados",
+      "resultado": "PASS"
+    },
+    {
+      "checagem": "GO29/10 classes/textos35202parágrafos iguais à27/10",
+      "resultado": "PASS"
+    }
+  ],
+  "estatisticas": {
+    "conclusoes": 43,
+    "ids_com_candidato": 40,
+    "ids_parciais": 2,
+    "ids_bloqueados": 3,
+    "pares_template_ncm": 16,
+    "rotas_por_id_ncm": 51,
+    "novos_pares": 10,
+    "complementacoes_pares_existentes": 6,
+    "fontes": 56
+  },
+  "limites": "Validação estrutural e consistência documental; não é homologação da interpretação fiscal, classificação da operação ou regularidade sanitária."
+}

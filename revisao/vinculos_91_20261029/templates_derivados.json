@@ -1,0 +1,117 @@
+{
+  "data_referencia": "2026-10-29",
+  "templates": [
+    {
+      "id": "GO_A9_ART7_XXXV_BC_D20030606",
+      "dispositivo": "RCTE/GO, AnexoIX, art7, incisoXXXV; alínea(s)b,c",
+      "jurisdicao": "GO",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "trecho_legal": "XXXV - a operação com os medicamentos a seguir relacionados, desde que a parcela correspondente à receita bruta relativa à operação com os medicamentos seja desonerada das contribuições para o PIS/PASEP e COFINS, ficando mantido o crédito (Convênio ICMS 140/01, cláusula primeira):\nb) interferon alfa-2A, código 3002.10.39;\nc) interferon alfa-2B, código 3002.10.39;",
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "escopo_operacao": "AMBAS",
+      "vigencia_inicio": "2003-06-06",
+      "vigencia_fim": "2026-12-31",
+      "vigencia_observacao": "Início da redaçãoatual/conjugação de condições comprovada na notaGO, sem homologação retroativa. Fim31/12/2026 conforme nota atual doinciso.",
+      "cbenef": "GO812022",
+      "cbenef_fonte": "https://appasp.economia.go.gov.br/Legislacao/arquivos/Secretario/IN/IN_1518_2022.htm",
+      "cbenef_trecho_oficial": "GO812022 SIM SIM SIM RCTE, Anexo IX, Art 7º, Inciso XXXV ISENÇÃO - Operações com os medicamentos relacionados na cláusula primeira do Convênio ICMS-140/01 ",
+      "condicoes": [
+        "Somente medicamentos de identidade expressamente relacionada na alíneab/c, sem ampliar para matérias-primas industriais pela mera identidade do princípioativo.",
+        "A parcela da receita bruta correspondente à operação deve estar desonerada dePIS/PASEPeCOFINS.",
+        "Mantidoocrédito.",
+        "Confirmar apresentação e classificação atual por fontefederal, além das condições gerais doAnexoIX."
+      ],
+      "status": "CANDIDATO_CONDICIONAL",
+      "exige_descricao": "SIM",
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO",
+      "regras_gerais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+      "subdispositivos": [
+        "alínea b",
+        "alínea c"
+      ],
+      "vigencia_inicio_fonte_trecho": "CONFERIDA NOVA REDAÇÃO AO caput do inciso xxxv do art. 7º PELO ART. 2º DO DECRETO Nº 5.825, DE 05.09.03 - vigência: 06.06.03.",
+      "vigencia_inicio_fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "vigencia_fim_fonte_trecho": "NOTA: Benefício concedido até 31.12.26",
+      "vigencia_fim_fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "fonte_documental": "GO_XXXV",
+      "data_verificacao": "2026-10-29",
+      "id_legislacao_proposta": "LEG_RES91_20261029_GO_A9_ART7_XXXV_BC_D20030606"
+    },
+    {
+      "id": "GO_A9_ART7_XXXV_M_D20100901",
+      "dispositivo": "RCTE/GO, AnexoIX, art7, incisoXXXV; alínea(s)m",
+      "jurisdicao": "GO",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "trecho_legal": "XXXV - a operação com os medicamentos a seguir relacionados, desde que a parcela correspondente à receita bruta relativa à operação com os medicamentos seja desonerada das contribuições para o PIS/PASEP e COFINS, ficando mantido o crédito (Convênio ICMS 140/01, cláusula primeira):\nm) Complexo Protrombínico Parcialmente Ativado (a PCC), código 3002.10.39;",
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "escopo_operacao": "AMBAS",
+      "vigencia_inicio": "2010-09-01",
+      "vigencia_fim": "2026-12-31",
+      "vigencia_observacao": "Início da redaçãoatual/conjugação de condições comprovada na notaGO, sem homologação retroativa. Fim31/12/2026 conforme nota atual doinciso.",
+      "cbenef": "GO812022",
+      "cbenef_fonte": "https://appasp.economia.go.gov.br/Legislacao/arquivos/Secretario/IN/IN_1518_2022.htm",
+      "cbenef_trecho_oficial": "GO812022 SIM SIM SIM RCTE, Anexo IX, Art 7º, Inciso XXXV ISENÇÃO - Operações com os medicamentos relacionados na cláusula primeira do Convênio ICMS-140/01 ",
+      "condicoes": [
+        "Somente medicamentos de identidade expressamente relacionada na alíneam, sem ampliar para matérias-primas industriais pela mera identidade do princípioativo.",
+        "A parcela da receita bruta correspondente à operação deve estar desonerada dePIS/PASEPeCOFINS.",
+        "Mantidoocrédito.",
+        "Confirmar apresentação e classificação atual por fontefederal, além das condições gerais doAnexoIX."
+      ],
+      "status": "CANDIDATO_CONDICIONAL",
+      "exige_descricao": "SIM",
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO",
+      "regras_gerais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+      "subdispositivos": [
+        "alínea m"
+      ],
+      "vigencia_inicio_fonte_trecho": "ACRESCIDA A ALÍNEA \"M\" AO INCISO XXXV DO ART. 7º pelo art. 1º DO DECRETO Nº 7.184, de 12.11.10 - vigência: 01.09.10.",
+      "vigencia_inicio_fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "vigencia_fim_fonte_trecho": "NOTA: Benefício concedido até 31.12.26",
+      "vigencia_fim_fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "fonte_documental": "GO_XXXV",
+      "data_verificacao": "2026-10-29",
+      "id_legislacao_proposta": "LEG_RES91_20261029_GO_A9_ART7_XXXV_M_D20100901"
+    },
+    {
+      "id": "GO_A9_ART7_XXXV_N_D20101201",
+      "dispositivo": "RCTE/GO, AnexoIX, art7, incisoXXXV; alínea(s)n",
+      "jurisdicao": "GO",
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "trecho_legal": "XXXV - a operação com os medicamentos a seguir relacionados, desde que a parcela correspondente à receita bruta relativa à operação com os medicamentos seja desonerada das contribuições para o PIS/PASEP e COFINS, ficando mantido o crédito (Convênio ICMS 140/01, cláusula primeira):\nn) rituximabe, código 3002.10.38;",
+      "tipo_beneficio": "ISENCAO",
+      "percentual_carga_efetiva": null,
+      "escopo_operacao": "AMBAS",
+      "vigencia_inicio": "2010-12-01",
+      "vigencia_fim": "2026-12-31",
+      "vigencia_observacao": "Início da redaçãoatual/conjugação de condições comprovada na notaGO, sem homologação retroativa. Fim31/12/2026 conforme nota atual doinciso.",
+      "cbenef": "GO812022",
+      "cbenef_fonte": "https://appasp.economia.go.gov.br/Legislacao/arquivos/Secretario/IN/IN_1518_2022.htm",
+      "cbenef_trecho_oficial": "GO812022 SIM SIM SIM RCTE, Anexo IX, Art 7º, Inciso XXXV ISENÇÃO - Operações com os medicamentos relacionados na cláusula primeira do Convênio ICMS-140/01 ",
+      "condicoes": [
+        "Somente medicamentos de identidade expressamente relacionada na alínean, sem ampliar para matérias-primas industriais pela mera identidade do princípioativo.",
+        "A parcela da receita bruta correspondente à operação deve estar desonerada dePIS/PASEPeCOFINS.",
+        "Mantidoocrédito.",
+        "Confirmar apresentação e classificação atual por fontefederal, além das condições gerais doAnexoIX."
+      ],
+      "status": "CANDIDATO_CONDICIONAL",
+      "exige_descricao": "SIM",
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO",
+      "regras_gerais": "Observar disposições gerais dos arts. 1º a 5º do Anexo IX, inclusive regularidade, contribuição PROTEGE apenas quando o dispositivo estiver enumerado, e limitações de cumulação/programa aplicáveis.",
+      "subdispositivos": [
+        "alínea n"
+      ],
+      "vigencia_inicio_fonte_trecho": "ACRESCIDA A ALÍNEA \"N\" AO INCISO XXXV DO ART. 7º pelo art. 2º DO DECRETO Nº 7.195, de 27.12.10 - vigência: 01.12.10.",
+      "vigencia_inicio_fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "vigencia_fim_fonte_trecho": "NOTA: Benefício concedido até 31.12.26",
+      "vigencia_fim_fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "fonte_documental": "GO_XXXV",
+      "data_verificacao": "2026-10-29",
+      "id_legislacao_proposta": "LEG_RES91_20261029_GO_A9_ART7_XXXV_N_D20101201"
+    }
+  ]
+}

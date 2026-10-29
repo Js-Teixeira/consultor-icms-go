@@ -1,0 +1,847 @@
+{
+  "data_referencia": "2026-10-29",
+  "fontes": [
+    {
+      "id": "TIPI_NOTA2",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "Decreto11.158/2022; TIPI consolidada já conferida RFB29/10/2026",
+      "localizador": {
+        "pagina_pdf_1_base": 143,
+        "linha_newline_1_base": 8214,
+        "busca_literal": "2.- Na acepção da posição 30.02"
+      },
+      "trecho": "2.- Na acepção da posição 30.02, consideram-se \"produtos imunológicos\" os peptídios e as proteínas (com exclusão dos\n    produtos da posição 29.37) que participem diretamente na regulação dos processos imunológicos, tais como os anticorpos\n    monoclonais (MAB), os fragmentos de anticorpos, os conjugados de anticorpos e os conjugados de fragmentos de\n    anticorpos, as interleucinas, as interferonas (IFN), as quimiocinas, bem como alguns fatores de necrose tumoral (TNF),\n    fatores de crescimento (GF), hematopoietinas e fatores de estimulação de colônias (CSF).\n3.- Na acepção das posições 30.03 e 30.04 e da Nota 4 d) do presente Capítulo, consideram-se:\n    a) Produtos nã",
+      "resumo_tecnico": "",
+      "observacao_limites": "",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c"
+    },
+    {
+      "id": "TIPI_NOTA_SUB",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "SH2022; TIPI atual",
+      "localizador": {
+        "pagina_pdf_1_base": 144,
+        "linha_newline_1_base": 8253,
+        "busca_literal": "1.- Na acepção das subposições 3002.13 e 3002.14"
+      },
+      "trecho": "1.- Na acepção das subposições 3002.13 e 3002.14, considera-se:\n    a) Como produtos não misturados, os produtos puros, mesmo que contenham impurezas;\n    b) Como produtos misturados:\n         1) As soluções aquosas e as outras soluções dos produtos da alínea a), acima;\n         2) Os produtos das alíneas a) e b) 1), acima, adicionados de um estabilizante indispensável à sua conservação ou ao\n            seu transporte;\n         3) Os produtos das alíneas a), b) 1) e b) 2), acima, adicionados de outros aditivos.\n2.- As subposições 3003.60 e 3004.60 compreendem os medicamentos que contenham artemisinina (DCI) para administração\n    por via oral associada a outros ingredientes farmacêuticos ",
+      "resumo_tecnico": "",
+      "observacao_limites": "",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c"
+    },
+    {
+      "id": "NESH_IMUNO",
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "NESH2022 oficial",
+      "localizador": {
+        "pagina_pdf_1_base": 749,
+        "linha_newline_1_base": 29369,
+        "busca_literal": "2) Os produtos imunológicos, mesmo modificados"
+      },
+      "trecho": "   2) Os produtos imunológicos, mesmo modificados ou obtidos por via biotecnológica.\n       Os produtos utilizados para fins de diagnóstico, de análises imunológicas ou para fins\n       terapêuticos consideram-se como pertencentes a esta categoria. São definidos do seguinte modo:\n       a) Anticorpos monoclonais (MAB) - imunoglobulinas específicas compostas de células de\n          hibridomas selecionadas e clonadas, mantidas em cultura in vitro ou sob a forma de tumor\n          ascítico.\n       b) Fragmentos de anticorpos - partes ativas de uma proteína de anticorpos obtidas, por\n          exemplo, por clivagem enzimática específica. Este grupo inclui, entre outros, os anticorpos\n          de cadeia simples (scFv).\n       c) Conjugados de anticorpos e de fragmentos de anticorpos - conjugados que contêm pelo\n          menos um anticorpo ou um fragmento de anticorpo. Os tipos mais simples são uma\n          combinação dos seguintes elementos:\n           1º) Anticorpo - anticorpo;\n           2º) Fragmento de anticorpo - fragmento de anticorpo;\n           3º) Anticorpo - fragmento de anticorpo;\n           4º) Anticorpo - outra substância;\n           5º) Fragmento de anticorpo - outra substância.\n           Os conjugados dos tipos 4º) e 5º) compreendem, por exemplo, as enzimas ligadas por\n           covalência à estrutura proteica (por exemplo, fosfatase alcalina, peroxidase,\n           betagalactosidase) ou corantes (fluoresceína) utilizados para reações de dosagens simples.\n           Esta posição também compreende as interleucinas, as interferonas (IFN), as quimiocinas,\n           bem como alguns fatores de necrose tumoral (TNF), fatores de crescimento (GF),\n           hematopoietinas e fatores de estimulação de colônias (CSF).\nD) Vacinas, toxinas, culturas de microrganismos (exceto as leveduras) e produtos semelhantes.\n",
+      "resumo_tecnico": "",
+      "observacao_limites": "",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/nesh_2022.txt",
+      "sha256": "b60731dbe38771890389d989f554b9d3ef6f97b7214f7be8c3a263092d92256c"
+    },
+    {
+      "id": "NESH_SOROS",
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "NESH2022 oficial",
+      "localizador": {
+        "pagina_pdf_1_base": 748,
+        "linha_newline_1_base": 29335,
+        "busca_literal": "Os soros são as frações fluidas do sangue"
+      },
+      "trecho": "        Os soros são as frações fluidas do sangue que se separam após a coagulação.\n        Estão compreendidos nesta posição, entre outros, os seguintes produtos derivados do sangue\n        (incluindo as células endoteliais vasculares): os soros “normais”, imunoglobulina humana\n        normal, as frações do sangue e suas variantes truncadas (partes) tendo uma atividade ou\n        propriedades enzimáticas, plasma, trombina, fibrinogênio, fibrina e outros fatores de coagulação\n        do sangue, trombomodulina, as globulinas do sangue, soroglobulinas e a hemoglobina. Incluem-\n        se igualmente neste grupo as trombomodulinas modificadas e as hemoglobinas modificadas\n        obtidas por processos biotecnológicos, por exemplo, a sotrombomodulina alfa (DCI) e a\n        trombomodulina alfa (DCI), bem como as hemoglobinas reticuladas tais como hemoglobina\n        crosfumarila (DCI), hemoglobina glutâmer (DCI) e hemoglobina rafimer (DCI).\n\n\n\n\n                                                      VI-3002-1\n\f                                                                                                                 30.02\n\n       A posição compreende também a albumina do sangue (a albumina humana obtida por\n       fracionamento do plasma do sangue humano total, por exemplo) preparada para fins terapêuticos\n       ou profiláticos.\n       Os soros específicos contra as doenças, quer sejam provocadas por microrganismos patogênicos,\n       por toxinas ou por certos fenômenos alérgicos, etc., provêm do sangue de animais ou de pessoas\n       imunizados. Entre os soros específicos podem citar-se os soros antidiftérico, antidisentérico,\n       antigangrenoso, antimeningocócico, antipneumocócico, antitetânico, antiestafilocócico,\n       antiestreptocócico, antiofídico, antivenenoso e antialérgico. Os soros específicos são também\n",
+      "resumo_tecnico": "",
+      "observacao_limites": "",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/nesh_2022.txt",
+      "sha256": "b60731dbe38771890389d989f554b9d3ef6f97b7214f7be8c3a263092d92256c"
+    },
+    {
+      "id": "NESH_ENZIMAS",
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "NESH2022 oficial",
+      "localizador": {
+        "pagina_pdf_1_base": 842,
+        "linha_newline_1_base": 33310,
+        "busca_literal": "35.07 - Enzimas;"
+      },
+      "trecho": "35.07 - Enzimas; enzimas preparadas não especificadas nem compreendidas noutras posições.\n\n        3507.10 - Coalho e seus concentrados\n        3507.90 - Outras\n\n\nAs enzimas são substâncias orgânicas, elaboradas por células vivas, suscetíveis de desencadear e regular\nreações químicas específicas no interior ou no exterior das células vivas sem sofrerem modificações na\nsua estrutura química.\nAs enzimas podem subdividir-se:\nI. Em função da sua constituição química, em:\n   a) Enzimas cuja molécula é constituída unicamente por uma proteína (pepsina, tripsina, urease,\n      etc.).\n   b) Enzimas cuja molécula é constituída por uma proteína associada a um composto não proteico de\n      baixo peso molecular que atua como cofator. O cofator pode ser um íon metálico (por exemplo,\n      o cobre, na oxidase do ascorbato, o zinco, na fosfatase alcalina da placenta humana) ou uma\n      molécula orgânica complexa, denominada coenzima (por exemplo, o difosfato de tiamina, na\n      decarboxílase do piruvato, o fosfato piridoxal, na aminotransferase do glutamino-oxo-ácido).\n      Em certos casos, ambos devem estar pr",
+      "resumo_tecnico": "",
+      "observacao_limites": "",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/nesh_2022.txt",
+      "sha256": "b60731dbe38771890389d989f554b9d3ef6f97b7214f7be8c3a263092d92256c"
+    },
+    {
+      "id": "NESH_EXCLUSAO_SANGUE",
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "NESH2022 oficial",
+      "localizador": {
+        "pagina_pdf_1_base": 845,
+        "linha_newline_1_base": 33483,
+        "busca_literal": "As culturas de microrganismos, enzimas do sangue"
+      },
+      "trecho": "d)   As culturas de microrganismos, enzimas do sangue (trombina, por exemplo), frações do sangue e suas variantes truncadas\n     (partes) tendo uma atividade ou propriedades enzimáticas e os outros produtos da posição 30.02.\n\n                                           ______________________\n\n\n\n\n                                                       VI-3507-4\n\f36\n\n                                                       Capítulo 36\n",
+      "resumo_tecnico": "",
+      "observacao_limites": "",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/nesh_2022.txt",
+      "sha256": "b60731dbe38771890389d989f554b9d3ef6f97b7214f7be8c3a263092d92256c"
+    },
+    {
+      "id": "TIPI_ANTISSOROS",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "TIPI atual",
+      "localizador": {
+        "pagina_pdf_1_base": 144,
+        "linha_newline_1_base": 8294,
+        "busca_literal": "3002.12.1"
+      },
+      "trecho": "    3002.12.1           Antissoros específicos de animais ou de pessoas imunizados\n    3002.12.11           Antiofídicos e outros antivenenosos                                                        0\n    3002.12.12           Antitetânico                                                                               0\n    3002.12.13           Anticatarral                                                                               0\n    3002.12.14           Antipiogênico                                                                              0\n    3002.12.15           Antidiftérico                                                                              0\n    3002.12.16           Polivalentes                                                                               0\n    3002.12.19           Outros                                                                                     0\n    3002.12.2           Outras frações do sangue, exce",
+      "resumo_tecnico": "",
+      "observacao_limites": "",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c"
+    },
+    {
+      "id": "TIPI_IGG",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "TIPI atual",
+      "localizador": {
+        "pagina_pdf_1_base": 145,
+        "linha_newline_1_base": 8316,
+        "busca_literal": "3002.12.35"
+      },
+      "trecho": "3002.12.35         Imunoglobulina G, liofilizada ou em solução                                                0\n3002.12.36         Soroalbumina humana                                                                        0\n3002.12.39         Outros                                                             ",
+      "resumo_tecnico": "",
+      "observacao_limites": "",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c"
+    },
+    {
+      "id": "TIPI_IMUNO",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "TIPI atual",
+      "localizador": {
+        "pagina_pdf_1_base": 145,
+        "linha_newline_1_base": 8319,
+        "busca_literal": "3002.13.00"
+      },
+      "trecho": "3002.13.00   -- Produtos imunológicos, não misturados, não apresentados em doses nem\n                acondicionados para venda a retalho                                                          0\n3002.14.00   -- Produtos imunológicos, misturados, não apresentados em doses nem acondicionados\n                para venda a retalho                                                                         0\n3002.15      -- Produtos imunológicos, apresentados em doses ou acondicionados para venda a retalho\n3002.15.10         betainterferona; alfapeginterferona 2a                                                    0\n3002.15.20         Basiliximab (DCI); bevacizumab (DCI); daclizumab (DCI); etanercept (DCI);\n                   gemtuzumab ozogamicin (DCI); oprelvekin (DCI); rituximab (DCI); trastuzumab (DCI)         0\n3002.15.90         Outros                                                                                    0\n3002.4       - Vacinas, toxinas, culturas de microrganismos (exceto leveduras) e ",
+      "resumo_tecnico": "",
+      "observacao_limites": "",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c"
+    },
+    {
+      "id": "TIPI_VACINAS",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "TIPI atual",
+      "localizador": {
+        "pagina_pdf_1_base": 145,
+        "linha_newline_1_base": 8330,
+        "busca_literal": "3002.41.1"
+      },
+      "trecho": "3002.41.1        Não apresentadas em doses, nem acondicionadas para venda a retalho\n3002.41.11         Contra a gripe                                                                            0\n3002.41.12         Contra a poliomielite                                                                     0\n3002.41.13         Contra a hepatite B                                                                       0\n3002.41.14         Contra o sarampo                                                                          0\n3002.41.15         Contra a meningite                                                                        0\n3002.41.16         Contra a rubéola, sarampo e caxumba (tríplice)                                            0\n3002.41.17         Outras tríplices                                                                          0\n3002.41.18         Anticatarral e antipiogênico                                                              0\n3002.41.19         Outras                                                                                    0\n3002.41.2        Apresentadas em doses ou acondicionadas para venda a retalho\n3002.41.21         Contra a gripe                                                                            0\n3002.41.22         Contra a poliomielite                                                                     0\n3002.41.23         Contra a hepatite B                                                                       0\n3002.41.24         Contra o sarampo                                                                          0\n3002.41.25         Contra a meningite                                                                        0\n3002.41.26         Contra a rubéola, saramp",
+      "resumo_tecnico": "",
+      "observacao_limites": "",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c"
+    },
+    {
+      "id": "TIPI_ALCALOIDES",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "TIPI atual",
+      "localizador": {
+        "pagina_pdf_1_base": 151,
+        "linha_newline_1_base": 8717,
+        "busca_literal": "3004.49.10"
+      },
+      "trecho": "3004.49.10        Vimblastina; vincristina; derivados destes produtos; topotecan ou seu cloridrato                0\n3004.49.20        Pilocarpina, seu nitrato ou seu cloridrato                                                      0\n3004.49.30        Metanossulfonato de di-hidroergocristina                                                        0\n3004.49.40        Codeína ou seus sais                                                                            0\n3004.49.50        Granisetron; tropisetrona ou seu cloridrato                                                     0\n3004.49.90        Outros                                                                                          0\n3004.50      - Outros, que contenham vitaminas ou outros produtos da posição 29.36\n3004.50.10        Folinato de cálcio (leucovorina)                                                                0\n3004.50.20        Nicotinamida                                                                                    0\n3004.50.30        Hidroxocobalamina ou seus sais; cianocobalamina                                  ",
+      "resumo_tecnico": "",
+      "observacao_limites": "",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c"
+    },
+    {
+      "id": "TIPI_LEVODOPA",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "TIPI atual",
+      "localizador": {
+        "pagina_pdf_1_base": 151,
+        "linha_newline_1_base": 8753,
+        "busca_literal": "3004.90.3"
+      },
+      "trecho": "3004.90.3         Que contenham produtos das posições 29.21 e 29.22, mas que não contenham\n                  produtos dos itens 3004.90.1 e 3004.90.2\n3004.90.31         Sulfato de tranilcipromina; dietilpropiona                                                     0\n3004.90.32         Cloridrato de ketamina                                                                         0\n3004.90.33         Clembuterol ou seu cloridrato                                                                  0\n3004.90.34         Tamoxifen ou seu citrato                                                                       0\n3004.90.35         Levodopa; alfa-metildopa                                                                       0\n3004.90.36         Cloridrato de fenilefrina; mirtecaína; propranolol ou seus sais                                0\n3004.90.37         Diclofenaco de sódio; diclofenaco de potássio; diclofenaco de dietilamônio                     0\n3004.90.38         Clorambucil; clormetina (DCI) ou seu cloridrato; melfalano; toremifene ou seu citrato          0\n3004.90.39         Outros                                                                                         0\n3004.90.4         Que contenham produtos das posições 29.24 a 29.26, mas que não contenham\n                  produtos dos itens 3004.90.1 a 3004.90.3\n3004.90.41         Metoclopramida ou seu cloridrato; closantel                                                    0\n3004.90.42         Atenolol; prilocaína ou seu cl",
+      "resumo_tecnico": "",
+      "observacao_limites": "",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c"
+    },
+    {
+      "id": "NVE_ANTIHB",
+      "url": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/139921/visao/vigente",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "PortariaCoana159de05/08/2024; visão vigente consultada29/10/2026",
+      "localizador": {
+        "pagina_pdf_1_base": 63,
+        "linha_newline_1_base": 2996,
+        "busca_literal": "30021239   U   AA   PRODUTO   0002"
+      },
+      "trecho": "30021239   U   AA   PRODUTO   0002   Imunoglobulina da hepatite B\n30021239   U   AA   PRODUTO   9999   Outros\n30021590   U   AA   PRODUTO   0001   Ad",
+      "resumo_tecnico": "",
+      "observacao_limites": "Especificação federal nominal do medicamento; não se transpõe NVE de matéria-prima.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/nve159_2024.txt",
+      "sha256": "a7833330b419ecd58bfe0a07a9f4ba467bd68889bf75ccb60a315c132eed3c05"
+    },
+    {
+      "id": "NVE_MOLGRAMOSTIM",
+      "url": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/139921/visao/vigente",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "PortariaCoana159/2024",
+      "localizador": {
+        "pagina_pdf_1_base": 63,
+        "linha_newline_1_base": 3012,
+        "busca_literal": "30021590   U   AA   PRODUTO   0015"
+      },
+      "trecho": "30021590   U   AA   PRODUTO   0015   Molgramostima\n30021590   U   AA   PRODUTO   9999   Outros\n30024992   U  ",
+      "resumo_tecnico": "",
+      "observacao_limites": "",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/nve159_2024.txt",
+      "sha256": "a7833330b419ecd58bfe0a07a9f4ba467bd68889bf75ccb60a315c132eed3c05"
+    },
+    {
+      "id": "NVE_IPRATROPIO",
+      "url": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/139921/visao/vigente",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "PortariaCoana159/2024",
+      "localizador": {
+        "pagina_pdf_1_base": 113,
+        "linha_newline_1_base": 5416,
+        "busca_literal": "30044990   U   AA   CAS/DCB   0085"
+      },
+      "trecho": "30044990   U   AA   CAS/DCB   0085   022254-24-6/À base de brometo de ipratrópio (brometo de tropano)\n30044990   U   AA   CAS/DCB   00",
+      "resumo_tecnico": "",
+      "observacao_limites": "",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/nve159_2024.txt",
+      "sha256": "a7833330b419ecd58bfe0a07a9f4ba467bd68889bf75ccb60a315c132eed3c05"
+    },
+    {
+      "id": "NVE_TENECTEPLASE",
+      "url": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/139921/visao/vigente",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "PortariaCoana159/2024",
+      "localizador": {
+        "pagina_pdf_1_base": 115,
+        "linha_newline_1_base": 5503,
+        "busca_literal": "30049019   U   AA   CAS/DCB   0004"
+      },
+      "trecho": "30049019   U   AA   CAS/DCB   0004   191588-94-0/À base de tenecteplase\n30049019   U   AA   CAS/DCB   9999   Outros\n300",
+      "resumo_tecnico": "",
+      "observacao_limites": "",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/nve159_2024.txt",
+      "sha256": "a7833330b419ecd58bfe0a07a9f4ba467bd68889bf75ccb60a315c132eed3c05"
+    },
+    {
+      "id": "NVE_LEVODOPA",
+      "url": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/139921/visao/vigente",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "PortariaCoana159/2024",
+      "localizador": {
+        "pagina_pdf_1_base": 117,
+        "linha_newline_1_base": 5583,
+        "busca_literal": "30049035   U   AA   CAS/DCB   0001"
+      },
+      "trecho": "30049035   U   AA   CAS/DCB   0001   000059-92-7/À base de levodopa\n30049035   U   AA   CAS/DCB   0003   000555-30-6/À ",
+      "resumo_tecnico": "",
+      "observacao_limites": "",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/nve159_2024.txt",
+      "sha256": "a7833330b419ecd58bfe0a07a9f4ba467bd68889bf75ccb60a315c132eed3c05"
+    },
+    {
+      "id": "NVE_BROMO_FARMACO",
+      "url": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/139921/visao/vigente",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "PortariaCoana159/2024",
+      "localizador": {
+        "pagina_pdf_1_base": 57,
+        "linha_newline_1_base": 2719,
+        "busca_literal": "29396990   U   AA   CAS/DCB   0002"
+      },
+      "trecho": "29396990   U   AA   CAS/DCB   0002   025614-03-3/Bromocriptina\n29396990   U   AA   CAS/DCB   0003   022260-51-1/Mesilato de bromocriptina\n29396990   U   AA   CAS/DCB   0004   066104-23-2/Me",
+      "resumo_tecnico": "",
+      "observacao_limites": "Prova de identidade química do alcaloide apenas; não classifica medicamento por si só.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/nve159_2024.txt",
+      "sha256": "a7833330b419ecd58bfe0a07a9f4ba467bd68889bf75ccb60a315c132eed3c05"
+    },
+    {
+      "id": "TIPI_2007_SOROS",
+      "url": "https://www2.camara.leg.br/legin/fed/decret/2006/decreto-6006-28-dezembro-2006-548912-anexo-pe.pdf",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "Decreto6006/2006 TIPI2007, fonte histórica Câmara",
+      "localizador": {
+        "pagina_pdf_1_base": 44,
+        "linha_newline_1_base": 4212,
+        "busca_literal": "3002.10.1"
+      },
+      "trecho": "3002.10.1          Anti-soros específicos de animais ou de pessoas imunizados                     3003.10.11   Ampicilina ou seus sais                                               0\n3002.10.11         Antiofídicos e outros antivenenosos                                    0       3003.10.12   Amoxicilina ou seus sais                                              0\n3002.10.12         Antitetânico                                                           0       3003.10.13   Penicilina G benzatínica                                              0\n3002.10.13         Anticatarral                                                           0       3003.10.14   Penicilina G potássica                                                0\n3002.10.14         Antipiogênico                                                          0       3003.10.15   Penicilina G procaínica                                               0\n3002.10.15         Antidiftérico                                                          0       3003.10.19   Outros                                                                0\n3002.10.16         Polivalentes                                                           0       3003.10.20   Contendo estreptomicinas ou seus derivados                            0\n                                                                                                  3003.20      -Contendo outros antibióticos\n3002.10.19         Outros                                                                 0\n                                                                                                  3003.20.1    Contendo anfenicóis ou seus derivados\n3002.10.2          Outras frações do sangue, produtos imunológicos modificados,\n                   mesmo obtidos por via biotecnológica, exceto os preparados co-                 3003.20.11   Cloranfenicol, seu palmitato, seu succinato ou seu hemi",
+      "resumo_tecnico": "",
+      "observacao_limites": "Evidência histórica do alcance residual30021019; não tabela vigente nem correlação oficial completa.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_2007_camara.txt",
+      "sha256": "34a79de1fb6b75141d2fee44ebb1b24880c0fa7ce34ae3091118f3ea6fd36508"
+    },
+    {
+      "id": "EMA_ABATACEPTE",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/orencia",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "OrenciaEPAR consultado29/10/2026",
+      "localizador": {
+        "secao": "How does Orencia work?; How is Orencia used?"
+      },
+      "trecho": "a protein that suppresses the activation of T cells",
+      "resumo_tecnico": "Abatacepte é proteína que se liga às moléculasCD80/CD86, reduzindo ativação de célulasT; medicamento em pó para infusão e seringas para viaSC.",
+      "observacao_limites": "A função imunológica demonstrada é cotejada com Nota2cap30; apresentação da matéria-prima continua condição individual.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/ema_orencia.html",
+      "sha256": "22c72dc77e56358f165c5cd08ac1a03c4bbad979f4ba4794ec67e2c03547ba8a"
+    },
+    {
+      "id": "MS_GOLIMUMABE",
+      "url": "https://www.gov.br/conitec/pt-br/assuntos/noticias/2021/dezembro/consulta-publica-recebe-contribuicoes-sobre-medicamento-para-tratamento-de-retocolite-ulcerativa",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "Conitecdez2021",
+      "localizador": {
+        "secao": "Descrição da tecnologia"
+      },
+      "trecho": "anticorpos monoclonais anti-TNF",
+      "resumo_tecnico": "Golimumabe é medicamento biológico antiTNF, administrado por injeção subcutânea; existência de registroAnvisa é informada na publicação.",
+      "observacao_limites": "Fonte clínica não fixa códigoNCM nem comprova registro atual da apresentação.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/ms_golimumabe.html",
+      "sha256": "4cb0a66673152fcea22ffa1f5403033972d69a847e3bedb1dc63b7ac91a57131"
+    },
+    {
+      "id": "ANVISA_TOCILIZUMABE",
+      "url": "https://www.gov.br/anvisa/pt-br/comunicacao/campanhas/coronavirus/medicamentos/tocilizumabe",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "Página23/05/2023; modificação27/04/2026",
+      "localizador": {
+        "secao": "O que é"
+      },
+      "trecho": "anticorpo monoclonal recombinante da subclasse de imunoglobulina G1",
+      "resumo_tecnico": "Tocilizumabe é anticorpo recombinante contra receptor humanoIL6.",
+      "observacao_limites": "ImunoglobulinaG1 monoclonal imunológica não se equipara automaticamente à fração plasmática comum30021235.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/anvisa_tocilizumabe.html",
+      "sha256": "bb0b59a5fb87fb7ac66ac8f9d2f630a856f380645fb85caa58b64e1c928dc520"
+    },
+    {
+      "id": "EMA_INFLIXIMABE",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/remicade-epar-product-information_en.pdf",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "RCM Remicade consultado29/10/2026",
+      "localizador": {
+        "secao": "2; PDFp2"
+      },
+      "trecho": "chimeric human-murine IgG1 monoclonal antibody",
+      "resumo_tecnico": "Infliximabe é anticorpoIgG1 quimérico humano-murino recombinante; frasco100mg, após reconstituição10mg/mL.",
+      "observacao_limites": "Corrobora composição e relação10mg/mL por10mL, preservada apresentaçãoGO.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/ema_remicade.pdf",
+      "sha256": "3fe5ec643ebd8b47f3d2adf8a19ade1224c614e70c07c2d563b0cf68054693ab"
+    },
+    {
+      "id": "EMA_BEVACIZUMABE",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/avastin-epar-product-information_en.pdf",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "RCMAvastin consultado29/10/2026",
+      "localizador": {
+        "secao": "2; PDFp2"
+      },
+      "trecho": "recombinant humanised monoclonal antibody",
+      "resumo_tecnico": "Bevacizumabe é anticorpo humanizado recombinante; preparado comercial dosado não prova estado da matéria-prima a granel.",
+      "observacao_limites": "NCM provém daTIPI e não daEMA.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/ema_avastin.pdf",
+      "sha256": "66d06bf8e8d4853783377bc4046bd6b4b0e313cc348c230743646f93a9381bb1"
+    },
+    {
+      "id": "ANVISA_RITUXIMABE",
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/medicamentos/novos-medicamentos-e-indicacoes/ruxience-rituximabe-novo-registro",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "RegistroRuxienceDOU04/05/2020",
+      "localizador": {
+        "secao": "Mais informações"
+      },
+      "trecho": "anticorpo monoclonal, que se liga especificamente ao CD20",
+      "resumo_tecnico": "Rituximabe é anticorpo monoclonal antiCD20; biossimilar aoMabThera.",
+      "observacao_limites": "Não demonstra universalidade de apresentações ou registro de todos os fabricantes.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/anvisa_rituximabe.html",
+      "sha256": "d369db81e86cb386d5bc085ce5cf5f4f8a39fa6e59a466335cb22c9ca679ae80"
+    },
+    {
+      "id": "MS_ADALIMUMABE",
+      "url": "https://www.gov.br/saude/pt-br/composicao/conjur/demandas-judiciais/notas-tecnicas/notas-tecnicas-medicamentos/a/adalimumabe.pdf",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "NotaTécnicaCONJUR/MS histórica",
+      "localizador": {
+        "secao": "1. O que é o adalimumabe?"
+      },
+      "trecho": "anticorpo monoclonal totalmente humano",
+      "resumo_tecnico": "Adalimumabe é anticorpo humano contraTNFalfa; nota descreve solução injetável40mg.",
+      "observacao_limites": "Nota técnica informativa histórica; registro atual deve ser conferido para o produto da operação.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/ms_adalimumabe.pdf",
+      "sha256": "45a92322a281e2b28c07a49ead8a05ae372ad99b4c33c635bcd55c432ce26e93"
+    },
+    {
+      "id": "ANVISA_FILGRASTIM",
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/medicamentos/novos-medicamentos-e-indicacoes/fil-filgrastim-novo-medicamento",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "RegistroFIL19/04/2021",
+      "localizador": {
+        "secao": "Mais informações"
+      },
+      "trecho": "fatores estimuladores de colônias de granulócitos (G-CSF)",
+      "resumo_tecnico": "Filgrastim éGCSF análogo recombinante produzido emE.coli; formulação líquida em vidro1mL, dose única.",
+      "observacao_limites": "NaturezaCSF expressamente coberta pelaNota2cap30 eNESH; não transportar dose doFIL ao fármaco industrial.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/anvisa_filgrastim.html",
+      "sha256": "7ce78b54767dbfb4c7828f3a77d4f797aacc4c68d0cf51dc09a736a3906166f9"
+    },
+    {
+      "id": "MS_MOLGRAMOSTIM",
+      "url": "https://www.gov.br/conitec/pt-br/midias/relatorios/2016/relatorio_molgramostim_final.pdf/@@display-file/file",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "RelatórioConitec202/jan2016",
+      "localizador": {
+        "pagina_pdf_1_base": 6,
+        "secao": "2. Exclusão do molgramostim300mcginjetável"
+      },
+      "trecho": "fator estimulador de colônias de granulócitos e macrófagos (GM-CSF)",
+      "resumo_tecnico": "Molgramostim éGMCSF modulador imunológico. Relatório registra apresentações300mcg inativas e exclusão doSUS, sem afirmar revogação da leiICMS.",
+      "observacao_limites": "Não prova existência de registro/comercialização atual; candidatos dependem de regularidade sanitária e todas condiçõesGO.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/ms_molgramostim.pdf",
+      "sha256": "20d48249cf08ec0dd4d311e5e6b81e5c009dca60b7c8cae1c754dd1936072211"
+    },
+    {
+      "id": "FDA_TENECTEPLASE",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/103909s5197lbl.pdf",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "RotuloFDA revisado02/2025",
+      "localizador": {
+        "pagina_pdf_1_base": 8,
+        "secao": "11 Description;12.1 Mechanism of action"
+      },
+      "trecho": "tissue plasminogen activator (tPA) produced by recombinant DNA technology",
+      "resumo_tecnico": "Tenecteplase: glicoproteína recombinante527aminoácidos, derivada detPA humano com modificações; converte plasminogênio em plasmina, domínio protease.",
+      "observacao_limites": "Identifica enzima biotecnológica; não resolve fronteira matéria-prima3507/3002; apresentação25mgFDA não é acrescentada à leiGO40/50mg.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/fda_tnkase.pdf",
+      "sha256": "f0fce6229855b9db523df466825aa1e80863217c24fed1adfd3d47cc8d6e7dbb"
+    },
+    {
+      "id": "AEMPS_FEIBA",
+      "url": "https://cima.aemps.es/cima/dochtml/ft/89446/FT_89446.html",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "FichaFEIBA100U/mL consultada29/10/2026",
+      "localizador": {
+        "secao": "2Composición;3Forma farmacéutica"
+      },
+      "trecho": "factores II, IX y X, principalmente no activados, así como el factor VII activado",
+      "resumo_tecnico": "Complexo coagulante anti-inibidor em proteínas plasmáticas humanas; pó e diluente para perfusão.",
+      "observacao_limites": "Corroborafração de sangue preparada como medicamento, não mero fatorVIII isolado ou imunológicoMAB.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/aemps_feiba.html",
+      "sha256": "5734c155bb30e0298fd5599c5257c28c738068eb8c3aeacb4f3ebba58a9d3169"
+    },
+    {
+      "id": "ANVISA_ANTIHB",
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/farmacopeia/farmacopeia-brasileira/arquivos/7993json-file-1/@@download/file/7993json-file-1.pdf",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "Farmacopeia Brasileira6edição2019, HD009-00",
+      "localizador": {
+        "monografia": "HD009-00; Imunoglobulina humana anti-hepatiteB",
+        "busca": "imunoglobulina humana anti-hepatite B; 10809"
+      },
+      "trecho": "contendo imunoglobulinas, principalmente a imunoglobulina G",
+      "resumo_tecnico": "Preparação líquida ou liofilizada de plasma de doadores com anticorpos contrahepatiteB, de uso intramuscular; pode receber imunoglobulina humana normal.",
+      "observacao_limites": "Documento completo baixado deURL pública alternativa oficial daAnvisa. O metadado403 não foi contornado. PrincipalmenteIgG não equivale automaticamente ao produto genérico30021235; NVE30021239 é prova federal nominal adicional.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/anvisa_farmacopeia_hemoderivados.pdf",
+      "sha256": "a36723bc319723f5637abc9616f7f416ba107cc3db274791354f7bac5803e7c1"
+    },
+    {
+      "id": "MS_ANTIHB2026",
+      "url": "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/notas-tecnicas/2026/nota-tecnica-no-48-2026-cgici-dpni-svsa-ms",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "NotaTécnica48/2026CGICI/DPNI/SVSA/MS",
+      "localizador": {
+        "secao": "apresentações"
+      },
+      "trecho": "100 UI/0,5 mL e 1000 UI/5 mL",
+      "resumo_tecnico": "Nota orienta imunoglobulinaGamaAntiHepatiteBGrifols em seringas.",
+      "observacao_limites": "UI não émg; nunca converter apresentações desta nota em600/100/500/1000mg da linhaGO.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/ms_anti_hepatite_2026.pdf",
+      "sha256": "2363141e548e52f4d9ed2a70f61c49da30da9dae083804bf90c659bb2d555efd"
+    },
+    {
+      "id": "MS_BROMO_SITUACAO",
+      "url": "https://www.gov.br/conitec/pt-br/midias/consultas/relatorios/2025/sociedade/relatorio-para-sociedade-no-581-exclusao-bromocriptina-parkinson-89",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "RelatórioSociedade581/2025",
+      "localizador": {
+        "secao": "registroAnvisa e comercialização"
+      },
+      "trecho": "cancelado em 11/08/2023",
+      "resumo_tecnico": "Conitec informa interrupção de produção e cancelamento do registroNovartis de mesilato de bromocriptina em2023; consulta sanitária realizada11/06/2025.",
+      "observacao_limites": "Não equivale à revogação da isençãoGO. Não comprova status sanitário de eventual importação futura; exigir verificação por operação.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/ms_bromocriptina_rel581.pdf",
+      "sha256": "551828a7cede3aab4c1bc0367c43a6087afd0f0ea95816bc2805f525c3904895"
+    },
+    {
+      "id": "MS_BROMO_IDENTIDADE",
+      "url": "https://anvisalegis.datalegis.net/action/ActionDatalegis.php?acao=abrirTextoAto&cod_menu=8542&cod_modulo=310&link=S&numeroAto=00000135&orgao=SVS%2FMS&seqAto=000&tipo=POR&valorAno=1997",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "PortariaSVS/MS135de17/03/1997",
+      "localizador": {
+        "secao": "Anexo InformaçãoaoPaciente"
+      },
+      "trecho": "Alcalóides do Ergot",
+      "resumo_tecnico": "Documento oficial de conteúdo de bula identifica bromocriptina comoalcaloide deergot; nomes químicos também corroborados naNVE29396990.",
+      "observacao_limites": "Informação de natureza química; não é sozinha classificação do medicamento.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/ms_bromocriptina_135.html",
+      "sha256": "08112673ed179407ace8f737ca91c4723e88d5f191cb41ac6c4c4fa23a6a5f96"
+    },
+    {
+      "id": "MG_CORROBORACAO",
+      "url": "https://www.fazenda.mg.gov.br/empresas/legislacao_tributaria/ricms_2023_seco/anexox2023_12.html",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "ConsolidaçãoMG consultada29/10/2026",
+      "localizador": {
+        "item": "17;135"
+      },
+      "trecho": "3004.49.90",
+      "resumo_tecnico": "MG relaciona bromocriptina2,5mg e mesilato com códigos30034990/30044990.",
+      "observacao_limites": "Fonte de outraUF sócorrobora identidade atual; não cria benefícioGO nem legitima3003 para comprimidos dosados.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/mg_farmacos.html",
+      "sha256": "32afa680445c53b2ad05937b12089dffb74c5516cd6773fdac0ac9df7c3b8662"
+    },
+    {
+      "id": "SAUDE_PR_GRAFIA",
+      "url": "https://www.saude.pr.gov.br/Pagina/Acidentes-por-Aranhas",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "PáginaSaúdePR consultada29/10/2026",
+      "localizador": {
+        "secao": "AcidentesporLatrodectismo–Viúva-negra"
+      },
+      "trecho": "gênero Lactrodectus",
+      "resumo_tecnico": "A mesma página usaLatrodectus em espécie eLactrodectus no título/descrição do acidente por viúva-negra.",
+      "observacao_limites": "Evidencia uso variante ou erro de grafia, mas não é retificação da leiGO nem estabelece sinônimo taxonômico formal.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/saude_pr_latrodectus.html",
+      "sha256": "5189f0fcfb91ed3c0bf925448bdf3277428846d73f088cb236cf6808a59ce72e"
+    },
+    {
+      "id": "FDA_LATRODECTUS",
+      "url": "https://www.fda.gov/vaccines-blood-biologics/approved-blood-products/black-widow-spider-antivenin-equine",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "PáginaFDA consultada29/10/2026",
+      "localizador": {
+        "secao": "ProperName;Indication"
+      },
+      "trecho": "Antivenin (Latrodectus mactans) (Equine)",
+      "resumo_tecnico": "FDA reconheceantiveneno equino contra picadasdeviúva-negraLatrodectusmactans.",
+      "observacao_limites": "Fixa identidade técnica do produtoFDA, não sinonímia legalLactrodectus nem classificaçãoNCM.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/fda_latrodectus.html",
+      "sha256": "40b80758f09c2f356d39343234aaecb79a00de0d1a803073ebb53f77eba5ffe9"
+    },
+    {
+      "id": "ROTULO_LATRODECTUS",
+      "url": "https://dailymed.awsprod.nlm.nih.gov/dailymed/drugInfo.cfm?setid=600e54ad-af13-462f-8a2d-2c3f7d91a8cd",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "RótuloMerck atualizado08/10/2024 depositadoDailyMedNLM",
+      "localizador": {
+        "secao": "DESCRIPTION"
+      },
+      "trecho": "specific venom-neutralizing globulins",
+      "resumo_tecnico": "Rótulo primário descreveglobulinas de soro equino obtidas de cavalosimunizados contra venenoLatrodectusmactans.",
+      "observacao_limites": "SeidentidadecomlinhaGO vier confirmada, material apontapara30021211 antivenenosos;30021219 residual não é coerente por simples herança dosufixo19.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/rotulo_latrodectus.html",
+      "sha256": "499c5855bb9bbaae569267585d99b319efd7d84b6d03e0a9f5447a2de1ca77e9"
+    },
+    {
+      "id": "LC214_CORROBORACAO",
+      "url": "https://legis.senado.leg.br/norma/40180341/publicacao/40181032",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "LC214/2025AnexoXIV, consultado29/10/2026",
+      "localizador": {
+        "anexo": "XIV; itens26–28,63,69,115,173,190,203,206,290,332,342,344,372"
+      },
+      "trecho": "MEDICAMENTOS SUBMETIDOS À REDUÇÃO A ZERO DAS ALÍQUOTAS DO IBS E DA CBS",
+      "resumo_tecnico": "Tabela federal nominal confirma múltiplas identidades ecódigos atuais, inclusivecarbidopa+levodopa30049035.",
+      "observacao_limites": "BenefícioIBS/CBS não éimportado paraICMSGO; fonte secundária apenas quanto à demonstração classificatória quandoTIPI/NVE já suficientes.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/senado_anexo14.html",
+      "sha256": "4ef08917d1fe41c846e271fa1c8c7d8303d1e9741ce0898062e039eede2e7ea1"
+    },
+    {
+      "id": "MS_CERTOLIZUMABE",
+      "url": "https://www.gov.br/conitec/pt-br/midias/consultas/relatorios/2021/20210423_relatorio_certolizumabe_psoriase_cp_32.pdf/@@display-file/file",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "Relatório Conitec de consulta pública32/2021",
+      "localizador": {
+        "secao": "Certolizumabe pegol; busca fragmento Fab"
+      },
+      "trecho": "fragmento Fab' humanizado de um anticorpo monoclonal anti-TNF",
+      "resumo_tecnico": "Certolizumabe pegol é fragmento de anticorpo humanizado recombinante antiTNFalfa conjugado covalentemente comPEG.",
+      "observacao_limites": "Composição molecular do princípio ativo, sem presumir estado misturado ou apresentação industrial. NCM provém deTIPI/NESH.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/ms_certolizumabe.pdf",
+      "sha256": "884f3d8015593af27650a3746e00c4befc91711f0469fb17dd04f999ab176f90"
+    },
+    {
+      "id": "NCM_30021219",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "TIPI atual +catálogo10516ativo conferidoRFB29/10",
+      "localizador": {
+        "codigo_ncm": "30021219"
+      },
+      "trecho": "Antissoros e outras frações do sangue — Antissoros específicos de animais ou de pessoas imunizados — Outros",
+      "resumo_tecnico": "",
+      "observacao_limites": "Catálogo fornece caminhohierárquico; cotejarTIPI textual. Não afirma correlaçãohistorica nem direito àisenção.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c"
+    },
+    {
+      "id": "NCM_30021239",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "TIPI atual +catálogo10516ativo conferidoRFB29/10",
+      "localizador": {
+        "codigo_ncm": "30021239"
+      },
+      "trecho": "Antissoros e outras frações do sangue — Outras frações do sangue, preparadas como medicamentos — Outros",
+      "resumo_tecnico": "",
+      "observacao_limites": "Catálogo fornece caminhohierárquico; cotejarTIPI textual. Não afirma correlaçãohistorica nem direito àisenção.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c"
+    },
+    {
+      "id": "NCM_30021300",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "TIPI atual +catálogo10516ativo conferidoRFB29/10",
+      "localizador": {
+        "codigo_ncm": "30021300"
+      },
+      "trecho": "Antissoros, outras frações do sangue e produtos imunológicos, mesmo modificados ou obtidos por via biotecnológica — Produtos imunológicos, não misturados, não apresentados em doses nem acondicionados para venda a retalho",
+      "resumo_tecnico": "",
+      "observacao_limites": "Catálogo fornece caminhohierárquico; cotejarTIPI textual. Não afirma correlaçãohistorica nem direito àisenção.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c"
+    },
+    {
+      "id": "NCM_30021400",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "TIPI atual +catálogo10516ativo conferidoRFB29/10",
+      "localizador": {
+        "codigo_ncm": "30021400"
+      },
+      "trecho": "Antissoros, outras frações do sangue e produtos imunológicos, mesmo modificados ou obtidos por via biotecnológica — Produtos imunológicos, misturados, não apresentados em doses nem acondicionados para venda a retalho",
+      "resumo_tecnico": "",
+      "observacao_limites": "Catálogo fornece caminhohierárquico; cotejarTIPI textual. Não afirma correlaçãohistorica nem direito àisenção.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c"
+    },
+    {
+      "id": "NCM_30021510",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "TIPI atual +catálogo10516ativo conferidoRFB29/10",
+      "localizador": {
+        "codigo_ncm": "30021510"
+      },
+      "trecho": "Produtos imunológicos, apresentados em doses ou acondicionados para venda a retalho — betainterferona; alfapeginterferona 2a",
+      "resumo_tecnico": "",
+      "observacao_limites": "Catálogo fornece caminhohierárquico; cotejarTIPI textual. Não afirma correlaçãohistorica nem direito àisenção.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c"
+    },
+    {
+      "id": "NCM_30021520",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "TIPI atual +catálogo10516ativo conferidoRFB29/10",
+      "localizador": {
+        "codigo_ncm": "30021520"
+      },
+      "trecho": "Produtos imunológicos, apresentados em doses ou acondicionados para venda a retalho — Basiliximab (DCI); bevacizumab (DCI); daclizumab (DCI); etanercept (DCI); gemtuzumab ozogamicin (DCI); oprelvekin (DCI); rituximab (DCI); trastuzumab (DCI)",
+      "resumo_tecnico": "",
+      "observacao_limites": "Catálogo fornece caminhohierárquico; cotejarTIPI textual. Não afirma correlaçãohistorica nem direito àisenção.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c"
+    },
+    {
+      "id": "NCM_30021590",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "TIPI atual +catálogo10516ativo conferidoRFB29/10",
+      "localizador": {
+        "codigo_ncm": "30021590"
+      },
+      "trecho": "Produtos imunológicos, apresentados em doses ou acondicionados para venda a retalho — Outros",
+      "resumo_tecnico": "",
+      "observacao_limites": "Catálogo fornece caminhohierárquico; cotejarTIPI textual. Não afirma correlaçãohistorica nem direito àisenção.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c"
+    },
+    {
+      "id": "NCM_30024115",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "TIPI atual +catálogo10516ativo conferidoRFB29/10",
+      "localizador": {
+        "codigo_ncm": "30024115"
+      },
+      "trecho": "Vacinas para medicina humana — Não apresentadas em doses, nem acondicionadas para venda a retalho — Contra a meningite",
+      "resumo_tecnico": "",
+      "observacao_limites": "Catálogo fornece caminhohierárquico; cotejarTIPI textual. Não afirma correlaçãohistorica nem direito àisenção.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c"
+    },
+    {
+      "id": "NCM_30024125",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "TIPI atual +catálogo10516ativo conferidoRFB29/10",
+      "localizador": {
+        "codigo_ncm": "30024125"
+      },
+      "trecho": "Vacinas para medicina humana — Apresentadas em doses ou acondicionadas para venda a retalho — Contra a meningite",
+      "resumo_tecnico": "",
+      "observacao_limites": "Catálogo fornece caminhohierárquico; cotejarTIPI textual. Não afirma correlaçãohistorica nem direito àisenção.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c"
+    },
+    {
+      "id": "NCM_30034990",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "TIPI atual +catálogo10516ativo conferidoRFB29/10",
+      "localizador": {
+        "codigo_ncm": "30034990"
+      },
+      "trecho": "Medicamentos (exceto os produtos das posições 30.02, 30.05 ou 30.06) constituídos por produtos misturados entre si, preparados para fins terapêuticos ou profiláticos, mas não apresentados em doses nem acondicionados para venda a retalho — Outros, que contenham alcaloides ou seus derivados — Outros",
+      "resumo_tecnico": "",
+      "observacao_limites": "Catálogo fornece caminhohierárquico; cotejarTIPI textual. Não afirma correlaçãohistorica nem direito àisenção.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c"
+    },
+    {
+      "id": "NCM_30044940",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "TIPI atual +catálogo10516ativo conferidoRFB29/10",
+      "localizador": {
+        "codigo_ncm": "30044940"
+      },
+      "trecho": "Medicamentos (exceto os produtos das posições 30.02, 30.05 ou 30.06) constituídos por produtos misturados ou não misturados, preparados para fins terapêuticos ou profiláticos, apresentados em doses (incluindo os destinados a serem administrados por via percutânea) ou acondicionados para venda a retalho — Outros, que contenham alcaloides ou seus derivados — Outros — Codeína ou seus sais",
+      "resumo_tecnico": "",
+      "observacao_limites": "Catálogo fornece caminhohierárquico; cotejarTIPI textual. Não afirma correlaçãohistorica nem direito àisenção.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c"
+    },
+    {
+      "id": "NCM_30044990",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "TIPI atual +catálogo10516ativo conferidoRFB29/10",
+      "localizador": {
+        "codigo_ncm": "30044990"
+      },
+      "trecho": "Medicamentos (exceto os produtos das posições 30.02, 30.05 ou 30.06) constituídos por produtos misturados ou não misturados, preparados para fins terapêuticos ou profiláticos, apresentados em doses (incluindo os destinados a serem administrados por via percutânea) ou acondicionados para venda a retalho — Outros, que contenham alcaloides ou seus derivados — Outros",
+      "resumo_tecnico": "",
+      "observacao_limites": "Catálogo fornece caminhohierárquico; cotejarTIPI textual. Não afirma correlaçãohistorica nem direito àisenção.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c"
+    },
+    {
+      "id": "NCM_30049019",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "TIPI atual +catálogo10516ativo conferidoRFB29/10",
+      "localizador": {
+        "codigo_ncm": "30049019"
+      },
+      "trecho": "Medicamentos (exceto os produtos das posições 30.02, 30.05 ou 30.06) constituídos por produtos misturados ou não misturados, preparados para fins terapêuticos ou profiláticos, apresentados em doses (incluindo os destinados a serem administrados por via percutânea) ou acondicionados para venda a retalho — Outros — Que contenham enzimas — Outros",
+      "resumo_tecnico": "",
+      "observacao_limites": "Catálogo fornece caminhohierárquico; cotejarTIPI textual. Não afirma correlaçãohistorica nem direito àisenção.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c"
+    },
+    {
+      "id": "NCM_30049035",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "TIPI atual +catálogo10516ativo conferidoRFB29/10",
+      "localizador": {
+        "codigo_ncm": "30049035"
+      },
+      "trecho": "Medicamentos (exceto os produtos das posições 30.02, 30.05 ou 30.06) constituídos por produtos misturados ou não misturados, preparados para fins terapêuticos ou profiláticos, apresentados em doses (incluindo os destinados a serem administrados por via percutânea) ou acondicionados para venda a retalho — Outros — Que contenham produtos das posições 29.21 e 29.22, mas que não contenham produtos dos itens 3004.90.1 e 3004.90.2 — Levodopa; alfa-metildopa",
+      "resumo_tecnico": "",
+      "observacao_limites": "Catálogo fornece caminhohierárquico; cotejarTIPI textual. Não afirma correlaçãohistorica nem direito àisenção.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/tipi_atual.txt",
+      "sha256": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c"
+    },
+    {
+      "id": "GO_XXXV",
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "Redaçãoatual baixada29/10/2026",
+      "localizador": {
+        "indices_paragrafos_0_base": [
+          3158,
+          3159,
+          3160,
+          3165,
+          3166,
+          3205,
+          3206,
+          3207,
+          3208
+        ]
+      },
+      "trecho": "CONFERIDA NOVA REDAÇÃO AO caput do inciso xxxv do art. 7º PELO ART. 2º DO DECRETO Nº 5.825, DE 05.09.03 - vigência: 06.06.03.\nXXXV - a operação com os medicamentos a seguir relacionados, desde que a parcela correspondente à receita bruta relativa à operação com os medicamentos seja desonerada das contribuições para o PIS/PASEP e COFINS, ficando mantido o crédito (Convênio ICMS 140/01, cláusula primeira):\nNOTA: Benefício concedido até 31.12.26\nb) interferon alfa-2A, código 3002.10.39;\nc) interferon alfa-2B, código 3002.10.39;\nACRESCIDA A ALÍNEA \"M\" AO INCISO XXXV DO ART. 7º pelo art. 1º DO DECRETO Nº 7.184, de 12.11.10 - vigência: 01.09.10.\nm) Complexo Protrombínico Parcialmente Ativado (a PCC), código 3002.10.39;\nACRESCIDA A ALÍNEA \"N\" AO INCISO XXXV DO ART. 7º pelo art. 2º DO DECRETO Nº 7.195, de 27.12.10 - vigência: 01.12.10.\nn) rituximabe, código 3002.10.38;",
+      "resumo_tecnico": "Caputatual e alíneasb/c/m/n; textos revogados não geramproposta.",
+      "observacao_limites": "b/c usam início06/06/2003da redaçãoatual caput; inclusõesoriginais anteriores não são retroativamente homologadas.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/go_anexo9_paragrafos_20261029.json",
+      "sha256": "61258679b82f3e330eb9ae6807e5a471050c465a2f0ea779bf3c888f46b5840e"
+    },
+    {
+      "id": "GO_XXXVII",
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "data_consulta": "2026-10-29",
+      "data_documento_ou_versao": "Redaçãoatual29/10/2026",
+      "localizador": {
+        "dispositivo": "AnexoIXart7XXXVII;ApêndiceXVII;itens individuais noinventário"
+      },
+      "trecho": "XXXVII - a operação realizada com fármaco e medicamento relacionados no Apêndice XVII deste Anexo destinados a órgãos da Administração Pública Direta e Indireta Federal, Estadual e Municipal e a suas fundações, ficando mantido o crédito, desde que seja observado o seguinte (Convênio ICMS 87/02, cláusula primeira):\na) o fármaco e o medicamento estejam beneficiados com isenção ou alíquota zero dos Impostos de Importação ou sobre Produtos Industrializados;\nb) a parcela relativa à receita bruta decorrente da operação prevista neste inciso esteja desonerada das contribuições do PIS/PASEP e COFINS;\nc) o valor correspondente à isenção do ICMS deve ser deduzido do preço dos respectivos produtos, devendo o contribuinte demonstrar a dedução, expressamente, nas propostas do processo licitatório e nos documentos fiscais. (Redação conferida pelo Decreto nº 7.988 - vigência: 01.06.13)\nd) não haja redução no montante de recursos destinados ao co-financiamento dos Medicamentos Excepcionais constantes da Tabela do Sistema de Informações Ambulatoriais do Sistema Único de Saúde - SIA/SUS, repassados pelo Ministério da Saúde ao Estado de Goiás e aos seus Municípios;",
+      "resumo_tecnico": "Condiçõesfiscaisreproduzidas do templateoriginal.",
+      "observacao_limites": "Classes/textos35202parágrafos iguais àextração27/10/2026; apresentação individual prevalece.",
+      "arquivo_local": "resolver_91_20261029/medicamentos_pesquisa/evidencias/go_anexo9_paragrafos_20261029.json",
+      "sha256": "61258679b82f3e330eb9ae6807e5a471050c465a2f0ea779bf3c888f46b5840e"
+    }
+  ],
+  "limites": [
+    "TIPI/NVE/NESH sustentam classificação atual; nenhum benefício federal ou de outraUF é incorporado aoICMSGO.",
+    "As fontesEMA/FDA/AEMPS demonstram natureza/composição e não fixamNCM.",
+    "Nenhuma conversão por semelhança, nenhum percentual oucBenef novo.",
+    "Candidatos condicionais não homologam produto ouoperação.",
+    "Consulta nominal RFB em9termos foi preservada; não localizada solução individual decisiva nessas buscas."
+  ]
+}

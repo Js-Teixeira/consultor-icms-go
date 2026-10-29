@@ -1,0 +1,14 @@
+{
+  "data": "2026-10-29",
+  "url": "https://consultaricmsgo.streamlit.app/",
+  "ncm_consultado": "29314990",
+  "beneficio_visivel": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_29314990",
+  "tipo": "Isenção",
+  "situacao": "Revisão fiscal",
+  "metricas": {"aliquota_referencia": "19,00%", "beneficio": "1 candidato"},
+  "condicoes_visiveis": ["Alendronato de sódio CAS121268-17-5, insumo isolado", "Pamidronato dissódico CAS57248-88-1, insumo isolado", "Administração Pública e demais condições do inciso XXXVII"],
+  "fonte_legal_go_visivel": true,
+  "beneficio_nao_aplicado_automaticamente": true,
+  "limite_visual": "A observação técnica preserva rastreabilidade em JSON; os links federais autodetectados dentro desse JSON podem incluir pontuação. A fonte legal goiana própria da ficha permanece disponível. Melhor formatação dos links de auditoria fica adiada; os URLs completos e trechos estão preservados nos arquivos de revisão.",
+  "homologacao_fiscal": false
+}

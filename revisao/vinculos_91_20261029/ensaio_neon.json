@@ -1,0 +1,68 @@
+{
+  "data": "2026-10-29",
+  "branch_id": "br-young-field-b6s6lfqg",
+  "origem": "br-solitary-morning-b6dtleun",
+  "estado": {
+    "beneficios": "2267",
+    "hash_beneficios": "43ad39da58caa4f675731d636eee06e9",
+    "leis": "72",
+    "hash_leis": "1f3db645bb2639000e1092c91df30e33",
+    "hash_aliquotas": "468a85a8096be4e9f5431f275570adf9",
+    "hash_ncm": "e8be9b594dd4dd3f7a73211dae70954a"
+  },
+  "reexecucao_idempotente": true,
+  "conflito_rejeitado": true,
+  "erro_conflito": "NeonDbError: Conflito na inserção em beneficios; carga cancelada",
+  "estado_apos_conflito": {
+    "beneficios": "2267",
+    "hash_beneficios": "43ad39da58caa4f675731d636eee06e9",
+    "leis": "72",
+    "hash_leis": "1f3db645bb2639000e1092c91df30e33",
+    "hash_aliquotas": "468a85a8096be4e9f5431f275570adf9",
+    "hash_ncm": "e8be9b594dd4dd3f7a73211dae70954a"
+  },
+  "comparacao_dos_registros": [
+    {
+      "parte": "carga_01.sql",
+      "resultado": [
+        {
+          "tabela": "beneficios",
+          "esperados": "49",
+          "divergencias": "0"
+        },
+        {
+          "tabela": "legislacao",
+          "esperados": "3",
+          "divergencias": "0"
+        }
+      ]
+    },
+    {
+      "parte": "carga_02.sql",
+      "resultado": [
+        {
+          "tabela": "beneficios",
+          "esperados": "11",
+          "divergencias": "0"
+        }
+      ]
+    }
+  ],
+  "suite": "598 passed, 38 warnings in 9.40s",
+  "homologacao_fiscal": false,
+  "carga_atomica": true,
+  "guarda_global_antes_depois": true,
+  "reexecucao_atomica_aprovada": true,
+  "teste_rollback_transacional": {
+    "conflito_rejeitado": true,
+    "erro": "NeonDbError: Resultado91 difere do ensaio; transação cancelada",
+    "estado_apos_rollback": {
+      "beneficios": "2267",
+      "hash_beneficios": "43ad39da58caa4f675731d636eee06e9",
+      "leis": "72",
+      "hash_leis": "1f3db645bb2639000e1092c91df30e33",
+      "hash_aliquotas": "468a85a8096be4e9f5431f275570adf9",
+      "hash_ncm": "e8be9b594dd4dd3f7a73211dae70954a"
+    }
+  }
+}

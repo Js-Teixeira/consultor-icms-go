@@ -1,0 +1,1492 @@
+{
+  "data_referencia": "2026-10-29",
+  "natureza": "PESQUISA_DOCUMENTAL_SEM_CARGA_SEM_HOMOLOGACAO",
+  "quantidade": 43,
+  "conclusoes": [
+    {
+      "id_pendencia": "OUTROS_007",
+      "original": {
+        "template_id": null,
+        "item": "b",
+        "apendice": null,
+        "codigo_legal": "3002.10.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "b) interferon alfa-2A, código 3002.10.39;",
+        "dispositivo_original": "RCTE/GO, Anexo IX, art. 7, inciso XXXV"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXV_BC_D20030606",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "Interferon alfa-2A é interferona expressamente abrangida pela Nota2/NESH. A tabela federal nominal discrimina alfa-2A/alfa-2B30021590 e não alfapeginterferona2a30021510.",
+      "ncm_candidatos": [
+        "30021590"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente o medicamento expressamente relacionado na alíneab do incisoXXXV, em apresentação preparada para uso terapêutico, apresentada em doses ou para varejo; não estender à matéria-prima industrial.",
+        "Comprovar identidade e apresentação efetivas em registro/ficha técnica e classificação federal atual. Exigir receita bruta desonerada dePIS/PASEPeCOFINS; mantido ocrédito; demais condições gerais doAnexoIX.",
+        "Não importar condição de AdministraçãoPública doXXXVII para oXXXV. Não cumular automaticamente benefícios de incisos distintos."
+      ],
+      "evidencias_ids": [
+        "GO_XXXV",
+        "TIPI_NOTA2",
+        "NESH_IMUNO",
+        "LC214_CORROBORACAO"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_008",
+      "original": {
+        "template_id": null,
+        "item": "c",
+        "apendice": null,
+        "codigo_legal": "3002.10.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "c) interferon alfa-2B, código 3002.10.39;",
+        "dispositivo_original": "RCTE/GO, Anexo IX, art. 7, inciso XXXV"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXV_BC_D20030606",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "Interferon alfa-2B é interferona expressamente abrangida pela Nota2/NESH. Não é a alfapeginterferona2a nominal30021510.",
+      "ncm_candidatos": [
+        "30021590"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente o medicamento expressamente relacionado na alíneac do incisoXXXV, em apresentação preparada para uso terapêutico, apresentada em doses ou para varejo; não estender à matéria-prima industrial.",
+        "Comprovar identidade e apresentação efetivas em registro/ficha técnica e classificação federal atual. Exigir receita bruta desonerada dePIS/PASEPeCOFINS; mantido ocrédito; demais condições gerais doAnexoIX.",
+        "Não importar condição de AdministraçãoPública doXXXVII para oXXXV. Não cumular automaticamente benefícios de incisos distintos."
+      ],
+      "evidencias_ids": [
+        "GO_XXXV",
+        "TIPI_NOTA2",
+        "NESH_IMUNO",
+        "LC214_CORROBORACAO"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_009",
+      "original": {
+        "template_id": null,
+        "item": "m",
+        "apendice": null,
+        "codigo_legal": "3002.10.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "m) Complexo Protrombínico Parcialmente Ativado (a PCC), código 3002.10.39;",
+        "dispositivo_original": "RCTE/GO, Anexo IX, art. 7, inciso XXXV"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXV_M_D20100901",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "Complexo protrombínico parcialmente ativado é preparação plasmática com fatoresII/IX/X predominantemente não ativados eVIIativado. A fração de sangue preparada como medicamento não é nenhum item nominal30021231–36; a tabela federal nomeiaaPCC30021239. Não é um fatorVIII isolado ou umMAB.",
+      "ncm_candidatos": [
+        "30021239"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente o medicamento expressamente relacionado na alíneam do incisoXXXV, em apresentação preparada para uso terapêutico, apresentada em doses ou para varejo; não estender à matéria-prima industrial.",
+        "Comprovar identidade e apresentação efetivas em registro/ficha técnica e classificação federal atual. Exigir receita bruta desonerada dePIS/PASEPeCOFINS; mantido ocrédito; demais condições gerais doAnexoIX.",
+        "Não importar condição de AdministraçãoPública doXXXVII para oXXXV. Não cumular automaticamente benefícios de incisos distintos."
+      ],
+      "evidencias_ids": [
+        "GO_XXXV",
+        "AEMPS_FEIBA",
+        "NESH_SOROS",
+        "LC214_CORROBORACAO"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_010",
+      "original": {
+        "template_id": null,
+        "item": "n",
+        "apendice": null,
+        "codigo_legal": "3002.10.38",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "n) rituximabe, código 3002.10.38;",
+        "dispositivo_original": "RCTE/GO, Anexo IX, art. 7, inciso XXXV"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXV_N_D20101201",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "Rituximabe é anticorpo monoclonalantiCD20, e aTIPI30021520 nomeia rituximabDCI no ramo de produtos imunológicos dosados/varejo. A identidade técnica supera a antiga classificação, sem vincular todo oNCM.",
+      "ncm_candidatos": [
+        "30021520"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente o medicamento expressamente relacionado na alínean do incisoXXXV, em apresentação preparada para uso terapêutico, apresentada em doses ou para varejo; não estender à matéria-prima industrial.",
+        "Comprovar identidade e apresentação efetivas em registro/ficha técnica e classificação federal atual. Exigir receita bruta desonerada dePIS/PASEPeCOFINS; mantido ocrédito; demais condições gerais doAnexoIX.",
+        "Não importar condição de AdministraçãoPública doXXXVII para oXXXV. Não cumular automaticamente benefícios de incisos distintos."
+      ],
+      "evidencias_ids": [
+        "GO_XXXV",
+        "ANVISA_RITUXIMABE",
+        "TIPI_IMUNO"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_095",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "3",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Adalimumabe - injetável – 40mg – por seringa preenchida, caneta aplicadora ou frasco-ampola"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "Adalimumabe é produto imunológico pela natureza técnica primária e pelas definiçõesNota2cap30/NESH. As apresentações individuais GO são dosadas. Nenhum dos nomes taxativos30021510/20 corresponde a este ativo; sustenta-se o residual30021590 por natureza, apresentação e eliminação das linhas nominais, não pela terminação do código antigo.",
+      "ncm_candidatos": [
+        "30021590"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente Medicamento: Adalimumabe - injetável – 40mg – por seringa preenchida, caneta aplicadora ou frasco-ampola.",
+        "Comprovar princípio ativo, forma farmacêutica, dose/concentração, recipiente e quantidade da linha GO. Apresentado em doses ou acondicionado para varejo. Excluir matéria-prima a granel e outras apresentações.",
+        "O residual30021590 limita-se a esse produto imunológico, depois de excluir as identidades nominais30021510/20; não autoriza o NCM inteiro."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "MS_ADALIMUMABE",
+        "TIPI_NOTA2",
+        "NESH_IMUNO",
+        "TIPI_IMUNO"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_097",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "8",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Alfainterferona 2b 10.000.000 UI - injetável por frasco ampola; Alfainterferona 2b 5.000.000 UI - injetável por frasco ampola; Alfainterferona 2b 3.000.000 UI - injetável por frasco ampola; 9 | Alfapeginterferona 2a | Alfapeginterferona 2a 180 mcg - por seringa preenchida; Alfapeginterferona 2b | Alfapeginterferona 2b 80 mcg - por frasco ampola; Alfapeginterferona 2b 100 mcg - por frasco ampola; Alfapeginterferona 2b 120 mcg - por frasco ampola"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "A agregação é desfeita em subrotas materiais: alfainterferona2b e alfapeginterferona2b são imunológicos dosados residuais30021590; apenas alfapeginterferona2a é expressamente nomeada em30021510. Não atribuir o mesmoNCM a todos os trechos.",
+      "ncm_candidatos": [
+        "30021590",
+        "30021510"
+      ],
+      "condicoes_obrigatorias": [
+        "30021590: somente alfainterferona2b10.000.000UI,5.000.000UI ou3.000.000UI por frasco-ampola; OU alfapeginterferona2b80mcg,100mcg ou120mcg por frasco-ampola, cada apresentação separada.",
+        "30021510: somente alfapeginterferona2a180mcg por seringa preenchida. Não inclui alfainterferona2a não peguilada, alfainterferona2b ou alfapeginterferona2b.",
+        "Confirmar sublinhaGO efetiva, princípio ativo, concentração e recipiente; não ativar regra genérica para a descrição inteira."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "TIPI_NOTA2",
+        "TIPI_IMUNO",
+        "LC214_CORROBORACAO"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO",
+      "subrotas_obrigatorias": [
+        {
+          "identidade": "alfainterferona2b",
+          "ncm": "30021590",
+          "apresentacoes": "10.000.000/5.000.000/3.000.000UIporfrasco-ampola"
+        },
+        {
+          "identidade": "alfapeginterferona2a",
+          "ncm": "30021510",
+          "apresentacoes": "180mcgporseringapreenchida"
+        },
+        {
+          "identidade": "alfapeginterferona2b",
+          "ncm": "30021590",
+          "apresentacoes": "80/100/120mcgporfrasco-ampola"
+        }
+      ]
+    },
+    {
+      "id_pendencia": "OUTROS_099",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "17",
+        "apendice": "XVII",
+        "codigo_legal": "3003.40.90",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Bromocriptina 2,5 mg - por comprimido ou cápsula de liberação prolongada; Mesilato de Bromocriptina | Mesilato de Bromocriptina 2,5 mg - por comprimido ou cápsula de liberação prolongada"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "Bromocriptina é alcaloide de ergot segundo conteúdo oficial de bula; a NVE distingue a base e o mesilato por CAS. Nenhuma linha nominada de 300349/300449 descreve bromocriptina ou mesilato, restando a terminação 90 dentro da apresentação demonstrada. Na linha 17, comprimidos/cápsulas 2,5 mg são doses. O caminho material atual é 30044990 inclusive para a pendência cuja transcrição continha 3003; isso não é conversão automática 3003→3004, mas exame da apresentação legal concreta. Não há proposta de 30034990 para essa linha dosada.",
+      "ncm_candidatos": [
+        "30044990"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente 2,5 mg por comprimido ou cápsula de liberação prolongada. Não estender à matéria-prima, a outro alcaloide ou associação com ingrediente ativo adicional.",
+        "Comprovar composição e apresentação efetivas. 30034990 exige produtos misturados e ausência de doses/varejo; 30044990 exige doses ou varejo.",
+        "Conitec 2025 informa cancelamento do registro Novartis em 11/08/2023 e interrupção de produção. Exigir regularidade sanitária específica da operação; a análise NCM não atesta oferta atual nem revoga ou amplia a lei ICMS."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "MS_BROMO_IDENTIDADE",
+        "NVE_BROMO_FARMACO",
+        "TIPI_ALCALOIDES",
+        "MG_CORROBORACAO",
+        "MS_BROMO_SITUACAO"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_100",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "17",
+        "apendice": "XVII",
+        "codigo_legal": "3004.40.90",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Bromocriptina 2,5 mg - por comprimido ou cápsula de liberação prolongada; Mesilato de Bromocriptina | Mesilato de Bromocriptina 2,5 mg - por comprimido ou cápsula de liberação prolongada"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "Bromocriptina é alcaloide de ergot segundo conteúdo oficial de bula; a NVE distingue a base e o mesilato por CAS. Nenhuma linha nominada de 300349/300449 descreve bromocriptina ou mesilato, restando a terminação 90 dentro da apresentação demonstrada. Na linha 17, comprimidos/cápsulas 2,5 mg são doses. O caminho material atual é 30044990 inclusive para a pendência cuja transcrição continha 3003; isso não é conversão automática 3003→3004, mas exame da apresentação legal concreta. Não há proposta de 30034990 para essa linha dosada.",
+      "ncm_candidatos": [
+        "30044990"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente 2,5 mg por comprimido ou cápsula de liberação prolongada. Não estender à matéria-prima, a outro alcaloide ou associação com ingrediente ativo adicional.",
+        "Comprovar composição e apresentação efetivas. 30034990 exige produtos misturados e ausência de doses/varejo; 30044990 exige doses ou varejo.",
+        "Conitec 2025 informa cancelamento do registro Novartis em 11/08/2023 e interrupção de produção. Exigir regularidade sanitária específica da operação; a análise NCM não atesta oferta atual nem revoga ou amplia a lei ICMS."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "MS_BROMO_IDENTIDADE",
+        "NVE_BROMO_FARMACO",
+        "TIPI_ALCALOIDES",
+        "MG_CORROBORACAO",
+        "MS_BROMO_SITUACAO"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_101",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "28",
+        "apendice": "XVII",
+        "codigo_legal": "3003.40.40",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Codeína 30 mg/ml - por ampola com 2 ml; Codeína 30 mg - por comprimido; Codeína 60 mg - por comprimido; Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Acetato de Codeína | Acetato de Codeína 30 mg/ml - por ampola com 2 ml; Acetato de Codeína 30 mg - por comprimido; Acetato de Codeína 60 mg - por comprimido; Acetato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Bromidrato de Codeína | Bromidrato de Codeína 30 mg/ml - por ampola com 2 ml; Bromidrato de Codeína 30 mg - por comprimido; Bromidrato de Codeína 60 mg - por comprimido; Bromidrato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Canfossulfonato de Codeína | Canfossulfonato de Codeína 30 mg/ml - por ampola com 2 ml; Canfossulfonato de Codeína 30 mg - por comprimido; Canfossulfonato de Codeína 60 mg - por comprimido; Canfossulfonato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Citrato de Codeína | Citrato de Codeína 30 mg/ml - por ampola com 2 ml; Citrato de Codeína 30 mg - por comprimido; Citrato de Codeína 60 mg - por comprimido; Citrato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Cloridrato de Codeína | Cloridrato de Codeína 30 mg/ml - por ampola com 2 ml; Cloridrato de Codeína 30 mg - por comprimido; Cloridrato de Codeína 60 mg - por comprimido; Cloridrato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Metilbrometo de Codeína | Metilbrometo de Codeína 30 mg/ml - por ampola com 2 ml; Metilbrometo de Codeína 30 mg - por comprimido; Metilbrometo de Codeína 60 mg - por comprimido; Metilbrometo de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Óxido de Codeína | Óxido de Codeína 30 mg/ml - por ampola com 2 ml; Óxido de Codeína 30 mg - por comprimido; Óxido de Codeína 60 mg - por comprimido; Óxido de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Salicilato de Codeína | Salicilato de Codeína 30 mg/ml - por ampola com 2 ml; Salicilato de Codeína 30 mg - por comprimido; Salicilato de Codeína 60 mg - por comprimido; Salicilato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Sulfato de Codeína | Sulfato de Codeína 30 mg/ml - por ampola com 2 ml; Sulfato de Codeína 30 mg - por comprimido; Sulfato de Codeína 60 mg - por comprimido; Sulfato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Fosfato de Codeína | Fosfato de Codeína 30 mg/ml - por ampola com 2 ml; Fosfato de Codeína 30 mg - por comprimido; Fosfato de Codeína 60 mg - por comprimido; Fosfato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_PARCIAL",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "A TIPI atual nomeia Codeína ou seus sais no ramo dosado30044940. A linha GO28 enumera doses concretas, portanto30034940 não é candidato para esses comprimidos, ampolas ou frascos de solução oral. O ID originado3003 é tratado por identidade material da mesma linha dosada, sem transposição indiscriminada de medicamentos não dosados. A parte de derivados químicos não comprovados é expressamente excluída.",
+      "ncm_candidatos": [
+        "30044940"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente codeína ou os sais inequivocamente nomeados como acetato, bromidrato, canfossulfonato, citrato, cloridrato, salicilato, sulfato ou fosfato de codeína, mediante prova de identidade química e apresentação da linha28.",
+        "Doses legais:30mg/mL por ampola2mL;30mg por comprimido;60mg por comprimido;3mg/mL solução oral por frasco120mL. Confirmar se massa expressa refere-se à base ou ao sal no registro/ficha, sem conversão presumida.",
+        "Excluir óxido de codeína e metilbrometo de codeína até prova de enquadramento químico. Excluir associações com outros princípios ativos, matéria-prima isolada e preparação sem doses/varejo."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "TIPI_ALCALOIDES"
+      ],
+      "residuo_nao_resolvido": "Óxido de codeína e metilbrometo de codeína permanecem semvínculo. A proposta não cobre a agregação inteira de sais/derivados.",
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_102",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "28",
+        "apendice": "XVII",
+        "codigo_legal": "3004.40.40",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Codeína 30 mg/ml - por ampola com 2 ml; Codeína 30 mg - por comprimido; Codeína 60 mg - por comprimido; Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Acetato de Codeína | Acetato de Codeína 30 mg/ml - por ampola com 2 ml; Acetato de Codeína 30 mg - por comprimido; Acetato de Codeína 60 mg - por comprimido; Acetato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Bromidrato de Codeína | Bromidrato de Codeína 30 mg/ml - por ampola com 2 ml; Bromidrato de Codeína 30 mg - por comprimido; Bromidrato de Codeína 60 mg - por comprimido; Bromidrato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Canfossulfonato de Codeína | Canfossulfonato de Codeína 30 mg/ml - por ampola com 2 ml; Canfossulfonato de Codeína 30 mg - por comprimido; Canfossulfonato de Codeína 60 mg - por comprimido; Canfossulfonato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Citrato de Codeína | Citrato de Codeína 30 mg/ml - por ampola com 2 ml; Citrato de Codeína 30 mg - por comprimido; Citrato de Codeína 60 mg - por comprimido; Citrato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Cloridrato de Codeína | Cloridrato de Codeína 30 mg/ml - por ampola com 2 ml; Cloridrato de Codeína 30 mg - por comprimido; Cloridrato de Codeína 60 mg - por comprimido; Cloridrato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Metilbrometo de Codeína | Metilbrometo de Codeína 30 mg/ml - por ampola com 2 ml; Metilbrometo de Codeína 30 mg - por comprimido; Metilbrometo de Codeína 60 mg - por comprimido; Metilbrometo de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Óxido de Codeína | Óxido de Codeína 30 mg/ml - por ampola com 2 ml; Óxido de Codeína 30 mg - por comprimido; Óxido de Codeína 60 mg - por comprimido; Óxido de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Salicilato de Codeína | Salicilato de Codeína 30 mg/ml - por ampola com 2 ml; Salicilato de Codeína 30 mg - por comprimido; Salicilato de Codeína 60 mg - por comprimido; Salicilato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Sulfato de Codeína | Sulfato de Codeína 30 mg/ml - por ampola com 2 ml; Sulfato de Codeína 30 mg - por comprimido; Sulfato de Codeína 60 mg - por comprimido; Sulfato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Fosfato de Codeína | Fosfato de Codeína 30 mg/ml - por ampola com 2 ml; Fosfato de Codeína 30 mg - por comprimido; Fosfato de Codeína 60 mg - por comprimido; Fosfato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_PARCIAL",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "A TIPI atual nomeia Codeína ou seus sais no ramo dosado30044940. A linha GO28 enumera doses concretas, portanto30034940 não é candidato para esses comprimidos, ampolas ou frascos de solução oral. O ID originado3003 é tratado por identidade material da mesma linha dosada, sem transposição indiscriminada de medicamentos não dosados. A parte de derivados químicos não comprovados é expressamente excluída.",
+      "ncm_candidatos": [
+        "30044940"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente codeína ou os sais inequivocamente nomeados como acetato, bromidrato, canfossulfonato, citrato, cloridrato, salicilato, sulfato ou fosfato de codeína, mediante prova de identidade química e apresentação da linha28.",
+        "Doses legais:30mg/mL por ampola2mL;30mg por comprimido;60mg por comprimido;3mg/mL solução oral por frasco120mL. Confirmar se massa expressa refere-se à base ou ao sal no registro/ficha, sem conversão presumida.",
+        "Excluir óxido de codeína e metilbrometo de codeína até prova de enquadramento químico. Excluir associações com outros princípios ativos, matéria-prima isolada e preparação sem doses/varejo."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "TIPI_ALCALOIDES"
+      ],
+      "residuo_nao_resolvido": "Óxido de codeína e metilbrometo de codeína permanecem semvínculo. A proposta não cobre a agregação inteira de sais/derivados.",
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_103",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "41",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Filgrastim"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "Filgrastim possui natureza imunológica demonstrada por fonte primária, cotejada com Nota2capítulo30/NESH. Trastuzumabe/bevacizumabe também são nominalmente imunológicos na própria TIPI. A linha FÁRMACO não especifica estado de mistura; duas alternativas de oito dígitos são sustentadas pelas definições expressas de não misturado/misturado, cada qual com condição documental obrigatória. Não se usa a apresentação dosada300215 para o fármaco.",
+      "ncm_candidatos": [
+        "30021300",
+        "30021400"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente Filgrastim como fármaco da coluna FÁRMACO e da linha individual GO, sem alcançar o medicamento pronto pela mera identidade do ativo.",
+        "30021300: produto puro, admitidas somente impurezas resultantes diretamente da fabricação/purificação, sem doses e sem acondicionamento para varejo. Exigir composição analítica e documentação de fornecimento industrial.",
+        "30021400: produto misturado, incluindo solução aquosa/outra solução, estabilizante ou aditivos nos termos da Nota de subposição1b, sem doses e sem acondicionamento para varejo. Exigir fórmula e documento de apresentação.",
+        "As rotas são alternativas excludentes conforme o estado da mercadoria. A composição do medicamento comercial citado como prova da natureza não determina o estado do fármaco industrial."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "ANVISA_FILGRASTIM",
+        "TIPI_NOTA2",
+        "TIPI_NOTA_SUB",
+        "NESH_IMUNO",
+        "TIPI_IMUNO"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_104",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "41",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Filgrastim 300 mcg - injetável - por frasco ou seringa preenchida"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "Filgrastim é produto imunológico pela natureza técnica primária e pelas definiçõesNota2cap30/NESH. As apresentações individuais GO são dosadas. Nenhum dos nomes taxativos30021510/20 corresponde a este ativo; sustenta-se o residual30021590 por natureza, apresentação e eliminação das linhas nominais, não pela terminação do código antigo.",
+      "ncm_candidatos": [
+        "30021590"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente Medicamento: Filgrastim 300 mcg - injetável - por frasco ou seringa preenchida.",
+        "Comprovar princípio ativo, forma farmacêutica, dose/concentração, recipiente e quantidade da linha GO. Apresentado em doses ou acondicionado para varejo. Excluir matéria-prima a granel e outras apresentações.",
+        "O residual30021590 limita-se a esse produto imunológico, depois de excluir as identidades nominais30021510/20; não autoriza o NCM inteiro."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "ANVISA_FILGRASTIM",
+        "TIPI_NOTA2",
+        "NESH_IMUNO",
+        "TIPI_IMUNO"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_109",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "54",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.23",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Imunoglobulina Anti-Hepatite B 1000 mg - injetável - por frasco; Imunoglobulina Anti-Hepatite B 100 mg - injetável - por frasco; Imunoglobulina Anti-Hepatite B 500 mg - injetável - por frasco"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "A NVE federal vigente descreve nominalmente em 30021239 a Imunoglobulina da hepatite B, confirmada na tabela nominal federal. A monografia sanitária descreve preparação de imunoglobulinas principalmente IgG, sem comprovar produto constituído apenas pela imunoglobulina G nominal de 30021235. Não se escolhe código pela antiga terminação 23 nem se confunde com vacina.",
+      "ncm_candidatos": [
+        "30021239"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente preparação de imunoglobulina humana específica anti-hepatite B como medicamento da linha GO, em frasco/ampola e nas massas legais exatas.",
+        "Preservar 600 mg na linha 150; 1000 mg, 100 mg ou 500 mg na linha correspondente de OUTROS_109. Não converter UI em mg nem acrescentar apresentação de outra linha.",
+        "Exigir ficha/registro e documento classificatório do produto que confirmem o alcance da especificação NVE30021239. Excluir a imunoglobulina G genérica 30021235, fração não preparada como medicamento30021222, vacina e outro princípio ativo."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "NVE_ANTIHB",
+        "ANVISA_ANTIHB",
+        "MS_ANTIHB2026",
+        "TIPI_IGG",
+        "LC214_CORROBORACAO"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_110",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "56",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Infliximabe 10 mg/ml - injetável - por ampola de 10 ml"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "Infliximabe é produto imunológico pela natureza técnica primária e pelas definiçõesNota2cap30/NESH. As apresentações individuais GO são dosadas. Nenhum dos nomes taxativos30021510/20 corresponde a este ativo; sustenta-se o residual30021590 por natureza, apresentação e eliminação das linhas nominais, não pela terminação do código antigo.",
+      "ncm_candidatos": [
+        "30021590"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente Medicamento: Infliximabe 10 mg/ml - injetável - por ampola de 10 ml.",
+        "Comprovar princípio ativo, forma farmacêutica, dose/concentração, recipiente e quantidade da linha GO. Apresentado em doses ou acondicionado para varejo. Excluir matéria-prima a granel e outras apresentações.",
+        "O residual30021590 limita-se a esse produto imunológico, depois de excluir as identidades nominais30021510/20; não autoriza o NCM inteiro."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "EMA_INFLIXIMABE",
+        "TIPI_NOTA2",
+        "NESH_IMUNO",
+        "TIPI_IMUNO"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_113",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "63",
+        "apendice": "XVII",
+        "codigo_legal": "3003.39.93",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Levodopa 200 mg + Benserazida 50 mg - por comprimido; Levodopa 100 mg + Benserazida 25 mg - por cápsula ou comprimido; Levodopa + Cloridrato de Benserazida | Levodopa 200 mg + Cloridrato de Benserazida 50 mg - por comprimido; Levodopa 100 mg + Cloridrato de Benserazida 25 mg - por cápsula ou comprimido"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "A TIPI atual tem item30049035 Levodopa, dentro dos medicamentos que contêm produtos2921/2922 e sem os produtos dos grupos prioritários. A NVE confirma medicamento à base delevodopa. Os demais princípios da linha não transformam a associação em hormônio; a tabela federal nomeia também carbidopa+levodopa30049035. Exige-se a composição completa para excluir substâncias prioritárias. O exame das apresentações comprimido/cápsula afasta3003, inclusive quando oID antigo estava nesse ramo.",
+      "ncm_candidatos": [
+        "30049035"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente Medicamento: Levodopa 200 mg + Benserazida 50 mg - por comprimido; Levodopa 100 mg + Benserazida 25 mg - por cápsula ou comprimido; Levodopa + Cloridrato de Benserazida | Levodopa 200 mg + Cloridrato de Benserazida 50 mg - por comprimido; Levodopa 100 mg + Cloridrato de Benserazida 25 mg - por cápsula ou comprimido.",
+        "Comprovar associação exata, concentrações legais e cápsula/comprimido da linhaGO. Não incluir associação tripla, outro ativo adicional ou produto semdose.",
+        "Conferir fórmula integral e exclusões hierárquicas dos itens3004901/2. Não utilizar300439xx hormonais por semelhança com o antigo30043993. A presença de substância que imponha outro ramo impede esta rota."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "TIPI_LEVODOPA",
+        "NVE_LEVODOPA",
+        "LC214_CORROBORACAO"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_114",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "63",
+        "apendice": "XVII",
+        "codigo_legal": "3004.39.93",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Levodopa 200 mg + Benserazida 50 mg - por comprimido; Levodopa 100 mg + Benserazida 25 mg - por cápsula ou comprimido; Levodopa + Cloridrato de Benserazida | Levodopa 200 mg + Cloridrato de Benserazida 50 mg - por comprimido; Levodopa 100 mg + Cloridrato de Benserazida 25 mg - por cápsula ou comprimido"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "A TIPI atual tem item30049035 Levodopa, dentro dos medicamentos que contêm produtos2921/2922 e sem os produtos dos grupos prioritários. A NVE confirma medicamento à base delevodopa. Os demais princípios da linha não transformam a associação em hormônio; a tabela federal nomeia também carbidopa+levodopa30049035. Exige-se a composição completa para excluir substâncias prioritárias. O exame das apresentações comprimido/cápsula afasta3003, inclusive quando oID antigo estava nesse ramo.",
+      "ncm_candidatos": [
+        "30049035"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente Medicamento: Levodopa 200 mg + Benserazida 50 mg - por comprimido; Levodopa 100 mg + Benserazida 25 mg - por cápsula ou comprimido; Levodopa + Cloridrato de Benserazida | Levodopa 200 mg + Cloridrato de Benserazida 50 mg - por comprimido; Levodopa 100 mg + Cloridrato de Benserazida 25 mg - por cápsula ou comprimido.",
+        "Comprovar associação exata, concentrações legais e cápsula/comprimido da linhaGO. Não incluir associação tripla, outro ativo adicional ou produto semdose.",
+        "Conferir fórmula integral e exclusões hierárquicas dos itens3004901/2. Não utilizar300439xx hormonais por semelhança com o antigo30043993. A presença de substância que imponha outro ramo impede esta rota."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "TIPI_LEVODOPA",
+        "NVE_LEVODOPA",
+        "LC214_CORROBORACAO"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_116",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "64",
+        "apendice": "XVII",
+        "codigo_legal": "3003.39.93",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Levodopa 200 mg + Carbidopa 50 mg - por cápsula ou comprimido; Levodopa 250 mg + Carbidopa 25 mg - por comprimido"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "A TIPI atual tem item30049035 Levodopa, dentro dos medicamentos que contêm produtos2921/2922 e sem os produtos dos grupos prioritários. A NVE confirma medicamento à base delevodopa. Os demais princípios da linha não transformam a associação em hormônio; a tabela federal nomeia também carbidopa+levodopa30049035. Exige-se a composição completa para excluir substâncias prioritárias. O exame das apresentações comprimido/cápsula afasta3003, inclusive quando oID antigo estava nesse ramo.",
+      "ncm_candidatos": [
+        "30049035"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente Medicamento: Levodopa 200 mg + Carbidopa 50 mg - por cápsula ou comprimido; Levodopa 250 mg + Carbidopa 25 mg - por comprimido.",
+        "Comprovar associação exata, concentrações legais e cápsula/comprimido da linhaGO. Não incluir associação tripla, outro ativo adicional ou produto semdose.",
+        "Conferir fórmula integral e exclusões hierárquicas dos itens3004901/2. Não utilizar300439xx hormonais por semelhança com o antigo30043993. A presença de substância que imponha outro ramo impede esta rota."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "TIPI_LEVODOPA",
+        "NVE_LEVODOPA",
+        "LC214_CORROBORACAO"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_117",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "64",
+        "apendice": "XVII",
+        "codigo_legal": "3004.39.93",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Levodopa 200 mg + Carbidopa 50 mg - por cápsula ou comprimido; Levodopa 250 mg + Carbidopa 25 mg - por comprimido"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "A TIPI atual tem item30049035 Levodopa, dentro dos medicamentos que contêm produtos2921/2922 e sem os produtos dos grupos prioritários. A NVE confirma medicamento à base delevodopa. Os demais princípios da linha não transformam a associação em hormônio; a tabela federal nomeia também carbidopa+levodopa30049035. Exige-se a composição completa para excluir substâncias prioritárias. O exame das apresentações comprimido/cápsula afasta3003, inclusive quando oID antigo estava nesse ramo.",
+      "ncm_candidatos": [
+        "30049035"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente Medicamento: Levodopa 200 mg + Carbidopa 50 mg - por cápsula ou comprimido; Levodopa 250 mg + Carbidopa 25 mg - por comprimido.",
+        "Comprovar associação exata, concentrações legais e cápsula/comprimido da linhaGO. Não incluir associação tripla, outro ativo adicional ou produto semdose.",
+        "Conferir fórmula integral e exclusões hierárquicas dos itens3004901/2. Não utilizar300439xx hormonais por semelhança com o antigo30043993. A presença de substância que imponha outro ramo impede esta rota."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "TIPI_LEVODOPA",
+        "NVE_LEVODOPA",
+        "LC214_CORROBORACAO"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_121",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "73",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Molgramostim"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "Molgramostim possui natureza imunológica demonstrada por fonte primária, cotejada com Nota2capítulo30/NESH. Trastuzumabe/bevacizumabe também são nominalmente imunológicos na própria TIPI. A linha FÁRMACO não especifica estado de mistura; duas alternativas de oito dígitos são sustentadas pelas definições expressas de não misturado/misturado, cada qual com condição documental obrigatória. Não se usa a apresentação dosada300215 para o fármaco.",
+      "ncm_candidatos": [
+        "30021300",
+        "30021400"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente Molgramostim como fármaco da coluna FÁRMACO e da linha individual GO, sem alcançar o medicamento pronto pela mera identidade do ativo.",
+        "30021300: produto puro, admitidas somente impurezas resultantes diretamente da fabricação/purificação, sem doses e sem acondicionamento para varejo. Exigir composição analítica e documentação de fornecimento industrial.",
+        "30021400: produto misturado, incluindo solução aquosa/outra solução, estabilizante ou aditivos nos termos da Nota de subposição1b, sem doses e sem acondicionamento para varejo. Exigir fórmula e documento de apresentação.",
+        "As rotas são alternativas excludentes conforme o estado da mercadoria. A composição do medicamento comercial citado como prova da natureza não determina o estado do fármaco industrial.",
+        "O relatórioConitec2016 documenta retirada de apresentações e exclusão doSUS; exigir regularidade sanitária atual da operação. Não presumir oferta atual nem que a exclusãoSUS revogue a linhaGO."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "MS_MOLGRAMOSTIM",
+        "TIPI_NOTA2",
+        "TIPI_NOTA_SUB",
+        "NESH_IMUNO",
+        "TIPI_IMUNO"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_122",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "73",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Molgramostim 300 mcg - injetável - por frasco"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "Molgramostim é produto imunológico pela natureza técnica primária e pelas definiçõesNota2cap30/NESH. As apresentações individuais GO são dosadas. Nenhum dos nomes taxativos30021510/20 corresponde a este ativo; sustenta-se o residual30021590 por natureza, apresentação e eliminação das linhas nominais, não pela terminação do código antigo.",
+      "ncm_candidatos": [
+        "30021590"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente Medicamento: Molgramostim 300 mcg - injetável - por frasco.",
+        "Comprovar princípio ativo, forma farmacêutica, dose/concentração, recipiente e quantidade da linha GO. Apresentado em doses ou acondicionado para varejo. Excluir matéria-prima a granel e outras apresentações.",
+        "O residual30021590 limita-se a esse produto imunológico, depois de excluir as identidades nominais30021510/20; não autoriza o NCM inteiro.",
+        "RelatórioConitec2016 informa apresentações inativas e exclusãoSUS. Validar registro/autorização sanitária da operação; não presumir fornecimento atual ou revogação deICMS."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "MS_MOLGRAMOSTIM",
+        "TIPI_NOTA2",
+        "NESH_IMUNO",
+        "TIPI_IMUNO",
+        "NVE_MOLGRAMOSTIM"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_131",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "106",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Soro - Outros soros"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "O cotejo histórico daTIPI2007 mostra30021019 residual sob Antissoros específicos de animais ou pessoas imunizados, ao lado de antivenenosos, antitetânico, anticatarral, antipiogênico, antidiftérico e polivalentes. A hierarquia atual3002121 conserva a mesma distinção. A frase legal Outros soros pode ser candidata somente à interseção residual demonstrada; não abrange todo produto denominado soro.",
+      "ncm_candidatos": [
+        "30021219"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente outros antissoros específicos de animais ou pessoas imunizados que caibam no residual e não em30021211–16. Excluir antivenenosos/antiofídicos, antitetânico, anticatarral, antipiogênico, antidiftérico e polivalentes.",
+        "Comprovar origem biológica, alvo de imunização e ausência de enquadramento nominal mais específico. Excluir soros fisiológicos/artificiais, soroalbuminas e imunoglobulinas classificadas noutra categoria.",
+        "Preservar colunaFÁRMACO paraOUTROS_131 eMEDICAMENTO paraOUTROS_132. Não há condiçãoNCM universal de doses para este ramo, mas a documentação da operação deve comprovar a coluna da linha."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "TIPI_2007_SOROS",
+        "TIPI_ANTISSOROS",
+        "NESH_SOROS"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_132",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "106",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Soro - Outros soros"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "O cotejo histórico daTIPI2007 mostra30021019 residual sob Antissoros específicos de animais ou pessoas imunizados, ao lado de antivenenosos, antitetânico, anticatarral, antipiogênico, antidiftérico e polivalentes. A hierarquia atual3002121 conserva a mesma distinção. A frase legal Outros soros pode ser candidata somente à interseção residual demonstrada; não abrange todo produto denominado soro.",
+      "ncm_candidatos": [
+        "30021219"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente outros antissoros específicos de animais ou pessoas imunizados que caibam no residual e não em30021211–16. Excluir antivenenosos/antiofídicos, antitetânico, anticatarral, antipiogênico, antidiftérico e polivalentes.",
+        "Comprovar origem biológica, alvo de imunização e ausência de enquadramento nominal mais específico. Excluir soros fisiológicos/artificiais, soroalbuminas e imunoglobulinas classificadas noutra categoria.",
+        "Preservar colunaFÁRMACO paraOUTROS_131 eMEDICAMENTO paraOUTROS_132. Não há condiçãoNCM universal de doses para este ramo, mas a documentação da operação deve comprovar a coluna da linha."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "TIPI_2007_SOROS",
+        "TIPI_ANTISSOROS",
+        "NESH_SOROS"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_151",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "116",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Soro Anti-Lactrodectus"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "BLOQUEIO_DOCUMENTAL_ESPECIFICO",
+      "data_referencia": "2026-10-29",
+      "criterio": "A pesquisa localizou uso deLactrodectus eLatrodectus na mesma página oficial de saúde para viúva-negra e produtoFDA equinoLatrodectusmactans de natureza antivenenosa. Isso é forte indício de erro gráfico, porém não prova de retificação da linhaGO nem sinonímia taxonômica formal. Além disso, o ramo material para antiveneno seria30021211, enquanto a antiga classificação legal30021019 era residual já distinto dos antivenenosos. Não se perpetua a divergência escolhendo30021219 nem se corrige tacitamente a lei para30021211.",
+      "ncm_candidatos": [],
+      "hipoteses_tecnicas_nao_propostas": [
+        "30021211"
+      ],
+      "documento_necessario": "Retificação oficialGO ou manifestação interpretativa/classificatória primária que identifique expressamente oSoroAnti-Lactrodectus da linha como antivenenoAnti-Latrodectus, além de ficha/registro do produto para delimitar espécie e preparação. Hipótese técnica não será incorporada enquanto faltar essa ponte.",
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "SAUDE_PR_GRAFIA",
+        "FDA_LATRODECTUS",
+        "ROTULO_LATRODECTUS",
+        "TIPI_2007_SOROS",
+        "TIPI_ANTISSOROS"
+      ],
+      "aplicacao_automatica": "NAO",
+      "revisao_fiscal_humana": "OBRIGATORIA"
+    },
+    {
+      "id_pendencia": "OUTROS_152",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "116",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Soro Anti-Lactrodectus"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "BLOQUEIO_DOCUMENTAL_ESPECIFICO",
+      "data_referencia": "2026-10-29",
+      "criterio": "A pesquisa localizou uso deLactrodectus eLatrodectus na mesma página oficial de saúde para viúva-negra e produtoFDA equinoLatrodectusmactans de natureza antivenenosa. Isso é forte indício de erro gráfico, porém não prova de retificação da linhaGO nem sinonímia taxonômica formal. Além disso, o ramo material para antiveneno seria30021211, enquanto a antiga classificação legal30021019 era residual já distinto dos antivenenosos. Não se perpetua a divergência escolhendo30021219 nem se corrige tacitamente a lei para30021211.",
+      "ncm_candidatos": [],
+      "hipoteses_tecnicas_nao_propostas": [
+        "30021211"
+      ],
+      "documento_necessario": "Retificação oficialGO ou manifestação interpretativa/classificatória primária que identifique expressamente oSoroAnti-Lactrodectus da linha como antivenenoAnti-Latrodectus, além de ficha/registro do produto para delimitar espécie e preparação. Hipótese técnica não será incorporada enquanto faltar essa ponte.",
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "SAUDE_PR_GRAFIA",
+        "FDA_LATRODECTUS",
+        "ROTULO_LATRODECTUS",
+        "TIPI_2007_SOROS",
+        "TIPI_ANTISSOROS"
+      ],
+      "aplicacao_automatica": "NAO",
+      "revisao_fiscal_humana": "OBRIGATORIA"
+    },
+    {
+      "id_pendencia": "OUTROS_162",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "136",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Vacina contra meningite C"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "A linha GO nomeia vacina contra meningite C, sem limitar dose ou acondicionamento. A TIPI atual nomeia vacina contra meningite em dois caminhos hierárquicos diferentes. Cada caminho sustenta somente sua apresentação, sem incluir outras vacinas e sem escolher artificialmente um destino único.",
+      "ncm_candidatos": [
+        "30024115",
+        "30024125"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente vacina para medicina humana contra meningite C, sem estender a outras meningites ou a antissoros.",
+        "30024115: exclusivamente não apresentada em doses e não acondicionada para venda a retalho.",
+        "30024125: exclusivamente apresentada em doses ou acondicionada para venda a retalho. As duas condições de apresentação são alternativas; classificar a mercadoria efetiva."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "TIPI_VACINAS",
+        "LC214_CORROBORACAO"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_163",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "140",
+        "apendice": "XVII",
+        "codigo_legal": "3003.40.90",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Mesilato de Bromocriptina"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "Bromocriptina é alcaloide de ergot segundo conteúdo oficial de bula; a NVE distingue a base e o mesilato por CAS. Nenhuma linha nominada de 300349/300449 descreve bromocriptina ou mesilato, restando a terminação 90 dentro da apresentação demonstrada. A linha 140 não descreve dose, e o código original 3003 conserva apenas a hipótese de medicamento constituído por produtos misturados, sem doses ou varejo; não alcança a substância isolada do capítulo 29.",
+      "ncm_candidatos": [
+        "30034990"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente mesilato de bromocriptina da linha 140. Não estender à matéria-prima, a outro alcaloide ou associação com ingrediente ativo adicional.",
+        "Comprovar composição e apresentação efetivas. 30034990 exige produtos misturados e ausência de doses/varejo; 30044990 exige doses ou varejo.",
+        "Conitec 2025 informa cancelamento do registro Novartis em 11/08/2023 e interrupção de produção. Exigir regularidade sanitária específica da operação; a análise NCM não atesta oferta atual nem revoga ou amplia a lei ICMS."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "MS_BROMO_IDENTIDADE",
+        "NVE_BROMO_FARMACO",
+        "TIPI_ALCALOIDES",
+        "MG_CORROBORACAO",
+        "MS_BROMO_SITUACAO"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_164",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "140",
+        "apendice": "XVII",
+        "codigo_legal": "3004.40.90",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Mesilato de Bromocriptina"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "Bromocriptina é alcaloide de ergot segundo conteúdo oficial de bula; a NVE distingue a base e o mesilato por CAS. Nenhuma linha nominada de 300349/300449 descreve bromocriptina ou mesilato, restando a terminação 90 dentro da apresentação demonstrada. Para a pendência originada no ramo 3004 da linha 140, somente medicamento apresentado em doses ou varejo.",
+      "ncm_candidatos": [
+        "30044990"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente mesilato de bromocriptina da linha 140. Não estender à matéria-prima, a outro alcaloide ou associação com ingrediente ativo adicional.",
+        "Comprovar composição e apresentação efetivas. 30034990 exige produtos misturados e ausência de doses/varejo; 30044990 exige doses ou varejo.",
+        "Conitec 2025 informa cancelamento do registro Novartis em 11/08/2023 e interrupção de produção. Exigir regularidade sanitária específica da operação; a análise NCM não atesta oferta atual nem revoga ou amplia a lei ICMS."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "MS_BROMO_IDENTIDADE",
+        "NVE_BROMO_FARMACO",
+        "TIPI_ALCALOIDES",
+        "MG_CORROBORACAO",
+        "MS_BROMO_SITUACAO"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_165",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "150",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.23",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Imunoglobulina Anti-Hepatite B 600 mg - injetável - por frasco ou ampola"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "A NVE federal vigente descreve nominalmente em 30021239 a Imunoglobulina da hepatite B, confirmada na tabela nominal federal. A monografia sanitária descreve preparação de imunoglobulinas principalmente IgG, sem comprovar produto constituído apenas pela imunoglobulina G nominal de 30021235. Não se escolhe código pela antiga terminação 23 nem se confunde com vacina.",
+      "ncm_candidatos": [
+        "30021239"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente preparação de imunoglobulina humana específica anti-hepatite B como medicamento da linha GO, em frasco/ampola e nas massas legais exatas.",
+        "Preservar 600 mg na linha 150; 1000 mg, 100 mg ou 500 mg na linha correspondente de OUTROS_109. Não converter UI em mg nem acrescentar apresentação de outra linha.",
+        "Exigir ficha/registro e documento classificatório do produto que confirmem o alcance da especificação NVE30021239. Excluir a imunoglobulina G genérica 30021235, fração não preparada como medicamento30021222, vacina e outro princípio ativo."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "NVE_ANTIHB",
+        "ANVISA_ANTIHB",
+        "MS_ANTIHB2026",
+        "TIPI_IGG",
+        "LC214_CORROBORACAO"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_169",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "169",
+        "apendice": "XVII",
+        "codigo_legal": "3004.40.90",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Brometo de ipratrópio 0,02 mg; Brometo de ipratrópio 0,25 mg | 3004.40.90"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "A NVE vigente é prova federal específica do medicamento à base de brometo de ipratrópio em 30044990, por CAS22254-24-6, distinta da especificação de matéria-prima29397990. A apresentação legal é medicamento dosado, devendo ser cotejada com a lista sanitária que distingue20mcg/dose e0,25mg/mL.",
+      "ncm_candidatos": [
+        "30044990"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente brometo de ipratrópio nas apresentações e concentrações literais da linha169. Comprovar a unidade exata da dose/concentração em ficha técnica; o texto GO abreviado0,25mg não autoriza alterar unidade por inferência.",
+        "Excluir associações com fenoterol/salbutamol e a matéria-prima. Não abranger todos os alcaloides residuais30044990."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "NVE_IPRATROPIO",
+        "TIPI_ALCALOIDES",
+        "LC214_CORROBORACAO"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_173",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "186",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Certolizumabe pegol"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "Certolizumabe pegol possui natureza imunológica demonstrada por fonte primária, cotejada com Nota2capítulo30/NESH. Trastuzumabe/bevacizumabe também são nominalmente imunológicos na própria TIPI. A linha FÁRMACO não especifica estado de mistura; duas alternativas de oito dígitos são sustentadas pelas definições expressas de não misturado/misturado, cada qual com condição documental obrigatória. Não se usa a apresentação dosada300215 para o fármaco.",
+      "ncm_candidatos": [
+        "30021300",
+        "30021400"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente Certolizumabe pegol como fármaco da coluna FÁRMACO e da linha individual GO, sem alcançar o medicamento pronto pela mera identidade do ativo.",
+        "30021300: produto puro, admitidas somente impurezas resultantes diretamente da fabricação/purificação, sem doses e sem acondicionamento para varejo. Exigir composição analítica e documentação de fornecimento industrial.",
+        "30021400: produto misturado, incluindo solução aquosa/outra solução, estabilizante ou aditivos nos termos da Nota de subposição1b, sem doses e sem acondicionamento para varejo. Exigir fórmula e documento de apresentação.",
+        "As rotas são alternativas excludentes conforme o estado da mercadoria. A composição do medicamento comercial citado como prova da natureza não determina o estado do fármaco industrial."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "MS_CERTOLIZUMABE",
+        "TIPI_NOTA2",
+        "TIPI_NOTA_SUB",
+        "NESH_IMUNO",
+        "TIPI_IMUNO"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_174",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "186",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Certolizumabe pegol 200 mg/ml sol inj ct 2 ser vd inc preenc x 1 ml + 2 lenços umedecidos; Certolizumabe pegol 200 mg/ml sol inj ct 6 ser vd inc preenc x 1 ml + 6 lenços umedecidos"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "Certolizumabe pegol é produto imunológico pela natureza técnica primária e pelas definiçõesNota2cap30/NESH. As apresentações individuais GO são dosadas. Nenhum dos nomes taxativos30021510/20 corresponde a este ativo; sustenta-se o residual30021590 por natureza, apresentação e eliminação das linhas nominais, não pela terminação do código antigo.",
+      "ncm_candidatos": [
+        "30021590"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente Medicamento: Certolizumabe pegol 200 mg/ml sol inj ct 2 ser vd inc preenc x 1 ml + 2 lenços umedecidos; Certolizumabe pegol 200 mg/ml sol inj ct 6 ser vd inc preenc x 1 ml + 6 lenços umedecidos.",
+        "Comprovar princípio ativo, forma farmacêutica, dose/concentração, recipiente e quantidade da linha GO. Apresentado em doses ou acondicionado para varejo. Excluir matéria-prima a granel e outras apresentações.",
+        "O residual30021590 limita-se a esse produto imunológico, depois de excluir as identidades nominais30021510/20; não autoriza o NCM inteiro."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "MS_CERTOLIZUMABE",
+        "TIPI_NOTA2",
+        "NESH_IMUNO",
+        "TIPI_IMUNO"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_175",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "187",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Abatacepte"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "Abatacepte possui natureza imunológica demonstrada por fonte primária, cotejada com Nota2capítulo30/NESH. Trastuzumabe/bevacizumabe também são nominalmente imunológicos na própria TIPI. A linha FÁRMACO não especifica estado de mistura; duas alternativas de oito dígitos são sustentadas pelas definições expressas de não misturado/misturado, cada qual com condição documental obrigatória. Não se usa a apresentação dosada300215 para o fármaco.",
+      "ncm_candidatos": [
+        "30021300",
+        "30021400"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente Abatacepte como fármaco da coluna FÁRMACO e da linha individual GO, sem alcançar o medicamento pronto pela mera identidade do ativo.",
+        "30021300: produto puro, admitidas somente impurezas resultantes diretamente da fabricação/purificação, sem doses e sem acondicionamento para varejo. Exigir composição analítica e documentação de fornecimento industrial.",
+        "30021400: produto misturado, incluindo solução aquosa/outra solução, estabilizante ou aditivos nos termos da Nota de subposição1b, sem doses e sem acondicionamento para varejo. Exigir fórmula e documento de apresentação.",
+        "As rotas são alternativas excludentes conforme o estado da mercadoria. A composição do medicamento comercial citado como prova da natureza não determina o estado do fármaco industrial."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "EMA_ABATACEPTE",
+        "TIPI_NOTA2",
+        "TIPI_NOTA_SUB",
+        "NESH_IMUNO",
+        "TIPI_IMUNO"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_176",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "187",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Abatacepte 250 mg po liof inj ct fa + ser desc; Abatacepte SC inj 125 mg 4 ser pré + disp + ext | 3002.10.29"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "Abatacepte é produto imunológico pela natureza técnica primária e pelas definiçõesNota2cap30/NESH. As apresentações individuais GO são dosadas. Nenhum dos nomes taxativos30021510/20 corresponde a este ativo; sustenta-se o residual30021590 por natureza, apresentação e eliminação das linhas nominais, não pela terminação do código antigo.",
+      "ncm_candidatos": [
+        "30021590"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente Medicamento: Abatacepte 250 mg po liof inj ct fa + ser desc; Abatacepte SC inj 125 mg 4 ser pré + disp + ext | 3002.10.29.",
+        "Comprovar princípio ativo, forma farmacêutica, dose/concentração, recipiente e quantidade da linha GO. Apresentado em doses ou acondicionado para varejo. Excluir matéria-prima a granel e outras apresentações.",
+        "O residual30021590 limita-se a esse produto imunológico, depois de excluir as identidades nominais30021510/20; não autoriza o NCM inteiro."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "EMA_ABATACEPTE",
+        "TIPI_NOTA2",
+        "NESH_IMUNO",
+        "TIPI_IMUNO"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_177",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "188",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Golimumabe"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "Golimumabe possui natureza imunológica demonstrada por fonte primária, cotejada com Nota2capítulo30/NESH. Trastuzumabe/bevacizumabe também são nominalmente imunológicos na própria TIPI. A linha FÁRMACO não especifica estado de mistura; duas alternativas de oito dígitos são sustentadas pelas definições expressas de não misturado/misturado, cada qual com condição documental obrigatória. Não se usa a apresentação dosada300215 para o fármaco.",
+      "ncm_candidatos": [
+        "30021300",
+        "30021400"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente Golimumabe como fármaco da coluna FÁRMACO e da linha individual GO, sem alcançar o medicamento pronto pela mera identidade do ativo.",
+        "30021300: produto puro, admitidas somente impurezas resultantes diretamente da fabricação/purificação, sem doses e sem acondicionamento para varejo. Exigir composição analítica e documentação de fornecimento industrial.",
+        "30021400: produto misturado, incluindo solução aquosa/outra solução, estabilizante ou aditivos nos termos da Nota de subposição1b, sem doses e sem acondicionamento para varejo. Exigir fórmula e documento de apresentação.",
+        "As rotas são alternativas excludentes conforme o estado da mercadoria. A composição do medicamento comercial citado como prova da natureza não determina o estado do fármaco industrial."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "MS_GOLIMUMABE",
+        "TIPI_NOTA2",
+        "TIPI_NOTA_SUB",
+        "NESH_IMUNO",
+        "TIPI_IMUNO"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_178",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "188",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Golimumabe 50 mg sol inj ct 1 ser preenc x 0,5 ml; Golimumabe 50 mg sol inj ct 1 ser preenc x 0,5 ml acoplada em caneta aplicadora"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "Golimumabe é produto imunológico pela natureza técnica primária e pelas definiçõesNota2cap30/NESH. As apresentações individuais GO são dosadas. Nenhum dos nomes taxativos30021510/20 corresponde a este ativo; sustenta-se o residual30021590 por natureza, apresentação e eliminação das linhas nominais, não pela terminação do código antigo.",
+      "ncm_candidatos": [
+        "30021590"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente Medicamento: Golimumabe 50 mg sol inj ct 1 ser preenc x 0,5 ml; Golimumabe 50 mg sol inj ct 1 ser preenc x 0,5 ml acoplada em caneta aplicadora.",
+        "Comprovar princípio ativo, forma farmacêutica, dose/concentração, recipiente e quantidade da linha GO. Apresentado em doses ou acondicionado para varejo. Excluir matéria-prima a granel e outras apresentações.",
+        "O residual30021590 limita-se a esse produto imunológico, depois de excluir as identidades nominais30021510/20; não autoriza o NCM inteiro."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "MS_GOLIMUMABE",
+        "TIPI_NOTA2",
+        "NESH_IMUNO",
+        "TIPI_IMUNO"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_179",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "190",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Trastuzumabe"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "Trastuzumabe possui natureza imunológica demonstrada por fonte primária, cotejada com Nota2capítulo30/NESH. Trastuzumabe/bevacizumabe também são nominalmente imunológicos na própria TIPI. A linha FÁRMACO não especifica estado de mistura; duas alternativas de oito dígitos são sustentadas pelas definições expressas de não misturado/misturado, cada qual com condição documental obrigatória. Não se usa a apresentação dosada300215 para o fármaco.",
+      "ncm_candidatos": [
+        "30021300",
+        "30021400"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente Trastuzumabe como fármaco da coluna FÁRMACO e da linha individual GO, sem alcançar o medicamento pronto pela mera identidade do ativo.",
+        "30021300: produto puro, admitidas somente impurezas resultantes diretamente da fabricação/purificação, sem doses e sem acondicionamento para varejo. Exigir composição analítica e documentação de fornecimento industrial.",
+        "30021400: produto misturado, incluindo solução aquosa/outra solução, estabilizante ou aditivos nos termos da Nota de subposição1b, sem doses e sem acondicionamento para varejo. Exigir fórmula e documento de apresentação.",
+        "As rotas são alternativas excludentes conforme o estado da mercadoria. A composição do medicamento comercial citado como prova da natureza não determina o estado do fármaco industrial."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "TIPI_IMUNO",
+        "TIPI_NOTA2",
+        "TIPI_NOTA_SUB",
+        "NESH_IMUNO"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_181",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "191",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Tocilizumabe"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "Tocilizumabe possui natureza imunológica demonstrada por fonte primária, cotejada com Nota2capítulo30/NESH. Trastuzumabe/bevacizumabe também são nominalmente imunológicos na própria TIPI. A linha FÁRMACO não especifica estado de mistura; duas alternativas de oito dígitos são sustentadas pelas definições expressas de não misturado/misturado, cada qual com condição documental obrigatória. Não se usa a apresentação dosada300215 para o fármaco.",
+      "ncm_candidatos": [
+        "30021300",
+        "30021400"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente Tocilizumabe como fármaco da coluna FÁRMACO e da linha individual GO, sem alcançar o medicamento pronto pela mera identidade do ativo.",
+        "30021300: produto puro, admitidas somente impurezas resultantes diretamente da fabricação/purificação, sem doses e sem acondicionamento para varejo. Exigir composição analítica e documentação de fornecimento industrial.",
+        "30021400: produto misturado, incluindo solução aquosa/outra solução, estabilizante ou aditivos nos termos da Nota de subposição1b, sem doses e sem acondicionamento para varejo. Exigir fórmula e documento de apresentação.",
+        "As rotas são alternativas excludentes conforme o estado da mercadoria. A composição do medicamento comercial citado como prova da natureza não determina o estado do fármaco industrial."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "ANVISA_TOCILIZUMABE",
+        "TIPI_NOTA2",
+        "TIPI_NOTA_SUB",
+        "NESH_IMUNO",
+        "TIPI_IMUNO"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_182",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "191",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Tocilizumabe 80 mg"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "Tocilizumabe é produto imunológico pela natureza técnica primária e pelas definiçõesNota2cap30/NESH. As apresentações individuais GO são dosadas. Nenhum dos nomes taxativos30021510/20 corresponde a este ativo; sustenta-se o residual30021590 por natureza, apresentação e eliminação das linhas nominais, não pela terminação do código antigo.",
+      "ncm_candidatos": [
+        "30021590"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente Medicamento: Tocilizumabe 80 mg.",
+        "Comprovar princípio ativo, forma farmacêutica, dose/concentração, recipiente e quantidade da linha GO. Apresentado em doses ou acondicionado para varejo. Excluir matéria-prima a granel e outras apresentações.",
+        "O residual30021590 limita-se a esse produto imunológico, depois de excluir as identidades nominais30021510/20; não autoriza o NCM inteiro."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "ANVISA_TOCILIZUMABE",
+        "TIPI_NOTA2",
+        "NESH_IMUNO",
+        "TIPI_IMUNO"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_183",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "192",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Tenecteplase"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "BLOQUEIO_DOCUMENTAL_ESPECIFICO",
+      "data_referencia": "2026-10-29",
+      "criterio": "A pesquisa primária identificou tenecteplase como glicoproteína ativadora de plasminogênio com domínio protease. Contudo, a NESH35.07 exclui enzimas do sangue/frações de sangue e variantes truncadas com atividade enzimática para30.02. A natureza serinoprotease, isoladamente, não resolve a fronteira entre35079029 e30021229 para o fármaco industrial recombinante. A NVE30049019 encontrada é de medicamento dosado e não prova a matéria-prima.",
+      "ncm_candidatos": [],
+      "hipoteses_tecnicas_nao_propostas": [
+        "35079029",
+        "30021229"
+      ],
+      "documento_necessario": "Solução de classificaçãoRFB para a substância industrial, ou ficha de fabricação/origem, composição e apresentação que resolva expressamente a exclusão das enzimas sanguíneas; não basta bula do medicamento.",
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "FDA_TENECTEPLASE",
+        "NVE_TENECTEPLASE",
+        "NESH_ENZIMAS",
+        "NESH_EXCLUSAO_SANGUE",
+        "NESH_SOROS"
+      ],
+      "aplicacao_automatica": "NAO",
+      "revisao_fiscal_humana": "OBRIGATORIA"
+    },
+    {
+      "id_pendencia": "OUTROS_184",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "192",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Tenecteplase 40 mg po liof inj ct fa + ser inj dil x 8 ml; Tenecteplase 50 mg po liof inj ct fa + ser inj dil x 10 ml"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "Tenecteplase é enzima ativadora de plasminogênio de origem recombinante, não automaticamente produto imunológico. A NVE atual identifica o próprio medicamento à base de tenecteplase em30049019, por CAS191588-94-0. Esse caminho compreende medicamento que contém enzima em doses e supera a incerteza do antigo código30021039.",
+      "ncm_candidatos": [
+        "30049019"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente40mg pó liofilizado injetável em frasco-ampola com seringa de diluente8mL, ou50mg com diluente10mL, exatamente conforme linha192GO.",
+        "Não adicionar dose25mg da bulaFDA, outros trombolíticos, outras embalagens ou a matéria-prima da colunaFÁRMACO. Exigir composição e enquadramento em preparação enzimática dosada."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "NVE_TENECTEPLASE",
+        "FDA_TENECTEPLASE",
+        "LC214_CORROBORACAO"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_186",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "198",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Abatacepte"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "Abatacepte possui natureza imunológica demonstrada por fonte primária, cotejada com Nota2capítulo30/NESH. Trastuzumabe/bevacizumabe também são nominalmente imunológicos na própria TIPI. A linha FÁRMACO não especifica estado de mistura; duas alternativas de oito dígitos são sustentadas pelas definições expressas de não misturado/misturado, cada qual com condição documental obrigatória. Não se usa a apresentação dosada300215 para o fármaco.",
+      "ncm_candidatos": [
+        "30021300",
+        "30021400"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente Abatacepte como fármaco da coluna FÁRMACO e da linha individual GO, sem alcançar o medicamento pronto pela mera identidade do ativo.",
+        "30021300: produto puro, admitidas somente impurezas resultantes diretamente da fabricação/purificação, sem doses e sem acondicionamento para varejo. Exigir composição analítica e documentação de fornecimento industrial.",
+        "30021400: produto misturado, incluindo solução aquosa/outra solução, estabilizante ou aditivos nos termos da Nota de subposição1b, sem doses e sem acondicionamento para varejo. Exigir fórmula e documento de apresentação.",
+        "As rotas são alternativas excludentes conforme o estado da mercadoria. A composição do medicamento comercial citado como prova da natureza não determina o estado do fármaco industrial."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "EMA_ABATACEPTE",
+        "TIPI_NOTA2",
+        "TIPI_NOTA_SUB",
+        "NESH_IMUNO",
+        "TIPI_IMUNO"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_187",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "198",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Abatacepte 125mg/ml por seringa preenchida"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "Abatacepte é produto imunológico pela natureza técnica primária e pelas definiçõesNota2cap30/NESH. As apresentações individuais GO são dosadas. Nenhum dos nomes taxativos30021510/20 corresponde a este ativo; sustenta-se o residual30021590 por natureza, apresentação e eliminação das linhas nominais, não pela terminação do código antigo.",
+      "ncm_candidatos": [
+        "30021590"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente Medicamento: Abatacepte 125mg/ml por seringa preenchida.",
+        "Comprovar princípio ativo, forma farmacêutica, dose/concentração, recipiente e quantidade da linha GO. Apresentado em doses ou acondicionado para varejo. Excluir matéria-prima a granel e outras apresentações.",
+        "O residual30021590 limita-se a esse produto imunológico, depois de excluir as identidades nominais30021510/20; não autoriza o NCM inteiro."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "EMA_ABATACEPTE",
+        "TIPI_NOTA2",
+        "NESH_IMUNO",
+        "TIPI_IMUNO"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    },
+    {
+      "id_pendencia": "OUTROS_189",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "201",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.38",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Bevacizumabe"
+      },
+      "template_id_resolvido": "GO_A9_ART7_XXXVII",
+      "decisao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "data_referencia": "2026-10-29",
+      "natureza_vinculo": "IDENTIDADE_MATERIAL_ATUAL_SEM_ALEGAR_CORRELACAO_HISTORICA",
+      "criterio": "Bevacizumabe possui natureza imunológica demonstrada por fonte primária, cotejada com Nota2capítulo30/NESH. Trastuzumabe/bevacizumabe também são nominalmente imunológicos na própria TIPI. A linha FÁRMACO não especifica estado de mistura; duas alternativas de oito dígitos são sustentadas pelas definições expressas de não misturado/misturado, cada qual com condição documental obrigatória. Não se usa a apresentação dosada300215 para o fármaco.",
+      "ncm_candidatos": [
+        "30021300",
+        "30021400"
+      ],
+      "condicoes_obrigatorias": [
+        "Somente Bevacizumabe como fármaco da coluna FÁRMACO e da linha individual GO, sem alcançar o medicamento pronto pela mera identidade do ativo.",
+        "30021300: produto puro, admitidas somente impurezas resultantes diretamente da fabricação/purificação, sem doses e sem acondicionamento para varejo. Exigir composição analítica e documentação de fornecimento industrial.",
+        "30021400: produto misturado, incluindo solução aquosa/outra solução, estabilizante ou aditivos nos termos da Nota de subposição1b, sem doses e sem acondicionamento para varejo. Exigir fórmula e documento de apresentação.",
+        "As rotas são alternativas excludentes conforme o estado da mercadoria. A composição do medicamento comercial citado como prova da natureza não determina o estado do fármaco industrial."
+      ],
+      "evidencias_ids": [
+        "GO_XXXVII",
+        "EMA_BEVACIZUMABE",
+        "TIPI_NOTA2",
+        "TIPI_NOTA_SUB",
+        "NESH_IMUNO",
+        "TIPI_IMUNO"
+      ],
+      "residuo_nao_resolvido": null,
+      "revisao_fiscal_humana": "OBRIGATORIA",
+      "aplicacao_automatica": "NAO"
+    }
+  ]
+}

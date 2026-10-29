@@ -1,0 +1,21 @@
+{
+  "achado": "I1",
+  "resultado": "CORRIGIDO",
+  "regressao": "verificar_lote.py: parcialidade declarada nas fontes versus inventário",
+  "RED": "AssertionError com OUTROS_017/019/034/035/083",
+  "GREEN": "80IDs com vínculo;8parciais;11semvínculo;preservação e SQL aprovados",
+  "lote_operacional_inalterado_sha256": "2c9042fd195f3ded48d5ad107ed8af4a54e774c51de937ac09c70886e9d09daf",
+  "ids_parciais": [
+    "OUTROS_118",
+    "OUTROS_101",
+    "OUTROS_102",
+    "OUTROS_017",
+    "OUTROS_019",
+    "OUTROS_034",
+    "OUTROS_035",
+    "OUTROS_083"
+  ],
+  "criticos": 0,
+  "importantes_pendentes": 0,
+  "menores_adiados": []
+}

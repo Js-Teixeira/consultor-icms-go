@@ -1,0 +1,153 @@
+{
+  "data_referencia": "2026-10-29",
+  "fontes": [
+    {
+      "id": "TIPI_ATUAL",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+      "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.txt",
+      "nota": "TIPI federal atual fornecida para a pesquisa, Decreto 11.158/2022 e alterações. Usada como evidência classificatória, sem importar alíquotas de IPI para ICMS.",
+      "data_acesso_pesquisa": "2026-10-29",
+      "sha256_arquivo_local": "d9c01b538c2e27918925c8e9add9c36a928d85bf86cb139d1c8e48e27fecc34c"
+    },
+    {
+      "id": "TIPI_2007",
+      "url": "https://www2.camara.leg.br/legin/fed/decret/2006/decreto-6006-28-dezembro-2006-548912-anexo-pe.pdf",
+      "arquivo_local": "resolver_91_20261029/equipamentos_pesquisa/evidencias/tipi_2007_camara.txt",
+      "nota": "Anexo da TIPI do Decreto 6.006/2006, DOU 29/12/2006; efeitos desde 01/01/2007. PDF oficial da Câmara baixado em 29/10/2026. Fonte histórica, não vigente. Página física do PDF, contando a partir de 1.",
+      "data_acesso_pesquisa": "2026-10-29",
+      "sha256_arquivo_local": "34a79de1fb6b75141d2fee44ebb1b24880c0fa7ce34ae3091118f3ea6fd36508"
+    },
+    {
+      "id": "NESH_2022",
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+      "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+      "nota": "NESH oficial de 2022 fornecida na tarefa. Páginas físicas localizadas separando o form-feed antes de buscar o trecho; leitura das notas de 84.43, 85.34 e 94.06.",
+      "data_acesso_pesquisa": "2026-10-29",
+      "sha256_arquivo_local": "b60731dbe38771890389d989f554b9d3ef6f97b7214f7be8c3a263092d92256c"
+    },
+    {
+      "id": "GO",
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "arquivo_local": "finalizacao_20261027/evidencias/anexo9_paragrafos.json",
+      "nota": "Consolidação goiana capturada em 27/10/2026. A análise de 29/10/2026 usa o texto corrente preservado e distingue trechos históricos. Não afirma nova captura integral em 29/10.",
+      "data_acesso_pesquisa": "2026-10-29",
+      "sha256_arquivo_local": "6ab18cec3ab50a8ef4718f9ac4d3e6ae8e13505788956d90cda2e4a82ce7e38f"
+    },
+    {
+      "id": "NCM_ATIVO",
+      "url": "https://portalunico.siscomex.gov.br/classif/api/publico/nomenclatura/download/json",
+      "arquivo_local": "carga_ncm_20261026/depois_carga.json",
+      "nota": "Catálogo com 10.516 NCM ativos, conferência RFB em 29/10/2026 informada na tarefa. Validação das folhas de oito dígitos das propostas.",
+      "data_acesso_pesquisa": "2026-10-29",
+      "sha256_arquivo_local": "fd8abe36e5c79544e7a9cd5e7bf9368259ff920153703ae05d8721c17e59d46f"
+    },
+    {
+      "id": "CORR_2017_2022",
+      "url": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+      "arquivo_local": "conclusao_pendencias_20261028/evidencias/correlacao_2017_2022_extraida.json",
+      "nota": "Correlação oficial MDIC 2017 a 2022 fornecida na tarefa. Não utilizada como ponte de 2012 a 2017 nem fundamento autônomo das propostas.",
+      "data_acesso_pesquisa": "2026-10-29",
+      "sha256_arquivo_local": "71977a5b2931c3becdfe2ad56679951db93b178dd9848b14541d5865d3f39ca6"
+    },
+    {
+      "id": "D6905",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/decreto/d6905.htm",
+      "arquivo_local": "resolver_91_20261029/equipamentos_pesquisa/evidencias/decreto6905_trechos_verificados.json",
+      "nota": "Decreto 6.905, de 20/07/2009, DOU 21/07/2009. Arts. 1 a 3 e Anexos I a III. Íntegra oficial recuperada no resultado web turn275view0, linhas 24 a 120. Tentativas posteriores retornaram bloqueio; as evidências de cada rota indicam os trechos lidos. A criação e a supressão de subitens não comprovam equivalência universal.",
+      "data_acesso_pesquisa": "2026-10-29",
+      "sha256_arquivo_local": "f7831db354b4a20756ef1bf3d1988a56cd06415e9a3d62b5f457a2b2bf4d2525"
+    },
+    {
+      "id": "CV101",
+      "url": "https://www.confaz.fazenda.gov.br/legislacao/convenios/1997/CV101_97",
+      "arquivo_local": "resolver_91_20261029/equipamentos_pesquisa/evidencias/fontes_web_primarias.json",
+      "nota": "Consolidação Confaz consultada em 29/10/2026. Linhas 333 a 338 mostram a redação anterior e atual da torre eólica, com a alteração do Convênio 204/19 desde 02/01/2020. O benefício continua subordinado à legislação estadual e às condições.",
+      "data_acesso_pesquisa": "2026-10-29",
+      "sha256_arquivo_local": "03a27a2fc17bf1d20cad1274e36627fe08108b3a2c470955e464c89f124ca014"
+    },
+    {
+      "id": "CV204",
+      "url": "https://www.confaz.fazenda.gov.br/legislacao/convenios/2019/CV204_19-1",
+      "arquivo_local": null,
+      "nota": "Convênio204/19 altera expressamente código de torre eólica no Conv101/97; não cria concessão estadual diversa.",
+      "data_acesso_pesquisa": "2026-10-29",
+      "sha256_arquivo_local": null
+    },
+    {
+      "id": "CV52",
+      "url": "https://www.confaz.fazenda.gov.br/legislacao/convenios/1991/CV052_91",
+      "arquivo_local": null,
+      "nota": "ConsolidaçãoConfaz lida29/10/2026: AnexoI itens3/48.8/49.3/63.9; AnexoII itens1.1/2.5/2.6/3; âmbito antigo e materiais.",
+      "data_acesso_pesquisa": "2026-10-29",
+      "sha256_arquivo_local": null
+    },
+    {
+      "id": "ADE10_2012",
+      "url": "https://anttlegis.antt.gov.br/action/ActionDatalegis.php?acao=detalharAto&cod_menu=7145&cod_modulo=420&desItem=&desItemFim=&nomeTitulo=codigos&numeroAto=00000010&orgao=RFB%2FMF&seqAto=000&tipo=ADE&valorAno=2012",
+      "arquivo_local": "resolver_91_20261029/equipamentos_pesquisa/evidencias/ade10_2012_antt.html",
+      "nota": "ADE RFB 10, de 28/12/2012, DOU 31/12/2012; art. 3 suprime 8473.50.34/35. Reprodução integral em repositório oficial da ANTT, baixada em 29/10/2026. A supressão não comprova sozinha o destino.",
+      "data_acesso_pesquisa": "2026-10-29",
+      "sha256_arquivo_local": "658f9c0522c6aad1bec15b797add67a1749985a913845f1e663ed2fc90e4fe8e"
+    },
+    {
+      "id": "NT_NFE_190",
+      "url": "https://www.nfe.fazenda.gov.br/Portal/exibirArquivo.aspx?conteudo=TYtLIzVo1Lg%3D",
+      "arquivo_local": null,
+      "nota": "NT2016.003v1.90 seção5, ResGecex136/2020:82071900 excluído;82071910/90 incluídos, tabelaNF-e vigência01/04/2021. Documento oficial indexado; download emloop302.",
+      "data_acesso_pesquisa": "2026-10-29",
+      "sha256_arquivo_local": null
+    },
+    {
+      "id": "GECEX4_2019",
+      "url": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?captchafield=firstAccess&data=25%2F10%2F2019&jornal=515&pagina=27",
+      "arquivo_local": null,
+      "nota": "ResoluçãoGecex4 de24/10/2019, DOU25/10/2019 seção1p27: alteração84807900 para84807910/90. Busca primária indexada; fetchPDF502.",
+      "data_acesso_pesquisa": "2026-10-29",
+      "sha256_arquivo_local": null
+    },
+    {
+      "id": "CAMEX54_2017",
+      "url": "https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?captchafield=firstAccess&data=07%2F07%2F2017&jornal=1&pagina=97",
+      "arquivo_local": null,
+      "nota": "ResoluçãoCamex54/2017, DOU07/07/2017p97:85363000→85363010/90. Busca primária indexada; fetchPDF502.",
+      "data_acesso_pesquisa": "2026-10-29",
+      "sha256_arquivo_local": null
+    },
+    {
+      "id": "MDIC196",
+      "url": "https://www.gov.br/mdic/pt-br/assuntos/camex/outros-documentos/deliberacoes/deliberacoes-da-196a-reuniao-do-comite-executivo-de-gestao-gecex",
+      "arquivo_local": "resolver_91_20261029/equipamentos_pesquisa/evidencias/mdic_196_deliberacoes.html",
+      "nota": "Deliberação oficial da 196ª reunião Gecex, quadro que desdobra 3923.90.00 em 3923.90.10 e 3923.90.90. Corrobora a distinção entre paletes e outros; não cria regra de ICMS.",
+      "data_acesso_pesquisa": "2026-10-29",
+      "sha256_arquivo_local": "1d1235a33411ea3199791620d10f5376c981814cc0a551a14f19e6463639c9c6"
+    },
+    {
+      "id": "RFB_SC98261_2026",
+      "url": "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/153288",
+      "arquivo_local": "resolver_91_20261029/equipamentos_pesquisa/evidencias/rfb_sc98261_2026.json",
+      "sha256_arquivo_local": "39b49f9168637d7b4d223d1df135847322938f21afcb00ca21cd793bfb25ba76",
+      "nota": "SC Cosit 98.261, de 17/08/2026, DOU 02/09/2026. Recuperada da API pública oficial RFB em 29/10/2026; fonte primária da apresentação com cabeça incorporada.",
+      "arquivo_pdf_local": "resolver_91_20261029/equipamentos_pesquisa/evidencias/rfb_sc98261_2026.pdf",
+      "sha256_pdf": "815fc0b4e5c5e52bccc7f5d7c7423944759c18ceb4262d648afa46a7fbb1f11f",
+      "url_anexo": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/153288/anexo/86163",
+      "paginas_relevantes": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": "RASTREADOR_MDIC_AUXILIAR",
+      "url": "https://rastreadorncm.mdic.gov.br/",
+      "arquivo_local": "resolver_91_20261029/fontes_comuns/rastreador_ncm_completo.xlsx",
+      "sha256_arquivo_local": "16c630bfb1899c4b009779db05b8e4b420d04c896ad9eb880fe6e5f5631739cb",
+      "nota": "Download oficial auxiliar recuperado pelo coordenador em 29/10/2026. Sem Ex, sem força normativa; corroboração subordinada à identidade material comprovada nas demais fontes."
+    }
+  ],
+  "limites": [
+    "Não se afirma cadeia oficial integral de 2012 a 2017. As tabelas ALADI/NALADISA não foram utilizadas como NCM.",
+    "TIPI e TEC fornecem prova classificatória; seus percentuais não foram importados para o ICMS.",
+    "Norma federal e Convênio Confaz não dispensam a análise da redação estadual e da data da operação.",
+    "As propostas são candidatas condicionais para revisão fiscal, sem aplicação nem homologação automática.",
+    "O PDF foi separado por form-feed antes da contagem de páginas. Não se usou splitlines global para atribuir páginas."
+  ]
+}

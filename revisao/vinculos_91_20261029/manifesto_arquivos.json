@@ -1,0 +1,177 @@
+[
+  {
+    "arquivo": "carga_01.sql",
+    "bytes": 339657,
+    "sha256": "70c5879f095fea6cdf3b3675aa16516a41f51dda69cf4cae50028afd4500f14c"
+  },
+  {
+    "arquivo": "carga_02.sql",
+    "bytes": 262682,
+    "sha256": "a31bcb44be03c1c3d7285e6d8e323bf53d3631594860fda095b4a324869abe7b"
+  },
+  {
+    "arquivo": "correcao_revisao.json",
+    "bytes": 632,
+    "sha256": "fa199ad9d105ec10256a28d9c107b8f327e7c28dd3cd3d0cb7443bba6cf4a925"
+  },
+  {
+    "arquivo": "decisoes_revisao.json",
+    "bytes": 2177,
+    "sha256": "e9bb098620e515e5b6af612ae992d60a825959516209835454e27e3ddf3b8810"
+  },
+  {
+    "arquivo": "ensaio_neon.json",
+    "bytes": 2014,
+    "sha256": "f4322024b4e729a94cf8ea5ecebf1b5e504a35ac0bf3af6dbf917df269e297d8"
+  },
+  {
+    "arquivo": "equipamentos/conclusoes.json",
+    "bytes": 471325,
+    "sha256": "d77c7230c6205b2865b3f7206d8da4af8eae57a3a36043afc2a7380858e94933"
+  },
+  {
+    "arquivo": "equipamentos/fontes.json",
+    "bytes": 10163,
+    "sha256": "5fb48c47e8435e69aa67e1bc56f6b877e55627d32f1cfce61654bce7dc4660b8"
+  },
+  {
+    "arquivo": "equipamentos/propostas.json",
+    "bytes": 458249,
+    "sha256": "964419832166309ed6bc93972db5d92ae1126e928a151d0f181f6a9e8b10d662"
+  },
+  {
+    "arquivo": "equipamentos/validacao.json",
+    "bytes": 713,
+    "sha256": "46fcfd0904705bf51e0fa8c01f3561d96028299d4989175b884bb7b2e241159a"
+  },
+  {
+    "arquivo": "fontes_hashes_conferidos.json",
+    "bytes": 28284,
+    "sha256": "a10860855dda084b5614b32e261b17ed0163008648b7f829c2405e10cda187ee"
+  },
+  {
+    "arquivo": "guarda_antes.sql",
+    "bytes": 855,
+    "sha256": "87d19ecda487d9632d6872f53f6c28b95309299300fa0bccf3d6a85fa85d1bc7"
+  },
+  {
+    "arquivo": "guarda_depois.sql",
+    "bytes": 555,
+    "sha256": "e4b33e9f5dc522bab0e203e2c24629f4b5bafe5c7bbb619d635bed3698d77f84"
+  },
+  {
+    "arquivo": "implantacao.json",
+    "bytes": 949,
+    "sha256": "19fb85c78cf1db7d8f45504bc1163f2a61b7f920513a745bf2cdcf8110d04f41"
+  },
+  {
+    "arquivo": "inventario_final.json",
+    "bytes": 88855,
+    "sha256": "f9fe49519f91411a0bc36ffddf58a0daa4159901bf95bd7258d6f1fb0eb97697"
+  },
+  {
+    "arquivo": "lote_consolidado.json",
+    "bytes": 604728,
+    "sha256": "2c9042fd195f3ded48d5ad107ed8af4a54e774c51de937ac09c70886e9d09daf"
+  },
+  {
+    "arquivo": "manifesto_cargas.json",
+    "bytes": 429,
+    "sha256": "09a58793d34aafa3d907356caaf457544b5004033a50bcf55849cbcb958ec85b"
+  },
+  {
+    "arquivo": "medicamentos/conclusoes.json",
+    "bytes": 95852,
+    "sha256": "fede60c053bfc03824bc3489f85b05aeb165a9f929e6179ffdc34e172b7681c6"
+  },
+  {
+    "arquivo": "medicamentos/fontes.json",
+    "bytes": 66348,
+    "sha256": "46fb40a917f70d620a231845e9945497efb04bdec98c511a28ce8f434a374fea"
+  },
+  {
+    "arquivo": "medicamentos/propostas.json",
+    "bytes": 562176,
+    "sha256": "0479006c50af423bd6aea202bff4c4d95f685fc3b60f51c03e638cc9e7537084"
+  },
+  {
+    "arquivo": "medicamentos/validacao.json",
+    "bytes": 2708,
+    "sha256": "30e51eba2da7e8e2eaefec4c987ed5efef904c46b6a852ba9cf45501aa2c46d1"
+  },
+  {
+    "arquivo": "quimicos/conclusoes.json",
+    "bytes": 134245,
+    "sha256": "5ed380c57066fbbd7f50053539bcb9d8b33502509cc3c92454986df48ec31b5b"
+  },
+  {
+    "arquivo": "quimicos/fontes.json",
+    "bytes": 10475,
+    "sha256": "97f4f222d30d160a4d32075af39728bec368c3bfd68b1a46dc07ce74a000c4e6"
+  },
+  {
+    "arquivo": "quimicos/propostas.json",
+    "bytes": 163085,
+    "sha256": "fa1d6676145f071b65cfda77da13f6d73987608b55000833dce692c06f193e51"
+  },
+  {
+    "arquivo": "quimicos/validacao.json",
+    "bytes": 898,
+    "sha256": "4c38818557b6c508e875a95772578d8b86e5c65c55bb3a5e14fe1fd3c27a5ef9"
+  },
+  {
+    "arquivo": "rastreabilidade.json",
+    "bytes": 1036634,
+    "sha256": "328d9dc4c9af3ccc65ab0fe311b5e0d80e99f86a6cf1e7fdcb4f45ee746b64de"
+  },
+  {
+    "arquivo": "resumo.json",
+    "bytes": 875,
+    "sha256": "18c22a11336aa3fd17220db54280d8fe0df398675f318cc92b881908a7cf3ed3"
+  },
+  {
+    "arquivo": "revalidacao_nve.json",
+    "bytes": 282,
+    "sha256": "bcae85828a9b3cc600a0437f5a4659918430fa72b02e4c2f6060aabc93b65a06"
+  },
+  {
+    "arquivo": "revisao_independente.json",
+    "bytes": 53732,
+    "sha256": "363d812e5c2abf3563e27fd689dfa72aa49acccdaee623c68661d5d8a8386f53"
+  },
+  {
+    "arquivo": "revisao_independente.md",
+    "bytes": 8998,
+    "sha256": "a0a196a74cc50d74324f489e88fd96f465002d6ec6d14ba6ec032c7b3a5fb041"
+  },
+  {
+    "arquivo": "templates_derivados.json",
+    "bytes": 8882,
+    "sha256": "a98d19058502dbc13546fd9de33f497c17b32db988e4f9d8b83c585860350872"
+  },
+  {
+    "arquivo": "testes.txt",
+    "bytes": 1217,
+    "sha256": "cb80b0a35f488b951477cbaeb70788b92519b595247e31c151a0b50d572219eb"
+  },
+  {
+    "arquivo": "validacao_integral.json",
+    "bytes": 3162,
+    "sha256": "251b9321806b5b3fe5c4677315604e085f32b9e9abd64ab569a131c2715e9dfe"
+  },
+  {
+    "arquivo": "validacao_lote.json",
+    "bytes": 413,
+    "sha256": "6179eb4f70b04df7f0a377a76a0f57e020ba3585968a011bc24e0bf7c09adf45"
+  },
+  {
+    "arquivo": "verificacao_site_publico.json",
+    "bytes": 983,
+    "sha256": "272cff8e8198740f9e7a5f12a853ebedfcaea36b49c01ea0ec5a7bc738b53f0e"
+  },
+  {
+    "arquivo": "verificar_lote.py",
+    "bytes": 5349,
+    "sha256": "8e48d3d8aa4f6acb9d90f38df3561dc8309f4c5108256af5bf7a2ca34091e216"
+  }
+]

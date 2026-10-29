@@ -1,0 +1,26 @@
+{
+  "data_referencia": "2026-10-29",
+  "resultado": "PASSOU",
+  "verificacoes": {
+    "20_ids_exatos": true,
+    "todos_destinos_catalogo_ativo": true,
+    "codigos_8_digitos": true,
+    "template_percentuais_cbenef_escopo_vigencia_preservados": true,
+    "complementos_têm_id_existente_e_ncm_compativel": true,
+    "rotas_positivas_com_fontes_e_restricoes": true,
+    "sem_codigo_medicamento_indevido": true,
+    "associacoes_e_dapagliflozina_sem_proposta": true,
+    "sem_homologacao_automatica": true,
+    "nve_trechos_e_paginas_reconferiveis": true
+  },
+  "totais": {
+    "ids": 20,
+    "ids_com_candidatos": 17,
+    "ids_sem_carga": 3,
+    "rotas": 19,
+    "pares_template_ncm": 12,
+    "novos": 7,
+    "complementos": 5
+  },
+  "limites": "Validação documental e consistência do lote; não é teste do aplicativo nem homologação fiscal. Nenhuma escrita emrepo/Git/Neon/SQL realizada."
+}
