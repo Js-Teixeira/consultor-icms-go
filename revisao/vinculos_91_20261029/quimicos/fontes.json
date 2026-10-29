@@ -1,0 +1,174 @@
+{
+  "data_referencia": "2026-10-29",
+  "fontes": [
+    {
+      "id": "RFB_NVE159_2024",
+      "url": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/139921/anexo/75295",
+      "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_139921_anexo_75295.pdf",
+      "sha256": "67c338881e790b908c999403bfcb4553b7e968112f922bd49fed3c909239d48f",
+      "bytes": 2975658,
+      "data_consulta": "2026-10-29",
+      "natureza": "PRIMARIA_OFICIAL",
+      "uso_e_limite": "PortariaCoana159/2024, AnexoÚnico; classificação nominalCAS/DCB porNCM. Ato vigente naAPI em29/10/2026, início14/11/2024."
+    },
+    {
+      "id": "RFB_NVE159_ATO",
+      "url": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/139921/visao/vigente",
+      "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_139921_vigente.json",
+      "sha256": "368095d5e6f1d389e7cf59e1909d04a46cf2ffe3867e133f6396c7bbc9b70e0a",
+      "bytes": 12833,
+      "data_consulta": "2026-10-29",
+      "natureza": "PRIMARIA_OFICIAL",
+      "uso_e_limite": "Arts1–5; publicadoDOU16/08/2024,p43; vigente:true."
+    },
+    {
+      "id": "RFB_TIPI_ATUAL",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+      "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.pdf",
+      "sha256": "7270eafd26cf905fd954ca34f9a7bb8131a0a102eeae579d0a2a016cc55ca270",
+      "bytes": 9009764,
+      "data_consulta": "2026-10-29",
+      "natureza": "PRIMARIA_OFICIAL",
+      "uso_e_limite": "TabelaNCM atual doDecreto11158/2022 e alterações, preservada localmente; códigos conferidos no catálogo10516 atual."
+    },
+    {
+      "id": "RFB_NESH_2022",
+      "url": null,
+      "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.pdf",
+      "sha256": "2f25d9dc0433f107ed1d498ff8e8f7928bf0fab4e279cca950aede1f50e57f9d",
+      "bytes": 15647943,
+      "data_consulta": "2026-10-29",
+      "natureza": "PRIMARIA_OFICIAL",
+      "uso_e_limite": "NotasExplicativasSH2022; posições29.32/29.38 e30.03. Fundamentação das hipóteses, sem classificação individual presumida."
+    },
+    {
+      "id": "GO_ANEXO_IX",
+      "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+      "arquivo_local": "finalizacao_20261027/evidencias/anexo9_beneficios.html",
+      "sha256": "e4538fdfd070f17eb2c34fdf43d2b42ae604e8746f92b15f13b7eb48485961a5",
+      "bytes": 72656340,
+      "data_consulta": "2026-10-29",
+      "natureza": "PRIMARIA_OFICIAL",
+      "uso_e_limite": "Cache oficial27/10/2026, leitura das células e rowspan em29/10; históricaTextoRevo/NovaRedRev/NotaRev excluída dos recortes."
+    },
+    {
+      "id": "ANVISA_DCB2013",
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/farmacopeia/dcb/arquivos/8140json-file-1/@@download/file/8140json-file-1.pdf",
+      "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/manual_dcb_anvisa.pdf",
+      "sha256": "cd0da7b7f52d1703bce65847ec25e4f7ca9cc668b37e6aee51f2f756217576b0",
+      "bytes": 4402148,
+      "data_consulta": "2026-10-29",
+      "natureza": "PRIMARIA_OFICIAL",
+      "uso_e_limite": "IdentidadeDCB/CAS, sem função classificatóriaNCM."
+    },
+    {
+      "id": "RFB_COMPENDIO_CECLAM",
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/compedio-ceclam.pdf/@@download/file",
+      "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/compendio_ceclam_oficial.pdf",
+      "sha256": "77e4d27dc225f4d98a7872752ec7db545052de9e4448f6c229c250635b8761f7",
+      "bytes": 3576274,
+      "data_consulta": "2026-10-29",
+      "natureza": "PRIMARIA_OFICIAL",
+      "uso_e_limite": "CorroboraSC111/2015,98.394/2021 e98.396/2021."
+    },
+    {
+      "id": "ANVISA_RDC19_2011",
+      "url": "https://bvsms.saude.gov.br/bvs/saudelegis/anvisa/2011/res0019_05_05_2011.html",
+      "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/anvisa_rdc19_2011.html",
+      "sha256": "4d29f5d5830d354c4931e85e403cd8dcce52d9bcf46344525c2ab4da58388a9f",
+      "bytes": 64993,
+      "data_consulta": "2026-10-29",
+      "natureza": "PRIMARIA_OFICIAL",
+      "uso_e_limite": "AnexoI: DCB09951dapagliflozinaCAS461432-26-8; identidade, nãoNCM."
+    },
+    {
+      "id": "RFB_SC_121674",
+      "url": "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/121674",
+      "url_api": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/121674/visao/vigente",
+      "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_121674_vigente.json",
+      "sha256": "ccf6dd0a567a22d9f0b1673356e0a59f0f48c5f8dc7a2fe906f3c32cc3167ed7",
+      "data_consulta": "2026-10-29",
+      "natureza": "PRIMARIA_OFICIAL",
+      "epigrafe": "Solução de Consulta Cosit nº 98394, de 28 de outubro de 2021",
+      "publicacao": "Publicado(a) no DOU de 23/11/2021, seção 1, página 23",
+      "vigente_na_api": true,
+      "uso_e_limite": "Classificação restrita à mercadoria descrita; não cria benefícioICMS."
+    },
+    {
+      "id": "RFB_SC_121676",
+      "url": "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/121676",
+      "url_api": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/121676/visao/vigente",
+      "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_121676_vigente.json",
+      "sha256": "394c1c61d64d071a724860801c0a32bddc3c342f8aff0ca48d586088b12dbf15",
+      "data_consulta": "2026-10-29",
+      "natureza": "PRIMARIA_OFICIAL",
+      "epigrafe": "Solução de Consulta Cosit nº 98396, de 28 de outubro de 2021",
+      "publicacao": "Publicado(a) no DOU de 23/11/2021, seção 1, página 23",
+      "vigente_na_api": true,
+      "uso_e_limite": "Classificação restrita à mercadoria descrita; não cria benefícioICMS."
+    },
+    {
+      "id": "RFB_SC_62838",
+      "url": "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/62838",
+      "url_api": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/62838/visao/vigente",
+      "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_62838_vigente.json",
+      "sha256": "3e122180cded9f3dd04567b0681e0499433b8968d3cceb01716fa2cca245e9d9",
+      "data_consulta": "2026-10-29",
+      "natureza": "PRIMARIA_OFICIAL",
+      "epigrafe": "Solução de Consulta Coana nº 111, de 27 de março de 2015",
+      "publicacao": "Publicado(a) no DOU de 07/04/2015, seção 1, página 45",
+      "vigente_na_api": true,
+      "uso_e_limite": "Classificação restrita à mercadoria descrita; não cria benefícioICMS."
+    },
+    {
+      "id": "RFB_SC_100721",
+      "url": "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/100721",
+      "url_api": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/100721/visao/vigente",
+      "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_100721_vigente.json",
+      "sha256": "c0ea98a8de6c59bfc309ff8d0d8bb16ad0871162f26ff01d1682fe0fbe260e64",
+      "data_consulta": "2026-10-29",
+      "natureza": "PRIMARIA_OFICIAL",
+      "epigrafe": "Solução de Consulta Cosit nº 98174, de 29 de abril de 2019",
+      "publicacao": "Publicado(a) no DOU de 13/05/2019, seção 1, página 18",
+      "vigente_na_api": true,
+      "uso_e_limite": "Classificação restrita à mercadoria descrita; não cria benefícioICMS."
+    },
+    {
+      "id": "RFB_SC_121689",
+      "url": "https://normasinternet2.receita.fazenda.gov.br/#/consulta/externa/121689",
+      "url_api": "https://normasinternet2.receita.fazenda.gov.br/api/consulta-externa/ato/121689/visao/vigente",
+      "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/ato_121689_vigente.json",
+      "sha256": "470ac1e7bd341c645fc8218350daef91697d7f129d0895478d0ae2a8ddead823",
+      "data_consulta": "2026-10-29",
+      "natureza": "PRIMARIA_OFICIAL",
+      "epigrafe": "Solução de Consulta Cosit nº 98411, de 28 de outubro de 2021",
+      "publicacao": "Publicado(a) no DOU de 23/11/2021, seção 1, página 24",
+      "vigente_na_api": true,
+      "uso_e_limite": "Classificação restrita à mercadoria descrita; não cria benefícioICMS."
+    },
+    {
+      "id": "MDIC_RASTREADOR_AUXILIAR",
+      "arquivo_local": "resolver_91_20261029/fontes_comuns/rastreador_alvos_91.json",
+      "natureza": "OFICIAL_AUXILIAR_SEM_FORCA_NORMATIVA",
+      "uso_e_limite": "Não fundamentou sozinho qualquer candidato; destinos incompatíveis comidentidade química foram recusados. Paraassociações, trilha29373911→29379090 não substituiTIPI nominalLevodopa29225031."
+    },
+    {
+      "id": "UE1238_2010_HIPOTESE",
+      "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/PDF/?uri=CELEX:32010R1238",
+      "natureza": "PRIMARIA_OFICIAL_ESTRANGEIRA",
+      "localizador": "Anexo; CAS461432-26-8 dapagliflozinaCN29329900",
+      "uso_e_limite": "Trecho recuperado por busca pública indexada, tentativa daíntegra retornouHTTP202 vazio/paredeantirrobô. Não fundamentaNCM brasileiro e não gerou proposta."
+    },
+    {
+      "id": "EPA_DAPAGLIFLOZIN",
+      "url": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID20905104",
+      "arquivo_local": "resolver_91_20261029/quimicos_pesquisa/evidencias/epa_dapagliflozin.html",
+      "natureza": "PRIMARIA_OFICIAL_ESTRANGEIRA",
+      "trecho_recuperado_na_busca": "Dapagliflozin;461432-26-8;MolecularFormula:C21H25ClO6",
+      "uso_e_limite": "Identidade e fórmula apenas; não classificaçãoNCM. PáginaSPA requer JavaScript para detalhe; a hipótese não gerou proposta."
+    }
+  ],
+  "metodo_acesso_api": "Busca públicaPOST https://normas.receita.fazenda.gov.br/api/indexacao/ato/pesquisar; íntegra públicaGET normasinternet2/api/consulta-externa/ato/{id}/visao/vigente; anexosGET /anexo/{idArquivoBinario}. Sem login, sem contornar controle de acesso.",
+  "erros_de_acesso_resolvidos": "in.gov.br retornou502 e caminhosantigosRFB retornaramHTML deSPA. Ofrontend públicoRFB anuncia endpointsdeconsulta externa e entregouPDF daPortaria159 eSCsHTTP200. Cópiasprivadas não fundamentaram candidatos.",
+  "criterio_localizador": "Contagem de páginas por delimitadorformfeed do textoPDF (.split(\\f)), não por splitlines; cabeçalhoNCM/AA/especificação e trecho exato;recortesPNG conferidos."
+}

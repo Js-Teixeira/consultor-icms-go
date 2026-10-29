@@ -1,0 +1,27 @@
+{
+  "estado": "FINAL ESTÁVEL",
+  "resultado": "PASSOU",
+  "data_referencia": "2026-10-29",
+  "ids_entrada": 28,
+  "ids_concluidos": 28,
+  "ids_com_propostas": 23,
+  "ids_impedidos": [
+    "OUTROS_002",
+    "OUTROS_039",
+    "OUTROS_040",
+    "OUTROS_041",
+    "OUTROS_043"
+  ],
+  "propostas_template_ncm": 32,
+  "rotas_total": 37,
+  "novos": 29,
+  "complementos": 3,
+  "ncm_todos_ativos": true,
+  "templates_todos_existentes": true,
+  "parametros_fiscais_preservados": true,
+  "ids_complementos_existentes_conferidos": true,
+  "sem_ancoras_faltantes": true,
+  "homologacao_automatica": false,
+  "alteracoes_repo_git_neon_sql": false,
+  "comando": "python resolver_91_20261029/equipamentos_pesquisa/validar.py"
+}

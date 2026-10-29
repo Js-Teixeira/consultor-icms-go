@@ -1,0 +1,2175 @@
+{
+  "referencia": "2026-10-29",
+  "total": 91,
+  "linhas": [
+    {
+      "id_pendencia": "OUTROS_167",
+      "grupo": "quimicos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "158",
+        "apendice": "XVII",
+        "codigo_legal": "2935.00.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Sildenafila"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_RESTRITO_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "29349999",
+          "id_beneficio": "BEN_FIN20261027_GO_A9_ART7_XXXVII_29349999"
+        },
+        {
+          "ncm": "29359019",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_29359019"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_168",
+      "grupo": "quimicos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "169",
+        "apendice": "XVII",
+        "codigo_legal": "2939.99.90",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Brometo de ipratrópio"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_RESTRITO_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "29397990",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_29397990"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_171",
+      "grupo": "quimicos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "176",
+        "apendice": "XVII",
+        "codigo_legal": "2935.00.92",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Glibenclamida"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_RESTRITO_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "29359092",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_29359092"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_172",
+      "grupo": "quimicos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "177",
+        "apendice": "XVII",
+        "codigo_legal": "2935.00.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Hidroclorotiazida"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_RESTRITO_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "29359029",
+          "id_beneficio": "BEN_FIN20261027_GO_A9_ART7_XXXVII_29359029"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_185",
+      "grupo": "quimicos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "193",
+        "apendice": "XVII",
+        "codigo_legal": "2935.00.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Bosentana"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_RESTRITO_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "29359019",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_29359019"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_188",
+      "grupo": "quimicos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "199",
+        "apendice": "XVII",
+        "codigo_legal": "2935.00.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Acetazolamida"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_RESTRITO_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "29359029",
+          "id_beneficio": "BEN_FIN20261027_GO_A9_ART7_XXXVII_29359029"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_191",
+      "grupo": "quimicos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "204",
+        "apendice": "XVII",
+        "codigo_legal": "2935.00.99",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Brinzolamida"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_RESTRITO_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "29359099",
+          "id_beneficio": "BEN_FIN20261027_GO_A9_ART7_XXXVII_29359099"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_192",
+      "grupo": "quimicos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "209",
+        "apendice": "XVII",
+        "codigo_legal": "2935.00",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Dorzolamida"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_RESTRITO_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "29359099",
+          "id_beneficio": "BEN_FIN20261027_GO_A9_ART7_XXXVII_29359099"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_196",
+      "grupo": "quimicos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "272",
+        "apendice": "XVII",
+        "codigo_legal": "2939.80.00",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Dapagliflozina"
+      },
+      "situacao": "PENDENTE_SEM_VINCULO_OPERACIONAL",
+      "decisao_documental": "IMPEDIMENTO_CONCRETO_SEM_PROPOSTA_DE_CARGA",
+      "residuo": null,
+      "beneficios": [],
+      "impedimento": "Classificação federal brasileira e revisão do aparente erro material do NCM goiano: estrutura/CAS e forma real devem ser comprovados, com aplicação de RGI/Notas29.32 e29.38. A classificaçãoCN29329900 daUE corrobora uma hipótese de posição/subposição, mas não prova oito dígitosNCM nem altera ICMS/GO.",
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_096",
+      "grupo": "quimicos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "4",
+        "apendice": "XVII",
+        "codigo_legal": "2931.00.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Alendronato de sódio"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_RESTRITO_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "29314990",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_29314990"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_107",
+      "grupo": "quimicos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "48",
+        "apendice": "XVII",
+        "codigo_legal": "2939.99.90",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Galantamina"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_RESTRITO_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "29397990",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_29397990"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_112",
+      "grupo": "quimicos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "63",
+        "apendice": "XVII",
+        "codigo_legal": "2937.39.11",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Levodopa + Benserasida"
+      },
+      "situacao": "PENDENTE_SEM_VINCULO_OPERACIONAL",
+      "decisao_documental": "IMPEDIMENTO_CONCRETO_SEM_PROPOSTA_DE_CARGA",
+      "residuo": null,
+      "beneficios": [],
+      "impedimento": "Esclarecer por documento legal/classificatório ou consulta fiscal se a coluna fármaco com códigos separados abrange fornecimento individual dos componentes ou preparação associada. Para mistura: comprovar composição, finalidade terapêutica, apresentação não dosada e alcance legal; para componentes separados: demonstrar alcance da linha associada sobre o fornecimento do componente. Não substituir por3004 dosado nem criar benefício universal dos isolados.",
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_115",
+      "grupo": "quimicos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "64",
+        "apendice": "XVII",
+        "codigo_legal": "2937.39.11",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Levodopa + Carbidopa"
+      },
+      "situacao": "PENDENTE_SEM_VINCULO_OPERACIONAL",
+      "decisao_documental": "IMPEDIMENTO_CONCRETO_SEM_PROPOSTA_DE_CARGA",
+      "residuo": null,
+      "beneficios": [],
+      "impedimento": "Esclarecer por documento legal/classificatório ou consulta fiscal se a coluna fármaco com códigos separados abrange fornecimento individual dos componentes ou preparação associada. Para mistura: comprovar composição, finalidade terapêutica, apresentação não dosada e alcance legal; para componentes separados: demonstrar alcance da linha associada sobre o fornecimento do componente. Não substituir por3004 dosado nem criar benefício universal dos isolados.",
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_118",
+      "grupo": "quimicos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "65",
+        "apendice": "XVII",
+        "codigo_legal": "2937.40.10",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Levotiroxina"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_PARCIAL",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_RESTRITO_DOCUMENTADO",
+      "residuo": [
+        "Levotiroxina sódica monoidratada",
+        "Levotiroxina sódica pentaidratada"
+      ],
+      "beneficios": [
+        {
+          "ncm": "29379030",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_29379030"
+        },
+        {
+          "ncm": "29379090",
+          "id_beneficio": "BEN_FIN20261027_GO_A9_ART7_XXXVII_29379090"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_120",
+      "grupo": "quimicos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "72",
+        "apendice": "XVII",
+        "codigo_legal": "2932.29.90",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Micofenolato de Sódio"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_RESTRITO_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "29322000",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_29322000"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_123",
+      "grupo": "quimicos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "77",
+        "apendice": "XVII",
+        "codigo_legal": "2931.00.49",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Pamidronato dissódico"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_RESTRITO_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "29314990",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_29314990"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_124",
+      "grupo": "quimicos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "86",
+        "apendice": "XVII",
+        "codigo_legal": "2931.00.49",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Risedronato Sódico"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_RESTRITO_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "29333939",
+          "id_beneficio": "BEN_FIN20261027_GO_A9_ART7_XXXVII_29333939"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_125",
+      "grupo": "quimicos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "94",
+        "apendice": "XVII",
+        "codigo_legal": "2932.29.90",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Sinvastatina"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_RESTRITO_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "29322000",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_29322000"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_126",
+      "grupo": "quimicos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "97",
+        "apendice": "XVII",
+        "codigo_legal": "2935.00.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Sulfassalazina"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_RESTRITO_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "29359019",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_29359019"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_128",
+      "grupo": "quimicos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "100",
+        "apendice": "XVII",
+        "codigo_legal": "2935.00.99",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Topiramato"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_RESTRITO_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "29329999",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_29329999"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_007",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": null,
+        "item": "b",
+        "apendice": null,
+        "codigo_legal": "3002.10.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "b) interferon alfa-2A, código 3002.10.39;",
+        "dispositivo_original": "RCTE/GO, Anexo IX, art. 7, inciso XXXV"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30021590",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXV_BC_D20030606_30021590"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_008",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": null,
+        "item": "c",
+        "apendice": null,
+        "codigo_legal": "3002.10.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "c) interferon alfa-2B, código 3002.10.39;",
+        "dispositivo_original": "RCTE/GO, Anexo IX, art. 7, inciso XXXV"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30021590",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXV_BC_D20030606_30021590"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_009",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": null,
+        "item": "m",
+        "apendice": null,
+        "codigo_legal": "3002.10.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "m) Complexo Protrombínico Parcialmente Ativado (a PCC), código 3002.10.39;",
+        "dispositivo_original": "RCTE/GO, Anexo IX, art. 7, inciso XXXV"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30021239",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXV_M_D20100901_30021239"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_010",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": null,
+        "item": "n",
+        "apendice": null,
+        "codigo_legal": "3002.10.38",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "n) rituximabe, código 3002.10.38;",
+        "dispositivo_original": "RCTE/GO, Anexo IX, art. 7, inciso XXXV"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30021520",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXV_N_D20101201_30021520"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_095",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "3",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Adalimumabe - injetável – 40mg – por seringa preenchida, caneta aplicadora ou frasco-ampola"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30021590",
+          "id_beneficio": "BEN_FIN20261027_GO_A9_ART7_XXXVII_30021590"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_097",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "8",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Alfainterferona 2b 10.000.000 UI - injetável por frasco ampola; Alfainterferona 2b 5.000.000 UI - injetável por frasco ampola; Alfainterferona 2b 3.000.000 UI - injetável por frasco ampola; 9 | Alfapeginterferona 2a | Alfapeginterferona 2a 180 mcg - por seringa preenchida; Alfapeginterferona 2b | Alfapeginterferona 2b 80 mcg - por frasco ampola; Alfapeginterferona 2b 100 mcg - por frasco ampola; Alfapeginterferona 2b 120 mcg - por frasco ampola"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30021510",
+          "id_beneficio": "BEN_CONT20261028_GO_A9_ART7_XXXVII_30021510"
+        },
+        {
+          "ncm": "30021590",
+          "id_beneficio": "BEN_FIN20261027_GO_A9_ART7_XXXVII_30021590"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_099",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "17",
+        "apendice": "XVII",
+        "codigo_legal": "3003.40.90",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Bromocriptina 2,5 mg - por comprimido ou cápsula de liberação prolongada; Mesilato de Bromocriptina | Mesilato de Bromocriptina 2,5 mg - por comprimido ou cápsula de liberação prolongada"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30044990",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_30044990"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_100",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "17",
+        "apendice": "XVII",
+        "codigo_legal": "3004.40.90",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Bromocriptina 2,5 mg - por comprimido ou cápsula de liberação prolongada; Mesilato de Bromocriptina | Mesilato de Bromocriptina 2,5 mg - por comprimido ou cápsula de liberação prolongada"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30044990",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_30044990"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_101",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "28",
+        "apendice": "XVII",
+        "codigo_legal": "3003.40.40",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Codeína 30 mg/ml - por ampola com 2 ml; Codeína 30 mg - por comprimido; Codeína 60 mg - por comprimido; Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Acetato de Codeína | Acetato de Codeína 30 mg/ml - por ampola com 2 ml; Acetato de Codeína 30 mg - por comprimido; Acetato de Codeína 60 mg - por comprimido; Acetato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Bromidrato de Codeína | Bromidrato de Codeína 30 mg/ml - por ampola com 2 ml; Bromidrato de Codeína 30 mg - por comprimido; Bromidrato de Codeína 60 mg - por comprimido; Bromidrato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Canfossulfonato de Codeína | Canfossulfonato de Codeína 30 mg/ml - por ampola com 2 ml; Canfossulfonato de Codeína 30 mg - por comprimido; Canfossulfonato de Codeína 60 mg - por comprimido; Canfossulfonato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Citrato de Codeína | Citrato de Codeína 30 mg/ml - por ampola com 2 ml; Citrato de Codeína 30 mg - por comprimido; Citrato de Codeína 60 mg - por comprimido; Citrato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Cloridrato de Codeína | Cloridrato de Codeína 30 mg/ml - por ampola com 2 ml; Cloridrato de Codeína 30 mg - por comprimido; Cloridrato de Codeína 60 mg - por comprimido; Cloridrato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Metilbrometo de Codeína | Metilbrometo de Codeína 30 mg/ml - por ampola com 2 ml; Metilbrometo de Codeína 30 mg - por comprimido; Metilbrometo de Codeína 60 mg - por comprimido; Metilbrometo de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Óxido de Codeína | Óxido de Codeína 30 mg/ml - por ampola com 2 ml; Óxido de Codeína 30 mg - por comprimido; Óxido de Codeína 60 mg - por comprimido; Óxido de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Salicilato de Codeína | Salicilato de Codeína 30 mg/ml - por ampola com 2 ml; Salicilato de Codeína 30 mg - por comprimido; Salicilato de Codeína 60 mg - por comprimido; Salicilato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Sulfato de Codeína | Sulfato de Codeína 30 mg/ml - por ampola com 2 ml; Sulfato de Codeína 30 mg - por comprimido; Sulfato de Codeína 60 mg - por comprimido; Sulfato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Fosfato de Codeína | Fosfato de Codeína 30 mg/ml - por ampola com 2 ml; Fosfato de Codeína 30 mg - por comprimido; Fosfato de Codeína 60 mg - por comprimido; Fosfato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_PARCIAL",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_PARCIAL",
+      "residuo": "Óxido de codeína e metilbrometo de codeína permanecem semvínculo. A proposta não cobre a agregação inteira de sais/derivados.",
+      "beneficios": [
+        {
+          "ncm": "30044940",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_30044940"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_102",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "28",
+        "apendice": "XVII",
+        "codigo_legal": "3004.40.40",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Codeína 30 mg/ml - por ampola com 2 ml; Codeína 30 mg - por comprimido; Codeína 60 mg - por comprimido; Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Acetato de Codeína | Acetato de Codeína 30 mg/ml - por ampola com 2 ml; Acetato de Codeína 30 mg - por comprimido; Acetato de Codeína 60 mg - por comprimido; Acetato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Bromidrato de Codeína | Bromidrato de Codeína 30 mg/ml - por ampola com 2 ml; Bromidrato de Codeína 30 mg - por comprimido; Bromidrato de Codeína 60 mg - por comprimido; Bromidrato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Canfossulfonato de Codeína | Canfossulfonato de Codeína 30 mg/ml - por ampola com 2 ml; Canfossulfonato de Codeína 30 mg - por comprimido; Canfossulfonato de Codeína 60 mg - por comprimido; Canfossulfonato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Citrato de Codeína | Citrato de Codeína 30 mg/ml - por ampola com 2 ml; Citrato de Codeína 30 mg - por comprimido; Citrato de Codeína 60 mg - por comprimido; Citrato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Cloridrato de Codeína | Cloridrato de Codeína 30 mg/ml - por ampola com 2 ml; Cloridrato de Codeína 30 mg - por comprimido; Cloridrato de Codeína 60 mg - por comprimido; Cloridrato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Metilbrometo de Codeína | Metilbrometo de Codeína 30 mg/ml - por ampola com 2 ml; Metilbrometo de Codeína 30 mg - por comprimido; Metilbrometo de Codeína 60 mg - por comprimido; Metilbrometo de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Óxido de Codeína | Óxido de Codeína 30 mg/ml - por ampola com 2 ml; Óxido de Codeína 30 mg - por comprimido; Óxido de Codeína 60 mg - por comprimido; Óxido de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Salicilato de Codeína | Salicilato de Codeína 30 mg/ml - por ampola com 2 ml; Salicilato de Codeína 30 mg - por comprimido; Salicilato de Codeína 60 mg - por comprimido; Salicilato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Sulfato de Codeína | Sulfato de Codeína 30 mg/ml - por ampola com 2 ml; Sulfato de Codeína 30 mg - por comprimido; Sulfato de Codeína 60 mg - por comprimido; Sulfato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml; Fosfato de Codeína | Fosfato de Codeína 30 mg/ml - por ampola com 2 ml; Fosfato de Codeína 30 mg - por comprimido; Fosfato de Codeína 60 mg - por comprimido; Fosfato de Codeína 3 mg/ml - solução oral - por frasco com 120 ml"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_PARCIAL",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_PARCIAL",
+      "residuo": "Óxido de codeína e metilbrometo de codeína permanecem semvínculo. A proposta não cobre a agregação inteira de sais/derivados.",
+      "beneficios": [
+        {
+          "ncm": "30044940",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_30044940"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_103",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "41",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Filgrastim"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30021300",
+          "id_beneficio": "BEN_FIN20261027_GO_A9_ART7_XXXVII_30021300"
+        },
+        {
+          "ncm": "30021400",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_30021400"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_104",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "41",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Filgrastim 300 mcg - injetável - por frasco ou seringa preenchida"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30021590",
+          "id_beneficio": "BEN_FIN20261027_GO_A9_ART7_XXXVII_30021590"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_109",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "54",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.23",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Imunoglobulina Anti-Hepatite B 1000 mg - injetável - por frasco; Imunoglobulina Anti-Hepatite B 100 mg - injetável - por frasco; Imunoglobulina Anti-Hepatite B 500 mg - injetável - por frasco"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30021239",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_30021239"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_110",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "56",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Infliximabe 10 mg/ml - injetável - por ampola de 10 ml"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30021590",
+          "id_beneficio": "BEN_FIN20261027_GO_A9_ART7_XXXVII_30021590"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_113",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "63",
+        "apendice": "XVII",
+        "codigo_legal": "3003.39.93",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Levodopa 200 mg + Benserazida 50 mg - por comprimido; Levodopa 100 mg + Benserazida 25 mg - por cápsula ou comprimido; Levodopa + Cloridrato de Benserazida | Levodopa 200 mg + Cloridrato de Benserazida 50 mg - por comprimido; Levodopa 100 mg + Cloridrato de Benserazida 25 mg - por cápsula ou comprimido"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30049035",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_30049035"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_114",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "63",
+        "apendice": "XVII",
+        "codigo_legal": "3004.39.93",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Levodopa 200 mg + Benserazida 50 mg - por comprimido; Levodopa 100 mg + Benserazida 25 mg - por cápsula ou comprimido; Levodopa + Cloridrato de Benserazida | Levodopa 200 mg + Cloridrato de Benserazida 50 mg - por comprimido; Levodopa 100 mg + Cloridrato de Benserazida 25 mg - por cápsula ou comprimido"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30049035",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_30049035"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_116",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "64",
+        "apendice": "XVII",
+        "codigo_legal": "3003.39.93",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Levodopa 200 mg + Carbidopa 50 mg - por cápsula ou comprimido; Levodopa 250 mg + Carbidopa 25 mg - por comprimido"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30049035",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_30049035"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_117",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "64",
+        "apendice": "XVII",
+        "codigo_legal": "3004.39.93",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Levodopa 200 mg + Carbidopa 50 mg - por cápsula ou comprimido; Levodopa 250 mg + Carbidopa 25 mg - por comprimido"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30049035",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_30049035"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_121",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "73",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Molgramostim"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30021300",
+          "id_beneficio": "BEN_FIN20261027_GO_A9_ART7_XXXVII_30021300"
+        },
+        {
+          "ncm": "30021400",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_30021400"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_122",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "73",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Molgramostim 300 mcg - injetável - por frasco"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30021590",
+          "id_beneficio": "BEN_FIN20261027_GO_A9_ART7_XXXVII_30021590"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_131",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "106",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Soro - Outros soros"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30021219",
+          "id_beneficio": "BEN_CONT20261028_GO_A9_ART7_XXXVII_30021219"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_132",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "106",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Soro - Outros soros"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30021219",
+          "id_beneficio": "BEN_CONT20261028_GO_A9_ART7_XXXVII_30021219"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_151",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "116",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Soro Anti-Lactrodectus"
+      },
+      "situacao": "PENDENTE_SEM_VINCULO_OPERACIONAL",
+      "decisao_documental": "BLOQUEIO_DOCUMENTAL_ESPECIFICO",
+      "residuo": null,
+      "beneficios": [],
+      "impedimento": "A pesquisa localizou uso deLactrodectus eLatrodectus na mesma página oficial de saúde para viúva-negra e produtoFDA equinoLatrodectusmactans de natureza antivenenosa. Isso é forte indício de erro gráfico, porém não prova de retificação da linhaGO nem sinonímia taxonômica formal. Além disso, o ramo material para antiveneno seria30021211, enquanto a antiga classificação legal30021019 era residual já distinto dos antivenenosos. Não se perpetua a divergência escolhendo30021219 nem se corrige tacitamente a lei para30021211.",
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_152",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "116",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Soro Anti-Lactrodectus"
+      },
+      "situacao": "PENDENTE_SEM_VINCULO_OPERACIONAL",
+      "decisao_documental": "BLOQUEIO_DOCUMENTAL_ESPECIFICO",
+      "residuo": null,
+      "beneficios": [],
+      "impedimento": "A pesquisa localizou uso deLactrodectus eLatrodectus na mesma página oficial de saúde para viúva-negra e produtoFDA equinoLatrodectusmactans de natureza antivenenosa. Isso é forte indício de erro gráfico, porém não prova de retificação da linhaGO nem sinonímia taxonômica formal. Além disso, o ramo material para antiveneno seria30021211, enquanto a antiga classificação legal30021019 era residual já distinto dos antivenenosos. Não se perpetua a divergência escolhendo30021219 nem se corrige tacitamente a lei para30021211.",
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_162",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "136",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Vacina contra meningite C"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30024115",
+          "id_beneficio": "BEN_REV20261028_GO_A9_ART7_XXXVII_30024115"
+        },
+        {
+          "ncm": "30024125",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_30024125"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_163",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "140",
+        "apendice": "XVII",
+        "codigo_legal": "3003.40.90",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Mesilato de Bromocriptina"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30034990",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_30034990"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_164",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "140",
+        "apendice": "XVII",
+        "codigo_legal": "3004.40.90",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Mesilato de Bromocriptina"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30044990",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_30044990"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_165",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "150",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.23",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Imunoglobulina Anti-Hepatite B 600 mg - injetável - por frasco ou ampola"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30021239",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_30021239"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_169",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "169",
+        "apendice": "XVII",
+        "codigo_legal": "3004.40.90",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Brometo de ipratrópio 0,02 mg; Brometo de ipratrópio 0,25 mg | 3004.40.90"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30044990",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_30044990"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_173",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "186",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Certolizumabe pegol"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30021300",
+          "id_beneficio": "BEN_FIN20261027_GO_A9_ART7_XXXVII_30021300"
+        },
+        {
+          "ncm": "30021400",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_30021400"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_174",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "186",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Certolizumabe pegol 200 mg/ml sol inj ct 2 ser vd inc preenc x 1 ml + 2 lenços umedecidos; Certolizumabe pegol 200 mg/ml sol inj ct 6 ser vd inc preenc x 1 ml + 6 lenços umedecidos"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30021590",
+          "id_beneficio": "BEN_FIN20261027_GO_A9_ART7_XXXVII_30021590"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_175",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "187",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Abatacepte"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30021300",
+          "id_beneficio": "BEN_FIN20261027_GO_A9_ART7_XXXVII_30021300"
+        },
+        {
+          "ncm": "30021400",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_30021400"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_176",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "187",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Abatacepte 250 mg po liof inj ct fa + ser desc; Abatacepte SC inj 125 mg 4 ser pré + disp + ext | 3002.10.29"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30021590",
+          "id_beneficio": "BEN_FIN20261027_GO_A9_ART7_XXXVII_30021590"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_177",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "188",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Golimumabe"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30021300",
+          "id_beneficio": "BEN_FIN20261027_GO_A9_ART7_XXXVII_30021300"
+        },
+        {
+          "ncm": "30021400",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_30021400"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_178",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "188",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Golimumabe 50 mg sol inj ct 1 ser preenc x 0,5 ml; Golimumabe 50 mg sol inj ct 1 ser preenc x 0,5 ml acoplada em caneta aplicadora"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30021590",
+          "id_beneficio": "BEN_FIN20261027_GO_A9_ART7_XXXVII_30021590"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_179",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "190",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Trastuzumabe"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30021300",
+          "id_beneficio": "BEN_FIN20261027_GO_A9_ART7_XXXVII_30021300"
+        },
+        {
+          "ncm": "30021400",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_30021400"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_181",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "191",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Tocilizumabe"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30021300",
+          "id_beneficio": "BEN_FIN20261027_GO_A9_ART7_XXXVII_30021300"
+        },
+        {
+          "ncm": "30021400",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_30021400"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_182",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "191",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Tocilizumabe 80 mg"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30021590",
+          "id_beneficio": "BEN_FIN20261027_GO_A9_ART7_XXXVII_30021590"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_183",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "192",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Tenecteplase"
+      },
+      "situacao": "PENDENTE_SEM_VINCULO_OPERACIONAL",
+      "decisao_documental": "BLOQUEIO_DOCUMENTAL_ESPECIFICO",
+      "residuo": null,
+      "beneficios": [],
+      "impedimento": "A pesquisa primária identificou tenecteplase como glicoproteína ativadora de plasminogênio com domínio protease. Contudo, a NESH35.07 exclui enzimas do sangue/frações de sangue e variantes truncadas com atividade enzimática para30.02. A natureza serinoprotease, isoladamente, não resolve a fronteira entre35079029 e30021229 para o fármaco industrial recombinante. A NVE30049019 encontrada é de medicamento dosado e não prova a matéria-prima.",
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_184",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "192",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.39",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Tenecteplase 40 mg po liof inj ct fa + ser inj dil x 8 ml; Tenecteplase 50 mg po liof inj ct fa + ser inj dil x 10 ml"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30049019",
+          "id_beneficio": "BEN_FIN20261027_GO_A9_ART7_XXXVII_30049019"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_186",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "198",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Abatacepte"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30021300",
+          "id_beneficio": "BEN_FIN20261027_GO_A9_ART7_XXXVII_30021300"
+        },
+        {
+          "ncm": "30021400",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_30021400"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_187",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "198",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.29",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Medicamento: Abatacepte 125mg/ml por seringa preenchida"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30021590",
+          "id_beneficio": "BEN_FIN20261027_GO_A9_ART7_XXXVII_30021590"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_189",
+      "grupo": "medicamentos",
+      "original": {
+        "template_id": "GO_A9_ART7_XXXVII",
+        "item": "201",
+        "apendice": "XVII",
+        "codigo_legal": "3002.10.38",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Fármaco: Bevacizumabe"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "30021300",
+          "id_beneficio": "BEN_FIN20261027_GO_A9_ART7_XXXVII_30021300"
+        },
+        {
+          "ncm": "30021400",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_30021400"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_002",
+      "grupo": "equipamentos",
+      "original": {
+        "template_id": "GO_A9_ART6_CLXII",
+        "item": "3",
+        "apendice": null,
+        "codigo_legal": "9406.00.99",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "3. partes, peças, estruturas de suporte, transformador, cabos elétricos, disjuntor, inversor CC/CA ou conversor, string box ou quadro de comando e seguidor solar tipo “tracker”, NCM 9406.00.99, 8544.60.00, 8544.49.00, 8544.42.00, 8537.20.90, 8537.10.90, 8535.29.00, 8504.40.90, 8504.23.00, 8504.22.00, 8504.21.00, 8501.61.00, 8501.34.20-8503.00.90, 8501.33.20, 8501.32.20, 8501.31.20, 8479.89.99, 7610.90.00, 7606.12.90, 7604.29.19, 7604.21.00, 7413.00.00, 7308.90.10, 7308.20.00, 7308.10.00, 7216.50.00, 7216.31.00, 3926.90.90, 3917.29.00;"
+      },
+      "situacao": "PENDENTE_SEM_VINCULO_OPERACIONAL",
+      "decisao_documental": "IMPEDIMENTO_CONCRETO_SEM_PROPOSTA",
+      "residuo": null,
+      "beneficios": [],
+      "impedimento": "Identificar o produto por memorial, desenho, matéria e apresentação. Demonstrar sua classificação federal e a correspondência com a alínea solar; partes avulsas seguem regime próprio.",
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_004",
+      "grupo": "equipamentos",
+      "original": {
+        "template_id": null,
+        "item": "l",
+        "apendice": null,
+        "codigo_legal": "9406.00.99",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "l) torre para suporte de gerador de energia eólica - 7308.20.00 e 9406.00.99;",
+        "dispositivo_original": "RCTE/GO, Anexo IX, art. 7, inciso XXVI"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "94069090",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXVI_D20100423_94069090"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_012",
+      "grupo": "equipamentos",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "1",
+        "apendice": "IV",
+        "codigo_legal": "8443.31.00",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Máquinas que executem pelo menos duas das seguintes funções: impressão, cópia ou transmissão de telecópia (fax), capazes de ser conectadas a uma máquina automática para processamento de dados ou a uma rede"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "84433111",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_84433111"
+        },
+        {
+          "ncm": "84433112",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_84433112"
+        },
+        {
+          "ncm": "84433113",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_84433113"
+        },
+        {
+          "ncm": "84433114",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_84433114"
+        },
+        {
+          "ncm": "84433115",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_84433115"
+        },
+        {
+          "ncm": "84433116",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_84433116"
+        },
+        {
+          "ncm": "84433119",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_84433119"
+        },
+        {
+          "ncm": "84433191",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_84433191"
+        },
+        {
+          "ncm": "84433199",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_84433199"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_013",
+      "grupo": "equipamentos",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "2",
+        "apendice": "IV",
+        "codigo_legal": "8443.32.11",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Telecopiadore com impressão por sistema térmico (fax)"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "84433299",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_84433299"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_014",
+      "grupo": "equipamentos",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "3",
+        "apendice": "IV",
+        "codigo_legal": "8443.32.12",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Telecopiadore com impressão por sistema laser (fax)"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "84433299",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_84433299"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_015",
+      "grupo": "equipamentos",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "4",
+        "apendice": "IV",
+        "codigo_legal": "8443.32.13",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Telecopiadore com impressão por jato de tinta (fax)"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "84433299",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_84433299"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_016",
+      "grupo": "equipamentos",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "5",
+        "apendice": "IV",
+        "codigo_legal": "8443.32.19",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Outros Telecopiadores (fax)"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "84433299",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_84433299"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_017",
+      "grupo": "equipamentos",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "24",
+        "apendice": "IV",
+        "codigo_legal": "8443.99.24",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Cabeça de impressão, exceto a térmica ou a de jato de tinta"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_PARCIAL",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": {
+        "limite_documentado": "Rota parcial: a lei pode abranger outras tecnologias, mas esta proposta não as classifica em 8443.99.12.",
+        "escopo_nao_coberto": "Cabeças por outras tecnologias, diferentes de impacto e também não térmicas/não jato, não receberam classificação nesta proposta."
+      },
+      "beneficios": [
+        {
+          "ncm": "84439912",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_84439912"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_018",
+      "grupo": "equipamentos",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "25",
+        "apendice": "IV",
+        "codigo_legal": "8443.99.25",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Cabeça de impressão térmica ou de jato de tinta mesmo com depósito de tinta incorporado"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "84439922",
+          "id_beneficio": "BEN_FIN20261027_GO_A9_ART8_XIII_84439922"
+        },
+        {
+          "ncm": "84439942",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_84439942"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_019",
+      "grupo": "equipamentos",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "26",
+        "apendice": "IV",
+        "codigo_legal": "8443.99.26",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Cinta de caracter para uso em computador"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_PARCIAL",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": {
+        "limite_documentado": "Rota tecnológica parcial, sem afirmar equivalência integral 26→19. Sem prova de impacto e função de parte, não aplicar.",
+        "escopo_nao_coberto": "Cintas de caracteres fora da tecnologia de impacto ou da função de parte de impressora não foram correlacionadas por esta rota."
+      },
+      "beneficios": [
+        {
+          "ncm": "84439919",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_84439919"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_020",
+      "grupo": "equipamentos",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "27",
+        "apendice": "IV",
+        "codigo_legal": "8443.99.27",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Cartucho de tinta para uso em impressora"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "84439923",
+          "id_beneficio": "BEN_FIN20261027_GO_A9_ART8_XIII_84439923"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_034",
+      "grupo": "equipamentos",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "76",
+        "apendice": "IV",
+        "codigo_legal": "8473.50.34",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Cinta de caracter para uso em computador ou em outro tipo de máquina"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_PARCIAL",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": {
+        "limite_documentado": "Rota residual parcial por interseção dos cabeçalhos, sem alegar correlação histórica integral. Sem prova da compatibilidade e exclusões, o produto concreto continua impedido.",
+        "escopo_nao_coberto": "Apresentações fora da interseção documental entre os cabeçalhos antigos e atuais não foram correlacionadas. Não presumir alcance legal ou uso indiferente em duas ou mais posições."
+      },
+      "beneficios": [
+        {
+          "ncm": "84735090",
+          "id_beneficio": "BEN_FIN20261027_GO_A9_ART8_XIII_84735090"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_035",
+      "grupo": "equipamentos",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "77",
+        "apendice": "IV",
+        "codigo_legal": "8473.50.35",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Cartucho de tinta para uso em impressora ou outro tipo de máquina de impressão"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_PARCIAL",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": {
+        "limite_documentado": "Rota residual parcial por interseção dos cabeçalhos, sem alegar correlação histórica integral. A expressão computador ou outra máquina não prova uso indiferente.",
+        "escopo_nao_coberto": "Apresentações fora da interseção documental entre os cabeçalhos antigos e atuais não foram correlacionadas. Não presumir alcance legal ou uso indiferente em duas ou mais posições."
+      },
+      "beneficios": [
+        {
+          "ncm": "84735090",
+          "id_beneficio": "BEN_FIN20261027_GO_A9_ART8_XIII_84735090"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_037",
+      "grupo": "equipamentos",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "101",
+        "apendice": "IV",
+        "codigo_legal": "8528.41.10",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Unidade de saída por vídeo (\"monitor\") com tubo de raios catódicos, monocromática"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "85284200",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_85284200"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_038",
+      "grupo": "equipamentos",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "102",
+        "apendice": "IV",
+        "codigo_legal": "8528.41.20",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Unidade de saída por vídeo (\"monitor\") com tubo de raios catódicos, policromática"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "85284200",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_85284200"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_039",
+      "grupo": "equipamentos",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "103",
+        "apendice": "IV",
+        "codigo_legal": "8528.51.10",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Outra unidade de saída por vídeo (\"monitor\") com tubo de raios catódicos, monocromática"
+      },
+      "situacao": "PENDENTE_SEM_VINCULO_OPERACIONAL",
+      "decisao_documental": "IMPEDIMENTO_CONCRETO_SEM_PROPOSTA",
+      "residuo": null,
+      "beneficios": [],
+      "impedimento": "Obter retificação ou esclarecimento oficial goiano sobre tecnologia/código, ou pronunciamento fundamentado que reconcilie a linha. A ficha técnica individual não sana a divergência legal.",
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_040",
+      "grupo": "equipamentos",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "104",
+        "apendice": "IV",
+        "codigo_legal": "8528.51.20",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Outra unidade de saída por vídeo (\"monitor\") com tubo de raios catódicos, policromática"
+      },
+      "situacao": "PENDENTE_SEM_VINCULO_OPERACIONAL",
+      "decisao_documental": "IMPEDIMENTO_CONCRETO_SEM_PROPOSTA",
+      "residuo": null,
+      "beneficios": [],
+      "impedimento": "Obter retificação ou esclarecimento oficial goiano sobre tecnologia/código, ou pronunciamento fundamentado que reconcilie a linha. A ficha técnica individual não sana a divergência legal.",
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_041",
+      "grupo": "equipamentos",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "110",
+        "apendice": "IV",
+        "codigo_legal": "8534.00.00",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Circuito impresso com componente elétrico ou eletrônico montados"
+      },
+      "situacao": "PENDENTE_SEM_VINCULO_OPERACIONAL",
+      "decisao_documental": "IMPEDIMENTO_CONCRETO_SEM_PROPOSTA",
+      "residuo": null,
+      "beneficios": [],
+      "impedimento": "Especificar arquitetura, função, natureza dos componentes, máquina de destino e apresentação. Reconciliar código e descrição por fonte oficial. Não selecionar 8443.99.60 ou 8473.30 sem provar a destinação funcional.",
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_042",
+      "grupo": "equipamentos",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "111",
+        "apendice": "IV",
+        "codigo_legal": "8536.30.00",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Aparelho de proteção para circuito elétrico, de potência até 1kVA"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "85363010",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_85363010"
+        },
+        {
+          "ncm": "85363090",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_85363090"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_043",
+      "grupo": "equipamentos",
+      "original": {
+        "template_id": "GO_A9_ART8_XIII",
+        "item": "123",
+        "apendice": "IV",
+        "codigo_legal": "8542.31.99",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Outra memória incluída aquela obtida por associação das tecnologias MOS e bipolar (tecnologia BIMOS)"
+      },
+      "situacao": "PENDENTE_SEM_VINCULO_OPERACIONAL",
+      "decisao_documental": "IMPEDIMENTO_CONCRETO_SEM_PROPOSTA",
+      "residuo": null,
+      "beneficios": [],
+      "impedimento": "Delimitar o alcance histórico de outra memória e reconciliar descrição/código por fonte oficial ou pronunciamento fiscal. Provar função, montagem, SMD, tipo e tempo de acesso da memória concreta. Não converter a linha para processador.",
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_048",
+      "grupo": "equipamentos",
+      "original": {
+        "template_id": "GO_A9_ART9_I_A",
+        "item": "3",
+        "apendice": "V",
+        "codigo_legal": "8207.19.00",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "BROCAS"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "82071910",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART9_I_A_82071910"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_054",
+      "grupo": "equipamentos",
+      "original": {
+        "template_id": "GO_A9_ART9_I_A",
+        "item": "48.8",
+        "apendice": "V",
+        "codigo_legal": "8459.40.00",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Outras máquinas para mandrilar"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "84594100",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART9_I_A_84594100"
+        },
+        {
+          "ncm": "84594900",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART9_I_A_84594900"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_056",
+      "grupo": "equipamentos",
+      "original": {
+        "template_id": "GO_A9_ART9_I_A",
+        "item": "49.3",
+        "apendice": "V",
+        "codigo_legal": "8460.21.00",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Outras máquinas para retificar, cujo posicionamento sobre qualquer dos eixos pode ser estabelecido com precisão de pelo menos 0,01mm, de comando numérico"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "84602200",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART9_I_A_84602200"
+        },
+        {
+          "ncm": "84602300",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART9_I_A_84602300"
+        },
+        {
+          "ncm": "84602400",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART9_I_A_84602400"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_073",
+      "grupo": "equipamentos",
+      "original": {
+        "template_id": "GO_A9_ART9_I_A",
+        "item": "63.9",
+        "apendice": "V",
+        "codigo_legal": "8480.79.00",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Outros moldes para borracha ou plásticos"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "84807910",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART9_I_A_84807910"
+        },
+        {
+          "ncm": "84807990",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART9_I_A_84807990"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_079",
+      "grupo": "equipamentos",
+      "original": {
+        "template_id": "GO_A9_ART9_I_B2",
+        "item": "1.1",
+        "apendice": "VI",
+        "codigo_legal": "3923.90.00",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Reservatórios, tambores, latas e recipientes semelhantes, de plástico, de capacidade não superior a 300 litros, para transporte de leite"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "39239090",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART9_I_B2_39239090"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_081",
+      "grupo": "equipamentos",
+      "original": {
+        "template_id": "GO_A9_ART9_I_B2",
+        "item": "2.5",
+        "apendice": "VI",
+        "codigo_legal": "9406.00.91",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Silos pré-fabricados com estrutura de madeira e paredes exteriores constituídas essencialmente dessa matéria"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "94061090",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART9_I_B2_94061090"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_082",
+      "grupo": "equipamentos",
+      "original": {
+        "template_id": "GO_A9_ART9_I_B2",
+        "item": "2.6",
+        "apendice": "VI",
+        "codigo_legal": "9406.00.92",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Silos pré-fabricados com estrutura de ferro ou aço e paredes exteriores constituídas essencialmente dessa matéria"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": null,
+      "beneficios": [
+        {
+          "ncm": "94069020",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART9_I_B2_94069020"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    },
+    {
+      "id_pendencia": "OUTROS_083",
+      "grupo": "equipamentos",
+      "original": {
+        "template_id": "GO_A9_ART9_I_B2",
+        "item": "3",
+        "apendice": "VI",
+        "codigo_legal": "4421.90.00",
+        "motivo": "CODIGO_LITERAL_NAO_EXISTE_NO_CATALOGO_NCM_ATIVO; EXIGE_CORRELACAO_OFICIAL_SEM_CONVERSAO_POR_SEMELHANCA",
+        "descricao_legal": "Troncos (bretes) de contenção bovina"
+      },
+      "situacao": "CANDIDATO_CONDICIONAL_PARCIAL",
+      "decisao_documental": "CANDIDATO_CONDICIONAL_DOCUMENTADO",
+      "residuo": {
+        "limite_documentado": "Candidato parcial por matéria expressamente delimitada no antigo capítulo. Não inferir toda a composição apenas do código antigo.",
+        "escopo_nao_coberto": "Bretes em outras matérias/apresentações, inclusive eventual bambu, não foram classificados pela rota de madeira não bambu. Não se presume que essas mercadorias estejam abrangidas pela linha legal."
+      },
+      "beneficios": [
+        {
+          "ncm": "44219900",
+          "id_beneficio": "BEN_RES91_20261029_GO_A9_ART9_I_B2_44219900"
+        }
+      ],
+      "impedimento": null,
+      "homologacao_fiscal": false
+    }
+  ]
+}

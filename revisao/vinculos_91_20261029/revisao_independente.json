@@ -1,0 +1,1474 @@
+{
+  "data_referencia": "2026-10-29",
+  "natureza": "REVISAO_INDEPENDENTE_DOCUMENTAL_FINAL",
+  "revisor": "revisao_final_91",
+  "lote_sha256": "2c9042fd195f3ded48d5ad107ed8af4a54e774c51de937ac09c70886e9d09daf",
+  "escopo": {
+    "pares": 60,
+    "rotas": 107,
+    "novos": 46,
+    "complementos": 14,
+    "fontes_novas": 3,
+    "ids": 91,
+    "ids_com_rota": 80,
+    "ids_sem_rota": 11,
+    "grupos": {
+      "quimicos": {
+        "ids_investigados": 20,
+        "pares_revisados": 12,
+        "rotas_revisadas": 19,
+        "ids_com_rota": 17
+      },
+      "medicamentos": {
+        "ids_investigados": 43,
+        "pares_revisados": 16,
+        "rotas_revisadas": 51,
+        "ids_com_rota": 40
+      },
+      "equipamentos": {
+        "ids_investigados": 28,
+        "pares_revisados": 32,
+        "rotas_revisadas": 37,
+        "ids_com_rota": 23
+      }
+    }
+  },
+  "resultado": "PRONTO_CONDICIONALMENTE_APOS_CORRECAO_DE_RASTREABILIDADE_I1",
+  "achados": {
+    "Critical": [],
+    "Important": [
+      {
+        "id": "I1",
+        "severity": "Important",
+        "title": "O inventário final omite limitações parciais expressas nas conclusões de equipamentos",
+        "scope": "Rastreabilidade e declaração de conclusão; não invalida por si só as rotas condicionais carregáveis.",
+        "ids": [
+          "OUTROS_017",
+          "OUTROS_019",
+          "OUTROS_034",
+          "OUTROS_035",
+          "OUTROS_083"
+        ],
+        "evidence": [
+          {
+            "path": "revisao/vinculos_91_20261029/equipamentos/conclusoes.json",
+            "lines": [
+              6019,
+              6253,
+              6499,
+              6871,
+              10658
+            ],
+            "fact": "As cinco conclusões usam expressamente parcial para delimitar a rota/candidato."
+          },
+          {
+            "path": "revisao/vinculos_91_20261029/inventario_final.json",
+            "lines": [
+              1673,
+              1723,
+              1769,
+              1792,
+              2137
+            ],
+            "fact": "As cinco entradas recebem CANDIDATO_CONDICIONAL_DOCUMENTADO e residuo:null."
+          },
+          {
+            "path": "revisao/vinculos_91_20261029/resumo.json",
+            "lines": [
+              18
+            ],
+            "fact": "ids_parciais contém apenas OUTROS_118, OUTROS_101 e OUTROS_102."
+          },
+          {
+            "path": "resolver_91_20261029/consolidar.py",
+            "locator": "laço de pendencias, variável residual",
+            "fact": "Extrai apenas residuo_nao_resolvido ou subescopos_ainda_pendentes; não transporta limites da pesquisa de equipamentos."
+          }
+        ],
+        "impact": "Uma próxima triagem baseada apenas em inventario_final/resumo pode encerrar escopos que a própria pesquisa deixou parcialmente cobertos. OUTROS_017 é inequívoco: só impacto foi classificado, e a conclusão admite outras tecnologias legais.",
+        "required_action": "Registrar por ID o limite e o subescopo não coberto, harmonizando conclusões/inventario_final/resumo e comunicação final. Distinguir uma mera condição de uso de resíduo documental real; não inventar novos destinos NCM para corrigir a estatística. Ao menos OUTROS_017 exige resíduo explícito; os demais quatro devem conservar a parcialidade declarada ou justificar sua reclassificação.",
+        "load_effect": "Correção de metadados não exige mudar os 60 candidatos. Se houver qualquer mudança no lote ou SQL, repetir a comparação/ensaio das partes afetadas."
+      }
+    ],
+    "Minor": []
+  },
+  "verificacoes_independentes": {
+    "antes_14_igual_base_fornecida": true,
+    "apenas_condicoes_observacao_alterados": true,
+    "alternativa_A_literal_14": true,
+    "restricoes_107_presentes": true,
+    "novas_aliquotas": 0,
+    "revisoes_aliquotas": 0,
+    "datas_tres_fontes_confirmadas_no_GO_local": true,
+    "descricoes_43_medicamentos_28_equipamentos_localizadas_no_GO_sem_classes_revogadas": true,
+    "quimicos_identidades_sais_colunas_conferidos": true,
+    "criticos_identificados": 0,
+    "guardas_sql_lidas_sem_execucao": true
+  },
+  "ensaios_principal": {
+    "executados_por_este_revisor": false,
+    "artefatos_lidos": [
+      "revisao/vinculos_91_20261029/validacao_integral.json",
+      "revisao/vinculos_91_20261029/verificar_lote.py",
+      "revisao/vinculos_91_20261029/guarda_antes.sql",
+      "revisao/vinculos_91_20261029/guarda_depois.sql"
+    ],
+    "relato_recebido": {
+      "pytest": 598,
+      "warnings": 38,
+      "ncms": 10516,
+      "beneficios_stage": 2267,
+      "fontes_stage": 72,
+      "AppTests": 8,
+      "idempotencia": "passou segundo principal",
+      "conflito_insercao": "rejeitado sem mudança de hash segundo principal",
+      "comparacao_stage_lote": "60 benefícios e 3 leis; 0 divergências segundo principal",
+      "empacotamento_transacional": "duas partes em uma transação com locks, guarda antes admitindo estado inicial ou final e guarda depois exigindo hashes finais; replay e rollback provocado aprovados segundo principal"
+    },
+    "sem_confirmacao_propria_de_producao": true
+  },
+  "declined_to_judge": [
+    "Homologação de benefício ou classificação vinculante de mercadoria concreta; faltam composição, apresentação e documentação da operação.",
+    "Resolução da tensão classificatória da sildenafila base frente à fundamentação da SC do citrato; candidatos distintos estão restritos e exigem revisão fiscal expressa.",
+    "Extensão retroativa ou equivalência histórica universal a partir de NVE, TIPI atual, LC214 ou rastreador MDIC.",
+    "Execução própria da suíte, testes de interface, idempotência, conflitos, igualdade Neon/produção, CI ou autorização de implantação. São responsabilidades e evidências do principal.",
+    "Exaustividade de toda legislação posterior fora dos documentos oficiais disponibilizados e fontes pontualmente reabertas."
+  ],
+  "condicoes_de_prontidao": [
+    "Corrigir I1 sem apagar restrições nem alternativas anteriores.",
+    "Manter as 11 entradas bloqueadas fora da carga e os resíduos explícitos sem declarar os 80 IDs integralmente resolvidos.",
+    "Usar somente o lote/SQL ensaiados; qualquer mudança operacional exige nova comparação pertinente.",
+    "Conferir hash e inventário de produção após carga pelo fluxo autorizado do principal."
+  ],
+  "fontes_web_reabertas": [
+    {
+      "url": "https://www.confaz.fazenda.gov.br/legislacao/convenios/1997/CV101_97",
+      "ref": "turn313view0",
+      "uso": "inciso XI; coexistência do histórico 9406.00.99 e atual 9406.90.90, com restrição da rota eólica preservada"
+    },
+    {
+      "url": "https://www.confaz.fazenda.gov.br/legislacao/convenios/2019/CV204_19-1",
+      "ref": "turn313view1",
+      "uso": "alteração expressa do inciso XI e início na ratificação nacional"
+    },
+    {
+      "url": "https://www2.camara.leg.br/legin/fed/decret/2009/decreto-6905-20-julho-2009-589728-publicacaooriginal-114631-pe.html",
+      "ref": "turn313search0",
+      "uso": "ato histórico 6.905/2009; criação/alteração/supressão de códigos, cotejado com TIPI vigente local"
+    }
+  ],
+  "pares_revisados": [
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXVI_D20100423_94069090",
+      "template_id": "GO_A9_ART7_XXVI_D20100423",
+      "ncm": "94069090",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_004",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_29314990",
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "29314990",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_096",
+          "grupo": "quimicos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_123",
+          "grupo": "quimicos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_29322000",
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "29322000",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_120",
+          "grupo": "quimicos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_125",
+          "grupo": "quimicos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_29329999",
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "29329999",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_128",
+          "grupo": "quimicos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_FIN20261027_GO_A9_ART7_XXXVII_29333939",
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "29333939",
+      "acao": "COMPLEMENTO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_124",
+          "grupo": "quimicos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_FIN20261027_GO_A9_ART7_XXXVII_29349999",
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "29349999",
+      "acao": "COMPLEMENTO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_167",
+          "grupo": "quimicos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_29359019",
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "29359019",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_167",
+          "grupo": "quimicos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_185",
+          "grupo": "quimicos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_126",
+          "grupo": "quimicos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_FIN20261027_GO_A9_ART7_XXXVII_29359029",
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "29359029",
+      "acao": "COMPLEMENTO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_172",
+          "grupo": "quimicos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_188",
+          "grupo": "quimicos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_29359092",
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "29359092",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_171",
+          "grupo": "quimicos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_FIN20261027_GO_A9_ART7_XXXVII_29359099",
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "29359099",
+      "acao": "COMPLEMENTO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_191",
+          "grupo": "quimicos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_192",
+          "grupo": "quimicos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_29379030",
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "29379030",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_118",
+          "grupo": "quimicos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_FIN20261027_GO_A9_ART7_XXXVII_29379090",
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "29379090",
+      "acao": "COMPLEMENTO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_118",
+          "grupo": "quimicos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_29397990",
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "29397990",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_168",
+          "grupo": "quimicos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_107",
+          "grupo": "quimicos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_CONT20261028_GO_A9_ART7_XXXVII_30021219",
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "30021219",
+      "acao": "COMPLEMENTO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_131",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_132",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_30021239",
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "30021239",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_165",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_109",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_FIN20261027_GO_A9_ART7_XXXVII_30021300",
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "30021300",
+      "acao": "COMPLEMENTO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_173",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_175",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_177",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_179",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_181",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_186",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_189",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_103",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_121",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_30021400",
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "30021400",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_173",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_175",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_177",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_179",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_181",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_186",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_189",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_103",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_121",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_CONT20261028_GO_A9_ART7_XXXVII_30021510",
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "30021510",
+      "acao": "COMPLEMENTO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_097",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_FIN20261027_GO_A9_ART7_XXXVII_30021590",
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "30021590",
+      "acao": "COMPLEMENTO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_174",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_176",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_178",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_182",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_187",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_095",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_104",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_110",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_122",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_097",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_REV20261028_GO_A9_ART7_XXXVII_30024115",
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "30024115",
+      "acao": "COMPLEMENTO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_162",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_30024125",
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "30024125",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_162",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_30034990",
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "30034990",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_163",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_30044940",
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "30044940",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_101",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_102",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_30044990",
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "30044990",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_164",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_099",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_100",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_169",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_FIN20261027_GO_A9_ART7_XXXVII_30049019",
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "30049019",
+      "acao": "COMPLEMENTO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_184",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXVII_30049035",
+      "template_id": "GO_A9_ART7_XXXVII",
+      "ncm": "30049035",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_113",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_114",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_116",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_117",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXV_BC_D20030606_30021590",
+      "template_id": "GO_A9_ART7_XXXV_BC_D20030606",
+      "ncm": "30021590",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_007",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_008",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXV_M_D20100901_30021239",
+      "template_id": "GO_A9_ART7_XXXV_M_D20100901",
+      "ncm": "30021239",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_009",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART7_XXXV_N_D20101201_30021520",
+      "template_id": "GO_A9_ART7_XXXV_N_D20101201",
+      "ncm": "30021520",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_010",
+          "grupo": "medicamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_84433111",
+      "template_id": "GO_A9_ART8_XIII",
+      "ncm": "84433111",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_012",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_84433112",
+      "template_id": "GO_A9_ART8_XIII",
+      "ncm": "84433112",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_012",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_84433113",
+      "template_id": "GO_A9_ART8_XIII",
+      "ncm": "84433113",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_012",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_84433114",
+      "template_id": "GO_A9_ART8_XIII",
+      "ncm": "84433114",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_012",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_84433115",
+      "template_id": "GO_A9_ART8_XIII",
+      "ncm": "84433115",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_012",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_84433116",
+      "template_id": "GO_A9_ART8_XIII",
+      "ncm": "84433116",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_012",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_84433119",
+      "template_id": "GO_A9_ART8_XIII",
+      "ncm": "84433119",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_012",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_84433191",
+      "template_id": "GO_A9_ART8_XIII",
+      "ncm": "84433191",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_012",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_84433199",
+      "template_id": "GO_A9_ART8_XIII",
+      "ncm": "84433199",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_012",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_84433299",
+      "template_id": "GO_A9_ART8_XIII",
+      "ncm": "84433299",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_013",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_014",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_015",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_016",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_84439912",
+      "template_id": "GO_A9_ART8_XIII",
+      "ncm": "84439912",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_017",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": [
+            "I1"
+          ]
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_84439919",
+      "template_id": "GO_A9_ART8_XIII",
+      "ncm": "84439919",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_019",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": [
+            "I1"
+          ]
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_FIN20261027_GO_A9_ART8_XIII_84439922",
+      "template_id": "GO_A9_ART8_XIII",
+      "ncm": "84439922",
+      "acao": "COMPLEMENTO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_018",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_FIN20261027_GO_A9_ART8_XIII_84439923",
+      "template_id": "GO_A9_ART8_XIII",
+      "ncm": "84439923",
+      "acao": "COMPLEMENTO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_020",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_84439942",
+      "template_id": "GO_A9_ART8_XIII",
+      "ncm": "84439942",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_018",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_FIN20261027_GO_A9_ART8_XIII_84735090",
+      "template_id": "GO_A9_ART8_XIII",
+      "ncm": "84735090",
+      "acao": "COMPLEMENTO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_034",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": [
+            "I1"
+          ]
+        },
+        {
+          "id_pendencia": "OUTROS_035",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": [
+            "I1"
+          ]
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_85284200",
+      "template_id": "GO_A9_ART8_XIII",
+      "ncm": "85284200",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_037",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        },
+        {
+          "id_pendencia": "OUTROS_038",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_85363010",
+      "template_id": "GO_A9_ART8_XIII",
+      "ncm": "85363010",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_042",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART8_XIII_85363090",
+      "template_id": "GO_A9_ART8_XIII",
+      "ncm": "85363090",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_042",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART9_I_A_82071910",
+      "template_id": "GO_A9_ART9_I_A",
+      "ncm": "82071910",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_048",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART9_I_A_84594100",
+      "template_id": "GO_A9_ART9_I_A",
+      "ncm": "84594100",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_054",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART9_I_A_84594900",
+      "template_id": "GO_A9_ART9_I_A",
+      "ncm": "84594900",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_054",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART9_I_A_84602200",
+      "template_id": "GO_A9_ART9_I_A",
+      "ncm": "84602200",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_056",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART9_I_A_84602300",
+      "template_id": "GO_A9_ART9_I_A",
+      "ncm": "84602300",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_056",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART9_I_A_84602400",
+      "template_id": "GO_A9_ART9_I_A",
+      "ncm": "84602400",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_056",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART9_I_A_84807910",
+      "template_id": "GO_A9_ART9_I_A",
+      "ncm": "84807910",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_073",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART9_I_A_84807990",
+      "template_id": "GO_A9_ART9_I_A",
+      "ncm": "84807990",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_073",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART9_I_B2_39239090",
+      "template_id": "GO_A9_ART9_I_B2",
+      "ncm": "39239090",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_079",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART9_I_B2_44219900",
+      "template_id": "GO_A9_ART9_I_B2",
+      "ncm": "44219900",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_083",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": [
+            "I1"
+          ]
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART9_I_B2_94061090",
+      "template_id": "GO_A9_ART9_I_B2",
+      "ncm": "94061090",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_081",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    },
+    {
+      "id_beneficio": "BEN_RES91_20261029_GO_A9_ART9_I_B2_94069020",
+      "template_id": "GO_A9_ART9_I_B2",
+      "ncm": "94069020",
+      "acao": "NOVO",
+      "conclusao": "SUSTENTAVEL_COMO_CANDIDATO_RESTRITO_SEM_HOMOLOGACAO",
+      "rotas": [
+        {
+          "id_pendencia": "OUTROS_082",
+          "grupo": "equipamentos",
+          "classificacao_e_alcance": "revisados documentalmente; dependem das condições da rota",
+          "restricoes_no_lote": "preservadas literalmente",
+          "achados": []
+        }
+      ]
+    }
+  ],
+  "ids_sem_rota": [
+    "OUTROS_196",
+    "OUTROS_112",
+    "OUTROS_115",
+    "OUTROS_151",
+    "OUTROS_152",
+    "OUTROS_183",
+    "OUTROS_002",
+    "OUTROS_039",
+    "OUTROS_040",
+    "OUTROS_041",
+    "OUTROS_043"
+  ]
+}

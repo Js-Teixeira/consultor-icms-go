@@ -1,0 +1,27 @@
+{
+  "data": "2026-10-29",
+  "natureza": "CANDIDATOS_CONDICIONAIS",
+  "homologacao_fiscal": false,
+  "lote_sha256": "2c9042fd195f3ded48d5ad107ed8af4a54e774c51de937ac09c70886e9d09daf",
+  "branch_producao": "br-solitary-morning-b6dtleun",
+  "carga_atomica": true,
+  "guardas_globais_antes_depois": true,
+  "leitura_final_role": "consultor_readonly",
+  "producao": {
+    "beneficios": "2267",
+    "hash_beneficios": "43ad39da58caa4f675731d636eee06e9",
+    "leis": "72",
+    "hash_leis": "1f3db645bb2639000e1092c91df30e33",
+    "hash_aliquotas": "468a85a8096be4e9f5431f275570adf9",
+    "hash_ncm": "e8be9b594dd4dd3f7a73211dae70954a"
+  },
+  "igual_ao_ensaio": true,
+  "novos_beneficios": 46,
+  "complementos": 14,
+  "fontes_novas": 3,
+  "ids_com_vinculos_condicionais": 80,
+  "ids_parciais": 8,
+  "ids_sem_vinculo": 11,
+  "testes": "598 passed, 38 warnings in 10.09s",
+  "revisao": "Independente: 0Critical; I1 corrigido com teste RED→GREEN; 0Minor."
+}

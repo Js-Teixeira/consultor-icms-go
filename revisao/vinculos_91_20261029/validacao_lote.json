@@ -1,0 +1,16 @@
+{
+  "resultado": "PASSOU",
+  "ids_investigados": 91,
+  "ids_com_vinculo_condicional": 80,
+  "sem_vinculo": 11,
+  "ids_parciais": 8,
+  "novos": 46,
+  "complementos": 14,
+  "rotas": 107,
+  "campos_anteriores_preservados": true,
+  "condicoes_anteriores_preservadas": true,
+  "rotas_e_restricoes_presentes": true,
+  "sql_igual_ao_lote": true,
+  "aliquotas_nominais_inalteradas": true,
+  "homologacao_fiscal": false
+}

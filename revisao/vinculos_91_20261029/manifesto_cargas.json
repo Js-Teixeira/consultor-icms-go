@@ -1,0 +1,20 @@
+[
+  {
+    "parte": 1,
+    "arquivo": "carga_01.sql",
+    "bytes": 339657,
+    "sha256": "70c5879f095fea6cdf3b3675aa16516a41f51dda69cf4cae50028afd4500f14c",
+    "novos": 46,
+    "complementos": 3,
+    "leis": 3
+  },
+  {
+    "parte": 2,
+    "arquivo": "carga_02.sql",
+    "bytes": 262682,
+    "sha256": "a31bcb44be03c1c3d7285e6d8e323bf53d3631594860fda095b4a324869abe7b",
+    "novos": 0,
+    "complementos": 11,
+    "leis": 0
+  }
+]
