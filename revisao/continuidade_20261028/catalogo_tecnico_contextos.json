@@ -1,0 +1,771 @@
+[
+  {
+    "id_pendencia": "OUTROS_222",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso LXXIV",
+    "status": "ENCERRADO_PRAZO_EXPIRADO",
+    "vigencia": {
+      "inicio_texto_aplicavel": "2021-10-29",
+      "fim": "2024-04-30",
+      "situacao_na_referencia": "PRAZO_EXPIRADO",
+      "observacao": "Início da redação aplicável, não substitui datas de cada mercadoria/subitem; datas do registro proposto são conservadas separadamente.",
+      "fundamento_fim": {
+        "url": "https://www.confaz.fazenda.gov.br/legislacao/convenios/2021/CV041_21",
+        "trecho": "Prorrogado, até30.04.24, pelo Conv.ICMS178/21."
+      }
+    },
+    "fonte_principal_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+    "fontes_primarias": [
+      "https://www.confaz.fazenda.gov.br/legislacao/convenios/2021/CV041_21",
+      "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_09975.htm"
+    ],
+    "cbenef": {
+      "codigo": "GO812047",
+      "quantidade_linhas_exatas": 1,
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Secretario/IN/IN_1518_2022.htm",
+      "linha": [
+        "GO812047",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "SIM",
+        "SIM",
+        "SIM",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "RCTE, Anexo IX, Art 7º, Inciso LXXIV",
+        "ISENÇÃO - operações internas e de importação de oxigênio medicinal, classificado no código 2804.40.00 da NCM",
+        ""
+      ],
+      "observacao": "O cadastro de cBenef não comprova prazo ou fruição; a validade decorre do dispositivo e do quadro central de prazos."
+    },
+    "regras": [
+      {
+        "classificacao": "HISTORICO_PRAZO_ENCERRADO",
+        "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso LXXIV",
+        "data_final": "2024-04-30",
+        "texto": "LXXIV - as operações internas e de importação do exterior, bem como nas correspondentes prestações de serviço de transporte realizadas no âmbito das medidas de prevenção e de enfrentamento à pandemia causada pelo novo agente do Coronavírus - SARS-CoV-2, em relação ao oxigênio medicinal, classificado no código 2804.40.00 da NCM, ficando mantido o crédito (Convênio ICMS 41/21);",
+        "vincular_consulta_interna_atual": false
+      }
+    ],
+    "homologacao": false
+  },
+  {
+    "id_pendencia": "OUTROS_223",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso XXXVIII",
+    "status": "ENCERRADO_FORA_ESCOPO_CATALOGO_TECNICO",
+    "vigencia": {
+      "inicio_texto_aplicavel": "2002-10-14",
+      "fim": "2026-12-31",
+      "situacao_na_referencia": "TEXTO_ATUAL_NO_CONSOLIDADO_OFICIAL_REVALIDADO",
+      "observacao": "Início da redação aplicável, não substitui datas de cada mercadoria/subitem; datas do registro proposto são conservadas separadamente.",
+      "fundamento_fim": {
+        "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_10896.htm",
+        "dispositivo": "art.1º, art.7º §1º, e art.4º I",
+        "trecho": "XXXVIII/CV117/02 eXLVII/CV19/06:31/12/26; efeitos a partir de1º demaio de2026."
+      }
+    },
+    "fonte_principal_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+    "fontes_primarias": [
+      "https://www.confaz.fazenda.gov.br/legislacao/convenios/2002/CV117_02",
+      "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_10896.htm"
+    ],
+    "cbenef": {
+      "codigo": "GO812024",
+      "quantidade_linhas_exatas": 1,
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Secretario/IN/IN_1518_2022.htm",
+      "linha": [
+        "GO812024",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "SIM",
+        "SIM",
+        "SIM",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "RCTE, Anexo IX, Art 7º, Inciso XXXVIII",
+        "ISENÇÃO - Importação de soro conservante de córnea, realizada pela Fundação Banco de Olhos de Goiás",
+        ""
+      ],
+      "observacao": "O cadastro de cBenef não comprova prazo ou fruição; a validade decorre do dispositivo e do quadro central de prazos."
+    },
+    "regras": [
+      {
+        "classificacao": "IMPORTACAO_EXCLUSIVA_ENTIDADE",
+        "codigos_literais": [
+          "3001.90.10"
+        ],
+        "condicoes": "Fundação Banco de Olhos de Goiás, CNPJ02.600.740/0001-94; soro conservante de córnea sem similar nacional; importação desonerada deII ouIPI; atestado de inexistência de similar conforme Convênio117/02.",
+        "vincular_consulta_interna_atual": false,
+        "percentual_reducao_bc": null,
+        "aliquota_nominal": null,
+        "cbenef": "GO812024",
+        "homologacao": false
+      }
+    ],
+    "homologacao": false
+  },
+  {
+    "id_pendencia": "OUTROS_224",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso XLVII",
+    "status": "ENCERRADO_FORA_ESCOPO_CATALOGO_TECNICO",
+    "vigencia": {
+      "inicio_texto_aplicavel": "2006-04-18",
+      "fim": "2026-12-31",
+      "situacao_na_referencia": "TEXTO_ATUAL_NO_CONSOLIDADO_OFICIAL_REVALIDADO",
+      "observacao": "Início da redação aplicável, não substitui datas de cada mercadoria/subitem; datas do registro proposto são conservadas separadamente.",
+      "fundamento_fim": {
+        "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_10896.htm",
+        "dispositivo": "art.1º, art.7º §1º, e art.4º I",
+        "trecho": "XXXVIII/CV117/02 eXLVII/CV19/06:31/12/26; efeitos a partir de1º demaio de2026."
+      }
+    },
+    "fonte_principal_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+    "fontes_primarias": [
+      "https://www.confaz.fazenda.gov.br/legislacao/convenios/2006/CV019_06",
+      "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_10896.htm"
+    ],
+    "cbenef": {
+      "codigo": "GO812033",
+      "quantidade_linhas_exatas": 1,
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Secretario/IN/IN_1518_2022.htm",
+      "linha": [
+        "GO812033",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "SIM",
+        "SIM",
+        "SIM",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "RCTE, Anexo IX, Art 7º, Inciso XLVII",
+        "ISENÇÃO - Relativamente ao diferencial de alíquotas, a entrada no território goiano de 280 acumuladores elétricos e seus separadores destinados à empresa FURNAS",
+        ""
+      ],
+      "observacao": "O cadastro de cBenef não comprova prazo ou fruição; a validade decorre do dispositivo e do quadro central de prazos."
+    },
+    "regras": [
+      {
+        "classificacao": "DIFAL_ESPECIFICO_QUANTIDADE_DESTINATARIO",
+        "codigos_literais": [
+          "8507.20.10"
+        ],
+        "condicoes": "Entrada emGO de280 acumuladores/separadores até1000kg destinados àFURNAS, CNPJ base23.274.194, paraPRODEEM solarfotovoltaico. A prorrogação não renova quantidade já consumida.",
+        "vincular_consulta_interna_atual": false,
+        "percentual_reducao_bc": null,
+        "aliquota_nominal": null,
+        "cbenef": "GO812033",
+        "homologacao": false
+      }
+    ],
+    "homologacao": false
+  },
+  {
+    "id_pendencia": "OUTROS_225",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso LVI",
+    "status": "ENCERRADO_PRAZO_EXPIRADO",
+    "vigencia": {
+      "inicio_texto_aplicavel": "2012-12-01",
+      "fim": "2020-12-31",
+      "situacao_na_referencia": "PRAZO_EXPIRADO",
+      "observacao": "Início da redação aplicável, não substitui datas de cada mercadoria/subitem; datas do registro proposto são conservadas separadamente.",
+      "fundamento_fim": {
+        "url": "https://www.confaz.fazenda.gov.br/legislacao/convenios/2007/CV147_07",
+        "trecho": "Prorrogado, até31.12.20, pelo Conv.ICMS101/20."
+      }
+    },
+    "fonte_principal_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+    "fontes_primarias": [
+      "https://www.confaz.fazenda.gov.br/legislacao/convenios/2007/CV147_07",
+      "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_07817.htm"
+    ],
+    "cbenef": {
+      "codigo": null,
+      "quantidade_linhas_exatas": 0,
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Secretario/IN/IN_1518_2022.htm",
+      "linha": null,
+      "observacao": "O cadastro de cBenef não comprova prazo ou fruição; a validade decorre do dispositivo e do quadro central de prazos."
+    },
+    "regras": [
+      {
+        "classificacao": "HISTORICO_PRAZO_ENCERRADO",
+        "dispositivo": "RCTE/GO, Anexo IX, art. 7, inciso LVI",
+        "data_final": "2020-12-31",
+        "texto": "LVI - a saída de computador portátil educacional, classificado nos códigos 8471.30.12, 8471.30.19 e 8471.30.90 da NBM/SH e kit completo para sua montagem, quando adquiridos no âmbito do Programa Nacional de Informática na Educação - ProInfo - em seu Projeto Especial Um Computador por Aluno - UCA -, do Ministério da Educação - MEC -, instituído pela Portaria nº 522, de 9 de abril de 1997, e do Programa Um Computador por Aluno - PROUCA e Regime Especial para Aquisição de Computadores para Uso Educacional - RECOMPE, instituídos pela Lei nº 12.249, de 11 de junho de 2010 e do Regime Especial de Incentivo a Computadores para uso Educacional - REICOMPE, instituído pela Medida Provisória nº 563, de 3 de abril de 2012, ficando mantido o crédito, observado o seguinte (Convênio ICMS 147/07, cláusulas primeira a terceira): (Redação conferida pelo Decreto nº 7.817 - vigência: 01.12.12)",
+        "vincular_consulta_interna_atual": false
+      }
+    ],
+    "homologacao": false
+  },
+  {
+    "id_pendencia": "OUTROS_226",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 6, inciso XXXVIII",
+    "status": "ENCERRADO_FORA_ESCOPO_CATALOGO_TECNICO",
+    "vigencia": {
+      "inicio_texto_aplicavel": "1999-01-01",
+      "fim": null,
+      "situacao_na_referencia": "TEXTO_ATUAL_NO_CONSOLIDADO_OFICIAL_REVALIDADO",
+      "observacao": "Início da redação aplicável, não substitui datas de cada mercadoria/subitem; datas do registro proposto são conservadas separadamente."
+    },
+    "fonte_principal_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+    "fontes_primarias": [
+      "https://www.confaz.fazenda.gov.br/legislacao/convenios/1991/CV093_91",
+      "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_05002.htm"
+    ],
+    "cbenef": {
+      "codigo": "GO811037",
+      "quantidade_linhas_exatas": 1,
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Secretario/IN/IN_1518_2022.htm",
+      "linha": [
+        "GO811037",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "SIM",
+        "SIM",
+        "SIM",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "RCTE, Anexo IX, Art 6º, Inciso XXXVIII",
+        "ISENÇÃO - Entrada de máquina para limpar e selecionar fruta, sem similar produzido no País, quando importada diretamente do exterior",
+        ""
+      ],
+      "observacao": "O cadastro de cBenef não comprova prazo ou fruição; a validade decorre do dispositivo e do quadro central de prazos."
+    },
+    "regras": [
+      {
+        "classificacao": "IMPORTACAO_ATIVO_IMOBILIZADO",
+        "codigos_literais": [
+          "8433.60.10",
+          "8433.60.90"
+        ],
+        "condicoes": "Importação direta de máquina para limpar/selecionar frutas, sem similar nacional, para ativoimobilizado e usoexclusivo no estabelecimento; atestado de similaridade pelo órgão/entidade competente. Convênio93/91 atual menciona apenas8433.60.90; divergência GO/Convênio deve ser preservada.",
+        "vincular_consulta_interna_atual": false,
+        "percentual_reducao_bc": null,
+        "aliquota_nominal": null,
+        "cbenef": "GO811037",
+        "homologacao": false
+      }
+    ],
+    "homologacao": false
+  },
+  {
+    "id_pendencia": "OUTROS_227",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 6, inciso XLVII",
+    "status": "ENCERRADO_FORA_ESCOPO_CATALOGO_TECNICO",
+    "vigencia": {
+      "inicio_texto_aplicavel": "1999-01-01",
+      "fim": null,
+      "situacao_na_referencia": "TEXTO_ATUAL_NO_CONSOLIDADO_OFICIAL_REVALIDADO",
+      "observacao": "Início da redação aplicável, não substitui datas de cada mercadoria/subitem; datas do registro proposto são conservadas separadamente."
+    },
+    "fonte_principal_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+    "fontes_primarias": [
+      "https://www.confaz.fazenda.gov.br/legislacao/convenios/1993/CV077_93",
+      "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_05002.htm"
+    ],
+    "cbenef": {
+      "codigo": "GO811046",
+      "quantidade_linhas_exatas": 1,
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Secretario/IN/IN_1518_2022.htm",
+      "linha": [
+        "GO811046",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "SIM",
+        "SIM",
+        "SIM",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "RCTE, Anexo IX, Art 6º, Inciso XLVII",
+        "ISENÇÃO - Entrada de trator agrícola de quatro rodas e de colheitadeira mecânica de algodão, sem similar produzido no País",
+        ""
+      ],
+      "observacao": "O cadastro de cBenef não comprova prazo ou fruição; a validade decorre do dispositivo e do quadro central de prazos."
+    },
+    "regras": [
+      {
+        "classificacao": "IMPORTACAO_ATIVO_AGRICOLA",
+        "codigos_literais": [
+          "8701.90.00",
+          "8433.59.1"
+        ],
+        "condicoes": "Trator agrícola de4rodas e colheitadeira mecânica de algodão, sem similar nacional, importados diretamente para ativoimobilizado e usoexclusivo agrícola, comII eIPI isentos/zero. Exige atestado; códigos antigos não se convertem por semelhança.",
+        "vincular_consulta_interna_atual": false,
+        "percentual_reducao_bc": null,
+        "aliquota_nominal": null,
+        "cbenef": "GO811046",
+        "homologacao": false
+      }
+    ],
+    "homologacao": false
+  },
+  {
+    "id_pendencia": "OUTROS_228",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 6, inciso L",
+    "status": "CONCLUIDO_CANDIDATOS_CONDICIONAIS_RESTRITOS",
+    "vigencia": {
+      "inicio_texto_aplicavel": "2002-04-08",
+      "fim": null,
+      "situacao_na_referencia": "TEXTO_ATUAL_NO_CONSOLIDADO_OFICIAL_REVALIDADO",
+      "observacao": "Início da redação aplicável, não substitui datas de cada mercadoria/subitem; datas do registro proposto são conservadas separadamente."
+    },
+    "fonte_principal_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+    "fontes_primarias": [
+      "https://www.confaz.fazenda.gov.br/legislacao/convenios/2002/CV010_02",
+      "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_05628.htm",
+      "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_10234.htm"
+    ],
+    "cbenef": {
+      "codigo": "GO811049",
+      "quantidade_linhas_exatas": 1,
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Secretario/IN/IN_1518_2022.htm",
+      "linha": [
+        "GO811049",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "SIM",
+        "SIM",
+        "SIM",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "RCTE, Anexo IX, Art 6º, Inciso L",
+        "ISENÇÃO - Operações com produtos e medicamentos destinados ao tratamento de portadores do vírus da AIDS",
+        ""
+      ],
+      "observacao": "O cadastro de cBenef não comprova prazo ou fruição; a validade decorre do dispositivo e do quadro central de prazos."
+    },
+    "regras": [
+      {
+        "classificacao": "RECEBIMENTO_PELO_IMPORTADOR",
+        "subdispositivo": "alínea a, itens1 a3",
+        "vincular_consulta_interna_atual": false,
+        "observacao": "A lista detalhada da alínea a foi preservada nas evidências de origem e não foi convertida em saída interna."
+      }
+    ],
+    "homologacao": false
+  },
+  {
+    "id_pendencia": "OUTROS_232",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 8, inciso LIV",
+    "status": "ENCERRADO_CONTEXTO_COM_PENDENCIA_ESPECIFICA_PARAMETRIZACAO",
+    "vigencia": {
+      "inicio_texto_aplicavel": "2011-07-18",
+      "fim": null,
+      "situacao_na_referencia": "TEXTO_ATUAL_NO_CONSOLIDADO_OFICIAL_REVALIDADO",
+      "observacao": "Início da redação aplicável, não substitui datas de cada mercadoria/subitem; datas do registro proposto são conservadas separadamente."
+    },
+    "fonte_principal_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+    "fontes_primarias": [
+      "https://www.confaz.fazenda.gov.br/legislacao/convenios/2011/CV008_11",
+      "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_07402.htm"
+    ],
+    "cbenef": {
+      "codigo": "GO821035",
+      "quantidade_linhas_exatas": 1,
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Secretario/IN/IN_1518_2022.htm",
+      "linha": [
+        "GO821035",
+        "",
+        "",
+        "",
+        "",
+        "SIM",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "SIM",
+        "",
+        "RCTE, Anexo IX, Art 8º, Inciso LIV",
+        "REDUÇÃO DE BASE DE CÁLCULO - Operação com os produtos listados no Apêndice XXXIII do Anexo IX do RCTE, destinados ao tratamento e controle de efluentes industriais e domésticos",
+        ""
+      ],
+      "observacao": "O cadastro de cBenef não comprova prazo ou fruição; a validade decorre do dispositivo e do quadro central de prazos."
+    },
+    "regras": [
+      {
+        "classificacao": "RBC_OPCAO_CREDITO_COM_PARAMETRIZACAO_BLOQUEADA",
+        "ncm": "27030000",
+        "descricao_oficial": "Turfa (incluindo a turfa para cama de animais), mesmo aglomerada.",
+        "rotas": [
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6582,
+            "celulas": [
+              "1",
+              "2703.00.00",
+              "TURFA (Absorvente Orgânico) Absorvente natural biodegradável (100% orgânico), bioremediador para emergências ambientais decorrentes de derrames e/ou vazamentos de óleos, solventes e demais derivados de hidrocarbonetos e de produtos químicos, em plantas industriais e demais processos e ocorrências em estradas, companhias elétricas, corpos d´água, etc."
+            ]
+          }
+        ],
+        "condicoes": "Produtos listados noApêndiceXXXIII destinados aotratamento/controle deefluentes industriais/domésticos mediante aceleração dabiodegradação, oriundos deempresa licenciada por órgão estadualcompetente. Opção conformeart.4º registrada e mantida pelo período legal; respeitar alternativa decrédito escolhida.",
+        "cbenef": "GO821035",
+        "percentual_reducao_bc": null,
+        "carga_efetiva": null,
+        "aliquota_nominal": null,
+        "vincular_consulta_interna_atual": false,
+        "motivo": "Regra normativa identificada; bloqueio específico deinterpretação quantitativa.",
+        "homologacao": false
+      },
+      {
+        "classificacao": "RBC_OPCAO_CREDITO_COM_PARAMETRIZACAO_BLOQUEADA",
+        "ncm": "28369919",
+        "descricao_oficial": "Carbonatos; peroxocarbonatos (percarbonatos); carbonato de amônio comercial que contenha carbamato de amônio — Outros — Carbonatos — Outros",
+        "rotas": [
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6583,
+            "celulas": [
+              "2",
+              "2836.99.19",
+              "Ativadores biológicos - macro e micro nutrientes para tratamento de efluentes domésticos e industriais, em caixas de gordura, fossas, sumidouros e estações de tratamento de efluentes biológicos (lagoas anaeróbicas e aeróbicas, lodos ativados, filtros biológicos, etc.)."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6584,
+            "celulas": [
+              "3",
+              "2836.99.19",
+              "Composto de nutrientes balanceados para otimização de lodos e acelerador da decomposição biológica de tratamento de efluentes. Ativador biológico composto de macro e micro nutrientes para uso em sistemas de tratamento de efluentes."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6585,
+            "celulas": [
+              "4",
+              "2836.99.19",
+              "Composto de nutrientes para tratamento biológico de efluentes domésticos e industriais com problemas de odores e alta carga orgânica."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6586,
+            "celulas": [
+              "5",
+              "2836.99.19",
+              "Composto de nutrientes especialmente formulados para tratamento biológico de efluentes oriundos do processamento de leite e seus derivados."
+            ]
+          }
+        ],
+        "condicoes": "Produtos listados noApêndiceXXXIII destinados aotratamento/controle deefluentes industriais/domésticos mediante aceleração dabiodegradação, oriundos deempresa licenciada por órgão estadualcompetente. Opção conformeart.4º registrada e mantida pelo período legal; respeitar alternativa decrédito escolhida.",
+        "cbenef": "GO821035",
+        "percentual_reducao_bc": null,
+        "carga_efetiva": null,
+        "aliquota_nominal": null,
+        "vincular_consulta_interna_atual": false,
+        "motivo": "Regra normativa identificada; bloqueio específico deinterpretação quantitativa.",
+        "homologacao": false
+      },
+      {
+        "classificacao": "RBC_OPCAO_CREDITO_COM_PARAMETRIZACAO_BLOQUEADA",
+        "ncm": "35079019",
+        "descricao_oficial": "Enzimas; enzimas preparadas não especificadas nem compreendidas noutras posições — Outras — Amilases e seus concentrados — Outros",
+        "rotas": [
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6587,
+            "celulas": [
+              "6",
+              "3507.90.19",
+              "Ativadores biológicos - macro e micro nutrientes - para tratamento de efluentes industriais, estações de tratamento de efluentes biológicos (lagoas anaeróbicas e aeróbicas, lodos ativados, filtros biológicos, etc) e domésticos (caixas de gordura, fossas, filtros e sumidouros)."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6588,
+            "celulas": [
+              "7",
+              "3507.90.19",
+              "Ativador biológico natural para tratamento de efluentes domésticos e industriais em sistemas de caixa de gordura, fossa, sumidouro, filtros, lodo ativado, lagoa anaeróbica e outros processos biológicos."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6589,
+            "celulas": [
+              "8",
+              "3507.90.19",
+              "Combinação de agentes biológicos existentes na natureza que metabolizam os componentes geradores de mau cheiro, transformando-as em produtos inertes."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6590,
+            "celulas": [
+              "9",
+              "3507.90.19",
+              "Composto enzimático para desobstrução de tubulações e sistemas comatados por material orgânico (óleos, graxas, gorduras, proteína e carboidratos). Utilizado em caixas de gordura, pasteurizadores, tubulações e sistemas em geral."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6591,
+            "celulas": [
+              "10",
+              "3507.90.19",
+              "Composto para sistemas com mau cheiro (cigarro, odores, fritura e material orgânico em decomposição). Usado em tubulações, caixa de gordura, banheiros, mictórios, interior de veículos, carpetes, cozinhas, sem biocidas etc."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6592,
+            "celulas": [
+              "11",
+              "3507.90.19",
+              "Detergente enzimático utilizado na quebra de cadeia de gorduras, óleos, graxas, proteínas e carboidratos."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6593,
+            "celulas": [
+              "12",
+              "3507.90.19",
+              "Detergente enzimático em gel para limpeza das mãos."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6594,
+            "celulas": [
+              "13",
+              "3507.90.19",
+              "Detergente enzimático utilizado para limpeza pesada de hidrocarbonetos e seus derivados."
+            ]
+          }
+        ],
+        "condicoes": "Produtos listados noApêndiceXXXIII destinados aotratamento/controle deefluentes industriais/domésticos mediante aceleração dabiodegradação, oriundos deempresa licenciada por órgão estadualcompetente. Opção conformeart.4º registrada e mantida pelo período legal; respeitar alternativa decrédito escolhida.",
+        "cbenef": "GO821035",
+        "percentual_reducao_bc": null,
+        "carga_efetiva": null,
+        "aliquota_nominal": null,
+        "vincular_consulta_interna_atual": false,
+        "motivo": "Regra normativa identificada; bloqueio específico deinterpretação quantitativa.",
+        "homologacao": false
+      },
+      {
+        "classificacao": "RBC_OPCAO_CREDITO_COM_PARAMETRIZACAO_BLOQUEADA",
+        "ncm": "35079041",
+        "descricao_oficial": "Enzimas; enzimas preparadas não especificadas nem compreendidas noutras posições — Outras — Enzimas preparadas — À base de celulases",
+        "rotas": [
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6595,
+            "celulas": [
+              "14",
+              "3507.90.41",
+              "Produto usado na desagregação e refinação das fibras de papel reciclado e celulose. As enzimas auxiliam na limpeza mecânica, de feltros, telas formadoras, lonas de onduladeiras. Reduz e pitches e stiches."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6596,
+            "celulas": [
+              "15",
+              "3507.90.41",
+              "Produto usado na desagregação e refinação das fibras de papel reciclado e celulose. As enzimas auxiliam na limpeza mecânica, de feltros, telas formadoras, lonas de onduladeiras. Reduz e pitches e stiches, com adição de dispersante."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6597,
+            "celulas": [
+              "16",
+              "3507.90.41",
+              "Produto enzimático usado na limpeza de feltros, telas formadoras e lonas de onduladeiras. Produto com tenso ativo para limpeza de sistemas, usado em processos de dosagens contínuas, por meio de bicos. Usado também em boil out e limpezas de tanques, caixas, circuitos de aproximação, mesa plana e caixa de entrada. Reduz pitches e stiches."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6598,
+            "celulas": [
+              "17",
+              "3507.90.41",
+              "Biocida para uso em águas de processo, impedindo o crescimento de algas, fungos, bactérias."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6599,
+            "celulas": [
+              "18",
+              "3507.90.41",
+              "Composto enzimático usado na desobstrução de tubulações, sistemas e circuitos de amido. Limpeza em processos de fabricação de papel."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6600,
+            "celulas": [
+              "19",
+              "3507.90.41",
+              "Produto enzimático utilizado na limpeza de sistemas com grande deposição de tintas e materiais orgânicos e inorgânicos. Limpeza de incrustações inorgânicas aderidas a incrustações orgânicas. Usado também como dispersante de tintas em aparas com alto teor de corantes."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6601,
+            "celulas": [
+              "20",
+              "3507.90.41",
+              "Composto enzimático com dispersantes inorgânicos usado no processo de papel e celulose que contenham contaminações de tintas e resinas; para desincrustrações de matérias orgânicas e inorgânicas. Utilizado também nos processos de destintamento e alvejamento de aparas."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6602,
+            "celulas": [
+              "21",
+              "3507.90.41",
+              "Auxiliar de refinação melhorando a drenagem na mesa plana, melhorando o refino e o consumo de energia na planta produtiva."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6603,
+            "celulas": [
+              "22",
+              "3507.90.41",
+              "Auxiliar de branqueamento nos processos de polpação de celulose e fibras."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6604,
+            "celulas": [
+              "23",
+              "3507.90.41",
+              "Auxiliar de desagregação para limpeza de Parafina, Hotmelt e PVA."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6605,
+            "celulas": [
+              "24",
+              "3507.90.41",
+              "Composto Biológico e Enzimático, auxiliar de processos de separação de fibras."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6606,
+            "celulas": [
+              "25",
+              "3507.90.41",
+              "Utilizado para auxiliar o pré-cozimento e cozimento de fibras."
+            ]
+          },
+          {
+            "tabela": 85,
+            "indice_linha_tabela_0base": 6607,
+            "celulas": [
+              "26",
+              "3507.90.41",
+              "Utilizado para auxiliar o refino, desagregação pesada e papel tissue."
+            ]
+          }
+        ],
+        "condicoes": "Produtos listados noApêndiceXXXIII destinados aotratamento/controle deefluentes industriais/domésticos mediante aceleração dabiodegradação, oriundos deempresa licenciada por órgão estadualcompetente. Opção conformeart.4º registrada e mantida pelo período legal; respeitar alternativa decrédito escolhida.",
+        "cbenef": "GO821035",
+        "percentual_reducao_bc": null,
+        "carga_efetiva": null,
+        "aliquota_nominal": null,
+        "vincular_consulta_interna_atual": false,
+        "motivo": "Regra normativa identificada; bloqueio específico deinterpretação quantitativa.",
+        "homologacao": false
+      }
+    ],
+    "homologacao": false
+  },
+  {
+    "id_pendencia": "OUTROS_233",
+    "dispositivo": "RCTE/GO, Anexo IX, art. 11, inciso LXV",
+    "status": "ENCERRADO_FORA_ESCOPO_CATALOGO_TECNICO",
+    "vigencia": {
+      "inicio_texto_aplicavel": "2014-03-26",
+      "fim": null,
+      "situacao_na_referencia": "TEXTO_ATUAL_NO_CONSOLIDADO_OFICIAL_REVALIDADO",
+      "observacao": "Início da redação aplicável, não substitui datas de cada mercadoria/subitem; datas do registro proposto são conservadas separadamente."
+    },
+    "fonte_principal_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+    "fontes_primarias": [
+      "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_08299.htm",
+      "https://appasp.economia.go.gov.br/legislacao/arquivos/Decretos/D_09002.htm"
+    ],
+    "cbenef": {
+      "codigo": null,
+      "quantidade_linhas_exatas": 0,
+      "fonte_url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Secretario/IN/IN_1518_2022.htm",
+      "linha": null,
+      "observacao": "O cadastro de cBenef não comprova prazo ou fruição; a validade decorre do dispositivo e do quadro central de prazos."
+    },
+    "regras": [
+      {
+        "classificacao": "CREDITO_OUTORGADO_SAIDA_INTERESTADUAL_TARE",
+        "apendice": "IV",
+        "credito_outorgado_percentual": 5,
+        "limite_manutencao_credito_percentual": 7,
+        "aliquota_nominal": null,
+        "carga_efetiva": null,
+        "condicoes": "Estabelecimento atacadista, saída INTERESTADUAL, produto de informática/telecomunicação/automação doApêndiceIV;TARE,metas eapuração apartir damédia dosúltimos12meses de todos osestabelecimentos goianos;limite decrédito7%,PROTEGE e regras gerais.",
+        "extensao_85287200": "Somente se a meta for superada naforma definida emTARE; não é cobertura universal do produto.",
+        "vincular_consulta_interna_atual": false,
+        "homologacao": false
+      }
+    ],
+    "homologacao": false
+  }
+]

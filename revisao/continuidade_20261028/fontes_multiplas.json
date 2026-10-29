@@ -1,0 +1,92 @@
+{
+  "MDIC_2017_2022": {
+    "url": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Tabela_de_Correlacao_NCM_2017_2022_Atualizada.pdf",
+    "arquivo_local": "conclusao_pendencias_20261028/evidencias/correlacao_2017_2022_oficial.pdf",
+    "objeto": "Rotas oficiais de sucessão; ex significa apenas parcela do código, não um novo Ex fiscal numerado.",
+    "vigencia": "Mudança SH/NCM 2022; correlação não é, por si só, norma concessiva de benefício.",
+    "data_consulta": "2026-10-28"
+  },
+  "RFB_TIPI_ATUAL": {
+    "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.pdf",
+    "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/tipi_rfb_atual.pdf",
+    "objeto": "Texto atual dos códigos e hierarquia. Ato aprovado pelo Decreto 11.158/2022, arquivo atualizado até ADE RFB 1/2026 na capa.",
+    "vigencia": "Nomenclatura SH2022, cotejo em 28/10/2026. Nenhuma alíquota federal do PDF é usada como alíquota de ICMS/GO.",
+    "data_consulta": "2026-10-28"
+  },
+  "RFB_NESH_2022": {
+    "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/classificacao-fiscal-de-mercadorias/nesh-2022.pdf",
+    "arquivo_local": "conclusao_pendencias_20261028/nesh_2022_oficial.pdf",
+    "texto_local": "conclusao_pendencias_20261028/nesh_2022_oficial.txt",
+    "objeto": "Notas 30.02, 84.62, 85.14 e 85.24; delimitam moléculas/vírus/células, função da máquina, tecnologia e apresentação do módulo.",
+    "vigencia": "Texto SH2022; tradução consolidada aprovada pela IN RFB 2.169/2023, com vigência em 01/02/2024. Não é solução de consulta individual para cada mercadoria.",
+    "data_consulta": "2026-10-28"
+  },
+  "GO_ANEXO_IX": {
+    "url": "https://appasp.economia.go.gov.br/legislacao/arquivos/Rcte/Anexos/ANEXO_09_Beneficio_Fiscal.htm",
+    "arquivo_local": "finalizacao_20261027/evidencias/anexo9_beneficios.html",
+    "objeto": "Dispositivos e descrições legais correntes de Goiás; download de 28/10/2026 tem SHA256 idêntico ao da fonte de 27/10/2026 fornecida.",
+    "sha256": "e4538fdfd070f17eb2c34fdf43d2b42ae604e8746f92b15f13b7eb48485961a5",
+    "vigencia": "Conforme template legal preservado em cada conclusão; não se criou nova vigência para o benefício.",
+    "data_consulta": "2026-10-28"
+  },
+  "CONFAZ_52_91": {
+    "url": "https://www.confaz.fazenda.gov.br/legislacao/convenios/1991/CV052_91",
+    "objeto": "Consolidação corrente: Anexo I itens15.1,51.1 a51.17,67.1/67.6 e Anexo II item8 ainda conservam os códigos antigos relevantes. Não há aqui atualização automática para todos os sucessores.",
+    "trecho": "51.1 Máquinas para estampar 8462.10.11; 51.13 Outras prensas hidráulicas de capacidade igual ou inferior a35.000kN 8462.91.19.",
+    "vigencia": "Consolidação consultada em28/10/2026. Prazo do benefício GO mantido conforme template:31/12/2026.",
+    "obtencao": "Página primária aberta pelo serviço de pesquisa; tentativa de cópia HTTP direta retornou503, registrada em downloads.json.",
+    "data_consulta": "2026-10-28"
+  },
+  "CONFAZ_117_96": {
+    "url": "https://www.confaz.fazenda.gov.br/legislacao/convenios/1996/CV117_96",
+    "objeto": "Continuidade do tratamento das mercadorias originalmente abrangidas, sem ampliar a cesta.",
+    "trecho": "reclassificações, agrupamentos e desdobramentos [...] não implicam mudanças quanto ao tratamento tributário",
+    "vigencia": "Cláusula primeira na redação Convênio28/22 com efeitos08/04/2022; Goiás está expressamente enumerado.",
+    "obtencao": "Página primária aberta pelo serviço de pesquisa; cópia HTTP direta503.",
+    "data_consulta": "2026-10-28"
+  },
+  "ANVISA_ZOLGENSMA": {
+    "url": "https://www.gov.br/anvisa/pt-br/assuntos/sangue/terapias-avancadas/ensaios-clinicos-autorizados/cartas-de-aprovacao/carta-de-aprovacao-zolgensma-diagramada.pdf/@@download/file",
+    "arquivo_local": "continuidade_175_20261028/multiplas/evidencias/anvisa_zolgensma.pdf",
+    "objeto": "Carta de aprovação: terapia gênica in vivo, vetor viral AAV9 recombinante não replicante; não é produto de células vivas manipuladas ex vivo.",
+    "trecho": "terapia gênica in vivo baseado em vetor do sorotipo9 do vírus adenoassociado (AAV-9), recombinante e não replicante",
+    "vigencia": "Documento versão1, revisão28/06/2021; usado somente para composição/identidade, não para dispensar autorização ANVISA atual exigida pela norma GO.",
+    "data_consulta": "2026-10-28"
+  },
+  "RFB_SC_98005_2018": {
+    "url": "https://normas.receita.fazenda.gov.br/sijut2consulta/anexoOutros.action?idArquivoBinario=47193",
+    "objeto": "Prova da antiga hierarquia8471.70.1: o antigo84717019 não era toda espécie de memória; abrangia outras unidades de discos magnéticos, exemplo HDD com mais de um HDA.",
+    "trecho": "a unidade de armazenamento, de discos magnéticos rígidos, com dois ou mais conjuntos cabeça-disco, classifica-se no código NCM8471.70.19",
+    "vigencia": "Consulta histórica de25/01/2018, usada só para significado do código antigo. Download direto entregouHTML da aplicação, não PDF; evidência textual obtida do índice público primário da RFB.",
+    "data_consulta": "2026-10-28"
+  },
+  "GO_TOXINA_10828_2025": {
+    "url": "https://legisla.casacivil.go.gov.br/pesquisa_legislacao/111729/decreto-numerado-10828",
+    "objeto": "Decreto10.828/2025: ApêndiceXVII item101; medicamento toxinaA100UI e500UI lista30029092/30024992; coluna fármaco conserva30029092.",
+    "vigencia": "Redação já incorporada ao HTML oficial GO consultado; a linha atual de medicamento está em lote_final.json e não será reinserida.",
+    "data_consulta": "2026-10-28"
+  },
+  "GO_PARECER_115_2024": {
+    "url": "https://appasp.economia.go.gov.br/pareceres/arquivos/Decreto%20n%C2%BA%204.852-97%20-%20RCTE%20-%20Informa%C3%A7%C3%B5es%20Gerais/P_115_2024_SEI.docx",
+    "arquivo_local": "conclusao_pendencias_20261028/evidencias/parecer115_2024_oficial.docx",
+    "texto_local": "conclusao_pendencias_20261028/evidencias/parecer115_2024_oficial.txt",
+    "objeto": "Parecer GEOT115/2024 aplica a continuidade também a benefícios estaduais não originados em Convênio, desde que as características da mercadoria permaneçam. Impede beneficiar um bem diverso que passe a ocupar código reutilizado.",
+    "trecho": "desde que não haja alteração das características da mercadoria objeto do benefício fiscal",
+    "vigencia": "Parecer de05/06/2024, subscrito05/06 e06/06/2024; utilizado como orientação interpretativa, sem substituir a lei ou autorizar aplicação automática.",
+    "data_consulta": "2026-10-28"
+  },
+  "MDIC_EX_PARCIAL": {
+    "url": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/tarifas/perguntas-sobre-resolucao-n-272-de-29-de-novembro-de-2021/sh-2017-sh-2022/o-que-significa-o-ex",
+    "objeto": "FAQ primária do MDIC confirma que ex na coluna NCM2022 significa parte do código NCM. Não confundir com Ex fiscal numerado ou benefício para o destino inteiro.",
+    "trecho": "parte do código NCM",
+    "vigencia": "Publicado em11/01/2022; consulta em28/10/2026.",
+    "data_consulta": "2026-10-28"
+  },
+  "MDIC_GECEX_272": {
+    "url": "https://www.gov.br/mdic/pt-br/assuntos/camex/resolucoes/gecex/resolucoes-compiladas/resolucao-gecex-no-272-de-19-de-novembro-de-2021-compilada",
+    "objeto": "Art. 10, texto consolidado: efeitos da adaptação da NCM ao SH2022 desde 01/04/2022. Usado apenas para data da nomenclatura, não para extrair qualquer alíquota do ICMS.",
+    "trecho": "produzindo efeitos a partir de 1º de abril de 2022",
+    "vigencia": "Texto compilado atualizado em 16/04/2026, consultado em 28/10/2026.",
+    "data_consulta": "2026-10-28"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "referencia": "2026-10-28",
+  "ncms_verificados": 10516,
+  "hipotese_nominal_12": 622,
+  "referencia_geral_19": 9886,
+  "revisar": 8,
+  "beneficios_verificados": 2221,
+  "beneficios_por_tipo": {
+    "CARGA_EFETIVA": 854,
+    "ISENCAO": 893,
+    "REDUCAO_BASE_CALCULO": 350,
+    "CREDITO_OUTORGADO": 124
+  },
+  "ncms_com_beneficio": 1863,
+  "fontes": 69,
+  "vencimentos_20261231": 1141,
+  "complementos_com_alternativa_anterior_preservada": 9,
+  "aliquotas_nominais_inalteradas": true,
+  "amostras_interface": [
+    {
+      "ncm": "30012010",
+      "metricas": [
+        {
+          "rotulo": "Alíquota",
+          "valor": "19,00%"
+        },
+        {
+          "rotulo": "Benefício",
+          "valor": "1 candidato"
+        },
+        {
+          "rotulo": "Situação",
+          "valor": "Revisão fiscal"
+        }
+      ]
+    },
+    {
+      "ncm": "33030010",
+      "metricas": [
+        {
+          "rotulo": "Alíquota",
+          "valor": "19,00%"
+        },
+        {
+          "rotulo": "Benefício",
+          "valor": "1 candidato"
+        },
+        {
+          "rotulo": "Situação",
+          "valor": "Revisão fiscal"
+        }
+      ]
+    },
+    {
+      "ncm": "96190000",
+      "metricas": [
+        {
+          "rotulo": "Alíquota",
+          "valor": "12,00%"
+        },
+        {
+          "rotulo": "Benefício",
+          "valor": "3 candidatos"
+        },
+        {
+          "rotulo": "Situação",
+          "valor": "Revisão fiscal"
+        }
+      ]
+    },
+    {
+      "ncm": "61112000",
+      "metricas": [
+        {
+          "rotulo": "Alíquota",
+          "valor": "19,00%"
+        },
+        {
+          "rotulo": "Benefício",
+          "valor": "Não identificado"
+        },
+        {
+          "rotulo": "Situação",
+          "valor": "Revisão fiscal"
+        }
+      ]
+    },
+    {
+      "ncm": "35040090",
+      "metricas": [
+        {
+          "rotulo": "Alíquota",
+          "valor": "19,00%"
+        },
+        {
+          "rotulo": "Benefício",
+          "valor": "2 candidatos"
+        },
+        {
+          "rotulo": "Situação",
+          "valor": "Revisão fiscal"
+        }
+      ]
+    },
+    {
+      "ncm": "28444200",
+      "metricas": [
+        {
+          "rotulo": "Alíquota",
+          "valor": "19,00%"
+        },
+        {
+          "rotulo": "Benefício",
+          "valor": "1 candidato"
+        },
+        {
+          "rotulo": "Situação",
+          "valor": "Revisão fiscal"
+        }
+      ]
+    },
+    {
+      "ncm": "30024992",
+      "metricas": [
+        {
+          "rotulo": "Alíquota",
+          "valor": "19,00%"
+        },
+        {
+          "rotulo": "Benefício",
+          "valor": "2 candidatos"
+        },
+        {
+          "rotulo": "Situação",
+          "valor": "Revisão fiscal"
+        }
+      ]
+    },
+    {
+      "ncm": "25010011",
+      "metricas": [
+        {
+          "rotulo": "Alíquota",
+          "valor": "Revisar"
+        },
+        {
+          "rotulo": "Benefício",
+          "valor": "1 candidato"
+        },
+        {
+          "rotulo": "Situação",
+          "valor": "Revisão fiscal"
+        }
+      ]
+    }
+  ],
+  "segundos": 40.67
+}

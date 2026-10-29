@@ -1,0 +1,618 @@
+{
+  "gerado_em": "2026-10-28T15:11:19.985649+00:00",
+  "escopo": "Coleta de fontes primárias oficiais históricas NCM. Nenhuma alteração em banco, Git ou repositório.",
+  "total_arestas_extraidas": 5810,
+  "fontes": [
+    {
+      "arquivo": "mercosur_2007_2012.xlsx",
+      "url": "https://documentos.mercosur.int/simfiles/docinformativos/42140_Tabla%20de%20correlaci%C3%B3n%20NCM%202007-2012.xlsx",
+      "verificado_em": "2026-10-28T15:11:19.985649+00:00",
+      "baixado": true,
+      "bytes": 27778,
+      "sha256": "c1c71399785853da9f9a97a38151e70233ff26648ee7420f8b4c75deefc71754",
+      "origem_primaria": true,
+      "editor": "Secretaría del MERCOSUR — Sistema de Información MERCOSUR",
+      "tipo": "documento_informativo_oficial",
+      "ato_juridico": false,
+      "efeitos": "Tabela técnica de correspondência entre versões da NCM. Não é ato normativo de instituição de classificação, vigência ou benefício fiscal. Não substitui os atos de incorporação da nomenclatura nem a confrontação da mercadoria.",
+      "documento": "MERCOSUR/CXXIV CCM/DI Nº41/11",
+      "pagina_origem": "https://documentos.mercosur.int/docinformativos/1048",
+      "pagina_ata": "https://documentos.mercosur.int/public/reuniones/doc/3934",
+      "data_documental": "2011-11-30",
+      "data_documental_base": "Data final da reunião CXXIV CCM, 28–30/11/2011; portal do DI não informa data própria do anexo.",
+      "ano_origem": 2007,
+      "ano_destino": 2012,
+      "descricao_disponivel": false,
+      "limitacoes": [
+        "Somente linhas de mudanças presentes; ausência de linha não prova inexistência nem continuidade automática.",
+        "Título da página contém erro material 2012-2077; arquivos e cabeçalhos indicam 2012-2007.",
+        "ex e correspondências parciais devem ser preservados."
+      ]
+    },
+    {
+      "arquivo": "mercosur_2012_2007.xlsx",
+      "url": "https://documentos.mercosur.int/simfiles/docinformativos/42140_Tabla%20de%20correlaci%C3%B3n%20NCM%202012-2007.xlsx",
+      "verificado_em": "2026-10-28T15:11:19.985649+00:00",
+      "baixado": true,
+      "bytes": 85098,
+      "sha256": "438e2973b46714de9b00dce4f34e2cfff5b00976b9701b32bb057bedd76430b0",
+      "origem_primaria": true,
+      "editor": "Secretaría del MERCOSUR — Sistema de Información MERCOSUR",
+      "tipo": "documento_informativo_oficial",
+      "ato_juridico": false,
+      "efeitos": "Tabela técnica de correspondência entre versões da NCM. Não é ato normativo de instituição de classificação, vigência ou benefício fiscal. Não substitui os atos de incorporação da nomenclatura nem a confrontação da mercadoria.",
+      "documento": "MERCOSUR/CXXIV CCM/DI Nº41/11",
+      "pagina_origem": "https://documentos.mercosur.int/docinformativos/1048",
+      "pagina_ata": "https://documentos.mercosur.int/public/reuniones/doc/3934",
+      "data_documental": "2011-11-30",
+      "data_documental_base": "Data final da reunião CXXIV CCM, 28–30/11/2011; portal do DI não informa data própria do anexo.",
+      "ano_origem": 2012,
+      "ano_destino": 2007,
+      "descricao_disponivel": false
+    },
+    {
+      "arquivo": "mercosur_2002_2007_2007_2002.xls",
+      "url": "https://documentos.mercosur.int/simfiles/docinformativos/4736_CCM_2007_ACTA02_ANE13_TablasCorrelaci%C3%B3n%20NCM%202002_07-%202007_02.xls",
+      "verificado_em": "2026-10-28T15:11:19.985649+00:00",
+      "baixado": true,
+      "bytes": 266752,
+      "sha256": "755e63861719bb613610aafe86de2967090423ae59d947df259239e73e027038",
+      "origem_primaria": true,
+      "editor": "Secretaría del MERCOSUR — Sistema de Información MERCOSUR",
+      "tipo": "documento_informativo_oficial",
+      "ato_juridico": false,
+      "efeitos": "Tabela técnica de correspondência entre versões da NCM. Não é ato normativo de instituição de classificação, vigência ou benefício fiscal. Não substitui os atos de incorporação da nomenclatura nem a confrontação da mercadoria.",
+      "documento": "MERCOSUR/XCI CCM/DI Nº04/07 Rev.1",
+      "pagina_origem": "https://documentos.mercosur.int/docinformativos/220",
+      "pagina_ata_original": "https://documentos.mercosur.int/public/reuniones/doc/53",
+      "pagina_ata_revisao": "https://documentos.mercosur.int/reuniones/doc/54",
+      "data_documental": "2007-04-11",
+      "data_documental_base": "Portal do Documento Informativo: Revisión 1, Fecha Versión 11/04/2007.",
+      "anos": [
+        2002,
+        2007
+      ],
+      "descricao_disponivel": false,
+      "layout": {
+        "Hoja1": {
+          "A": "NCM 2007",
+          "B": "ex relativo ao código de C",
+          "C": "NCM 2002",
+          "E": "NCM 2002",
+          "F": "ex relativo ao código de G",
+          "G": "NCM 2007"
+        }
+      },
+      "limitacoes": [
+        "Manter as duas direções como publicadas: marca ex pode diferir por direção.",
+        "1979 linhas em cada direção incluem um par repetido na fonte; extração o preserva."
+      ]
+    },
+    {
+      "arquivo": "mercosur_2002_2007_fe_erratas.pdf",
+      "url": "https://documentos.mercosur.int/simfiles/docinformativos/4736_CCM_2007_ACTA02_ANE13_DI04-07Rev1_ES_FeErratasCorrelacionNCM.pdf",
+      "verificado_em": "2026-10-28T15:11:19.985649+00:00",
+      "baixado": true,
+      "bytes": 7444,
+      "sha256": "5b50e312213a0521f3bceb3d23c8c48c33b3fec7b0e824c028490032b7d6fed2",
+      "origem_primaria": true,
+      "editor": "Secretaría del MERCOSUR — Sistema de Información MERCOSUR",
+      "tipo": "documento_informativo_oficial",
+      "ato_juridico": false,
+      "efeitos": "Tabela técnica de correspondência entre versões da NCM. Não é ato normativo de instituição de classificação, vigência ou benefício fiscal. Não substitui os atos de incorporação da nomenclatura nem a confrontação da mercadoria.",
+      "documento": "MERCOSUR/XCI CCM/DI Nº04/07 Rev.1",
+      "data_documental": "2007-04-11",
+      "conteudo": "Capa: ACTA2/07, ANEXOXIII, DI04/07 Rev.1, SOLO MEDIO ELECTRONICO; nenhuma linha de correlação. OCR auxiliar separado."
+    },
+    {
+      "url": "https://documentos.mercosur.int/public/reuniones/doc/6238",
+      "arquivo": "mercosur_doc6238.html",
+      "sha256": "f3ea084662fb4931dbc8a7dc7ef033f3284220dffdd2e1442442ad218363dcf5",
+      "verificado_em": "2026-10-28T15:11:19.985649+00:00",
+      "origem_primaria": true,
+      "editor": "Secretaría del MERCOSUR",
+      "documento": "MERCOSUR/CXLIX CCM/DI Nº02/17, Anexo VII da CCM Acta1/2017",
+      "titulo": "Tablas de Correlación de la NCM en Versiones 2017-2012 y 2012-2017, y Correlación Originada en el Perfeccionamiento de la NCM",
+      "data_documental": "2017-03-29",
+      "data_documental_base": "Reunião CXLIX CCM:28–29/03/2017.",
+      "tipo": "metadados_publicos_de_documento_informativo_reservado",
+      "ato_juridico": false,
+      "baixado": false,
+      "arquivo_original_disponivel": false,
+      "estado": "RESERVADO — No Disponible",
+      "efeitos": "Somente comprova existência documental. Conteúdo restrito não foi solicitado nem extraído; nenhuma aresta 2012↔2017 produzida."
+    },
+    {
+      "url": "https://rastreador-ncm.dth.mdic.gov.br/",
+      "verificado_em": "2026-10-28T15:11:19.985649+00:00",
+      "origem_primaria": true,
+      "editor": "MDIC/SE-Camex",
+      "tipo": "compilacao_auxiliar_oficial_sem_validade_legal",
+      "ato_juridico": false,
+      "baixado": false,
+      "estado": "Página pública retornou erro da aplicação, HTTP500/timeout. Resposta de913bytes guardada em rastreador_index.html; não é download de dados.",
+      "efeitos": "Declaração indexada do próprio aplicativo informa que os dados não possuem validade legal/jurídica. Nenhum dado de correlação foi obtido."
+    },
+    {
+      "url": "http://camex.gov.br/images/TEC/Tabla_de_Correlacin_2012-2017_final.doc",
+      "url_https_testada": "https://camex.gov.br/images/TEC/Tabla_de_Correlacin_2012-2017_final.doc",
+      "verificado_em": "2026-10-28T15:11:19.985649+00:00",
+      "origem_primaria": true,
+      "editor": "Camex/MDIC",
+      "tipo": "arquivo_oficial_historico_nao_obtido",
+      "ato_juridico": false,
+      "baixado": false,
+      "estado": "HTTP timeout; HTTPS retornou mensagem de upstream connect timeout. Resposta de erro de91bytes guardada em camex_corr2012_2017_erro_http.txt; não é documento.",
+      "efeitos": "Nenhuma correlação extraída."
+    },
+    {
+      "arquivo": "siscomex_importacao005_2017.html",
+      "url": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/Comunicados/importacao-no-2017-005",
+      "verificado_em": "2026-10-28T15:11:19.985649+00:00",
+      "baixado": true,
+      "bytes": 94858,
+      "sha256": "5a14bf47314c7deeff042383cca8e2b53c27050c02c2dd010399c98294733f10",
+      "origem_primaria": true,
+      "editor": "MDIC/Siscomex/DECEX",
+      "tipo": "comunicado_oficial",
+      "ato_juridico": false,
+      "documento": "Importação nº005/2017",
+      "data_publicacao_pagina": "2022-03-08",
+      "efeitos": "O comunicado informa entrada em vigor da Resolução Camex125/2016 em01/01/2017 e remete à antiga página MDIC para correlação. Não fornece tabela no próprio comunicado.",
+      "link_historico": "http://www.mdic.gov.br/comercio-exterior/estatisticas-de-comercio-exterior-9/arquivos-atuais",
+      "link_historico_resultado": "Redireciona hoje para a página inicial MDIC, sem tabela histórica."
+    }
+  ],
+  "metodo_extracao": {
+    "xlsx": "Leitura OOXML com zipfile/XML padrão; strings originais, coordenadas e linhas preservadas.",
+    "xls": "xlrd já instalado no runtime; nenhuma dependência instalada.",
+    "continuacoes": "Células vazias de origem herdam somente o código de origem imediatamente anterior na mesma metade/coluna da tabela. Flag origem_por_continuacao e coordenada da célula original registradas.",
+    "parcialidade": "parcial=true quando ex aparece na origem ou destino; não atesta alcance integral do item.",
+    "sem_inferencia": "Não foram criadas continuidades por ausência de linha, conversões de SH6 para NCM8, correspondências por semelhança ou decisões de aplicabilidade de benefício."
+  },
+  "aladi_pesquisa_adicional": {
+    "gerado_em": "2026-10-28T16:43:42.588757+00:00",
+    "escopo": "Tentativa ALADI para localizar cadeia oficial NCM2012→2017. Nenhuma cadeia NCM foi adjudicada.",
+    "portal_publico": "https://aam.aladi.org/accesoamercados/nomenclaturasycorrelaciones/",
+    "app_publico_observado": "https://accesoamercados.aladi.org:8443/PLGNJavaEnvironment/com.plgn.mainnaladisascorrelaciones",
+    "origem_rota_queryviewer": "aladi_query_common.js, função qv.services.url/getMetadataURL/getDataURL; contrato postInfo.Metadata/Data",
+    "requisicoes_sem_login": [
+      {
+        "url": "https://accesoamercados.aladi.org:8443/PLGNJavaEnvironment/qviewer.services.agxpl_get?metadata,1793205503368",
+        "method": "POST",
+        "payload": {
+          "ApplicationNamespace": "com.plgn",
+          "ParentPanel": "",
+          "ObjectName": "QueryNalCorr",
+          "RuntimeParameters": [
+            {
+              "Value": "%20%20%20%20%202012"
+            },
+            {
+              "Value": "%20%20%20%20%202017"
+            },
+            {
+              "Value": ""
+            }
+          ],
+          "OutputType": "Table",
+          "AllowElementsOrderChange": false,
+          "RememberLayout": true,
+          "ShowDataLabelsIn": "Columns",
+          "RecordsetCacheInfo": {
+            "ActualKey": "",
+            "OldKey": "",
+            "MinutesToKeep": 0,
+            "MaximumSize": 0
+          },
+          "ReturnSampleData": false,
+          "TranslationType": "RunTime"
+        },
+        "arquivo": "aladi_naladisa2012_2017_metadata.xml",
+        "http_status": "200",
+        "sha256": "19336d60ecde689912d3e08673d582ca20024795f0bbf2312336354357f102cd",
+        "fonte_primaria": true,
+        "tipo": "consulta_publica_tecnica_ALADI",
+        "ato_normativo": false,
+        "obtido_em": "2026-10-28T16:43:42.588757+00:00"
+      },
+      {
+        "url": "https://accesoamercados.aladi.org:8443/PLGNJavaEnvironment/qviewer.services.agxpl_get?data,1793205508089",
+        "method": "POST",
+        "payload": {
+          "ApplicationNamespace": "com.plgn",
+          "ParentPanel": "",
+          "ObjectName": "QueryNalCorr",
+          "RuntimeParameters": [
+            {
+              "Value": "%20%20%20%20%202012"
+            },
+            {
+              "Value": "%20%20%20%20%202017"
+            },
+            {
+              "Value": ""
+            }
+          ],
+          "OutputType": "Table",
+          "AllowElementsOrderChange": false,
+          "RecordsetCacheInfo": {
+            "ActualKey": "",
+            "OldKey": "",
+            "MinutesToKeep": 0,
+            "MaximumSize": 0
+          },
+          "ReturnSampleData": false,
+          "TranslationType": "RunTime",
+          "SortAscendingForced": false
+        },
+        "arquivo": "aladi_naladisa2012_2017_dados.xml",
+        "http_status": "200",
+        "sha256": "c3d67dfc8022c654b6995deddf423cc4a95675937f38bf20e9f136fbde6c4019",
+        "fonte_primaria": true,
+        "tipo": "consulta_publica_tecnica_ALADI",
+        "ato_normativo": false,
+        "obtido_em": "2026-10-28T16:43:42.588757+00:00"
+      },
+      {
+        "url": "https://accesoamercados.aladi.org:8443/PLGNJavaEnvironment/qviewer.services.agxpl_get?metadata,1793205602400",
+        "method": "POST",
+        "payload": {
+          "ApplicationNamespace": "com.plgn",
+          "ParentPanel": "",
+          "ObjectName": "QueryCorrNalmercosur",
+          "RuntimeParameters": [
+            {
+              "Value": "%20%20%20%20%202012"
+            },
+            {
+              "Value": ""
+            }
+          ],
+          "OutputType": "Table",
+          "AllowElementsOrderChange": false,
+          "RecordsetCacheInfo": {
+            "ActualKey": "",
+            "OldKey": "",
+            "MinutesToKeep": 0,
+            "MaximumSize": 0
+          },
+          "ReturnSampleData": false,
+          "TranslationType": "RunTime",
+          "SortAscendingForced": false
+        },
+        "arquivo": "aladi_ncm_naladisa2012_metadata.xml",
+        "http_status": "200",
+        "sha256": "4a6a70dd12205b445fa64d000098b2ea469c6abac70311ebbbc5665d3e25894c",
+        "fonte_primaria": true,
+        "tipo": "consulta_publica_tecnica_ALADI",
+        "ato_normativo": false,
+        "obtido_em": "2026-10-28T16:43:42.588757+00:00"
+      },
+      {
+        "url": "https://accesoamercados.aladi.org:8443/PLGNJavaEnvironment/qviewer.services.agxpl_get?data,1793205607216",
+        "method": "POST",
+        "payload": {
+          "ApplicationNamespace": "com.plgn",
+          "ParentPanel": "",
+          "ObjectName": "QueryCorrNalmercosur",
+          "RuntimeParameters": [
+            {
+              "Value": "%20%20%20%20%202012"
+            },
+            {
+              "Value": ""
+            }
+          ],
+          "OutputType": "Table",
+          "AllowElementsOrderChange": false,
+          "RecordsetCacheInfo": {
+            "ActualKey": "",
+            "OldKey": "",
+            "MinutesToKeep": 0,
+            "MaximumSize": 0
+          },
+          "ReturnSampleData": false,
+          "TranslationType": "RunTime",
+          "SortAscendingForced": false
+        },
+        "arquivo": "aladi_ncm_naladisa2012_dados.xml",
+        "http_status": "200",
+        "sha256": "179ea14ff176eb9ef16d03abe74313eaa27c9c917bbdbfa88f8a51413993985f",
+        "fonte_primaria": true,
+        "tipo": "consulta_publica_tecnica_ALADI",
+        "ato_normativo": false,
+        "obtido_em": "2026-10-28T16:43:42.588757+00:00"
+      },
+      {
+        "url": "https://accesoamercados.aladi.org:8443/PLGNJavaEnvironment/qviewer.services.agxpl_get?data,1793205666923",
+        "method": "POST",
+        "payload": {
+          "ApplicationNamespace": "com.plgn",
+          "ParentPanel": "",
+          "ObjectName": "QueryCorrNalmercosur",
+          "RuntimeParameters": [
+            {
+              "Value": "%20%20%20%20%202017"
+            },
+            {
+              "Value": ""
+            }
+          ],
+          "OutputType": "Table",
+          "AllowElementsOrderChange": false,
+          "RecordsetCacheInfo": {
+            "ActualKey": "",
+            "OldKey": "",
+            "MinutesToKeep": 0,
+            "MaximumSize": 0
+          },
+          "ReturnSampleData": false,
+          "TranslationType": "RunTime",
+          "SortAscendingForced": false
+        },
+        "arquivo": "aladi_ncm_naladisa2017_dados.xml",
+        "http_status": "200",
+        "sha256": "359fd2d46441026625f56c5beab2075b90fdd33cd3d5cc3339983c5972c85b75",
+        "fonte_primaria": true,
+        "tipo": "consulta_publica_tecnica_ALADI",
+        "ato_normativo": false,
+        "obtido_em": "2026-10-28T16:43:42.588757+00:00"
+      }
+    ],
+    "naladisa_2012_2017": {
+      "arquivo": "aladi_naladisa2012_2017_dados.xml",
+      "registros": 7216,
+      "extracao": "aladi_naladisa2012_2017_extraida.json",
+      "namespace_origem": "NALADISA",
+      "namespace_destino": "NALADISA",
+      "nao_equivale_ncm": true
+    },
+    "regional": [
+      {
+        "arquivo": "aladi_ncm_naladisa2012_dados.xml",
+        "registros": 11176,
+        "codigos_distintos_F1": 6811,
+        "codigos_distintos_F4": 10032,
+        "parametro_ano_naladisa": 2012,
+        "ano_ncm_comprovado": null,
+        "uso_no_grafo_ncm": "bloqueado_aguarda_comprovacao_versao_e_orientacao"
+      },
+      {
+        "arquivo": "aladi_ncm_naladisa2017_dados.xml",
+        "registros": 11238,
+        "codigos_distintos_F1": 6889,
+        "codigos_distintos_F4": 10224,
+        "parametro_ano_naladisa": 2017,
+        "ano_ncm_comprovado": null,
+        "uso_no_grafo_ncm": "bloqueado_aguarda_comprovacao_versao_e_orientacao"
+      }
+    ],
+    "impedimentos": {
+      "sicoexV2": {
+        "url": "https://consultawebv2.aladi.org/sicoexV2/jsfCorrelaciones/correlaciones_nomenclaturas.seam",
+        "http_status": 503
+      },
+      "sicona_downloads": [
+        {
+          "url": "https://www2.aladi.org/SitioALADI/documentos/SICONA/Sicona-2012/MER21_30.xls",
+          "link_observado_em": "https://aam.aladi.org/accesoamercados/nom_correl_sicona/",
+          "http_status": 503,
+          "baixado": false,
+          "arquivo_resposta_erro": "aladi_sicona_2012_MER21_30.erro_http.txt",
+          "sem_repeticao_automatica": true
+        },
+        {
+          "url": "https://www2.aladi.org/SitioALADI/documentos/SICONA/Sicona-2017/MER21_30.xls",
+          "link_observado_em": "https://aam.aladi.org/accesoamercados/nom_correl_sicona/",
+          "http_status": 503,
+          "baixado": false,
+          "arquivo_resposta_erro": "aladi_sicona_2017_MER21_30.erro_http.txt",
+          "sem_repeticao_automatica": true
+        }
+      ],
+      "versao_ncm": "A consulta regional não informa expressamente o ano/revisão NCM na tabela ou metadata; não foi atribuído por semelhança.",
+      "orientacao": "Metadata regional rotula F1 Código ARANCEL e F4 Código NALADISA; a orientação precisa de conferência documental. Campos mantidos brutos, sem inversão ou reclassificação.",
+      "ncm_2012_2017": "Nenhuma aresta deste lote foi acrescentada a correlacoes_extraidas.json nem ao grafo NCM."
+    },
+    "efeitos": "Dados técnicos públicos ALADI, sem ato de vigência ou fundamento de benefício fiscal nesta coleta. Ex e descrições originais preservados.",
+    "limites": "Sem autenticação, exploração de credenciais, alteração em repositório ou banco, instalação de dependências, nem tentativa de acessar conteúdo reservado."
+  },
+  "advertencia_aladi": "NALADISA não é NCM. Metadata regional não comprova ano NCM/orientação. Nenhuma cadeia NCM foi criada a partir destes resultados.",
+  "arestas_anteriores_explicitas_dos_codigos_investigados": [
+    {
+      "arquivo": "mercosur_2007_2012.xlsx",
+      "planilha": "2007-2012",
+      "documento": "MERCOSUR/CXXIV CCM/DI Nº41/11",
+      "natureza": "documento_informativo_oficial_nao_ato_normativo",
+      "ano_origem": 2007,
+      "ano_destino": 2012,
+      "codigo_origem": "2931.00.49",
+      "codigo_destino": "2931.20.00",
+      "origem_ex": false,
+      "destino_ex": false,
+      "parcial": false,
+      "origem_literal": "2931.00.49",
+      "destino_literal": "2931.20.00",
+      "linha_excel": 674,
+      "celula_origem": "B674",
+      "celula_destino": "C674",
+      "origem_por_continuacao": false,
+      "alvo_origem_exato": true,
+      "alvo_destino_exato": false
+    },
+    {
+      "arquivo": "mercosur_2007_2012.xlsx",
+      "planilha": "2007-2012",
+      "documento": "MERCOSUR/CXXIV CCM/DI Nº41/11",
+      "natureza": "documento_informativo_oficial_nao_ato_normativo",
+      "ano_origem": 2007,
+      "ano_destino": 2012,
+      "codigo_origem": "2931.00.49",
+      "codigo_destino": "2931.90.49",
+      "origem_ex": false,
+      "destino_ex": false,
+      "parcial": false,
+      "origem_literal": "2931.00.49",
+      "destino_literal": "2931.90.49",
+      "linha_excel": 675,
+      "celula_origem": "B674",
+      "celula_destino": "C675",
+      "origem_por_continuacao": true,
+      "alvo_origem_exato": true,
+      "alvo_destino_exato": false
+    },
+    {
+      "arquivo": "mercosur_2007_2012.xlsx",
+      "planilha": "2007-2012",
+      "documento": "MERCOSUR/CXXIV CCM/DI Nº41/11",
+      "natureza": "documento_informativo_oficial_nao_ato_normativo",
+      "ano_origem": 2007,
+      "ano_destino": 2012,
+      "codigo_origem": "2932.29.90",
+      "codigo_destino": "2932.20.00",
+      "origem_ex": false,
+      "destino_ex": true,
+      "parcial": true,
+      "origem_literal": "2932.29.90",
+      "destino_literal": "ex2932.20.00",
+      "linha_excel": 701,
+      "celula_origem": "B701",
+      "celula_destino": "C701",
+      "origem_por_continuacao": false,
+      "alvo_origem_exato": true,
+      "alvo_destino_exato": false
+    },
+    {
+      "arquivo": "mercosur_2007_2012.xlsx",
+      "planilha": "2007-2012",
+      "documento": "MERCOSUR/CXXIV CCM/DI Nº41/11",
+      "natureza": "documento_informativo_oficial_nao_ato_normativo",
+      "ano_origem": 2007,
+      "ano_destino": 2012,
+      "codigo_origem": "2937.40.10",
+      "codigo_destino": "2937.90.30",
+      "origem_ex": false,
+      "destino_ex": false,
+      "parcial": false,
+      "origem_literal": "2937.40.10 ",
+      "destino_literal": "2937.90.30",
+      "linha_excel": 726,
+      "celula_origem": "B726",
+      "celula_destino": "C726",
+      "origem_por_continuacao": false,
+      "alvo_origem_exato": true,
+      "alvo_destino_exato": false
+    },
+    {
+      "arquivo": "mercosur_2007_2012.xlsx",
+      "planilha": "2007-2012",
+      "documento": "MERCOSUR/CXXIV CCM/DI Nº41/11",
+      "natureza": "documento_informativo_oficial_nao_ato_normativo",
+      "ano_origem": 2007,
+      "ano_destino": 2012,
+      "codigo_origem": "3002.10.29",
+      "codigo_destino": "3002.10.29",
+      "origem_ex": false,
+      "destino_ex": true,
+      "parcial": true,
+      "origem_literal": "3002.10.29",
+      "destino_literal": "ex3002.10.29",
+      "linha_excel": 733,
+      "celula_origem": "B733",
+      "celula_destino": "C733",
+      "origem_por_continuacao": false,
+      "alvo_origem_exato": true,
+      "alvo_destino_exato": true
+    },
+    {
+      "arquivo": "mercosur_2007_2012.xlsx",
+      "planilha": "2007-2012",
+      "documento": "MERCOSUR/CXXIV CCM/DI Nº41/11",
+      "natureza": "documento_informativo_oficial_nao_ato_normativo",
+      "ano_origem": 2007,
+      "ano_destino": 2012,
+      "codigo_origem": "3002.10.39",
+      "codigo_destino": "3002.10.39",
+      "origem_ex": false,
+      "destino_ex": true,
+      "parcial": true,
+      "origem_literal": "3002.10.39",
+      "destino_literal": "ex3002.10.39",
+      "linha_excel": 734,
+      "celula_origem": "B734",
+      "celula_destino": "C734",
+      "origem_por_continuacao": false,
+      "alvo_origem_exato": true,
+      "alvo_destino_exato": true
+    },
+    {
+      "arquivo": "mercosur_2007_2012.xlsx",
+      "planilha": "2007-2012",
+      "documento": "MERCOSUR/CXXIV CCM/DI Nº41/11",
+      "natureza": "documento_informativo_oficial_nao_ato_normativo",
+      "ano_origem": 2007,
+      "ano_destino": 2012,
+      "codigo_origem": "8201.20.00",
+      "codigo_destino": "8201.90.00",
+      "origem_ex": false,
+      "destino_ex": true,
+      "parcial": true,
+      "origem_literal": "8201.20.00",
+      "destino_literal": "ex8201.90.00",
+      "linha_excel": 878,
+      "celula_origem": "B878",
+      "celula_destino": "C878",
+      "origem_por_continuacao": false,
+      "alvo_origem_exato": true,
+      "alvo_destino_exato": false
+    },
+    {
+      "arquivo": "mercosur_2002_2007_2007_2002.xls",
+      "planilha": "Hoja1",
+      "documento": "MERCOSUR/XCI CCM/DI Nº04/07 Rev.1",
+      "data_versao_documento": "2007-04-11",
+      "natureza": "documento_informativo_oficial_nao_ato_normativo",
+      "ano_origem": 2002,
+      "ano_destino": 2007,
+      "codigo_origem": "8471.70.39",
+      "codigo_destino": "8471.70.39",
+      "origem_ex": false,
+      "destino_ex": true,
+      "parcial": true,
+      "origem_literal": "8471.70.39",
+      "destino_literal": "ex8471.70.39",
+      "ex_celula_literal": "ex",
+      "linha_excel": 1527,
+      "celula_origem": "E1527",
+      "celula_destino": "G1527",
+      "origem_por_continuacao": false,
+      "alvo_origem_exato": true,
+      "alvo_destino_exato": true
+    },
+    {
+      "arquivo": "mercosur_2002_2007_2007_2002.xls",
+      "planilha": "Hoja1",
+      "documento": "MERCOSUR/XCI CCM/DI Nº04/07 Rev.1",
+      "data_versao_documento": "2007-04-11",
+      "natureza": "documento_informativo_oficial_nao_ato_normativo",
+      "ano_origem": 2002,
+      "ano_destino": 2007,
+      "codigo_origem": "8473.30.92",
+      "codigo_destino": "8473.30.92",
+      "origem_ex": false,
+      "destino_ex": true,
+      "parcial": true,
+      "origem_literal": "8473.30.92",
+      "destino_literal": "ex8473.30.92",
+      "ex_celula_literal": "ex",
+      "linha_excel": 1552,
+      "celula_origem": "E1552",
+      "celula_destino": "G1552",
+      "origem_por_continuacao": false,
+      "alvo_origem_exato": true,
+      "alvo_destino_exato": true
+    }
+  ],
+  "limite_grafo": "Os elos anteriores não preenchem lacunas posteriores e não provam preservação da cesta quando um código se repete."
+}
